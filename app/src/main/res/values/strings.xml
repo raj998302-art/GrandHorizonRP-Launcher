@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Grand Horizon RP</string>
+    <string name="logo_title">GRAND HORIZON</string>
+    <string name="logo_subtitle">ROLE PLAY • HINDI SERVER</string>
+    <string name="btn_play">PLAY NOW</string>
+    <string name="btn_download">DOWNLOAD GAME DATA</string>
+    <string name="btn_update">UPDATE GAME DATA</string>
+    <string name="btn_retry">RETRY DOWNLOAD</string>
+    <string name="btn_cancel">CANCEL DOWNLOAD</string>
+    <string name="status_checking">Checking…</string>
+    <string name="status_offline">Offline</string>
+    <string name="status_online_fmt">%1$d/%2$d online</string>
+    <string name="data_title">GAME DATA</string>
+    <string name="data_checking">Checking…</string>
+    <string name="data_not_installed_fmt">Not installed — %1$s required</string>
+    <string name="data_installed_fmt">Installed v%1$s • %2$s on device</string>
+    <string name="footer">Grand Horizon RP • Community Mobile Server</string>
+    <string name="news_default">Welcome to Grand Horizon RP — press PLAY to jump into Hindi roleplay.</string>
+</resources>

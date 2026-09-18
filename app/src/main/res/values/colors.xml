@@ -1,0 +1,13 @@
+<resources>
+    <color name="bg">#0B0B0D</color>
+    <color name="surface">#CC1A1A20</color>
+    <color name="card_stroke">#2E2E35</color>
+    <color name="gold">#F5B301</color>
+    <color name="gold_light">#FFD54F</color>
+    <color name="gold_dark">#E89B00</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B9B9C0</color>
+    <color name="success">#4CAF50</color>
+    <color name="error">#FF5252</color>
+    <color name="ic_launcher_bg">#101014</color>
+</resources>
