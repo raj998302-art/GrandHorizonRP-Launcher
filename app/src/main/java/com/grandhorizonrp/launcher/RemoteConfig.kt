@@ -35,6 +35,28 @@ object RemoteConfig {
     private const val REMOTE_URL =
         "https://raw.githubusercontent.com/raj998302-art/GrandHorizonRP-Launcher/main/launcher-config.json"
 
+    // NOTE: declared before FALLBACK because Kotlin initialises object properties in
+    // declaration order - FALLBACK's initialiser reads this value.
+    private val FALLBACK_JSON = """
+        {
+          "serverName": "Grand Horizon RP",
+          "serverIp": "142.132.203.47",
+          "serverPort": 14448,
+          "news": "Grand Horizon RP official launcher — Hindi community roleplay server.",
+          "gameData": {
+            "version": "1.0.0",
+            "parts": [
+              {"name": "gamedata-core.zip", "size": 16000000, "url": "https://github.com/raj998302-art/GrandHorizonRP-Launcher/releases/download/latest/gamedata-core.zip"},
+              {"name": "gamedata-audio.zip", "size": 133000000, "url": "https://github.com/raj998302-art/GrandHorizonRP-Launcher/releases/download/latest/gamedata-audio.zip"},
+              {"name": "gamedata-mesh.zip", "size": 1690000000, "url": "https://github.com/raj998302-art/GrandHorizonRP-Launcher/releases/download/latest/gamedata-mesh.zip"},
+              {"name": "gamedata-textures.zip", "size": 1620000000, "url": "https://github.com/raj998302-art/GrandHorizonRP-Launcher/releases/download/latest/gamedata-textures.zip"},
+              {"name": "gamedata-resources.zip", "size": 549000000, "url": "https://github.com/raj998302-art/GrandHorizonRP-Launcher/releases/download/latest/gamedata-resources.zip"}
+            ]
+          },
+          "gamePackages": ["com.rockstargames.gtasa"]
+        }
+    """.trimIndent()
+
     val FALLBACK: LauncherConfig = requireNotNull(parse(FALLBACK_JSON))
 
     suspend fun fetch(timeoutMs: Long = 6000L): LauncherConfig = withContext(Dispatchers.IO) {
@@ -85,24 +107,4 @@ object RemoteConfig {
             } ?: listOf("com.rockstargames.gtasa")
         )
     }.getOrNull()
-
-    private val FALLBACK_JSON = """
-        {
-          "serverName": "Grand Horizon RP",
-          "serverIp": "142.132.203.47",
-          "serverPort": 14448,
-          "news": "Grand Horizon RP official launcher — Hindi community roleplay server.",
-          "gameData": {
-            "version": "1.0.0",
-            "parts": [
-              {"name": "gamedata-core.zip", "size": 16000000, "url": "https://github.com/raj998302-art/GrandHorizonRP-Launcher/releases/download/latest/gamedata-core.zip"},
-              {"name": "gamedata-audio.zip", "size": 133000000, "url": "https://github.com/raj998302-art/GrandHorizonRP-Launcher/releases/download/latest/gamedata-audio.zip"},
-              {"name": "gamedata-mesh.zip", "size": 1690000000, "url": "https://github.com/raj998302-art/GrandHorizonRP-Launcher/releases/download/latest/gamedata-mesh.zip"},
-              {"name": "gamedata-textures.zip", "size": 1620000000, "url": "https://github.com/raj998302-art/GrandHorizonRP-Launcher/releases/download/latest/gamedata-textures.zip"},
-              {"name": "gamedata-resources.zip", "size": 549000000, "url": "https://github.com/raj998302-art/GrandHorizonRP-Launcher/releases/download/latest/gamedata-resources.zip"}
-            ]
-          },
-          "gamePackages": ["com.rockstargames.gtasa"]
-        }
-    """.trimIndent()
 }
