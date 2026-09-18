@@ -1,59 +1,76 @@
-# Grand Horizon RP — Official Android Launcher
+# Grand Horizon RP — Launcher & Game Data Infrastructure
 
-Android launcher + game-data downloader for **Grand Horizon RP** — a Hindi
-community mobile roleplay server (SA-MP based).
+This repository hosts **everything the Grand Horizon RP mobile launcher needs to run**:
+the launcher APK (release asset), the client API (JSON configs), and the complete game
+data CDN (individual files served to the launcher's update system).
 
-| Item | Value |
+> Game: **Grand Horizon RP** (SA-MP based mobile RP) · Server: `142.132.203.47:14448`
+> City: **Horizon City** · OCGs: **Ironside / Blackwood / Harbor** · Bank: **Horizon City Bank**
+
+## 📱 Install (players)
+
+1. Download the launcher APK:
+   https://github.com/raj998302-art/GrandHorizonRP-Launcher/releases/download/latest/GrandHorizonRP-Launcher.apk
+2. Install it (allow unknown sources).
+3. Open **Grand Horizon RP** → the launcher downloads ~3.8 GB of game data into
+   `Android/data/com.br.top/files/` → play.
+
+## 🏗 Architecture
+
+```
+Launcher APK (com.br.top, Black Russia client base, rebranded)
+ ├── API  → https://cdn.jsdelivr.net/gh/raj998302-art/GrandHorizonRP-Launcher@main/client-api/
+ │    ├── servers.json          → server list (IP/port/name) the client connects to
+ │    ├── url-config.json       → CDN URL + social/donate links
+ │    ├── hash.json             → manifest of all 159 game files (size + version marker)
+ │    ├── app-config.json       → hides SIM/Tanpin buttons, no forced updates
+ │    ├── update_manager_feature_flag.json → forces "hash_json" update system 1.0
+ │    └── *.json                → all in-game GUI configs (rebranded)
+ │
+ └── CDN  → https://github.com/raj998302-art/GrandHorizonRP-Launcher/releases/download/gamedata/
+      └── 159 flat assets: `files/mesh/X.bpc` → `files.mesh.X.bpc`
+          (DownloadWorker URL patch replaces "/" with "." in the file path)
+```
+
+### Update system
+The launcher uses the **hash.json (update system 1.0)** flow:
+`GET {CDN}{path}{name}` → saved to `Android/data/com.br.top/files/{path}{name}`.
+A file is re-downloaded only when its size differs from `hash.json` or the version
+marker changes.
+
+## 📁 Repository layout
+
+| Path | Purpose |
 |---|---|
-| Server | `142.132.203.47:14448` |
-| App id | `com.grandhorizonrp.launcher` |
-| Data location | `Android/data/com.grandhorizonrp.launcher/files/` |
+| `client-api/` | The launcher/client API — served via jsDelivr (5–12 min CDN cache) |
+| `launcher-patches/` | The 4 modified files of the decompiled launcher + rebuild notes |
+| `keystore/ghrp-release.keystore` | Release signing key (alias `ghrp`, pass `GrandHorizon2026`) |
 
-## What the launcher does
-1. **Live server status** — SA-MP UDP query shows online players.
-2. **One-tap game data install** — downloads the clean game-data packages from
-   this repo's `latest` GitHub release straight into the app's Android data
-   folder. SHA-256 verified, resumable, split into packages under GitHub's
-   2 GB per-asset limit.
-3. **PLAY button** — launches the installed game client with the server
-   address pre-filled (copyable as fallback).
+## 🔧 Rebuilding the launcher APK
 
-## Build the APK (GitHub Actions)
-Every push to `main` triggers `.github/workflows/build-apk.yml`:
+```bash
+# 1. Decompile the original launcher (apktool 2.10+, converts apktool.json → apktool.yml)
+java -jar apktool.jar d launcher.apk -o launcher_src
 
-1. Gradle assembles a **signed release APK** (keystore in `keystore/`)
-2. The APK is published to the `latest` release as `GrandHorizonRP-Launcher.apk`
-3. Stable download URL:
+# 2. Apply the patches from launcher-patches/ (see files for exact locations):
+#    - Settings.smali        : API URLs → jsDelivr client-api
+#    - DownloadWorker$downloadFile$2.smali : URL path "/"→"." (flat release assets)
+#    - res/values/strings.xml + values-pt: BLACK RUSSIA → Grand Horizon RP
 
-   `https://github.com/raj998302-art/GrandHorizonRP-Launcher/releases/download/latest/GrandHorizonRP-Launcher.apk`
+# 3. Build + sign
+java -jar apktool.jar b launcher_src -o out.apk --use-aapt2
+java -jar uber-apk-signer.jar -a out.apk --ks keystore/ghrp-release.keystore \
+     --ksAlias ghrp --ksKeyPass GrandHorizon2026 --ksPass GrandHorizon2026
+```
 
-## Game data packages
-Built from the original client dump with `tools/package-gamedata.py`:
+## 🎮 Server package
 
-| Package | Contents |
-|---|---|
-| `gamedata-core.zip` | `common.bpc`, `gui.bpc`, `launcher.bpc`, `jsons/` |
-| `gamedata-audio.zip` | `audio/` |
-| `gamedata-mesh.zip` | `mesh/` |
-| `gamedata-textures.zip` | `textures/` |
-| `gamedata-resources.zip` | `resources/` (images + videos) |
+The ready-to-upload server zip (gamemode with Grand Horizon RP branding, Horizon City
+renames, recompiled `laird.amx`, 63-table SQL) is built separately as `server.zip`.
+MySQL credentials live in `scriptfiles/sile_mysql_settings.ini` on the game server.
 
-Unwanted files removed: internal `date_marker_*` markers, unused `jsons/pt-br`
-locale.
+## 🔄 Updating game data later
 
-Re-packaging after a game update:
-
-    python3 tools/package-gamedata.py <path-to-files.zip> dist/ <version>
-    # upload dist/gamedata-*.zip to the 'latest' release
-    # merge dist/gameData-manifest.json into launcher-config.json
-    # commit launcher-config.json (launcher reads it remotely, no APK rebuild needed)
-
-## Runtime configuration
-`launcher-config.json` (repo root) is fetched by the app on every start —
-change server address, news text, package list or game client packages
-**without rebuilding the APK**.
-
-## Signing
-Release keystore: `keystore/ghrp-release.keystore`
-Alias `ghrp`, store & key password `GrandHorizon2026`.
-Keep the same key for every future build so updates install over the old app.
+1. Modify/add files, upload them to the `gamedata` release (name = path with `/`→`.`).
+2. Update `client-api/hash.json` (size + `date` marker), commit to `main`.
+3. Purge jsDelivr: `curl https://purge.jsdelivr.net/gh/raj998302-art/GrandHorizonRP-Launcher@main/client-api/hash.json`
