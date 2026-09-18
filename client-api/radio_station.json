@@ -1,0 +1,46 @@
+{
+  "radio_stations": [
+    {
+      "cover": "gangster_music.png",
+      "id": "gangster_music",
+      "name": "Gangster Music",
+      "url": "https://radio.github.com/raj998302-art/GrandHorizonRP-Launcher/listen/gangster_music_[uncensored]/radio",
+      "url_uncensored": "https://radio.github.com/raj998302-art/GrandHorizonRP-Launcher/listen/gangster_music_[uncensored]/radio"
+    },
+    {
+      "cover": "high_head.png",
+      "id": "high_head",
+      "name": "High Head",
+      "url": "https://radio.github.com/raj998302-art/GrandHorizonRP-Launcher/listen/high_head_radio_[censored]/radio",
+      "url_uncensored": "https://radio.github.com/raj998302-art/GrandHorizonRP-Launcher/listen/high_head_radio_[uncensored]/radio"
+    },
+    {
+      "cover": "phonk_city_radio.png",
+      "id": "phonk_city_radio",
+      "name": "Phonk City Radio",
+      "url": "https://radio.github.com/raj998302-art/GrandHorizonRP-Launcher/listen/phonk_city_radio_[uncensored]/radio",
+      "url_uncensored": "https://radio.github.com/raj998302-art/GrandHorizonRP-Launcher/listen/phonk_city_radio_[uncensored]/radio"
+    },
+    {
+      "cover": "dnb_nation.png",
+      "id": "dnb_nation",
+      "name": "DnB Nation",
+      "url": "https://radio.github.com/raj998302-art/GrandHorizonRP-Launcher/listen/dnb_nation_[uncensored]/radio",
+      "url_uncensored": "https://radio.github.com/raj998302-art/GrandHorizonRP-Launcher/listen/dnb_nation_[uncensored]/radio"
+    },
+    {
+      "cover": "alt_fm.png",
+      "id": "alt_fm",
+      "name": "ALT fm",
+      "url": "https://radio.github.com/raj998302-art/GrandHorizonRP-Launcher/listen/alt_fm_[uncensored]/radio",
+      "url_uncensored": "https://radio.github.com/raj998302-art/GrandHorizonRP-Launcher/listen/alt_fm_[uncensored]/radio"
+    },
+    {
+      "cover": "radio_drive.png",
+      "id": "radio_drive",
+      "name": "Radio Drive",
+      "url": "https://radio.github.com/raj998302-art/GrandHorizonRP-Launcher/listen/radio_drive_[uncensored]/radio",
+      "url_uncensored": "https://radio.github.com/raj998302-art/GrandHorizonRP-Launcher/listen/radio_drive_[uncensored]/radio"
+    }
+  ]
+}

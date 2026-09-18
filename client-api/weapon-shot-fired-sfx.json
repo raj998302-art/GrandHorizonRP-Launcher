@@ -1,0 +1,192 @@
+﻿[
+    {
+        "id": "desert_eagle",
+		"bankIndex": 8,
+        "sampleIndex": 20,
+        "priority": 3,
+        "maxDistance": 120,
+		"baseVolume": 1.0,
+		"randomVolume": 0,
+		"isStereo": true
+    },
+    {
+        "id": "pistol",
+		"bankIndex": 8,
+        "sampleIndex": 0,
+        "priority": 3,
+        "maxDistance": 120,
+		"baseVolume": 0.709,
+		"randomVolume": 0.079,
+		"isStereo": true
+    },
+    {
+        "id": "pistol_silenced",
+		"bankIndex": 8,
+        "sampleIndex": 18,
+        "priority": 3,
+        "maxDistance": 120,
+		"baseVolume": 0.709,
+		"randomVolume": 0.079,
+		"isStereo": true
+    },
+    {
+        "id": "pistol_cyberfarm",
+		"bankIndex": 8,
+        "sampleIndex": 60,
+        "priority": 3,
+        "maxDistance": 120,
+		"baseVolume": 0.709,
+		"randomVolume": 0.079,
+		"isStereo": true
+    },
+    {
+        "id": "rocket",
+		"bankIndex": 8,
+        "sampleIndex": 93,
+        "priority": 1,
+        "maxDistance": 120,
+		"baseVolume": 0.709,
+		"randomVolume": 0.157,
+		"isStereo": false
+    },
+    {
+        "id": "mp5",
+		"bankIndex": 8,
+        "sampleIndex": 4,
+        "priority": 3,
+        "maxDistance": 120,
+		"baseVolume": 0.551,
+		"randomVolume": 0.094,
+		"isStereo": true
+    },
+    {
+        "id": "tec9",
+		"bankIndex": 8,
+        "sampleIndex": 0,
+        "priority": 3,
+        "maxDistance": 120,
+		"baseVolume": 0.551,
+		"randomVolume": 0.094,
+		"isStereo": true
+    },
+	{
+        "id": "ak47",
+		"bankIndex": 8,
+        "sampleIndex": 2,
+        "priority": 3,
+        "maxDistance": 120,
+		"baseVolume": 0.709,
+		"randomVolume": 0.094,
+		"isStereo": true
+    },
+	{
+        "id": "waterblaster",
+		"bankIndex": 8,
+        "sampleIndex": 29,
+        "priority": 3,
+        "maxDistance": 120,
+		"baseVolume": 0.709,
+		"randomVolume": 0.157,
+		"isStereo": true
+    },
+	{
+        "id": "m4",
+		"bankIndex": 8,
+        "sampleIndex": 6,
+        "priority": 3,
+        "maxDistance": 120,
+		"baseVolume": 0.709,
+		"randomVolume": 0.094,
+		"isStereo": true
+    },
+    {
+        "id": "m67",
+		"bankIndex": 8,
+        "sampleIndex": 55,
+        "priority": 3,
+        "maxDistance": 120,
+		"baseVolume": 0.709,
+		"randomVolume": 0.094,
+		"isStereo": true
+    },
+	{
+        "id": "fireextinguisher",
+		"bankIndex": 8,
+        "sampleIndex": 9,
+        "priority": 3,
+        "maxDistance": 20,
+		"baseVolume": 0.039,
+		"randomVolume": 0.016,
+		"isStereo": true
+    },
+	{
+        "id": "countyrifle",
+		"bankIndex": 8,
+        "sampleIndex": 24,
+        "priority": 3,
+        "maxDistance": 120,
+		"baseVolume": 1.0,
+		"randomVolume": 0,
+		"isStereo": true
+    },
+	{
+        "id": "sniperrifle",
+		"bankIndex": 8,
+        "sampleIndex": 22,
+        "priority": 3,
+        "maxDistance": 120,
+		"baseVolume": 0.866,
+		"randomVolume": 0.079,
+		"isStereo": true
+    },
+	{
+        "id": "laserscope",
+		"bankIndex": 8,
+        "sampleIndex": 23,
+        "priority": 3,
+        "maxDistance": 120,
+		"baseVolume": 0.866,
+		"randomVolume": 0.079,
+		"isStereo": true
+    },
+	{
+        "id": "spas12_shotgun",
+		"bankIndex": 8,
+        "sampleIndex": 26,
+        "priority": 3,
+        "maxDistance": 120,
+		"baseVolume": 0.787,
+		"randomVolume": 0.079,
+		"isStereo": true
+    },
+	{
+        "id": "shotgun",
+		"bankIndex": 8,
+        "sampleIndex": 26,
+        "priority": 3,
+        "maxDistance": 120,
+		"baseVolume": 0.787,
+		"randomVolume": 0.079,
+		"isStereo": true
+    },
+    {
+        "id": "shotgun_cyberfarm",
+		"bankIndex": 8,
+        "sampleIndex": 53,
+        "priority": 3,
+        "maxDistance": 120,
+		"baseVolume": 0.787,
+		"randomVolume": 0.079,
+		"isStereo": true
+    },
+	{
+        "id": "snowball",
+		"bankIndex": 9,
+        "sampleIndex": 73,
+        "priority": 3,
+        "maxDistance": 20,
+		"baseVolume": 1.0,
+		"randomVolume": 0,
+		"isStereo": true
+    }
+]

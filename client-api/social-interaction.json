@@ -1,0 +1,460 @@
+﻿{
+      "order":[
+	{ 
+   	"org":1,
+   	"actions":[24, 1, 2, 27, 25, 57]
+	},
+  { 
+   	"org":2,
+   	"actions":[24, 3, 27, 25, 57]
+	},
+  { 
+  	 "org":3,
+   	"actions":[24, 47, 46, 49, 43, 50, 48, 27, 25, 57]
+	},
+  { 
+  	 "org":4,
+  	 "actions":[24, 4, 27, 25, 57]
+	},
+  { 
+   	"org":5,
+   	"actions":[24, 9, 6, 7, 12, 11, 13, 5, 14, 10, 8, 27, 25, 45, 52, 57, 60]
+	},
+	{ 
+	   "org":6,
+	   "actions":[24, 9, 6, 7, 12, 11, 13, 5, 8, 27, 25, 57, 58, 59, 60, 61]
+	},
+	{ 
+	   "org":7,
+  	 "actions":[24, 9, 6, 7, 12, 11, 13, 5, 8, 27, 25, 51, 57, 60]
+	},
+	{ 
+   	"org":11,
+  	 "actions":[24, 23, 6, 7, 44, 20, 18, 19, 21, 22, 27, 25, 16, 17, 5, 57]
+	}
+	    ],
+      "array": [
+    {
+      "id": 1,
+      "name": "Продать лицензию",
+      "type": 1,
+      "icon": "ic_sell_license",
+      "cmd_name": "givelic"
+    },
+    {
+      "id": 2,
+      "name": "Выпустить из тюрьмы",
+      "type": 1,
+      "icon": "ic_release_from_prison",
+      "cmd_name": "free"
+      
+    },
+    {
+      "id": 3,
+      "name": "Выдать военный билет",
+      "type": 1,
+      "icon": "ic_military_id",
+      "cmd_name": "givevb"
+      
+    },
+    {
+      "id": 4,
+      "name": "Выдать микрофон",
+      "type": 1,
+      "icon": "ic_give_mic",
+      "cmd_name": "givemic"
+    },
+    {
+      "id": 5,
+      "name": "Провести обыск",
+      "type": 1,
+      "icon": "ic_conduct_search",
+      "cmd_name": "search"
+    },
+    {
+      "id": 6,
+      "name": "Надеть наручники",
+      "type": 1,
+      "icon": "ic_put_handcuffs",
+      "cmd_name": "cuff"
+    },
+    {
+      "id": 7,
+      "name": "Снять наручники",
+      "type": 1,
+      "icon": "ic_remove_handcuffs",
+      "cmd_name": "uncuff"
+    },
+    {
+      "id": 8,
+      "name": "Удалить из базы розыска",
+      "type": 1,
+      "icon": "ic_delete_from_database",
+      "cmd_name": "clear"
+    },
+    {
+      "id": 9,
+      "name": "Арестовать",
+      "type": 1,
+      "icon": "ic_arrest_him",
+      "cmd_name": "arrest"
+    },
+    {
+      "id": 10,
+      "name": "Забрать права",
+      "type": 1,
+      "icon": "ic_take_rights",
+      "cmd_name": "takelic"
+    },
+    {
+      "id": 11,
+      "name": "Посадить в машину",
+      "type": 1,
+      "icon": "ic_put_in_car",
+      "cmd_name": "putpl"
+    },
+    {
+      "id": 12,
+      "name": "Вести за собой",
+      "type": 1,
+      "icon": "ic_lead_yourself",
+      "cmd_name": "gotome"
+    },
+    {
+      "id": 13,
+      "name": "Вытащить из машины",
+      "type": 1,
+      "icon": "ic_get_out_car",
+      "cmd_name": "ceject"
+    },
+    {
+      "id": 14,
+      "name": "Посмотреть список штрафов",
+      "type": 1,
+      "icon": "ic_view_list_fines",
+      "cmd_name": "ptickets"
+    },
+    {
+      "id": 15,
+      "name": "Удалить из базы розыска",
+      "type": 1,
+      "icon": "ic_delete_from_database",
+      "cmd_name": "clear"
+    },
+    {
+      "id": 16,
+      "name": "Начать свидание",
+      "type": 1,
+      "icon": "ic_start_date",
+      "cmd_name": "startmeet"
+    },
+    {
+      "id": 17,
+      "name": "Окончить свидание",
+      "type": 1,
+      "icon": "ic_end_date",
+      "cmd_name": "stopmeet"
+    },
+    {
+      "id": 18,
+      "name": "Сделать выговор",
+      "type": 1,
+      "icon": "ic_reprimand",
+      "cmd_name": "mr"
+    },
+    {
+      "id": 19,
+      "name": "Снять выговор",
+      "type": 1,
+      "icon": "ic_remove_reprimand",
+      "cmd_name": "unmr"
+    },
+    {
+      "id": 20,
+      "name": "Выдать поощрение",
+      "type": 1,
+      "icon": "ic_give_encouragement",
+      "cmd_name": "pr"
+    },
+    {
+      "id": 21,
+      "name": "Посадить в карцер",
+      "type": 1,
+      "icon": "ic_put_punishment_cell",
+      "cmd_name": "prin"
+    },
+    {
+      "id": 22,
+      "name": "Выпустить из карцера",
+      "type": 1,
+      "icon": "ic_release_punishment_cell",
+      "cmd_name": "prout"
+    },
+    {
+      "id": 23,
+      "name": "Выдать пропуск в комнату для свиданий",
+      "type": 1,
+      "icon": "ic_pass_visiting_room",
+      "cmd_name": "groom"
+    },
+    {
+      "id": 24,
+      "name": "Принять во фракцию",
+      "type": 1,
+      "icon": "ic_join_faction",
+      "cmd_name": "invite"
+    },
+    {
+      "id": 25,
+      "name": "Выгнать из фракции",
+      "type": 1,
+      "icon": "ic_expel_faction",
+      "cmd_name": "uninvite"
+    },
+    {
+      "id": 26,
+      "name": "Выдать выговор игроку",
+      "type": 1,
+      "icon": "ic_reprimand",
+      "cmd_name": "fvig"
+    },
+    {
+      "id": 27,
+      "name": "Сменить скин",
+      "type": 1,
+      "icon": "ic_change_skin",
+      "cmd_name": "changeskin"
+    },
+    {
+      "id": 28,
+      "name": "Принять в семью",
+      "type": 0,
+      "icon": "ic_accept_into_family"
+    },
+    {
+      "id": 29,
+      "name": "Продать дом",
+      "type": 3,
+      "icon": "ic_sell_house",
+      "cmd_name": "sellmyhome"
+    },
+    {
+      "id": 30,
+      "name": "Подселить в дом",
+      "type": 3,
+      "icon": "ic_move_into_house",
+      "cmd_name": "live"
+    },
+    {
+      "id": 33,
+      "name": "Показать паспорт",
+      "type": 2,
+      "icon": "ic_show_passport",
+      "cmd_name": "pass"
+    },
+    {
+      "id": 34,
+      "name": "Показать мед. карту",
+      "type": 2,
+      "icon": "ic_show_medical_card",
+      "cmd_name": "med"
+    },
+    {
+      "id": 35,
+      "name": "Показать лицензии",
+      "type": 2,
+      "icon": "ic_show_licenses",
+      "cmd_name": "lic"
+    },
+    {
+      "id": 36,
+      "name": "Показать ПТС",
+      "type": 2,
+      "icon": "ic_show_the_pts",
+      "cmd_name": "carpass"
+    },
+    {
+      "id": 37,
+      "name": "Обмен",
+      "type": 0,
+      "icon": "ic_exchange"
+    },
+    {
+      "id": 38,
+      "name": "Поцеловать игрока",
+      "type": 3,
+      "icon": "ic_kiss",
+      "cmd_name": "kiss"
+    },
+    {
+      "id": 39,
+      "name": "Подарить цветы",
+      "type": 3,
+      "icon": "ic_give_flowers",
+      "cmd_name": "present"
+    },
+    {
+      "id": 40,
+      "name": "Передать материалы",
+      "type": 3,
+      "icon": "ic_transfer_materials"
+    },
+    {
+      "id": 41,
+      "name": "Поприветствовать",
+      "type": 3,
+      "icon": "ic_welcome",
+      "cmd_name": "hi"
+    },
+    {
+      "id": 42,
+      "name": "Показать военный билет",
+      "type": 2,
+      "icon": "ic_show_military_id",
+      "cmd_name": "showvb"
+    },
+    {
+      "id": 43,
+      "name": "Лечение пациента",
+      "type": 1,
+      "icon": "ic_patient_treatment",
+      "cmd_name": "medhelp"
+    },
+    {
+      "id": 44,
+      "name": "Тащить за собой",
+      "type": 1,
+      "icon": "ic_lead_yourself",
+      "cmd_name": "gotome"
+    },
+    {
+      "id": 45,
+      "name": "Выписать штраф",
+      "type": 1,
+      "icon": "ic_view_list_fines"
+    },
+    {
+      "id": 46,
+      "name": "Выписать из больницы",
+      "type": 1,
+      "icon": "ic_discharged_from_hospital",
+      "cmd_name": "out"
+    },
+    {
+      "id": 47,
+      "name": "Вылечить пациента",
+      "type": 1,
+      "icon": "ic_cure_patient",
+      "cmd_name": "heal"
+    },
+    {
+      "id": 48,
+      "name": "Изменение пола",
+      "type": 1,
+      "icon": "ic_change_gender",
+      "cmd_name": "changesex"
+    },
+    {
+      "id": 49,
+      "name": "Выписать мед.карту",
+      "type": 1,
+      "icon": "ic_prescribe_honey_card",
+      "cmd_name": "gmedcard"
+    },
+    {
+      "id": 50,
+      "name": "Выписать лекарство по рецепту",
+      "type": 1,
+      "icon": "ic_prescribe_medicine",
+      "cmd_name": "pill"
+    },
+    {
+      "id": 51,
+      "name": "Уволить из силовых структур",
+      "type": 1,
+      "icon": "ic_dismiss_enforcement_agencies",
+      "cmd_name": "dismiss"
+    },
+    {
+      "id": 52,
+      "name": "Продлить права",
+      "type": 1,
+      "icon": "ic_take_rights",
+      "cmd_name": "extlic"
+    },
+    {
+      "id": 53,
+      "type": 0,
+      "icon": "ic_skins"
+    },
+    {
+      "id": 54,
+      "name": "Взаимодействие",
+      "type": 0,
+      "icon": "ic_handshake"
+    },
+    {
+      "id": 55,
+      "name": "Служебные",
+      "type": 0,
+      "icon": "ic_fractions"
+    },
+    {
+      "id": 56,
+      "name": "Документы",
+      "type": 0,
+      "icon": "ic_radial_documents"
+    },
+    {
+      "id": 57,
+      "name": "Досмотр",
+      "type": 1,
+      "icon": "ic_conduct_search",
+      "cmd_name": "checkspy"
+    },
+    {
+      "id": 58,
+      "name": "Завершить вызов",
+      "type": 1,
+      "icon": "ic_radial_acceptthecall",
+      "cmd_name": "endcall"
+    },
+    {
+      "id": 59,
+      "name": "Обыск",
+      "type": 1,
+      "icon": "ic_conduct_search"
+    },
+    {
+      "id": 60,
+      "name": "Запросить паспорт",
+      "type": 1,
+      "icon": "ic_show_passport",
+      "cmd_name": "showpass"
+    },
+    {
+      "id": 61,
+      "name": "Подписать бланка ордера",
+      "type": 1,
+      "icon": "ic_radial_documents",
+      "cmd_name": "signblank"
+    },
+    {
+      "id": 62,
+      "name": "Вызвать на дуэль",
+      "type": 3,
+      "icon": "ic_weapon_shop",
+      "cmd_name": "duel"
+    },
+    {
+      "id": 63,
+      "name": "Пригласить в группу",
+      "type": 3,
+      "icon": "ic_party",
+      "cmd_name": "partyinvite"
+    }
+      ],
+      "main": [
+        53, 37, 54, 56, 28, 55
+      ]
+}

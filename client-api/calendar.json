@@ -1,0 +1,414 @@
+﻿{
+    "bonus_days": [
+        {
+            "id": 5,
+            "rarity": 2,
+            "name": "БОМЖА",
+            "description": "КЕЙС БОМЖА",
+            "typeId": 4,
+            "internalId": 2,
+            "count": 1,
+            "typeReward": 0
+        },
+        {
+            "id": 10,
+            "rarity": 2,
+            "name": "БОМЖА",
+            "description": "КЕЙС БОМЖА",
+            "typeId": 4,
+            "internalId": 2,
+            "count": 1,
+            "typeReward": 0
+        },
+        {
+            "id": 15,
+            "rarity": 2,
+            "name": "БОМЖА",
+            "description": "КЕЙС БОМЖА",
+            "typeId": 4,
+            "internalId": 2,
+            "count": 1,
+            "typeReward": 0
+        },
+        {
+            "id": 20,
+            "rarity": 4,
+            "name": "СТАНДАРТНЫЙ",
+            "description": "СТАНДАРТНЫЙ КЕЙС",
+            "typeId": 4,
+            "internalId": 3,
+            "count": 1,
+            "typeReward": 0
+        }
+    ],
+    "main_days": [
+        {
+            "id": 1,
+            "rarity": 2,
+            "name": "VIP GOLD",
+            "description": "VIP GOLD НА 24Ч.",
+            "typeId": 9,
+            "internalId": 2,
+            "count": 24,
+            "typeReward": 0
+        },
+        {
+            "id": 2,
+            "rarity": 2,
+            "name": "10 BC",
+            "description": "10 BC",
+            "typeId": 3,
+            "internalId": 0,
+            "count": 10,
+            "typeReward": 0
+        },
+        {
+            "id": 3,
+            "rarity": 2,
+            "name": "1000 BP EXP",
+            "description": "1000 BLACK PASS EXP",
+            "typeId": 10,
+            "internalId": 0,
+            "count": 1000,
+            "typeReward": 0
+        },
+        {
+            "id": 4,
+            "rarity": 1,
+            "name": "BMW 12Ч.",
+            "description": "BMW M4 F84 НА 12Ч.",
+            "nameStore": "BOOMER 12Ч.",
+            "descriptionStore": "BOOMER 4 F84 НА 12Ч.",
+            "typeId": 5,
+            "internalId": 558,
+            "count": 12,
+            "typeReward": 0,
+            "imageName": "img_boomer.png"
+        },
+        {
+            "id": 5,
+            "rarity": 2,
+            "name": "X2 НА 24Ч.",
+            "description": "X2 КУПОН НА 24Ч.",
+            "typeId": 8,
+            "internalId": 0,
+            "count": 24,
+            "typeReward": 0
+        },
+        {
+            "id": 6,
+            "rarity": 1,
+            "name": "25000 ₽",
+            "description": "25000 ₽",
+            "typeId": 2,
+            "internalId": 0,
+            "count": 25000,
+            "typeReward": 0
+        },
+        {
+            "id": 7,
+            "rarity": 1,
+            "name": "ОЧКИ",
+            "description": "ОЧКИ PINK RACER",
+            "typeId": 11,
+            "internalId": 609,
+            "count": 1,
+            "typeReward": 1,
+            "imageName": "acs_9803.png"
+        },
+        {
+            "id": 8,
+            "rarity": 1,
+            "name": "SILVER VIP",
+            "description": "VIP SILVER НА 24Ч.",
+            "typeId": 9,
+            "internalId": 1,
+            "count": 24,
+            "typeReward": 0
+        },
+        {
+            "id": 9,
+            "rarity": 2,
+            "name": "20 BC",
+            "description": "20 BC",
+            "typeId": 3,
+            "internalId": 0,
+            "count": 20,
+            "typeReward": 0
+        },
+        {
+            "id": 10,
+            "rarity": 2,
+            "name": "1000 BP EXP",
+            "description": "1000 BLACK PASS EXP",
+            "typeId": 10,
+            "internalId": 0,
+            "count": 1000,
+            "typeReward": 0
+        },
+        {
+            "id": 11,
+            "rarity": 1,
+            "name": "АВТО-КЕЙС B-C 24Ч.",
+            "description": "АВТО-КЕЙС B-C CLASS 24Ч.",
+            "typeId": 4,
+            "internalId": 27,
+            "count": 1,
+            "typeReward": 0,
+            "imageName": "img_case_bc_class.png"
+        },
+        {
+            "id": 12,
+            "rarity": 2,
+            "name": "10 EXP",
+            "description": "10 EXP",
+            "typeId": 1,
+            "internalId": 0,
+            "count": 10,
+            "typeReward": 0
+        },
+        {
+            "id": 13,
+            "rarity": 1,
+            "name": "25000 ₽",
+            "description": "25000 ₽",
+            "typeId": 2,
+            "internalId": 0,
+            "count": 25000,
+            "typeReward": 0
+        },
+        {
+            "id": 14,
+            "rarity": 4,
+            "name": "СТАНДАРТНЫЙ",
+            "description": "СТАНДАРТНЫЙ КЕЙС",
+            "typeId": 4,
+            "internalId": 3,
+            "count": 1,
+            "typeReward": 0,
+            "imageName": "img_case_standart.png"
+        },
+        {
+            "id": 15,
+            "rarity": 1,
+            "name": "VIP SILVER",
+            "description": "VIP SILVER НА 24Ч.",
+            "typeId": 9,
+            "internalId": 1,
+            "count": 24,
+            "typeReward": 0
+        },
+        {
+            "id": 16,
+            "rarity": 2,
+            "name": "40 BC",
+            "description": "40 BC",
+            "typeId": 3,
+            "internalId": 0,
+            "count": 40,
+            "typeReward": 0
+        },
+        {
+            "id": 17,
+            "rarity": 2,
+            "name": "1500 BP EXP",
+            "description": "1500 BLACK PASS EXP",
+            "typeId": 10,
+            "internalId": 0,
+            "count": 1500,
+            "typeReward": 0
+        },
+        {
+            "id": 18,
+            "rarity": 1,
+            "name": "АВТО-КЕЙС A-S 24Ч.",
+            "description": "АВТО-КЕЙС A-S CLASS 24Ч.",
+            "typeId": 4,
+            "internalId": 28,
+            "count": 1,
+            "typeReward": 0
+        },
+        {
+            "id": 19,
+            "rarity": 2,
+            "name": "15 EXP",
+            "description": "15 EXP",
+            "typeId": 1,
+            "internalId": 0,
+            "count": 15,
+            "typeReward": 0
+        },
+        {
+            "id": 20,
+            "rarity": 1,
+            "name": "БИЛЕТ ГОНЩИКА X3",
+            "description": "БИЛЕТ ГОНЩИКА X3",
+            "typeId": 34,
+            "internalId": 1,
+            "count": 3,
+            "typeReward": 0,
+            "imageName": "img_race_ticket.png"
+        },
+        {
+            "id": 21,
+            "rarity": 5,
+            "name": "Nissan Teana J32",
+            "description": "Nissan Teana J32",
+            "nameStore": "Tiаna 32 J",
+            "descriptionStore": "Tiаna 32 J",
+            "typeId": 5,
+            "internalId": 28695,
+            "count": 0,
+            "subCount": 267,
+            "typeReward": 1,
+            "imageName": "veh_28695.png"
+        }
+    ],
+    "returnMain_Days": [
+        {
+            "id": 1,
+            "rarity": 2,
+            "name": "ПРАВА В",
+            "description": "ПРАВА КАТЕГОРИИ \"В\" НА 14 ДНЕЙ",
+            "typeId": 25,
+            "internalId": 1,
+            "count": 14,
+            "typeReward": 0
+        },
+        {
+            "id": 2,
+            "rarity": 2,
+            "name": "VIP GOLD",
+            "description": "VIP GOLD НА 24Ч.",
+            "typeId": 9,
+            "internalId": 2,
+            "count": 24,
+            "typeReward": 0
+        },
+        {
+            "id": 3,
+            "rarity": 2,
+            "name": "2000 BP EXP",
+            "description": "2000 BLACK PASS EXP",
+            "typeId": 10,
+            "internalId": 0,
+            "count": 2000,
+            "typeReward": 0
+        },
+        {
+            "id": 4,
+            "rarity": 2,
+            "name": "50 BC",
+            "description": "50 BC",
+            "typeId": 3,
+            "internalId": 0,
+            "count": 50,
+            "typeReward": 0
+        },
+        {
+            "id": 5,
+            "rarity": 2,
+            "name": "75 000 ₽",
+            "description": "75 000 ₽",
+            "typeId": 2,
+            "internalId": 0,
+            "count": 75000,
+            "typeReward": 0
+        },
+        {
+            "id": 6,
+            "rarity": 2,
+            "name": "ЕЖЕДНЕВНЫЙ X5",
+            "description": "ЕЖЕДНЕВНЫЙ КЕЙС X5",
+            "typeId": 4,
+            "internalId": 1,
+            "count": 5,
+            "typeReward": 0
+        },
+        {
+            "id": 7,
+            "rarity": 4,
+            "name": "КОМПЛЕКТ",
+            "description": "КОМПЛЕКТ ВОЗВРАЩЕНИЯ",
+            "packRewards": [
+                {
+                    "id": 1,
+                    "name": "ПРАВА В на 14Д",
+                    "typeId": 25,
+                    "internalId": 1,
+                    "count": 14
+                },
+                {
+                    "id": 2,
+                    "name": "200 000 ₽",
+                    "typeId": 2,
+                    "internalId": 0,
+                    "count": 200000
+                },
+                {
+                    "id": 3,
+                    "name": "СТАНДАРТНЫЙ Х1",
+                    "typeId": 4,
+                    "internalId": 3,
+                    "count": 1
+                },
+                {
+                    "id": 4,
+                    "name": "50 BC",
+                    "typeId": 3,
+                    "internalId": 0,
+                    "count": 50
+                }
+            ],
+            "typeId": -1,
+            "typeReward": 1,
+            "imageName": "img_return_pack.png"
+        }
+    ],
+    "returnBonus_Days": [
+        {
+            "id": 2,
+            "rarity": 2,
+            "name": "ЕЖЕДНЕВНЫЙ",
+            "description": "ЕЖЕДНЕВНЫЙ",
+            "typeId": 4,
+            "internalId": 1,
+            "count": 1,
+            "typeReward": 0
+        },
+        {
+            "id": 4,
+            "rarity": 2,
+            "name": "БОМЖА",
+            "description": "КЕЙС БОМЖА",
+            "typeId": 4,
+            "internalId": 2,
+            "count": 1,
+            "typeReward": 0
+        },
+        {
+            "id": 7,
+            "rarity": 2,
+            "name": "БОМЖА X2",
+            "description": "КЕЙС БОМЖА",
+            "typeId": 4,
+            "internalId": 2,
+            "count": 2,
+            "typeReward": 0
+        }
+    ],
+    "properties": {
+        "season_color": "#E2310C",
+        "season_name": "БОЛЬШОЙ КУШ",
+        "days_color_one": "#FFFFFF",
+        "days_color_two": "#E2310C",
+        "season_days": 49,
+        "return_name": "С ВОЗВРАЩЕНИЕМ!",
+        "return_days": 21,
+        "return_subtitle": "ПРАВА B + 200 000 ₽ + СТАНДАРТНЫЙ КЕЙС + 50 ВС",
+        "bg_return_calendar": "bg_return_calendar.png",
+        "ic_return_calendar": "ic_return_calendar.svg",
+        "bg_season_calendar": "bg_season_calendar.png",
+        "ic_season_calendar": "ic_season_calendar.svg"
+    }
+}

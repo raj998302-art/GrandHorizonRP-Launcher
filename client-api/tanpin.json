@@ -1,0 +1,46 @@
+{
+  "banner": {
+    "backGroundImage": "bg_collab_tanpin.png",
+    "buttonText": "Открыть",
+    "description1": "COLLECTION V1.0<br><font color=#FFC700>CYBER",
+    "description2": "Регистрируйтесь на <font color=#12DD00>Tanpin</font> и соревнуйтесь за <font color=#FFC700>эксклюзивные призы</font>!<br> Заходите <font color=#FFC700>ежедневно</font> в GRAND HORIZON RP,<br> выполняйте<font color=#FFC700> разнообразные задания</font> и получайте <font color=#12DD00>Tanpin Points</font>.<br>Лучшие из лучших получат <font color=#FFC700>уникальные игровые награды</font>!",
+    "description3": "Регистрируйтесь на <font color=#12DD00>Tanpin</font><br>и <font color=#FFC700>выполняйте задания в Grand Horizon RP",
+    "leftImage": "ic_logo_collab_tanpin.png",
+    "rightImage": "img_collab_tanpin_banner.png",
+    "title1": "TANPIN X GRAND HORIZON RP",
+    "title2": "Играй и зарабатывай!",
+    "title3": "Скоро на Tanpin:"
+  },
+  "rewards": [
+    {
+      "rarity": 6,
+      "renderId": "img_punker_tanpin.png",
+      "type": 1
+    },
+    {
+      "rarity": 5,
+      "renderId": "img_cyberman_tanpin.png",
+      "type": 1
+    },
+    {
+      "rarity": 5,
+      "renderId": "img_cybergirl_tanpin.png",
+      "type": 1
+    },
+    {
+      "rarity": 5,
+      "renderId": "img_cyberglasses_tanpin.png",
+      "type": 1
+    },
+    {
+      "rarity": 4,
+      "renderId": "img_gasmask_tanpin.png",
+      "type": 1
+    },
+    {
+      "rarity": 4,
+      "renderId": "img_cyberbackpack_tanpin.png",
+      "type": 1
+    }
+  ]
+}

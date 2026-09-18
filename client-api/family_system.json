@@ -1,0 +1,513 @@
+﻿{
+  "Colors": [
+    {
+      "color": "#af9a5b",
+      "id": 0,
+      "title": "Оливковый"
+    },
+    {
+      "color": "#b1b7f1",
+      "id": 1,
+      "title": "Сиреневый"
+    },
+    {
+      "color": "#5ba8a4",
+      "id": 2,
+      "title": "Бирюзовый"
+    },
+    {
+      "color": "#b9378f",
+      "id": 3,
+      "title": "Малиновый"
+    },
+    {
+      "color": "#1028f4",
+      "id": 4,
+      "title": "Синий"
+    },
+    {
+      "color": "#5054ec",
+      "id": 5,
+      "title": "Васильковый"
+    },
+    {
+      "color": "#01ff23",
+      "id": 6,
+      "title": "Салатовый"
+    },
+    {
+      "color": "#f29527",
+      "id": 7,
+      "title": "Оранжевый"
+    },
+    {
+      "color": "#6c4559",
+      "id": 8,
+      "title": "Коричневый"
+    },
+    {
+      "color": "#f2dafe",
+      "id": 9,
+      "title": "Белый"
+    },
+    {
+      "color": "#7eadff",
+      "id": 10,
+      "title": "Голубой"
+    },
+    {
+      "color": "#c95eec",
+      "id": 11,
+      "title": "Фиолетовый"
+    },
+    {
+      "color": "#852048",
+      "id": 12,
+      "title": "Бордовый"
+    },
+    {
+      "color": "#76b3f2",
+      "id": 13,
+      "title": "Лазурный"
+    },
+    {
+      "color": "#dcb72b",
+      "id": 14,
+      "title": "Желтый"
+    },
+    {
+      "color": "#31d166",
+      "id": 15,
+      "title": "Зеленый"
+    },
+    {
+      "color": "#3969cd",
+      "id": 16,
+      "title": "Джинсовый"
+    },
+    {
+      "color": "#c9e8f2",
+      "id": 17,
+      "title": "Мятный"
+    }
+  ],
+  "RewardTop": [
+    {
+      "accessories_gameId": 453,
+      "accessories_object_id": 7389,
+      "accessories_time": 3,
+      "additional_car": 1,
+      "money_reward": 30000,
+      "place": 0,
+      "score_reward": 100,
+      "token_reward": 3
+    },
+    {
+      "accessories_gameId": 453,
+      "accessories_object_id": 7389,
+      "accessories_time": 3,
+      "additional_car": 1,
+      "money_reward": 20000,
+      "place": 1,
+      "score_reward": 70,
+      "token_reward": 2
+    },
+    {
+      "accessories_gameId": 453,
+      "accessories_object_id": 7389,
+      "accessories_time": 3,
+      "additional_car": 0,
+      "money_reward": 10000,
+      "place": 2,
+      "score_reward": 30,
+      "token_reward": 1
+    }
+  ],
+  "Shop": [
+    {
+      "id": 0,
+      "object_id": 18526,
+      "price": 80,
+      "server_id": 389,
+      "title": "Кейс",
+      "type": 0,
+      "type_id": 3
+    },
+    {
+      "id": 1,
+      "object_id": 7378,
+      "price": 100,
+      "server_id": 442,
+      "title": "Катана",
+      "type": 0,
+      "type_id": 0
+    },
+    {
+      "id": 2,
+      "object_id": 7344,
+      "price": 60,
+      "server_id": 408,
+      "title": "Панама Stone",
+      "type": 0,
+      "type_id": 0
+    },
+    {
+      "id": 3,
+      "object_id": 7374,
+      "price": 100,
+      "server_id": 438,
+      "title": "Медведь",
+      "type": 0,
+      "type_id": 0
+    },
+    {
+      "id": 4,
+      "object_id": 7387,
+      "price": 100,
+      "server_id": 451,
+      "title": "Акула",
+      "type": 0,
+      "type_id": 0
+    },
+    {
+      "id": 5,
+      "object_id": 7385,
+      "price": 100,
+      "server_id": 449,
+      "title": "Лодка",
+      "type": 0,
+      "type_id": 0
+    },
+    {
+      "id": 6,
+      "object_id": 7397,
+      "price": 50,
+      "server_id": 461,
+      "title": "Пакет",
+      "type": 0,
+      "type_id": 0
+    },
+    {
+      "id": 7,
+      "object_id": 7390,
+      "price": 60,
+      "server_id": 454,
+      "title": "Гитара",
+      "type": 0,
+      "type_id": 0
+    },
+    {
+      "id": 8,
+      "object_id": 2641,
+      "price": 100,
+      "server_id": 0,
+      "title": "Синдикат",
+      "type": 1,
+      "type_id": 4
+    }
+  ],
+  "Tasks": [
+    {
+      "description": "Коллекционировать машины - это ли не счастье? Семье необходимо помочь с финансами, для этого Вам нужно украсть 3 машины на работе Автоугонщика. Отправляйтесь на работу и украдите 3 автомобиля.",
+      "id": 0,
+      "money_reward": 2000,
+      "score_reward": 10,
+      "title": "Коллекционер",
+      "token_reward": 2
+    },
+    {
+      "description": "Семья развивается и ей требуется больше ресурсов! Говорят, на окраине городов работают кладоискатели, попробуй в этом деле себя: найдите 5 кладов. Для начала выполнения задания отправляйся к Пантелеевичу, но не забудьте купить металлоискатель!",
+      "id": 1,
+      "money_reward": 2000,
+      "score_reward": 10,
+      "title": "Сыщик",
+      "token_reward": 2
+    },
+    {
+      "description": "Охота - отличный способ добыть пищу или заработать. Наша семья нуждается в трех тушах зайцев. Ваша задача: доставить свежую тушу трех зайцев.",
+      "id": 2,
+      "money_reward": 4000,
+      "score_reward": 10,
+      "title": "Охотник",
+      "token_reward": 4
+    },
+    {
+      "description": "Наша семья часто сражается в Битве семей и ей требуется помощь. Ваша задача: принять участие в Битве семей. Для участия обратитесь к владельцу вашей семьи или заместителю. Место проведения: GPS - 1 - Война семей",
+      "id": 3,
+      "money_reward": 2000,
+      "score_reward": 10,
+      "title": "Солдат",
+      "token_reward": 2
+    },
+    {
+      "description": "Зарабатывать семейную репутацию - очень важное и ответственное дело. Отличный способ для демонстрации своей силы: битва за контейнер! Она проходит каждый час в Роговичах и по дороге к тюрьме. Ваша задача: доставить два ящика из контейнера в автомобиль семьи.",
+      "id": 4,
+      "money_reward": 3000,
+      "score_reward": 10,
+      "title": "Помощь Поднебесной",
+      "token_reward": 2
+    },
+    {
+      "description": "Легко зарабатывать - мечта каждого. Но мы можем это сделать совершенно легко, надо только постараться. В общем, возьмите задание у Ростислава, нападите на инкассаторскую машину и ограбьте её! Как только возьмете мешок - выполните мое поручение.",
+      "id": 5,
+      "money_reward": 3000,
+      "score_reward": 10,
+      "title": "Легкие деньги",
+      "token_reward": 2
+    }
+  ],
+  "Upgrade": [
+    {
+      "ammo": 0,
+      "armour": 0,
+      "gasoline": 20,
+      "id": 0,
+      "level": 1,
+      "masks": 25,
+      "materials": 250,
+      "money": 200000,
+      "people": 0,
+      "price": 60000
+    },
+    {
+      "ammo": 0,
+      "armour": 0,
+      "gasoline": 40,
+      "id": 0,
+      "level": 2,
+      "masks": 50,
+      "materials": 500,
+      "money": 500000,
+      "people": 0,
+      "price": 100000
+    },
+    {
+      "ammo": 0,
+      "armour": 0,
+      "gasoline": 120,
+      "id": 0,
+      "level": 3,
+      "masks": 150,
+      "materials": 1500,
+      "money": 2000000,
+      "people": 0,
+      "price": 200000
+    },
+    {
+      "ammo": 0,
+      "armour": 0,
+      "gasoline": 240,
+      "id": 0,
+      "level": 4,
+      "masks": 300,
+      "materials": 3000,
+      "money": 4000000,
+      "people": 0,
+      "price": 500000
+    },
+    {
+      "ammo": 0,
+      "armour": 0,
+      "gasoline": 480,
+      "id": 0,
+      "level": 5,
+      "masks": 600,
+      "materials": 6000,
+      "money": 8000000,
+      "people": 0,
+      "price": 800000
+    },
+    {
+      "ammo": 0,
+      "armour": 0,
+      "gasoline": 960,
+      "id": 0,
+      "level": 6,
+      "masks": 1200,
+      "materials": 12000,
+      "money": 15000000,
+      "people": 0,
+      "price": 1000000
+    },
+    {
+      "ammo": 0,
+      "armour": 0,
+      "gasoline": 1300,
+      "id": 0,
+      "level": 7,
+      "masks": 1500,
+      "materials": 15000,
+      "money": 30000000,
+      "people": 0,
+      "price": 2000000
+    },
+    {
+      "ammo": 100000,
+      "armour": 0,
+      "gasoline": 0,
+      "id": 1,
+      "level": 1,
+      "masks": 0,
+      "materials": 0,
+      "money": 0,
+      "people": 0,
+      "price": 500000
+    },
+    {
+      "ammo": 300000,
+      "armour": 0,
+      "gasoline": 0,
+      "id": 1,
+      "level": 2,
+      "masks": 0,
+      "materials": 0,
+      "money": 0,
+      "people": 0,
+      "price": 700000
+    },
+    {
+      "ammo": 400000,
+      "armour": 0,
+      "gasoline": 0,
+      "id": 1,
+      "level": 3,
+      "masks": 0,
+      "materials": 0,
+      "money": 0,
+      "people": 0,
+      "price": 1000000
+    },
+    {
+      "ammo": 500000,
+      "armour": 0,
+      "gasoline": 0,
+      "id": 1,
+      "level": 4,
+      "masks": 0,
+      "materials": 0,
+      "money": 0,
+      "people": 0,
+      "price": 1200000
+    },
+    {
+      "ammo": 600000,
+      "armour": 0,
+      "gasoline": 0,
+      "id": 1,
+      "level": 5,
+      "masks": 0,
+      "materials": 0,
+      "money": 0,
+      "people": 0,
+      "price": 1350000
+    },
+    {
+      "ammo": 700000,
+      "armour": 0,
+      "gasoline": 0,
+      "id": 1,
+      "level": 6,
+      "masks": 0,
+      "materials": 0,
+      "money": 0,
+      "people": 0,
+      "price": 1500000
+    },
+    {
+      "ammo": 1000000,
+      "armour": 0,
+      "gasoline": 0,
+      "id": 1,
+      "level": 7,
+      "masks": 0,
+      "materials": 0,
+      "money": 0,
+      "people": 0,
+      "price": 2000000
+    },
+    {
+      "ammo": 0,
+      "armour": 0,
+      "gasoline": 0,
+      "id": 2,
+      "level": 1,
+      "masks": 0,
+      "materials": 0,
+      "money": 0,
+      "people": 100,
+      "price": 500000
+    },
+    {
+      "ammo": 0,
+      "armour": 0,
+      "gasoline": 0,
+      "id": 2,
+      "level": 2,
+      "masks": 0,
+      "materials": 0,
+      "money": 0,
+      "people": 250,
+      "price": 700000
+    },
+    {
+      "ammo": 0,
+      "armour": 0,
+      "gasoline": 0,
+      "id": 2,
+      "level": 3,
+      "masks": 0,
+      "materials": 0,
+      "money": 0,
+      "people": 500,
+      "price": 1000000
+    },
+    {
+      "ammo": 0,
+      "armour": 0,
+      "gasoline": 0,
+      "id": 2,
+      "level": 4,
+      "masks": 0,
+      "materials": 0,
+      "money": 0,
+      "people": 1500,
+      "price": 1500000
+    },
+    {
+      "ammo": 0,
+      "armour": 0,
+      "gasoline": 0,
+      "id": 2,
+      "level": 5,
+      "masks": 0,
+      "materials": 0,
+      "money": 0,
+      "people": 2000,
+      "price": 2000000
+    },
+    {
+      "ammo": 0,
+      "armour": 0,
+      "gasoline": 0,
+      "id": 2,
+      "level": 6,
+      "masks": 0,
+      "materials": 0,
+      "money": 0,
+      "people": 3000,
+      "price": 2500000
+    },
+    {
+      "ammo": 0,
+      "armour": 0,
+      "gasoline": 0,
+      "id": 2,
+      "level": 7,
+      "masks": 0,
+      "materials": 0,
+      "money": 0,
+      "people": 3500,
+      "price": 3000000
+    }
+  ]
+}

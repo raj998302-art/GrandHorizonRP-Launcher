@@ -1,0 +1,139 @@
+﻿{
+    "weaponStoreItems": [
+        {
+            "id": 1,
+            "order": 1,
+            "typeId": 5,
+            "itemId": 25,
+            "name": "Помповый дробовик",
+            "amount": 1,
+            "amountStorage": 1,
+            "cost": 40000,
+            "costStorage": 40000,
+            "materialCost": 200,
+            "materialCostStorage": 200
+        },
+        {
+            "id": 2,
+            "order": 3,
+            "typeId": 5,
+            "itemId": 29,
+            "name": "Штурмовой укороченный автомат",
+            "amount": 1,
+            "amountStorage": 1,
+            "cost": 60000,
+            "costStorage": 60000,
+            "materialCost": 300,
+            "materialCostStorage": 200
+        },
+        {
+            "id": 3,
+            "order": 5,
+            "typeId": 5,
+            "itemId": 31,
+            "name": "Штурмовой автомат",
+            "amount": 1,
+            "amountStorage": 1,
+            "cost": 70000,
+            "costStorage": 70000,
+            "materialCost": 350,
+            "materialCostStorage": 350
+        },
+        {
+            "id": 4,
+            "order": 2,
+            "typeId": 5,
+            "itemId": 33,
+            "name": "Охотничья винтовка",
+            "amount": 1,
+            "amountStorage": 1,
+            "cost": 50000,
+            "costStorage": 50000,
+            "materialCost": 250,
+            "materialCostStorage": 250
+        },
+        {
+            "id": 5,
+            "order": 1,
+            "typeId": 6,
+            "itemId": 2,
+            "name": "Пачка патронов для дробовика",
+            "amount": 12,
+            "amountStorage": 72,
+            "cost": 1680,
+            "costStorage": 10080,
+            "materialCost": 6,
+            "materialCostStorage": 36
+
+        },
+        {
+            "id": 6,
+            "order": 2,
+            "typeId": 6,
+            "itemId": 3,
+            "name": "Пачка патронов для автомата",
+            "amount": 30,
+            "amountStorage": 180,
+            "cost": 3600,
+            "costStorage": 21600,
+            "materialCost": 15,
+            "materialCostStorage": 90
+        },
+        {
+            "id": 7,
+            "order": 3,
+            "typeId": 6,
+            "itemId": 4,
+            "name": "Пачка патронов для винтовки",
+            "amount": 10,
+            "amountStorage": 60,
+            "cost": 1200,
+            "costStorage": 7200,
+            "materialCost": 5,
+            "materialCostStorage": 30
+
+        },
+        {
+            "id": 8,
+            "order": 1,
+            "typeId": 7,
+            "itemId": 1,
+            "name": "Бронежилет",
+            "amount": 1,
+            "amountStorage": 1,
+            "cost": 1000,
+            "costStorage": 1000,
+            "materialCost": 5,
+            "materialCostStorage": 5
+
+        },
+        {
+            "id": 9,
+            "order": 4,
+            "typeId": 5,
+            "itemId": 24,
+            "name": "Боевой пистолет",
+            "amount": 1,
+            "amountStorage": 1,
+            "cost": 65000,
+            "costStorage": 65000,
+            "materialCost": 325,
+            "materialCostStorage": 325
+
+        },
+        {
+            "id": 10,
+            "order": 4,
+            "typeId": 6,
+            "itemId": 1,
+            "name": "Пачка патронов для пистолета",
+            "amount": 25,
+            "amountStorage": 150,
+            "cost": 1250,
+            "costStorage": 7500,
+            "materialCost": 12,
+            "materialCostStorage": 72
+
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+﻿{
+  "vipMarketLimits": [
+    {
+      "hotTicketCost": 0,
+      "hotTicketsMax": 0,
+      "placementCost": 1000,
+      "placementHours": 12,
+      "sellTax": 20,
+      "ticketsMaxTotal": 3,
+      "vipId": 0
+    },
+    {
+      "hotTicketCost": 0,
+      "hotTicketsMax": 0,
+      "placementCost": 1000,
+      "placementHours": 12,
+      "sellTax": 15,
+      "ticketsMaxTotal": 4,
+      "vipId": 1
+    },
+    {
+      "hotTicketCost": 9000,
+      "hotTicketsMax": 1,
+      "placementCost": 1000,
+      "placementHours": 24,
+      "sellTax": 10,
+      "ticketsMaxTotal": 5,
+      "vipId": 2
+    },
+    {
+      "hotTicketCost": 4500,
+      "hotTicketsMax": 3,
+      "placementCost": 500,
+      "placementHours": 72,
+      "sellTax": 5,
+      "ticketsMaxTotal": 10,
+      "vipId": 3
+    }
+  ]
+}

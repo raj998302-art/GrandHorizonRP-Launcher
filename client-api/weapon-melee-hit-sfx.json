@@ -1,0 +1,50 @@
+﻿[
+    {
+        "id": "default",
+        "firstSampleIndex": 41,
+		"numberOfSamples": 3,
+		"priority": 3,
+		"maxDistance": 30.0,
+		"baseVolume": 0.787,
+		"randomVolume": 0.205,
+		"speedMultiplier": 0.0,
+		"isLooped": false,
+		"isSatatic": true
+    },
+	{
+        "id": "brassknuckle",
+        "firstSampleIndex": 78,
+		"numberOfSamples": 1,
+		"priority": 3,
+		"maxDistance": 30.0,
+		"baseVolume": 0.787,
+		"randomVolume": 0.205,
+		"speedMultiplier": 0.0,
+		"isLooped": false,
+		"isSatatic": true
+    },
+    {
+        "id": "flowers",
+        "firstSampleIndex": 78,
+		"numberOfSamples": 3,
+		"priority": 3,
+		"maxDistance": 30.0,
+		"baseVolume": 0.787,
+		"randomVolume": 0.205,
+		"speedMultiplier": 0.0,
+		"isLooped": false,
+		"isSatatic": true
+    },
+	{
+        "id": "chainsaw",
+        "firstSampleIndex": 92,
+		"numberOfSamples": 1,
+		"priority": 2,
+		"maxDistance": 60.0,
+		"baseVolume": 0.787,
+		"randomVolume": 0.0,
+		"speedMultiplier": 3.0,
+		"isLooped": true,
+		"isSatatic": false
+    }
+]

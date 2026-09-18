@@ -1,0 +1,531 @@
+﻿{
+  "fractionMenuStore": [
+    {
+        "uniqueId": 1,
+        "internalId": 1,
+        "title": "Случайный товар",
+        "category": "Случайный товар",
+        "typeId": 3,
+        "itemId": 0,
+        "objectId": 18526,
+        "price": 60
+    },
+    {
+        "uniqueId": 2,
+        "internalId": 2,
+        "title": "Катана",
+        "category": "Аксессуар",
+        "typeId": 0,
+        "itemId": 442,
+        "objectId": 7378,
+        "price": 50,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 90,
+        "zoom": 0.6
+    },
+    {
+        "uniqueId": 3,
+        "internalId": 3,
+        "title": "Панама Stone",
+        "category": "Одежда",
+        "typeId": 0,
+        "itemId": 408,
+        "objectId": 7344,
+        "price": 50,
+        "rotX": 20,
+        "rotY": 180,
+        "rotZ": 0,
+        "zoom": 0.6
+    },
+    {
+        "uniqueId": 4,
+        "internalId": 4,
+        "title": "Медведь",
+        "category": "Аксессуар",
+        "typeId": 0,
+        "itemId": 438,
+        "objectId": 7374,
+        "price": 70,
+        "rotX": 20,
+        "rotY": 180,
+        "rotZ": 0,
+        "zoom": 0.7
+    },
+    {
+        "uniqueId": 5,
+        "internalId": 5,
+        "title": "Акула",
+        "category": "Аксессуар",
+        "typeId": 0,
+        "itemId": 451,
+        "objectId": 7387,
+        "price": 90,
+        "rotX": 0,
+        "rotY": 90,
+        "rotZ": 70,
+        "zoom": 0.8
+    },
+    {
+        "uniqueId": 6,
+        "internalId": 6,
+        "title": "Лодка",
+        "category": "Аксессуар",
+        "typeId": 0,
+        "itemId": 449,
+        "objectId": 7385,
+        "price": 80,
+        "rotX": 45,
+        "rotY": 90,
+        "rotZ": 70,
+        "zoom": 0.9
+    },
+    {
+        "uniqueId": 7,
+        "internalId": 7,
+        "title": "Пакет",
+        "category": "Аксессуар",
+        "typeId": 0,
+        "itemId": 461,
+        "objectId": 7397,
+        "price": 70,
+        "rotX": 20,
+        "rotY": 180,
+        "rotZ": 0,
+        "zoom": 0.8
+    },
+    {
+        "uniqueId": 8,
+        "internalId": 8,
+        "title": "Гитара",
+        "category": "Аксессуар",
+        "typeId": 0,
+        "itemId": 454,
+        "objectId": 7390,
+        "price": 50,
+        "rotX": 0,
+        "rotY": 260,
+        "rotZ": 0,
+        "zoom": 0.8
+    }
+  ],
+  "stores": [
+ {
+  "fractionId": 2,
+    "startTime": 1752717600, 
+    "lifetime": 4233600,
+    "content": [ 
+      [2, 3, 4, 5, 6, 7, 8, 11, 13, 17, 18, 19],  
+      [2, 3, 4, 5, 6, 7, 8, 12, 14, 17, 18, 19]  
+    ]
+ },
+ {
+  "fractionId": 5,
+    "startTime": 1752717600, 
+    "lifetime": 4233600,
+    "content": [ 
+      [2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 18],  
+      [2, 3, 4, 5, 6, 7, 8, 10, 15, 17, 18]  
+    ]
+  },
+  {
+    "fractionId": 6,
+    "startTime": 1756260000,
+    "lifetime": 4233600,
+    "content": [
+      [2, 3, 4, 5, 6, 7, 8, 28, 30, 17, 18],  
+      [2, 3, 4, 5, 6, 7, 8, 29, 31, 17, 18]   
+    ]
+  },
+  {
+    "fractionId": 7,
+    "startTime": 1756260000,
+    "lifetime": 4233600,
+    "content": [
+      [2, 3, 4, 5, 6, 7, 8, 24, 26, 17, 18],  
+      [2, 3, 4, 5, 6, 7, 8, 25, 27, 17, 18]   
+    ]
+  },
+  {
+    "fractionId": 11,
+    "startTime": 1756260000,
+    "lifetime": 4233600,
+    "content": [
+      [2, 3, 4, 5, 6, 7, 8, 20, 22, 17, 18],  
+      [2, 3, 4, 5, 6, 7, 8, 21, 23, 17, 18]   
+    ]
+ }
+],
+  "items": [
+    {
+        "uniqueId": 2,
+        "name": "Катана",
+        "category": "Аксессуар",
+        "typeId": 0,
+        "itemId": 442,
+        "objectId": 7378,
+        "price": 50,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 90,
+        "zoom": 0.6,
+        "rarity": 2
+    },
+    {
+        "uniqueId": 3,
+        "name": "Панама Stone",
+        "category": "Одежда",
+        "typeId": 0,
+        "itemId": 408,
+        "objectId": 7344,
+        "price": 50,
+        "rotX": 20,
+        "rotY": 180,
+        "rotZ": 0,
+        "zoom": 0.6,
+        "rarity": 2
+    },
+    {
+        "uniqueId": 4,
+        "name": "Медведь",
+        "category": "Аксессуар",
+        "typeId": 0,
+        "itemId": 438,
+        "objectId": 7374,
+        "price": 70,
+        "rotX": 20,
+        "rotY": 180,
+        "rotZ": 0,
+        "zoom": 0.7,
+        "rarity": 2
+    },
+    {
+        "uniqueId": 5,
+        "name": "Акула",
+        "category": "Аксессуар",
+        "typeId": 0,
+        "itemId": 451,
+        "objectId": 7387,
+        "price": 90,
+        "rotX": 0,
+        "rotY": 90,
+        "rotZ": 70,
+        "zoom": 0.8,
+        "rarity": 2
+    },
+    {
+        "uniqueId": 6,
+        "name": "Лодка",
+        "category": "Аксессуар",
+        "typeId": 0,
+        "itemId": 449,
+        "objectId": 7385,
+        "price": 80,
+        "rotX": 45,
+        "rotY": 90,
+        "rotZ": 70,
+        "zoom": 0.9,
+        "rarity": 2
+    },
+    {
+        "uniqueId": 7,
+        "name": "Пакет",
+        "category": "Аксессуар",
+        "typeId": 0,
+        "itemId": 461,
+        "objectId": 7397,
+        "price": 70,
+        "rotX": 20,
+        "rotY": 180,
+        "rotZ": 0,
+        "zoom": 0.8,
+        "rarity": 2
+    },
+    {
+        "uniqueId": 8,
+        "name": "Гитара",
+        "category": "Аксессуар",
+        "typeId": 0,
+        "itemId": 454,
+        "objectId": 7390,
+        "price": 50,
+        "rotX": 0,
+        "rotY": 260,
+        "rotZ": 0,
+        "zoom": 0.8,
+        "rarity": 2
+    },
+    {
+      "uniqueId": 9,
+      "name": "BMW S 1000 RR",
+      "marketName": "Moto S1000",
+      "category": "Транспорт (доступ только во фракции)",
+      "typeId": 1,
+      "itemId": 122,
+      "objectId": 521,
+      "price": 2000,
+      "limit": 1,
+      "imageName": "img_521",
+        "rarity": 5
+    },
+    {
+      "uniqueId": 10,
+      "name": "Marussia B2",
+      "marketName": "Russia 2",
+      "category": "Транспорт (доступ только во фракции)",
+      "typeId": 1,
+      "itemId": 177,
+      "objectId": 576,
+      "price": 1500,
+      "limit": 1,
+      "imageName": "img_576",
+        "rarity": 5
+    },
+    {
+      "uniqueId": 11,
+      "name": "BMW 7-Series 750Li",
+      "marketName": "Boomer 7 750Li",
+      "category": "Транспорт (доступ только во фракции)",
+      "typeId": 1,
+      "itemId": 269,
+      "objectId": 2599,
+      "price": 1500,
+      "limit": 1,
+      "imageName": "img_2599",
+        "rarity": 5
+    },
+    {
+      "uniqueId": 12,
+      "name": "Tank 500",
+      "marketName": "TK 500",
+      "category": "Транспорт (доступ только во фракции)",
+      "typeId": 1,
+      "itemId": 458,
+      "objectId": 28667,
+      "price": 1200,
+      "limit": 1,
+      "imageName": "img_28667",
+        "rarity": 5
+    },
+    {
+        "uniqueId": 13,
+        "name": "Радистка",
+        "category": "Скин",
+        "typeId": 2,
+      "itemId": 647,
+        "objectId": 5500017,
+        "price": 1000,
+        "limit": 1,
+        "rarity": 5
+    },
+    {
+        "uniqueId": 14,
+        "name": "Ветеран",
+        "category": "Скин",
+        "typeId": 2,
+      "itemId": 648,
+        "objectId": 5500016,
+        "price": 1000,
+        "limit": 1,
+        "rarity": 5
+    },
+    {
+        "uniqueId": 15,
+        "name": "Начальница",
+        "category": "Скин",
+        "typeId": 2,
+      "itemId": 649,
+        "objectId": 5500015,
+        "price": 900,
+        "limit": 1,
+        "rarity": 4
+    },
+    {
+        "uniqueId": 16,
+        "name": "Шериф",
+        "category": "Скин",
+        "typeId": 2,
+      "itemId": 650,
+        "objectId": 5500014,
+        "price": 900,
+        "limit": 1,
+        "rarity": 4
+    },
+    {
+        "uniqueId": 17,
+        "name": "50 000 рублей",
+        "category": "Ресурсы",
+        "typeId": 4,
+        "itemId": 50000,
+        "price": 10,
+        "limit": 3,
+        "imageName": "ic_prize_money",
+        "rarity": 1
+    },
+    {
+        "uniqueId": 18,
+        "name": "10 опыта",
+        "category": "Ресурсы",
+        "typeId": 5,
+        "itemId": 10,
+        "price": 50,
+        "limit": 3,
+        "imageName": "ic_exp",
+        "rarity": 2
+    },
+    {
+        "uniqueId": 19,
+        "name": "Военная форма",
+        "category": "Скин",
+        "typeId": 2,
+        "itemId": 253,
+        "objectId": 253,
+        "price": 20,
+        "rarity": 1
+    },
+    {
+      "uniqueId": 20,
+      "name": "Toyota Land Cruiser 200",
+      "marketName": "LC 200",
+      "category": "Транспорт (доступ только во фракции)",
+      "typeId": 1,
+      "itemId": 217,
+      "objectId": 2547,
+      "price": 1200,
+      "limit": 1,
+      "imageName": "img_2547",
+      "rarity": 4
+    },
+    {
+      "uniqueId": 21,
+      "name": "Hyundai Grandeur",
+      "marketName": "Grandour",
+      "category": "Транспорт (доступ только во фракции)",
+      "typeId": 1,
+      "itemId": 474,
+      "objectId": 28664,
+      "price": 1000,
+      "limit": 1,
+      "imageName": "img_28664",
+      "rarity": 4
+    },
+    {
+      "uniqueId": 22,
+      "name": "Страж",
+      "category": "Скин",
+      "typeId": 2,
+      "itemId": 646,
+      "objectId": 5500010,
+      "price": 600,
+      "limit": 1,
+      "rarity": 4
+    },
+    {
+      "uniqueId": 23,
+      "name": "Адвокат",
+      "category": "Скин",
+      "typeId": 2,
+      "itemId": 654,
+      "objectId": 5500011,
+      "price": 600,
+      "limit": 1,
+      "rarity": 4
+    },
+    {
+      "uniqueId": 24,
+      "name": "Ford Explorer",
+      "marketName": "F Explorer",
+      "category": "Транспорт (доступ только во фракции)",
+      "typeId": 1,
+      "itemId": 475,
+      "objectId": 28665,
+      "price": 1200,
+      "limit": 1,
+      "imageName": "img_28665",
+      "rarity": 4
+    },
+    {
+      "uniqueId": 25,
+      "name": "Xiaomi su7",
+      "marketName": "Xi SU7",
+      "category": "Транспорт (доступ только во фракции)",
+      "typeId": 1,
+      "itemId": 476,
+      "objectId": 28666,
+      "price": 1200,
+      "limit": 1,
+      "imageName": "img_28666",
+      "rarity": 5
+    },
+    {
+      "uniqueId": 26,
+      "name": "Ямасаки",
+      "category": "Скин",
+      "typeId": 2,
+      "itemId": 657,
+      "objectId": 5500012,
+      "price": 700,
+      "limit": 1,
+      "rarity": 4
+    },
+    {
+      "uniqueId": 27,
+      "name": "Агент",
+      "category": "Скин",
+      "typeId": 2,
+      "itemId": 658,
+      "objectId": 5500013,
+      "price": 700,
+      "limit": 1,
+      "rarity": 4
+    },
+    {
+      "uniqueId": 28,
+      "name": "Mercedes GLS 400",
+      "marketName": "Geep 400LS",
+      "category": "Транспорт (доступ только во фракции)",
+      "typeId": 1,
+      "itemId": 220,
+      "objectId": 2550,
+      "price": 1500,
+      "limit": 1,
+      "imageName": "img_2550",
+      "rarity": 5
+    },
+    {
+      "uniqueId": 29,
+      "name": "Ford Mondeo",
+      "marketName": "F Rodeo",
+      "category": "Транспорт (доступ только во фракции)",
+      "typeId": 1,
+      "itemId": 477,
+      "objectId": 28668,
+      "price": 1200,
+      "limit": 1,
+      "imageName": "img_28668",
+      "rarity": 4
+    },
+    {
+      "uniqueId": 30,
+      "name": "Дон",
+      "category": "Скин",
+      "typeId": 2,
+      "itemId": 655,
+      "objectId": 5500018,
+      "price": 700,
+      "limit": 1,
+      "rarity": 4
+    },
+    {
+      "uniqueId": 31,
+      "name": "Инспектор",
+      "category": "Скин",
+      "typeId": 2,
+      "itemId": 656,
+      "objectId": 5500019,
+      "price": 700,
+      "limit": 1,
+      "rarity": 4
+    }
+  ]
+}

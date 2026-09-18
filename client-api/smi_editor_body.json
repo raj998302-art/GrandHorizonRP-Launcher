@@ -1,0 +1,592 @@
+﻿[
+  {
+    "body": [
+      {
+        "body": [
+          {
+            "body": [
+              {
+                "type": 0,
+                "title": "Низкий класс",
+                "column": 2,
+                "text_for_ad": "низкого класса"
+              },
+              {
+                "type": 0,
+                "title": "Средний класс",
+                "column": 2,
+                "text_for_ad": "среднего класса"
+              },
+              {
+                "type": 0,
+                "title": "Высокий класс",
+                "column": 2,
+                "text_for_ad": "высокого класса"
+              },
+              {
+                "type": 0,
+                "title": "Деревенский дом",
+                "column": 2,
+                "text_for_ad": "деревенский"
+              }
+            ],
+            "title": "Классы:"
+          },
+          {
+            "body": [
+              {
+                "type": 0,
+                "title": "г.Арзамас",
+                "column": 3,
+                "text_for_ad": "в г.Арзамас"
+              },
+              {
+                "type": 0,
+                "title": "г.Южный",
+                "column": 3,
+                "text_for_ad": "в г.Южный"
+              },
+              {
+                "type": 0,
+                "title": "пгт.Батырево",
+                "column": 3,
+                "text_for_ad": "в пгт.Батырево"
+              },
+              {
+                "type": 0,
+                "title": "г.Нижегородск",
+                "column": 3,
+                "text_for_ad": "в г.Нижегородск"
+              },
+              {
+                "type": 0,
+                "title": "г.Лыткарино",
+                "column": 3,
+                "text_for_ad": "в г.Лыткарино"
+              },
+              {
+                "type": 0,
+                "title": "г.Корягино",
+                "column": 3,
+                "text_for_ad": "в г.Корягино"
+              },
+              {
+                "type": 0,
+                "title": "г.Егоровка",
+                "column": 3,
+                "text_for_ad": "в г.Егоровка"
+              },
+              {
+                "type": 0,
+                "title": "г.Рублевка",
+                "column": 3,
+                "text_for_ad": "в г.Рублевка"
+              },
+              {
+                "type": 0,
+                "title": "г.Бусаево",
+                "column": 3,
+                "text_for_ad": "в г.Бусаево"
+              }
+            ],
+            "title": "Расположение:"
+          }
+        ],
+        "type": 0,
+        "title": "Дом",
+        "column": 1,
+        "text_for_ad": "дом"
+      },
+      {
+        "body": [
+          {
+            "body": [
+              {
+                "type": 0,
+                "title": "Низкий класс",
+                "column": 2,
+                "text_for_ad": "низкого класса"
+              },
+              {
+                "type": 0,
+                "title": "Средний класс",
+                "column": 2,
+                "text_for_ad": "среднего класса"
+              },
+              {
+                "type": 0,
+                "title": "Высокий класс",
+                "column": 2,
+                "text_for_ad": "высокого класса"
+              }
+            ],
+            "title": "Классы:"
+          },
+          {
+            "body": [
+              {
+                "type": 0,
+                "title": "г.Арзамас",
+                "column": 3,
+                "text_for_ad": "в г.Арзамас"
+              },
+              {
+                "type": 0,
+                "title": "г.Южный",
+                "column": 3,
+                "text_for_ad": "в г.Южный"
+              },
+              {
+                "type": 0,
+                "title": "пгт.Батырево",
+                "column": 3,
+                "text_for_ad": "в пгт.Батырево"
+              },
+              {
+                "type": 0,
+                "title": "г.Нижегородск",
+                "column": 3,
+                "text_for_ad": "в г.Нижегородск"
+              },
+              {
+                "type": 0,
+                "title": "г.Лыткарино",
+                "column": 3,
+                "text_for_ad": "в г.Лыткарино"
+              },
+              {
+                "type": 0,
+                "title": "г.Корягино",
+                "column": 3,
+                "text_for_ad": "в г.Корягино"
+              },
+              {
+                "type": 0,
+                "title": "г.Егоровка",
+                "column": 3,
+                "text_for_ad": "в г.Егоровка"
+              },
+              {
+                "type": 0,
+                "title": "г.Рублевка",
+                "column": 3,
+                "text_for_ad": "в г.Рублевка"
+              },
+              {
+                "type": 0,
+                "title": "г.Бусаево",
+                "column": 3,
+                "text_for_ad": "в г.Бусаево"
+              }
+            ],
+            "title": "Расположение:"
+          }
+        ],
+        "type": 0,
+        "title": "Квартира",
+        "column": 1,
+        "text_for_ad": "квартиру"
+      },
+      {
+        "body": [
+          {
+            "body": [
+              {
+                "type": 0,
+                "title": "Низкий класс",
+                "column": 2,
+                "text_for_ad": "низкого класса"
+              },
+              {
+                "type": 0,
+                "title": "Высокий класс",
+                "column": 2,
+                "text_for_ad": "высокого класса"
+              }
+            ],
+            "title": "Классы:"
+          },
+          {
+            "body": [
+              {
+                "type": 0,
+                "title": "г.Арзамас",
+                "column": 3,
+                "text_for_ad": "в г.Арзамас"
+              },
+              {
+                "type": 0,
+                "title": "г.Южный",
+                "column": 3,
+                "text_for_ad": "в г.Южный"
+              },
+              {
+                "type": 0,
+                "title": "пгт.Батырево",
+                "column": 3,
+                "text_for_ad": "в пгт.Батырево"
+              },
+              {
+                "type": 0,
+                "title": "г.Нижегородск",
+                "column": 3,
+                "text_for_ad": "в г.Нижегородск"
+              },
+              {
+                "type": 0,
+                "title": "г.Лыткарино",
+                "column": 3,
+                "text_for_ad": "в г.Лыткарино"
+              },
+              {
+                "type": 0,
+                "title": "г.Корягино",
+                "column": 3,
+                "text_for_ad": "в г.Корягино"
+              },
+              {
+                "type": 0,
+                "title": "г.Егоровка",
+                "column": 3,
+                "text_for_ad": "в г.Егоровка"
+              },
+              {
+                "type": 0,
+                "title": "г.Рублевка",
+                "column": 3,
+                "text_for_ad": "в г.Рублевка"
+              },
+              {
+                "type": 0,
+                "title": "г.Бусаево",
+                "column": 3,
+                "text_for_ad": "в г.Бусаево"
+              }
+            ],
+            "title": "Расположение:"
+          }
+        ],
+        "type": 0,
+        "title": "Гараж",
+        "column": 1,
+        "text_for_ad": "гараж"
+      },
+      {
+        "body": [
+          {
+            "body": [
+              {
+                "type": 1,
+                "title": "Низкий класс",
+                "column": 2,
+                "text_for_ad": "низкого класса"
+              },
+              {
+                "type": 2,
+                "title": "Средний класс",
+                "column": 2,
+                "text_for_ad": "среднего класса"
+              },
+              {
+                "type": 3,
+                "title": "Высокий класс",
+                "column": 2,
+                "text_for_ad": "высокого класса"
+              },
+              {
+                "type": 4,
+                "title": "Уникальный класс",
+                "column": 2,
+                "text_for_ad": "уникального класса"
+              },
+              {
+                "type": 5,
+                "title": "Мотоциклы",
+                "column": 2,
+                "text_for_ad": "мотоцикл"
+              }
+            ],
+            "title": "Классы:"
+          }
+        ],
+        "type": 0,
+        "title": "Автомобиль",
+        "column": 1,
+        "text_for_ad": "т/с"
+      },
+      {
+        "body": [
+          {
+            "body": [
+              {
+                "type": 0,
+                "title": "АЗС",
+                "column": 2,
+                "text_for_ad": "АЗС"
+              },
+              {
+                "type": 0,
+                "title": "Магазин 24/7",
+                "column": 2,
+                "text_for_ad": "Магазин 24/7"
+              },
+              {
+                "type": 0,
+                "title": "Магазин оружия",
+                "column": 2,
+                "text_for_ad": "Магазин оружия"
+              },
+              {
+                "type": 0,
+                "title": "Магазин одежды",
+                "column": 2,
+                "text_for_ad": "Магазин одежды"
+              },
+              {
+                "type": 0,
+                "title": "Магазин аксессуаров",
+                "column": 2,
+                "text_for_ad": "Магазин аксессуаров"
+              },
+              {
+                "type": 0,
+                "title": "Закусочная",
+                "column": 2,
+                "text_for_ad": "Закусочная"
+              },
+              {
+                "type": 0,
+                "title": "Казино",
+                "column": 2,
+                "text_for_ad": "Казино"
+              },
+              {
+                "type": 0,
+                "title": "СТО",
+                "column": 2,
+                "text_for_ad": "СТО"
+              },
+              {
+                "type": 0,
+                "title": "Тюнинг подвески",
+                "column": 2,
+                "text_for_ad": "Тюнинг подвески"
+              },
+              {
+                "type": 0,
+                "title": "ЧИП-тюнинг",
+                "column": 2,
+                "text_for_ad": "ЧИП-тюнинг"
+              },
+              {
+                "type": 0,
+                "title": "Тюнинг тонировки",
+                "column": 2,
+                "text_for_ad": "Тюнинг тонировки"
+              },
+              {
+                "type": 0,
+                "title": "Автосалон НК",
+                "column": 2,
+                "text_for_ad": "Автосалон НК"
+              },
+              {
+                "type": 0,
+                "title": "Автосалон СК",
+                "column": 2,
+                "text_for_ad": "Автосалон СК"
+              },
+              {
+                "type": 0,
+                "title": "Автосалон ВК",
+                "column": 2,
+                "text_for_ad": "Автосалон ВК"
+              },
+              {
+                "type": 0,
+                "title": "Грузовой автосалон",
+                "column": 2,
+                "text_for_ad": "Грузовой автосалон"
+              },
+              {
+                "type": 0,
+                "title": "Мотосалон",
+                "column": 2,
+                "text_for_ad": "Мотосалон"
+              },
+              {
+                "type": 0,
+                "title": "Строительная компания",
+                "column": 2,
+                "text_for_ad": "Строительная компания"
+              },
+              {
+                "type": 0,
+                "title": "Ларек",
+                "column": 2,
+                "text_for_ad": "Ларек"
+              }
+            ],
+            "title": "Типы:"
+          },
+          {
+            "body": [
+              {
+                "type": 0,
+                "title": "г.Арзамас",
+                "column": 3,
+                "text_for_ad": "в г.Арзамас"
+              },
+              {
+                "type": 0,
+                "title": "г.Южный",
+                "column": 3,
+                "text_for_ad": "в г.Южный"
+              },
+              {
+                "type": 0,
+                "title": "пгт.Батырево",
+                "column": 3,
+                "text_for_ad": "в пгт.Батырево"
+              },
+              {
+                "type": 0,
+                "title": "г.Нижегородск",
+                "column": 3,
+                "text_for_ad": "в г.Нижегородск"
+              },
+              {
+                "type": 0,
+                "title": "г.Лыткарино",
+                "column": 3,
+                "text_for_ad": "в г.Лыткарино"
+              },
+              {
+                "type": 0,
+                "title": "г.Корягино",
+                "column": 3,
+                "text_for_ad": "в г.Корягино"
+              },
+              {
+                "type": 0,
+                "title": "г.Егоровка",
+                "column": 3,
+                "text_for_ad": "в г.Егоровка"
+              },
+              {
+                "type": 0,
+                "title": "г.Рублевка",
+                "column": 3,
+                "text_for_ad": "в г.Рублевка"
+              },
+              {
+                "type": 0,
+                "title": "г.Бусаево",
+                "column": 3,
+                "text_for_ad": "в г.Бусаево"
+              }
+            ],
+            "title": "Расположение:"
+          }
+        ],
+        "type": 0,
+        "title": "Бизнес",
+        "column": 1,
+        "text_for_ad": "бизнес"
+      },
+      {
+        "body": [
+          {
+            "title": "Список аксессуаров:",
+            "column": 2
+          }
+        ],
+        "type": 6,
+        "title": "Аксессуары",
+        "column": 1,
+        "text_for_ad": "а/с"
+      }
+    ],
+    "title": "Тип имущества:"
+  },
+  {
+    "body": [
+      {
+        "body": [
+          {
+            "body": [
+              {
+                "type": 0,
+                "title": "База",
+                "column": 2,
+                "text_for_ad": "Место проведения: база"
+              },
+              {
+                "type": 0,
+                "title": "Стадион",
+                "column": 2,
+                "text_for_ad": "Место проведения: стадион"
+              }
+            ],
+            "title": "Расположение:"
+          }
+        ],
+        "type": 0,
+        "title": "Арзамас",
+        "column": 1,
+        "text_for_ad": "в ОПГ Арзамас."
+      },
+      {
+        "body": [
+          {
+            "body": [
+              {
+                "type": 0,
+                "title": "База",
+                "column": 2,
+                "text_for_ad": "Место проведения: база"
+              },
+              {
+                "type": 0,
+                "title": "Стадион",
+                "column": 2,
+                "text_for_ad": "Место проведения: стадион"
+              }
+            ],
+            "title": "Расположение:"
+          }
+        ],
+        "type": 0,
+        "title": "Лыткарино",
+        "column": 1,
+        "text_for_ad": "в ОПГ Лыткарино."
+      },
+      {
+        "body": [
+          {
+            "body": [
+              {
+                "type": 0,
+                "title": "База",
+                "column": 2,
+                "text_for_ad": "Место проведения: база"
+              },
+              {
+                "type": 0,
+                "title": "Стадион",
+                "column": 2,
+                "text_for_ad": "Место проведения: стадион"
+              }
+            ],
+            "title": "Расположение:"
+          }
+        ],
+        "type": 0,
+        "title": "Батырево",
+        "column": 1,
+        "text_for_ad": "в ОПГ Батырево."
+      }
+    ],
+    "title": "Клуб:"
+  }
+]

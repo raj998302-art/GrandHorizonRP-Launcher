@@ -1,0 +1,4256 @@
+{
+  "isActive": 1,
+  "settings": {
+    "title": "Новости",
+    "timeout": 1,
+    "leafTimer": 10,
+    "viewingAward": 1,
+    "cooldown": 43200
+  },
+  "rules": [
+    {
+      "id": 1,
+      "name": "Скрыть баннер, если BC игрока меньше N (value=N)"
+    },
+    {
+      "id": 2,
+      "name": "Скрыть баннер, если уровень игрока ниже N (value=N)"
+    },
+    {
+      "id": 3,
+      "name": "Скрыть баннер, если у игрока есть одна из привязок"
+    },
+    {
+      "id": 4,
+      "name": "Скрыть баннер, если игрок не прошел полностью Hard туториал"
+    },
+    {
+      "id": 5,
+      "name": "Скрыть баннер, если уровень игрока выше N (value=N)"
+    },
+    {
+      "id": 6,
+      "name": "Скрыть баннер, если игрок проходит квестлайн"
+    },
+    {
+      "id": 7,
+      "name": "Скрыть баннер, если игрок не начинал прохождение квестлайна"
+    },
+    {
+      "id": 8,
+      "name": "Скрыть баннер, если игрок начинал прохождение квестлайна"
+    },
+    {
+      "id": 9,
+      "name": "Скрыть баннер, если игрок прошел N главу квестлайна (value=N)"
+    },
+    {
+      "id": 10,
+      "name": "Скрыть баннер, если игрок не прошел N главу квестлайна (value=N)"
+    },
+    {
+      "id": 11,
+      "name": "Скрыть баннер, если игрок не из rustore "
+    },
+    {
+      "id": 12,
+      "name": "Сыграть N гонок, чтобы баннер оффера появился (value=N)"
+    },
+    {
+      "id": 13,
+      "name": "Сыграть N гонок, чтобы баннер оффера скрылся (value=N)"
+    },
+    {
+      "id": 14,
+      "name": "Скрать баннер, если игрок приобрёл предложение из баннера N (value=N)"
+    },
+    {
+      "id": 15,
+      "name": "Скрать баннер, если игрок не достиг N уровня Black Pass (value=N)"
+    },
+    {
+      "id": 16,
+      "name": "Показать баннер, если игрок ни разу не пополнял счёт"
+    },
+    {
+      "id": 17,
+      "name": "Показать баннер, если суммарный чек игрока за последние 50 дней больше или равен N (value=N)"
+    },
+    {
+      "id": 18,
+      "name": "Показать баннер, если игрок пополнял счёт за последние N дней (value=N)"
+    },
+    {
+      "id": 19,
+      "name": "Показать баннер, если игрок пополнял счёт N дней назад или больше (value=N)"
+    },
+    {
+      "id": 20,
+      "name": "Показать баннер, если игрок не заходил в игру последние N дней (value=N)"
+    },
+    {
+      "id": 21,
+      "name": "Показать баннер, если игрок игрок заходит в игру N дней подряд (value=N)"
+    },
+    {
+      "id": 22,
+      "name": "Показать баннер, если у игрока нет активного VIP-статуса"
+    },
+    {
+      "id": 23,
+      "name": "Показать баннер, если у игрока Black Pass (N=value; 0 - не куплен, 1 - куплен premium, 2 - куплен deluxe)"
+    }
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "version": 1,
+      "status": 1,
+      "name": "Набор начальный",
+      "provider": 1,
+      "order": 2,
+      "startTime": 1757580487,
+      "endTime": 1790834400,
+      "liveTime": 604800,
+      "rules": [
+        {
+          "id": 4,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 2,
+        "renderId": "img_starterpack_case.png",
+        "bgImage": "bg_banner2.png",
+        "timer": 1,
+        "title": "Набор новичка",
+        "description": "[color=#FDFDFD]Все, что нужно для новичка. Покоряй вершины не с пустыми карманами.[/color]",
+        "price": 290,
+        "fakePrice": 580,
+        "sale": "50%",
+        "infoTitle": "При покупке предложения вы получите награды:\n\nКейс бомжа х3\nИгровой опыт - 10\n10 000 рублей.\n\nНаграды будут зачислены в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "price": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "",
+          "type": 4,
+          "internalId": 2,
+          "count": 1,
+          "imageName": "img_case_bomj.png"
+        },
+        {
+          "id": 2,
+          "openTime": 0,
+          "price": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "",
+          "type": 4,
+          "internalId": 2,
+          "count": 1,
+          "imageName": "img_case_bomj.png"
+        },
+        {
+          "id": 3,
+          "openTime": 0,
+          "price": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "",
+          "type": 4,
+          "internalId": 2,
+          "count": 1,
+          "imageName": "img_case_bomj.png"
+        },
+        {
+          "id": 4,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 2,
+          "rarity": 1,
+          "name": "",
+          "description": "10 ЕХР",
+          "type": 1,
+          "internalId": 0,
+          "count": 10,
+          "imageName": "ic_exp.png"
+        },
+        {
+          "id": 5,
+          "openTime": 0,
+          "price": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "",
+          "description": "10 000 ₽",
+          "type": 2,
+          "internalId": 0,
+          "count": 10000,
+          "imageName": "ic_prize_money.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_starterpack_case.png",
+        "thumbnailTitle": "Набор новичка"
+      }
+    },
+    {
+      "id": 2,
+      "version": 1,
+      "status": 1,
+      "name": "Набор Дяди Славы",
+      "provider": 1,
+      "order": 2,
+      "startTime": 1757580487,
+      "endTime": 1790834400,
+      "liveTime": 604800,
+      "rules": [
+        {
+          "id": 4,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 2,
+        "renderId": "img_starterpack_niva.png",
+        "bgImage": "bg_banner2.png",
+        "timer": 1,
+        "title": "Набор Дяди Славы",
+        "description": "[color=#FDFDFD]Дядя Слава и его легендарная[/color] [color=#FFC700]ласточка[/color] [color=#FDFDFD]специально для тебя. Отличная цена для отличного начала пути![/color]",
+        "price": 590,
+        "fakePrice": 1500,
+        "sale": "60%",
+        "infoTitle": "При покупке предложения вы получите награды:\n\nShniva\nСкин Дядя Слава\nСумка Бизнесмена\nСлот для авто\n\nНаграды будут зачислены в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "",
+          "type": 5,
+          "internalId": 485,
+          "count": 0,
+          "subCount": 121,
+          "imageName": "img_28691.png"
+        },
+        {
+          "id": 2,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "",
+          "description": "",
+          "type": 11,
+          "internalId": 134,
+          "count": 5500048,
+          "imageName": "img_5500048.png"
+        },
+        {
+          "id": 3,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "",
+          "description": "",
+          "type": 11,
+          "internalId": 1021,
+          "count": 1,
+          "imageName": "img_100035.png"
+        },
+        {
+          "id": 4,
+          "openTime": 0,
+          "price": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "",
+          "description": "Слот Авто",
+          "type": 15,
+          "internalId": 1,
+          "count": 1,
+          "imageName": "ic_car_slot.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_starterpack_niva.png",
+        "thumbnailTitle": "Набор Дяди Славы"
+      }
+    },
+    {
+      "id": 3,
+      "version": 2,
+      "status": 1,
+      "name": "Набор крутой",
+      "provider": 1,
+      "order": 2,
+      "startTime": 1757580487,
+      "endTime": 1790834400,
+      "liveTime": 604800,
+      "rules": [
+        {
+          "id": 4,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 2,
+        "renderId": "img_starterpack_boomer.png",
+        "bgImage": "bg_banner2.png",
+        "timer": 1,
+        "title": "Набор быстрого старта",
+        "description": "[color=#FDFDFD]Гость Района и Резвый Бумер. Покоряй район.[/color]",
+        "price": 790,
+        "fakePrice": 2700,
+        "sale": "68%",
+        "infoTitle": "При покупке предложения вы получите награды:\n\nBoomer 3 E92\nСкин Гость района\nГородской рюкзак\nСлот для авто\n\nНаграды будут зачислены в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "",
+          "type": 5,
+          "internalId": 486,
+          "count": 0,
+          "subCount": 122,
+          "imageName": "img_28692.png"
+        },
+        {
+          "id": 2,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "",
+          "description": "",
+          "type": 11,
+          "internalId": 134,
+          "count": 5500049,
+          "imageName": "img_5500049.png"
+        },
+        {
+          "id": 3,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "",
+          "description": "",
+          "type": 11,
+          "internalId": 1022,
+          "count": 1,
+          "imageName": "img_100034.png"
+        },
+        {
+          "id": 4,
+          "openTime": 0,
+          "price": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "",
+          "description": "Слот Авто",
+          "type": 15,
+          "internalId": 1,
+          "count": 1,
+          "imageName": "ic_car_slot.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_starterpack_boomer.png",
+        "thumbnailTitle": "Набор быстрого старта"
+      }
+    },
+    {
+      "id": 4,
+      "version": 1,
+      "status": 1,
+      "name": "Патчноут",
+      "provider": 3,
+      "rootId": [
+-88.09, 809.56, 15.27
+      ],
+      "order": 2,
+      "startTime": 1779724800,
+      "endTime": 1791943200,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 5,
+        "renderId": "",
+        "bgImage": "newshub_bg_season6.png",
+        "timer": 1,
+        "textTimer": "",
+        "title": "Новый сезон",
+        "description": "Встречай сезон [color=#FFC700]«Большой Куш»[/color] в [color=#AA3333]GRAND HORIZON RP[/color]\n\n• Событие [color=#FFC700]«Большой Куш»[/color] с новой лентой наград и мини-играми\n• Щедрый [color=#FFC700]дроп подарков[/color] на карте\n• Новый сезон [color=#FFC700]Black Pass[/color]\n• Обновленный [color=#FFC700]Календарь события[/color]\n• Кейсы [color=#FFC700]«Козырь»[/color] и [color=#FFC700]«Туз»[/color]\n\nВрывайся на вечеринку, собирай фишки, получай призы!",
+        "price": 0,
+        "infoTitle": "",
+        "textButton": "Отметить на карте",
+        "textButton2": "Снять отметку"
+      },
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "newshub_thumbnail_season6.png",
+        "thumbnailTitle": "Новый сезон"
+      }
+    },
+    {
+      "id": 5,
+      "version": 1,
+      "status": 1,
+      "name": "Привязка",
+      "provider": 2,
+      "order": 8,
+      "startTime": 1754993071,
+      "endTime": 1790834400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 3,
+          "value": 1
+        },
+        {
+          "id": 2,
+          "value": 2
+        }
+      ],
+      "pages": {
+        "preset": 4,
+        "renderId": "img_banner_lovtsovagromov.png",
+        "bgImage": "bg_banner1.png",
+        "timer": 0,
+        "textTimer": "",
+        "title": "Привяжите соцсети",
+        "description": "Привязав аккаунт вы всегда сможете сохранить к нему доступ. После привязки вы получите награды",
+        "price": 0,
+        "infoTitle": "",
+        "textButton1": "VK",
+        "linkUrl1": "https://vk.me/github.com/raj998302-art/GrandHorizonRP-Launcher",
+        "textButton2": "Telegram",
+        "linkUrl2": "https://t.me/br_helper_bot"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "price": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "10 000 ₽",
+          "type": 2,
+          "internalId": 0,
+          "count": 10000,
+          "imageName": "ic_prize_money.png"
+        },
+        {
+          "id": 2,
+          "openTime": 0,
+          "price": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "VIP platinum 24ч.",
+          "type": 9,
+          "internalId": 3,
+          "count": 24,
+          "imageName": "img_platinum_vip.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_banner_lovtsovagromov.png",
+        "thumbnailTitle": "Привяжи соцсети"
+      }
+    },
+    {
+      "id": 8,
+      "version": 1,
+      "status": 0,
+      "name": "Возвращение Иллюзии",
+      "provider": 3,
+      "rootId": [
+        -1289.84,
+        -350.25,
+        261.96
+      ],
+      "order": 5,
+      "startTime": 1764727200,
+      "endTime": 1769047200,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 2
+        }
+      ],
+      "pages": {
+        "preset": 5,
+        "renderId": "",
+        "bgImage": "bg_event_activity",
+        "timer": 1,
+        "title": "Возвращение Иллюзии",
+        "description": "Уникальный контент и захватывающие приключения\nждут вас за победу в режиме [color=#FFC700]Возвращение Иллюзии[/color].\n\nТебе может достаться Инструкция [color=#FFC700]Полярник Клаус[/color], [color=#FFC700]Праздничные звезды[/color] и другие ценные награды!",
+        "infoTitle": "",
+        "textButton": "Отметить",
+        "textButton2": "Снять отметку"
+      },
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "bg_event_patch.png",
+        "thumbnailTitle": "Возвращение Иллюзии"
+      }
+    },
+    {
+      "id": 10,
+      "version": 1,
+      "status": 0,
+      "name": "Оружие",
+      "provider": 0,
+      "order": 6,
+      "startTime": 1764813600,
+      "endTime": 1769047200,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 5,
+        "renderId": "",
+        "bgImage": "bg_update.png",
+        "timer": 0,
+        "textTimer": "",
+        "title": "Обновление оружия",
+        "description": "Обновление оружия уже в [color=#FFC700]GRAND HORIZON RP[/color]:\n\nНами улучшено и добавлено:\n-Любимое оружие в новой форме (Дигл -> Боевой пистолет,\n АК-74М -> Штурмовой автомат и т.д.)\n-Интерьер и вывески всех магазинов амуниции\n-Инвентарь и новые слоты экипировки оружия\n-Индикация получения урона\n-Управление камерой во время стрельбы\n-Кнопки перезарядки и быстрой смены оружия\n-Система хранения оружия и патронов\n-Конвертация накопленных ранее патронов в местах хранения",
+        "price": 0,
+        "infoTitle": "",
+        "textButton": ""
+      },
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_update.png",
+        "thumbnailTitle": "Обновление оружия"
+      }
+    },
+    {
+      "id": 15,
+      "version": 1,
+      "status": 0,
+      "name": "Событие «Фестиваль крафта»",
+      "provider": 0,
+      "order": 5,
+      "startTime": 1770256200,
+      "endTime": 1771206600,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 5,
+        "renderId": "",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "textTimer": "",
+        "title": "Событие «Фестиваль крафта»",
+        "description": "Добро пожаловать на [color=#FFC700]«Фестиваль крафта»[/color]!\nУспей принять участие и создать на верстаке уникальные аксессуары: \n[color=#FFC700]• Рюкзак «Крафт» \n• Панама «Творческая» [/color]\nСобирай инструкции предметов и [color=#FFC700]особый ресурс «Синяя сталь»[/color],\nлимит которого обновляется ежедневно в 5:00 МСК.\n\nДля ускоренного создания предметов во время события: \n• Увеличено количество добываемых ресурсов \n• Увеличено количество мест получения ресурсов на карте \n• Увеличено количество опыта за удачный крафт \n\n[color=#FFC700]Фестиваль скоро закончится[/color]. Следи за нашими обновлениями, чтобы узнать, когда это уникальное событие посетит нашу область вновь. \nА прямо сейчас — не упускай свою выгоду!",
+        "price": 0,
+        "infoTitle": "",
+        "textButton": ""
+      },
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "bg_event_patch.png",
+        "thumbnailTitle": "Фестиваль крафта"
+      }
+    },
+    {
+      "id": 16,
+      "version": 1,
+      "status": 0,
+      "name": "Событие «Ты - мне, я - тебе!»",
+      "provider": 3,
+      "rootId": [
+        -2316.8,
+        20.2,
+        25.73
+      ],
+      "order": 3,
+      "startTime": 1771379400,
+      "endTime": 1773280200,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 5,
+        "renderId": "",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "textTimer": "",
+        "title": "Событие «Ты - мне, я - тебе!»",
+        "description": "В город приехал [color=#FFC700]особый торговец[/color]. \nОн [color=#FFC700]покупает аксессуары и костюмы[/color] по правилам:\n• Только определенные товары (поговори с ним, чтобы увидеть ассортимент).\n• Ассортимент пополняется раз в несколько дней.\n• Ограниченное количество продаж в день.\n• Лимит обновляется в 5:00 МСК ежедневно.\n• Сыграй в наперстки - можешь получить больше или меньше за свои товары. \n\n[color=#FFC700]Торговец скоро уедет[/color] \nСледи за обновлениями, \nчтобы узнать, когда этот загадочный тип снова вернется в наши края!",
+        "price": 0,
+        "infoTitle": "",
+        "textButton": "Отметить",
+        "textButton2": "Снять отметку"
+      },
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "bg_event_patch.png",
+        "thumbnailTitle": "Ты - мне, я - тебе!"
+      }
+    },
+    {
+      "id": 20,
+      "version": 1,
+      "status": 1,
+      "name": "Старт сюжета",
+      "provider": 4,
+      "order": 3,
+      "startTime": 1754993071,
+      "endTime": 1790834400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 5,
+          "value": 1
+        },
+        {
+          "id": 9,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 5,
+        "renderId": "",
+        "bgImage": "bg_quest1.png",
+        "timer": 0,
+        "textTimer": "",
+        "title": "Старт сюжета",
+        "description": "Достигни [color=#FFC700]2 уровня[/color], чтобы начать прохождение особой Сюжетной Линии!\n\nЕе первая часть [color=#FFC700]Быстрые деньги[/color] ——\n это увлекательное приключение, которое поможет тебе освоиться в нашем мире.\n• Познакомься с интересными и знаковыми персонажами \n• Стань участником зубодробительных историй \n• Преодолей путь от новичка до знаменитого и влиятельного представителя городских элит.\n\nСоздай свою собственную историю в Grand Horizon RP!",
+        "price": 0,
+        "infoTitle": "",
+        "textButton": "Доступно с 2 ур."
+      },
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_quest1_preview.png",
+        "thumbnailTitle": "Старт сюжета"
+      }
+    },
+    {
+      "id": 21,
+      "version": 1,
+      "status": 1,
+      "name": "Старт сюжета",
+      "provider": 4,
+      "order": 3,
+      "startTime": 1754993071,
+      "endTime": 1790834400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 2
+        },
+        {
+          "id": 6,
+          "value": 1
+        },
+        {
+          "id": 8,
+          "value": 1
+        },
+        {
+          "id": 9,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 5,
+        "renderId": "",
+        "bgImage": "bg_quest1.png",
+        "timer": 0,
+        "textTimer": "",
+        "title": "Старт сюжета",
+        "description": "Начни прохождение [color=#FFC700]особой Сюжетной Линии![/color]\n\nЕе первая часть [color=#FFC700]Быстрые деньги[/color] —\nэто увлекательное приключение, которое поможет тебе освоиться в нашем мире.\n• Познакомься с интересными и знаковыми персонажами \n• Стань участником зубодробительных историй \n• Преодолей путь от новичка до знаменитого и влиятельного представителя городских элит.\n\nСоздай свою собственную историю в Grand Horizon RP!",
+        "price": 0,
+        "infoTitle": "",
+        "textButton": "Начать"
+      },
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_quest1_preview.png",
+        "thumbnailTitle": "Старт сюжета"
+      }
+    },
+    {
+      "id": 22,
+      "version": 1,
+      "status": 1,
+      "name": "Продолжение сюжета",
+      "provider": 4,
+      "order": 3,
+      "startTime": 1757580487,
+      "endTime": 1790834400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 2
+        },
+        {
+          "id": 6,
+          "value": 1
+        },
+        {
+          "id": 7,
+          "value": 1
+        },
+        {
+          "id": 9,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 5,
+        "renderId": "",
+        "bgImage": "bg_quest1.png",
+        "timer": 0,
+        "textTimer": "",
+        "title": "Продолжение сюжета",
+        "description": "Пройдена только часть пути. А впереди ждет самое важное и интересное!\nВозвращайся и закончи историю.",
+        "price": 0,
+        "infoTitle": "",
+        "textButton": "Продолжить"
+      },
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_quest1_preview.png",
+        "thumbnailTitle": "Продолжение сюжета"
+      }
+    },
+    {
+      "id": 23,
+      "version": 1,
+      "status": 1,
+      "name": "Портовая Логистика",
+      "provider": 0,
+      "order": 4,
+      "startTime": 1771459200,
+      "endTime": 1774569599,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 5,
+        "renderId": "",
+        "bgImage": "bg_banner1.png",
+        "timer": 0,
+        "textTimer": "",
+        "title": "Портовая Логистика: Открой путь к вершине!",
+        "description": "[color=#FFC700]Работа Курьером ПВЗ (5 ур)[/color]: Стань связующим звеном.\n• Принимай и доставляй грузы.\n• Устроиться можно [color=#FFC700]в любом ПВЗ города[/color].\n• Твой первый шаг к контролю над логистикой района.\n\n [color=#FFC700]Складской работник (7 ур)[/color]: [color=#FFC700]Нижегородский порт[/color] ищет крепкие руки.\n• Портовый склад, плотные ряды коробок и погрузочные работы.\n• Твои задачи: таскай грузы, заполняй стеллажи, получай оплату.",
+        "price": 0,
+        "infoTitle": "",
+        "textButton": ""
+      },
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "bg_event_patch.png",
+        "thumbnailTitle": "Портовая Логистика"
+      }
+    },
+    {
+      "id": 25,
+      "version": 1,
+      "status": 1,
+      "name": "Скидка на Особый Кейс",
+      "provider": 0,
+      "order": 2,
+      "startTime": 1772416800,
+      "endTime": 1773885600,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 5,
+        "renderId": "",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "textTimer": "",
+        "title": "Дарим Кейсы",
+        "description": "До 19 марта каждый час разыгрываем [color=#FFC700]Кейсы[/color] и [color=#FFC700]Пыль[/color]!\n\nДля участия тебе потребуется\n5 уровень и 20 минут онлайна в этот час.\nВо [color=#FFC700]ВРЕМЯ ВЫПЛАТЫ[/color] среди игроков\nонлайн будет выбран победитель, который получит:\n• Стандартный Кейс\n• Весенний Кейс\n• Пыль Х250\n• Пыль Х350\n• Пыль Х500\nВ честь розыгрыша действует скидка [color=#FFC700]15%[/color] на открытие [color=#FFC700]Особого Кейса[/color].\nУдачи и приятной игры!",
+        "price": 0,
+        "infoTitle": "",
+        "textButton": ""
+      },
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_event_giveaway_preview",
+        "thumbnailTitle": "Дарим Кейсы"
+      }
+    },
+    {
+      "id": 26,
+      "version": 1,
+      "status": 1,
+      "name": "Старт сюжета",
+      "provider": 4,
+      "order": 3,
+      "startTime": 1754993071,
+      "endTime": 1790834400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 6,
+          "value": 1
+        },
+        {
+          "id": 8,
+          "value": 1
+        },
+        {
+          "id": 9,
+          "value": 2
+        },
+        {
+          "id": 10,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 5,
+        "renderId": "",
+        "bgImage": "bg_questline2.png",
+        "timer": 0,
+        "textTimer": "",
+        "title": "Старт сюжета",
+        "description": "Начни прохождение Сюжетной Линии [color=#FFC700]«Рев моторов»[/color]'!\n\nЭто вторая глава захватывающей квестовой цепочки, которая поможет тебе лучше узнать наш мир. Продолжай знакомиться с персонажами и заводи полезные знакомства, развивай свои навыки, зарабатывай деньги и участвуй в интересных приключениях! Создай свою собственную историю в [color=#FFC700]Grand Horizon RP[/color]!",
+        "price": 0,
+        "infoTitle": "",
+        "textButton": "Старт сюжета"
+      },
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_questline2.png",
+        "thumbnailTitle": "Старт сюжета"
+      }
+    },
+    {
+      "id": 27,
+      "version": 1,
+      "status": 1,
+      "name": "Продолжение сюжета",
+      "provider": 4,
+      "order": 3,
+      "startTime": 1754993071,
+      "endTime": 1790834400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 6,
+          "value": 1
+        },
+        {
+          "id": 7,
+          "value": 1
+        },
+        {
+          "id": 9,
+          "value": 2
+        },
+        {
+          "id": 10,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 5,
+        "renderId": "",
+        "bgImage": "bg_questline2.png",
+        "timer": 0,
+        "textTimer": "",
+        "title": "Продолжение сюжета",
+        "description": "Пройдена только часть пути. А впереди ждет самое [color=#FFC700]важное[/color] и [color=#FFC700]интересное[/color]! Возвращайся и закончи историю.",
+        "price": 0,
+        "infoTitle": "",
+        "textButton": "Продолжить"
+      },
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_questline2.png",
+        "thumbnailTitle": "Продолжение сюжета"
+      }
+    },
+    {
+      "id": 28,
+      "version": 1,
+      "status": 0,
+      "name": "Кубок Шторма",
+      "provider": 4,
+      "order": 4,
+      "startTime": 1754993071,
+      "endTime": 1790834400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        },
+        {
+          "id": 9,
+          "value": 2
+        }
+      ],
+      "pages": {
+        "preset": 5,
+        "renderId": "",
+        "bgImage": "bg_racemode1.png",
+        "timer": 0,
+        "textTimer": "",
+        "title": "Кубок Шторма",
+        "description": "Начни свою историю гонщика!\n\nДокажи легендам автоспорта [color=#FFC700]Grand Horizon RP[/color], что ты можешь подняться на один пьедестал с лучшими из лучших. Пройди сюжет до конца и получи право вступить в [color=#FFC700]Лигу[/color] единомышленников и профессионалов, объединенных '[color=#FFC700]Рёвом моторов[/color]'. Удачи!",
+        "price": 0,
+        "infoTitle": "",
+        "textButton": "Пройти сюжет"
+      },
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_racemode1.png",
+        "thumbnailTitle": "Кубок Шторма"
+      }
+    },
+    {
+      "id": 29,
+      "version": 1,
+      "status": 1,
+      "name": "Кубок Шторма",
+      "provider": 4,
+      "order": 4,
+      "startTime": 1754993071,
+      "endTime": 1790834400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 3
+        },
+        {
+          "id": 10,
+          "value": 2
+        }
+      ],
+      "pages": {
+        "preset": 5,
+        "renderId": "",
+        "bgImage": "bg_racemode1.png",
+        "timer": 0,
+        "textTimer": "",
+        "title": "Кубок Шторма",
+        "description": "Начало твоей гоночной карьеры положено, но путь на вершину еще долог. Присоединяйся к настоящему празднику [color=#FFC700]автоспорта[/color]. Проходи различные [color=#FFC700]гоночные режимы[/color], взбирайся на первые строчки [color=#FFC700]списка лидеров[/color] и забирай [color=#FFC700]призы[/color], достойные лучших из лучших. Добро пожаловать и удачи на трассе!",
+        "price": 0,
+        "infoTitle": "",
+        "textButton": "Отметить на карте"
+      },
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_racemode1.png",
+        "thumbnailTitle": "Кубок Шторма"
+      }
+    },
+    {
+      "id": 30,
+      "version": 1,
+      "status": 1,
+      "name": "Новые кейсы",
+      "provider": 0,
+      "order": 2,
+      "startTime": 1776304800,
+      "endTime": 1777514400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 5,
+        "renderId": "",
+        "bgImage": "bg_cases_racemode.png",
+        "timer": 0,
+        "textTimer": "",
+        "title": "День рождения [color=#E0584B]GRAND HORIZON RP[/color]",
+        "description": "• [color=#FFC700]Подарок от разработчиков[/color] — с 16 по 19 апреля\nпри первом входе получай подарок\nв честь дня рождения!\nЧем выше уровень, тем ценнее награда \n• [color=#FFC700]Х3 на работах[/color] — Получай тройную зарплату до 26 апреля\n• [color=#FFC700]«АВТО-КЕЙС: 3.0»[/color] — обновлённая линейка\nавтомобилей с ещё более ценными наградами\n• [color=#FFC700]«КЕЙС С ГОНОЧНЫМИ БИЛЕТАМИ»[/color] — получайте билеты и\nучаствуйте в захватывающих заездах\n• Два новых кейса с временными авто — испытайте редкие\nмашины на ограниченное время\n\nВстречайте праздник вместе с нами!",
+        "infoTitle": "",
+        "textButton": ""
+      },
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_cases_racemode_preview.png",
+        "thumbnailTitle": "День рождения"
+      }
+    },
+    {
+      "id": 33,
+      "version": 1,
+      "status": 1,
+      "name": "Старт сюжета",
+      "provider": 4,
+      "order": 3,
+      "startTime": 1754993071,
+      "endTime": 1790834400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 6,
+          "value": 1
+        },
+        {
+          "id": 8,
+          "value": 1
+        },
+        {
+          "id": 9,
+          "value": 3
+        },
+        {
+          "id": 10,
+          "value": 2
+        }
+      ],
+      "pages": {
+        "preset": 5,
+        "renderId": "",
+        "bgImage": "bg_questline3.png",
+        "timer": 0,
+        "textTimer": "",
+        "title": "Старт сюжета",
+        "description": "Начни прохождение Сюжетной Линии [color=#FFC700]«Грани закона»[/color]!\n\nЭто третья глава захватывающей квестовой цепочки, которая поможет тебе лучше узнать наш мир. Продолжай знакомиться с персонажами и заводи полезные знакомства, развивай свои навыки, зарабатывай деньги и участвуй в интересных приключениях! Создай свою собственную историю в [color=#FFC700]Grand Horizon RP[/color]!",
+        "price": 0,
+        "infoTitle": "",
+        "textButton": "Старт сюжета"
+      },
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_questline3.png",
+        "thumbnailTitle": "Старт сюжета"
+      }
+    },
+    {
+      "id": 34,
+      "version": 1,
+      "status": 1,
+      "name": "Продолжение сюжета",
+      "provider": 4,
+      "order": 3,
+      "startTime": 1754993071,
+      "endTime": 1790834400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 6,
+          "value": 1
+        },
+        {
+          "id": 7,
+          "value": 1
+        },
+        {
+          "id": 9,
+          "value": 3
+        },
+        {
+          "id": 10,
+          "value": 2
+        }
+      ],
+      "pages": {
+        "preset": 5,
+        "renderId": "",
+        "bgImage": "bg_questline3.png",
+        "timer": 0,
+        "textTimer": "",
+        "title": "Продолжение сюжета",
+        "description": "Пройдена только часть пути. А впереди ждет самое [color=#FFC700]важное[/color] и [color=#FFC700]интересное[/color]! Возвращайся и закончи историю.",
+        "price": 0,
+        "infoTitle": "",
+        "textButton": "Продолжить"
+      },
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_questline3.png",
+        "thumbnailTitle": "Продолжение сюжета"
+      }
+    },
+    {
+      "id": 35,
+      "version": 1,
+      "status": 1,
+      "name": "Битва за контейнеры",
+      "provider": 3,
+      "rootId": [
+        642.82,
+        1690.99,
+        12.16
+      ],
+      "order": 2,
+      "startTime": 1771379400,
+      "endTime": 1782784800,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 5,
+        "renderId": "",
+        "bgImage": "bg_containers.png",
+        "timer": 0,
+        "textTimer": "",
+        "title": "Битва за контейнеры",
+        "description": "Обновленная Битва за контейнеры!\n\n• Торги проходят в [color=#FFC700]Арзамасе[/color] на 30й минуте каждого часа, теперь даже ночью\n• Две новые страны: [color=#FFC700]Индия[/color] и [color=#FFC700]Италия[/color]\n• При общем выкупе 50 контейнеров в каждый цикл появится особый [color=#FFC700]Дипломатический груз[/color]\n\nИщи [color=#FFC700]Олега Рубцова[/color] в порту или Арзамасе, он расскажет детали. Не упусти шанс заработать! ",
+        "price": 0,
+        "infoTitle": "",
+        "textButton": "Отметить",
+        "textButton2": "Снять отметку"
+      },
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_containers_preview.png",
+        "thumbnailTitle": "Битва за контейнеры"
+      }
+    },
+    {
+      "id": 36,
+      "version": 2,
+      "status": 1,
+      "name": "Набор Tanks Blitz x Rustore",
+      "provider": 1,
+      "order": 2,
+      "startTime": 1779069600,
+      "endTime": 1782784800,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 11,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 2,
+        "renderId": "",
+        "bgImage": "newshub_bg_antimilitary-vol2.png",
+        "timer": 1,
+        "title": "Набор Tanks Blitz x Rustore",
+        "description": "[color=#FDFDFD]Уникальный набор только для пользователей из Rustore.\n Промо-код для Tanks Blitz в каждом наборе. [/color]",
+        "price": 2800,
+        "fakePrice": 8000,
+        "sale": "65%",
+        "infoTitle": "При покупке предложения вы получите награды:\n\nАвто-кейс 3.0 X3\nКейс: Детектив X2\nПромо-код для Tanks Blitz\n\nНаграды будут зачислены в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "",
+          "type": 4,
+          "internalId": 25,
+          "count": 3,
+          "imageName": "img_case_auto_time_limited.png"
+        },
+        {
+          "id": 2,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "",
+          "description": "",
+          "type": 4,
+          "internalId": 24,
+          "count": 2,
+          "imageName": "img_case_event19.png"
+        },
+        {
+          "id": 3,
+          "openTime": 0,
+          "price": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "",
+          "description": "",
+          "type": 36,
+          "internalId": 0,
+          "count": 1,
+          "imageName": "img_promo_antimilitary2.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "newshub_thumbnail_antimilitary-vol2.png",
+        "thumbnailTitle": "Набор Tanks Blitz x Rustore"
+      }
+    },
+    {
+      "id": 48,
+      "version": 2,
+      "status": 1,
+      "name": "Фейковая подписка",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1784599200,
+      "endTime": 1785376800,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 1,
+        "renderId": "",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Выгода каждый день",
+        "description": "Получайте [color=#FFC700]ценные награды[/color] каждый день. [color=#FFC700]Главная награда[/color] будет доступна через 4 дня.",
+        "price": 150,
+        "fakePrice": 560,
+        "sale": "-70%",
+        "infoTitle": "Информация",
+        "infoDescription": "При покупке вы получите первую награду. Следующие награды будут доступны к сбору каждый день. После сбора награда помещается в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "price": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "БОМЖА Х1",
+          "description": "",
+          "type": 4,
+          "internalId": 2,
+          "count": 1,
+          "imageName": "img_case_bomj.png"
+        },
+        {
+          "id": 2,
+          "openTime": 86400,
+          "price": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "12 500 Р",
+          "type": 2,
+          "internalId": 1,
+          "count": 12500,
+          "imageName": "ic_prize_money.png"
+        },
+        {
+          "id": 3,
+          "openTime": 172800,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "20 EXP",
+          "type": 1,
+          "internalId": 1,
+          "count": 20,
+          "imageName": "ic_exp.png"
+        },
+        {
+          "id": 4,
+          "openTime": 259200,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "PLATINUM 12 Ч.",
+          "type": 9,
+          "internalId": 3,
+          "count": 12,
+          "imageName": "img_platinum_vip.png"
+        },
+        {
+          "id": 5,
+          "openTime": 345600,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "3000 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 3000,
+          "imageName": "ic_bpexp.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_platinum_vip.png",
+        "thumbnailTitle": "Специальное предложение"
+      }
+    },
+    {
+      "id": 49,
+      "version": 2,
+      "status": 1,
+      "name": "Фейковая подписка",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1784599200,
+      "endTime": 1785376800,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 1,
+        "renderId": "",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Выгода каждый день",
+        "description": "Получайте [color=#FFC700]ценные награды[/color] каждый день. [color=#FFC700]Главная награда[/color] будет доступна через 4 дня.",
+        "price": 2500,
+        "fakePrice": 4665,
+        "sale": "-45%",
+        "infoTitle": "Информация",
+        "infoDescription": "При покупке вы получите первую награду. Следующие награды будут доступны к сбору каждый день. После сбора награда помещается в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "КЕЙС: КЛУБНЫЙ X1",
+          "description": "",
+          "type": 4,
+          "internalId": 32,
+          "count": 1,
+          "imageName": "img_case_event23.png"
+        },
+        {
+          "id": 2,
+          "openTime": 86400,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "3000 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 3000,
+          "imageName": "ic_bpexp.png"
+        },
+        {
+          "id": 3,
+          "openTime": 172800,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "КЕЙС ГОНЩИКА X3",
+          "type": 4,
+          "internalId": 26,
+          "count": 3,
+          "imageName": "img_case_race_ticket.png"
+        },
+        {
+          "id": 4,
+          "openTime": 259200,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "PLATINUM 48 Ч.",
+          "type": 9,
+          "internalId": 3,
+          "count": 48,
+          "imageName": "img_platinum_vip.png"
+        },
+        {
+          "id": 5,
+          "openTime": 345600,
+          "price": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО-КЕЙС 3.0",
+          "type": 4,
+          "internalId": 25,
+          "count": 1,
+          "imageName": "img_case_auto_time_limited.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_case_auto_time_limited.png",
+        "thumbnailTitle": "Специальное предложение"
+      }
+    },
+    {
+      "id": 50,
+      "version": 2,
+      "status": 1,
+      "name": "Фейковая подписка",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1785376800,
+      "endTime": 1785981600,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 1,
+        "renderId": "",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Выгода каждый день",
+        "description": "Получайте [color=#FFC700]ценные награды[/color] каждый день. [color=#FFC700]Главная награда[/color] будет доступна через 4 дня.",
+        "price": 290,
+        "fakePrice": 730,
+        "sale": "-60%",
+        "infoTitle": "Информация",
+        "infoDescription": "При покупке вы получите первую награду. Следующие награды будут доступны к сбору каждый день. После сбора награда помещается в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "25 EXP",
+          "type": 1,
+          "internalId": 1,
+          "count": 25,
+          "imageName": "ic_exp.png"
+        },
+        {
+          "id": 2,
+          "openTime": 86400,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "PLATINUM 12 Ч.",
+          "type": 9,
+          "internalId": 3,
+          "count": 12,
+          "imageName": "img_platinum_vip.png"
+        },
+        {
+          "id": 3,
+          "openTime": 172800,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "150 000 Р",
+          "type": 2,
+          "internalId": 1,
+          "count": 150000,
+          "imageName": "ic_prize_money.png"
+        },
+        {
+          "id": 4,
+          "openTime": 259200,
+          "price": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "БОМЖА Х1",
+          "description": "",
+          "type": 4,
+          "internalId": 2,
+          "count": 1,
+          "imageName": "img_case_bomj.png"
+        },
+        {
+          "id": 5,
+          "openTime": 345600,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "3000 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 3000,
+          "imageName": "ic_bpexp.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_platinum_vip.png",
+        "thumbnailTitle": "Специальное предложение"
+      }
+    },
+    {
+      "id": 51,
+      "version": 2,
+      "status": 1,
+      "name": "Фейковая подписка",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1785981600,
+      "endTime": 1786586400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 1,
+        "renderId": "",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Выгода каждый день",
+        "description": "Получайте [color=#FFC700]ценные награды[/color] каждый день. [color=#FFC700]Главная награда[/color] будет доступна через 4 дня.",
+        "price": 150,
+        "fakePrice": 675,
+        "sale": "-75%",
+        "infoTitle": "Информация",
+        "infoDescription": "При покупке вы получите первую награду. Следующие награды будут доступны к сбору каждый день. После сбора награда помещается в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "БОМЖА Х1",
+          "description": "",
+          "type": 4,
+          "internalId": 2,
+          "count": 1,
+          "imageName": "img_case_bomj.png"
+        },
+        {
+          "id": 2,
+          "openTime": 86400,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "25 000 Р",
+          "type": 2,
+          "internalId": 1,
+          "count": 25000,
+          "imageName": "ic_prize_money.png"
+        },
+        {
+          "id": 3,
+          "openTime": 172800,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "20 EXP",
+          "type": 1,
+          "internalId": 1,
+          "count": 20,
+          "imageName": "ic_exp.png"
+        },
+        {
+          "id": 4,
+          "openTime": 259200,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "PLATINUM 12 Ч.",
+          "type": 9,
+          "internalId": 3,
+          "count": 12,
+          "imageName": "img_platinum_vip.png"
+        },
+        {
+          "id": 5,
+          "openTime": 345600,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "3000 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 3000,
+          "imageName": "ic_bpexp.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_platinum_vip.png",
+        "thumbnailTitle": "Специальное предложение"
+      }
+    },
+    {
+      "id": 52,
+      "version": 2,
+      "status": 1,
+      "name": "Фейковая подписка",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1786586400,
+      "endTime": 1787191200,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 1,
+        "renderId": "",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Выгода каждый день",
+        "description": "Получайте [color=#FFC700]ценные награды[/color] каждый день. [color=#FFC700]Главная награда[/color] будет доступна через 4 дня.",
+        "price": 790,
+        "fakePrice": 2200,
+        "sale": "-65%",
+        "infoTitle": "Информация",
+        "infoDescription": "При покупке вы получите первую награду. Следующие награды будут доступны к сбору каждый день. После сбора награда помещается в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "КЕЙС ГОНЩИКА X1",
+          "type": 4,
+          "internalId": 26,
+          "count": 1,
+          "imageName": "img_case_race_ticket.png"
+        },
+        {
+          "id": 2,
+          "openTime": 86400,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "100 000 Р",
+          "type": 2,
+          "internalId": 1,
+          "count": 100000,
+          "imageName": "ic_prize_money.png"
+        },
+        {
+          "id": 3,
+          "openTime": 172800,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "A-S CLASS 24Ч",
+          "type": 4,
+          "internalId": 28,
+          "count": 1,
+          "imageName": "img_case_time_limited_auto_expensive.png"
+        },
+        {
+          "id": 4,
+          "openTime": 259200,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "2000 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 2000,
+          "imageName": "ic_bpexp.png"
+        },
+        {
+          "id": 5,
+          "openTime": 345600,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО-КЕЙС 2.0 X1",
+          "description": "",
+          "type": 4,
+          "internalId": 4,
+          "count": 1,
+          "imageName": "img_case_auto.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_case_auto.png",
+        "thumbnailTitle": "Специальное предложение"
+      }
+    },
+    {
+      "id": 53,
+      "version": 2,
+      "status": 1,
+      "name": "Фейковая подписка",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1787191200,
+      "endTime": 1787796000,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 1,
+        "renderId": "",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Выгода каждый день",
+        "description": "Получайте [color=#FFC700]ценные награды[/color] каждый день. [color=#FFC700]Главная награда[/color] будет доступна через 4 дня.",
+        "price": 2490,
+        "fakePrice": 4260,
+        "sale": "-40%",
+        "infoTitle": "Информация",
+        "infoDescription": "При покупке вы получите первую награду. Следующие награды будут доступны к сбору каждый день. После сбора награда помещается в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "КЕЙС: КЛУБНЫЙ X1",
+          "description": "",
+          "type": 4,
+          "internalId": 32,
+          "count": 1,
+          "imageName": "img_case_event23.png"
+        },
+        {
+          "id": 2,
+          "openTime": 86400,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "4000 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 4000,
+          "imageName": "ic_bpexp.png"
+        },
+        {
+          "id": 3,
+          "openTime": 172800,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "КЕЙС: КЛУБНЫЙ X1",
+          "description": "",
+          "type": 4,
+          "internalId": 32,
+          "count": 1,
+          "imageName": "img_case_event23.png"
+        },
+        {
+          "id": 4,
+          "openTime": 259200,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "PLATINUM 24 Ч.",
+          "type": 9,
+          "internalId": 3,
+          "count": 24,
+          "imageName": "img_platinum_vip.png"
+        },
+        {
+          "id": 5,
+          "openTime": 345600,
+          "price": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО-КЕЙС 3.0",
+          "type": 4,
+          "internalId": 25,
+          "count": 1,
+          "imageName": "img_case_auto_time_limited.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_case_auto_time_limited.png",
+        "thumbnailTitle": "Специальное предложение"
+      }
+    },
+    {
+      "id": 54,
+      "version": 2,
+      "status": 1,
+      "name": "Фейковая подписка",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1787796000,
+      "endTime": 1788400800,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 1,
+        "renderId": "",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Выгода каждый день",
+        "description": "Получайте [color=#FFC700]ценные награды[/color] каждый день. [color=#FFC700]Главная награда[/color] будет доступна через 4 дня.",
+        "price": 290,
+        "fakePrice": 730,
+        "sale": "-60%",
+        "infoTitle": "Информация",
+        "infoDescription": "При покупке вы получите первую награду. Следующие награды будут доступны к сбору каждый день. После сбора награда помещается в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "25 EXP",
+          "type": 1,
+          "internalId": 1,
+          "count": 25,
+          "imageName": "ic_exp.png"
+        },
+        {
+          "id": 2,
+          "openTime": 86400,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "PLATINUM 12 Ч.",
+          "type": 9,
+          "internalId": 3,
+          "count": 12,
+          "imageName": "img_platinum_vip.png"
+        },
+        {
+          "id": 3,
+          "openTime": 172800,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "150 000 Р",
+          "type": 2,
+          "internalId": 1,
+          "count": 150000,
+          "imageName": "ic_prize_money.png"
+        },
+        {
+          "id": 4,
+          "openTime": 259200,
+          "price": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "БОМЖА Х1",
+          "description": "",
+          "type": 4,
+          "internalId": 2,
+          "count": 1,
+          "imageName": "img_case_bomj.png"
+        },
+        {
+          "id": 5,
+          "openTime": 345600,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "3000 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 3000,
+          "imageName": "ic_bpexp.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_platinum_vip.png",
+        "thumbnailTitle": "Специальное предложение"
+      }
+    },
+    {
+      "id": 55,
+      "version": 2,
+      "status": 1,
+      "name": "Фейковая подписка",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1784599200,
+      "endTime": 1788400800,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 15,
+          "value": 20
+        }
+      ],
+      "pages": {
+        "preset": 1,
+        "renderId": "",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Выгода каждый день",
+        "description": "Получайте [color=#FFC700]ценные награды[/color] каждый день. [color=#FFC700]Главная награда[/color] будет доступна через 4 дня.",
+        "price": 390,
+        "fakePrice": 1300,
+        "sale": "-70%",
+        "infoTitle": "Информация",
+        "infoDescription": "При покупке вы получите первую награду. Следующие награды будут доступны к сбору каждый день. После сбора награда помещается в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "2500 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 2500,
+          "imageName": "ic_bpexp.png"
+        },
+        {
+          "id": 2,
+          "openTime": 86400,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "1500 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 1500,
+          "imageName": "ic_bpexp.png"
+        },
+        {
+          "id": 3,
+          "openTime": 172800,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "2500 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 2500,
+          "imageName": "ic_bpexp.png"
+        },
+        {
+          "id": 4,
+          "openTime": 259200,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "1500 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 1500,
+          "imageName": "ic_bpexp.png"
+        },
+        {
+          "id": 5,
+          "openTime": 345600,
+          "price": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "5000 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 5000,
+          "imageName": "ic_bpexp.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "ic_bpexp.png",
+        "thumbnailTitle": "Специальное предложение"
+      }
+    },
+    {
+      "id": 56,
+      "version": 1,
+      "status": 1,
+      "name": "Бонус за пополнение",
+      "provider": 1,
+      "order": 2,
+      "startTime": 1784599200,
+      "endTime": 1788400800,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 3,
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Бонус за пополнение",
+        "description": "Пополняйте [color=#FFC700]счет ВС[/color] и получайте ценные награды!",
+        "price": 20000,
+        "infoTitle": "Информация",
+        "infoDescription": "Вы получите награды при пополнении счета во время действия предложения.",
+        "textButton": "Пополнить"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "price": 90,
+          "size": 2,
+          "backgroundType": 2,
+          "rarity": 1,
+          "name": "КЕЙС БОМЖА",
+          "type": 4,
+          "internalId": 2,
+          "count": 1,
+          "imageName": "img_case_bomj.png"
+        },
+        {
+          "id": 2,
+          "openTime": 0,
+          "price": 390,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "180 000 Р",
+          "type": 2,
+          "internalId": 1,
+          "count": 180000,
+          "imageName": "ic_prize_money.png"
+        },
+        {
+          "id": 3,
+          "openTime": 0,
+          "price": 790,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "КЕЙС ГОНЩИКА X1",
+          "type": 4,
+          "internalId": 26,
+          "count": 1,
+          "imageName": "img_case_race_ticket.png"
+        },
+        {
+          "id": 4,
+          "openTime": 0,
+          "price": 1450,
+          "size": 2,
+          "backgroundType": 2,
+          "rarity": 2,
+          "name": "СТАНДАРТНЫЙ КЕЙС",
+          "type": 4,
+          "internalId": 3,
+          "count": 1,
+          "imageName": "img_case_standart.png"
+        },
+        {
+          "id": 5,
+          "openTime": 0,
+          "price": 2400,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "КЕЙС: КЛУБНЫЙ X1",
+          "description": "",
+          "type": 4,
+          "internalId": 32,
+          "count": 1,
+          "imageName": "img_case_event23.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_case_event23.png",
+        "thumbnailTitle": "Бонус за пополнение"
+      }
+    },
+    {
+      "id": 57,
+      "version": 1,
+      "status": 1,
+      "name": "Бонус за пополнение",
+      "provider": 1,
+      "order": 2,
+      "startTime": 1784599200,
+      "endTime": 1788400800,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 3,
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Бонус за пополнение",
+        "description": "Пополняйте [color=#FFC700]счет ВС[/color] и получайте ценные награды!",
+        "price": 20000,
+        "infoTitle": "Информация",
+        "infoDescription": "Вы получите награды при пополнении счета во время действия предложения.",
+        "textButton": "Пополнить"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "price": 4900,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО-КЕЙС 2.0 X1",
+          "description": "",
+          "type": 4,
+          "internalId": 4,
+          "count": 1,
+          "imageName": "img_case_auto.png"
+        },
+        {
+          "id": 2,
+          "openTime": 0,
+          "price": 9900,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО-КЕЙС 2.0 X2",
+          "description": "",
+          "type": 4,
+          "internalId": 4,
+          "count": 2,
+          "imageName": "img_case_auto.png"
+        },
+        {
+          "id": 3,
+          "openTime": 0,
+          "price": 14900,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО-КЕЙС 3.0 X2",
+          "type": 4,
+          "internalId": 25,
+          "count": 2,
+          "imageName": "img_case_auto_time_limited.png"
+        },
+        {
+          "id": 4,
+          "openTime": 0,
+          "price": 29000,
+          "size": 3,
+          "backgroundType": 2,
+          "rarity": 4,
+          "name": "ОСОБЫЙ КЕЙС X1",
+          "type": 4,
+          "internalId": 5,
+          "count": 1,
+          "imageName": "img_case_special.png"
+        },
+        {
+          "id": 5,
+          "openTime": 0,
+          "price": 49000,
+          "size": 3,
+          "backgroundType": 2,
+          "rarity": 5,
+          "name": "ОСОБЫЙ КЕЙС X2",
+          "type": 4,
+          "internalId": 5,
+          "count": 2,
+          "imageName": "img_case_special.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_case_special.png",
+        "thumbnailTitle": "Бонус за пополнение"
+      }
+    },
+    {
+      "id": 58,
+      "version": 1,
+      "status": 1,
+      "name": "Предложение для гонщика",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1784599200,
+      "endTime": 1785981600,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 6
+        },
+        {
+          "id": 13,
+          "value": 10
+        }
+      ],
+      "pages": {
+        "preset": 2,
+        "renderId": "newshub_side_5season",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Предложение для гонщика",
+        "description": "[color=#FDFDFD]Сыграй 10 гонок в Кубке Шторма, чтобы увеличить скидку! [/color]",
+        "price": 3200,
+        "fakePrice": 5900,
+        "sale": "45%",
+        "infoTitle": "При покупке предложения вы получите награды:\n\nАвто-кейс 2.0\nАвто-кейс 3.0\nКейс: клубный х3\n\nНаграды будут зачислены в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 4,
+          "name": "АВТО 3.0 X1",
+          "description": "",
+          "type": 4,
+          "internalId": 25,
+          "count": 1,
+          "imageName": "img_case_auto_time_limited.png"
+        },
+        {
+          "id": 2,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО 2.0 X1",
+          "description": "",
+          "type": 4,
+          "internalId": 4,
+          "count": 1,
+          "imageName": "img_case_auto.png"
+        },
+        {
+          "id": 3,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "КЛУБНЫЙ X3",
+          "description": "",
+          "type": 4,
+          "internalId": 32,
+          "count": 3,
+          "imageName": "img_case_event23.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_case_auto_time_limited.png",
+        "thumbnailTitle": "Предложение для гонщика"
+      }
+    },
+    {
+      "id": 59,
+      "version": 1,
+      "status": 1,
+      "name": "Предложение для гонщика",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1784599200,
+      "endTime": 1785981600,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 6
+        },
+        {
+          "id": 12,
+          "value": 10
+        },
+        {
+          "id": 13,
+          "value": 25
+        },
+        {
+          "id": 14,
+          "value": 58
+        }
+      ],
+      "pages": {
+        "preset": 2,
+        "renderId": "newshub_side_5season",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Предложение для гонщика",
+        "description": "[color=#FDFDFD]Сыграй ещё 15 гонок в Кубке Шторма, чтобы увеличить скидку! [/color]",
+        "price": 2400,
+        "fakePrice": 5900,
+        "sale": "60%",
+        "infoTitle": "При покупке предложения вы получите награды:\n\nАвто-кейс 2.0\nАвто-кейс 3.0\nКейс: клубный х3\n\nНаграды будут зачислены в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 4,
+          "name": "АВТО 3.0 X1",
+          "description": "",
+          "type": 4,
+          "internalId": 25,
+          "count": 1,
+          "imageName": "img_case_auto_time_limited.png"
+        },
+        {
+          "id": 2,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО 2.0 X1",
+          "description": "",
+          "type": 4,
+          "internalId": 4,
+          "count": 1,
+          "imageName": "img_case_auto.png"
+        },
+        {
+          "id": 3,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "КЛУБНЫЙ X3",
+          "description": "",
+          "type": 4,
+          "internalId": 32,
+          "count": 3,
+          "imageName": "img_case_event23.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_case_auto_time_limited.png",
+        "thumbnailTitle": "Предложение для гонщика"
+      }
+    },
+    {
+      "id": 60,
+      "version": 1,
+      "status": 1,
+      "name": "Предложение для гонщика",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1784599200,
+      "endTime": 1785981600,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 6
+        },
+        {
+          "id": 12,
+          "value": 25
+        },
+        {
+          "id": 14,
+          "value": 58
+        },
+        {
+          "id": 14,
+          "value": 59
+        }
+      ],
+      "pages": {
+        "preset": 2,
+        "renderId": "newshub_side_5season",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Предложение для гонщика",
+        "description": "[color=#FDFDFD]Максимальная выгода для опытного гонщика! [/color]",
+        "price": 1490,
+        "fakePrice": 5900,
+        "sale": "75%",
+        "infoTitle": "При покупке предложения вы получите награды:\n\nАвто-кейс 2.0\nАвто-кейс 3.0\nКейс: клубный х3\n\nНаграды будут зачислены в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 4,
+          "name": "АВТО 3.0 X1",
+          "description": "",
+          "type": 4,
+          "internalId": 25,
+          "count": 1,
+          "imageName": "img_case_auto_time_limited.png"
+        },
+        {
+          "id": 2,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО 2.0 X1",
+          "description": "",
+          "type": 4,
+          "internalId": 4,
+          "count": 1,
+          "imageName": "img_case_auto.png"
+        },
+        {
+          "id": 3,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "КЛУБНЫЙ X3",
+          "description": "",
+          "type": 4,
+          "internalId": 32,
+          "count": 3,
+          "imageName": "img_case_event23.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_case_auto_time_limited.png",
+        "thumbnailTitle": "Предложение для гонщика"
+      }
+    },
+    {
+      "id": 46,
+      "version": 1,
+      "status": 1,
+      "name": "Акция х3 на работах",
+      "provider": 0,
+      "order": 5,
+      "startTime": 1782957600,
+      "endTime": 1783562400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 2
+        }
+      ],
+      "pages": {
+        "preset": 5,
+        "renderId": "",
+        "bgImage": "bg_banner1_х3.png",
+        "timer": 1,
+        "textTimer": "",
+        "title": "Акция х3 на работах!",
+        "description": "Летние премии ждут вас [color=#FFC700]на всех работах[/color]!\nПолучай [color=#FFC700]тройную зарплату[/color] до 09 июля.",
+        "price": 0,
+        "infoTitle": "",
+        "textButton": ""
+      },
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "ic_prize_money.png",
+        "thumbnailTitle": "Акция х3 на работах"
+      }
+    },
+    {
+      "id": 47,
+      "version": 2,
+      "status": 1,
+      "name": "Фейковая подписка",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1782957600,
+      "endTime": 1783562400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 5,
+          "value": 7
+        }
+      ],
+      "pages": {
+        "preset": 1,
+        "renderId": "",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Выгода каждый день",
+        "description": "Получайте [color=#FFC700]ценные награды[/color] каждый день. [color=#FFC700]Главная награда[/color] будет доступна через 4 дня.",
+        "price": 240,
+        "fakePrice": 950,
+        "sale": "-75%",
+        "infoTitle": "Информация",
+        "infoDescription": "При покупке вы получите первую награду. Следующие награды будут доступны к сбору каждый день. После сбора награда помещается в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "price": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "2000 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 2000,
+          "imageName": "ic_bpexp.png"
+        },
+        {
+          "id": 2,
+          "openTime": 86400,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "1000 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 1000,
+          "imageName": "ic_bpexp.png"
+        },
+        {
+          "id": 3,
+          "openTime": 172800,
+          "price": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "2000 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 2000,
+          "imageName": "ic_bpexp.png"
+        },
+        {
+          "id": 4,
+          "openTime": 259200,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "1500 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 1500,
+          "imageName": "ic_bpexp.png"
+        },
+        {
+          "id": 5,
+          "openTime": 345600,
+          "price": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "3000 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 3000,
+          "imageName": "ic_bpexp.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "ic_bpexp.png",
+        "thumbnailTitle": "Специальное предложение"
+      }
+    },
+    {
+      "id": 42,
+      "version": 2,
+      "status": 1,
+      "name": "Фейковая подписка",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1784167200,
+      "endTime": 1784772000,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 1,
+        "renderId": "",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Выгода каждый день",
+        "description": "Получайте [color=#FFC700]ценные награды[/color] каждый день. [color=#FFC700]Главная награда[/color] будет доступна через 4 дня.",
+        "price": 990,
+        "fakePrice": 3300,
+        "sale": "-70%",
+        "infoTitle": "Информация",
+        "infoDescription": "При покупке вы получите первую награду. Следующие награды будут доступны к сбору каждый день. После сбора награда помещается в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "price": 190,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "КЕЙС ГОНЩИКА X1",
+          "type": 4,
+          "internalId": 26,
+          "count": 1,
+          "imageName": "img_case_race_ticket.png"
+        },
+        {
+          "id": 2,
+          "openTime": 86400,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "B-C CLASS 24Ч",
+          "type": 4,
+          "internalId": 27,
+          "count": 1,
+          "imageName": "img_case_time_limited_auto_common.png"
+        },
+        {
+          "id": 3,
+          "openTime": 172800,
+          "price": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "КЕЙС ГОНЩИКА X1",
+          "type": 4,
+          "internalId": 26,
+          "count": 1,
+          "imageName": "img_case_race_ticket.png"
+        },
+        {
+          "id": 4,
+          "openTime": 259200,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "A-S CLASS 24Ч",
+          "type": 4,
+          "internalId": 28,
+          "count": 1,
+          "imageName": "img_case_time_limited_auto_expensive.png"
+        },
+        {
+          "id": 5,
+          "openTime": 345600,
+          "price": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО-КЕЙС 3.0",
+          "type": 4,
+          "internalId": 25,
+          "count": 1,
+          "imageName": "img_case_auto_time_limited.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_case_auto_time_limited.png",
+        "thumbnailTitle": "Специальное предложение"
+      }
+    },
+    {
+      "id": 61,
+      "version": 1,
+      "status": 1,
+      "name": "Предложение для Rustore",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1786932000,
+      "endTime": 1790388000,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        },
+        {
+          "id": 1,
+          "value": 1
+        },
+        {
+          "id": 11,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 2,
+        "renderId": "newshub_side_5season",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Максимальная выгода",
+        "description": "[color=#FDFDFD]Пополни автопарк из кейсов с солидной скидкой. Газ в пол, предложение не вечное![/color]",
+        "price": 1990,
+        "fakePrice": 5900,
+        "sale": "65%",
+        "infoTitle": "При покупке предложения вы получите награды:\n\nАвто-кейс 2.0\nАвто-кейс 3.0\nКейс: клубный х3\n\nНаграды будут зачислены в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 4,
+          "name": "АВТО 3.0 X1",
+          "description": "",
+          "type": 4,
+          "internalId": 25,
+          "count": 1,
+          "imageName": "img_case_auto_time_limited.png"
+        },
+        {
+          "id": 2,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО 2.0 X1",
+          "description": "",
+          "type": 4,
+          "internalId": 4,
+          "count": 1,
+          "imageName": "img_case_auto.png"
+        },
+        {
+          "id": 3,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "КЛУБНЫЙ X3",
+          "description": "",
+          "type": 4,
+          "internalId": 32,
+          "count": 3,
+          "imageName": "img_case_event23.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_case_auto_time_limited.png",
+        "thumbnailTitle": "Максимальная выгода"
+      }
+    },
+    {
+      "id": 62,
+      "version": 1,
+      "status": 1,
+      "name": "Старт сюжета",
+      "provider": 4,
+      "order": 3,
+      "startTime": 1754993071,
+      "endTime": 1790834400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 6,
+          "value": 1
+        },
+        {
+          "id": 8,
+          "value": 1
+        },
+        {
+          "id": 9,
+          "value": 4
+        },
+        {
+          "id": 10,
+          "value": 3
+        }
+      ],
+      "pages": {
+        "preset": 5,
+        "renderId": "",
+        "bgImage": "newshub_bg_questline4.png",
+        "timer": 0,
+        "textTimer": "",
+        "title": "Старт сюжета",
+        "description": "Добро пожаловать в [color=#FFC700]четвертую главу[/color]\nинтригующей Сюжетной Линии — [color=#FFC700]'План на миллион'[/color]!\n\nЕще глубже погрузись в жестокий криминальный мир нашей игры.\nОбрети новых союзников и накажи врагов.\nИспользуй ловкость, смекалку и взаимовыручку.\n\n[color=#FFC700]Продолжи свою собственную историю в Grand Horizon RP![/color]",
+        "price": 0,
+        "infoTitle": "",
+        "textButton": "Старт сюжета"
+      },
+      "thumbnail": {
+        "thumbnailbg": "newshub_thumbnail_questline4",
+        "thumbnailImage": "img_empty.png",
+        "thumbnailTitle": "Старт сюжета"
+      }
+    },
+    {
+      "id": 63,
+      "version": 1,
+      "status": 1,
+      "name": "Продолжение сюжета",
+      "provider": 4,
+      "order": 3,
+      "startTime": 1754993071,
+      "endTime": 1790834400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 6,
+          "value": 1
+        },
+        {
+          "id": 7,
+          "value": 1
+        },
+        {
+          "id": 9,
+          "value": 4
+        },
+        {
+          "id": 10,
+          "value": 3
+        }
+      ],
+      "pages": {
+        "preset": 5,
+        "renderId": "",
+        "bgImage": "newshub_bg_questline4.png",
+        "timer": 0,
+        "textTimer": "",
+        "title": "Продолжение сюжета",
+        "description": "Пройдена только часть пути. А впереди ждет самое [color=#FFC700]важное[/color] и [color=#FFC700]интересное[/color]! Возвращайся и закончи историю.",
+        "price": 0,
+        "infoTitle": "",
+        "textButton": "Продолжить"
+      },
+      "thumbnail": {
+        "thumbnailbg": "newshub_thumbnail_questline4",
+        "thumbnailImage": "img_empty.png",
+        "thumbnailTitle": "Продолжение сюжета"
+      }
+    },
+    {
+      "id": 64,
+      "version": 1,
+      "status": 1,
+      "name": "Предложение для китов",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1786932000,
+      "endTime": 1789610400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        },
+        {
+          "id": 1,
+          "value": 1
+        },
+        {
+          "id": 14,
+          "value": 64
+        }
+      ],
+      "pages": {
+        "preset": 2,
+        "renderId": "newshub_side_case_auto.png",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Набор обеспеченного человека",
+        "description": "[color=#FDFDFD]Пополни автопарк из кейсов с хорошей скидкой![/color]",
+        "price": 4200,
+        "fakePrice": 7000,
+        "sale": "40%",
+        "infoTitle": "При покупке предложения вы получите награды:\n\nVIP Platinum на 15 дней\n3 Авто-кейс 3.0\n\nНаграды будут зачислены в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 4,
+          "name": "АВТО 3.0 X3",
+          "description": "",
+          "type": 4,
+          "internalId": 25,
+          "count": 3,
+          "imageName": "img_case_auto_time_limited.png"
+        },
+        {
+          "id": 2,
+          "openTime": 0,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "VIP platinum 15д.",
+          "type": 9,
+          "internalId": 3,
+          "count": 360,
+          "imageName": "img_platinum_vip.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "newshub_thumbnail_case_auto.png",
+        "thumbnailTitle": "Набор обеспеченного человека"
+      }
+    },
+    {
+      "id": 65,
+      "version": 1,
+      "status": 1,
+      "name": "Предложение для мальков",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1786932000,
+      "endTime": 1789610400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        },
+        {
+          "id": 1,
+          "value": 1
+        },
+        {
+          "id": 14,
+          "value": 65
+        }
+      ],
+      "pages": {
+        "preset": 2,
+        "renderId": "newshub_side_racer.png",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Набор делового человека",
+        "description": "[color=#FDFDFD]Базовый минимум. С ним дела пойдут в гору.[/color]",
+        "price": 450,
+        "fakePrice": 900,
+        "sale": "50%",
+        "infoTitle": "При покупке предложения вы получите награды:\n\nVIP Platinum на 15 дней\n3 Авто-кейс 3.0\n\nНаграды будут зачислены в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "100 000 ₽",
+          "type": 2,
+          "internalId": 0,
+          "count": 100000,
+          "imageName": "ic_prize_money.png"
+        },
+        {
+          "id": 2,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 2,
+          "rarity": 2,
+          "name": "25 ЕХР",
+          "type": 1,
+          "internalId": 0,
+          "count": 25,
+          "imageName": "ic_exp.png"
+        },
+        {
+          "id": 3,
+          "openTime": 0,
+          "price": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "КЕЙС ГОНЩИКА X1",
+          "type": 4,
+          "internalId": 26,
+          "count": 1,
+          "imageName": "img_case_race_ticket.png"
+        },
+        {
+          "id": 4,
+          "openTime": 0,
+          "price": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "2000 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 2000,
+          "imageName": "ic_bpexp.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "newshub_thumbnail_racer.png",
+        "thumbnailTitle": "Набор делового человека"
+      }
+    },
+    {
+      "id": 66,
+      "version": 2,
+      "status": 1,
+      "name": "Фейковая подписка",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1788400800,
+      "endTime": 1788746400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 1,
+        "renderId": "",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Выгода каждый день",
+        "description": "Получайте [color=#FFC700]ценные награды[/color] каждый день. [color=#FFC700]Главная награда[/color] будет доступна через 4 дня.",
+        "price": 290,
+        "fakePrice": 730,
+        "sale": "-60%",
+        "infoTitle": "Информация",
+        "infoDescription": "При покупке вы получите первую награду. Следующие награды будут доступны к сбору каждый день. После сбора награда помещается в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "price": 0,
+          "size": 1,
+          "backgroundType": 2,
+          "rarity": 1,
+          "name": "25 ЕХР",
+          "type": 1,
+          "internalId": 0,
+          "count": 25,
+          "imageName": "ic_exp.png"
+        },
+        {
+          "id": 2,
+          "openTime": 86400,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "VIP platinum 12ч.",
+          "type": 9,
+          "internalId": 3,
+          "count": 12,
+          "imageName": "img_platinum_vip.png"
+        },
+        {
+          "id": 3,
+          "openTime": 172800,
+          "price": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "1000 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 1000,
+          "imageName": "ic_bpexp.png"
+        },
+        {
+          "id": 4,
+          "openTime": 259200,
+          "price": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "150 000 ₽",
+          "type": 2,
+          "internalId": 0,
+          "count": 150000,
+          "imageName": "ic_prize_money.png"
+        },
+        {
+          "id": 5,
+          "openTime": 345600,
+          "price": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "3000 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 3000,
+          "imageName": "ic_bpexp.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_platinum_vip.png",
+        "thumbnailTitle": "Специальное предложение"
+      }
+    },
+    {
+      "id": 67,
+      "version": 2,
+      "status": 1,
+      "name": "Фейковая подписка",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1788400800,
+      "endTime": 1788746400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 1,
+        "renderId": "",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Выгода каждый день",
+        "description": "Получайте [color=#FFC700]ценные награды[/color] каждый день. [color=#FFC700]Главная награда[/color] будет доступна через 4 дня.",
+        "price": 2200,
+        "fakePrice": 5000,
+        "sale": "-55%",
+        "infoTitle": "Информация",
+        "infoDescription": "При покупке вы получите первую награду. Следующие награды будут доступны к сбору каждый день. После сбора награда помещается в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "VIP platinum 7д.",
+          "type": 9,
+          "internalId": 3,
+          "count": 168,
+          "imageName": "img_platinum_vip.png"
+        },
+        {
+          "id": 2,
+          "openTime": 86400,
+          "price": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "КЕЙС: ТУЗ X1",
+          "description": "",
+          "type": 4,
+          "internalId": 34,
+          "count": 1,
+          "imageName": "img_case_event25.png"
+        },
+        {
+          "id": 3,
+          "openTime": 172800,
+          "price": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "5000 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 5000,
+          "imageName": "ic_bpexp.png"
+        },
+        {
+          "id": 4,
+          "openTime": 259200,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО 2.0 X1",
+          "description": "",
+          "type": 4,
+          "internalId": 4,
+          "count": 1,
+          "imageName": "img_case_auto.png"
+        },
+        {
+          "id": 5,
+          "openTime": 345600,
+          "price": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО-КЕЙС 3.0",
+          "type": 4,
+          "internalId": 25,
+          "count": 1,
+          "imageName": "img_case_auto_time_limited.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_case_auto_time_limited.png",
+        "thumbnailTitle": "Специальное предложение"
+      }
+    },
+    {
+      "id": 68,
+      "version": 2,
+      "status": 1,
+      "name": "Фейковая подписка",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1788746400,
+      "endTime": 1789005600,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 1,
+        "renderId": "",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Выгода каждый день",
+        "description": "Получайте [color=#FFC700]ценные награды[/color] каждый день. [color=#FFC700]Главная награда[/color] будет доступна через 4 дня.",
+        "price": 710,
+        "fakePrice": 1815,
+        "sale": "-60%",
+        "infoTitle": "Информация",
+        "infoDescription": "При покупке вы получите первую награду. Следующие награды будут доступны к сбору каждый день. После сбора награда помещается в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "price": 0,
+          "size": 1,
+          "backgroundType": 2,
+          "rarity": 1,
+          "name": "25 ЕХР",
+          "type": 1,
+          "internalId": 0,
+          "count": 25,
+          "imageName": "ic_exp.png"
+        },
+        {
+          "id": 2,
+          "openTime": 86400,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "VIP platinum 2д.",
+          "type": 9,
+          "internalId": 3,
+          "count": 48,
+          "imageName": "img_platinum_vip.png"
+        },
+        {
+          "id": 3,
+          "openTime": 172800,
+          "price": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "200 000 ₽",
+          "type": 2,
+          "internalId": 0,
+          "count": 200000,
+          "imageName": "ic_prize_money.png"
+        },
+        {
+          "id": 4,
+          "openTime": 259200,
+          "price": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "КЕЙС ГОНЩИКА X1",
+          "type": 4,
+          "internalId": 26,
+          "count": 1,
+          "imageName": "img_case_race_ticket.png"
+        },
+        {
+          "id": 5,
+          "openTime": 345600,
+          "price": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "КЕЙС: ТУЗ X1",
+          "description": "",
+          "type": 4,
+          "internalId": 34,
+          "count": 1,
+          "imageName": "img_case_event25.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_case_event25.png",
+        "thumbnailTitle": "Специальное предложение"
+      }
+    },
+    {
+      "id": 69,
+      "version": 2,
+      "status": 1,
+      "name": "Фейковая подписка",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1789005600,
+      "endTime": 1789351200,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 1,
+        "renderId": "",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Выгода каждый день",
+        "description": "Получайте [color=#FFC700]ценные награды[/color] каждый день. [color=#FFC700]Главная награда[/color] будет доступна через 4 дня.",
+        "price": 2500,
+        "fakePrice": 4665,
+        "sale": "-45%",
+        "infoTitle": "Информация",
+        "infoDescription": "При покупке вы получите первую награду. Следующие награды будут доступны к сбору каждый день. После сбора награда помещается в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "price": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "КЕЙС: ТУЗ X1",
+          "description": "",
+          "type": 4,
+          "internalId": 34,
+          "count": 1,
+          "imageName": "img_case_event25.png"
+        },
+        {
+          "id": 2,
+          "openTime": 86400,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "3000 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 3000,
+          "imageName": "ic_bpexp.png"
+        },
+        {
+          "id": 3,
+          "openTime": 172800,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "КЕЙС ГОНЩИКА X3",
+          "type": 4,
+          "internalId": 26,
+          "count": 3,
+          "imageName": "img_case_race_ticket.png"
+        },
+        {
+          "id": 4,
+          "openTime": 259200,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "PLATINUM 48 Ч.",
+          "type": 9,
+          "internalId": 3,
+          "count": 48,
+          "imageName": "img_platinum_vip.png"
+        },
+        {
+          "id": 5,
+          "openTime": 345600,
+          "price": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО-КЕЙС 3.0",
+          "type": 4,
+          "internalId": 25,
+          "count": 1,
+          "imageName": "img_case_auto_time_limited.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_case_auto_time_limited.png",
+        "thumbnailTitle": "Специальное предложение"
+      }
+    },
+    {
+      "id": 70,
+      "version": 1,
+      "status": 1,
+      "name": "Бонус за пополнение",
+      "provider": 1,
+      "order": 2,
+      "startTime": 1789005600,
+      "endTime": 1789351200,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 3,
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Бонус за пополнение",
+        "description": "Пополняйте [color=#FFC700]счет ВС[/color] и получайте ценные награды!",
+        "price": 20000,
+        "infoTitle": "Информация",
+        "infoDescription": "Вы получите награды при пополнении счета во время действия предложения.",
+        "textButton": "Пополнить"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "price": 90,
+          "size": 2,
+          "backgroundType": 2,
+          "rarity": 1,
+          "name": "КЕЙС БОМЖА",
+          "type": 4,
+          "internalId": 2,
+          "count": 1,
+          "imageName": "img_case_bomj.png"
+        },
+        {
+          "id": 2,
+          "openTime": 0,
+          "price": 390,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "180 000 Р",
+          "type": 2,
+          "internalId": 1,
+          "count": 180000,
+          "imageName": "ic_prize_money.png"
+        },
+        {
+          "id": 3,
+          "openTime": 0,
+          "price": 790,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "КЕЙС ГОНЩИКА X1",
+          "type": 4,
+          "internalId": 26,
+          "count": 1,
+          "imageName": "img_case_race_ticket.png"
+        },
+        {
+          "id": 4,
+          "openTime": 0,
+          "price": 1450,
+          "size": 2,
+          "backgroundType": 2,
+          "rarity": 2,
+          "name": "СТАНДАРТНЫЙ КЕЙС",
+          "type": 4,
+          "internalId": 3,
+          "count": 1,
+          "imageName": "img_case_standart.png"
+        },
+        {
+          "id": 5,
+          "openTime": 0,
+          "price": 2400,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "КЕЙС: ТУЗ X1",
+          "description": "",
+          "type": 4,
+          "internalId": 34,
+          "count": 1,
+          "imageName": "img_case_event25.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_case_event25.png",
+        "thumbnailTitle": "Бонус за пополнение"
+      }
+    },
+    {
+      "id": 71,
+      "version": 1,
+      "status": 1,
+      "name": "Бонус за пополнение",
+      "provider": 1,
+      "order": 2,
+      "startTime": 1789351200,
+      "endTime": 1789610400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 3,
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Бонус за пополнение",
+        "description": "Пополняйте [color=#FFC700]счет ВС[/color] и получайте ценные награды!",
+        "price": 20000,
+        "infoTitle": "Информация",
+        "infoDescription": "Вы получите награды при пополнении счета во время действия предложения.",
+        "textButton": "Пополнить"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "price": 4900,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО-КЕЙС 2.0 X1",
+          "description": "",
+          "type": 4,
+          "internalId": 4,
+          "count": 1,
+          "imageName": "img_case_auto.png"
+        },
+        {
+          "id": 2,
+          "openTime": 0,
+          "price": 9900,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО-КЕЙС 2.0 X2",
+          "description": "",
+          "type": 4,
+          "internalId": 4,
+          "count": 2,
+          "imageName": "img_case_auto.png"
+        },
+        {
+          "id": 3,
+          "openTime": 0,
+          "price": 14900,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО-КЕЙС 3.0 X2",
+          "type": 4,
+          "internalId": 25,
+          "count": 2,
+          "imageName": "img_case_auto_time_limited.png"
+        },
+        {
+          "id": 4,
+          "openTime": 0,
+          "price": 29000,
+          "size": 3,
+          "backgroundType": 2,
+          "rarity": 4,
+          "name": "ОСОБЫЙ КЕЙС X1",
+          "type": 4,
+          "internalId": 5,
+          "count": 1,
+          "imageName": "img_case_special.png"
+        },
+        {
+          "id": 5,
+          "openTime": 0,
+          "price": 49000,
+          "size": 3,
+          "backgroundType": 2,
+          "rarity": 5,
+          "name": "ОСОБЫЙ КЕЙС X2",
+          "type": 4,
+          "internalId": 5,
+          "count": 2,
+          "imageName": "img_case_special.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_case_special.png",
+        "thumbnailTitle": "Бонус за пополнение"
+      }
+    },
+    {
+      "id": 72,
+      "version": 1,
+      "status": 1,
+      "name": "Предложение для гонщика",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1788400800,
+      "endTime": 1792634400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 6
+        },
+        {
+          "id": 13,
+          "value": 10
+        }
+      ],
+      "pages": {
+        "preset": 2,
+        "renderId": "newshub_side_5season",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Предложение для гонщика",
+        "description": "[color=#FDFDFD]Сыграй 10 гонок в Кубке Шторма, чтобы увеличить скидку! [/color]",
+        "price": 3200,
+        "fakePrice": 5900,
+        "sale": "45%",
+        "infoTitle": "При покупке предложения вы получите награды:\n\nАвто-кейс 2.0\nАвто-кейс 3.0\nКейс: ТУЗ х3\n\nНаграды будут зачислены в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 4,
+          "name": "АВТО 3.0 X1",
+          "description": "",
+          "type": 4,
+          "internalId": 25,
+          "count": 1,
+          "imageName": "img_case_auto_time_limited.png"
+        },
+        {
+          "id": 2,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО 2.0 X1",
+          "description": "",
+          "type": 4,
+          "internalId": 4,
+          "count": 1,
+          "imageName": "img_case_auto.png"
+        },
+        {
+          "id": 3,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "КЕЙС: ТУЗ X3",
+          "description": "",
+          "type": 4,
+          "internalId": 34,
+          "count": 3,
+          "imageName": "img_case_event25.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_case_auto_time_limited.png",
+        "thumbnailTitle": "Предложение для гонщика"
+      }
+    },
+    {
+      "id": 73,
+      "version": 1,
+      "status": 1,
+      "name": "Предложение для гонщика",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1788400800,
+      "endTime": 1792634400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 6
+        },
+        {
+          "id": 12,
+          "value": 10
+        },
+        {
+          "id": 13,
+          "value": 25
+        },
+        {
+          "id": 14,
+          "value": 72
+        }
+      ],
+      "pages": {
+        "preset": 2,
+        "renderId": "newshub_side_5season",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Предложение для гонщика",
+        "description": "[color=#FDFDFD]Сыграй ещё 15 гонок в Кубке Шторма, чтобы увеличить скидку! [/color]",
+        "price": 2400,
+        "fakePrice": 5900,
+        "sale": "60%",
+        "infoTitle": "При покупке предложения вы получите награды:\n\nАвто-кейс 2.0\nАвто-кейс 3.0\nКейс: ТУЗ х3\n\nНаграды будут зачислены в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 4,
+          "name": "АВТО 3.0 X1",
+          "description": "",
+          "type": 4,
+          "internalId": 25,
+          "count": 1,
+          "imageName": "img_case_auto_time_limited.png"
+        },
+        {
+          "id": 2,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО 2.0 X1",
+          "description": "",
+          "type": 4,
+          "internalId": 4,
+          "count": 1,
+          "imageName": "img_case_auto.png"
+        },
+        {
+          "id": 3,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "КЕЙС: ТУЗ X3",
+          "description": "",
+          "type": 4,
+          "internalId": 34,
+          "count": 3,
+          "imageName": "img_case_event25.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_case_auto_time_limited.png",
+        "thumbnailTitle": "Предложение для гонщика"
+      }
+    },
+    {
+      "id": 74,
+      "version": 1,
+      "status": 1,
+      "name": "Предложение для гонщика",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1788400800,
+      "endTime": 1792634400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 6
+        },
+        {
+          "id": 12,
+          "value": 25
+        },
+        {
+          "id": 14,
+          "value": 72
+        },
+        {
+          "id": 14,
+          "value": 73
+        }
+      ],
+      "pages": {
+        "preset": 2,
+        "renderId": "newshub_side_5season",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Предложение для гонщика",
+        "description": "[color=#FDFDFD]Максимальная выгода для опытного гонщика! [/color]",
+        "price": 1490,
+        "fakePrice": 5900,
+        "sale": "75%",
+        "infoTitle": "При покупке предложения вы получите награды:\n\nАвто-кейс 2.0\nАвто-кейс 3.0\nКейс: ТУЗ х3\n\nНаграды будут зачислены в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 4,
+          "name": "АВТО 3.0 X1",
+          "description": "",
+          "type": 4,
+          "internalId": 25,
+          "count": 1,
+          "imageName": "img_case_auto_time_limited.png"
+        },
+        {
+          "id": 2,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО 2.0 X1",
+          "description": "",
+          "type": 4,
+          "internalId": 4,
+          "count": 1,
+          "imageName": "img_case_auto.png"
+        },
+        {
+          "id": 3,
+          "openTime": 0,
+          "size": 1,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "КЕЙС: ТУЗ X3",
+          "description": "",
+          "type": 4,
+          "internalId": 34,
+          "count": 3,
+          "imageName": "img_case_event25.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_case_auto_time_limited.png",
+        "thumbnailTitle": "Предложение для гонщика"
+      }
+    },
+    {
+      "id": 75,
+      "version": 2,
+      "status": 1,
+      "name": "Фейковая подписка",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1789005600,
+      "endTime": 1789610400,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 1,
+        "renderId": "",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Выгода каждый день",
+        "description": "Получайте [color=#FFC700]ценные награды[/color] каждый день. [color=#FFC700]Главная награда[/color] будет доступна через 4 дня.",
+        "price": 790,
+        "fakePrice": 2200,
+        "sale": "-65%",
+        "infoTitle": "Информация",
+        "infoDescription": "При покупке вы получите первую награду. Следующие награды будут доступны к сбору каждый день. После сбора награда помещается в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "КЕЙС ГОНЩИКА X1",
+          "type": 4,
+          "internalId": 26,
+          "count": 1,
+          "imageName": "img_case_race_ticket.png"
+        },
+        {
+          "id": 2,
+          "openTime": 86400,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "100 000 Р",
+          "type": 2,
+          "internalId": 1,
+          "count": 100000,
+          "imageName": "ic_prize_money.png"
+        },
+        {
+          "id": 3,
+          "openTime": 172800,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "A-S CLASS 24Ч",
+          "type": 4,
+          "internalId": 28,
+          "count": 1,
+          "imageName": "img_case_time_limited_auto_expensive.png"
+        },
+        {
+          "id": 4,
+          "openTime": 259200,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "2000 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 2000,
+          "imageName": "ic_bpexp.png"
+        },
+        {
+          "id": 5,
+          "openTime": 345600,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО-КЕЙС 2.0 X1",
+          "description": "",
+          "type": 4,
+          "internalId": 4,
+          "count": 1,
+          "imageName": "img_case_auto.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_case_auto.png",
+        "thumbnailTitle": "Специальное предложение"
+      }
+    },
+    {
+      "id": 76,
+      "version": 2,
+      "status": 1,
+      "name": "Фейковая подписка",
+      "provider": 1,
+      "order": 1,
+      "startTime": 1789610400,
+      "endTime": 1790215200,
+      "liveTime": 0,
+      "rules": [
+        {
+          "id": 2,
+          "value": 1
+        }
+      ],
+      "pages": {
+        "preset": 1,
+        "renderId": "",
+        "bgImage": "bg_banner1.png",
+        "timer": 1,
+        "title": "Выгода каждый день",
+        "description": "Получайте [color=#FFC700]ценные награды[/color] каждый день. [color=#FFC700]Главная награда[/color] будет доступна через 4 дня.",
+        "price": 2490,
+        "fakePrice": 4260,
+        "sale": "-40%",
+        "infoTitle": "Информация",
+        "infoDescription": "При покупке вы получите первую награду. Следующие награды будут доступны к сбору каждый день. После сбора награда помещается в добычу",
+        "textButton": "Купить",
+        "modalTitle": "Внимание",
+        "modalDescription": "Вы действительно хотите совершить покупку?"
+      },
+      "awards": [
+        {
+          "id": 1,
+          "openTime": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "КЕЙС: КОЗЫРЬ X1",
+          "description": "",
+          "type": 4,
+          "internalId": 35,
+          "count": 1,
+          "imageName": "img_case_event26.png"
+        },
+        {
+          "id": 2,
+          "openTime": 86400,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "4000 BP EXP",
+          "type": 10,
+          "internalId": 1,
+          "count": 4000,
+          "imageName": "ic_bpexp.png"
+        },
+        {
+          "id": 3,
+          "openTime": 172800,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 2,
+          "name": "КЕЙС: КОЗЫРЬ X1",
+          "description": "",
+          "type": 4,
+          "internalId": 35,
+          "count": 1,
+          "imageName": "img_case_event26.png"
+        },
+        {
+          "id": 4,
+          "openTime": 259200,
+          "price": 0,
+          "size": 2,
+          "backgroundType": 1,
+          "rarity": 1,
+          "name": "PLATINUM 24 Ч.",
+          "type": 9,
+          "internalId": 3,
+          "count": 24,
+          "imageName": "img_platinum_vip.png"
+        },
+        {
+          "id": 5,
+          "openTime": 345600,
+          "price": 0,
+          "size": 3,
+          "backgroundType": 1,
+          "rarity": 3,
+          "name": "АВТО-КЕЙС 3.0",
+          "type": 4,
+          "internalId": 25,
+          "count": 1,
+          "imageName": "img_case_auto_time_limited.png"
+        }
+      ],
+      "thumbnail": {
+        "thumbnailbg": "bg_thumbnail1.png",
+        "thumbnailImage": "img_case_auto_time_limited.png",
+        "thumbnailTitle": "Специальное предложение"
+      }
+    }
+  ]
+}

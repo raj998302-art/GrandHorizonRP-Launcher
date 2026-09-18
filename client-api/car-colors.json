@@ -1,0 +1,170 @@
+﻿[
+  {
+    "id": 0,
+    "gameColor": 0,
+    "price": 250,
+    "color": "#000000"
+  },
+  {
+    "id": 1,
+    "gameColor": 1,
+    "price": 250,
+    "color": "#F5F5F5"
+  },
+  {
+    "id": 2,
+    "gameColor": 2,
+    "price": 250,
+    "color": "#2A77A1"
+  },
+  {
+    "id": 3,
+    "gameColor": 3,
+    "price": 250,
+    "color": "#840410"
+  },
+  {
+    "id": 4,
+    "gameColor": 4,
+    "price": 250,
+    "color": "#263739"
+  },
+  {
+    "id": 5,
+    "gameColor": 5,
+    "price": 250,
+    "color": "#86446E"
+  },
+  {
+    "id": 6,
+    "gameColor": 6,
+    "price": 250,
+    "color": "#D78E10"
+  },
+  {
+    "id": 7,
+    "gameColor": 7,
+    "price": 250,
+    "color": "#4C75B7"
+  },
+  {
+    "id": 8,
+    "gameColor": 8,
+    "price": 250,
+    "color": "#BDBEC6"
+  },
+  {
+    "id": 9,
+    "gameColor": 9,
+    "price": 250,
+    "color": "#5E7072"
+  },
+  {
+    "id": 10,
+    "gameColor": 10,
+    "price": 250,
+    "color": "#46597A"
+  },
+  {
+    "id": 11,
+    "gameColor": 11,
+    "price": 250,
+    "color": "#656A79"
+  },
+  {
+    "id": 12,
+    "gameColor": 12,
+    "price": 250,
+    "color": "#5D7E8D"
+  },
+  {
+    "id": 13,
+    "gameColor": 13,
+    "price": 250,
+    "color": "#58595A"
+  },
+  {
+    "id": 14,
+    "gameColor": 14,
+    "price": 250,
+    "color": "#D6DAD6"
+  },
+  {
+    "id": 15,
+    "gameColor": 15,
+    "price": 250,
+    "color": "#9CA1A3"
+  },
+  {
+    "id": 16,
+    "gameColor": 16,
+    "price": 250,
+    "color": "#335F3F"
+  },
+  {
+    "id": 17,
+    "gameColor": 17,
+    "price": 250,
+    "color": "#730E1A"
+  },
+  {
+    "id": 18,
+    "gameColor": 18,
+    "price": 250,
+    "color": "#7B0A2A"
+  },
+  {
+    "id": 19,
+    "gameColor": 19,
+    "price": 250,
+    "color": "#9F9D94"
+  },
+  {
+    "id": 20,
+    "gameColor": 20,
+    "price": 250,
+    "color": "#3B4E78"
+  },
+  {
+    "id": 21,
+    "gameColor": 21,
+    "price": 250,
+    "color": "#732E3E"
+  },
+  {
+    "id": 22,
+    "gameColor": 22,
+    "price": 250,
+    "color": "#691E3B"
+  },
+  {
+    "id": 23,
+    "gameColor": 23,
+    "price": 250,
+    "color": "#96918C"
+  },
+  {
+    "id": 24,
+    "gameColor": 24,
+    "price": 250,
+    "color": "#515459"
+  },
+  {
+    "id": 25,
+    "gameColor": 25,
+    "price": 250,
+    "color": "#3F3E45"
+  },
+  {
+    "id": 26,
+    "gameColor": 99,
+    "price": 250,
+    "color": "#AE9B7F"
+  },
+  {
+    "id": 27,
+    "gameColor": 44,
+    "price": 250,
+    "color": "#193826"
+  }
+]

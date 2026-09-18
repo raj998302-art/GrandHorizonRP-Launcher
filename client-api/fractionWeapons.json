@@ -1,0 +1,902 @@
+﻿{
+    "weaponList": [
+        {
+            "id": 0,
+            "name": "Кулак"
+        },
+        {
+            "id": 1,
+            "name": "Кастет"
+        },
+        {
+            "id": 2,
+            "name": "Клюшка для гольфа"
+        },
+        {
+            "id": 3,
+            "name": "Дубинка"
+        },
+        {
+            "id": 4,
+            "name": "Нож"
+        },
+        {
+            "id": 5,
+            "name": "Бита"
+        },
+        {
+            "id": 6,
+            "name": "Лопата"
+        },
+        {
+            "id": 7,
+            "name": "Кий"
+        },
+        {
+            "id": 8,
+            "name": "Катана"
+        },
+        {
+            "id": 9,
+            "name": "Бензопила"
+        },
+        {
+            "id": 14,
+            "name": "Цветы"
+        },
+        {
+            "id": 15,
+            "name": "Топор"
+        },
+        {
+            "id": 16,
+            "name": "Граната"
+        },
+        {
+            "id": 17,
+            "name": "Дымовая граната"
+        },
+        {
+            "id": 18,
+            "name": "Коктейль молотова"
+        },
+        {
+            "id": 19,
+            "name": ""
+        },
+        {
+            "id": 20,
+            "name": ""
+        },
+        {
+            "id": 21,
+            "name": ""
+        },
+        {
+            "id": 22,
+            "name": "Пистолет"
+        },
+        {
+            "id": 23,
+            "name": "Парализатор"
+        },
+        {
+            "id": 24,
+            "name": "Desert Eagle"
+        },
+        {
+            "id": 25,
+            "name": "Дробовик"
+        },
+        {
+            "id": 26,
+            "name": "Обрез"
+        },
+        {
+            "id": 27,
+            "name": "Тактический дробовик"
+        },
+        {
+            "id": 28,
+            "name": "Micro-Uzi"
+        },
+        {
+            "id": 29,
+            "name": "MP5"
+        },
+        {
+            "id": 30,
+            "name": "AK-47"
+        },
+        {
+            "id": 31,
+            "name": "АК-74М"
+        },
+        {
+            "id": 32,
+            "name": "TEC-9"
+        },
+        {
+            "id": 33,
+            "name": "Винтовка"
+        },
+        {
+            "id": 34,
+            "name": "Снайперская винтовка"
+        },
+        {
+            "id": 35,
+            "name": "РПГ"
+        },
+        {
+            "id": 36,
+            "name": "Самонаводящаяся установка"
+        },
+        {
+            "id": 37,
+            "name": "Огнемет"
+        },
+        {
+            "id": 38,
+            "name": "Миниган"
+        },
+        {
+            "id": 39,
+            "name": "C4"
+        },
+        {
+            "id": 40,
+            "name": "Кнопка детонатора"
+        },
+        {
+            "id": 41,
+            "name": "Баллончик"
+        },
+        {
+            "id": 42,
+            "name": "Огнетушитель"
+        },
+        {
+            "id": 43,
+            "name": "Фотоаппарат"
+        },
+        {
+            "id": 44,
+            "name": "Очки ночного видения"
+        },
+        {
+            "id": 45,
+            "name": "Очки с тепловизором"
+        },
+        {
+            "id": 46,
+            "name": "Парашют"
+        },
+		{
+			"id": 213,
+			"name": "Стационарный радар"
+		},
+		{
+			"id": 47,
+			"name": "Ручной радар"
+		}
+    ],
+    "fractionWeapon": [
+        {
+            "fractionId": 2,
+            "fractionName": "Армия",
+			"repositoryPickupWorld": -1,
+			"repositoryPickupCoords": [1804.1218, 1729.9934, 1493.0397],
+            "weaponAndMaterials": [
+              {
+                    "order": 1,
+                    "typeId": 5,
+                    "itemId": 3,
+                    "name": "Дубинка",
+                    "amount": 1,
+                    "fillAmmo": 0,
+                    "materialCost": 25,
+                    "limit": 1
+              },
+              {
+                    "order": 2,
+                    "typeId": 5,
+                    "itemId": 24,
+                    "name": "Боевой пистолет",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 50,
+                    "limit": 1
+                },
+              {
+                    "order": 3,
+                    "typeId": 5,
+                    "itemId": 25,
+                    "name": "Помповый дробовик",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 75,
+                    "limit": 1
+              },
+              {
+                    "order": 4,
+                    "typeId": 5,
+                    "itemId": 30,
+                    "name": "Автоматическая винтовка",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 100,
+                    "limit": 1
+              },
+              {
+                    "order": 5,
+                    "typeId": 5,
+                    "itemId": 33,
+                    "name": "Охотничая винтовка",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 125,
+                    "limit": 1
+                },
+                {
+                    "order": 1,
+                    "typeId": 6,
+                    "itemId": 1,
+                    "name": "Патрон для пистолета",
+                    "amount": 25,
+                    "materialCost": 50,
+                    "limit": 4
+                },
+                {
+                    "order": 2,
+                    "typeId": 6,
+                    "itemId": 2,
+                    "name": "Патрон для дробовика",
+                    "amount": 12,
+                    "materialCost": 36,
+                    "limit": 8
+                },
+                {
+                    "order": 3,
+                    "typeId": 6,
+                    "itemId": 3,
+                    "name": "Патрон для автомата",
+                    "amount": 30,
+                    "materialCost": 60,
+                    "limit": 6
+                },
+                {
+                    "order": 4,
+                    "typeId": 6,
+                    "itemId": 4,
+                    "name": "Патрон для винтовки",
+                    "amount": 10,
+                    "materialCost": 50,
+                    "limit": 10
+                }
+            ]
+        },
+        {
+            "fractionId": 1,
+            "fractionName": "Правительство",
+			"repositoryPickupWorld": 21,
+			"repositoryPickupCoords": [-870.681, -1589.15, 1398.5],
+            "weaponAndMaterials": [
+            {
+                    "order": 1,
+                    "typeId": 5,
+                    "itemId": 3,
+                    "name": "Дубинка",
+                    "amount": 1,
+                    "fillAmmo": 0,
+                    "materialCost": 25,
+                    "limit": 1
+            },
+            {
+                    "order": 2,
+                    "typeId": 5,
+                    "itemId": 24,
+                    "name": "Боевой пистолет",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 50,
+                    "limit": 1
+            },
+            {
+                    "order": 3,
+                    "typeId": 5,
+                    "itemId": 30,
+                    "name": "Автоматическая винтовка",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 100,
+                    "limit": 1
+                },
+                {
+                    "order": 1,
+                    "typeId": 6,
+                    "itemId": 1,
+                    "name": "Патрон для пистолета",
+                    "amount": 25,
+                    "materialCost": 50,
+                    "limit": 4
+                },
+                {
+                    "order": 2,
+                    "typeId": 6,
+                    "itemId": 3,
+                    "name": "Патрон для автомата",
+                    "amount": 30,
+                    "materialCost": 60,
+                    "limit": 6
+            }
+            ]
+        },
+        {
+            "fractionId": 7,
+            "fractionName": "ФСБ",
+			"repositoryPickupWorld": 17,
+			"repositoryPickupCoords": [2914.13, 2007.62, 2051.0],
+            "weaponAndMaterials": [
+                {
+                    "order": 1,
+                    "typeId": 5,
+                    "itemId": 3,
+                    "name": "Дубинка",
+                    "amount": 1,
+                    "fillAmmo": 0,
+                    "materialCost": 25,
+                    "limit": 1
+                },
+                {
+                    "order": 2,
+                    "typeId": 5,
+                    "itemId": 23,
+                    "name": "Шокер",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 100,
+                    "limit": 1
+                },
+                {
+                    "order": 3,
+                    "typeId": 5,
+                    "itemId": 24,
+                    "name": "Боевой пистолет",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 50,
+                    "limit": 1
+                },
+                {
+                    "order": 4,
+                    "typeId": 5,
+                    "itemId": 25,
+                    "name": "Помповый дробовик",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 75,
+                    "limit": 1
+                },
+                {
+                    "order": 5,
+                    "typeId": 5,
+                    "itemId": 30,
+                    "name": "Автоматическая винтовка",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 100,
+                    "limit": 1
+                },
+                {
+                    "order": 6,
+                    "typeId": 5,
+                    "itemId": 33,
+                    "name": "Охотничая винтовка",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 125,
+                    "limit": 1
+                },
+                {
+                    "order": 7,
+                    "typeId": 5,
+                    "itemId": 34,
+                    "name": "Снайперская винтовка",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 450,
+                    "limit": 1
+                },
+                {
+                    "order": 1,
+                    "typeId": 6,
+                    "itemId": 1,
+                    "name": "Патрон для пистолета",
+                    "amount": 25,
+                    "materialCost": 50,
+                    "limit": 4
+                },
+                {
+                    "order": 2,
+                    "typeId": 6,
+                    "itemId": 2,
+                    "name": "Патрон для дробовика",
+                    "amount": 12,
+                    "materialCost": 36,
+                    "limit": 8
+                },
+                {
+                    "order": 3,
+                    "typeId": 6,
+                    "itemId": 3,
+                    "name": "Патрон для автомата",
+                    "amount": 30,
+                    "materialCost": 60,
+                    "limit": 6
+                },
+                {
+                    "order": 4,
+                    "typeId": 6,
+                    "itemId": 4,
+                    "name": "Патрон для винтовки",
+                    "amount": 10,
+                    "materialCost": 50,
+                    "limit": 10
+                }
+            ]
+        },
+        {
+            "fractionId": 5,
+            "fractionName": "ГИБДД",
+			"repositoryPickupWorld": 5,
+			"repositoryPickupCoords": [-1099.9201, 1523.5153, 1499.9459],
+            "weaponAndMaterials": [
+                {
+                    "order": 1,
+                    "typeId": 5,
+                    "itemId": 3,
+                    "name": "Дубинка",
+                    "amount": 1,
+                    "fillAmmo": 0,
+                    "materialCost": 25,
+                    "limit": 1
+                },
+                {
+                    "order": 2,
+                    "typeId": 5,
+                    "itemId": 23,
+                    "name": "Шокер",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 100,
+                    "limit": 1
+                },
+                {
+                    "order": 3,
+                    "typeId": 5,
+                    "itemId": 24,
+                    "name": "Боевой пистолет",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 50,
+                    "limit": 1
+                },
+                {
+                    "order": 4,
+                    "typeId": 5,
+                    "itemId": 25,
+                    "name": "Помповый дробовик",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 75,
+                    "limit": 1
+                },
+                {
+                    "order": 5,
+                    "typeId": 5,
+                    "itemId": 30,
+                    "name": "Автоматическая винтовка",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 100,
+                    "limit": 1
+                },
+                {
+                    "order": 6,
+                    "typeId": 5,
+                    "itemId": 33,
+                    "name": "Охотничая винтовка",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 125,
+                    "limit": 1
+                },
+                {
+                    "order": 1,
+                    "typeId": 6,
+                    "itemId": 1,
+                    "name": "Патроны для пистолета",
+                    "amount": 25,
+                    "materialCost": 50,
+                    "limit": 4
+                },
+                {
+                    "order": 2,
+                    "typeId": 6,
+                    "itemId": 2,
+                    "name": "Патроны для дробовика",
+                    "amount": 12,
+                    "materialCost": 36,
+                    "limit": 8
+                },
+                {
+                    "order": 3,
+                    "typeId": 6,
+                    "itemId": 3,
+                    "name": "Патроны для автомата",
+                    "amount": 30,
+                    "materialCost": 60,
+                    "limit": 6
+                },
+                {
+                    "order": 4,
+                    "typeId": 6,
+                    "itemId": 4,
+                    "name": "Патроны для винтовки",
+                    "amount": 10,
+                    "materialCost": 50,
+                    "limit": 10
+                }
+            ]
+        },    
+        {
+            "fractionId": 6,
+            "fractionName": "УМВД",
+			"repositoryPickupWorld": 6,
+			"repositoryPickupCoords": [-1099.9201, 1523.5153, 1499.9459],
+            "weaponAndMaterials": [
+                {
+                    "order": 1,
+                    "typeId": 5,
+                    "itemId": 3,
+                    "name": "Дубинка",
+                    "amount": 1,
+                    "fillAmmo": 0,
+                    "materialCost": 25,
+                    "limit": 1
+                },
+                {
+                    "order": 2,
+                    "typeId": 5,
+                    "itemId": 23,
+                    "name": "Шокер",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 100,
+                    "limit": 1
+                },
+                {
+                    "order": 3,
+                    "typeId": 5,
+                    "itemId": 24,
+                    "name": "Боевой пистолет",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 50,
+                    "limit": 1
+                },
+                {
+                    "order": 4,
+                    "typeId": 5,
+                    "itemId": 25,
+                    "name": "Помповый дробовик",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 75,
+                    "limit": 1
+                },
+                {
+                    "order": 5,
+                    "typeId": 5,
+                    "itemId": 30,
+                    "name": "Автоматическая винтовка",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 100,
+                    "limit": 1
+                },
+                {
+                    "order": 6,
+                    "typeId": 5,
+                    "itemId": 33,
+                    "name": "Охотничая винтовка",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 125,
+                    "limit": 1
+                },
+                {
+                    "order": 1,
+                    "typeId": 6,
+                    "itemId": 1,
+                    "name": "Патроны для пистолета",
+                    "amount": 25,
+                    "materialCost": 50,
+                    "limit": 4
+                },
+                {
+                    "order": 2,
+                    "typeId": 6,
+                    "itemId": 2,
+                    "name": "Патроны для дробовика",
+                    "amount": 12,
+                    "materialCost": 36,
+                    "limit": 8
+                },
+                {
+                    "order": 3,
+                    "typeId": 6,
+                    "itemId": 3,
+                    "name": "Патроны для автомата",
+                    "amount": 30,
+                    "materialCost": 60,
+                    "limit": 6
+                },
+                {
+                    "order": 4,
+                    "typeId": 6,
+                    "itemId": 4,
+                    "name": "Патроны для винтовки",
+                    "amount": 10,
+                    "materialCost": 50,
+                    "limit": 10
+                }
+            ]
+        },   
+        {
+            "fractionId": 11,
+            "fractionName": "ФСИН",
+			"repositoryPickupWorld": 0,
+			"repositoryPickupCoords": [-1877.9743, -2735.0605, 7.5845],
+            "weaponAndMaterials": [
+                {
+                    "order": 1,
+                    "typeId": 5,
+                    "itemId": 3,
+                    "name": "Дубинка",
+                    "amount": 1,
+                    "fillAmmo": 0,
+                    "materialCost": 25,
+                    "limit": 1
+                },
+                {
+                    "order": 2,
+                    "typeId": 5,
+                    "itemId": 24,
+                    "name": "Боевой пистолет",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 50,
+                    "limit": 1
+                },
+                {
+                    "order": 3,
+                    "typeId": 5,
+                    "itemId": 25,
+                    "name": "Помповый дробовик",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 75,
+                    "limit": 1
+                },
+                {
+                    "order": 4,
+                    "typeId": 5,
+                    "itemId": 30,
+                    "name": "Автоматическая винтовка",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 100,
+                    "limit": 1
+                },
+                {
+                    "order": 5,
+                    "typeId": 5,
+                    "itemId": 33,
+                    "name": "Охотничая винтовка",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 125,
+                    "limit": 1
+                },
+                {
+                    "order": 6,
+                    "typeId": 5,
+                    "itemId": 34,
+                    "name": "Снайперская винтовка",
+                    "amount": 1,
+                    "fillAmmo": 1,
+                    "materialCost": 450,
+                    "limit": 1
+                },
+                {
+                    "order": 1,
+                    "typeId": 6,
+                    "itemId": 1,
+                    "name": "Патроны для пистолета",
+                    "amount": 25,
+                    "materialCost": 50,
+                    "limit": 4
+                },
+                {
+                    "order": 2,
+                    "typeId": 6,
+                    "itemId": 2,
+                    "name": "Патроны для дробовика",
+                    "amount": 12,
+                    "materialCost": 36,
+                    "limit": 8
+                },
+                {
+                    "order": 3,
+                    "typeId": 6,
+                    "itemId": 3,
+                    "name": "Патроны для автомата",
+                    "amount": 30,
+                    "materialCost": 60,
+                    "limit": 6
+                },
+                {
+                    "order": 4,
+                    "typeId": 6,
+                    "itemId": 4,
+                    "name": "Патроны для винтовки",
+                    "amount": 10,
+                    "materialCost": 50,
+                    "limit": 10
+                }
+            ]
+        }    
+    ],
+    "equipment": [
+        {
+            "fractionId": 2,
+            "fractionName": "Армия",
+			"equipmentPickupWorld": -1,
+			"equipmentPickupCoords": [1800.9984, 1728.0009, 1493.0397],
+            "equipmentList": [
+                {
+                    "equipmentId": 1,
+                    "modelId": 2641,
+                    "name": "Маска",
+                    "materialNumber": 50
+                },
+                {
+                    "equipmentId": 2,
+                    "name": "Бронежилет",
+                    "materialNumber": 50,
+                    "armour": 100
+                }
+            ]
+        },
+        {
+            "fractionId": 1,
+            "fractionName": "Правительство",
+			"equipmentPickupWorld": 21,
+			"equipmentPickupCoords": [-872.424, -1589.15, 1398.5],
+            "equipmentList": [
+                {
+                    "equipmentId": 1,
+                    "modelId": 2641,
+                    "name": "Маска",
+                    "materialNumber": 50
+                },
+                {
+                    "equipmentId": 2,
+                    "name": "Бронежилет",
+                    "materialNumber": 50,
+                    "armour": 100
+                }
+            ]
+        },
+        {
+            "fractionId": 7,
+            "fractionName": "ФСБ",
+			"equipmentPickupWorld": 17,
+			"equipmentPickupCoords": [2913.74, 2009.96, 2051.0],
+            "equipmentList": [
+                {
+                    "equipmentId": 1,
+                    "modelId": 2641,
+                    "name": "Маска",
+                    "materialNumber": 50
+                },
+                {
+                    "equipmentId": 2,
+                    "name": "Бронежилет",
+                    "materialNumber": 50,
+                    "armour": 100
+                }
+            ]
+        },
+        {
+            "fractionId": 5,
+            "fractionName": "ГИБДД",
+			"equipmentPickupWorld": 5,
+			"equipmentPickupCoords": [-1103.6005, 1524.2557, 1499.9459],
+            "equipmentList": [
+                {
+                    "equipmentId": 1,
+                    "modelId": 2641,
+                    "name": "Маска",
+                    "materialNumber": 50
+                },
+                {
+                    "equipmentId": 2,
+                    "name": "Бронежилет",
+                    "materialNumber": 50,
+                    "armour": 100
+                },
+                {
+                    "equipmentId": 5,
+                    "modelId": 32144,
+                    "name": "Мегафон",
+                    "materialNumber": 50
+                },
+                {
+                    "equipmentId": 6,
+                    "modelId": 213,
+                    "name": "Стационарный радар",
+                    "materialNumber": 100
+                },
+                {
+                    "equipmentId": 7,
+                    "modelId": 47,
+                    "name": "Ручной радар",
+                    "materialNumber": 100
+                }
+            ]
+        },
+        {
+            "fractionId": 6,
+            "fractionName": "УМВД",
+			"equipmentPickupWorld": 6,
+			"equipmentPickupCoords": [-1103.6005, 1524.2557, 1499.9459],
+            "equipmentList": [
+                {
+                    "equipmentId": 1,
+                    "modelId": 2641,
+                    "name": "Маска",
+                    "materialNumber": 50
+                },
+                {
+                    "equipmentId": 2,
+                    "name": "Бронежилет",
+                    "materialNumber": 50,
+                    "armour": 100
+                }
+            ]
+        },
+        {
+            "fractionId": 11,
+            "fractionName": "ФСИН",
+			"equipmentPickupWorld": 0,
+			"equipmentPickupCoords": [-1877.7003, -2725.5581, 8.5846],
+            "equipmentList": [
+                {
+                    "equipmentId": 1,
+                    "modelId": 2641,
+                    "name": "Маска",
+                    "materialNumber": 50
+                },
+                {
+                    "equipmentId": 2,
+                    "name": "Бронежилет",
+                    "materialNumber": 50,
+                    "armour": 100
+                }
+            ]
+        }
+    ]
+  }

@@ -1,0 +1,24 @@
+﻿{
+"blackjack": 
+				{
+"award": {"awardId": 23, "count": 100},
+"limit": 300
+				},
+"durak": 
+				{
+"award": {"awardId": 23, "count": 100},
+"limit": 300
+				},
+"dice": 
+				{
+"award": {"awardId": 23, "count": 100},
+"limit": 300
+				},							
+
+"hints": [
+        {
+            "id"     : 1,
+            "comment": "клиентское уведомление, когда игрок получил ивентовую валюту",
+            "text"   : "Ты получил %d %s"
+        }]
+}

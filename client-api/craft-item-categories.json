@@ -1,0 +1,24 @@
+﻿{
+  "categories": [
+    {
+      "categoryId": 1,
+      "categoryName": "Компоненты",
+      "iconCDN": "ic_category_res.png"
+    },
+    {
+      "categoryId": 2,
+      "categoryName": "Аксессуары",
+      "iconCDN": "ic_category_acc.png"
+    },
+    {
+      "categoryId": 3,
+      "categoryName": "Одежда",
+      "iconCDN": "ic_category_skin.png"
+    },
+    {
+      "categoryId": 4,
+      "categoryName": "Транспорт",
+      "iconCDN": "ic_category_veh.png"
+    }
+  ]
+}

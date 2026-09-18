@@ -1,0 +1,293 @@
+﻿{
+  "awardsTypes": [
+    {
+      "id": 1,
+      "name": "Игровой опыт",
+      "image": [
+        "ic_exp.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Игровая валюта",
+      "image": [
+        "ic_prize_money.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Black Coins",
+      "image": [
+        "ic_prize_bc.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Кейс",
+      "image": [
+        "img_case_daily.png",
+        "img_case_bomj.png",
+        "img_case_standart.png",
+        "img_case_auto.png",
+        "img_case_special.png",
+        "img_case_event1.png",
+        "img_case_event2.png",
+        "img_case_event3.png",
+        "img_case_event4.png",
+        "img_case_event5.png",
+        "img_case_event6.png",
+        "img_case_event7.png",
+        "img_case_event8.png",
+        "img_case_event9.png",
+        "img_case_event10.png",
+        "img_case_event11.png",
+        "img_case_event12.png",
+        "img_case_event13.png",
+        "img_case_event14.png",
+        "img_case_event15.png",
+        "img_case_event16.png",
+        "img_case_event17.png",
+        "img_case_event18.png",
+        "img_case_event19.png",
+        "img_case_auto_time_limited.png",
+        "img_case_race_ticket.png",
+        "img_case_time_limited_auto_common.png",
+        "img_case_time_limited_auto_expensive.png",
+        "img_case_event20.png",
+        "img_case_event21.png",
+        "img_case_event22.png",
+        "img_case_event23.png",
+        "img_case_event24.png",
+        "img_case_event25.png",
+        "img_case_event26.png"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Транспорт",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Набор",
+      "image": [
+        "ic_pack.svg"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Семейные токены",
+      "image": [
+        "ic_family_coin.svg"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "X2 купон",
+      "image": [
+        "ic_coupon_x2.svg"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "VIP",
+      "image": [
+        "img_silver_vip.png",
+        "img_gold_vip.png",
+        "img_platinum_vip.png"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Очки сезона",
+      "image": [
+        "ic_bpexp.png"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Предмет в инвентаре",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Сила",
+      "image": [
+        "ic_powers.svg"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Сабвуфер",
+      "image": [
+        "ic_sub.svg"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Армейский билет",
+      "image": [
+        "ic_military_pass.svg"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Дополнительный слот на авто",
+      "image": [
+        "ic_car_slot.svg"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Все лицензии",
+      "image": [
+        "ic_license_all.svg"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Медицинская карта",
+      "image": [
+        "ic_coupon_med.svg"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "E-Points",
+      "image": [
+        "ic_e_points.svg"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Donate Coupon",
+      "image": [
+        "ic_coupon_free.svg"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Скидка",
+      "image": [
+        "ic_coupon_sale.svg"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Пыль",
+      "image": [
+        "ic_dust.svg"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Законопослушность",
+      "image": [
+        "ic_law_up.svg"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Фишки",
+      "image": [
+        "img_event_res_cases.png"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Звуковой комплект",
+      "image": [
+        "img_case_daily.png"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Права категории B",
+      "image": [
+        "ic_carlicense_b.svg"
+        
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Аватар",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Рамка",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Фон",
+      "image": [
+        ""
+      ]
+    },
+        {
+      "id": 29,
+      "name": "Входной билет",
+      "image": [
+        "ic_coupon_sale.svg"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Оружие",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Патроны",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Опыт гонщика",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Жетон гонщика",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Билет гонщика",
+      "image": [
+        "img_race_ticket.png"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Очки рейтинга",
+      "image": [
+        ""
+      ]
+    },
+    {
+      "id": 36,
+      "name": "ПРОМО-КОД: TANKS BLITZ",
+      "image": [
+        "img_promo_antimilitary2.png"
+      ]
+    }
+  ]
+}

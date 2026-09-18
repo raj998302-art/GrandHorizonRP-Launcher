@@ -1,0 +1,846 @@
+﻿{
+  "progressionRibbons": {
+    "seasons": [
+      {
+        "seasonId": 4,
+        "raceRibbons": [
+          {
+            "ribbonType": "raceSeason",
+            "textTitle": "Кубок Шторма. Червертый сезон",
+            "textInformation": "Обменивай [color=#FFFF00]Билеты гонщика[/color] на [color=#2196F3]EXP[/color] в конце каждого заезда, чтобы заполнять ленту и получать [color=#FFFF00]награды[/color]. После финальной награды откроется повторяющаяся — продолжай зарабатывать [color=#2196F3]EXP[/color] и забирай [color=#FFFF00]Автокейс 3.0[/color]",
+            "textInformationAdditional": "",
+            "expId": 32,
+            "levels": [
+              {
+                "levelId": 1,
+                "expRequired": 100,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "VIP SILVER 4Ч.",
+                  "type": 9,
+                  "internalId": 1,
+                  "count": 4,
+                  "imageName": "img_silver_vip.png"
+                }
+              },
+              {
+                "levelId": 2,
+                "expRequired": 200,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "3 EXP",
+                  "type": 1,
+                  "internalId": 0,
+                  "count": 3,
+                  "imageName": "ic_exp.png"
+                }
+              },
+              {
+                "levelId": 3,
+                "expRequired": 300,
+                "award": {
+                  "size": 4,
+                  "backgroundType": 2,
+                  "rarity": 2,
+                  "name": "Ежедневный кейс X3",
+                  "type": 4,
+                  "internalId": 1,
+                  "count": 3,
+                  "imageName": "img_case_daily.png"
+                }
+              },
+              {
+                "levelId": 4,
+                "expRequired": 400,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "30000 ₽",
+                  "type": 2,
+                  "internalId": 1,
+                  "count": 30000,
+                  "imageName": "ic_prize_money.png"
+                }
+              },
+              {
+                "levelId": 5,
+                "expRequired": 500,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "ПЫЛЬ X5",
+                  "type": 21,
+                  "internalId": 1,
+                  "count": 5,
+                  "imageName": "img_dust.png"
+                }
+              },
+              {
+                "levelId": 6,
+                "expRequired": 600,
+                "award": {
+                  "size": 4,
+                  "backgroundType": 2,
+                  "rarity": 2,
+                  "name": "Ежедневный кейс X3",
+                  "type": 4,
+                  "internalId": 1,
+                  "count": 3,
+                  "imageName": "img_case_daily.png"
+                }
+              },
+              {
+                "levelId": 7,
+                "expRequired": 700,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "5 EXP",
+                  "type": 1,
+                  "internalId": 0,
+                  "count": 5,
+                  "imageName": "ic_exp.png"
+                }
+              },
+              {
+                "levelId": 8,
+                "expRequired": 800,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "50000 ₽",
+                  "type": 2,
+                  "internalId": 1,
+                  "count": 50000,
+                  "imageName": "ic_prize_money.png"
+                }
+              },
+              {
+                "levelId": 9,
+                "expRequired": 900,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "VIP GOLD 12Ч.",
+                  "type": 9,
+                  "internalId": 2,
+                  "count": 12,
+                  "imageName": "img_gold_vip.png"
+                }
+              },
+              {
+                "levelId": 10,
+                "expRequired": 1100,
+                "award": {
+                  "size": 4,
+                  "backgroundType": 2,
+                  "rarity": 2,
+                  "name": "Кейс бомжа X1",
+                  "type": 4,
+                  "internalId": 2,
+                  "count": 1,
+                  "imageName": "img_case_bomj.png"
+                }
+              },
+              {
+                "levelId": 11,
+                "expRequired": 1300,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "ПЫЛЬ 10",
+                  "type": 21,
+                  "internalId": 1,
+                  "count": 10,
+                  "imageName": "img_dust.png"
+                }
+              },
+              {
+                "levelId": 12,
+                "expRequired": 1500,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "5 EXP",
+                  "type": 1,
+                  "internalId": 0,
+                  "count": 5,
+                  "imageName": "ic_exp.png"
+                }
+              },
+              {
+                "levelId": 13,
+                "expRequired": 1700,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 2,
+                  "name": "50000 ₽",
+                  "type": 2,
+                  "internalId": 1,
+                  "count": 50000,
+                  "imageName": "ic_prize_money.png"
+                }
+              },
+              {
+                "levelId": 14,
+                "expRequired": 1900,
+                "award": {
+                  "size": 4,
+                  "backgroundType": 2,
+                  "rarity": 2,
+                  "name": "Ежедневный кейс X5",
+                  "type": 4,
+                  "internalId": 1,
+                  "count": 5,
+                  "imageName": "img_case_daily.png"
+                }
+              },
+              {
+                "levelId": 15,
+                "expRequired": 2100,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 2,
+                  "name": "VIP PLATINUM 12Ч.",
+                  "type": 9,
+                  "internalId": 3,
+                  "count": 12,
+                  "imageName": "img_platinum_vip.png"
+                }
+              },
+              {
+                "levelId": 16,
+                "expRequired": 2300,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 2,
+                  "name": "50000 ₽",
+                  "type": 2,
+                  "internalId": 1,
+                  "count": 50000,
+                  "imageName": "ic_prize_money.png"
+                }
+              },
+              {
+                "levelId": 17,
+                "expRequired": 2500,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "10 BC",
+                  "type": 3,
+                  "internalId": 1,
+                  "count": 10,
+                  "imageName": "img_BC.png"
+                }
+              },
+              {
+                "levelId": 18,
+                "expRequired": 2800,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "ПЫЛЬ X10",
+                  "type": 21,
+                  "internalId": 1,
+                  "count": 10,
+                  "imageName": "img_dust.png"
+                }
+              },
+              {
+                "levelId": 19,
+                "expRequired": 3100,
+                "award": {
+                  "size": 4,
+                  "backgroundType": 2,
+                  "rarity": 2,
+                  "name": "Кейс бомжа X1",
+                  "type": 4,
+                  "internalId": 2,
+                  "count": 1,
+                  "imageName": "img_case_bomj.png"
+                }
+              },
+              {
+                "levelId": 20,
+                "expRequired": 3400,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "VIP GOLD 72Ч.",
+                  "type": 9,
+                  "internalId": 2,
+                  "count": 72,
+                  "imageName": "img_gold_vip.png"
+                }
+              },
+              {
+                "levelId": 21,
+                "expRequired": 3700,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "15 BC",
+                  "type": 3,
+                  "internalId": 1,
+                  "count": 15,
+                  "imageName": "img_BC.png"
+                }
+              },
+              {
+                "levelId": 22,
+                "expRequired": 4000,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 2,
+                  "name": "50000 ₽",
+                  "type": 2,
+                  "internalId": 1,
+                  "count": 50000,
+                  "imageName": "ic_prize_money.png"
+                }
+              },
+              {
+                "levelId": 23,
+                "expRequired": 4300,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "10 EXP",
+                  "type": 1,
+                  "internalId": 0,
+                  "count": 10,
+                  "imageName": "ic_exp.png"
+                }
+              },
+              {
+                "levelId": 24,
+                "expRequired": 4600,
+                "award": {
+                  "size": 4,
+                  "backgroundType": 2,
+                  "rarity": 2,
+                  "name": "Ежедневный кейс X5",
+                  "type": 4,
+                  "internalId": 1,
+                  "count": 5,
+                  "imageName": "img_case_daily.png"
+                }
+              },
+              {
+                "levelId": 25,
+                "expRequired": 5000,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 2,
+                  "name": "50000 ₽",
+                  "type": 2,
+                  "internalId": 1,
+                  "count": 50000,
+                  "imageName": "ic_prize_money.png"
+                }
+              },
+              {
+                "levelId": 26,
+                "expRequired": 5400,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "X2 НА 24ч",
+                  "type": 8,
+                  "internalId": 0,
+                  "count": 24,
+                  "imageName": "img_coupon_x2.png"
+                }
+              },
+              {
+                "levelId": 27,
+                "expRequired": 5800,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "ПЫЛЬ X10",
+                  "type": 21,
+                  "internalId": 1,
+                  "count": 10,
+                  "imageName": "img_dust.png"
+                }
+              },
+              {
+                "levelId": 28,
+                "expRequired": 6200,
+                "award": {
+                  "size": 4,
+                  "backgroundType": 2,
+                  "rarity": 2,
+                  "name": "Кейс бомжа X3",
+                  "type": 4,
+                  "internalId": 2,
+                  "count": 3,
+                  "imageName": "img_case_bomj.png"
+                }
+              },
+              {
+                "levelId": 29,
+                "expRequired": 6600,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "10 EXP",
+                  "type": 1,
+                  "internalId": 0,
+                  "count": 10,
+                  "imageName": "ic_exp.png"
+                }
+              },
+              {
+                "levelId": 30,
+                "expRequired": 7000,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "75000 ₽",
+                  "type": 2,
+                  "internalId": 1,
+                  "count": 75000,
+                  "imageName": "ic_prize_money.png"
+                }
+              },
+              {
+                "levelId": 31,
+                "expRequired": 7400,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "15 BC",
+                  "type": 3,
+                  "internalId": 1,
+                  "count": 15,
+                  "imageName": "img_BC.png"
+                }
+              },
+              {
+                "levelId": 32,
+                "expRequired": 7800,
+                "award": {
+                  "size": 4,
+                  "backgroundType": 2,
+                  "rarity": 4,
+                  "name": "СТАНДАРТНЫЙ КЕЙС X1",
+                  "type": 4,
+                  "internalId": 3,
+                  "count": 1,
+                  "imageName": "img_case_standart.png"
+                }
+              },
+              {
+                "levelId": 33,
+                "expRequired": 8300,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "ПЫЛЬ X10",
+                  "type": 21,
+                  "internalId": 1,
+                  "count": 10,
+                  "imageName": "img_dust.png"
+                }
+              },
+              {
+                "levelId": 34,
+                "expRequired": 8800,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "X2 НА 24ч",
+                  "type": 8,
+                  "internalId": 0,
+                  "count": 24,
+                  "imageName": "img_coupon_x2.png"
+                }
+              },
+              {
+                "levelId": 35,
+                "expRequired": 9300,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "12 EXP",
+                  "type": 1,
+                  "internalId": 0,
+                  "count": 12,
+                  "imageName": "ic_exp.png"
+                }
+              },
+              {
+                "levelId": 36,
+                "expRequired": 9800,
+                "award": {
+                  "size": 2,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "1000 BP EXP",
+                  "type": 10,
+                  "internalId": 0,
+                  "count": 1000,
+                  "imageName": "ic_bpexp.png"
+                }
+              },
+              {
+                "levelId": 37,
+                "expRequired": 10300,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 2,
+                  "name": "VIP PLATINUM 24Ч.",
+                  "type": 9,
+                  "internalId": 3,
+                  "count": 24,
+                  "imageName": "img_platinum_vip.png"
+                }
+              },
+              {
+                "levelId": 38,
+                "expRequired": 10800,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "75000 ₽",
+                  "type": 2,
+                  "internalId": 1,
+                  "count": 75000,
+                  "imageName": "ic_prize_money.png"
+                }
+              },
+              {
+                "levelId": 39,
+                "expRequired": 11300,
+                "award": {
+                  "size": 4,
+                  "backgroundType": 2,
+                  "rarity": 4,
+                  "name": "Subaru Levorg",
+                  "nameStore": "Siberia LevG",
+                  "type": 5,
+                  "internalId": 354,
+                  "count": 0,
+                  "subcount": 271,
+                  "imageName": "veh_678.png"
+                }
+              },
+              {
+                "levelId": 40,
+                "expRequired": 11800,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 3,
+                  "name": "ПЫЛЬ X10",
+                  "type": 21,
+                  "internalId": 1,
+                  "count": 10,
+                  "imageName": "img_dust.png"
+                }
+              },
+              {
+                "levelId": 41,
+                "expRequired": 12300,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "20 EXP",
+                  "type": 1,
+                  "internalId": 0,
+                  "count": 20,
+                  "imageName": "ic_exp.png"
+                }
+              },
+              {
+                "levelId": 42,
+                "expRequired": 12800,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "X2 НА 24ч",
+                  "type": 8,
+                  "internalId": 0,
+                  "count": 24,
+                  "imageName": "img_coupon_x2.png"
+                }
+              },
+              {
+                "levelId": 43,
+                "expRequired": 13300,
+                "award": {
+                  "size": 4,
+                  "backgroundType": 2,
+                  "rarity": 4,
+                  "name": "СТАНДАРТНЫЙ КЕЙС X1",
+                  "type": 4,
+                  "internalId": 3,
+                  "count": 1,
+                  "imageName": "img_case_standart.png"
+                }
+              },
+              {
+                "levelId": 44,
+                "expRequired": 13800,
+                "award": {
+                  "size": 2,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "2000 BP EXP",
+                  "type": 10,
+                  "internalId": 0,
+                  "count": 2000,
+                  "imageName": "ic_bpexp.png"
+                }
+              },
+              {
+                "levelId": 45,
+                "expRequired": 14300,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 2,
+                  "name": "VIP PLATINUM 7Д.",
+                  "type": 9,
+                  "internalId": 3,
+                  "count": 168,
+                  "imageName": "img_platinum_vip.png"
+                }
+              },
+              {
+                "levelId": 46,
+                "expRequired": 14800,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 3,
+                  "name": "200000 ₽",
+                  "type": 2,
+                  "internalId": 1,
+                  "count": 200000,
+                  "imageName": "ic_prize_money.png"
+                }
+              },
+              {
+                "levelId": 47,
+                "expRequired": 15600,
+                "award": {
+                  "size": 4,
+                  "backgroundType": 2,
+                  "rarity": 4,
+                  "name": "КЕЙС: ТУЗ X1",
+                  "type": 4,
+                  "internalId": 34,
+                  "count": 1,
+                  "imageName": "img_case_event25.png"
+                }
+              },
+              {
+                "levelId": 48,
+                "expRequired": 16400,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "20 EXP",
+                  "type": 1,
+                  "internalId": 0,
+                  "count": 20,
+                  "imageName": "ic_exp.png"
+                }
+              },
+              {
+                "levelId": 49,
+                "expRequired": 17200,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 3,
+                  "name": "ПЫЛЬ X50",
+                  "type": 21,
+                  "internalId": 1,
+                  "count": 50,
+                  "imageName": "img_dust.png"
+                }
+              },
+              {
+                "levelId": 50,
+                "expRequired": 18000,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "20 BC",
+                  "type": 3,
+                  "internalId": 1,
+                  "count": 20,
+                  "imageName": "img_BC.png"
+                }
+              },
+              {
+                "levelId": 51,
+                "expRequired": 19000,
+                "award": {
+                  "size": 2,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "3000 BP EXP",
+                  "type": 10,
+                  "internalId": 0,
+                  "count": 3000,
+                  "imageName": "ic_bpexp.png"
+                }
+              },
+              {
+                "levelId": 52,
+                "expRequired": 20000,
+                "award": {
+                  "size": 4,
+                  "backgroundType": 2,
+                  "rarity": 5,
+                  "name": "Chevrolet Corvette C8",
+                  "nameStore": "Cornet C8",
+                  "type": 5,
+                  "internalId": 326,
+                  "count": 0,
+                  "subcount": 270,
+                  "imageName": "veh_2393.png"
+                }
+              },
+              {
+                "levelId": 53,
+                "expRequired": 5000,
+                "award": {
+                  "size": 4,
+                  "backgroundType": 2,
+                  "rarity": 4,
+                  "name": "АВТО-КЕЙС 3.0 X1",
+                  "type": 4,
+                  "internalId": 25,
+                  "count": 1,
+                  "imageName": "img_case_auto_time_limited.png"
+                }
+              }
+            ]
+          },
+          {
+            "ribbonType": "raceWeekly",
+            "textTitle": "Недельная цепочка наград",
+            "textInformation": "Каждую неделю цепочка наград сбрасывается и ты можешь пройти её заново. Чтобы получить [color=#2196F3]EXP[/color], используй [color=#FFFF00]Билет гонщика[/color] в конце заезда, Чем больше [color=#2196F3]EXP[/color] — тем дальше продвигаешься по цепочке и тем больше наград забираешь",
+            "textInformationAdditional": "",
+            "resetTime": 604800,
+            "expId": 32,
+            "levels": [
+              {
+                "levelId": 1,
+                "expRequired": 200,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 2,
+                  "name": "Билет Гонщика X2",
+                  "type": 34,
+                  "internalId": 0,
+                  "count": 2,
+                  "imageName": "img_race_ticket.png"
+                }
+              },
+              {
+                "levelId": 2,
+                "expRequired": 400,
+                "award": {
+                  "size": 2,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "Кейс бомжа X1",
+                  "type": 4,
+                  "internalId": 2,
+                  "count": 1,
+                  "imageName": "img_case_bomj.png"
+                }
+              },
+              {
+                "levelId": 3,
+                "expRequired": 600,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "VIP GOLD 72Ч.",
+                  "type": 9,
+                  "internalId": 2,
+                  "count": 72,
+                  "imageName": "img_gold_vip.png"
+                }
+              },
+              {
+                "levelId": 4,
+                "expRequired": 800,
+                "award": {
+                  "size": 2,
+                  "backgroundType": 1,
+                  "rarity": 1,
+                  "name": "1000 BP EXP",
+                  "type": 10,
+                  "internalId": 0,
+                  "count": 1000,
+                  "imageName": "ic_bpexp.png"
+                }
+              },
+              {
+                "levelId": 5,
+                "expRequired": 1000,
+                "award": {
+                  "size": 3,
+                  "backgroundType": 1,
+                  "rarity": 3,
+                  "name": "Билет Гонщика X3",
+                  "type": 34,
+                  "internalId": 0,
+                  "count": 3,
+                  "imageName": "img_race_ticket.png"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

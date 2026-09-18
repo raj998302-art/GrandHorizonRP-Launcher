@@ -1,0 +1,88 @@
+﻿{
+    "ammo": [
+            {
+            "id": 1,
+            "name": "Патроны для пистолета",
+            "modelId": 100133,
+            "image": "img_100133.png",
+            "stackInventory": 50,
+            "stackStorage": 200,
+            "frags": 1
+        },
+        {
+            "id": 2,
+            "name": "Патроны для дробовика",
+            "modelId": 100134,
+            "image": "img_100134.png",
+            "stackInventory": 24,
+            "stackStorage": 96,
+            "frags": 1
+        },
+        {
+            "id": 3,
+            "name": "Патроны для автомата",
+            "modelId": 100135,
+            "image": "img_100135.png",
+            "stackInventory": 60,
+            "stackStorage": 240,
+            "frags": 1
+        },
+        {
+            "id": 4,
+            "name": "Патроны для винтовки",
+            "modelId": 100136,
+            "image": "img_100136.png",
+            "stackInventory": 20,
+            "stackStorage": 80,
+            "frags": 1
+        },
+        {
+            "id": 5,
+            "name": "Заряды гранатомета",
+            "stackInventory": 1,
+            "stackStorage": 3,
+            "frags": 1
+        },
+        {
+            "id": 6,
+            "name": "Заряды шокера",
+            "stackInventory": 10,
+            "stackStorage": 10,
+            "frags": 1
+        },
+        {
+            "id": 7,
+            "name": "Заряды бластера",
+            "modelId": 375,
+            "image": "img_375.png",
+            "stackInventory": 600,
+            "stackStorage": 600,
+            "frags": 1
+        }
+    ],
+    "equipment": [
+        {
+            "id": 1,
+            "name": "Бронежилет",
+            "modelId": 373,
+            "image": "img_373.png",
+            "armourAmount": 100,
+            "stackInventory": 1,
+            "stackStorage": 1
+        },
+        {
+            "id": 2,
+            "name": "Маска",
+            "modelId": 100001,
+            "image": "img_100001.png",
+            "stackInventory": 3,
+            "stackStorage": 3
+        },
+        {
+            "id": 3,
+            "name": "Стационарный радар",
+            "modelId": 32154,
+            "image": "img_32154.png"
+        }
+    ]
+}

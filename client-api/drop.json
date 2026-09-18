@@ -1,0 +1,175 @@
+﻿{
+  "npc": {
+    "modelId"        : 5500142,
+    "gpsName"        : "Дроп подарков",
+    "rulesId"        : 28,
+    "labelWaiting"   : "Хозяин Удачи - {FFFF00}Дроп подарков\n{FFFFFF}Следующий {FFFF00}дроп через %s",
+    "labelCollecting": "Хозяин Удачи - {FFFF00}Дроп подарков\n{FFFFFF}Сбор игроков {FFFF00}%s",
+    "labelActive"    : "Хозяин Удачи - {FFFF00}Дроп подарков\n{FFFFFF}Дроп идет! {FFFF00}Осталось %s",
+    "noCollision"    : {"isEnabled": true, "radius": 30},
+    "positions"      : [
+      [  -95.6 ,   833.05, 15.2 , 304.0],
+      [ 2742.69, -2465.75, 21.83, 358.0],
+      [-2400.47,   206.34, 26.14,  92.0],
+      [-2172.76,  1555.97,  9.88, 270.0],
+      [-2660.73,  1974.51,  4.55,  10.0],
+      [  840.46,   818.81, 13.2 , 209.0],
+      [ 1793.23,  2541.65, 14.75, 194.0]
+    ],
+    "cameraPos"      : [
+      [  -90.89,   830.21, 16.0 ],
+      [ 2744.33, -2464.32, 22.5 ],
+      [-2402.50,   207.85, 27.00],
+      [-2171.30,  1554.26, 10.20],
+      [-2659.32,  1975.68,  5.00],
+      [  843.35,   819.21, 14.0 ],
+      [ 1794.81,  2540.49, 15.0 ]
+    ],
+    "cameraLookAt"   : [
+      [  -94.53,   833.98, 15.2 ],
+      [ 2742.67, -2465.44, 22.0 ],
+      [-2400.70,   206.05, 26.50],
+      [-2172.26,  1556.03, 10.00],
+      [-2660.57,  1975.00,  5.00],
+      [  840.97,   818.3 , 13.5 ],
+      [ 1793.40,  2541.06, 15.0 ]
+    ]
+  },
+  "dialogs": [
+    {
+      "id": 1,
+      "title": "Хозяин Удачи",
+      "comment": "диалог 1 из ТЗ - дроп не запущен",
+      "text": "Эй, ты! Да-да, ты! Не проходи мимо! Ты знаешь, что деньги могут сыпаться с неба?! Хах, а они могут! И будут! Приходи в назначенное место вовремя - и они сами упадут тебе в руки! Только не забудь поблагодарить за щедрость владельцев Кристалла!",
+      "speaker": {"type": "npc", "skin": 5500142},
+      "sound": "Event/hoz_udachi_info-001.ogg",
+      "buttons": [
+        {"key": 2, "type": "gray", "content": "Правила"},
+        {"key": 3, "type": "red",  "content": "Закрыть"}
+      ],
+      "is_last": true
+    },
+    {
+      "id": 2,
+      "title": "Хозяин Удачи",
+      "comment": "диалог 2 из ТЗ - идет сбор игроков",
+      "text": "Эээээй! Не зевай! Все уже ломанулись за своим богатством, а ты чего ждешь?! Я подскажу, куда надо ехать. Давай быстрее! Чем вас больше соберется - тем больше будут награды!",
+      "speaker": {"type": "npc", "skin": 5500142},
+      "sound": "Event/hoz_udachi_info-002.ogg",
+      "buttons": [
+        {"key": 1, "type": "green", "content": "Маршрут"},
+        {"key": 2, "type": "gray",  "content": "Правила"},
+        {"key": 3, "type": "red",   "content": "Закрыть"}
+      ],
+      "is_last": true
+    },
+    {
+      "id": 3,
+      "title": "Хозяин Удачи",
+      "comment": "диалог 3 из ТЗ - дроп идет, лимит не достигнут",
+      "text": "Тебе что, совсем деньги не нужны? Они прямо сейчас с неба падают, а ты тут стоишь! Беги, пока все не расхватали! <br><br>Дроп идет прямо сейчас! Поспеши!",
+      "speaker": {"type": "npc", "skin": 5500142},
+      "sound": "Event/hoz_udachi_info-003.ogg",
+      "buttons": [
+        {"key": 1, "type": "green", "content": "Маршрут"},
+        {"key": 2, "type": "gray",  "content": "Правила"},
+        {"key": 3, "type": "red",   "content": "Закрыть"}
+      ],
+      "is_last": true
+    },
+    {
+      "id": 4,
+      "title": "Хозяин Удачи",
+      "comment": "диалог 4 из ТЗ - дроп идет, лимит достигнут",
+      "text": "Неплохо, очень даже неплохо! Вижу, ты своего не упустишь. Ну, значит, приходи, когда начнется следующий дроп.",
+      "speaker": {"type": "npc", "skin": 5500142},
+      "sound": "Event/hoz_udachi_info-004.ogg",
+      "buttons": [
+        {"key": 2, "type": "gray", "content": "Правила"},
+        {"key": 3, "type": "red",  "content": "Закрыть"}
+      ],
+      "is_last": true
+    }
+  ],
+  "awardLimitPerPlayer": 3,
+  "pickupModels": [100355, 100356, 100357],
+  "awards": [
+    {"id":  1, "awardId":  2, "rarity": 1, "internalId":  0, "count":  10000, "dropProb": 7500},
+    {"id":  2, "awardId":  5, "rarity": 2, "internalId":  80, "count":  0, "dropProb": 50},
+    {"id":  3, "awardId":  5, "rarity": 2, "internalId":  2, "count":  0, "dropProb": 50},
+    {"id":  4, "awardId":  5, "rarity": 2, "internalId":  13, "count":  0, "dropProb": 50},
+    {"id":  5, "awardId":  5, "rarity": 2, "internalId":  5, "count":  0, "dropProb": 50},
+    {"id":  6, "awardId":  5, "rarity": 2, "internalId":  490, "count":  0, "dropProb": 50},
+    {"id":  7, "awardId":  5, "rarity": 2, "internalId":  471, "count":  0, "dropProb": 50},
+    {"id":  8, "awardId": 3, "rarity": 3, "internalId":  0, "count":     50, "dropProb":  10},
+    {"id":  9, "awardId": 10, "rarity": 3, "internalId":  0, "count":    500, "dropProb":   10},
+    {"id":  10, "awardId": 4, "rarity": 3, "internalId":  26, "count":    1, "dropProb":   10},
+    {"id":  11, "awardId": 21, "rarity": 3, "internalId":  0, "count":    25, "dropProb":   20},
+    {"id":  12, "awardId": 21, "rarity": 4, "internalId":  0, "count":    50, "dropProb":   10},
+    {"id":  13, "awardId": 4, "rarity": 2, "internalId":  27, "count":    1, "dropProb":   1000},
+    {"id":  14, "awardId": 4, "rarity": 3, "internalId":  2, "count":    1, "dropProb":   50},
+    {"id":  15, "awardId": 4, "rarity": 2, "internalId":  28, "count":    1, "dropProb":   1000},
+    {"id":  16, "awardId": 4, "rarity": 4, "internalId":  3, "count":    1, "dropProb":   1},
+    {"id": 17, "awardId": 23, "rarity": 1, "internalId":  0, "count":    100, "dropProb": 1000},
+    {"id": 18, "awardId": 23, "rarity": 2, "internalId":  0, "count":    300, "dropProb":  50},
+    {"id": 19, "awardId": 23, "rarity": 4, "internalId":  0, "count":    500, "dropProb":  50},
+    {"id": 20, "awardId": 9, "rarity": 2, "internalId":  2, "count":    4, "dropProb":  1000},
+    {"id": 21, "awardId":  4, "rarity": 4, "internalId": 35, "count":      1, "dropProb":   1},
+    {"id": 22, "awardId":  4, "rarity": 4, "internalId": 34, "count":      1, "dropProb":   1}
+  ],
+  "bonusAwardsCountCoef": 2,
+  "bonusSpawnCoef": 1.5,
+  "chatMessages": [
+    {"id": 1, "text": "{FA8B52}Необходимое количество участников не набралось и дроп не состоялся. Удачи в следующий раз!"},
+    {"id": 2, "text": "{FA8B52}Дроп подарков начался! Поспеши принять участие! GPS --> Дроп"},
+    {"id": 3, "text": "{FA8B52}Стартовал улучшенный дроп подарков! Еще больше ценных призов! GPS --> Дроп"},
+    {
+      "id"  : 4,
+      "text": "{FA8B52}Дроп завершен, спасибо за участие! Узнай, когда будет следующий, у Хозяина Удачи. GPS --> Дроп"
+    },
+    {"id": 5, "text": "Собрано участников для {FA8B52}старта дропа %d / %d"}
+  ],
+  "clientHints": [
+    {"id": 1, "text": "Кто-то успел быстрее тебя и забрал приз."   },
+    {"id": 3, "text": "Ты уже собрал максимум наград за этот дроп."},
+    {"id": 4, "text": "Ты получил %s"                              }
+  ],
+  "dropZones": [
+    [-2865.85,    93.60, 14.5, 50.0],
+    [ -172.60,   459.1 , 13.0, 35.0],
+    [ 2383.25,   601.15, 25.9, 35.0],
+    [ 2046.84,  -899.59, 26.5, 35.0],
+    [ 2200.7 , -1934.3 , 17.4, 35.0]
+  ],
+  "minPlayers": 10,
+  "maxPlayers": 20,
+  "sideHintsButton": [
+    {
+      "comment": "боковая подсказка после окончания основного таймера - стартует сбор на локации",
+      "button" : "Отметить на карте",
+      "id"     : 1,
+      "title"  : "Сбор участников",
+      "text"   : "Соберите %d участников для старта %s"
+    }
+  ],
+  "sideHints": [
+    {
+      "comment": "боковая подсказка для игрока в зоне дропа",
+      "goal"   : 3,
+      "id"     : 2,
+      "text"   : "Дроп начался! Собрано призов"
+    },
+    {
+      "comment": "боковая подсказка для игрока в зоне дропа, лимит достигнут",
+      "goal"   : 3,
+      "id"     : 3,
+      "text"   : "Ты собрал максимум призов, ждем на следующий дроп."
+    }
+  ],
+  "spawnCount": 5,
+  "timerCollect": 300,
+  "timerDrop": 300,
+  "timerSpawnMin": 5,
+  "timerSpawnMax": 10,
+  "timerStart": 3000
+}

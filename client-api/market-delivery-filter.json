@@ -1,0 +1,28 @@
+﻿{
+  "filters": [
+    {
+      "color": "#FDFDFD",
+      "filterId": 1,
+      "filterName": "Все",
+      "iconCDN": "ic_all.svg"
+    },
+    {
+      "color": "#FDFDFD",
+      "filterId": 2,
+      "filterName": "Ресурсы",
+      "iconCDN": "ic_gear.svg"
+    },
+    {
+      "color": "#FDFDFD",
+      "filterId": 3,
+      "filterName": "Аксессуары",
+      "iconCDN": "ic_acces.svg"
+    },
+    {
+      "color": "#FDFDFD",
+      "filterId": 4,
+      "filterName": "Одежда",
+      "iconCDN": "ic_clothes.svg"
+    }
+  ]
+}

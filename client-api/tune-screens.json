@@ -1,0 +1,369 @@
+﻿[
+  {
+    "name": "Стайлинг центр",
+    "footer": [
+      {
+        "name": "Кузов",
+        "opensType": 0,
+        "names": [
+          {
+            "name": "Цвет кузова",
+            "opensType": 1,
+            "selectorId": 0,
+            "imageId": "t_color_body_icon"
+          },
+          {
+            "name": "Цвет дисков",
+            "opensType": 1,
+            "selectorId": 1,
+            "imageId": "t_color_disks_icon"
+          },
+          {
+            "name": "Винилы",
+            "opensType": 2,
+            "selectorId": 2,
+            "imageId": "t_vinyl_icon"
+          }
+        ]
+      },
+      {
+        "name": "Тонировка",
+        "opensType": 0,
+        "names": [
+          {
+            "name": "Тонировка передних стекол",
+            "opensType": 1,
+            "selectorId": 3,
+            "imageId": "t_toning_front_icon"
+          },
+          {
+            "name": "Тонировка задних стекол",
+            "opensType": 1,
+            "selectorId": 4,
+            "imageId": "t_toning_back_icon"
+          }
+        ]
+      },
+      {
+        "name": "Звуки",
+        "opensType": 0,
+        "names": [
+          {
+            "name": "Клаксон",
+            "opensType": 2,
+            "selectorId": 7,
+            "imageId": "t_horn_icon"
+          },
+          {
+            "name": "Звук выхлопа",
+            "opensType": 2,
+            "selectorId": 9,
+            "imageId": "t_exhaust_sound_icon"
+          }
+        ]
+      },
+      {
+        "name": "Свет",
+        "opensType": 0,
+        "names": [
+          {
+            "name": "Цвет фар",
+            "opensType": 1,
+            "selectorId": 10,
+            "imageId": "t_color_light_icon"
+          },
+          {
+            "name": "Цвет свечения под автомобилем",
+            "opensType": 1,
+            "selectorId": 11,
+            "imageId": "t_color_neon_icon"
+          },
+          {
+            "name": "Цвет свечения слева",
+            "opensType": 1,
+            "selectorId": 12,
+            "imageId": "t_color_neon_left_icon"
+          },
+          {
+            "name": "Цвет свечения справа",
+            "opensType": 1,
+            "selectorId": 13,
+            "imageId": "t_color_neon_right_icon"
+          },
+          {
+            "name": "Стробоскопы",
+            "opensType": 2,
+            "selectorId": 14,
+            "imageId": "t_stroboscope_icon"
+          },
+          {
+            "name": "Дальний свет",
+            "opensType": 2,
+            "selectorId": 48,
+            "imageId": "t_stroboscope_icon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "СТО",
+    "footer": [
+      {
+        "name": "Износ",
+        "opensType": 3,
+        "selectorId": 15
+      },
+      {
+        "name": "Тюнинг",
+        "opensType": 0,
+        "names": [
+          {
+            "name": "Спойлер",
+            "opensType": 2,
+            "selectorId": 16,
+            "imageId": "t_spoiler_icon"
+          },
+          {
+            "name": "Бамперы",
+            "opensType": 2,
+            "selectorId": 17,
+            "imageId": "t_bumper_icon"
+          },
+          {
+            "name": "Пороги",
+            "opensType": 2,
+            "selectorId": 18,
+            "imageId": "t_thresholds_icon"
+          },
+          {
+            "name": "Выхлопы",
+            "opensType": 2,
+            "selectorId": 19,
+            "imageId": "t_muffler_icon"
+          },
+          {
+            "name": "Сплиттер",
+            "opensType": 2,
+            "selectorId": 20,
+            "imageId": "t_splitter_icon"
+          },
+          {
+            "name": "Крыша",
+            "opensType": 2,
+            "selectorId": 21,
+            "imageId": "t_roof_icon"
+          },
+          {
+            "name": "Капот",
+            "opensType": 2,
+            "selectorId": 43,
+            "imageId": "t_hood_icon"
+          },
+          {
+            "name": "Багажник",
+            "opensType": 2,
+            "selectorId": 44,
+            "imageId": "t_trunk_icon"
+          },
+          {
+            "name": "Расширения",
+            "opensType": 2,
+            "selectorId": 45,
+            "imageId": "t_fender_extension_icon"
+          },
+          {
+            "name": "Решетка бампера",
+            "opensType": 2,
+            "selectorId": 46,
+            "imageId": "t_bumper_grill_icon"
+          },
+          {
+            "name": "Доп. спойлер",
+            "opensType": 2,
+            "selectorId": 47,
+            "imageId": "t_spoiler_icon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Шиномонтажный центр",
+    "footer": [
+      {
+        "name": "Клиренс",
+        "opensType": 0,
+        "names": [
+          {
+            "name": "Общий клиренс",
+            "opensType": 4,
+            "selectorId": 22,
+            "imageId": "t_full_clearance_icon"
+          },
+          {
+            "name": "Отдельный клиренс",
+            "opensType": 4,
+            "selectorId": 23,
+            "imageId": "t_individual_clearance_icon"
+          }
+        ]
+      },
+      {
+        "name": "Колеса",
+        "opensType": 0,
+        "names": [
+          {
+            "name": "Вылет передних колес",
+            "opensType": 4,
+            "selectorId": 24,
+            "imageId": "t_width_front_wheels_icon"
+          },
+          {
+            "name": "Вылет задних колес",
+            "opensType": 4,
+            "selectorId": 25,
+            "imageId": "t_width_back_wheels_icon"
+          },
+          {
+            "name": "Развал передних колес",
+            "opensType": 4,
+            "selectorId": 26,
+            "imageId": "t_collapse_front_icon"
+          },
+          {
+            "name": "Развал задних колес",
+            "opensType": 4,
+            "selectorId": 27,
+            "imageId": "t_collapse_back_icon"
+          },
+          {
+            "name": "Ширина передних колес",
+            "opensType": 4,
+            "selectorId": 28,
+            "imageId": "t_departure_front_wheels_icon"
+          },
+          {
+            "name": "Ширина задних колес",
+            "opensType": 4,
+            "selectorId": 29,
+            "imageId": "t_departure_back_wheels_icon"
+          },
+          {
+            "name": "Радиус колес",
+            "opensType": 4,
+            "selectorId": 30,
+            "imageId": "t_radius_wheels_icon"
+          }
+        ]
+      },
+      {
+        "name": "Диски",
+        "opensType": 0,
+        "names": [
+          {
+            "name": "Диски",
+            "opensType": 2,
+            "selectorId": 31,
+            "imageId": "t_disks_icon"
+          },
+          {
+            "name": "Цвета дисков",
+            "opensType": 1,
+            "selectorId": 32,
+            "imageId": "t_color_disks_icon"
+          }
+        ]
+      },
+      {
+        "name": "Подвеска",
+        "opensType": 0,
+        "names": [
+          {
+            "name": "Установка гидравлики",
+            "opensType": 2,
+            "selectorId": 34,
+            "imageId": "t_hydraulics_icon"
+          },
+          {
+            "name": "Установка пневмоподвески",
+            "opensType": 2,
+            "selectorId": 35,
+            "imageId": "t_pnevmo_icon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Технический центр",
+    "footer": [
+      {
+        "name": "Тюнинг",
+        "opensType": 0,
+        "names": [
+          {
+            "name": "Дифференциалы",
+            "opensType": 2,
+            "selectorId": 36,
+            "imageId": "t_differential_icon"
+          },
+          {
+            "name": "Тормоза",
+            "opensType": 2,
+            "selectorId": 37,
+            "imageId": "t_brakers_icon"
+          },
+          {
+            "name": "Турбонаддув",
+            "opensType": 2,
+            "selectorId": 38,
+            "imageId": "t_air_filter_icon"
+          },
+          {
+            "name": "Двигатели",
+            "opensType": 2,
+            "selectorId": 39,
+            "imageId": "t_engine_icon"
+          },
+          {
+            "name": "Нагнетатели",
+            "opensType": 2,
+            "selectorId": 40,
+            "imageId": "t_supercharger_icon"
+          },
+          {
+            "name": "Доп. функции",
+            "opensType": 2,
+            "selectorId": 49,
+            "imageId": "t_pdv_icon"
+          }
+        ]
+      },
+      {
+        "name": "Лаунч-контроль",
+        "opensType": 0,
+        "names": [
+          {
+            "name": "Лаунч-контроль",
+            "opensType": 2,
+            "selectorId": 41,
+            "imageId": "t_launch_control"
+          }
+        ]
+      },
+      {
+        "name": "Нитро",
+        "opensType": 0,
+        "names": [
+          {
+            "name": "Нитро",
+            "opensType": 2,
+            "selectorId": 42,
+            "imageId": "t_nitro_icon"
+          }
+        ]
+      }
+    ]
+  }
+]

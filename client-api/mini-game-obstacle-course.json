@@ -1,0 +1,211 @@
+﻿{
+    "id": 12,
+    "name": "Ржавая тропа",
+    "timer": 1200,
+    "carSpawnCheckpointId": 5,
+    "startCoords": [
+        [ 5.63, -32.1 , 249.73, 30.0],
+        [ 3.07, -31.54, 249.73, 30.0],
+        [ 0.33, -31.49, 249.73, 30.0],
+        [-2.07, -31.38, 249.73, 30.0],
+        [-5.56, -31.4 , 249.73, 30.0]
+    ],
+"campos": [-2.96, -30.62, 251.00],
+"camlockat": [-3.52, -18.56, 250.00],
+
+    "endGameTeleportCoords": [-957.36, -2242.50, 39.63, 150.19],
+    "noCollisionZones": [
+        [25.99, 295.63, 336.43, 20]
+    ],
+    "respawnHight": 25,
+    "checkpoints": [
+        { "id": 1, "coords": [-3.06, 0.83, 249.72, 5.0, 50.0, 355.78] },
+        { "id": 2, "coords": [-0.57, 75.58, 259.78, 5.0, 50.0, 38.0] },
+        { "id": 3, "coords": [-83.45, 156.23, 295.17, 5.0, 50.0, 125.87] },
+        { "id": 4, "coords": [-65.92, 254.58, 338.32, 5.0, 50.0, 323.0] },
+        { "id": 5, "coords": [17.34, 266.83, 336.43, 10.0, 50.0, 358.83] },
+        { "id": 6, "coords": [88.3, 295.44, 333.91, 15.0, 50.0, 269.17] },        
+        { "id": 7, "coords": [522.59, 316.69, 317.72, 20.0, 50.0, 288.0]},
+        { "id": 8, "coords": [1687.7, 809.44, 295.82, 30.0, 50.0, 30.0]}
+    ],
+"gameObstacles":
+{
+"spinPlatforms": [
+    {"id": 34345, "coords": [-93.157, 159.780, 295.232], "speed": 8.0},
+    {"id": 34345, "coords": [-103.792, 166.251, 295.829], "speed": 8.0}
+],
+"movingPlatforms": [
+    {"id": 42734, "coordsFrom": [-116.726, 244.908, 301.494, 280.0], "coordsTo":[-95.071, 250.188, 320.675, 280.0], "speed": 6.0},
+    {"id": 42734, "coordsFrom": [-94.071, 245.388, 320.675, 280.0], "coordsTo":[-115.826, 239.608, 301.494, 280.0], "speed": 6.0}  
+],
+"movingObstacles": [
+    {"id": 32067, "coordsFrom": [-13.827, 251.266, 339.8, 10.0], "coordsTo":[-17.927, 274.166, 339.8, 10.0], "speed": 5.0},
+    {"id": 32067, "coordsFrom": [-25.327, 273.066, 339.8, 10.0], "coordsTo":[-21.027, 250.166, 339.8, 10.0], "speed": 5.0},
+   {"id": 32067, "coordsFrom": [-27.627, 249.066, 339.8, 10.0], "coordsTo":[-32.327, 271.466, 339.8, 10.0], "speed": 5.0}    
+]
+},
+    "chatMessages": [
+        {"id": 1, "text": "Зона сохранения активирована",                                       "all": false},
+        {"id": 2, "text": "Игрок %s завершил прохождение, его место %d",                        "all": true },
+        {"id": 3, "text": "Ты не успел пройти игру за отведенное время, удачи в следующий раз", "all": false},
+        {"id": 4, "text": "Ты вышел из игры, награда не начисляется",                           "all": false},
+        {"id": 5, "text": "Ты был дисквалифицирован, награда не начислится",                    "all": false}
+    ],
+    "3dTextCheckpointOff": "Зона сохранения",
+    "3dTextCheckpointOn": "{FFC700}Зона сохранения активирована",
+    
+    "carSpawnCoords":[
+        [56.56, 305.00, 333.91, 272.0],
+        [56.56, 300.00, 333.91, 272.0],
+        [56.56, 295.00, 333.91, 272.0],
+        [56.56, 290.00, 333.91, 272.0],
+        [56.56, 285.00, 333.91, 272.0]
+    ],
+
+    "carsList": [
+        {
+            "modelId"    : 35,
+            "name"       : "Ford 1933 HotRod",
+            "nameStore"  : "HotRoad 1933",
+            "colors"     : [-1, -1],
+            "stage"      : 1
+        }
+    ],
+    "prizes": [
+        {
+            "place" : 1,
+            "awards": [
+                {
+                    "id"              : 1,
+                    "name"            : "Батарейки х500",
+                    "nameStore"       : "Батарейки х500",
+                    "description"     : "Батарейки х500",
+                    "descriptionStore": "Батарейки х500",
+                    "rarity"          : 4,
+                    "typeId"          : 23,
+                    "internalId"      : 0,
+                    "count"           : 500
+                },
+                {
+                    "id"              : 2,
+                    "name"            : "5000 Р",
+                    "nameStore"       : "5000 Р",
+                    "description"     : "5000 Р",
+                    "descriptionStore": "5000 Р",
+                    "rarity"          : 3,
+                    "typeId"          : 2,
+                    "internalId"      : 0,
+                    "count"           : 5000
+                }
+            ]
+        },
+        {
+            "place" : 2,
+            "awards": [
+                {
+                    "id"              : 1,
+                    "name"            : "Батарейки х400",
+                    "nameStore"       : "Батарейки х400",
+                    "description"     : "Батарейки х400",
+                    "descriptionStore": "Батарейки х400",
+                    "rarity"          : 3,
+                    "typeId"          : 23,
+                    "internalId"      : 0,
+                    "count"           : 400
+                },
+                {
+                    "id"              : 2,
+                    "name"            : "3000 Р",
+                    "nameStore"       : "3000 Р",
+                    "description"     : "3000 Р",
+                    "descriptionStore": "3000 Р",
+                    "rarity"          : 3,
+                    "typeId"          : 2,
+                    "internalId"      : 0,
+                    "count"           : 3000
+                }
+            ]
+        },
+        {
+            "place" : 3,
+            "awards": [
+                {
+                    "id"              : 1,
+                    "name"            : "Батарейки х300",
+                    "nameStore"       : "Батарейки х300",
+                    "description"     : "Батарейки х300",
+                    "descriptionStore": "Батарейки х300",
+                    "rarity"          : 3,
+                    "typeId"          : 23,
+                    "internalId"      : 0,
+                    "count"           : 300
+                },
+                {
+                    "id"              : 2,
+                    "name"            : "2000 Р",
+                    "nameStore"       : "2000 Р",
+                    "description"     : "2000 Р",
+                    "descriptionStore": "2000 Р",
+                    "rarity"          : 3,
+                    "typeId"          : 2,
+                    "internalId"      : 0,
+                    "count"           : 2000
+                }
+            ]
+        },
+        {
+            "place" : 4,
+            "awards": [
+                {
+                    "id"              : 1,
+                    "name"            : "Батарейки х200",
+                    "nameStore"       : "Батарейки х200",
+                    "description"     : "Батарейки х200",
+                    "descriptionStore": "Батарейки х200",
+                    "rarity"          : 3,
+                    "typeId"          : 23,
+                    "internalId"      : 0,
+                    "count"           : 200
+                },
+                {
+                    "id"              : 2,
+                    "name"            : "2000 Р",
+                    "nameStore"       : "2000 Р",
+                    "description"     : "2000 Р",
+                    "descriptionStore": "2000 Р",
+                    "rarity"          : 3,
+                    "typeId"          : 2,
+                    "internalId"      : 0,
+                    "count"           : 2000
+                }
+            ]
+        },
+        {
+            "place" : 5,
+            "awards": [
+                {
+                    "id"              : 1,
+                    "name"            : "Батарейки х200",
+                    "nameStore"       : "Батарейки х200",
+                    "description"     : "Батарейки х200",
+                    "descriptionStore": "Батарейки х200",
+                    "rarity"          : 3,
+                    "typeId"          : 23,
+                    "internalId"      : 0,
+                    "count"           : 200
+                },
+                {
+                    "id"              : 2,
+                    "name"            : "2000 Р",
+                    "nameStore"       : "2000 Р",
+                    "description"     : "2000 Р",
+                    "descriptionStore": "2000 Р",
+                    "rarity"          : 3,
+                    "typeId"          : 2,
+                    "internalId"      : 0,
+                    "count"           : 2000
+                }
+            ]
+        }              
+    ]
+}

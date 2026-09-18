@@ -1,0 +1,67 @@
+﻿{
+  "categoriesFilters": [
+    {
+      "categoryFilterId": 1,
+      "categoryFilterName": "Редкость",
+      "filters": [
+        {
+          "filterId": 1,
+          "filterName": "Обычные",
+          "color": "#FDFDFD"
+        },
+        {
+          "filterId": 2,
+          "filterName": "Необычные",
+          "color": "#12DD00"
+        },
+        {
+          "filterId": 3,
+          "filterName": "Редкие",
+          "color": "#3EA2FF"
+        },
+        {
+          "filterId": 4,
+          "filterName": "Эпические",
+          "color": "#C173FE"
+        },
+        {
+          "filterId": 5,
+          "filterName": "Легендарные",
+          "color": "#FFCC00"
+        }
+      ]
+    },
+    {
+      "categoryFilterId": 2,
+      "categoryFilterName": "Ресурсы",
+      "filters": [
+        {
+          "filterId": 6,
+          "filterName": "Есть ресурсы",
+          "color": "#FDFDFD"
+        },
+        {
+          "filterId": 7,
+          "filterName": "Нет ресурсов",
+          "color": "#FDFDFD"
+        }
+      ]
+    },
+    {
+      "categoryFilterId": 3,
+      "categoryFilterName": "Доступность",
+      "filters": [
+        {
+          "filterId": 8,
+          "filterName": "Открыто",
+          "color": "#FDFDFD"
+        },
+        {
+          "filterId": 9,
+          "filterName": "Закрыто",
+          "color": "#FDFDFD"
+        }
+      ]
+    }
+  ]
+}

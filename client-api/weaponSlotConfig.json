@@ -1,0 +1,92 @@
+﻿{
+  "slots" : [
+    {
+      "id": 0,
+      "name" : "unarmed",
+      "description" : "Без оружия",
+      "categories" : ["UNARMED"],
+      "quickSwitch" : false,
+      "showInInventory" : false
+    },
+    {
+      "id": 1,
+      "name" : "melee",
+      "description" : "Ближний бой",
+      "categories" : ["MELEE"],
+      "quickSwitch" : false,
+      "showInInventory" : true
+    },
+    {
+      "id": 2,
+      "name" : "primary",
+      "description" : "Основное оружие",
+      "categories" : ["HANDGUN", "SUBMACHINEGUN"],
+      "quickSwitch" : true,
+      "showInInventory" : true
+    },
+    {
+      "id": 3,
+      "name" : "secondary",
+      "description" : "Дополнительное оружие",
+      "categories" : ["SHOTGUN", "ASSAULT_RIFLE", "RIFLE", "HEAVY", "PROJECTILE", "GIFTS", "SATCHEL_DETONATOR"],
+      "quickSwitch" : true,
+      "showInInventory" : true
+    },
+    {
+      "id": 4,
+      "name" : "special1",
+      "description" : "Спец. оружие",
+      "categories" : ["SPECIAL1, SPECIAL2"],
+      "quickSwitch" : false,
+      "showInInventory" : false
+    },
+    {
+      "id": 5,
+      "name" : "special2",
+      "description" : "Спец. оружие",
+      "categories" : ["SPECIAL1, SPECIAL2"],
+      "quickSwitch" : false,
+      "showInInventory" : false
+    },
+    {
+      "id": 6,
+      "name" : "special3",
+      "description" : "Спец. оружие",
+      "categories" : ["SPECIAL1, SPECIAL2"],
+      "quickSwitch" : false,
+      "showInInventory" : false
+    },
+    {
+      "id": 7,
+      "name" : "special4",
+      "description" : "Спец. оружие",
+      "categories" : ["SPECIAL1, SPECIAL2"],
+      "quickSwitch" : false,
+      "showInInventory" : false
+    },
+    {
+      "id": 8,
+      "name" : "special5",
+      "description" : "Спец. оружие",
+      "categories" : ["SPECIAL1, SPECIAL2"],
+      "quickSwitch" : false,
+      "showInInventory" : false
+    },
+    {
+      "id": 9,
+      "name" : "special6",
+      "description" : "Спец. оружие",
+      "categories" : ["SPECIAL1, SPECIAL2"],
+      "quickSwitch" : false,
+      "showInInventory" : false
+    },
+    {
+      "id": 10,
+      "name" : "special7",
+      "description" : "Спец. оружие",
+      "categories" : ["SPECIAL1, SPECIAL2"],
+      "quickSwitch" : false,
+      "showInInventory" : false
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+﻿{
+  "heat_system": {
+    "max_heat": 100,
+    "critical_threshold": 90,
+    "drop_threshold": 100,
+    "accumulation_rates": {
+      "walking": 0.0,
+      "running": 0.06,
+      "sprinting": 0.08
+    },
+    "decay_rates": {
+      "standing": -0.03,
+      "walking": -0.015,
+      "after_drop": -0.05
+    }
+  },
+
+  "ProgressBarStates": [
+    {
+      "name": "Зелёный",
+      "colorLeft": "#FF10913B",
+      "colorRight": "#FF2EAC58",
+      "value": 0.0
+    },
+    {
+      "name": "Желтый",
+      "colorLeft": "#FFD27518",
+      "colorRight": "#FFFFC700",
+      "value": 0.5
+    },
+    {
+      "name": "Красный",
+      "colorLeft": "#FFAC2E2E",
+      "colorRight": "#FFE2310C",
+      "value": 0.8,
+      "vibrationTime": 0.05,
+      "vibrationStrength": 1.0,
+	  "vibrationInterval": 0.5,
+      "shakeStrength": 0.1,
+      "needPulsation": true
+    },
+    {
+      "name": "Критичный",
+      "colorLeft": "#FFAC2E2E",
+      "colorRight": "#FFE2310C",
+      "value": 1.0,
+      "vibrationTime": 0.2,
+      "vibrationStrength": 1.0,
+      "shakeStrength": 0.1
+    }
+  ],
+
+  "JoystickStates": [
+{
+      "id": 1,
+      "name": "Игрок стоит на месте",
+      "value": 0.0,
+      "progressRate": -0.13
+    },
+    {
+      "id": 2,
+      "name": "Игрок медленно идёт",
+      "value": 0.10,
+      "progressRate": 0.06
+    },
+    {
+      "id": 3,
+      "name": "Игрок бежит",
+      "value": 0.50,
+      "progressRate": 0.12
+    },
+    {
+      "id": 4,
+      "name": "Игрок спринтует",
+      "value": 0.75,
+      "progressRate": 0.2
+    }
+  ],
+
+  "VignetteStates": [
+    {
+      "name": "Отсутствует",
+      "color": "#00000000",
+      "progressThreshold": 0.0,
+      "opacityMin": 0.0,
+      "opacityMax": 0.0
+    },
+    {
+      "name": "Черный",
+      "color": "#FF000000",
+      "progressThreshold": 0.7,
+      "opacityMin": 0.0,
+      "opacityMax": 0.5
+    },
+    {
+      "name": "Красный",
+      "color": "#FF770000",
+      "progressThreshold": 0.9,
+      "opacityMin": 0.5,
+      "opacityMax": 0.7,
+      "pulsationTime": 0.5,
+      "pulsationAmplitude": 0.25
+    }
+  ],
+
+  "FlashAnimations": [
+    {
+      "name": "Белый",
+      "color": "#FFFFFFFF",
+      "time": 0.15
+    },
+    {
+      "name": "Чёрный",
+      "color": "#FF000000",
+      "time": 0.15
+    },
+    {
+      "name": "Исчезновение",
+      "color": "#00000000",
+      "time": 0.3,
+      "progressRate": -0.5
+    }
+  ]
+}

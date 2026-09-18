@@ -1,0 +1,2364 @@
+﻿{
+  "seasons": [
+    {
+      "seasonId": 4,
+      "name": "Кубок Шторма. Четвёртый сезон",
+      "dates": [
+        1788400800,
+        1792634400
+      ],
+      "textTitle": "Кубок Шторма",
+      "ambient": "RacemodMainScreen.ogg",
+      "textTutMain": "Добро пожаловать в [color=#FFC700]Кубок Шторма![/color]\n\nТебя ждут пять гоночных режимов. Участвуй в гонках на предложенной машине или используй свою, если она соответствует классу. Каждую неделю машины в гонках будут обновляться. За каждую гонку ты получишь\n Жетоны гонщика для магазина\n Очки рейтинга для таблицы лидеров\n [color=#2196F3]EXP[/color] для лент наград при наличии\n [color=#FFC700]Билета гонщика[/color] Становись лучшим гонщиком сезона и получай [color=#FFC700]уникальные награды[/color] за свое мастерство.\n\nУдачи на старте",
+      "textTutModeSelector": "Тебе доступно несколько гоночных режимов. От сезона к сезону список может меняться.\n\n[color=#FFC700]Обрати внимание:[/color] доступные автомобили разных [color=#FFC700]классов[/color] могут отличаться от режима к режиму. Выбери тот, в котором ты покажешь лучший результат!",
+      "textTutCarSelector": "Класс заезда определяет бесплатная машина недели — выбирай её или подходящее авто из своего имущества.[color=#FFC700]Прошивка[/color] влияет на характеристики и может перевести машину в другой [color=#FFC700]класс[/color].Чтобы изменить [color=#FFC700]прошивку[/color], загляни в Тюнинг-ателье и установи нужную.\n\nОбрати внимание: пока не всем автомобилям присвоен [color=#FFC700]класс[/color] и они не смогут участвовать в гонках.\n\n Список авто с [color=#FFC700]классом[/color] будет постоянно пополняться. Следи за обновлениями!",
+      "raceGamesList": [
+        {
+          "raceType": "raceColossus",
+          "dates": [
+            1788400800,
+            1792634400
+          ],
+          "title": "Колосс",
+          "subtitle": "Круговая гонка вокруг города. Вперёд к победе!",
+          "bgImage": "img_raceColossus.png",
+          "bgColour": "#111219",
+          "bgImageMain": "img_main_raceColossus.png",
+          "allowedStages": [
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "checkDriveType": 0,
+          "checkSubType": 1,
+          "carRotationCount": 1,
+          "carRotationTime": 604800,
+          "carsSeasonList": [
+            {
+              "ServerIDCar": 580,
+              "modelId": 28787,
+              "name": "Mazda Furai",
+              "nameStore": "Furashi",
+              "components": [
+                2644,
+                2645,
+                2646,
+                2647,
+                2648
+              ],
+              "paintjob": "remapttbody113",
+              "colors": [
+                1,
+                0
+              ],
+              "stage": 4,
+              "imageName": "veh_28787.png"
+            },
+            {
+              "ServerIDCar": 570,
+              "modelId": 28776,
+              "name": "Hennessey Venom F5",
+              "nameStore": "Hennessar Venomus F-5",
+              "components": [
+                2535,
+                2536
+              ],
+              "paintjob": "remapttbody104",
+              "colors": [
+                1,
+                36
+              ],
+              "stage": 4,
+              "imageName": "veh_28776.png"
+            },
+            {
+              "ServerIDCar": 577,
+              "modelId": 28784,
+              "name": "Ferrari Purosangue",
+              "nameStore": "Fer Puranova",
+              "components": [
+                2713,
+                2715,
+                2716,
+                2717,
+                2719,
+                2720,
+                2721,
+                2722
+              ],
+              "paintjob": "",
+              "colors": [
+                55,
+                25
+              ],
+              "stage": 4,
+              "imageName": "veh_28784.png"
+            },
+            {
+              "ServerIDCar": 499,
+              "modelId": 28705,
+              "name": "Koenigsegg CCXR",
+              "nameStore": "Koenig XR",
+              "components": [],
+              "paintjob": "remapttbody53",
+              "colors": [
+                1,
+                1
+              ],
+              "stage": 4,
+              "imageName": "img_28705.png"
+            },
+            {
+              "ServerIDCar": 21,
+              "modelId": 420,
+              "name": "Audi RS6 C7 Рестайлинг",
+              "nameStore": "Aura Road 6 C7",
+              "components": [
+                66,
+                72,
+                69,
+                74,
+                77,
+                81,
+                87,
+                79,
+                84
+              ],
+              "paintjob": "remapttbody108",
+              "colors": [
+                1,
+                36
+              ],
+              "stage": 4,
+              "imageName": "veh_420.png"
+            },
+            {
+              "ServerIDCar": 547,
+              "modelId": 28757,
+              "name": "Ferrari 296 GTB",
+              "nameStore": "Fer 296 GT",
+              "components": [
+                2436,
+                2438,
+                2439,
+                2441
+              ],
+              "paintjob": "remapssbody111",
+              "colors": [
+                1,
+                11
+              ],
+              "stage": 4,
+              "imageName": "veh_28757.png"
+            },
+            {
+              "ServerIDCar": 555,
+              "modelId": 28765,
+              "name": "McLaren Senna",
+              "nameStore": "Mc Sienna",
+              "components": [
+                2419,
+                2420,
+                2423
+              ],
+              "paintjob": "remapttbody91",
+              "colors": [
+                1,
+                11
+              ],
+              "stage": 4,
+              "imageName": "veh_28765.png"
+            }
+          ],
+          "awards": [
+            {
+              "place": 1,
+              "name": "Жетоны X60",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 60,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 1,
+              "name": "Очки X20",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 20,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 1,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 1,
+              "name": "Фишки X900",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 23,
+              "internalId": 1,
+              "count": 900,
+              "imageName": "img_event_res_cases.png"
+            },
+            {
+              "place": 2,
+              "name": "Жетоны X60",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 60,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 2,
+              "name": "Очки X18",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 18,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 2,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 2,
+              "name": "Фишки X750",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 23,
+              "internalId": 1,
+              "count": 750,
+              "imageName": "img_event_res_cases.png"
+            },
+            {
+              "place": 3,
+              "name": "Жетоны X60",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 60,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 3,
+              "name": "Очки X15",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 15,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 3,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 3,
+              "name": "Фишки X600",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 23,
+              "internalId": 1,
+              "count": 600,
+              "imageName": "img_event_res_cases.png"
+            },
+            {
+              "place": 4,
+              "name": "Жетоны X40",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 40,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 4,
+              "name": "Очки X12",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 12,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 4,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 4,
+              "name": "Фишки X400",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 23,
+              "internalId": 1,
+              "count": 400,
+              "imageName": "img_event_res_cases.png"
+            },
+            {
+              "place": 5,
+              "name": "Жетоны X40",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 40,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 5,
+              "name": "Очки X10",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 10,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 5,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 5,
+              "name": "Фишки X300",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 23,
+              "internalId": 1,
+              "count": 300,
+              "imageName": "img_event_res_cases.png"
+            },
+            {
+              "place": 6,
+              "name": "Жетоны X25",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 25,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 6,
+              "name": "Очки X6",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 6,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 6,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 6,
+              "name": "Фишки X200",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 23,
+              "internalId": 1,
+              "count": 200,
+              "imageName": "img_event_res_cases.png"
+            },
+            {
+              "place": 7,
+              "name": "Жетоны X25",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 25,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 7,
+              "name": "Очки X4",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 4,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 7,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 7,
+              "name": "Фишки X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 23,
+              "internalId": 1,
+              "count": 100,
+              "imageName": "img_event_res_cases.png"
+            },
+            {
+              "place": 8,
+              "name": "Жетоны X10",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 10,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 8,
+              "name": "Очки X2",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 2,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 8,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 8,
+              "name": "Фишки X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 23,
+              "internalId": 1,
+              "count": 100,
+              "imageName": "img_event_res_cases.png"
+            }
+          ]
+        },
+        {
+          "raceType": "raceSprint",
+          "dates": [
+            1788400800,
+            1792634400
+          ],
+          "title": "СПРИНТ",
+          "subtitle": "Классический спринт. Следуй по чекпоинтам и финишируй быстрее всех, чтобы победить",
+          "bgImage": "img_raceSprint.png",
+          "bgColour": "#111219",
+          "bgImageMain": "img_main_raceSprint.png",
+          "allowedStages": [
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "checkDriveType": 0,
+          "checkSubType": 0,
+          "carRotationCount": 1,
+          "carRotationTime": 604800,
+          "carsSeasonList": [
+            {
+            "ServerIDCar": 579,
+            "modelId": 28786,
+            "name": "BMW M2 G87",
+            "nameStore": "Boomer 2 G 87",
+            "components": [
+                2649,
+                2651,
+                2652,
+                2653,
+                2655,
+                2656
+            ],
+            "paintjob": "remapttbody112",
+            "colors": [
+                1,
+                0
+            ],
+            "stage": 0,
+            "imageName": "veh_28786.png"
+        },
+        {
+            "ServerIDCar": 574,
+            "modelId": 28781,
+            "name": "Mercedes Benz E63S W213",
+            "nameStore": "63S W213",
+            "components": [
+                2689,
+                2690,
+                2692,
+                2693,
+                2695
+            ],
+            "paintjob": "remapssbody126",
+            "colors": [
+                1,
+                1
+            ],
+            "stage": 4,
+            "imageName": "veh_28781.png"
+        },
+        {
+            "ServerIDCar": 576,
+            "modelId": 28783,
+            "name": "Cadillac Eldorado",
+            "nameStore": "Eldaron",
+            "components": [
+                2635,
+                2636,
+                2637,
+                2638,
+                2639,
+                2640,
+                2643
+            ],
+            "paintjob": "",
+            "colors": [
+                51,
+                6
+            ],
+            "stage": 2,
+            "imageName": "veh_28783.png"
+        },
+        {
+            "ServerIDCar": 539,
+            "modelId": 28745,
+            "name": "Chevrolet Malibu Police Car - Cobra",
+            "nameStore": "Malibor Police Cobrex",
+            "components": [
+                2380,
+                2382,
+                2383,
+                2386,
+                2387
+            ],
+            "paintjob": "remapssbody107",
+            "colors": [
+                1,
+                53
+            ],
+            "stage": 0,
+            "imageName": "img_28745.png"
+        },
+        {
+            "ServerIDCar": 541,
+            "modelId": 28747,
+            "name": "Mercedes-Benz S-Class W223",
+            "nameStore": "S W23",
+            "components": [],
+            "paintjob": "remapssbody109",
+            "colors": [
+                1,
+                56
+            ],
+            "stage": 0,
+            "imageName": "img_28747.png"
+        },
+        {
+            "ServerIDCar": 279,
+            "modelId": 2609,
+            "name": "Mini Countryman JCW",
+            "nameStore": "Little Coop",
+            "components": [
+                2485,
+                2486,
+                2487,
+                2488,
+                2489
+            ],
+            "paintjob": "remapttbody96",
+            "colors": [
+                1,
+                11
+            ],
+            "stage": 4,
+            "imageName": "veh_2609.png"
+        },
+        {
+            "ServerIDCar": 503,
+            "modelId": 28709,
+            "name": "Cadillac Escalade V",
+            "nameStore": "Escaludore V",
+            "components": [
+                1970,
+                1972,
+                1973,
+                1975,
+                1976,
+                1977,
+                1978
+            ],
+            "paintjob": "remapttbody57",
+            "colors": [
+                1,
+                11
+            ],
+            "stage": 4,
+            "imageName": "img_28709.png"
+        }
+          ],
+          "awards": [
+            {
+              "place": 1,
+              "name": "Жетоны X70",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 70,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 1,
+              "name": "Очки X20",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 20,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 1,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 2,
+              "name": "Жетоны X70",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 70,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 2,
+              "name": "Очки X18",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 18,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 2,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 3,
+              "name": "Жетоны X70",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 70,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 3,
+              "name": "Очки X15",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 15,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 3,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 4,
+              "name": "Жетоны X50",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 50,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 4,
+              "name": "Очки X10",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 10,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 4,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 5,
+              "name": "Жетоны X50",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 50,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 5,
+              "name": "Очки X8",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 8,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 5,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 6,
+              "name": "Жетоны X50",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 50,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 6,
+              "name": "Очки X6",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 6,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 6,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 7,
+              "name": "Жетоны X30",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 30,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 7,
+              "name": "Очки X4",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 4,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 7,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 8,
+              "name": "Жетоны X30",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 30,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 8,
+              "name": "Очки X2",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 2,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 8,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            }
+          ]
+        },
+        {
+          "raceType": "raceCircuit",
+          "dates": [
+            1788400800,
+            1792634400
+          ],
+          "title": "КРУГ",
+          "subtitle": "Классическая круговая гонка. Финишируй первым, чтобы победить",
+          "bgImage": "img_raceCircuit.png",
+          "bgColour": "#111219",
+          "bgImageMain": "img_main_raceCircuit.png",
+          "allowedStages": [
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "checkDriveType": 0,
+          "checkSubType": 0,
+          "carRotationCount": 1,
+          "carRotationTime": 604800,
+          "carsSeasonList": [
+            {
+            "ServerIDCar": 571,
+            "modelId": 28778,
+            "name": "Bentley Bentayga EWB",
+            "nameStore": "Bentalis XL",
+            "components": [
+                2697,
+                2699,
+                2701,
+                2702,
+                2703
+            ],
+            "paintjob": "remapssbody123",
+            "colors": [
+                1,
+                36
+            ],
+            "stage": 1,
+            "imageName": "veh_28778.png"
+        },
+        {
+            "ServerIDCar": 573,
+            "modelId": 28780,
+            "name": "Lexus LX 600",
+            "nameStore": "Luxe L-X60-0",
+            "components": [
+                2672,
+                2674,
+                2675,
+                2676,
+                2678,
+                2679
+            ],
+            "paintjob": "remapssbody125",
+            "colors": [
+                1,
+                0
+            ],
+            "stage": 0,
+            "imageName": "veh_28780.png"
+        },
+        {
+            "ServerIDCar": 522,
+            "modelId": 28728,
+            "name": "Honda RD1 CR-V 5",
+            "nameStore": "Hand Rd1 CR-5",
+            "components": [
+                2157,
+                2159,
+                2160,
+                2161,
+                2162,
+                2164
+            ],
+            "paintjob": "remapssbody98",
+            "colors": [
+                1,
+                14
+            ],
+            "stage": 1,
+            "imageName": "img_28728.png"
+        },
+        {
+            "ServerIDCar": 12,
+            "modelId": 411,
+            "name": "Aston Martin DB11",
+            "nameStore": "AMerlin 11",
+            "components": [
+                2429,
+                2430,
+                2431,
+                2432,
+                2433
+            ],
+            "paintjob": "remapttbody99",
+            "colors": [
+                1,
+                11
+            ],
+            "stage": 1,
+            "imageName": "veh_411.png"
+        },
+        {
+            "ServerIDCar": 492,
+            "modelId": 28698,
+            "name": "Ferrari Dino 246 GT",
+            "nameStore": "Fer Deeno 246",
+            "components": [],
+            "paintjob": "remapssbody87",
+            "colors": [
+                1,
+                11
+            ],
+            "stage": 1,
+            "imageName": "img_28698.png"
+        },
+        {
+            "ServerIDCar": 524,
+            "modelId": 28730,
+            "name": "VAZ-2105 Street 1996",
+            "nameStore": "Пятерка Street 1996",
+            "components": [
+                2178,
+                2180,
+                2181,
+                2182,
+                2185,
+                2186,
+                2183
+            ],
+            "paintjob": "remapssbody100",
+            "colors": [
+                1,
+                11
+            ],
+            "stage": 2,
+            "imageName": "img_28730.png"
+        },
+        {
+            "ServerIDCar": 519,
+            "modelId": 28725,
+            "name": "GMC Vandura",
+            "nameStore": "Gen Vander",
+            "components": [
+                2108,
+                2123,
+                2109,
+                2045,
+                2110,
+                2111
+            ],
+            "paintjob": "remapttbody60",
+            "colors": [
+                1,
+                15
+            ],
+            "stage": 2,
+            "imageName": "img_28725.png"
+        }
+          ],
+          "awards": [
+            {
+              "place": 1,
+              "name": "Жетоны X70",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 70,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 1,
+              "name": "Очки X20",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 20,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 1,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 2,
+              "name": "Жетоны X70",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 70,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 2,
+              "name": "Очки X18",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 18,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 2,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 3,
+              "name": "Жетоны X70",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 70,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 3,
+              "name": "Очки X15",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 15,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 3,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 4,
+              "name": "Жетоны X50",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 50,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 4,
+              "name": "Очки X10",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 10,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 4,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 5,
+              "name": "Жетоны X50",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 50,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 5,
+              "name": "Очки X8",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 8,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 5,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 6,
+              "name": "Жетоны X50",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 50,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 6,
+              "name": "Очки X6",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 6,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 6,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 7,
+              "name": "Жетоны X30",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 30,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 7,
+              "name": "Очки X4",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 4,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 7,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 8,
+              "name": "Жетоны X30",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 30,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 8,
+              "name": "Очки X2",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 2,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 8,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            }
+          ]
+        },
+        {
+          "raceType": "raceDrift",
+          "dates": [
+            1788400800,
+            1792634400
+          ],
+          "title": "ДРИФТ",
+          "subtitle": "Набирай очки дрифта, входя в занос. Побеждает тот, кто наберет больше всего очков",
+          "bgImage": "img_raceDrift.png",
+          "bgColour": "#111219",
+          "bgImageMain": "img_main_raceDrift.png",
+          "allowedStages": [
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "checkDriveType": 0,
+          "checkSubType": 0,
+          "carRotationCount": 1,
+          "carRotationTime": 604800,
+          "carsSeasonList": [
+            {
+            "ServerIDCar": 467,
+            "modelId": 28681,
+            "name": "Toyota Supra A70 mk3",
+            "nameStore": "Supra 70 MK3",
+            "components": [
+                1675,
+                1677,
+                1678,
+                1679,
+                1682,
+                1683,
+                1693
+            ],
+            "paintjob": "remapttbody42",
+            "colors": [
+                1,
+                14
+            ],
+            "stage": 3,
+            "imageName": "img_28681.png"
+        },
+        {
+            "ServerIDCar": 500,
+            "modelId": 28706,
+            "name": "BMW M4 CSL",
+            "nameStore": "BOOMER 4 Coupe",
+            "components": [
+                1898,
+                1899,
+                1901,
+                1903,
+                1905
+            ],
+            "paintjob": "remapttbody54",
+            "colors": [
+                1,
+                75
+            ],
+            "stage": 3,
+            "imageName": "img_28706.png"
+        },
+        {
+            "ServerIDCar": 527,
+            "modelId": 28733,
+            "name": "Ferrari F50",
+            "nameStore": "Fer F 50",
+            "components": [
+                2238,
+                2244
+            ],
+            "paintjob": "remapssbody101",
+            "colors": [
+                1,
+                8
+            ],
+            "stage": 3,
+            "imageName": "img_28733.png"
+        },
+        {
+            "ServerIDCar": 534,
+            "modelId": 28740,
+            "name": "Toyota Custom BodyKit",
+            "nameStore": "Toyaro Custom BodyKit",
+            "components": [
+                2213,
+                2214
+            ],
+            "paintjob": "remapttbody77",
+            "colors": [
+                1,
+                6
+            ],
+            "stage": 3,
+            "imageName": "img_28740.png"
+        },
+        {
+            "ServerIDCar": 561,
+            "modelId": 28767,
+            "name": "Lexus LFA",
+            "nameStore": "Luxe L-af",
+            "components": [
+                2569,
+                2571,
+                2572,
+                2573,
+                2576
+            ],
+            "paintjob": "remapssbody119",
+            "colors": [
+                1,
+                33
+            ],
+            "stage": 3,
+            "imageName": "veh_28767.png"
+        },
+        {
+            "ServerIDCar": 377,
+            "modelId": 656,
+            "name": "Nissan 240SX",
+            "nameStore": "S240 X",
+            "components": [
+                822,
+                824,
+                826,
+                828,
+                830,
+                832,
+                834,
+                835
+            ],
+            "paintjob": "remapttbody4",
+            "colors": [
+                1,
+                13
+            ],
+            "stage": 3,
+            "imageName": "img_656.png"
+        },
+        {
+            "ServerIDCar": 152,
+            "modelId": 551,
+            "name": "Alfa Romeo Guilia",
+            "nameStore": "Julia",
+            "components": [],
+            "paintjob": "remapttbody38",
+            "colors": [
+                1,
+                13
+            ],
+            "stage": 3,
+            "imageName": "img_551.png"
+        }
+          ],
+          "awards": [
+            {
+              "place": 1,
+              "name": "Жетоны X35",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 35,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 1,
+              "name": "Очки X20",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 20,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 1,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 2,
+              "name": "Жетоны X15",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 15,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 2,
+              "name": "Очки X9",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 9,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 2,
+              "name": "Опыт X50",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 50,
+              "imageName": "img_race_exp.png"
+            }
+          ]
+        },
+        {
+          "raceType": "raceEliminationCircuit",
+          "dates": [
+            1788400800,
+            1792634400
+          ],
+          "title": "КРУГ НА ВЫБЫВАНИЕ",
+          "subtitle": "Круговая гонка. После каждого круга последний игрок выбывает",
+          "bgImage": "img_raceEliminationCircuit.png",
+          "bgColour": "#111219",
+          "bgImageMain": "img_main_raceEliminationCircuit.png",
+          "allowedStages": [
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "checkDriveType": 0,
+          "checkSubType": 0,
+          "carRotationCount": 1,
+          "carRotationTime": 604800,
+          "carsSeasonList": [
+            {
+            "ServerIDCar": 575,
+            "modelId": 28782,
+            "name": "Citroen DS",
+            "nameStore": "Citrel Spiritus",
+            "components": [
+                2628,
+                2630,
+                2632,
+                2633
+            ],
+            "paintjob": "remapssbody122",
+            "colors": [
+                1,
+                35
+            ],
+            "stage": 1,
+            "imageName": "veh_28782.png"
+        },
+        {
+            "ServerIDCar": 578,
+            "modelId": 28785,
+            "name": "Lamborghini LP-560 Spyder",
+            "nameStore": "Coral L P-560 Spide",
+            "components": [
+                2657,
+                2659,
+                2660,
+                2663
+            ],
+            "paintjob": "remapttbody116",
+            "colors": [
+                40,
+                36
+            ],
+            "stage": 1,
+            "imageName": "veh_28785.png"
+        },
+        {
+            "ServerIDCar": 528,
+            "modelId": 28734,
+            "name": "Ford Mustang RTR",
+            "nameStore": "F Must RTR",
+            "components": [
+                2275,
+                2277,
+                2279,
+                2281,
+                2282,
+                2283,
+                2284
+            ],
+            "paintjob": "remapssbody102",
+            "colors": [
+                1,
+                11
+            ],
+            "stage": 2,
+            "imageName": "img_28734.png"
+        },
+        {
+            "ServerIDCar": 418,
+            "modelId": 748,
+            "name": "Lancia Stratos",
+            "nameStore": "Stratia",
+            "components": [
+                1308,
+                1310,
+                1311,
+                1312,
+                1313,
+                1314
+            ],
+            "paintjob": "remapssbody59",
+            "colors": [
+                1,
+                6
+            ],
+            "stage": 1,
+            "imageName": "img_748.png"
+        },
+        {
+            "ServerIDCar": 551,
+            "modelId": 28761,
+            "name": "Datsun 100А",
+            "nameStore": "Datsumi 100A",
+            "components": [
+                2477,
+                2478,
+                2480,
+                2481,
+                2483,
+                2505,
+                2506,
+                2507,
+                2508
+            ],
+            "paintjob": "remapssbody114",
+            "colors": [
+                1,
+                11
+            ],
+            "stage": 2,
+            "imageName": "veh_28761.png"
+        },
+        {
+            "ServerIDCar": 103,
+            "modelId": 502,
+            "name": "Nissan GT-R R35",
+            "nameStore": "N GT-R 35",
+            "components": [
+                2563,
+                2564,
+                2565,
+                2566,
+                2567,
+                2568
+            ],
+            "paintjob": "remapttbody103",
+            "colors": [
+                1,
+                36
+            ],
+            "stage": 0,
+            "imageName": "veh_502.png"
+        },
+        {
+            "ServerIDCar": 290,
+            "modelId": 2620,
+            "name": "Lexus RCF",
+            "nameStore": "Luxe RCF",
+            "components": [
+                2334,
+                2335,
+                2336,
+                2337,
+                2338
+            ],
+            "paintjob": "remapttbody86",
+            "colors": [
+                1,
+                36
+            ],
+            "stage": 0,
+            "imageName": "img_2620.png"
+        }
+          ],
+          "awards": [
+            {
+              "place": 1,
+              "name": "Жетоны X70",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 70,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 1,
+              "name": "Очки X20",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 20,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 1,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 2,
+              "name": "Жетоны X70",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 70,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 2,
+              "name": "Очки X18",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 18,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 2,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 3,
+              "name": "Жетоны X45",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 45,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 3,
+              "name": "Очки X10",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 10,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 3,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 4,
+              "name": "Жетоны X17",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 17,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 4,
+              "name": "Очки X4",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 4,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 4,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            }
+          ]
+        },
+        {
+          "raceType": "raceEliminationSprint",
+          "dates": [
+            1788400800,
+            1792634400
+          ],
+          "title": "СПРИНТ НА ВЫБЫВАНИЕ",
+          "subtitle": "Спринт, где выбывает тот, кто последним приехал к некоторым чекпоинтам",
+          "bgImage": "img_raceEliminationSprint.png",
+          "bgColour": "#111219",
+          "bgImageMain": "img_main_raceEliminationSprint.png",
+          "allowedStages": [
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "checkDriveType": 0,
+          "checkSubType": 0,
+          "carRotationCount": 1,
+          "carRotationTime": 604800,
+          "carsSeasonList": [
+            {
+            "ServerIDCar": 572,
+            "modelId": 28779,
+            "name": "Nissan Laurel C33",
+            "nameStore": "Lura С33",
+            "components": [
+                2497,
+                2499,
+                2500,
+                2503
+            ],
+            "paintjob": "remapssbody124",
+            "colors": [
+                1,
+                6
+            ],
+            "stage": 1,
+            "imageName": "veh_28779.png"
+        },
+        {
+            "ServerIDCar": 421,
+            "modelId": 751,
+            "name": "Hummer H2",
+            "nameStore": "Hum 2",
+            "components": [
+                1278,
+                1280,
+                1281,
+                1283,
+                1285,
+                1286,
+                1287,
+                1288
+            ],
+            "paintjob": "remapssbody62",
+            "colors": [
+                1,
+                1
+            ],
+            "stage": 0,
+            "imageName": "img_751.png"
+        },
+        {
+            "ServerIDCar": 219,
+            "modelId": 2549,
+            "name": "Lamborghini Huracan",
+            "nameStore": "Uragan",
+            "components": [
+                2577,
+                2578,
+                2579,
+                2580,
+                2581
+            ],
+            "paintjob": "remapttbody107",
+            "colors": [
+                1,
+                0
+            ],
+            "stage": 4,
+            "imageName": "veh_2549.png"
+        },
+        {
+            "ServerIDCar": 127,
+            "modelId": 526,
+            "name": "Infiniti Q60S",
+            "nameStore": "Trinity 60",
+            "components": [
+                2490,
+                2491,
+                2492,
+                2493,
+                2494
+            ],
+            "paintjob": "remapttbody98",
+            "colors": [
+                1,
+                3
+            ],
+            "stage": 2,
+            "imageName": "veh_526.png"
+        },
+        {
+            "ServerIDCar": 515,
+            "modelId": 28721,
+            "name": "VAZ 2109 Turbo Edition",
+            "nameStore": "Девятка Turbo Edition",
+            "components": [
+                2011,
+                2013,
+                2014,
+                2015,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021
+            ],
+            "paintjob": "remapttbody67",
+            "colors": [
+                1,
+                85
+            ],
+            "stage": 0,
+            "imageName": "img_28721.png"
+        },
+        {
+            "ServerIDCar": 450,
+            "modelId": 28656,
+            "name": "Jeep Wrangler Rubicon",
+            "nameStore": "Rangler Rubic",
+            "components": [
+                1526,
+                1528,
+                1529,
+                1531,
+                1533,
+                1534,
+                1535
+            ],
+            "paintjob": "remapssbody73",
+            "colors": [
+                1,
+                36
+            ],
+            "stage": 1,
+            "imageName": "img_28656.png"
+        },
+        {
+            "ServerIDCar": 407,
+            "modelId": 661,
+            "name": "Ferrari 812 Superfast",
+            "nameStore": "Fer 812S",
+            "components": [
+                1101,
+                1102,
+                1103,
+                1106,
+                1107,
+                1108
+            ],
+            "paintjob": "remapttbody12",
+            "colors": [
+                1,
+                36
+            ],
+            "stage": 1,
+            "imageName": "img_661.png"
+        }
+          ],
+          "awards": [
+            {
+              "place": 1,
+              "name": "Жетоны X70",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 70,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 1,
+              "name": "Очки X20",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 20,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 1,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 2,
+              "name": "Жетоны X70",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 70,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 2,
+              "name": "Очки X18",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 18,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 2,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 3,
+              "name": "Жетоны X70",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 70,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 3,
+              "name": "Очки X15",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 15,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 3,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 4,
+              "name": "Жетоны X50",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 50,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 4,
+              "name": "Очки X10",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 10,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 4,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 5,
+              "name": "Жетоны X50",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 50,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 5,
+              "name": "Очки X8",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 8,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 5,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 6,
+              "name": "Жетоны X50",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 50,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 6,
+              "name": "Очки X6",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 6,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 6,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 7,
+              "name": "Жетоны X30",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 30,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 7,
+              "name": "Очки X4",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 4,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 7,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            },
+            {
+              "place": 8,
+              "name": "Жетоны X30",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 33,
+              "internalId": 0,
+              "count": 30,
+              "imageName": "img_race_token.png"
+            },
+            {
+              "place": 8,
+              "name": "Очки X2",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 35,
+              "internalId": 0,
+              "count": 2,
+              "imageName": "img_race_rate.png"
+            },
+            {
+              "place": 8,
+              "name": "Опыт X100",
+              "size": 2,
+              "backgroundType": 1,
+              "rarity": 1,
+              "type": 32,
+              "internalId": 0,
+              "count": 100,
+              "imageName": "img_race_exp.png"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

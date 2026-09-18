@@ -1,0 +1,1006 @@
+{
+    "leaderboards":
+    [
+        { 
+            "id": 2,
+            "crossserver": false,
+            "visualPreset": "RaceModeLeaderboard",
+            "title": "i18n.RaceMode.Leaderboard.Tab.Weekly",
+            "countRes": "i18n.RaceMode.Leaderboard.Unit.PointsLong",
+            "countResShort": "i18n.RaceMode.Leaderboard.Unit.PointsShort",
+            "textTop": "Останься в ТОП-%d, чтобы получить награды",
+            "textNextAward": "Получи больше наград через %d %s",
+            "backgroundImage": "background.img",
+            "backgroundColor": "#110F18",
+            "backgroundIcon": "icon.img",
+            "rounding": 0,
+            
+            "awardsMainText": "Используй всю мощь своего автопарка, не теряй ни секунды - борись за призовые места! Награды начислятся в добычу после окончания события.",
+            
+             "hints":
+                [
+              {
+                  "id":1,
+                  "comment": "уведомление в notif, когда игрок получает награду в добычу после завершения ивента",
+                  "text": "Поздравляем! Ты занял %d место в топе недельного рейтинга Кубка Шторма! Проверь добычу, чтобы забрать награды."
+              }
+                ],
+            
+            "places": 
+            [
+                {
+                    "placeMin": 1,
+                    "placeMax": 5,
+                    "text": "",
+                    "awards": 
+                    [
+                        {
+                            "id": 1,
+                            "name": "КЕЙС: ТУЗ X1",
+                            "nameStore": "КЕЙС: ТУЗ X1",
+                            "description": "КЕЙС: ТУЗ X1",
+                            "descriptionStore": "КЕЙС: ТУЗ X1",
+                            "rarity": 4,
+                            "typeId": 4,
+                            "internalId": 34,
+                            "modelId": 0,
+                            "count": 1,
+                            "subcount": 0,
+                            "renderId": "img_case_event25.png"
+                        },
+                        {
+                            "id": 2,
+                            "name": "250 BC",
+                            "nameStore": "250 BC",
+                            "description": "250 BC",
+                            "descriptionStore": "250 BC",
+                            "rarity": 1,
+                            "typeId": 3,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 250,
+                            "subcount": 0,
+                            "renderId": "img_BC.png"
+                        },
+                        {
+                            "id": 3,
+                            "name": "VIP PLATINUM 7Д.",
+                            "nameStore": "VIP PLATINUM 7Д.",
+                            "description": "VIP PLATINUM 7Д.",
+                            "descriptionStore": "VIP PLATINUM 7Д.",
+                            "rarity": 2,
+                            "typeId": 9,
+                            "internalId": 3,
+                            "modelId": 0,
+                            "count": 168,
+                            "subcount": 0,
+                            "renderId": "img_platinum_vip.png"
+                        }
+                    ]
+                },
+                {
+                    "placeMin": 6,
+                    "placeMax": 30,
+                    "text": "",
+                    "awards": 
+                    [
+                        {
+                            "id": 1,  
+                            "name": "КЕЙС БОМЖА X3",
+                            "nameStore": "КЕЙС БОМЖА X3",
+                            "description": "КЕЙС БОМЖА X3",
+                            "descriptionStore": "КЕЙС БОМЖА X3",
+                            "rarity": 2,
+                            "typeId": 4,
+                            "internalId": 2,
+                            "modelId": 0,
+                            "count": 3,
+                            "subcount": 0,
+                            "renderId": "img_case_bomj.png"
+                        },
+                        {
+                            "id": 2,
+                            "name": "150 BC",
+                            "nameStore": "150 BC",
+                            "description": "150 BC",
+                            "descriptionStore": "150 BC",
+                            "rarity": 1,
+                            "typeId": 3,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 150,
+                            "subcount": 0,
+                            "renderId": "img_BC.png"
+                        },
+                        {
+                            "id": 3,
+                            "name": "VIP PLATINUM 3Д.",
+                            "nameStore": "VIP PLATINUM 3Д.",
+                            "description": "VIP PLATINUM 3Д.",
+                            "descriptionStore": "VIP PLATINUM 3Д.",
+                            "rarity": 2,
+                            "typeId": 9,
+                            "internalId": 3,
+                            "modelId": 0,
+                            "count": 72,
+                            "subcount": 0,
+                            "renderId": "img_platinum_vip.png"
+                        }
+                    ]
+                },
+                {
+                    "placeMin": 31,
+                    "placeMax": 280,
+                    "text": "",
+                    "awards": 
+                    [
+                        
+                        {
+                            "id": 1,
+                            "name": "КЕЙС БОМЖА X2",
+                            "nameStore": "КЕЙС БОМЖА X2",
+                            "description": "КЕЙС БОМЖА X2",
+                            "descriptionStore": "КЕЙС БОМЖА X2",
+                            "rarity": 2,
+                            "typeId": 4,
+                            "internalId": 2,
+                            "modelId": 0,
+                            "count": 2,
+                            "subcount": 0,
+                            "renderId": "img_case_bomj.png"
+                        },
+                        {
+                            "id": 2,
+                            "name": "2000 BP EXP",
+                            "nameStore": "2000 BP EXP",
+                            "description": "2000 BP EXP",
+                            "descriptionStore": "2000 BP EXP",
+                            "rarity": 1,
+                            "typeId": 10,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 2000,
+                            "subcount": 0,
+                            "renderId": "ic_bpexp.png"
+                        },
+                        {
+                            "id": 3,
+                            "name": "VIP GOLD 72Ч.",
+                            "nameStore": "VIP GOLD 72Ч.",
+                            "description": "VIP GOLD 72Ч.",
+                            "descriptionStore": "VIP GOLD 72Ч.",
+                            "rarity": 1,
+                            "typeId": 9,
+                            "internalId": 2,
+                            "modelId": 0,
+                            "count": 72,
+                            "subcount": 0,
+                            "renderId": "img_gold_vip.png"
+                        }
+                    ]
+                },
+                {
+                    "placeMin": 281,
+                    "placeMax": 780,
+                    "text": "",
+                    "awards": 
+                    [
+                        {
+                            "id": 1,
+                            "name": "КЕЙС БОМЖА X1",
+                            "nameStore": "КЕЙС БОМЖА X1",
+                            "description": "КЕЙС БОМЖА X1",
+                            "descriptionStore": "КЕЙС БОМЖА X1",
+                            "rarity": 2,
+                            "typeId": 4,
+                            "internalId": 2,
+                            "modelId": 0,
+                            "count": 1,
+                            "subcount": 0,
+                            "renderId": "img_case_bomj.png"
+                        },
+                        {
+                            "id": 2,
+                            "name": "VIP SILVER 72Ч.",
+                            "nameStore": "VIP SILVER 72Ч.",
+                            "description": "VIP SILVER 72Ч.",
+                            "descriptionStore": "VIP SILVER 72Ч.",
+                            "rarity": 1,
+                            "typeId": 9,
+                            "internalId": 1,
+                            "modelId": 0,
+                            "count": 72,
+                            "subcount": 0,
+                            "renderId": "img_silver_vip.png"
+                        }
+                    ]
+                },
+                {
+                    "placeMin": 781,
+                    "placeMax": 1580,
+                    "text": "",
+                    "awards": 
+                    [
+                        {
+                            "id": 1,
+                            "name": "1000 BP EXP",
+                            "nameStore": "1000 BP EXP",
+                            "description": "1000 BP EXP",
+                            "descriptionStore": "1000 BP EXP",
+                            "rarity": 1,
+                            "typeId": 10,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 1000,
+                            "subcount": 0,
+                            "renderId": "ic_bpexp.png"
+                        },
+                        {
+                            "id": 2,
+                            "name": "VIP SILVER 24Ч.",
+                            "nameStore": "VIP SILVER 24Ч.",
+                            "description": "VIP SILVER 24Ч.",
+                            "descriptionStore": "VIP SILVER 24Ч.",
+                            "rarity": 1,
+                            "typeId": 9,
+                            "internalId": 1,
+                            "modelId": 0,
+                            "count": 24,
+                            "subcount": 0,
+                            "renderId": "img_silver_vip.png"
+                        }
+                    ]
+                },
+                {
+                    "placeMin": 1581,
+                    "placeMax": 2580,
+                    "text": "",
+                    "awards": 
+                    [
+                        {
+                            "id": 1,
+                            "name": "500 BP EXP",
+                            "nameStore": "500 BP EXP",
+                            "description": "500 BP EXP",
+                            "descriptionStore": "500 BP EXP",
+                            "rarity": 1,
+                            "typeId": 10,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 500,
+                            "subcount": 0,
+                            "renderId": "ic_bpexp.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        { 
+            "id": 3,
+            "crossserver": false,
+            "visualPreset": "RaceModeLeaderboard",
+            "title": "i18n.RaceMode.Leaderboard.Tab.Season",
+            "countRes": "i18n.RaceMode.Leaderboard.Unit.PointsLong",
+            "countResShort": "i18n.RaceMode.Leaderboard.Unit.PointsShort",
+            "textTop": "Останься в ТОП-%d, чтобы получить награды",
+            "textNextAward": "Получи больше наград через %d %s",
+            "backgroundImage": "background.img",
+            "backgroundColor": "#110F18",
+            "backgroundIcon": "icon.img",
+            "rounding": 0,
+            
+            "awardsMainText": "Используй всю мощь своего автопарка, не теряй ни секунды - борись за призовые места! Награды начислятся в добычу после окончания события.",
+            
+             "hints":
+                [
+              {
+                  "id":1,
+                  "comment": "уведомление в notif, когда игрок получает награду в добычу после завершения ивента",
+                  "text": "Поздравляем! Ты занял %d место в топе Кубка Шторма! Проверь добычу, чтобы забрать награды."
+              }
+                ],
+            
+            "places": 
+            [
+                {
+                    "placeMin": 1,
+                    "placeMax": 1,
+                    "text": "",
+                    "awards": 
+                    [
+                        {
+                            "id": 1,
+                            "name": "Mazda Furai",
+                            "nameStore": "Furashi",
+                            "description": "Mazda Furai",
+                            "descriptionStore": "Furashi",
+                            "rarity": 5,
+                            "typeId": 5,
+                            "internalId": 580,
+                            "modelId": 28787,
+                            "count": 0,
+                            "subcount": 269,
+                            "renderId": "veh_28787.png"
+                        },
+                        {
+                            "id": 2,
+                            "name": "АВТО-КЕЙС 3.0 X3",
+                            "nameStore": "АВТО-КЕЙС 3.0 X3",
+                            "description": "АВТО-КЕЙС 3.0 X3",
+                            "descriptionStore": "АВТО-КЕЙС 3.0 X3",
+                            "rarity": 4,
+                            "typeId": 4,
+                            "internalId": 25,
+                            "modelId": 0,
+                            "count": 3,
+                            "subcount": 0,
+                            "renderId": "img_case_auto_time_limited.png"
+                        },
+                        {
+                            "id": 3,
+                            "name": "3000 BC",
+                            "nameStore": "3000 BC",
+                            "description": "3000 BC",
+                            "descriptionStore": "3000 BC",
+                            "rarity": 4,
+                            "typeId": 3,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 3000,
+                            "subcount": 0,
+                            "renderId": "img_BC.png"
+                        }
+                    ]
+                },
+                {
+                    "placeMin": 2,
+                    "placeMax": 6,
+                    "text": "",
+                    "awards": 
+                    [
+                        {
+                            "id": 1,
+                            "name": "КЕЙС: ТУЗ X2",
+                            "nameStore": "КЕЙС: ТУЗ X2",
+                            "description": "КЕЙС: ТУЗ X2",
+                            "descriptionStore": "КЕЙС: ТУЗ X2",
+                            "rarity": 4,
+                            "typeId": 4,
+                            "internalId": 34,
+                            "modelId": 0,
+                            "count": 2,
+                            "subcount": 0,
+                            "renderId": "img_case_event25.png"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Chevrolet Camaro ZL1",
+                            "nameStore": "Comaric",
+                            "description": "Chevrolet Camaro ZL1",
+                            "descriptionStore": "Comaric",
+                            "rarity": 5,
+                            "typeId": 5,
+                            "internalId": 144,
+                            "modelId": 543,
+                            "count": 0,
+                            "subcount": 208,
+                            "renderId": "veh_543.png"
+                        },
+                        {
+                            "id": 3,
+                            "name": "1000 BC",
+                            "nameStore": "1000 BC",
+                            "description": "1000 BC",
+                            "descriptionStore": "1000 BC",
+                            "rarity": 3,
+                            "typeId": 3,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 1000,
+                            "subcount": 0,
+                            "renderId": "img_BC.png"
+                        }
+                    ]
+                },
+                {
+                    "placeMin": 7,
+                    "placeMax": 31,
+                    "text": "",
+                    "awards": 
+                    [
+                        {
+                            "id": 1,
+                            "name": "КЕЙС: ТУЗ X1",
+                            "nameStore": "КЕЙС: ТУЗ X1",
+                            "description": "КЕЙС: ТУЗ X1",
+                            "descriptionStore": "КЕЙС: ТУЗ X1",
+                            "rarity": 4,
+                            "typeId": 4,
+                            "internalId": 34,
+                            "modelId": 0,
+                            "count": 1,
+                            "subcount": 0,
+                            "renderId": "img_case_event25.png"
+                        },
+                        {
+                            "id": 2,
+                            "name": "1 000 000 Р",
+                            "nameStore": "1 000 000 Р",
+                            "description": "1 000 000 Р",
+                            "descriptionStore": "1 000 000 Р",
+                            "rarity": 3,
+                            "typeId": 2,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 1000000,
+                            "subcount": 0,
+                            "renderId": "ic_prize_money.png"
+                        },
+                        {
+                            "id": 3,
+                            "name": "500 BC",
+                            "nameStore": "500 BC",
+                            "description": "500 BC",
+                            "descriptionStore": "500 BC",
+                            "rarity": 2,
+                            "typeId": 3,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 500,
+                            "subcount": 0,
+                            "renderId": "img_BC.png"
+                        }
+                    ]
+                },
+                {
+                    "placeMin": 32,
+                    "placeMax": 531,
+                    "text": "",
+                    "awards": 
+                    [
+                        {
+                            "id": 1,
+                            "name": "500 000 Р",
+                            "nameStore": "500 000 Р",
+                            "description": "500 000 Р",
+                            "descriptionStore": "500 000 Р",
+                            "rarity": 3,
+                            "typeId": 2,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 500000,
+                            "subcount": 0,
+                            "renderId": "ic_prize_money.png"
+                        },
+                        {
+                            "id": 2,
+                            "name": "КЕЙС БОМЖА X3",
+                            "nameStore": "КЕЙС БОМЖА X3",
+                            "description": "КЕЙС БОМЖА X3",
+                            "descriptionStore": "КЕЙС БОМЖА X3",
+                            "rarity": 2,
+                            "typeId": 4,
+                            "internalId": 2,
+                            "modelId": 0,
+                            "count": 3,
+                            "subcount": 0,
+                            "renderId": "img_case_bomj.png"
+                        },
+                        {
+                            "id": 3,
+                            "name": "5000 BP EXP",
+                            "nameStore": "5000 BP EXP",
+                            "description": "5000 BP EXP",
+                            "descriptionStore": "5000 BP EXP",
+                            "rarity": 2,
+                            "typeId": 10,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 5000,
+                            "subcount": 0,
+                            "renderId": "ic_bpexp.png"
+                        }
+                    ]
+                },
+                {
+                    "placeMin": 532,
+                    "placeMax": 1531,
+                    "text": "",
+                    "awards": 
+                    [
+                        {
+                            "id": 1,
+                            "name": "КЕЙС БОМЖА X2",
+                            "nameStore": "КЕЙС БОМЖА X2",
+                            "description": "КЕЙС БОМЖА X2",
+                            "descriptionStore": "КЕЙС БОМЖА X2",
+                            "rarity": 2,
+                            "typeId": 4,
+                            "internalId": 2,
+                            "modelId": 0,
+                            "count": 2,
+                            "subcount": 0,
+                            "renderId": "img_case_bomj.png"
+                        },
+                        {
+                            "id": 2,
+                            "name": "5000 BP EXP",
+                            "nameStore": "5000 BP EXP",
+                            "description": "5000 BP EXP",
+                            "descriptionStore": "5000 BP EXP",
+                            "rarity": 2,
+                            "typeId": 10,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 5000,
+                            "subcount": 0,
+                            "renderId": "ic_bpexp.png"
+                        },
+                        {
+                            "id": 3,
+                            "name": "150 000 Р",
+                            "nameStore": "150 000 Р",
+                            "description": "150 000 Р",
+                            "descriptionStore": "150 000 Р",
+                            "rarity": 2,
+                            "typeId": 2,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 150000,
+                            "subcount": 0,
+                            "renderId": "ic_prize_money.png"
+                        }
+                    ]
+                },
+                {
+                    "placeMin": 1532,
+                    "placeMax": 3031,
+                    "text": "",
+                    "awards": 
+                    [
+                        {
+                            "id": 1,
+                            "name": "КЕЙС БОМЖА X1",
+                            "nameStore": "КЕЙС БОМЖА X1",
+                            "description": "КЕЙС БОМЖА X1",
+                            "descriptionStore": "КЕЙС БОМЖА X1",
+                            "rarity": 2,
+                            "typeId": 4,
+                            "internalId": 2,
+                            "modelId": 0,
+                            "count": 1,
+                            "subcount": 0,
+                            "renderId": "img_case_bomj.png"
+                        },
+                        {
+                            "id": 2,
+                            "name": "2500 BP EXP",
+                            "nameStore": "2500 BP EXP",
+                            "description": "2500 BP EXP",
+                            "descriptionStore": "2500 BP EXP",
+                            "rarity": 1,
+                            "typeId": 10,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 2500,
+                            "subcount": 0,
+                            "renderId": "ic_bpexp.png"
+                        },
+                        {
+                            "id": 3,
+                            "name": "100 000 Р",
+                            "nameStore": "100 000 Р",
+                            "description": "100 000 Р",
+                            "descriptionStore": "100 000 Р",
+                            "rarity": 2,
+                            "typeId": 2,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 100000,
+                            "subcount": 0,
+                            "renderId": "ic_prize_money.png"
+                        }
+                    ]
+                },
+                {
+                    "placeMin": 3032,
+                    "placeMax": 5031,
+                    "text": "",
+                    "awards": 
+                    [
+                        {
+                            "id": 1,
+                            "name": "X50 ПЫЛЬ",
+                            "nameStore": "X50 ПЫЛЬ",
+                            "description": "X50 ПЫЛЬ",
+                            "descriptionStore": "X50 ПЫЛЬ",
+                            "rarity": 1,
+                            "typeId": 21,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 50,
+                            "subcount": 0,
+                            "renderId": "ic_dust_res.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        { 
+            "id": 4,
+            "crossserver": true,
+            "visualPreset": "RaceModeLeaderboard",
+            "title": "i18n.RaceMode.Leaderboard.Tab.Crossserver",
+            "countRes": "i18n.RaceMode.Leaderboard.Unit.PointsLong",
+            "countResShort": "i18n.RaceMode.Leaderboard.Unit.PointsShort",
+            "textTop": "Останься в ТОП-%d, чтобы получить награды",
+            "textNextAward": "Получи больше наград через %d %s",
+            "backgroundImage": "background.img",
+            "backgroundColor": "#110F18",
+            "backgroundIcon": "icon.img",
+            "rounding": 0,
+            
+            "awardsMainText": "Используй всю мощь своего автопарка, не теряй ни секунды - борись за призовые места! Награды начислятся в добычу после окончания события.",
+            
+             "hints":
+                [
+              {
+                  "id":1,
+                  "comment": "уведомление в notif, когда игрок получает награду в добычу после завершения ивента",
+                  "text": "Поздравляем! Ты занял %d место в топе рейтинга Кубка Шторма среди всех игроков GRAND HORIZON RP! Проверь добычу, чтобы забрать награды."
+              }
+                ],
+            
+            "places": 
+            [
+                {
+                    "placeMin": 1,
+                    "placeMax": 50,
+                    "text": "",
+                    "awards": 
+                    [
+                        {
+                            "id": 1,
+                            "name": "Mazda Furai",
+                            "nameStore": "Furashi",
+                            "description": "Mazda Furai",
+                            "descriptionStore": "Furashi",
+                            "rarity": 5,
+                            "typeId": 5,
+                            "internalId": 580,
+                            "modelId": 28787,
+                            "count": 0,
+                            "subcount": 269,
+                            "renderId": "veh_28787.png"
+                        },
+                        {
+                            "id": 2,
+                            "name": "АВТО-КЕЙС 3.0 X5",
+                            "nameStore": "АВТО-КЕЙС 3.0 X5",
+                            "description": "АВТО-КЕЙС 3.0 X5",
+                            "descriptionStore": "АВТО-КЕЙС 3.0 X5",
+                            "rarity": 5,
+                            "typeId": 4,
+                            "internalId": 25,
+                            "modelId": 0,
+                            "count": 5,
+                            "subcount": 0,
+                            "renderId": "img_case_auto_time_limited.png"
+                        },
+                        {
+                            "id": 3,
+                            "name": "7500 BC",
+                            "nameStore": "7500 BC",
+                            "description": "7500 BC",
+                            "descriptionStore": "7500 BC",
+                            "rarity": 4,
+                            "typeId": 3,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 7500,
+                            "subcount": 0,
+                            "renderId": "img_BC.png"
+                        }
+                    ]
+                },
+                {
+                    "placeMin": 51,
+                    "placeMax": 150,
+                    "text": "",
+                    "awards": 
+                    [
+                        {
+                            "id": 1,
+                            "name": "1500 BC",
+                            "nameStore": "1500 BC",
+                            "description": "1500 BC",
+                            "descriptionStore": "1500 BC",
+                            "rarity": 3,
+                            "typeId": 3,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 1500,
+                            "subcount": 0,
+                            "renderId": "img_BC.png"
+                        },
+                        {
+                            "id": 2,
+                            "name": "КЕЙС: ТУЗ X5",
+                            "nameStore": "КЕЙС: ТУЗ X5",
+                            "description": "КЕЙС: ТУЗ X5",
+                            "descriptionStore": "КЕЙС: ТУЗ X5",
+                            "rarity": 4,
+                            "typeId": 4,
+                            "internalId": 34,
+                            "modelId": 0,
+                            "count": 5,
+                            "subcount": 0,
+                            "renderId": "img_case_event25.png"
+                        },
+                        {
+                            "id": 3,
+                            "name": "5 000 000 Р",
+                            "nameStore": "5 000 000 Р",
+                            "description": "5 000 000 Р",
+                            "descriptionStore": "5 000 000 Р",
+                            "rarity": 3,
+                            "typeId": 2,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 5000000,
+                            "subcount": 0,
+                            "renderId": "ic_prize_money.png"
+                        }
+                    ]
+                },
+                {
+                    "placeMin": 151,
+                    "placeMax": 400,
+                    "text": "",
+                    "awards": 
+                    [
+                        {
+                            "id": 1,
+                            "name": "1000 BC",
+                            "nameStore": "1000 BC",
+                            "description": "1000 BC",
+                            "descriptionStore": "1000 BC",
+                            "rarity": 3,
+                            "typeId": 3,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 1000,
+                            "subcount": 0,
+                            "renderId": "img_BC.png"
+                        },
+                        {
+                            "id": 2,
+                            "name": "КЕЙС: ТУЗ X3",
+                            "nameStore": "КЕЙС: ТУЗ X3",
+                            "description": "КЕЙС: ТУЗ X3",
+                            "descriptionStore": "КЕЙС: ТУЗ X3",
+                            "rarity": 4,
+                            "typeId": 4,
+                            "internalId": 34,
+                            "modelId": 0,
+                            "count": 3,
+                            "subcount": 0,
+                            "renderId": "img_case_event25.png"
+                        },
+                        {
+                            "id": 3,
+                            "name": "3 000 000 Р",
+                            "nameStore": "3 000 000 Р",
+                            "description": "3 000 000 Р",
+                            "descriptionStore": "3 000 000 Р",
+                            "rarity": 3,
+                            "typeId": 2,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 3000000,
+                            "subcount": 0,
+                            "renderId": "ic_prize_money.png"
+                        }
+                    ]
+                },
+                {
+                    "placeMin": 401,
+                    "placeMax": 1400,
+                    "text": "",
+                    "awards": 
+                    [
+                        {
+                            "id": 1,
+                            "name": "500 BC",
+                            "nameStore": "500 BC",
+                            "description": "500 BC",
+                            "descriptionStore": "500 BC",
+                            "rarity": 2,
+                            "typeId": 3,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count":500,
+                            "subcount": 0,
+                            "renderId": "img_BC.png"
+                        },
+                        {
+                            "id": 2,
+                            "name": "1 000 000 Р",
+                            "nameStore": "1 000 000 Р",
+                            "description": "1 000 000 Р",
+                            "descriptionStore": "1 000 000 Р",
+                            "rarity": 2,
+                            "typeId": 2,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 1000000,
+                            "subcount": 0,
+                            "renderId": "ic_prize_money.png"
+                        }  
+                    ]
+                },
+                {
+                    "placeMin": 1401,
+                    "placeMax": 6400,
+                    "text": "",
+                    "awards": 
+                    [
+                        
+                        {
+                            "id": 1,
+                            "name": "КЕЙС БОМЖА X5",
+                            "nameStore": "КЕЙС БОМЖА X5",
+                            "description": "КЕЙС БОМЖА X5",
+                            "descriptionStore": "КЕЙС БОМЖА X5",
+                            "rarity": 2,
+                            "typeId": 4,
+                            "internalId": 2,
+                            "modelId": 0,
+                            "count": 5,
+                            "subcount": 0,
+                            "renderId": "img_case_bomj.png"
+                        },
+                        {
+                            "id": 2,
+                            "name": "СТАНДАРТНЫЙ X2",
+                            "nameStore": "СТАНДАРТНЫЙ X2",
+                            "description": "СТАНДАРТНЫЙ КЕЙС X2",
+                            "descriptionStore": "СТАНДАРТНЫЙ КЕЙС X2",
+                            "rarity": 4,
+                            "typeId": 4,
+                            "internalId": 3,
+                            "modelId": 0,
+                            "count": 2,
+                            "subcount": 0,
+                            "renderId": "img_case_standart.png"
+                        },
+                        {
+                            "id": 3,
+                            "name": "150 000 Р",
+                            "nameStore": "150 000 Р",
+                            "description": "150 000 Р",
+                            "descriptionStore": "150 000 Р",
+                            "rarity": 2,
+                            "typeId": 2,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 150000,
+                            "subcount": 0,
+                            "renderId": "ic_prize_money.png"
+                        }
+                    ]
+                },
+                {
+                    "placeMin": 6401,
+                    "placeMax": 26400,
+                    "text": "",
+                    "awards": 
+                    [
+                        
+                        {
+                            "id": 1,
+                            "name": "КЕЙС БОМЖА X3",
+                            "nameStore": "КЕЙС БОМЖА X3",
+                            "description": "КЕЙС БОМЖА X3",
+                            "descriptionStore": "КЕЙС БОМЖА X3",
+                            "rarity": 2,
+                            "typeId": 4,
+                            "internalId": 2,
+                            "modelId": 0,
+                            "count": 3,
+                            "subcount": 0,
+                            "renderId": "img_case_bomj.png"
+                        },
+                        {
+                            "id": 2,
+                            "name": "СТАНДАРТНЫЙ X1",
+                            "nameStore": "СТАНДАРТНЫЙ X1",
+                            "description": "СТАНДАРТНЫЙ КЕЙС X1",
+                            "descriptionStore": "СТАНДАРТНЫЙ КЕЙС X1",
+                            "rarity": 4,
+                            "typeId": 4,
+                            "internalId": 3,
+                            "modelId": 0,
+                            "count": 1,
+                            "subcount": 0,
+                            "renderId": "img_case_standart.png"
+                        },
+                        {
+                            "id": 3,
+                            "name": "50 000 Р",
+                            "nameStore": "50 000 Р",
+                            "description": "50 000 Р",
+                            "descriptionStore": "50 000 Р",
+                            "rarity": 1,
+                            "typeId": 2,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 50000,
+                            "subcount": 0,
+                            "renderId": "ic_prize_money.png"
+                        }
+                    ]
+                },
+                {
+                    "placeMin": 26401,
+                    "placeMax": 126400,
+                    "text": "",
+                    "awards": 
+                    [
+                        
+                        {
+                            "id": 1,
+                            "name": "КЕЙС БОМЖА X1",
+                            "nameStore": "КЕЙС БОМЖА X1",
+                            "description": "КЕЙС БОМЖА X1",
+                            "descriptionStore": "КЕЙС БОМЖА X1",
+                            "rarity": 2,
+                            "typeId": 4,
+                            "internalId": 2,
+                            "modelId": 0,
+                            "count": 1,
+                            "subcount": 0,
+                            "renderId": "img_case_bomj.png"
+                        },
+                        {
+                            "id": 2,
+                            "name": "25 000 Р",
+                            "nameStore": "25 000 Р",
+                            "description": "25 000 Р",
+                            "descriptionStore": "25 000 Р",
+                            "rarity": 1,
+                            "typeId": 2,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 25000,
+                            "subcount": 0,
+                            "renderId": "ic_prize_money.png"
+                        }
+                    ]
+                },
+                {
+                    "placeMin": 126401,
+                    "placeMax": 426400,
+                    "text": "",
+                    "awards": 
+                    [
+                        {
+                            "id": 1,
+                            "name": "10 000 Р",
+                            "nameStore": "10 000 Р",
+                            "description": "10 000 Р",
+                            "descriptionStore": "10 000 Р",
+                            "rarity": 1,
+                            "typeId": 2,
+                            "internalId": 0,
+                            "modelId": 0,
+                            "count": 10000,
+                            "subcount": 0,
+                            "renderId": "ic_prize_money.png"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

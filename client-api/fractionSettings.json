@@ -1,0 +1,3699 @@
+﻿{
+  "fractions": [
+    {
+      "id": 1,
+      "name": "Правительство области",
+      "color": "CCFF00",
+      "ranks": [
+        {
+          "rank": 1,
+          "rankName": "Водитель",
+          "rankSalary": 4400,
+          "maleSkinId": 17,
+          "femaleSkinId": 141,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 2,
+          "rankName": "Охранник",
+          "rankSalary": 5800,
+          "maleSkinId": 17,
+          "femaleSkinId": 141,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 3,
+          "rankName": "Начальник охраны",
+          "rankSalary": 7000,
+          "maleSkinId": 17,
+          "femaleSkinId": 141,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 4,
+          "rankName": "Секретарь",
+          "rankSalary": 8000,
+          "maleSkinId": 17,
+          "femaleSkinId": 141,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 5,
+          "rankName": "Советник",
+          "rankSalary": 8400,
+          "maleSkinId": 17,
+          "femaleSkinId": 141,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 6,
+          "rankName": "Лицензер",
+          "rankSalary": 8300,
+          "maleSkinId": 187,
+          "femaleSkinId": 141,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 7,
+          "rankName": "Адвокат",
+          "rankSalary": 10500,
+          "maleSkinId": 187,
+          "femaleSkinId": 141,
+                    "accesses": [
+                        4,
+                        2,
+                        12
+                    ]
+        },
+        {
+          "rank": 8,
+          "rankName": "Депутат",
+          "rankSalary": 13000,
+          "maleSkinId": 227,
+          "femaleSkinId": 141,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        5
+                    ]
+        },
+        {
+          "rank": 9,
+          "rankName": "Вице-губернатор",
+          "rankSalary": 20200,
+          "maleSkinId": 227,
+          "femaleSkinId": 141,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        3,
+                        5,
+                        7,
+                        10,
+                        6,
+                        11,
+                        9
+                    ]
+        },
+        {
+          "rank": 10,
+          "rankName": "Губернатор",
+          "rankSalary": 26700,
+          "maleSkinId": 147,
+          "femaleSkinId": 141,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        3,
+                        5,
+                        7,
+                        10,
+                        6,
+                        11,
+                        9
+                    ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Воинская часть",
+      "color": "996633",
+      "ranks": [
+        {
+          "rank": 1,
+          "rankName": "Рядовой",
+          "rankSalary": 2600,
+          "maleSkinId": 253,
+          "femaleSkinId": 191,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 2,
+          "rankName": "Ефрейтор",
+          "rankSalary": 3400,
+          "maleSkinId": 253,
+          "femaleSkinId": 191,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 3,
+          "rankName": "Сержант",
+          "rankSalary": 4200,
+          "maleSkinId": 253,
+          "femaleSkinId": 191,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 4,
+          "rankName": "Старшина",
+          "rankSalary": 5000,
+          "maleSkinId": 179,
+          "femaleSkinId": 191,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 5,
+          "rankName": "Прапорщик",
+          "rankSalary": 6450,
+          "maleSkinId": 179,
+          "femaleSkinId": 191,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 6,
+          "rankName": "Лейтенант",
+          "rankSalary": 7850,
+          "maleSkinId": 179,
+          "femaleSkinId": 5500036,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 7,
+          "rankName": "Капитан",
+          "rankSalary": 9500,
+          "maleSkinId": 287,
+          "femaleSkinId": 5500036,
+                    "accesses": [
+                        4,
+                        2,
+                        12
+                    ]
+        },
+        {
+          "rank": 8,
+          "rankName": "Майор",
+          "rankSalary": 11900,
+          "maleSkinId": 287,
+          "femaleSkinId": 5500036,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        5
+                    ]
+        },
+        {
+          "rank": 9,
+          "rankName": "Подполковник",
+          "rankSalary": 17300,
+          "maleSkinId": 287,
+          "femaleSkinId": 5500036,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        3,
+                        5,
+                        7,
+                        10,
+                        6,
+                        11,
+                        9
+                    ]
+        },
+        {
+          "rank": 10,
+          "rankName": "Полковник",
+          "rankSalary": 24800,
+          "maleSkinId": 61,
+          "femaleSkinId": 31,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        3,
+                        5,
+                        7,
+                        10,
+                        6,
+                        11,
+                        9
+                    ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Городская больница",
+      "color": "FF6666",
+      "ranks": [
+        {
+          "rank": 1,
+          "rankName": "Интерн",
+          "rankSalary": 3900,
+          "maleSkinId": 274,
+          "femaleSkinId": 304,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 2,
+          "rankName": "Парамедик",
+          "rankSalary": 5450,
+          "maleSkinId": 274,
+          "femaleSkinId": 305,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 3,
+          "rankName": "Фельдшер",
+          "rankSalary": 6500,
+          "maleSkinId": 274,
+          "femaleSkinId": 305,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 4,
+          "rankName": "Нарколог",
+          "rankSalary": 7800,
+          "maleSkinId": 274,
+          "femaleSkinId": 305,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 5,
+          "rankName": "Педиатр",
+          "rankSalary": 9350,
+          "maleSkinId": 275,
+          "femaleSkinId": 69,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 6,
+          "rankName": "Терапевт",
+          "rankSalary": 11400,
+          "maleSkinId": 275,
+          "femaleSkinId": 69,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 7,
+          "rankName": "Травматолог",
+          "rankSalary": 12800,
+          "maleSkinId": 275,
+          "femaleSkinId": 69,
+                    "accesses": [
+                        4,
+                        12
+                    ]
+        },
+        {
+          "rank": 8,
+          "rankName": "Хирург",
+          "rankSalary": 15300,
+          "maleSkinId": 275,
+          "femaleSkinId": 69,
+                    "accesses": [
+                        4,
+                        12,
+                        5
+                    ]
+        },
+        {
+          "rank": 9,
+          "rankName": "Заведующий",
+          "rankSalary": 19700,
+          "maleSkinId": 275,
+          "femaleSkinId": 69,
+                    "accesses": [
+                        4,
+                        12,
+                        5,
+                        7,
+                        10,
+                        6,
+                        11,
+                        9
+                    ]
+        },
+        {
+          "rank": 10,
+          "rankName": "Главный врач",
+          "rankSalary": 22400,
+          "maleSkinId": 70,
+          "femaleSkinId": 69,
+                    "accesses": [
+                        4,
+                        12,
+                        5,
+                        7,
+                        10,
+                        6,
+                        11,
+                        9
+                    ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "СМИ",
+      "color": "FF6600",
+      "ranks": [
+        {
+          "rank": 1,
+          "rankName": "Практикант",
+          "rankSalary": 2450,
+          "maleSkinId": 184,
+          "femaleSkinId": 263,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 2,
+          "rankName": "Фотограф",
+          "rankSalary": 3500,
+          "maleSkinId": 184,
+          "femaleSkinId": 263,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 3,
+          "rankName": "Журналист",
+          "rankSalary": 4950,
+          "maleSkinId": 184,
+          "femaleSkinId": 263,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 4,
+          "rankName": "Корреспондент",
+          "rankSalary": 6950,
+          "maleSkinId": 184,
+          "femaleSkinId": 263,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 5,
+          "rankName": "Ведущий",
+          "rankSalary": 8450,
+          "maleSkinId": 188,
+          "femaleSkinId": 263,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 6,
+          "rankName": "Редактор",
+          "rankSalary": 9550,
+          "maleSkinId": 188,
+          "femaleSkinId": 263,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 7,
+          "rankName": "Маркетолог",
+          "rankSalary": 10700,
+          "maleSkinId": 188,
+          "femaleSkinId": 263,
+                    "accesses": [
+                        4,
+                        12
+                    ]
+        },
+        {
+          "rank": 8,
+          "rankName": "Менеджер",
+          "rankSalary": 13900,
+          "maleSkinId": 261,
+          "femaleSkinId": 263,
+                    "accesses": [
+                        4,
+                        12,
+                        5
+                    ]
+        },
+        {
+          "rank": 9,
+          "rankName": "Продюсер",
+          "rankSalary": 19500,
+          "maleSkinId": 261,
+          "femaleSkinId": 263,
+                    "accesses": [
+                        4,
+                        12,
+                        5,
+                        7,
+                        10,
+                        6,
+                        11,
+                        9
+                    ]
+        },
+        {
+          "rank": 10,
+          "rankName": "Директор",
+          "rankSalary": 24600,
+          "maleSkinId": 186,
+          "femaleSkinId": 263,
+                    "accesses": [
+                        4,
+                        12,
+                        5,
+                        7,
+                        10,
+                        6,
+                        11,
+                        9
+                    ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "ГИБДД",
+      "color": "0000FF",
+      "ranks": [
+        {
+          "rank": 1,
+          "rankName": "Рядовой",
+          "rankSalary": 6000,
+          "maleSkinId": 282,
+          "femaleSkinId": 76,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 2,
+          "rankName": "Ефрейтор",
+          "rankSalary": 7000,
+          "maleSkinId": 282,
+          "femaleSkinId": 76,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 3,
+          "rankName": "Сержант",
+          "rankSalary": 9400,
+          "maleSkinId": 282,
+          "femaleSkinId": 76,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 4,
+          "rankName": "Старшина",
+          "rankSalary": 10600,
+          "maleSkinId": 281,
+          "femaleSkinId": 76,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 5,
+          "rankName": "Прапорщик",
+          "rankSalary": 11800,
+          "maleSkinId": 281,
+          "femaleSkinId": 76,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 6,
+          "rankName": "Лейтенант",
+          "rankSalary": 13100,
+          "maleSkinId": 281,
+          "femaleSkinId": 5500034,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 7,
+          "rankName": "Капитан",
+          "rankSalary": 13800,
+          "maleSkinId": 280,
+          "femaleSkinId": 5500034,
+                    "accesses": [
+                        4,
+                        2,
+                        12
+                    ]
+        },
+        {
+          "rank": 8,
+          "rankName": "Майор",
+          "rankSalary": 15600,
+          "maleSkinId": 280,
+          "femaleSkinId": 5500034,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        5
+                    ]
+        },
+        {
+          "rank": 9,
+          "rankName": "Подполковник",
+          "rankSalary": 21800,
+          "maleSkinId": 280,
+          "femaleSkinId": 5500034,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        3,
+                        5,
+                        7,
+                        10,
+                        6,
+                        11,
+                        9
+                    ]
+        },
+        {
+          "rank": 10,
+          "rankName": "Полковник",
+          "rankSalary": 24300,
+          "maleSkinId": 288,
+          "femaleSkinId": 5500035,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        3,
+                        5,
+                        7,
+                        10,
+                        6,
+                        11,
+                        9
+                    ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "УМВД",
+      "color": "0000FF",
+      "ranks": [
+        {
+          "rank": 1,
+          "rankName": "Рядовой",
+          "rankSalary": 6000,
+          "maleSkinId": 284,
+          "femaleSkinId": 265,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 2,
+          "rankName": "Ефрейтор",
+          "rankSalary": 7000,
+          "maleSkinId": 284,
+          "femaleSkinId": 265,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 3,
+          "rankName": "Сержант",
+          "rankSalary": 9400,
+          "maleSkinId": 284,
+          "femaleSkinId": 265,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 4,
+          "rankName": "Старшина",
+          "rankSalary": 10600,
+          "maleSkinId": 277,
+          "femaleSkinId": 265,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 5,
+          "rankName": "Прапорщик",
+          "rankSalary": 11800,
+          "maleSkinId": 277,
+          "femaleSkinId": 265,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 6,
+          "rankName": "Лейтенант",
+          "rankSalary": 13100,
+          "maleSkinId": 277,
+          "femaleSkinId": 5500037,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 7,
+          "rankName": "Капитан",
+          "rankSalary": 13800,
+          "maleSkinId": 285,
+          "femaleSkinId": 5500037,
+                    "accesses": [
+                        4,
+                        2,
+                        12
+                    ]
+        },
+        {
+          "rank": 8,
+          "rankName": "Майор",
+          "rankSalary": 15600,
+          "maleSkinId": 285,
+          "femaleSkinId": 5500037,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        5
+                    ]
+        },
+        {
+          "rank": 9,
+          "rankName": "Подполковник",
+          "rankSalary": 21800,
+          "maleSkinId": 285,
+          "femaleSkinId": 5500037,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        3,
+                        5,
+                        7,
+                        10,
+                        6,
+                        11,
+                        9
+                    ]
+        },
+        {
+          "rank": 10,
+          "rankName": "Полковник",
+          "rankSalary": 24300,
+          "maleSkinId": 15,
+          "femaleSkinId": 5500038,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        3,
+                        5,
+                        7,
+                        10,
+                        6,
+                        11,
+                        9
+                    ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "ФСБ",
+      "color": "0000FF",
+      "ranks": [
+        {
+          "rank": 1,
+          "rankName": "Рядовой",
+          "rankSalary": 7000,
+          "maleSkinId": 286,
+          "femaleSkinId": 54,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 2,
+          "rankName": "Ефрейтор",
+          "rankSalary": 7950,
+          "maleSkinId": 286,
+          "femaleSkinId": 54,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 3,
+          "rankName": "Сержант",
+          "rankSalary": 9150,
+          "maleSkinId": 286,
+          "femaleSkinId": 54,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 4,
+          "rankName": "Старшина",
+          "rankSalary": 10300,
+          "maleSkinId": 5500033,
+          "femaleSkinId": 54,
+                    "accesses": [
+                        4,
+                        2,
+                        13
+                    ]
+        },
+        {
+          "rank": 5,
+          "rankName": "Прапорщик",
+          "rankSalary": 11300,
+          "maleSkinId": 5500033,
+          "femaleSkinId": 54,
+                    "accesses": [
+                        4,
+                        2,
+                        13
+                    ]
+        },
+        {
+          "rank": 6,
+          "rankName": "Лейтенант",
+          "rankSalary": 12600,
+          "maleSkinId": 5500033,
+          "femaleSkinId": 5500032,
+                    "accesses": [
+                        4,
+                        2,
+                        13
+                    ]
+        },
+        {
+          "rank": 7,
+          "rankName": "Капитан",
+          "rankSalary": 14600,
+          "maleSkinId": 163,
+          "femaleSkinId": 5500032,
+                    "accesses": [
+                        4,
+                        2,
+                        13,
+                        12
+                    ]
+        },
+        {
+          "rank": 8,
+          "rankName": "Майор",
+          "rankSalary": 17100,
+          "maleSkinId": 72,
+          "femaleSkinId": 5500032,
+                    "accesses": [
+                        4,
+                        2,
+                        13,
+                        12,
+                        5
+                    ]
+        },
+        {
+          "rank": 9,
+          "rankName": "Подполковник",
+          "rankSalary": 21800,
+          "maleSkinId": 72,
+          "femaleSkinId": 5500032,
+                    "accesses": [
+                        4,
+                        2,
+                        13,
+                        12,
+                        3,
+                        5,
+                        7,
+                        10,
+                        6,
+                        8,
+                        11,
+                        9
+                    ]
+        },
+        {
+          "rank": 10,
+          "rankName": "Полковник",
+          "rankSalary": 26000,
+          "maleSkinId": 164,
+          "femaleSkinId": 150,
+                    "accesses": [
+                        4,
+                        2,
+                        13,
+                        12,
+                        3,
+                        5,
+                        7,
+                        10,
+                        6,
+                        8,
+                        11,
+                        9
+                    ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Арзамасская ОПГ",
+      "color": "009900",
+      "ranks": [
+        {
+          "rank": 1,
+          "rankName": "Молодой",
+          "rankSalary": 0,
+          "maleSkinId": 112,
+          "femaleSkinId": 148,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 2,
+          "rankName": "Борзый",
+          "rankSalary": 0,
+          "maleSkinId": 112,
+          "femaleSkinId": 148,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 3,
+          "rankName": "Фраер",
+          "rankSalary": 0,
+          "maleSkinId": 112,
+          "femaleSkinId": 148,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 4,
+          "rankName": "Барыга",
+          "rankSalary": 0,
+          "maleSkinId": 112,
+          "femaleSkinId": 148,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 5,
+          "rankName": "Блатной",
+          "rankSalary": 0,
+          "maleSkinId": 113,
+          "femaleSkinId": 148,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 6,
+          "rankName": "Свояк",
+          "rankSalary": 0,
+          "maleSkinId": 113,
+          "femaleSkinId": 148,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 7,
+          "rankName": "Браток",
+          "rankSalary": 0,
+          "maleSkinId": 113,
+          "femaleSkinId": 148,
+                    "accesses": [
+                        4,
+                        2,
+                        12
+                    ]
+        },
+        {
+          "rank": 8,
+          "rankName": "Смотрящий",
+          "rankSalary": 0,
+          "maleSkinId": 119,
+          "femaleSkinId": 148,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        5
+                    ]
+        },
+        {
+          "rank": 9,
+          "rankName": "Положенец",
+          "rankSalary": 0,
+          "maleSkinId": 119,
+          "femaleSkinId": 148,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        3,
+                        5,
+                        7,
+                        10,
+                        6,
+                        11,
+                        9
+                    ]
+        },
+        {
+          "rank": 10,
+          "rankName": "Вор в законе",
+          "rankSalary": 0,
+          "maleSkinId": 111,
+          "femaleSkinId": 148,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        3,
+                        5,
+                        7,
+                        10,
+                        6,
+                        11,
+                        9
+                    ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Батыревская ОПГ",
+      "color": "6666FF",
+      "ranks": [
+        {
+          "rank": 1,
+          "rankName": "Молодой",
+          "rankSalary": 0,
+          "maleSkinId": 116,
+          "femaleSkinId": 193,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 2,
+          "rankName": "Борзый",
+          "rankSalary": 0,
+          "maleSkinId": 116,
+          "femaleSkinId": 193,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 3,
+          "rankName": "Фраер",
+          "rankSalary": 0,
+          "maleSkinId": 116,
+          "femaleSkinId": 193,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 4,
+          "rankName": "Барыга",
+          "rankSalary": 0,
+          "maleSkinId": 116,
+          "femaleSkinId": 193,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 5,
+          "rankName": "Блатной",
+          "rankSalary": 0,
+          "maleSkinId": 114,
+          "femaleSkinId": 193,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 6,
+          "rankName": "Свояк",
+          "rankSalary": 0,
+          "maleSkinId": 114,
+          "femaleSkinId": 193,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 7,
+          "rankName": "Браток",
+          "rankSalary": 0,
+          "maleSkinId": 114,
+          "femaleSkinId": 193,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        3
+                    ]
+        },
+        {
+          "rank": 8,
+          "rankName": "Смотрящий",
+          "rankSalary": 0,
+          "maleSkinId": 115,
+          "femaleSkinId": 193,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        3,
+                        5
+                    ]
+        },
+        {
+          "rank": 9,
+          "rankName": "Положенец",
+          "rankSalary": 0,
+          "maleSkinId": 115,
+          "femaleSkinId": 193,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        3,
+                        5,
+                        7,
+                        10,
+                        6,
+                        11,
+                        9
+                    ]
+        },
+        {
+          "rank": 10,
+          "rankName": "Вор в законе",
+          "rankSalary": 0,
+          "maleSkinId": 117,
+          "femaleSkinId": 193,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        3,
+                        5,
+                        7,
+                        10,
+                        6,
+                        11,
+                        9
+                    ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Лыткаринская ОПГ",
+      "color": "FFCD00",
+      "ranks": [
+        {
+          "rank": 1,
+          "rankName": "Молодой",
+          "rankSalary": 0,
+          "maleSkinId": 104,
+          "femaleSkinId": 195,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 2,
+          "rankName": "Борзый",
+          "rankSalary": 0,
+          "maleSkinId": 104,
+          "femaleSkinId": 195,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 3,
+          "rankName": "Фраер",
+          "rankSalary": 0,
+          "maleSkinId": 104,
+          "femaleSkinId": 195,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 4,
+          "rankName": "Барыга",
+          "rankSalary": 0,
+          "maleSkinId": 104,
+          "femaleSkinId": 195,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 5,
+          "rankName": "Блатной",
+          "rankSalary": 0,
+          "maleSkinId": 103,
+          "femaleSkinId": 195,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 6,
+          "rankName": "Свояк",
+          "rankSalary": 0,
+          "maleSkinId": 103,
+          "femaleSkinId": 195,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 7,
+          "rankName": "Браток",
+          "rankSalary": 0,
+          "maleSkinId": 103,
+          "femaleSkinId": 195,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        3
+                    ]
+        },
+        {
+          "rank": 8,
+          "rankName": "Смотрящий",
+          "rankSalary": 0,
+          "maleSkinId": 102,
+          "femaleSkinId": 195,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        3,
+                        5
+                    ]
+        },
+        {
+          "rank": 9,
+          "rankName": "Положенец",
+          "rankSalary": 0,
+          "maleSkinId": 102,
+          "femaleSkinId": 195,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        3,
+                        5,
+                        7,
+                        10,
+                        6,
+                        11,
+                        9
+                    ]
+        },
+        {
+          "rank": 10,
+          "rankName": "Вор в законе",
+          "rankSalary": 0,
+          "maleSkinId": 105,
+          "femaleSkinId": 195,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        3,
+                        5,
+                        7,
+                        10,
+                        6,
+                        11,
+                        9
+                    ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "ФСИН",
+      "color": "9DCEEB",
+      "ranks": [
+        {
+          "rank": 1,
+          "rankName": "Рядовой",
+          "rankSalary": 2600,
+          "maleSkinId": 4,
+          "femaleSkinId": 93,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 2,
+          "rankName": "Ефрейтор",
+          "rankSalary": 3400,
+          "maleSkinId": 4,
+          "femaleSkinId": 93,
+                    "accesses": [
+                        4
+                    ]
+        },
+        {
+          "rank": 3,
+          "rankName": "Сержант",
+          "rankSalary": 4200,
+          "maleSkinId": 4,
+          "femaleSkinId": 93,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 4,
+          "rankName": "Старшина",
+          "rankSalary": 5000,
+          "maleSkinId": 5500030,
+          "femaleSkinId": 93,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 5,
+          "rankName": "Прапорщик",
+          "rankSalary": 6450,
+          "maleSkinId": 5500030,
+          "femaleSkinId": 93,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 6,
+          "rankName": "Лейтенант",
+          "rankSalary": 7850,
+          "maleSkinId": 5500030,
+          "femaleSkinId": 64,
+                    "accesses": [
+                        4,
+                        2
+                    ]
+        },
+        {
+          "rank": 7,
+          "rankName": "Капитан",
+          "rankSalary": 9500,
+          "maleSkinId": 32,
+          "femaleSkinId": 64,
+                    "accesses": [
+                        4,
+                        2,
+                        12
+                    ]
+        },
+        {
+          "rank": 8,
+          "rankName": "Майор",
+          "rankSalary": 11900,
+          "maleSkinId": 32,
+          "femaleSkinId": 64,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        5
+                    ]
+        },
+        {
+          "rank": 9,
+          "rankName": "Подполковник",
+          "rankSalary": 17300,
+          "maleSkinId": 32,
+          "femaleSkinId": 64,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        3,
+                        5,
+                        7,
+                        10,
+                        6,
+                        11,
+                        9
+                    ]
+        },
+        {
+          "rank": 10,
+          "rankName": "Полковник",
+          "rankSalary": 24800,
+          "maleSkinId": 26,
+          "femaleSkinId": 38,
+                    "accesses": [
+                        4,
+                        2,
+                        12,
+                        3,
+                        5,
+                        7,
+                        10,
+                        6,
+                        11,
+                        9
+                    ]
+        }
+      ]
+    }
+  ],
+  "spawn": [
+    {
+      "fraction": 1,
+      "name": "Правительство области",
+      "skinData": [
+        147,
+        17,
+        187,
+        227,
+        141
+      ],
+      "spawnPositionX": -878.24,
+      "spawnPositionY": -1592.7,
+      "spawnPositionZ": 1398.5,
+      "spawnPositionA": 354.57,
+      "spawnVirtualWorld": 21,
+      "spawnInterior": 1
+    },
+    {
+      "fraction": 2,
+      "name": "Воинская часть",
+      "skinData": [
+        61,
+        179,
+        253,
+        287,
+        191,
+        31,
+        5500036
+      ],
+      "spawnPositionX": 1819.09,
+      "spawnPositionY": 1701.14,
+      "spawnPositionZ": 1493.05,
+      "spawnPositionA": 92.0716,
+      "spawnVirtualWorld": -1,
+      "spawnInterior": 1
+    },
+    {
+      "fraction": 3,
+      "name": "Городская больница",
+      "skinData": [
+        70,
+        274,
+        275,
+        276,
+        69,
+        304,
+        305
+      ],
+      "spawnPositionX": 1494.39,
+      "spawnPositionY": 2526.69,
+      "spawnPositionZ": 2501.01,
+      "spawnPositionA": 269.626,
+      "spawnVirtualWorld": -1,
+      "spawnInterior": 1
+    },
+    {
+      "fraction": 4,
+      "name": "СМИ",
+      "skinData": [
+        186,
+        184,
+        188,
+        261,
+        263
+      ],
+      "spawnPositionX": 1981.57,
+      "spawnPositionY": -16.9674,
+      "spawnPositionZ": 1381,
+      "spawnPositionA": 356.09,
+      "spawnVirtualWorld": 7,
+      "spawnInterior": 1
+    },
+    {
+      "fraction": 5,
+      "name": "ГИБДД",
+      "skinData": [
+        288,
+        282,
+        281,
+        280,
+        76,
+        5500034,
+        5500035
+      ],
+      "spawnPositionX": -1094.24,
+      "spawnPositionY": 1524.76,
+      "spawnPositionZ": 1499.95,
+      "spawnPositionA": 180,
+      "spawnVirtualWorld": 5,
+      "spawnInterior": 1
+    },
+    {
+      "fraction": 6,
+      "name": "УМВД",
+      "skinData": [
+        284,
+        277,
+        285,
+        15,
+        265,
+        5500037,
+        5500038
+      ],
+      "spawnPositionX": -1094.24,
+      "spawnPositionY": 1524.76,
+      "spawnPositionZ": 1499.95,
+      "spawnPositionA": 180,
+      "spawnVirtualWorld": 6,
+      "spawnInterior": 1
+    },
+    {
+      "fraction": 7,
+      "name": "ФСБ",
+      "skinData": [
+        164,
+        286,
+        163,
+        72,
+        150,
+        5500033,
+        5500032,
+        5500031
+      ],
+      "spawnPositionX": 2911.47,
+      "spawnPositionY": 1988.78,
+      "spawnPositionZ": 2051.03,
+      "spawnPositionA": 357.927,
+      "spawnVirtualWorld": 17,
+      "spawnInterior": 1
+    },
+    {
+      "fraction": 8,
+      "name": "Арзамасская ОПГ",
+      "skinData": [
+        111,
+        112,
+        113,
+        119,
+        148
+      ],
+      "spawnPositionX": -10.4738,
+      "spawnPositionY": 496.075,
+      "spawnPositionZ": 1381,
+      "spawnPositionA": 272.045,
+      "spawnVirtualWorld": 10,
+      "spawnInterior": 1
+    },
+    {
+      "fraction": 9,
+      "name": "Батыревская ОПГ",
+      "skinData": [
+        117,
+        116,
+        115,
+        114,
+        193
+      ],
+      "spawnPositionX": -10.4738,
+      "spawnPositionY": 496.075,
+      "spawnPositionZ": 1381,
+      "spawnPositionA": 272.045,
+      "spawnVirtualWorld": 11,
+      "spawnInterior": 1
+    },
+    {
+      "fraction": 10,
+      "name": "Лыткаринская ОПГ",
+      "skinData": [
+        105,
+        104,
+        103,
+        102,
+        195
+      ],
+      "spawnPositionX": -10.4738,
+      "spawnPositionY": 496.075,
+      "spawnPositionZ": 1381,
+      "spawnPositionA": 272.045,
+      "spawnVirtualWorld": 12,
+      "spawnInterior": 1
+    },
+    {
+      "fraction": 11,
+      "name": "ФСИН",
+      "skinData": [
+        26,
+        4,
+        32,
+        38,
+        64,
+        93,
+        5500030
+      ],
+      "spawnPositionX": -1873.46,
+      "spawnPositionY": -2723.15,
+      "spawnPositionZ": 8.5846,
+      "spawnPositionA": 232.14,
+      "spawnVirtualWorld": 0,
+      "spawnInterior": 0
+    }
+  ],
+  "employment": [
+    {
+      "id": 1,
+      "fraction": 1,
+      "name": "Правительство области",
+      "skin": 81,
+      "positionX": -888.001,
+      "positionY": -1577.26,
+      "positionZ": 1398.5,
+      "positionA": 30.124,
+      "virtualWorld": 21,
+      "interior": 1,
+      "criterionLevel": 3,
+      "criterionMedCard": 1,
+      "criterionMilitary": 0,
+      "criterionLicenseWeapon": 1,
+      "criterionLicenseB": 1
+    },
+    {
+      "id": 2,
+      "fraction": 2,
+      "name": "Воинская часть",
+      "skin": 81,
+      "positionX": 498.874,
+      "positionY": 1511.59,
+      "positionZ": 1501,
+      "positionA": 175.278,
+      "virtualWorld": -1,
+      "interior": 1,
+      "criterionLevel": 2,
+      "criterionMedCard": 1,
+      "criterionMilitary": 0,
+      "criterionLicenseWeapon": 0,
+      "criterionLicenseB": 1
+    },
+    {
+      "id": 3,
+      "fraction": 3,
+      "name": "Городская больница",
+      "skin": 81,
+      "positionX": 1502.98,
+      "positionY": 2500.47,
+      "positionZ": 2501,
+      "positionA": 270.638,
+      "virtualWorld": -1,
+      "interior": 1,
+      "criterionLevel": 3,
+      "criterionMedCard": 1,
+      "criterionMilitary": 0,
+      "criterionLicenseWeapon": 0,
+      "criterionLicenseB": 1
+    },
+    {
+      "id": 4,
+      "fraction": 4,
+      "name": "СМИ",
+      "skin": 81,
+      "positionX": 1984.96,
+      "positionY": -3.28801,
+      "positionZ": 1381,
+      "positionA": 355.965,
+      "virtualWorld": 7,
+      "interior": 1,
+      "criterionLevel": 3,
+      "criterionMedCard": 1,
+      "criterionMilitary": 0,
+      "criterionLicenseWeapon": 0,
+      "criterionLicenseB": 1
+    },
+    {
+      "id": 5,
+      "fraction": 5,
+      "name": "ГИБДД",
+      "skin": 81,
+      "positionX": -1106.81,
+      "positionY": 1512.9,
+      "positionZ": 1499.95,
+      "positionA": 70.4142,
+      "virtualWorld": 5,
+      "interior": 1,
+      "criterionLevel": 4,
+      "criterionMedCard": 1,
+      "criterionMilitary": 1,
+      "criterionLicenseWeapon": 1,
+      "criterionLicenseB": 1
+    },
+    {
+      "id": 6,
+      "fraction": 6,
+      "name": "УМВД",
+      "skin": 81,
+      "positionX": -1106.81,
+      "positionY": 1512.9,
+      "positionZ": 1499.95,
+      "positionA": 70.4142,
+      "virtualWorld": 6,
+      "interior": 1,
+      "criterionLevel": 4,
+      "criterionMedCard": 1,
+      "criterionMilitary": 1,
+      "criterionLicenseWeapon": 1,
+      "criterionLicenseB": 1
+    },
+    {
+      "id": 11,
+      "fraction": 11,
+      "name": "ФСИН",
+      "skin": 81,
+      "positionX": -1818.11,
+      "positionY": -2631.66,
+      "positionZ": 7.58635,
+      "positionA": 6.36365,
+      "virtualWorld": 0,
+      "interior": 0,
+      "criterionLevel": 4,
+      "criterionMedCard": 1,
+      "criterionMilitary": 1,
+      "criterionLicenseWeapon": 1,
+      "criterionLicenseB": 1
+    },
+    {
+      "id": 8,
+      "fraction": 3,
+      "name": "Городская больница",
+      "skin": 81,
+      "positionX": 1502.98,
+      "positionY": 2500.47,
+      "positionZ": 2501,
+      "positionA": 270.638,
+      "virtualWorld": 2,
+      "interior": 1,
+      "criterionLevel": 3,
+      "criterionMedCard": 1,
+      "criterionMilitary": 0,
+      "criterionLicenseWeapon": 0,
+      "criterionLicenseB": 1
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Разрешено ли возвращаться на место смерти?",
+      "answer1": "Разрешено. Я могу вернуться, чтобы продолжить свои дела",
+      "answer2": "Запрещено. Это нарушает правила игры",
+      "answer3": "Разрешено. Я могу вернуться и разобраться с обидчиком",
+      "answer4": "Разрешено. Я могу вернуться, если не участвовал в перестрелке",
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "question": "Разрешено ли оскорблять других игроков?",
+      "answer1": "Разрешено. Сотрудник может всех оскорблять",
+      "answer2": "Запрещено. Сотрудник не должен никого ругать и оскорблять",
+      "answer3": "Сотрудник может оскорблять только своих коллег",
+      "answer4": "Сотрудник может оскорблять только гражданских",
+      "correctAnswer": 2
+    },
+    {
+      "id": 3,
+      "question": "Разрешено ли убивать игроков без причины?",
+      "answer1": "Разрешено. Я могу убить игрока, если он мне мешает",
+      "answer2": "Разрешено. Это не наказуемо правилами игры",
+      "answer3": "Запрещено. Вы должны иметь вескую на то причину",
+      "answer4": "Запрещено. Конфликты решаются только администрацией",
+      "correctAnswer": 3
+    },
+    {
+      "id": 4,
+      "question": "Разрешено ли убивать коллег из организации?",
+      "answer1": "Разрешено. Сотрудник может убивать коллег",
+      "answer2": "Запрещено. Это нарушает правила игры",
+      "answer3": "Разрешено. Я могу договориться на дуэль",
+      "answer4": "Разрешено. Коллега не гражданский",
+      "correctAnswer": 2
+    },
+    {
+      "id": 5,
+      "question": "Что означает IC информация?",
+      "answer1": "Информация, которая не касается игрового процесса",
+      "answer2": "Информация от администраторов",
+      "answer3": "Информация, которая касается игрового процесса",
+      "answer4": "Информация от лидера",
+      "correctAnswer": 3
+    },
+    {
+      "id": 6,
+      "question": "Что означает OOC информация?",
+      "answer1": "Информация из игрового процесса",
+      "answer2": "Информация, которая не касается игрового процесса",
+      "answer3": "Информация от администрации",
+      "answer4": "Информация от лидера",
+      "correctAnswer": 2
+    },
+    {
+      "id": 7,
+      "question": "Что такое Зелёная Зона?",
+      "answer1": "Зона, в которой можно убивать игроков",
+      "answer2": "Зона для восполнения здоровья",
+      "answer3": "Зона, запрещающая наносить урон другим игрокам",
+      "answer4": "Зона, разрешающая нарушать правила игры",
+      "correctAnswer": 3
+    },
+    {
+      "id": 8,
+      "question": "Что такое RolePlay?",
+      "answer1": "Играть по правилам. Я должен играть по правилам проекта",
+      "answer2": "Играть без правил. Я могу играть как захочу и не быть наказанным",
+      "answer3": "Игра по ролям. Если я полицейский - я играю роль полицейского",
+      "answer4": "Игра по уставу организации",
+      "correctAnswer": 3
+    }
+  ],
+  "progress": [
+    {
+      "fraction": 1,
+      "name": "Правительство области",
+      "ranks": [
+        {
+          "rank": 1,
+          "promotionPoints": 50,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 2,
+          "promotionPoints": 70,
+          "promotionTime": 86400,
+          "rewardMoney": 6000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 3,
+          "promotionPoints": 100,
+          "promotionTime": 86400,
+          "rewardMoney": 6000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 4,
+          "promotionPoints": 150,
+          "promotionTime": 172800,
+          "rewardMoney": 7000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 5,
+          "promotionPoints": 200,
+          "promotionTime": 172800,
+          "rewardMoney": 8000,
+          "rewardTokens": 4,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 6,
+          "promotionPoints": 400,
+          "promotionTime": 0,
+          "rewardMoney": 10000,
+          "rewardTokens": 5,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 7,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 8,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 9,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 10,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        }
+      ]
+    },
+    {
+      "fraction": 2,
+      "name": "Воинская часть",
+      "ranks": [
+        {
+          "rank": 1,
+          "promotionPoints": 50,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 2,
+          "promotionPoints": 70,
+          "promotionTime": 86400,
+          "rewardMoney": 6000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 3,
+          "promotionPoints": 100,
+          "promotionTime": 86400,
+          "rewardMoney": 6000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 4,
+          "promotionPoints": 150,
+          "promotionTime": 172800,
+          "rewardMoney": 7000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 5,
+          "promotionPoints": 200,
+          "promotionTime": 259200,
+          "rewardMoney": 8000,
+          "rewardTokens": 4,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 6,
+          "promotionPoints": 400,
+          "promotionTime": 0,
+          "rewardMoney": 10000,
+          "rewardTokens": 5,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 7,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 8,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 9,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 10,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        }
+      ]
+    },
+    {
+      "fraction": 3,
+      "name": "Городская больница",
+      "ranks": [
+        {
+          "rank": 1,
+          "promotionPoints": 50,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 2,
+          "promotionPoints": 70,
+          "promotionTime": 0,
+          "rewardMoney": 6000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 3,
+          "promotionPoints": 100,
+          "promotionTime": 86400,
+          "rewardMoney": 6000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 4,
+          "promotionPoints": 150,
+          "promotionTime": 172800,
+          "rewardMoney": 7000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 5,
+          "promotionPoints": 200,
+          "promotionTime": 172800,
+          "rewardMoney": 8000,
+          "rewardTokens": 4,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 6,
+          "promotionPoints": 400,
+          "promotionTime": 0,
+          "rewardMoney": 10000,
+          "rewardTokens": 5,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 7,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 8,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 9,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 10,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        }
+      ]
+    },
+    {
+      "fraction": 4,
+      "name": "СМИ",
+      "ranks": [
+        {
+          "rank": 1,
+          "promotionPoints": 50,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 2,
+          "promotionPoints": 70,
+          "promotionTime": 86400,
+          "rewardMoney": 6000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 3,
+          "promotionPoints": 100,
+          "promotionTime": 86400,
+          "rewardMoney": 6000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 4,
+          "promotionPoints": 150,
+          "promotionTime": 172800,
+          "rewardMoney": 7000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 5,
+          "promotionPoints": 200,
+          "promotionTime": 172800,
+          "rewardMoney": 8000,
+          "rewardTokens": 4,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 6,
+          "promotionPoints": 400,
+          "promotionTime": 0,
+          "rewardMoney": 10000,
+          "rewardTokens": 5,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 7,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 8,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 9,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 10,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        }
+      ]
+    },
+    {
+      "fraction": 5,
+      "name": "ГИБДД",
+      "ranks": [
+        {
+          "rank": 1,
+          "promotionPoints": 50,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 2,
+          "promotionPoints": 70,
+          "promotionTime": 86400,
+          "rewardMoney": 6000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 3,
+          "promotionPoints": 100,
+          "promotionTime": 86400,
+          "rewardMoney": 6000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 4,
+          "promotionPoints": 150,
+          "promotionTime": 172800,
+          "rewardMoney": 7000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 5,
+          "promotionPoints": 200,
+          "promotionTime": 172800,
+          "rewardMoney": 8000,
+          "rewardTokens": 4,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 6,
+          "promotionPoints": 400,
+          "promotionTime": 0,
+          "rewardMoney": 10000,
+          "rewardTokens": 5,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 7,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 8,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 9,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 10,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        }
+      ]
+    },
+    {
+      "fraction": 6,
+      "name": "УМВД",
+      "ranks": [
+        {
+          "rank": 1,
+          "promotionPoints": 50,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 2,
+          "promotionPoints": 70,
+          "promotionTime": 86400,
+          "rewardMoney": 6000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 3,
+          "promotionPoints": 100,
+          "promotionTime": 86400,
+          "rewardMoney": 6000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 4,
+          "promotionPoints": 150,
+          "promotionTime": 172800,
+          "rewardMoney": 7000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 5,
+          "promotionPoints": 200,
+          "promotionTime": 172800,
+          "rewardMoney": 8000,
+          "rewardTokens": 4,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 6,
+          "promotionPoints": 400,
+          "promotionTime": 0,
+          "rewardMoney": 10000,
+          "rewardTokens": 5,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 7,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 8,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 9,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 10,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        }
+      ]
+    },
+    {
+      "fraction": 7,
+      "name": "ФСБ",
+      "ranks": [
+        {
+          "rank": 1,
+          "promotionPoints": 50,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 2,
+          "promotionPoints": 70,
+          "promotionTime": 86400,
+          "rewardMoney": 6000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 3,
+          "promotionPoints": 100,
+          "promotionTime": 86400,
+          "rewardMoney": 6000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 4,
+          "promotionPoints": 150,
+          "promotionTime": 172800,
+          "rewardMoney": 7000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 5,
+          "promotionPoints": 200,
+          "promotionTime": 259200,
+          "rewardMoney": 8000,
+          "rewardTokens": 4,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 6,
+          "promotionPoints": 400,
+          "promotionTime": 0,
+          "rewardMoney": 10000,
+          "rewardTokens": 5,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 7,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 8,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 9,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 10,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        }
+      ]
+    },
+    {
+      "fraction": 11,
+      "name": "ФСИН",
+      "ranks": [
+        {
+          "rank": 1,
+          "promotionPoints": 50,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 2,
+          "promotionPoints": 70,
+          "promotionTime": 0,
+          "rewardMoney": 6000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 3,
+          "promotionPoints": 100,
+          "promotionTime": 86400,
+          "rewardMoney": 6000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 4,
+          "promotionPoints": 150,
+          "promotionTime": 86400,
+          "rewardMoney": 7000,
+          "rewardTokens": 3,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 5,
+          "promotionPoints": 200,
+          "promotionTime": 86400,
+          "rewardMoney": 8000,
+          "rewardTokens": 4,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 6,
+          "promotionPoints": 400,
+          "promotionTime": 0,
+          "rewardMoney": 10000,
+          "rewardTokens": 5,
+          "rewardCase": 1,
+          "caseId": 1
+        },
+        {
+          "rank": 7,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 8,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 9,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        },
+        {
+          "rank": 10,
+          "promotionPoints": 0,
+          "promotionTime": 0,
+          "rewardMoney": 0,
+          "rewardTokens": 0,
+          "rewardCase": 0
+        }
+      ]
+    }
+  ],
+  "fraction_description": [
+    {
+      "id": 1,
+      "fractionId": 2,
+      "fractionName": "Армия",
+      "text": "[color=#FFFF00]Главная защита и опора нашего общества.[/color][br/][br/]Когда уже бессильна полиция и даже ФСБ, только бравые армейские парни способны встать стеной между криминалом и честными гражданами.[br/][br/]Каждый, кто рассчитывает построить карьеру в силовых структурах, обязан пройти через эту школу жизни и получить свой военный билет.[br/]"
+    },
+    {
+      "id": 2,
+      "fractionId": 6,
+      "fractionName": "УМВД",
+      "text": "[color=#FFFF00]Эта служба и опасна и трудна.[/color][br/][br/]Потому, что именно сотрудники МВД являются первой линией обороны от жуликов всех мастей.[br/][br/]Их задача - предотвратить беззаконие. А если не получится, то найти и обезвредить преступника, чего бы им это ни стоило.[br/]"
+    },
+    {
+      "id": 3,
+      "fractionId": 5,
+      "fractionName": "ГИБДД",
+      "text": "[color=#FFFF00]Дорожный дозор не дремлет, не спит.[/color][br/][br/]Ведь преступник - это не только злой бандит в маске с пистолетом. Им может стать и порядочный с виду гражданин, который злостно нарушает правила дорожного движения.[br/][br/]Но доблестные сотрудники ГИБДД сделают все, чтобы такой человек понес заслуженное наказание.[br/]"
+    },
+    {
+      "id": 4,
+      "fractionId": 7,
+      "fractionName": "ФСБ",
+      "text": "[color=#FFFF00]“Государство, законность и честь” - не пустые слова.[/color][br/][br/]Эти серьезные ребята с серьезной экипировкой всегда помогут коллегам из полиции поймать особо опасного и изворотливого преступника.[br/][br/]А если преступник затесался в ряды самих госорганов, то опытные оперативники под прикрытием выявят его и там.[br/]"
+    },
+    {
+      "id": 5,
+      "fractionId": 8,
+      "fractionName": "Арзамасская ОПГ",
+      "text": "[color=#FFFF00]Организованная преступность - это порядок, построенный на хаосе.[/color][br/][br/]Хотя отношение к группировкам среди населения неоднозначное, они - неотъемлемая часть нашего мира, формирующая свою уникальную криминальную среду. И в этой среде найдется место не только разрушению, но и созиданию.[br/][br/]Известная своим жестким прагматизмом Арзамасская ОПГ лишь подтверждает этот факт.[br/]"
+    },
+    {
+      "id": 6,
+      "fractionId": 9,
+      "fractionName": "Батыревская ОПГ",
+      "text": "[color=#FFFF00]Организованная преступность - это порядок, построенный на хаосе.[/color][br/][br/]Хотя отношение к группировкам среди населения неоднозначное, они - неотъемлемая часть нашего мира, формирующая свою уникальную криминальную среду. И в этой среде найдется место не только разрушению, но и созиданию.[br/][br/]Известная своей железной дисциплиной Батыревская ОПГ лишь подтверждает этот факт.[br/]"
+    },
+    {
+      "id": 7,
+      "fractionId": 10,
+      "fractionName": "Лыткаринская ОПГ",
+      "text": "[color=#FFFF00]Организованная преступность - это порядок, построенный на хаосе.[/color][br/][br/]Хотя отношение к группировкам среди населения неоднозначное, они - неотъемлемая часть нашего мира, формирующая свою уникальную криминальную среду. И в этой среде найдется место не только разрушению, но и созиданию.[br/][br/]Известная своей пугающей суровостью Лыткаринская ОПГ лишь подтверждает этот факт.[br/]"
+    },
+    {
+      "id": 8,
+      "fractionId": 11,
+      "fractionName": "ФСИН",
+      "text": "[color=#FFFF00]Кто-то ловит, а кто-то и охраняет.[/color][br/][br/]Ведь поймать преступника - это дело одно, а вот заставить его годами исправно нести своё законное наказание - совсем другое.[br/][br/]Находиться бок о бок с самыми жуткими и опасными бандитами области, конвоировать их, охранять и предотвращать побеги - обычные будни этих людей. Суровые будни.[br/]"
+    },
+    {
+      "id": 9,
+      "fractionId": 4,
+      "fractionName": "СМИ",
+      "text": "[color=#FFFF00]Четвертая власть лишь с виду кажется не такой влиятельной, как три другие.[/color][br/][br/]Сотрудники СМИ круглосуточно трудятся над тем, чтобы жители крепко держали руку на пульсе политической, социальной и культурной жизни нашей области.[br/][br/]И именно они предоставляют голос обычным гражданам, а также следят за тем, чтобы голос этот звучал достойно и был услышан всеми.[br/]"
+    },
+    {
+      "id": 10,
+      "fractionId": 3,
+      "fractionName": "Больница",
+      "text": "[color=#FFFF00]Медицина - это не просто профессия, а призвание служить жизни во всех ее проявлениях.[/color][br/][br/]Наши врачи готовы примчаться туда, где требуется их скорейшая помощь и буквально вытащить пациента с того света. А затем обеспечить ему полноценное лечение в просторных светлых и уютных палатах стационара.[br/][br/]Как завещал великий Гиппократ![br/]"
+    },
+    {
+      "id": 11,
+      "fractionId": 1,
+      "fractionName": "Правительство",
+      "text": "[color=#FFFF00]Все мы - народ, и правительство тоже.[/color][br/][br/]Этот большой, могучий, а иногда и откровенно неповоротливый механизм всё же каким-то чудом исправно управляет нашим сложным регионом.[br/][br/]И кто бы что ни думал, за таким непростым делом стоят наши обычные граждане. Начиная от водителей, охранников и секретарей и заканчивая самим губернатором области.[br/]"
+    }
+  ],
+  "fractionLogs": [
+    {
+      "id": 0,
+      "logName": "Общие",
+      "fractionsId": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": 1,
+      "logName": "Новые сотрудники",
+      "fractionsId": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        11
+      ]
+    },
+    {
+      "id": 2,
+      "logName": "Увольнения",
+      "fractionsId": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        11
+      ]
+    },
+    {
+      "id": 3,
+      "logName": "Продвижение сотрудников",
+      "fractionsId": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        11
+      ]
+    },
+    {
+      "id": 4,
+      "logName": "Мероприятия",
+      "fractionsId": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        11
+      ]
+    },
+    {
+      "id": 5,
+      "logName": "Выговоры",
+      "fractionsId": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        11
+      ]
+    },
+    {
+      "id": 6,
+      "logName": "Получение оружия на складе",
+      "fractionsId": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        11
+      ]
+    },
+    {
+      "id": 7,
+      "logName": "Деятельность лицензеров",
+      "fractionsId": [
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "logName": "Деятельность адвокатов",
+      "fractionsId": [
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "logName": "Выдача военных билетов",
+      "fractionsId": [
+        2
+      ]
+    },
+    {
+      "id": 10,
+      "logName": "Выдача мед. карт",
+      "fractionsId": [
+        3
+      ]
+    },
+    {
+      "id": 11,
+      "logName": "Лечение пациентов",
+      "fractionsId": [
+        3
+      ]
+    },
+    {
+      "id": 12,
+      "logName": "Операции по смене пола",
+      "fractionsId": [
+        3
+      ]
+    },
+    {
+      "id": 13,
+      "logName": "Редактирование объявлений",
+      "fractionsId": [
+        4
+      ]
+    },
+    {
+      "id": 14,
+      "logName": "Выписанные штрафы",
+      "fractionsId": [
+        5
+      ]
+    },
+    {
+      "id": 15,
+      "logName": "Объявления в розыск",
+      "fractionsId": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": 16,
+      "logName": "Надевание наручников",
+      "fractionsId": [
+        5,
+        6,
+        7,
+        11
+      ]
+    },
+    {
+      "id": 23,
+      "logName": "Взаимодействие с черным списком",
+      "fractionsId": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        11
+      ]
+    },
+    {
+      "id": 24,
+      "logName": "Получение снаряжения на складе",
+      "fractionsId": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        11
+      ]
+    }
+  ],
+  "fractionAccesses": [
+    {
+      "id": 1,
+      "name": "Доступ к фракционному транспорту"
+    },
+    {
+      "id": 2,
+      "name": "Доступ к складу"
+    },
+    {
+      "id": 3,
+      "name": "Доступ к изменению настроек склада"
+    },
+    {
+      "id": 4,
+      "name": "Доступ к волне фракции"
+    },
+    {
+      "id": 5,
+      "name": "Доступ к приглашению во фракцию"
+    },
+    {
+      "id": 6,
+      "name": "Доступ к увольнению членов фракции"
+    },
+    {
+      "id": 7,
+      "name": "Доступ к выдаче выговора"
+    },
+    {
+      "id": 8,
+      "name": "Доступ к увольнению членов других фракций"
+    },
+    {
+      "id": 9,
+      "name": "Доступ к изменению чёрного списка"
+    },
+    {
+      "id": 10,
+      "name": "Доступ к изменению ранга"
+    },
+    {
+      "id": 11,
+      "name": "Доступ к изменению разрешений рангов"
+    },
+    {
+      "id": 12,
+      "name": "Доступ к логам фракции"
+    },
+    {
+      "id": 13,
+      "name": "Доступ к системе внедрения"
+    }
+  ],
+  "speedCameras": {
+    "staticPlaces": [
+      {
+        "cameraId": 1,
+        "coords": [
+          2759.53,
+          -1383.226,
+          33.26,
+          -100.02
+        ],
+        "workZone": [
+          2726.69, 
+          -1033.79, 
+          28.0, 
+          2760.49, 
+          -1725.54,  
+          45.0
+        ]
+      },
+      {
+        "cameraId": 2,
+        "coords": [
+          2714.2588,
+          2620.4133,
+          15.917,
+          -90
+        ],
+        "workZone": [
+          2773.10, 
+          2274.85, 
+          0, 
+          2539.45, 
+          2928.65, 
+          30
+        ]
+      },
+      {
+        "cameraId": 3,
+        "coords": [
+          1603.3772,
+          2970.9944,
+          12.1797,
+          0
+        ],
+        "workZone": [
+          1262.5034,
+          2900.9841,
+          9.2231,
+          1950.754,
+          2900.7861,
+          20.5092
+        ]
+      },
+      {
+        "cameraId": 4,
+        "coords": [
+          2024.9457,
+          1912.6812,
+          15.2718,
+          0
+        ],
+        "workZone": [
+          1952.8677,
+          1830.9302,
+          25.0532,
+          2352.1035,
+          1955.73,
+          5.7404
+        ]
+      },
+      {
+        "cameraId": 5,
+        "coords": [
+          1671.63,
+          -641.933,
+          23.22,
+          21.45
+        ],
+        "workZone": [
+          1607.907,
+          -458.586,
+          10.759,
+          1862.027,
+          -804.414,
+          50.53
+        ]
+      },
+      {
+        "cameraId": 6,
+        "coords": [
+          -726.6145,
+          -2618.4565,
+          29.6595,
+          25
+        ],
+        "workZone": [
+          -450.5433,
+          -2498.7803,
+          27,
+          -1043.1917,
+          -2759.3125,
+          50.1508
+        ]
+      },
+      {
+        "cameraId": 7,
+        "coords": [
+          -235.2609,
+          -1237.9308,
+          40.4693,
+          55
+        ],
+        "workZone": [
+          -75.1093,
+          -928.9873,
+          35.8183,
+          -398.2911,
+          -1544.0311,
+          50.8339
+        ]
+      },
+      {
+        "cameraId": 8,
+        "coords": [
+          -1442.4788,
+          -1396.9166,
+          59.5512,
+          0
+        ],
+        "workZone": [
+          -1788.1134,
+          -1407.9807,
+          40.9734,
+          -1083.9584,
+          -1466.5088,
+          90.3008
+        ]
+      },
+      {
+        "cameraId": 9,
+        "coords": [
+          1986.53,
+          -2705.9,
+          10.73,
+          15.03
+        ],
+        "workZone": [
+          1667.5837,
+          -2581.2314,
+          10.1306,
+          2332.5222,
+          -2750.7209,
+          40.9736
+        ]
+      },
+      {
+        "cameraId": 10,
+        "coords": [
+          1973.2513,
+          1692.6306,
+          15.8665,
+          75
+        ],
+        "workZone": [
+          1953.8547,
+          2038.8971,
+          12.4504,
+          2007.8192,
+          1499.3447,
+          25.7772
+        ]
+      },
+      {
+        "cameraId": 11,
+        "coords": [
+          -2930.8,
+          2247.82,
+          9.154,
+          273
+        ],
+        "workZone": [
+          -2845.95,
+          2071.95,
+          0.15,
+          -2935.95,
+          2597.1,
+          50
+        ]
+      },
+      {
+        "cameraId": 12,
+        "coords": [
+          -2475.57,
+          2886.74,
+          9.125,
+          185
+        ],
+        "workZone": [
+          -2756.597,
+          2788.43,
+          0.35,
+          -2123.45,
+          2898.43,
+          20.8
+        ]
+      },
+      {
+        "cameraId": 13,
+        "coords": [
+          -2678.97,
+          422.76,
+          20.535,
+          270
+        ],
+        "workZone": [
+          -2760.68,
+          86.2,
+          13.76,
+          -2656.05,
+          769.36,
+          30.19
+        ]
+      },
+      {
+        "cameraId": 14,
+        "coords": [
+          -2211.05,
+          2032.75,
+          9.125,
+          177
+        ],
+        "workZone": [
+          -1962.95,
+          2070.9,
+          5.15,
+          -2528.1,
+          2018.8,
+          25
+        ]
+      },
+      {
+        "cameraId": 15,
+        "coords": [
+          -2603.76,
+          1636.13,
+          9.4,
+          280
+        ],
+        "workZone": [
+          -2610.9,
+          1350,
+          5.5,
+          -2550.89,
+          1920.12,
+          40
+        ]
+      }
+    ],
+    "civiliansPlaces": [
+      {
+        "cameraId": 1,
+        "coords": [
+          -2496.91,
+          1061.28,
+          9.55,
+          201
+        ],
+        "workZone": [
+          -2644.85,
+          1024.9,
+          -2200,
+          1204.25
+        ]
+      },
+      {
+        "cameraId": 2,
+        "coords": [
+          -2670.7,
+          -1394.82,
+          7.65,
+          279
+        ],
+        "workZone": [
+          -2680.94,
+          -1100.71,
+          -2550.64,
+          -1685.56
+        ]
+      },
+      {
+        "cameraId": 3,
+        "coords": [
+          -1275.03,
+          1823.89,
+          48.1,
+          101
+        ],
+        "workZone": [
+          -1034.65,
+          1483.15,
+          -1438.05,
+          2132.4
+        ]
+      },
+      {
+        "cameraId": 4,
+        "coords": [
+          -96.43,
+          364.06,
+          11.7,
+          263
+        ],
+        "workZone": [
+          -130.29,
+          650.88,
+          -10.06,
+          75.06
+        ]
+      },
+      {
+        "cameraId": 5,
+        "coords": [
+          1018.33,
+          -743.37,
+          40.80,
+          21
+        ],
+        "workZone": [
+          1260.23,
+          -930.73,
+          770.28,
+          -530.8
+        ]
+      },
+      {
+        "cameraId": 6,
+        "coords": [
+          -1583.4,
+          739.17,
+          30.77,
+          325
+        ],
+        "workZone": [
+          -1850.36,
+          650.39,
+          -1220.46,
+          950.29
+        ]
+      },
+      {
+        "cameraId": 7,
+        "coords": [
+          -2160.1,
+          -359.72,
+          28.95,
+          287
+        ],
+        "workZone": [
+          -2250.74,
+          -100.21,
+          -1910.59,
+          -610.06
+        ]
+      },
+      {
+        "cameraId": 8,
+        "coords": [
+          2757.09,
+          -1480.7,
+          33.16,
+          90
+        ],
+        "workZone": [
+          2760,
+          -1766,
+          2732,
+          -1166
+        ]
+      }
+    ],
+    "handCameras": [
+      {
+        "cameraId": 1,
+        "coords": [
+          2284.54,
+          -1755,
+          21.01
+        ],
+        "workRadius": 45
+      },
+      {
+        "cameraId": 2,
+        "coords": [
+          2788.49,
+          -2156.55,
+          17.71
+        ],
+        "workRadius": 40
+      },
+      {
+        "cameraId": 3,
+        "coords": [
+          -462.35,
+          -1626.85,
+          40.11
+        ],
+        "workRadius": 40
+      },
+      {
+        "cameraId": 4,
+        "coords": [
+          -597.9,
+          -1547.6,
+          40.11
+        ],
+        "workRadius": 40
+      },
+      {
+        "cameraId": 5,
+        "coords": [
+          -2497.9,
+          -343.6,
+          26.61
+        ],
+        "workRadius": 40
+      },
+      {
+        "cameraId": 6,
+        "coords": [
+          -2374.85,
+          -54.45,
+          26.16
+        ],
+        "workRadius": 35
+      },
+      {
+        "cameraId": 7,
+        "coords": [
+          -2249.25,
+          178.34,
+          28.51
+        ],
+        "workRadius": 35
+      },
+      {
+        "cameraId": 8,
+        "coords": [
+          -1886.2,
+          783.04,
+          28.51
+        ],
+        "workRadius": 35
+      },
+      {
+        "cameraId": 9,
+        "coords": [
+          -1135.05,
+          326.49,
+          24.61
+        ],
+        "workRadius": 35
+      },
+      {
+        "cameraId": 10,
+        "coords": [
+          691.34,
+          618.64,
+          10.96
+        ],
+        "workRadius": 40
+      },
+      {
+        "cameraId": 11,
+        "coords": [
+          216.04,
+          796.29,
+          10.96
+        ],
+        "workRadius": 40
+      },
+      {
+        "cameraId": 12,
+        "coords": [
+          15.54,
+          876.04,
+          10.96
+        ],
+        "workRadius": 40
+      },
+      {
+        "cameraId": 13,
+        "coords": [
+          -2320.05,
+          1520.09,
+          8.01
+        ],
+        "workRadius": 35
+      },
+      {
+        "cameraId": 14,
+        "coords": [
+          -2483.95,
+          2537.24,
+          57.41
+        ],
+        "workRadius": 50
+      },
+      {
+        "cameraId": 15,
+        "coords": [
+          -1971.3,
+          2682.69,
+          57.41
+        ],
+        "workRadius": 40
+      },
+      {
+        "cameraId": 16,
+        "coords": [
+          1890.09,
+          2068.29,
+          9.76
+        ],
+        "workRadius": 35
+      },
+      {
+        "cameraId": 17,
+        "coords": [
+          2602.44,
+          -1684.2,
+          21.01
+        ],
+        "workRadius": 45
+      },
+      {
+        "cameraId": 18,
+        "coords": [
+          2600.39,
+          -2678.15,
+          22.21
+        ],
+        "workRadius": 45
+      },
+      {
+        "cameraId": 19,
+        "coords": [
+          207.44,
+          1673.64,
+          10.96
+        ],
+        "workRadius": 40
+      },
+      {
+        "cameraId": 20,
+        "coords": [
+          -2595.3,
+          1238.79,
+          8.86
+        ],
+        "workRadius": 35
+      },
+      {
+        "cameraId": 21,
+        "coords": [
+          -1669.2,
+          2729.49,
+          57.41
+        ],
+        "workRadius": 40
+      }
+    ]
+  },
+  "extensionRights": {
+        "rightsId": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "categoryName": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "Water"
+        ],
+        "extentionPriceMember": [
+            3500,
+            4500,
+            7000,
+            5000,
+            20000
+        ],
+        "extensionPriceAuto": [
+            7000,
+            9000,
+            14000,
+            10000,
+            40000
+        ]
+  },
+    "trafficPoliceSettings": {
+      "minimalExtentionRank": 4,
+      "minimalCancellationRank": 7,
+      "rentcameraPrice": 10000,
+      "cameraCashBack": 0.2,
+      "prohibitedItemsIds": [
+        66,
+        123,
+        124,
+        125,
+        130,
+        1008,
+        1040
+      ],
+      "penaltyFormula": "(1000 + (100 * X)) * Y%",
+      "formulatranscription": "X - разница между допустимой и действительной скоростью; Y - процент при наличии ВИП-статуса (Нет - 100%; Silver - 75%; Gold - 50%; Platinum - 25%)",
+      "penaltyReasons": [
+        {
+          "reasonId": 1,
+          "reasonText": "Нарушение ПДД, вызвавшее повреждение транспорта",
+          "reasonMoney": 30000
+        },
+        {
+          "reasonId": 2,
+          "reasonText": "Парковка транспортного средства в неположенном месте",
+          "reasonMoney": 10000
+        },
+        {
+          "reasonId": 3,
+          "reasonText": "Движение на транспортном средстве в неположенном месте",
+          "reasonMoney": 15000
+        },
+        {
+          "reasonId": 4,
+          "reasonText": "Порча муниципального имущества",
+          "reasonMoney": 10000
+        },
+        {
+          "reasonId": 5,
+          "reasonText": "Создание аварийной ситуации на дороге",
+          "reasonMoney": 15000
+        },
+        {
+          "reasonId": 6,
+          "reasonText": "Передвижение пешком по проезжей части",
+          "reasonMoney": 10000
+        },
+        {
+          "reasonId": 7,
+          "reasonText": "Невыполнение требований сотрудника ДПС",
+          "reasonMoney": 5000
+        },
+        {
+          "reasonId": 8,
+          "reasonText": "Ложный вызов сотрудников",
+          "reasonMoney": 5000
+        },
+        {
+          "reasonId": 9,
+          "reasonText": "Оскорбление государственного служащего",
+          "reasonMoney": 5000
+        }
+      ]
+    },
+    "armySettings": {
+        "armyGangZone": {
+          "gangZoneCoords": [
+            1413.73,
+            1838.07,
+            1982.48,
+            1540.57
+          ],
+          "gangZoneColor": "E0584B"
+        }
+    },
+    "makeGun": [
+        {
+            "id": 1,
+            "order": 1,
+            "typeId": 5,
+            "itemId": 24,
+            "name": "Боевой пистолет",
+            "amount": 1,
+            "materialCost": 3
+        },
+        {
+            "id": 2,
+            "order": 2,
+            "typeId": 5,
+            "itemId": 29,
+            "name": "Штурмовой пистолет-пулемет",
+            "amount": 1,
+            "materialCost": 5
+        },
+        {
+            "id": 3,
+            "order": 3,
+            "typeId": 5,
+            "itemId": 25,
+            "name": "Помповый дробовик",
+            "amount": 1,
+            "materialCost": 6
+        },
+        {
+            "id": 4,
+            "order": 4,
+            "typeId": 5,
+            "itemId": 31,
+            "name": "Штурмовая винтовка",
+            "amount": 1,
+            "materialCost": 4
+        },
+        {
+            "id": 5,
+            "order": 5,
+            "typeId": 5,
+            "itemId": 33,
+            "name": "Охотничая винтовка",
+            "amount": 1,
+            "materialCost": 8
+        },
+        {
+            "id": 6,
+            "order": 1,
+            "typeId": 6,
+            "itemId": 1,
+            "name": "Патрон для пистолета",
+            "amount": 25,
+            "materialCost": 1
+        },
+        {
+            "id": 7,
+            "order": 2,
+            "typeId": 6,
+            "itemId": 2,
+            "name": "Патрон для дробовика",
+            "amount": 12,
+            "materialCost": 1
+        },
+        {
+            "id": 8,
+            "order": 3,
+            "typeId": 6,
+            "itemId": 3,
+            "name": "Патрон для автомата",
+            "amount": 30,
+            "materialCost": 1
+        },
+        {
+            "id": 9,
+            "order": 4,
+            "typeId": 6,
+            "itemId": 4,
+            "name": "Патрон для винтовки",
+            "amount": 10,
+            "materialCost": 1
+        }
+    ]
+}

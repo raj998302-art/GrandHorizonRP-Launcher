@@ -1,0 +1,22 @@
+﻿[
+    {
+        "id": "default",
+		"bankIndex": 8,
+		"sampleIndexForUnarmored": 14,
+        "sampleIndexForArmored": 15,
+        "priority": 7,
+        "maxDistance": 90,
+		"baseVolume": 0.708,
+		"randomVolume": 0.157
+    },
+    {
+        "id": "snowball",
+		"bankIndex": 9,
+        "sampleIndexForUnarmored": 74,
+        "sampleIndexForArmored": 74,
+        "priority": 3,
+        "maxDistance": 20,
+		"baseVolume": 1.0,
+		"randomVolume": 0
+    }
+]

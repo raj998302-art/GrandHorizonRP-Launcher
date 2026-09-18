@@ -1,0 +1,65 @@
+﻿[
+    {
+        "id": "default",
+        "iconIndex": 0,
+        "toggleMode": true,
+        "holdInsteadPress": false,
+        "progressMode": "none"
+    },
+    {
+        "id": "fist",
+        "iconIndex": 1,
+        "toggleMode": false,
+        "holdInsteadPress": false,
+        "progressMode": "none"
+    },
+    {
+        "id": "fire_extinguisher",
+        "iconIndex": 2,
+        "toggleMode": false,
+        "holdInsteadPress": false,
+        "progressMode": "none"
+    },
+    {
+        "id": "fishing_rod",
+        "iconIndex": 3,
+        "toggleMode": false,
+        "holdInsteadPress": false,
+        "progressMode": "none"
+    },
+    {
+        "id": "snowball",
+        "iconIndex": 4,
+        "toggleMode": false,
+        "holdInsteadPress": true,
+        "progressMode": "attackButtonCounter"
+    },
+    {
+        "id": "rocket_launcher",
+        "iconIndex": 5,
+        "toggleMode": true,
+        "holdInsteadPress": false,
+        "progressMode": "none"
+    },
+    {
+        "id": "fireworks",
+        "iconIndex": 5,
+        "toggleMode": false,
+        "holdInsteadPress": false,
+        "progressMode": "none"
+    },
+    {
+        "id": "speed_radar",
+        "iconIndex": 6,
+        "toggleMode": false,
+        "holdInsteadPress": true,
+        "progressMode": "firingRate"
+    },
+    {
+        "id": "scaner",
+        "iconIndex": 7,
+        "toggleMode": true,
+        "holdInsteadPress": false,
+        "progressMode": "none"
+    }
+]

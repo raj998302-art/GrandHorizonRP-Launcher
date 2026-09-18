@@ -1,0 +1,283 @@
+﻿{
+    "storeItems":[
+        {
+            "id":1,
+            "name": "КЕЙС: ТУРБО",
+            "currencyAwardCost":3000,
+            "discount":0,
+            "type": 4,
+            "internalId": 22,
+            "count": 1,
+            "subcount":0,
+            "buyLimit":1,
+            "rarity": 4,
+            "imageName": "img_case_event17.png"
+        },
+        {
+            "id":2,
+            "name": "ПЫЛЬ X30",
+            "currencyAwardCost":250,            
+            "discount":0,
+            "type": 21,
+            "internalId": 1,
+            "count": 30,
+            "subcount":0,
+            "buyLimit":1,
+            "rarity": 3,
+            "imageName": "img_dust.png"
+        },
+        {
+            "id":3,
+            "name": "2000 BP EXP",
+            "currencyAwardCost":200,            
+            "discount":0,
+            "type": 10,
+            "internalId": 0,
+            "count": 2000,
+            "subcount":0,
+            "buyLimit":2,
+            "rarity": 1,
+            "imageName": "ic_bpexp.png"
+        },
+        {
+            "id":4,
+            "name": "VIP GOLD 72Ч.",
+            "currencyAwardCost":150,
+            "discount":0,
+            "type": 9,
+            "internalId": 2,
+            "count": 72,
+            "subcount":0,
+            "buyLimit":2,
+            "rarity": 1,
+            "imageName": "img_gold_vip.png"
+        },
+        {
+            "id":5,
+            "name": "Ежедневный кейс X3",
+            "currencyAwardCost":100,            
+            "discount":0,
+            "type": 4,
+            "internalId": 1,
+            "count": 3,
+            "subcount":0,
+            "buyLimit":5,
+            "rarity": 2,
+            "imageName": "img_case_daily.png"
+        },
+        {
+            "id":6,
+            "name": "Канистра с бензином",
+            "currencyAwardCost":50,            
+            "discount":0,
+            "type": 11,
+            "internalId": 21,
+            "count": 1,
+            "subcount":0,
+            "buyLimit":5,
+            "rarity": 1,
+            "imageName": "img_1650.png"
+        },{
+            "id":7,
+            "name": "Ремонтный комплект",
+            "currencyAwardCost":50,
+            "discount":0,
+            "type": 11,
+            "internalId": 23,
+            "count": 1,
+            "subcount":0,
+            "buyLimit":5,
+            "rarity": 1,
+            "imageName": "img_952.png"
+        },
+        {
+            "id":8,
+            "name": "КЕЙС: НИТРО",
+            "currencyAwardCost":3000,            
+            "discount":0,
+            "type": 4,
+            "internalId": 23,
+            "count": 1,
+            "subcount":0,
+            "buyLimit":1,
+            "rarity": 4,
+            "imageName": "img_case_event18.png"
+        },
+        {
+            "id":9,
+            "name": "Кейс бомжа",
+            "currencyAwardCost":250,            
+            "discount":0,
+            "type": 4,
+            "internalId": 2,
+            "count": 1,
+            "subcount":0,
+            "buyLimit":1,
+            "rarity": 2,
+            "imageName": "img_case_bomj.png"
+        },
+        {
+            "id":10,
+            "name": "3000 BP EXP",
+            "currencyAwardCost":200,            
+            "discount":0,
+            "type": 10,
+            "internalId": 0,
+            "count": 3000,
+            "subcount":0,
+            "buyLimit":2,
+            "rarity": 1,
+            "imageName": "ic_bpexp.png"
+        },
+        {
+            "id":11,
+            "name": "35000 ₽",
+            "currencyAwardCost":200,            
+            "discount":0,
+            "type": 2,
+            "internalId": 0,
+            "count": 35000,
+            "subcount":0,
+            "buyLimit":2,
+            "rarity": 1,
+            "imageName": "ic_prize_money.png"
+        },
+        {
+            "id":12,
+            "name": "VIP SILVER 24Ч.",
+            "currencyAwardCost":100,            
+            "discount":0,
+            "type": 9,
+            "internalId": 1,
+            "count": 24,
+            "subcount":0,
+            "buyLimit":3,
+            "rarity": 1,
+            "imageName": "img_silver_vip.png"
+        },
+        {
+            "id":13,
+            "name": "VIP PLATINUM 24Ч.",
+            "currencyAwardCost":250,            
+            "discount":0,
+            "type": 9,
+            "internalId": 3,
+            "count": 24,
+            "subcount":0,
+            "buyLimit":3,
+            "rarity": 2,
+            "imageName": "img_platinum_vip.png"
+        },
+        {
+            "id":14,
+            "name": "ПЫЛЬ X10",
+            "currencyAwardCost":100,            
+            "discount":0,
+            "type": 21,
+            "internalId": 1,
+            "count": 10,
+            "subcount":0,
+            "buyLimit":1,
+            "rarity": 3,
+            "imageName": "img_dust.png"
+        },
+        {
+            "id":15,
+            "name": "VIP SILVER 72Ч.",
+            "currencyAwardCost":100,            
+            "discount":0,
+            "type": 9,
+            "internalId": 1,
+            "count": 72,
+            "subcount":0,
+            "buyLimit":3,
+            "rarity": 1,
+            "imageName": "img_silver_vip.png"
+        },
+        {
+            "id":16,
+            "name": "15000 ₽",
+            "currencyAwardCost":100,            
+            "discount":0,
+            "type": 2,
+            "internalId": 0,
+            "count": 15000,
+            "subcount":0,
+            "buyLimit":3,
+            "rarity": 1,
+            "imageName": "ic_prize_money.png"
+        },
+        {
+            "id":17,
+            "name": "КЕЙС: ТУЗ",
+            "currencyAwardCost":3000,            
+            "discount":0,
+            "type": 4,
+            "internalId": 34,
+            "count": 1,
+            "subcount":0,
+            "buyLimit":1,
+            "rarity": 4,
+            "imageName": "img_case_event25.png"
+        },
+        {
+            "id":18,
+            "name": "КЕЙС: КОЗЫРЬ",
+            "currencyAwardCost":3000,            
+            "discount":0,
+            "type": 4,
+            "internalId": 35,
+            "count": 1,
+            "subcount":0,
+            "buyLimit":1,
+            "rarity": 4,
+            "imageName": "img_case_event26.png"
+        }
+    ],
+    "sets":[
+        {
+            "id":1,
+            "dates":[1788400800,1789005600],
+            "storeItems":[7,6,5,4,3,2,17]
+        },
+        {
+            "id":2,
+            "dates":[1789005600,1789610400],
+            "storeItems":[7,6,12,11,3,9,17]
+        },
+        {
+            "id":3,
+            "dates":[1789610400,1790215200],
+            "storeItems":[7,6,14,11,10,13,17]
+        },
+        {
+            "id":4,
+            "dates":[1790215200,1790820000],
+            "storeItems":[7,6,12,11,3,9,17]
+        },
+        {
+            "id":5,
+            "dates":[1790820000,1791424800],
+            "storeItems":[7,6,12,11,3,2,17]
+        },
+        {
+            "id":6,
+            "dates":[1791424800,1792029600],
+            "storeItems":[7,6,14,11,3,13,17]
+        },
+        {
+            "id":7,
+            "dates":[1792029600,1792634400],
+            "storeItems":[7,6,5,4,3,2,18]
+        }
+    ],
+    "stores":[
+        {
+            "storePlace":"eventRace",
+            "isEnable":true,
+            "currencyAwardId":33,
+            "textTutorShop":"Обменивай заработанные в гонках [color=#ffc700]Жетоны Гонщика[/color] на ценные награды [br/] [br/] Поторопись, пока магазин не обновился!",
+            "sets":[1,2,3,4,5,6,7]
+        }
+    ]
+}

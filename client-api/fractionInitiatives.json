@@ -1,0 +1,547 @@
+﻿{
+  "fractionInitiatives":
+  [
+    {
+      "fractionId": 2,
+      "initiativeList":
+      [
+        {
+          "initiativeId": 1,
+          "initiativeTitle": "Внеплановые учения",
+          "initiativeDescription": "Складам наших заказчиков нужно обеспечить массовую доставку.\n Кажется, грядет что-то масштабное...",
+          "initiativeMainPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Доставить грузы во фракции",
+              "purposeMeanings": [4, 10, 20]
+            }
+          ],
+          "initiativeAdditionalPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Изготовить химикаты",
+              "purposeMeanings": [10, 25, 50]
+            }
+          ],
+          "initiativeMoney": [15000, 23000, 30000],
+          "initiativePoint": [12, 14, 18]
+        },
+        {
+          "initiativeId": 2,
+          "initiativeTitle": "Тревога!",
+          "initiativeDescription": "Внимание!\n В воинской части объявляется повышенная боевая готовность!\n Общий сбор!",
+          "initiativeMainPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Общее построение на плацу",
+              "purposeMeanings": [5, 12, 20]
+            },
+            {
+              "purposeId": 2,
+              "purposeInfo": "Проверить территорию части",
+              "purposeMeanings": [10, 15, 20]
+            }
+          ],
+          "initiativeAdditionalPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Проверить сторожевые вышки",
+              "purposeMeanings": [4, 6, 8]
+            }
+          ],
+          "initiativeMoney": [15000, 23000, 30000],
+          "initiativePoint": [12, 14, 18]
+        },
+        {
+          "initiativeId": 3,
+          "initiativeTitle": "Проверка части",
+          "initiativeDescription": "Кабинетные крысы решили устроить нам проверку.\n Займись бумажками.\n Теми, которые они должны прочитать, и теми, которые не должны... ",
+          "initiativeMainPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Доставить документы в УМВД",
+              "purposeMeanings": [2, 4, 7]
+            },
+            {
+              "purposeId": 2,
+              "purposeInfo": "Доставить документы в ФСБ",
+              "purposeMeanings": [2, 4, 7]
+            },
+            {
+              "purposeId": 3,
+              "purposeInfo": "Доставить документы в Правительство",
+              "purposeMeanings": [2, 4, 7]
+            }
+          ],
+          "initiativeAdditionalPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Уничтожить данные о лабораторных испытаниях",
+              "purposeMeanings": [2, 4, 7]
+            }
+          ],
+          "initiativeMoney": [15000, 23000, 30000],
+          "initiativePoint": [12, 14, 18]
+        }
+      ]
+    },
+    {
+      "fractionId": 5,
+      "initiativeList":
+      [
+        {
+          "initiativeId": 1,
+          "initiativeTitle": "Контроль скорости",
+          "initiativeDescription": "Начальство объявило Неделю контроля скорости.\n Что ж, пора нам немного притормозить этот суетный город.\n Приступим!",
+          "initiativeMainPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Выставить стационарные камеры",
+              "purposeMeanings": [2, 4, 8]
+            },
+            {
+              "purposeId": 2,
+              "purposeInfo": "Выписать штрафы ручным радаром",
+              "purposeMeanings": [5, 10, 15]
+            },
+            {
+              "purposeId": 3,
+              "purposeInfo": "Остановить на посту и осмотреть багажники ТС",
+              "purposeMeanings": [2, 3, 6]
+            }
+          ],
+          "initiativeAdditionalPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Выписать штрафы вручную",
+              "purposeMeanings": [3, 6, 10]
+            }
+          ],
+          "initiativeMoney": [23000, 30000, 38000],
+          "initiativePoint": [12, 14, 18]
+        },
+        {
+          "initiativeId": 2,
+          "initiativeTitle": "План Перехват",
+          "initiativeDescription": "Внимание!\n В городе объявлен план Перехват!\n Всем экипажам — максимальная готовность!",
+          "initiativeMainPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Успешно завершить погони",
+              "purposeMeanings": [1, 2, 3]
+            },
+            {
+              "purposeId": 2,
+              "purposeInfo": "Использовать способности во время погонь",
+              "purposeMeanings": [2, 4, 6]
+            }
+          ],
+          "initiativeAdditionalPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Поймать преступников",
+              "purposeMeanings": [1, 2, 3]
+            }
+          ],
+          "initiativeMoney": [23000, 30000, 38000],
+          "initiativePoint": [12, 14, 18]
+        },
+        {
+          "initiativeId": 3,
+          "initiativeTitle": "Профилактика",
+          "initiativeDescription": "Профилактика правонарушений — основа безопасности на дорогах.\n Так что, не стоит ею пренебрегать.\n За дело!",
+          "initiativeMainPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Обыскать багажники ТС",
+              "purposeMeanings": [2, 5, 10]
+            },
+            {
+              "purposeId": 2,
+              "purposeInfo": "Проверить игроков на наличие запрещённых предметов",
+              "purposeMeanings": [5, 10, 15]
+            }
+          ],
+          "initiativeAdditionalPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Продлить права для игроков",
+              "purposeMeanings": [3, 5, 8]
+            }
+          ],
+          "initiativeMoney": [23000, 30000, 38000],
+          "initiativePoint": [12, 14, 18]
+        }
+      ]
+    },
+    {
+      "fractionId": 6,
+      "initiativeList":
+      [
+        {
+          "initiativeId": 1,
+          "initiativeTitle": "Облава",
+          "initiativeDescription": "Преступность не дремлет!\nОбъявляется массовая поимка преступников и поиск подтверждающих их преступления улик",
+          "initiativeMainPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Провести обыск багажников",
+              "purposeMeanings": [2, 5, 10]
+            },
+            {
+              "purposeId": 2,
+              "purposeInfo": "Обыскать игроков",
+              "purposeMeanings": [5, 10, 15]
+            }
+          ],
+          "initiativeAdditionalPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Обезвредить преступников",
+              "purposeMeanings": [1, 2, 3]
+            }
+          ],
+          "initiativeMoney": [15000, 23000, 30000],
+          "initiativePoint": [12, 14, 18]
+        },
+        {
+          "initiativeId": 2,
+          "initiativeTitle": "Оперативная помощь и реагирование",
+          "initiativeDescription": "Сотрудникам Министерства Внутренних дел необходимо своевременно реагировать\nна поступающие обращения граждан и предотвращать возможные преступления",
+          "initiativeMainPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Выполнить вызовы от гражданских",
+              "purposeMeanings": [3, 7, 10]
+            },
+            {
+              "purposeId": 2,
+              "purposeInfo": "Выполнить вызовы от инкассаторов",
+              "purposeMeanings": [2, 4, 6]
+            },
+            {
+              "purposeId": 3,
+              "purposeInfo": "Выполнить вызовы от коллег",
+              "purposeMeanings": [3, 7, 10]
+            }
+          ],
+          "initiativeAdditionalPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Отвезти личные дела во ФСИН",
+              "purposeMeanings": [1, 2, 3]
+            }
+          ],
+          "initiativeMoney": [38000, 45000, 53000],
+          "initiativePoint": [24, 26, 30]
+        },
+        {
+          "initiativeId": 3,
+          "initiativeTitle": "Подготовка к проверке",
+          "initiativeDescription": "В ближайшее время ожидается проверка работы нашей структуры.\nНеобходимо обеспечить соблюдение правопорядка на улицах и поймать всех подозрительных субъектов",
+          "initiativeMainPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Отвезти отчётность",
+              "purposeMeanings": [2, 4, 7]
+            },
+            {
+              "purposeId": 2,
+              "purposeInfo": "Проверить места на предмет наличия запрещёнки",
+              "purposeMeanings": [5, 10, 15]
+            }
+          ],
+          "initiativeAdditionalPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Отвести в КПЗ преступников",
+              "purposeMeanings": [1, 2, 3]
+            }
+          ],
+          "initiativeMoney": [23000, 30000, 38000],
+          "initiativePoint": [12, 14, 18]
+        }
+      ]
+    },
+    {
+      "fractionId": 7,
+      "initiativeList":
+      [
+        {
+          "initiativeId": 1,
+          "initiativeTitle": "Борьба с запрещёнкой",
+          "initiativeDescription": "Мы обязаны искоренить запрещённые вещества в нашей области!\nПрошерстите каждый уголок и избавьтесь от них!",
+          "initiativeMainPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Проехать маршруты на служебных ТС",
+              "purposeMeanings": [1, 2, 3]
+            }
+          ],
+          "initiativeAdditionalPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Проверить места со спрятанной запрещёнкой",
+              "purposeMeanings": [5, 10, 15]
+            }
+          ],
+          "initiativeMoney": [15000, 23000, 30000],
+          "initiativePoint": [12, 14, 18]
+        },
+        {
+          "initiativeId": 2,
+          "initiativeTitle": "Облава",
+          "initiativeDescription": "Преступники разных мастей стали слишком смело себя вести,\nа к отчётности у бизнеса появилось много вопросов.\nПродемонстрируйте справедливость закона и неотвратимость наказания!",
+          "initiativeMainPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Проверить документы игроков",
+              "purposeMeanings": [5, 10, 15]
+            },
+            {
+              "purposeId": 2,
+              "purposeInfo": "Проверить бизнес",
+              "purposeMeanings": [5, 10, 15]
+            }
+          ],
+          "initiativeAdditionalPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Поместить в КПЗ преступников",
+              "purposeMeanings": [1, 2, 3]
+            }
+          ],
+          "initiativeMoney": [15000, 23000, 30000],
+          "initiativePoint": [12, 14, 18]
+        },
+        {
+          "initiativeId": 3,
+          "initiativeTitle": "Под прикрытием",
+          "initiativeDescription": "Никто кроме нас не сможет достоверно выяснить,\nчем занимаются члены других фракций.\nОсталось одно - встроиться в их структуру под прикрытием",
+          "initiativeMainPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Выполнить задания под прикрытием в УМВД",
+              "purposeMeanings": [1, 2, 3]
+            },
+            {
+              "purposeId": 2,
+              "purposeInfo": "Выполнить задания, находясь под прикрытием в Армии",
+              "purposeMeanings": [1, 2, 3]
+            }
+          ],
+          "initiativeAdditionalPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Выполнить задания, находясь под прикрытием в ОПГ",
+              "purposeMeanings": [1, 2, 3]
+            }
+          ],
+          "initiativeMoney": [38000, 45000, 53000],
+          "initiativePoint": [24, 26, 30]
+        }
+      ]
+    },
+    {
+      "fractionId": 11,
+      "initiativeList":
+      [
+        {
+          "initiativeId": 1,
+          "initiativeTitle": "Тотальный контроль",
+          "initiativeDescription": "Во что бы то ни стало нам нужно не допустить побега заключённых с территории.\nПроверьте всё - тайники, заключённых, территорию.",
+          "initiativeMainPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Обыскать заключённых",
+              "purposeMeanings": [5, 10, 15]
+            },
+            {
+              "purposeId": 2,
+              "purposeInfo": "Проверить территорию ФСИН",
+              "purposeMeanings": [5, 7, 10]
+            }
+          ],
+          "initiativeAdditionalPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Проверить тайники (от 5 ранга)",
+              "purposeMeanings": [3, 5, 7]
+            }
+          ],
+          "initiativeMoney": [15000, 23000, 30000],
+          "initiativePoint": [12, 14, 18]
+        },
+        {
+          "initiativeId": 2,
+          "initiativeTitle": "Проверка",
+          "initiativeDescription": "Руководство области интересуется условиями содержания заключённых.\nНеобходимо провести внутреннюю проверку, а затем отвезти документы в соответствующие органы",
+          "initiativeMainPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Выдать поощрение заключённым",
+              "purposeMeanings": [2, 4, 7]
+            },
+            {
+              "purposeId": 2,
+              "purposeInfo": "Вылечить заключённых",
+              "purposeMeanings": [2, 4, 7]
+            },
+            {
+              "purposeId": 3,
+              "purposeInfo": "Проверить тайники",
+              "purposeMeanings": [3, 4, 7]
+            }
+          ],
+          "initiativeAdditionalPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Отвезти отчётные документы",
+              "purposeMeanings": [1, 2, 3]
+            }
+          ],
+          "initiativeMoney": [23000, 30000, 38000],
+          "initiativePoint": [12, 14, 18]
+        },
+        {
+          "initiativeId": 3,
+          "initiativeTitle": "Образцовая работа",
+          "initiativeDescription": "Вся наша фракция должна показать слаженность действий\nи профессионализм выполнения каждой задачи",
+          "initiativeMainPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Посетить камеры",
+              "purposeMeanings": [3, 5, 7]
+            },
+            {
+              "purposeId": 2,
+              "purposeInfo": "Посетить посты",
+              "purposeMeanings": [10, 15, 20]
+            },
+            {
+              "purposeId": 3,
+              "purposeInfo": "Съесть блюда в столовой",
+              "purposeMeanings": [3, 5, 10]
+            }
+          ],
+          "initiativeAdditionalPurpose": [
+            {
+              "purposeId": 1,
+              "purposeInfo": "Довезти заключённых в тюрьму (от 6 ранга)",
+              "purposeMeanings": [1, 2, 3]
+            }
+          ],
+          "initiativeMoney": [23000, 30000, 38000],
+          "initiativePoint": [12, 14, 18]
+        }
+      ]
+    }
+  ],
+  "winnerAwards":
+  [
+    {
+      "place": 1,
+      "pointReward": 100,
+      "tokenReward": 33
+    },
+    {
+      "place": 2,
+      "pointReward": 50,
+      "tokenReward": 27
+    },
+    {
+      "place": 3,
+      "pointReward": 25,
+      "tokenReward": 20
+    },
+    {
+      "place": 4,
+      "tokenReward": 7
+    },
+    {
+      "place": 5,
+      "tokenReward": 7
+    },
+    {
+      "place": 6,
+      "tokenReward": 7
+    },
+    {
+      "place": 7,
+      "tokenReward": 7
+    },
+    {
+      "place": 8,
+      "tokenReward": 7
+    },
+    {
+      "place": 9,
+      "tokenReward": 7
+    },
+    {
+      "place": 10,
+      "tokenReward": 7
+    }
+  ],
+  "ftueInfo": 
+  {
+    "initiativeStartMessage": "{E0584B}Инициатива '%s' {FFFFFF}началась! Успей поучаствовать!",
+    "initiativeEndMessage": "{E0584B}Инициатива '%s' {FFFFFF}завершена!",
+
+    "tutorialMemberTitle": "Что такое {FFFF00}Инициативы{FFFFFF}?",
+    "tutorialMemberBody": "{FFFF00}Инициативы{FFFFFF} - это коллективные фракционные мероприятия.\n\n{FFFF00}Лидер фракции{FFFFFF} устанавливает минимальный ранг для участия и сложность.\n\nЕжедневно в разное время проводятся {FFFF00}3{FFFFFF} разных инициативы.\nДлительность каждой инициативы - {FFFF00}15{FFFFFF} минут\nКаждый участник Инициативы получает гарантированную награду\n{FFFF00}Игроки, попавшие в топ{FFFFFF}, {FFFF00}получают дополнительную награду{FFFFFF}\n\n {FFFF00}Результативность фракции{FFFFFF} - это среднее значение последних 10 Инициатив\nРезультативность влияет на {FFFF00}PayDay{FFFFFF} - чем лучше выполняются Инициативы, тем он {FFFF00}выше{FFFFFF}\nАктивно участвуй в Инициативах и повышай доход всей фракции!",
+    "tutorialLeaderTitle": "{E0584B}Настройка инициатив{FFFFFF}",
+    "tutorialLeaderBody": "Каждую инициативу можно настраивать отдельно\nДля изменения доступны {FFFF00}сложность, минимальный ранг{FFFFFF} и {FFFF00}время начала{FFFFFF}\nНе стоит завышать минимальный ранг, иначе для выполнения целей не хватит участников\n\n{FFFF00}Чем выше сложность{FFFFFF} инициативы - {FFFF00}тем больше награды{FFFFFF} за её выполнение!\n\n",
+  
+    "leaderMainTitle": "{E0584B}Инициативы {FFFFFF}|{FFFF00} Меню лидера{FFFFFF}",
+    "leaderMainPage": "Настройка инициатив\nИнформация\nВ ходе выполнения",
+    "memberMainTitle": "{E0584B}Мероприятия{FFFFFF}",
+    "memberMainPage": "{E0584B}Информация{FFFFFF}\nВ ходе выполнения",
+
+    "configureTitle": "{E0584B}Настройка инициатив{FFFFFF}",
+    "configureTitleFormat": "{E0584B}Настройка{FFFFFF} ",
+    "configureTypes": "Уровень доступа\nВремя проведения\nСложность",
+    "configureActiveError": "Настройка активной инициативы невозможна",
+    "configureLevelTitle": "Уровень доступа",
+    "configureLevelBody": "Установите уровень доступа к инициативе:",
+    "configureLevelInfo": "Минимальный ранг для участия в инициативе %s изменен на %d",
+    "configureTimeTitle": "Установите время проведения ",
+    "configureTimeBody": "Установите время проведения в формате NN:NN",
+    "configureTimeCloseError": "Слишком близко к другой инициативе! Выбери другое время",
+    "configureTimeStartError": "Слишком близко начало инициативы. Установите другое время",
+    "configureTimeServerError": "Диапазон с 4:30 до 5:30 недоступен для проведения инициатив",
+    "configureTimeDone": "Инициатива %s будет проведена завтра в %02d:%02d",
+    "configureTimeInfo": "Начало инициативы %s перенесено на %02d:%02d",
+    "configureDifficultTitle": "Выбор сложности",
+    "configureDifficultBody": "Легко\nСредне\nСложно",
+    "configureDifficultInfo": "Новая сложность инициативы %s - %s",
+
+    "initiativesTitle": "{E0584B}Инициативы{FFFFFF}",
+    "initiativesRankError": "Повысьте свой ранг для участия",
+    "initiativesBodyDifficulty": "Текущая сложность - {FFFF00}%s{FFFFFF}\n\n",
+    "initiativesBodyTime": "Время проведения - {FFFF00}%02d:%02d{FFFFFF}\n\n",
+    "initiativesBodyLevel": "Уровень доступа - {FFFF00}%d{FFFFFF}\n\n",
+    
+    "activeClose": "Через 5 минут начинается инициатива '%s'",
+    "activeTitleNone": "{E0584B}Ближайшая инициатива{FFFFFF}",
+    "activeBodyNone": "Сейчас нет активной инициативы!\nСледующая инициатива %s начнётся в %02d:%02d",
+    "activeTitle": "{E0584B}В ходе выполнения{FFFFFF}",
+    "activeBody": "Цели инициативы\nРезультаты\nСписок лидеров",
+    "activeResultsTitle": "{E0584B}Результаты инициативы{FFFFFF}",
+    "endResultsPerformance": "Новая Результативность - {FFFF00}%s{FFFFFF}",
+    "endResultsPayDay": "Новый PayDay - {FFFF00}%s{FFFFFF}",
+    "endResultsMoney": "Награда в рублях - {FFFF00}%s{FFFFFF}",
+    "endResultsExp" : "Награда в опыте - {FFFF00}%s{FFFFFF}",
+    "endResultsLider" : "Награда за место списке лидеров - {FFFF00}%s{FFFFFF}",
+    "activeLeadersTitle": "{E0584B}Список лидеров{FFFFFF}",
+    "activeIndividualTaskDone": "Вы уже выполнили это задание",
+    "activeTaskDone": "Цель уже выполнена",
+
+    "startTask": "Вы начали выполнять задание {FFFF00}%s{FFFFFF} инициативы {FFFF00}%s{FFFFFF}",
+    "endIndividualTask": "Вы выполнили задание. Приступите к другому.",
+    "endTask": "Задание выполнено. Приступите к другому.",
+    "plusTask": "Вы внесли вклад в задание. Продолжите его или приступите к другому.",
+
+    "taskTitle": "Цели инициативы"
+  }
+}

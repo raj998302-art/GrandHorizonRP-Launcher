@@ -1,0 +1,55 @@
+﻿{
+  "vehicle_classification": {
+    "classes": [
+      {
+        "id": "N/A",
+        "label": "Неопределён",
+        "pi_min": 0,
+        "pi_max": 0,
+        "color": "#000000"
+      },
+      {
+        "id": "D",
+        "label": "Начальный",
+        "pi_min": 1,
+        "pi_max": 299,
+        "color": "#737373"
+      },
+      {
+        "id": "C",
+        "label": "Продвинутый",
+        "pi_min": 300,
+        "pi_max": 399,
+        "color": "#2EAC58"
+      },
+      {
+        "id": "B",
+        "label": "Высокий",
+        "pi_min": 400,
+        "pi_max": 499,
+        "color": "#1B98FF"
+      },
+      {
+        "id": "A",
+        "label": "Элитный",
+        "pi_min": 500,
+        "pi_max": 599,
+        "color": "#753AE3"
+      },
+      {
+        "id": "S",
+        "label": "Легендарный",
+        "pi_min": 600,
+        "pi_max": 699,
+        "color": "#FFC700"
+      },
+      {
+        "id": "X",
+        "label": "Без ограничений",
+        "pi_min": 700,
+        "pi_max": 9999,
+        "color": "#E2310C"
+      }
+    ]
+  }
+}

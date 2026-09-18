@@ -1,0 +1,6962 @@
+{
+  "array": [
+    {
+      "internalId": 1,
+      "modelId": 0,
+      "name": "Одежда 0",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 2,
+      "modelId": 1,
+      "name": "Одежда 1",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 3,
+      "modelId": 3,
+      "name": "Одежда 2",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 3750000
+    },
+    {
+      "internalId": 4,
+      "modelId": 3,
+      "name": "Одежда 3",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 117000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 175500
+    },
+    {
+      "internalId": 5,
+      "modelId": 4,
+      "name": "Одежда 4",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 6,
+      "modelId": 5,
+      "name": "Известный",
+      "description": "блогер",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 7,
+      "modelId": 6,
+      "name": "Одежда 6",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 60000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 90000
+    },
+    {
+      "internalId": 8,
+      "modelId": 7,
+      "name": "Одежда 7",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 50000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 75000
+    },
+    {
+      "internalId": 9,
+      "modelId": 8,
+      "name": "Одежда 8",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 10,
+      "modelId": 9,
+      "name": "Одежда 9",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 2,
+            "cost": 400000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 600000
+    },
+    {
+      "internalId": 11,
+      "modelId": 10,
+      "name": "Девочка-кролик",
+      "description": "новогодняя",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 5000000,
+      "tradeMaxPrice": 25000000
+    },
+    {
+      "internalId": 12,
+      "modelId": 11,
+      "name": "Одежда 11",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 6000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 9000000
+    },
+    {
+      "internalId": 13,
+      "modelId": 12,
+      "name": "Одежда 12",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 23000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 34500
+    },
+    {
+      "internalId": 14,
+      "modelId": 13,
+      "name": "Одежда 13",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 7500000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 11250000
+    },
+    {
+      "internalId": 15,
+      "modelId": 14,
+      "name": "Одежда 14",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 16,
+      "modelId": 15,
+      "name": "Одежда 15",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 17,
+      "modelId": 16,
+      "name": "Одежда 16",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 18,
+      "modelId": 17,
+      "name": "Одежда 17",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 19,
+      "modelId": 18,
+      "name": "Одежда 18",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 3700000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 5550000
+    },
+    {
+      "internalId": 20,
+      "modelId": 19,
+      "name": "Одежда 19",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 21,
+      "modelId": 20,
+      "name": "Одежда 20",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 22,
+      "modelId": 21,
+      "name": "Одежда 21",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 23,
+      "modelId": 22,
+      "name": "Советский солдат",
+      "description": "мужчина",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1500000,
+      "tradeMaxPrice": 7500000
+    },
+    {
+      "internalId": 24,
+      "modelId": 23,
+      "name": "Советский солдат",
+      "description": "женщина",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 1500000,
+      "tradeMaxPrice": 7500000
+    },
+    {
+      "internalId": 25,
+      "modelId": 24,
+      "name": "Дед Мороз",
+      "description": "отечественный",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 26,
+      "modelId": 25,
+      "name": "Одежда 25",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 27,
+      "modelId": 26,
+      "name": "Одежда 26",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 28,
+      "modelId": 27,
+      "name": "Одежда 27",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 29,
+      "modelId": 28,
+      "name": "Одежда 28",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 30,
+      "modelId": 29,
+      "name": "Одежда 29",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 5850,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 8780
+    },
+    {
+      "internalId": 31,
+      "modelId": 30,
+      "name": "Одежда 30",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 14625,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 21940
+    },
+    {
+      "internalId": 32,
+      "modelId": 31,
+      "name": "Одежда 31",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 33,
+      "modelId": 32,
+      "name": "Одежда 32",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 34,
+      "modelId": 33,
+      "name": "Одежда 33",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 9750,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 14630
+    },
+    {
+      "internalId": 35,
+      "modelId": 34,
+      "name": "Одежда 34",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 36,
+      "modelId": 35,
+      "name": "Одежда 35",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 37,
+      "modelId": 36,
+      "name": "Одежда 36",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 15600,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 23400
+    },
+    {
+      "internalId": 38,
+      "modelId": 37,
+      "name": "Одежда 37",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 19500,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 29250
+    },
+    {
+      "internalId": 39,
+      "modelId": 38,
+      "name": "Одежда 38",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 40,
+      "modelId": 39,
+      "name": "Бесстрашная",
+      "description": "в рыжем",
+            "gender": 1,
+            "rarity": 3,
+            "cost": 2500000
+    },
+    {
+      "internalId": 41,
+      "modelId": 40,
+      "name": "Одежда 40",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 5850,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 8780
+    },
+    {
+      "internalId": 42,
+      "modelId": 41,
+      "name": "Одежда 41",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 43,
+      "modelId": 42,
+      "name": "Одежда 42",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 7500000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 11250000
+    },
+    {
+      "internalId": 44,
+      "modelId": 43,
+      "name": "Одежда 43",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 23400,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 35100
+    },
+    {
+      "internalId": 45,
+      "modelId": 44,
+      "name": "Одежда 44",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 29250,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 43880
+    },
+    {
+      "internalId": 46,
+      "modelId": 45,
+      "name": "Одежда 45",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 31200,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 46800
+    },
+    {
+      "internalId": 47,
+      "modelId": 46,
+      "name": "Одежда 46",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 48,
+      "modelId": 47,
+      "name": "Одежда 47",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 35100,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 52650
+    },
+    {
+      "internalId": 49,
+      "modelId": 48,
+      "name": "Заключенный",
+      "description": "мужчина",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1500000,
+      "tradeMaxPrice": 7500000
+    },
+    {
+      "internalId": 50,
+      "modelId": 49,
+      "name": "Игрок 001",
+      "description": "дед",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1500000,
+      "tradeMaxPrice": 7500000
+    },
+    {
+      "internalId": 51,
+      "modelId": 50,
+      "name": "Одежда 50",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1100000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1650000
+    },
+    {
+      "internalId": 52,
+      "modelId": 51,
+      "name": "Одежда 51",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 4500000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 6750000
+    },
+    {
+      "internalId": 53,
+      "modelId": 52,
+      "name": "Одежда 52",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 4550000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 6825000
+    },
+    {
+      "internalId": 54,
+      "modelId": 53,
+      "name": "Игрок 067",
+      "description": "красавица",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 1500000,
+      "tradeMaxPrice": 7500000
+    },
+    {
+      "internalId": 55,
+      "modelId": 54,
+      "name": "Одежда 54",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 56,
+      "modelId": 55,
+      "name": "Одежда 55",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 9750,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 14630
+    },
+    {
+      "internalId": 57,
+      "modelId": 56,
+      "name": "Одежда 56",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 117000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 175500
+    },
+    {
+      "internalId": 58,
+      "modelId": 57,
+      "name": "Известный",
+      "description": "эксперт по хатам",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 59,
+      "modelId": 58,
+      "name": "Одежда 58",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 60,
+      "modelId": 59,
+      "name": "Одежда 59",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 61,
+      "modelId": 60,
+      "name": "Одежда 60",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 39000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 58500
+    },
+    {
+      "internalId": 62,
+      "modelId": 61,
+      "name": "Одежда 61",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 63,
+      "modelId": 62,
+      "name": "Темный",
+      "description": "лорд",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 3600000,
+      "tradeMaxPrice": 18000000
+    },
+    {
+      "internalId": 64,
+      "modelId": 63,
+      "name": "Заключенный",
+      "description": "женщина",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 1500000,
+      "tradeMaxPrice": 7500000
+    },
+    {
+      "internalId": 65,
+      "modelId": 64,
+      "name": "Одежда 64",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 66,
+      "modelId": 65,
+      "name": "Ведьма",
+      "description": "пугает по ночам",
+            "gender": 1,
+            "rarity": 3,
+            "cost": 2000000
+    },
+    {
+      "internalId": 67,
+      "modelId": 66,
+      "name": "Одежда 66",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 42900,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 64350
+    },
+    {
+      "internalId": 68,
+      "modelId": 67,
+      "name": "Одежда 67",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 42900,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 64350
+    },
+    {
+      "internalId": 69,
+      "modelId": 68,
+      "name": "Одежда 68",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 3000000
+    },
+    {
+      "internalId": 70,
+      "modelId": 69,
+      "name": "Одежда 69",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 71,
+      "modelId": 70,
+      "name": "Одежда 70",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 72,
+      "modelId": 71,
+      "name": "Одежда 71",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 3000,
+      "tradeMaxPrice": 4500
+    },
+    {
+      "internalId": 73,
+      "modelId": 72,
+      "name": "Одежда 72",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 74,
+      "modelId": 73,
+      "name": "Одежда 73",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 9000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 13500000
+    },
+    {
+      "internalId": 75,
+      "modelId": 75,
+      "name": "Одежда 75",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 2,
+            "cost": 500000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 750000
+    },
+    {
+      "internalId": 76,
+      "modelId": 76,
+      "name": "Одежда 76",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 77,
+      "modelId": 77,
+      "name": "Одежда 77",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 3000,
+      "tradeMaxPrice": 4500
+    },
+    {
+      "internalId": 78,
+      "modelId": 78,
+      "name": "Одежда 78",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 3000,
+      "tradeMaxPrice": 4500
+    },
+    {
+      "internalId": 79,
+      "modelId": 79,
+      "name": "Одежда 79",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 3000,
+      "tradeMaxPrice": 4500
+    },
+    {
+      "internalId": 80,
+      "modelId": 80,
+      "name": "Одежда 80",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 6100000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 9150000
+    },
+    {
+      "internalId": 81,
+      "modelId": 81,
+      "name": "Одежда 81",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 6500000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 9750000
+    },
+    {
+      "internalId": 82,
+      "modelId": 82,
+      "name": "Одежда 82",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 6800000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 10200000
+    },
+    {
+      "internalId": 83,
+      "modelId": 83,
+      "name": "Одежда 83",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 6600000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 9900000
+    },
+    {
+      "internalId": 84,
+      "modelId": 84,
+      "name": "Одежда 84",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 6700000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 10050000
+    },
+    {
+      "internalId": 85,
+      "modelId": 85,
+      "name": "Одежда 85",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 40000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 60000
+    },
+    {
+      "internalId": 86,
+      "modelId": 86,
+      "name": "Пивозавр",
+      "description": "лучшая футболка лета",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 300000,
+      "tradeMaxPrice": 1500000
+    },
+    {
+      "internalId": 87,
+      "modelId": 196,
+      "name": "Одежда 87",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 40000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 60000
+    },
+    {
+      "internalId": 88,
+      "modelId": 88,
+      "name": "Дед Мороз",
+      "description": "голубой",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 5000000,
+      "tradeMaxPrice": 25000000
+    },
+    {
+      "internalId": 89,
+      "modelId": 89,
+      "name": "Мальчик",
+      "description": "один дома",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 5000000,
+      "tradeMaxPrice": 25000000
+    },
+    {
+      "internalId": 90,
+      "modelId": 90,
+      "name": "Одежда 90",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 91,
+      "modelId": 91,
+      "name": "Одежда 91",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 42900,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 64350
+    },
+    {
+      "internalId": 92,
+      "modelId": 92,
+      "name": "Девушка",
+      "description": "на коньках",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 5000000,
+      "tradeMaxPrice": 25000000
+    },
+    {
+      "internalId": 93,
+      "modelId": 93,
+      "name": "Одежда 93",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 94,
+      "modelId": 94,
+      "name": "Одежда 94",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 5,
+            "cost": 15000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 22500000
+    },
+    {
+      "internalId": 95,
+      "modelId": 95,
+      "name": "Мексу Вещает",
+      "description": "блогер",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+            "orderGameShop": 1,
+            "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 96,
+      "modelId": 96,
+      "name": "Одежда 96",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 40000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 60000
+    },
+    {
+      "internalId": 97,
+      "modelId": 97,
+      "name": "Одежда 97",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 40000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 60000
+    },
+    {
+      "internalId": 98,
+      "modelId": 98,
+      "name": "Одежда 98",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 6900000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 10350000
+    },
+    {
+      "internalId": 99,
+      "modelId": 99,
+      "name": "Мужчина",
+      "description": "на коньках",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 5000000,
+      "tradeMaxPrice": 25000000
+    },
+    {
+      "internalId": 100,
+      "modelId": 100,
+      "name": "Одежда 100",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 101,
+      "modelId": 101,
+      "name": "Одежда 101",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 107250,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 160880
+    },
+    {
+      "internalId": 102,
+      "modelId": 102,
+      "name": "Одежда 102",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 103,
+      "modelId": 103,
+      "name": "Одежда 103",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 104,
+      "modelId": 104,
+      "name": "Одежда 104",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 105,
+      "modelId": 105,
+      "name": "Одежда 105",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 106,
+      "modelId": 106,
+      "name": "Известный",
+      "description": "блогер",
+            "gender": 0,
+            "rarity": 5,
+            "cost": 22800000,
+            "orderGameShop": 1,
+            "tradeMaxPrice": 114000000
+    },
+    {
+      "internalId": 107,
+      "modelId": 107,
+      "name": "Одежда 107",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 980000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1470000
+    },
+    {
+      "internalId": 108,
+      "modelId": 108,
+      "name": "Известный",
+      "description": "блогер",
+            "gender": 0,
+            "rarity": 4,
+            "cost": 3000000,
+            "orderGameShop": 1,
+            "tradeMaxPrice": 15000000
+    },
+    {
+      "internalId": 109,
+      "modelId": 109,
+      "name": "Известный",
+      "description": "блогер",
+            "gender": 0,
+            "rarity": 4,
+            "cost": 3250000,
+            "orderGameShop": 1,
+            "tradeMaxPrice": 16250000
+    },
+    {
+      "internalId": 110,
+      "modelId": 110,
+      "name": "Известный",
+      "description": "блогер",
+            "gender": 0,
+            "rarity": 3,
+            "cost": 1500000,
+            "orderGameShop": 1,
+            "tradeMaxPrice": 7500000
+    },
+    {
+      "internalId": 111,
+      "modelId": 111,
+      "name": "Одежда 111",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 112,
+      "modelId": 112,
+      "name": "Одежда 112",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 113,
+      "modelId": 113,
+      "name": "Одежда 113",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 114,
+      "modelId": 114,
+      "name": "Одежда 114",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 115,
+      "modelId": 115,
+      "name": "Одежда 115",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 116,
+      "modelId": 116,
+      "name": "Одежда 116",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 117,
+      "modelId": 117,
+      "name": "Одежда 117",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 118,
+      "modelId": 118,
+      "name": "Одежда 118",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 5,
+            "cost": 10000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 15000000
+    },
+    {
+      "internalId": 119,
+      "modelId": 119,
+      "name": "Одежда 119",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 120,
+      "modelId": 120,
+      "name": "Одежда 120",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 6400000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 9600000
+    },
+    {
+      "internalId": 121,
+      "modelId": 121,
+      "name": "Одежда 121",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1500000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 2250000
+    },
+    {
+      "internalId": 122,
+      "modelId": 122,
+      "name": "Фирменная одежда",
+      "description": "GRAND HORIZON RP",
+            "gender": 0,
+      "rarity": 5,
+            "cost": 30000000,
+      "tradeMaxPrice": 150000000
+    },
+    {
+      "internalId": 123,
+      "modelId": 123,
+      "name": "Одежда 123",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 200000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 300000
+    },
+    {
+      "internalId": 124,
+      "modelId": 124,
+      "name": "Одежда 124",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 3000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 4500000
+    },
+    {
+      "internalId": 125,
+      "modelId": 125,
+      "name": "Одежда 125",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 5000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 7500000
+    },
+    {
+      "internalId": 126,
+      "modelId": 126,
+      "name": "Одежда 126",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 300000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 450000
+    },
+    {
+      "internalId": 127,
+      "modelId": 127,
+      "name": "Одежда 127",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 7000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 10500000
+    },
+    {
+      "internalId": 128,
+      "modelId": 128,
+      "name": "Одежда 128",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 100000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 150000
+    },
+    {
+      "internalId": 129,
+      "modelId": 129,
+      "name": "Шляпник",
+      "description": "из Алисы",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 130,
+      "modelId": 130,
+      "name": "Санта Клаус",
+      "description": "иностранец",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 131,
+      "modelId": 131,
+      "name": "Одежда 131",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 132,
+      "modelId": 132,
+      "name": "Одежда 132",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 133,
+      "modelId": 133,
+      "name": "Одежда 133",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 134,
+      "modelId": 134,
+      "name": "Одежда 134",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 3000,
+      "tradeMaxPrice": 4500
+    },
+    {
+      "internalId": 135,
+      "modelId": 135,
+      "name": "Одежда 135",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 3000,
+      "tradeMaxPrice": 4500
+    },
+    {
+      "internalId": 136,
+      "modelId": 136,
+      "name": "Одежда 136",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 3000,
+      "tradeMaxPrice": 4500
+    },
+    {
+      "internalId": 137,
+      "modelId": 137,
+      "name": "Одежда 137",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 3000,
+      "tradeMaxPrice": 4500
+    },
+    {
+      "internalId": 138,
+      "modelId": 196,
+      "name": "Одежда 138",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 139,
+      "modelId": 196,
+      "name": "Одежда 139",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 140,
+      "modelId": 196,
+      "name": "Одежда 140",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 141,
+      "modelId": 141,
+      "name": "Одежда 141",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 142,
+      "modelId": 142,
+      "name": "Одежда 142",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 48750,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 73130
+    },
+    {
+      "internalId": 143,
+      "modelId": 143,
+      "name": "Одежда 143",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 52650,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 78980
+    },
+    {
+      "internalId": 144,
+      "modelId": 144,
+      "name": "Одежда 144",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 58500,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 87750
+    },
+    {
+      "internalId": 145,
+      "modelId": 145,
+      "name": "Одежда 145",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 146,
+      "modelId": 146,
+      "name": "Одежда 146",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 6200000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 9300000
+    },
+    {
+      "internalId": 147,
+      "modelId": 147,
+      "name": "Одежда 147",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 148,
+      "modelId": 148,
+      "name": "Одежда 148",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 149,
+      "modelId": 149,
+      "name": "Одежда 149",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 150,
+      "modelId": 150,
+      "name": "Одежда 150",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 151,
+      "modelId": 151,
+      "name": "Одежда 151",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 152,
+      "modelId": 152,
+      "name": "Одежда 152",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 263000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 394500
+    },
+    {
+      "internalId": 153,
+      "modelId": 153,
+      "name": "Одежда 153",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 6300000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 9450000
+    },
+    {
+      "internalId": 154,
+      "modelId": 154,
+      "name": "Одежда 154",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 62400,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 93600
+    },
+    {
+      "internalId": 155,
+      "modelId": 155,
+      "name": "Одежда 155",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 156,
+      "modelId": 156,
+      "name": "Одежда 156",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 64350,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 96530
+    },
+    {
+      "internalId": 157,
+      "modelId": 157,
+      "name": "Одежда 157",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 158,
+      "modelId": 158,
+      "name": "Одежда 158",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 3000,
+      "tradeMaxPrice": 4500
+    },
+    {
+      "internalId": 159,
+      "modelId": 159,
+      "name": "Одежда 159",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 3000,
+      "tradeMaxPrice": 4500
+    },
+    {
+      "internalId": 160,
+      "modelId": 160,
+      "name": "Одежда 160",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1500000,
+      "tradeMaxPrice": 2250000
+    },
+    {
+      "internalId": 161,
+      "modelId": 161,
+      "name": "Одежда 161",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 3000,
+      "tradeMaxPrice": 4500
+    },
+    {
+      "internalId": 162,
+      "modelId": 162,
+      "name": "Известный",
+      "description": "футболист",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 163,
+      "modelId": 163,
+      "name": "Одежда 163",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 164,
+      "modelId": 164,
+      "name": "Одежда 164",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 165,
+      "modelId": 165,
+      "name": "Илон Маск",
+      "description": "гений",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 166,
+      "modelId": 166,
+      "name": "Известный",
+      "description": "блогер",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 167,
+      "modelId": 167,
+      "name": "Одежда 167",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 168,
+      "modelId": 168,
+      "name": "Одежда 168",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 169,
+      "modelId": 169,
+      "name": "Одежда 169",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 292000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 438000
+    },
+    {
+      "internalId": 170,
+      "modelId": 170,
+      "name": "Одежда 170",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 171,
+      "modelId": 171,
+      "name": "Одежда 171",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 172,
+      "modelId": 172,
+      "name": "Одежда 172",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 1500000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 2250000
+    },
+    {
+      "internalId": 173,
+      "modelId": 173,
+      "name": "Одежда 173",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 174,
+      "modelId": 174,
+      "name": "Даня Милохин",
+      "description": "тиктокер",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 175,
+      "modelId": 175,
+      "name": "Крик",
+      "description": "очень страшный",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 176,
+      "modelId": 176,
+      "name": "Одежда 176",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 68250,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 102380
+    },
+    {
+      "internalId": 177,
+      "modelId": 177,
+      "name": "Одежда 177",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 130000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 195000
+    },
+    {
+      "internalId": 178,
+      "modelId": 178,
+      "name": "Одежда 178",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 1365000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 2047500
+    },
+    {
+      "internalId": 179,
+      "modelId": 179,
+      "name": "Одежда 179",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 180,
+      "modelId": 180,
+      "name": "Одежда 180",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 156000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 234000
+    },
+    {
+      "internalId": 181,
+      "modelId": 181,
+      "name": "Одежда 181",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 175500,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 263250
+    },
+    {
+      "internalId": 182,
+      "modelId": 182,
+      "name": "Одежда 182",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 195000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 292500
+    },
+    {
+      "internalId": 183,
+      "modelId": 183,
+      "name": "Одежда 183",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 214500,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 321750
+    },
+    {
+      "internalId": 184,
+      "modelId": 184,
+      "name": "Одежда 184",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 185,
+      "modelId": 185,
+      "name": "Одежда 185",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 234000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 351000
+    },
+    {
+      "internalId": 186,
+      "modelId": 186,
+      "name": "Одежда 186",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 187,
+      "modelId": 187,
+      "name": "Одежда 187",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 188,
+      "modelId": 188,
+      "name": "Одежда 188",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 189,
+      "modelId": 189,
+      "name": "Одежда 189",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 263000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 394500
+    },
+    {
+      "internalId": 190,
+      "modelId": 190,
+      "name": "Одежда 190",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 191,
+      "modelId": 191,
+      "name": "Одежда 191",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 192,
+      "modelId": 192,
+      "name": "Одежда 192",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 193,
+      "modelId": 193,
+      "name": "Одежда 193",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 194,
+      "modelId": 194,
+      "name": "Одежда 194",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 156000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 234000
+    },
+    {
+      "internalId": 195,
+      "modelId": 195,
+      "name": "Одежда 195",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 196,
+      "modelId": 196,
+      "name": "Снегурочка",
+      "description": "в юбке",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 1500000,
+      "tradeMaxPrice": 7500000
+    },
+    {
+      "internalId": 197,
+      "modelId": 196,
+      "name": "Девочка-кролик",
+      "description": "обычная",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 198,
+      "modelId": 198,
+      "name": "Одежда 198",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 2,
+            "cost": 600000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 900000
+    },
+    {
+      "internalId": 199,
+      "modelId": 199,
+      "name": "Девушка",
+      "description": "клоун",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 3600000,
+      "tradeMaxPrice": 18000000
+    },
+    {
+      "internalId": 200,
+      "modelId": 200,
+      "name": "Известный",
+      "description": "стример",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 5000000,
+      "tradeMaxPrice": 25000000
+    },
+    {
+      "internalId": 201,
+      "modelId": 201,
+      "name": "Одежда 201",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 200000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 300000
+    },
+    {
+      "internalId": 202,
+      "modelId": 202,
+      "name": "Известный",
+      "description": "рэпер",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 203,
+      "modelId": 203,
+      "name": "Одежда 203",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 7000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 10500000
+    },
+    {
+      "internalId": 204,
+      "modelId": 204,
+      "name": "Известный",
+      "description": "геймер",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 205,
+      "modelId": 205,
+      "name": "Одежда 205",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 8000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 12000000
+    },
+    {
+      "internalId": 206,
+      "modelId": 206,
+      "name": "Одежда 206",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 207,
+      "modelId": 207,
+      "name": "Девочка",
+      "description": "клоун",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 5000000,
+      "tradeMaxPrice": 25000000
+    },
+    {
+      "internalId": 208,
+      "modelId": 208,
+      "name": "Страшный",
+      "description": "друг твоих подруг",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 3600000,
+      "tradeMaxPrice": 18000000
+    },
+    {
+      "internalId": 209,
+      "modelId": 209,
+      "name": "Красавчик",
+      "description": "друг собаки",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 210,
+      "modelId": 210,
+      "name": "Одежда 210",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 3750000
+    },
+    {
+      "internalId": 211,
+      "modelId": 211,
+      "name": "Одежда 211",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 7000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 10500000
+    },
+    {
+      "internalId": 212,
+      "modelId": 212,
+      "name": "Одежда 212",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 3000,
+      "tradeMaxPrice": 4500
+    },
+    {
+      "internalId": 213,
+      "modelId": 213,
+      "name": "Одежда 213",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 6800000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 10200000
+    },
+    {
+      "internalId": 214,
+      "modelId": 214,
+      "name": "Одежда 214",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 4000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 6000000
+    },
+    {
+      "internalId": 215,
+      "modelId": 215,
+      "name": "Одежда 215",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 5000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 7500000
+    },
+    {
+      "internalId": 216,
+      "modelId": 216,
+      "name": "Одежда 216",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 1755000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 2632500
+    },
+    {
+      "internalId": 217,
+      "modelId": 217,
+      "name": "Одежда 217",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1365000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 2047500
+    },
+    {
+      "internalId": 218,
+      "modelId": 218,
+      "name": "Одежда 218",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 3000,
+      "tradeMaxPrice": 4500
+    },
+    {
+      "internalId": 219,
+      "modelId": 219,
+      "name": "Одежда 219",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 2,
+            "cost": 975000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1462500
+    },
+    {
+      "internalId": 220,
+      "modelId": 220,
+      "name": "Мужчина",
+      "description": "профессор-маг",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2000000,
+      "tradeMaxPrice": 10000000
+    },
+    {
+      "internalId": 221,
+      "modelId": 221,
+      "name": "Одежда 221",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1755000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 2632500
+    },
+    {
+      "internalId": 222,
+      "modelId": 222,
+      "name": "Одежда 222",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 223,
+      "modelId": 223,
+      "name": "Одежда 223",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2535000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 3802500
+    },
+    {
+      "internalId": 224,
+      "modelId": 224,
+      "name": "Пивозавр",
+      "description": "лучшая футболка лета",
+            "gender": 1,
+      "rarity": 2,
+            "cost": 300000,
+      "tradeMaxPrice": 1500000
+    },
+    {
+      "internalId": 225,
+      "modelId": 225,
+      "name": "Аниме-тян",
+      "description": "настоящий краш",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 2000000,
+      "tradeMaxPrice": 10000000
+    },
+    {
+      "internalId": 226,
+      "modelId": 226,
+      "name": "Одежда 226",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 2535000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 3802500
+    },
+    {
+      "internalId": 227,
+      "modelId": 227,
+      "name": "Одежда 227",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 228,
+      "modelId": 228,
+      "name": "Одежда 228",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 229,
+      "modelId": 229,
+      "name": "Известный",
+      "description": "блогер",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 230,
+      "modelId": 230,
+      "name": "Одежда 230",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 3000,
+      "tradeMaxPrice": 4500
+    },
+    {
+      "internalId": 231,
+      "modelId": 231,
+      "name": "Ведьма",
+      "description": "милашка Ди",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 1800000,
+      "tradeMaxPrice": 9000000
+    },
+    {
+      "internalId": 232,
+      "modelId": 232,
+      "name": "Красавица",
+      "description": "девушка парня справа",
+            "gender": 1,
+      "rarity": 2,
+            "cost": 300000,
+      "tradeMaxPrice": 1500000
+    },
+    {
+      "internalId": 233,
+      "modelId": 233,
+      "name": "Одежда 233",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 3000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 4500000
+    },
+    {
+      "internalId": 234,
+      "modelId": 234,
+      "name": "Господин",
+      "description": "Председатель",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 5000000,
+      "tradeMaxPrice": 25000000
+    },
+    {
+      "internalId": 235,
+      "modelId": 235,
+      "name": "Известный",
+      "description": "блогер",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 5000000,
+      "tradeMaxPrice": 25000000
+    },
+    {
+      "internalId": 236,
+      "modelId": 236,
+      "name": "Барыга",
+      "description": "преступник",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1000000,
+      "tradeMaxPrice": 5000000
+    },
+    {
+      "internalId": 237,
+      "modelId": 237,
+      "name": "Одежда 237",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 2730000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 4095000
+    },
+    {
+      "internalId": 238,
+      "modelId": 238,
+      "name": "Одежда 238",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 2925000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 4387500
+    },
+    {
+      "internalId": 239,
+      "modelId": 239,
+      "name": "Одежда 239",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 3000,
+      "tradeMaxPrice": 4500
+    },
+    {
+      "internalId": 240,
+      "modelId": 240,
+      "name": "Одежда 240",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 97500,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 146250
+    },
+    {
+      "internalId": 241,
+      "modelId": 241,
+      "name": "Одежда 241",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 780000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1170000
+    },
+    {
+      "internalId": 242,
+      "modelId": 242,
+      "name": "Одежда 242",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 682500,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1023750
+    },
+    {
+      "internalId": 243,
+      "modelId": 243,
+      "name": "Снегурочка",
+      "description": "молодежная",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 3000000,
+      "tradeMaxPrice": 15000000
+    },
+    {
+      "internalId": 244,
+      "modelId": 244,
+      "name": "Одежда 244",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 5850000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 8775000
+    },
+    {
+      "internalId": 245,
+      "modelId": 245,
+      "name": "Снегурочка",
+      "description": "внучка Деда",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 246,
+      "modelId": 246,
+      "name": "Одежда 246",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 1000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1500000
+    },
+    {
+      "internalId": 247,
+      "modelId": 247,
+      "name": "Одежда 247",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 292000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 438000
+    },
+    {
+      "internalId": 248,
+      "modelId": 248,
+      "name": "Одежда 248",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 975000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1462500
+    },
+    {
+      "internalId": 249,
+      "modelId": 249,
+      "name": "Господин",
+      "description": "Президент",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 5000000,
+      "tradeMaxPrice": 25000000
+    },
+    {
+      "internalId": 250,
+      "modelId": 250,
+      "name": "Одежда 250",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1267500,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1901250
+    },
+    {
+      "internalId": 251,
+      "modelId": 251,
+      "name": "Одежда 251",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 252,
+      "modelId": 252,
+      "name": "Игла",
+      "description": "преступник",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 700000,
+      "tradeMaxPrice": 3500000
+    },
+    {
+      "internalId": 253,
+      "modelId": 253,
+            "name": "Одежда 253",
+            "description": "Стандартная военная форма. Запрещённый предмет, может быть изъят сотрудниками силовых фракций",
+            "gender": 0
+    },
+    {
+      "internalId": 254,
+      "modelId": 254,
+      "name": "Одежда 254",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 255,
+      "modelId": 255,
+      "name": "Одежда 255",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 256,
+      "modelId": 256,
+      "name": "Одежда 256",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 257,
+      "modelId": 257,
+      "name": "Одежда 257",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 258,
+      "modelId": 258,
+      "name": "Одежда 258",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 259,
+      "modelId": 259,
+      "name": "Одежда 259",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 260,
+      "modelId": 260,
+      "name": "Одежда 260",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 261,
+      "modelId": 261,
+      "name": "Одежда 261",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 262,
+      "modelId": 262,
+      "name": "Убийца",
+      "description": "почти как Стетхем",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 3600000,
+      "tradeMaxPrice": 18000000
+    },
+    {
+      "internalId": 263,
+      "modelId": 263,
+      "name": "Одежда 263",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 264,
+      "modelId": 264,
+      "name": "Злой",
+      "description": "клоун",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 3600000,
+      "tradeMaxPrice": 18000000
+    },
+    {
+      "internalId": 265,
+      "modelId": 265,
+      "name": "Одежда 265",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 266,
+      "modelId": 266,
+      "name": "Скелетон",
+      "description": "бывший Костя",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 6000000,
+      "tradeMaxPrice": 30000000
+    },
+    {
+      "internalId": 267,
+      "modelId": 267,
+      "name": "Джеймс Бонд",
+      "description": "герой",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 268,
+      "modelId": 268,
+      "name": "Одежда 268",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1500000
+    },
+    {
+      "internalId": 269,
+      "modelId": 269,
+      "name": "Красавчик",
+      "description": "парень девушки слева",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 600000,
+      "tradeMaxPrice": 3000000
+    },
+    {
+      "internalId": 270,
+      "modelId": 270,
+      "name": "Муханов Кирилл",
+      "description": "мужчина",
+            "gender": 0,
+      "rarity": 5,
+            "cost": 15000000,
+      "tradeMaxPrice": 75000000
+    },
+    {
+      "internalId": 271,
+      "modelId": 271,
+      "name": "Одежда 271",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 8000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 12000000
+    },
+    {
+      "internalId": 272,
+      "modelId": 272,
+      "name": "Одежда 272",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 3500000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 5250000
+    },
+    {
+      "internalId": 273,
+      "modelId": 273,
+      "name": "Одежда 273",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 8500000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 12750000
+    },
+    {
+      "internalId": 274,
+      "modelId": 274,
+      "name": "Одежда 274",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 275,
+      "modelId": 275,
+      "name": "Одежда 275",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 276,
+      "modelId": 276,
+      "name": "Одежда 276",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 277,
+      "modelId": 277,
+      "name": "Одежда 277",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 20000,
+      "tradeMaxPrice": 30000
+    },
+    {
+      "internalId": 278,
+      "modelId": 278,
+      "name": "Одежда 278",
+      "description": "Образ персонажа",
+            "gender": 0,
+            "rarity": 1,
+            "cost": 20000,
+            "orderGameShop": 1,
+            "tradeMaxPrice": 30000
+    },
+    {
+      "internalId": 279,
+      "modelId": 279,
+      "name": "Одежда 279",
+            "description": "Образ персонажа",
+            "gender": 0,
+            "rarity": 4,
+            "cost": 4000000,
+            "orderGameShop": 1
+    },
+    {
+      "internalId": 280,
+      "modelId": 280,
+      "name": "Одежда 280",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 281,
+      "modelId": 281,
+      "name": "Одежда 281",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 282,
+      "modelId": 282,
+      "name": "Одежда 282",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 283,
+      "modelId": 283,
+      "name": "Известный",
+      "description": "аристократ",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 284,
+      "modelId": 284,
+      "name": "Одежда 284",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 285,
+      "modelId": 285,
+      "name": "Одежда 285",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 286,
+      "modelId": 286,
+      "name": "Одежда 286",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 287,
+      "modelId": 287,
+      "name": "Одежда 287",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 288,
+      "modelId": 288,
+      "name": "Одежда 288",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 289,
+      "modelId": 289,
+      "name": "Одежда 289",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1500000
+    },
+    {
+      "internalId": 290,
+      "modelId": 290,
+      "name": "Одежда 290",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2730000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 4095000
+    },
+    {
+      "internalId": 291,
+      "modelId": 291,
+      "name": "Одежда 291",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2925000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 4387500
+    },
+    {
+      "internalId": 292,
+      "modelId": 292,
+      "name": "Одежда 292",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 3000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 4500000
+    },
+    {
+      "internalId": 293,
+      "modelId": 293,
+      "name": "Одежда 293",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 5850000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 8775000
+    },
+    {
+      "internalId": 294,
+      "modelId": 294,
+      "name": "Одежда 294",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 6000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 9000000
+    },
+    {
+      "internalId": 295,
+      "modelId": 295,
+      "name": "Одежда 295",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 100000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 150000
+    },
+    {
+      "internalId": 296,
+      "modelId": 296,
+      "name": "Одежда 296",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1700000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 2550000
+    },
+    {
+      "internalId": 297,
+      "modelId": 297,
+      "name": "Одежда 297",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 35000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 52500
+    },
+    {
+      "internalId": 298,
+      "modelId": 298,
+      "name": "Леди",
+      "description": "настоящая госпожа",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 6000000,
+      "tradeMaxPrice": 30000000
+    },
+    {
+      "internalId": 299,
+      "modelId": 299,
+      "name": "Одежда 299",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 350000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 525000
+    },
+    {
+      "internalId": 300,
+      "modelId": 300,
+      "name": "Одежда 300",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 301,
+      "modelId": 301,
+      "name": "Одежда 301",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 5000000,
+      "tradeMaxPrice": 7500000
+    },
+    {
+      "internalId": 302,
+      "modelId": 302,
+      "name": "Одежда 302",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 5000000,
+      "tradeMaxPrice": 7500000
+    },
+    {
+      "internalId": 303,
+      "modelId": 303,
+      "name": "Одежда 303",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 304,
+      "modelId": 304,
+      "name": "Одежда 304",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 305,
+      "modelId": 305,
+      "name": "Одежда 305",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 306,
+      "modelId": 306,
+      "name": "Одежда 306",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 307,
+      "modelId": 307,
+      "name": "Одежда 307",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 308,
+      "modelId": 308,
+      "name": "Одежда 308",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 309,
+      "modelId": 309,
+      "name": "Одежда 309",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 310,
+      "modelId": 310,
+      "name": "Саша",
+      "description": "бандит",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 4400000,
+      "tradeMaxPrice": 22000000
+    },
+    {
+      "internalId": 311,
+      "modelId": 311,
+      "name": "Бандит",
+      "description": "боксер",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 3850000,
+      "tradeMaxPrice": 19250000
+    },
+    {
+      "internalId": 312,
+      "modelId": 5321,
+      "name": "Одежда 5321",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 313,
+      "modelId": 5322,
+      "name": "Одежда 5322",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 314,
+      "modelId": 5323,
+      "name": "Вурдалаак",
+      "description": "страшный дед",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1200000,
+      "tradeMaxPrice": 6000000
+    },
+    {
+      "internalId": 315,
+      "modelId": 5324,
+      "name": "Одежда 5324",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 316,
+      "modelId": 5325,
+      "name": "Новогодний",
+      "description": "пингвин",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1200000,
+      "tradeMaxPrice": 6000000
+    },
+    {
+      "internalId": 317,
+      "modelId": 5326,
+      "name": "Снеговик",
+      "description": "не растает",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1200000,
+      "tradeMaxPrice": 6000000
+    },
+    {
+      "internalId": 318,
+      "modelId": 5327,
+      "name": "Одежда 5327",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 319,
+      "modelId": 5341,
+      "name": "Одежда 5341",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 320,
+      "modelId": 5342,
+      "name": "Одежда 5342",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 321,
+      "modelId": 5343,
+      "name": "Одежда 5343",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 322,
+      "modelId": 5344,
+      "name": "Одежда 5344",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 323,
+      "modelId": 5345,
+      "name": "Одежда 5345",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 324,
+      "modelId": 5346,
+      "name": "Одежда 5346",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 325,
+      "modelId": 5347,
+      "name": "Одежда 5347",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 326,
+      "modelId": 5348,
+      "name": "Одежда 5348",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 327,
+      "modelId": 5349,
+      "name": "Одежда 5349",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 328,
+      "modelId": 5350,
+      "name": "Одежда 5350",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 329,
+      "modelId": 5351,
+      "name": "Одежда 5351",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 330,
+      "modelId": 5352,
+      "name": "Одежда 5352",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 331,
+      "modelId": 5353,
+      "name": "Одежда 5353",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 332,
+      "modelId": 5354,
+      "name": "Одежда 5354",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 333,
+      "modelId": 5355,
+      "name": "Одежда 5355",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 334,
+      "modelId": 5356,
+      "name": "Одежда 5356",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 335,
+      "modelId": 5357,
+      "name": "Одежда 5357",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 336,
+      "modelId": 5358,
+      "name": "Одежда 5358",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 337,
+      "modelId": 5359,
+      "name": "Одежда 5359",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 338,
+      "modelId": 5360,
+      "name": "Одежда 5360",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 339,
+      "modelId": 5361,
+      "name": "Одежда 5361",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 340,
+      "modelId": 5362,
+      "name": "Дюшес",
+      "description": "красавчик",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 341,
+      "modelId": 5363,
+      "name": "Одежда 5363",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 342,
+      "modelId": 5364,
+      "name": "Одежда 5364",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 343,
+      "modelId": 5365,
+      "name": "Маньяк",
+      "description": "с мешком",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1200000,
+      "tradeMaxPrice": 6000000
+    },
+    {
+      "internalId": 344,
+      "modelId": 5366,
+      "name": "Одежда 5366",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 345,
+      "modelId": 5367,
+      "name": "Маньяк",
+      "description": "Майерс",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1200000,
+      "tradeMaxPrice": 6000000
+    },
+    {
+      "internalId": 346,
+      "modelId": 5368,
+      "name": "Одежда 5368",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 347,
+      "modelId": 5369,
+      "name": "Одежда 5369",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 348,
+      "modelId": 5370,
+      "name": "Одежда 5370",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 349,
+      "modelId": 6774,
+      "name": "Одежда 6774",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 240000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 360000
+    },
+    {
+      "internalId": 350,
+      "modelId": 6775,
+      "name": "Одежда 6775",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 67000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 100500
+    },
+    {
+      "internalId": 351,
+      "modelId": 6776,
+      "name": "Одежда 6776",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 2,
+            "cost": 450000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 675000
+    },
+    {
+      "internalId": 352,
+      "modelId": 6777,
+      "name": "Одежда 6777",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 7700000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 11550000
+    },
+    {
+      "internalId": 353,
+      "modelId": 6778,
+      "name": "Одежда 6778",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 8500000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 12750000
+    },
+    {
+      "internalId": 354,
+      "modelId": 6779,
+      "name": "Одежда 6779",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 2,
+            "cost": 550000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 825000
+    },
+    {
+      "internalId": 355,
+      "modelId": 6780,
+      "name": "Элегантная",
+      "description": "леди",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 750000,
+      "tradeMaxPrice": 3750000
+    },
+    {
+      "internalId": 356,
+      "modelId": 6781,
+      "name": "Король Нью-Йорка",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 357,
+      "modelId": 6782,
+      "name": "Ледяная мечта",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 358,
+      "modelId": 6783,
+      "name": "Black Santa",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 359,
+      "modelId": 6784,
+      "name": "Свежий холод",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 360,
+      "modelId": 6785,
+      "name": "Монтана",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 361,
+      "modelId": 6786,
+      "name": "Новогодняя ночь",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 362,
+      "modelId": 6787,
+      "name": "Новогодняя бабка",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 363,
+      "modelId": 6788,
+      "name": "Синяк",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 364,
+      "modelId": 6789,
+      "name": "Эльф",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 365,
+      "modelId": 6790,
+      "name": "Мраколют",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 366,
+      "modelId": 6791,
+      "name": "Снегурочка",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 367,
+      "modelId": 6792,
+      "name": "Хозяин таверны",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 368,
+      "modelId": 6793,
+      "name": "Эллиот",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 369,
+      "modelId": 6794,
+      "name": "Танцор",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 370,
+      "modelId": 6795,
+      "name": "Образ Ночная жизнь",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 371,
+      "modelId": 6796,
+      "name": "Образ Снежная муза",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 372,
+      "modelId": 6797,
+      "name": "Неоновый плейбой",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 373,
+      "modelId": 6798,
+      "name": "Розовый патруль",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 374,
+      "modelId": 6799,
+      "name": "Городская фламинго",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 375,
+      "modelId": 6800,
+      "name": "Розовая хищница",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 376,
+      "modelId": 6801,
+      "name": "Сёрфер легенда",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 377,
+      "modelId": 6802,
+      "name": "Экзо-панк",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 378,
+      "modelId": 6803,
+      "name": "Ретро вибрация",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 379,
+      "modelId": 6804,
+      "name": "Образ Легенда Гетто",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 380,
+      "modelId": 6805,
+      "name": "Образ Красотка побережья",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 381,
+      "modelId": 6806,
+      "name": "Мужчина мусорщик 1",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 382,
+      "modelId": 6807,
+      "name": "Мужчина мусорщик 2",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 383,
+      "modelId": 6808,
+      "name": "Женщина мусорщица 1",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 384,
+      "modelId": 6809,
+      "name": "Женщина мусорщица 2",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 385,
+      "modelId": 6810,
+      "name": "Король бомжей",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3
+    },
+    {
+      "internalId": 386,
+      "modelId": 6811,
+      "name": "Бесконечный",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 387,
+      "modelId": 6812,
+      "name": "Королева Манипуляций",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 388,
+      "modelId": 6813,
+      "name": "Мужчина с уткой на футболке",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 600000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 900000
+    },
+    {
+      "internalId": 389,
+      "modelId": 6814,
+      "name": "Мужчина Гот в худи",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1100000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1650000
+    },
+    {
+      "internalId": 390,
+      "modelId": 6815,
+      "name": "Мужчина в худи BRstyle",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 900000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1350000
+    },
+    {
+      "internalId": 391,
+      "modelId": 6816,
+      "name": "Мужчина в худи Макэвой",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1500000
+    },
+    {
+      "internalId": 392,
+      "modelId": 6817,
+      "name": "Девушка в желтом лонгсливе",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 2,
+            "cost": 700000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1050000
+    },
+    {
+      "internalId": 393,
+      "modelId": 6818,
+      "name": "Мужчина в черной куртке",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1200000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1800000
+    },
+    {
+      "internalId": 394,
+      "modelId": 6819,
+      "name": "Девушка в кардигане",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 2,
+            "cost": 600000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 900000
+    },
+    {
+      "internalId": 395,
+      "modelId": 6820,
+      "name": "Девушка с уткой на футболке",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 2,
+            "cost": 900000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1350000
+    },
+    {
+      "internalId": 396,
+      "modelId": 6821,
+      "name": "Мужчина в шортах",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 800000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1200000
+    },
+    {
+      "internalId": 397,
+      "modelId": 6822,
+      "name": "Мужчина в футболке BOSS",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 700000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1050000
+    },
+    {
+      "internalId": 398,
+      "modelId": 6823,
+      "name": "Девушка в клетчатых брюках",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 2,
+            "cost": 800000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1200000
+    },
+    {
+      "internalId": 399,
+      "modelId": 6824,
+      "name": "Крэкер",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 400,
+      "modelId": 6825,
+      "name": "Белый цветок",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 401,
+      "modelId": 6826,
+      "name": "Джованни",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 402,
+      "modelId": 6827,
+      "name": "Вишенка",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 403,
+      "modelId": 6828,
+      "name": "Модный ниндзя",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 404,
+      "modelId": 6829,
+      "name": "Охотник на демонов",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 405,
+      "modelId": 6830,
+      "name": "Стройная эльфийка",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 406,
+      "modelId": 6831,
+      "name": "Король пиратов",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 407,
+      "modelId": 6832,
+      "name": "Блогер",
+      "description": "Enzo",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1200000,
+      "tradeMaxPrice": 6000000
+    },
+    {
+      "internalId": 408,
+      "modelId": 11588,
+      "name": "Одежда 11588",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 2,
+            "cost": 800000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1200000
+    },
+    {
+      "internalId": 409,
+      "modelId": 11589,
+      "name": "Одежда 11589",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 6500000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 9750000
+    },
+    {
+      "internalId": 410,
+      "modelId": 11590,
+      "name": "Одежда 11590",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 1400000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 2100000
+    },
+    {
+      "internalId": 411,
+      "modelId": 11591,
+      "name": "Одежда 11591",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 5900000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 8850000
+    },
+    {
+      "internalId": 412,
+      "modelId": 11592,
+      "name": "Одежда 11592",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 4200000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 6300000
+    },
+    {
+      "internalId": 413,
+      "modelId": 11593,
+      "name": "Одежда 11593",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 5,
+            "cost": 12000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 18000000
+    },
+    {
+      "internalId": 414,
+      "modelId": 11915,
+      "name": "Одежда 11915",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 3200000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 4800000
+    },
+    {
+      "internalId": 415,
+      "modelId": 11916,
+      "name": "Одежда 11916",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 1100000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1650000
+    },
+    {
+      "internalId": 416,
+      "modelId": 11917,
+      "name": "Хоуми",
+      "description": "с района",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 700000,
+      "tradeMaxPrice": 3500000
+    },
+    {
+      "internalId": 417,
+      "modelId": 11918,
+      "name": "Одежда 11918",
+      "description": "Образ персонажа",
+            "gender": 0,
+            "rarity": 3,
+            "cost": 1600000,
+            "orderGameShop": 1
+    },
+    {
+      "internalId": 418,
+      "modelId": 11926,
+      "name": "Степаныч",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 419,
+      "modelId": 11927,
+      "name": "Петрович",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 420,
+      "modelId": 11928,
+      "name": "Хищница",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 421,
+      "modelId": 11929,
+      "name": "Саныч",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 422,
+      "modelId": 11930,
+      "name": "Николаич",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 423,
+      "modelId": 11931,
+      "name": "Лесничая",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 424,
+      "modelId": 11932,
+      "name": "Охотница",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 425,
+      "modelId": 11933,
+      "name": "Алишер*",
+      "description": "*иноагент",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1100000,
+      "tradeMaxPrice": 5500000
+    },
+    {
+      "internalId": 426,
+      "modelId": 11934,
+      "name": "Толстый Алишер*",
+      "description": "*иноагент",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1100000,
+      "tradeMaxPrice": 5500000
+    },
+    {
+      "internalId": 427,
+      "modelId": 11935,
+      "name": "Мент",
+      "description": "из клипа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1100000,
+      "tradeMaxPrice": 5500000
+    },
+    {
+      "internalId": 428,
+      "modelId": 11936,
+      "name": "Раскаленный асфальт",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 429,
+      "modelId": 11937,
+      "name": "Скоростная леди",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 430,
+      "modelId": 11938,
+      "name": "Королева гонок",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 431,
+      "modelId": 11939,
+      "name": "Мастер дрифта",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 432,
+      "modelId": 11940,
+      "name": "Чемпион Ле-Мана",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 433,
+      "modelId": 11941,
+      "name": "Ночной король",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 434,
+      "modelId": 11942,
+      "name": "Повелительница дорог",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 435,
+      "modelId": 11943,
+      "name": "Администратор (женский)",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 436,
+      "modelId": 11944,
+      "name": "Даня Милохин",
+      "description": "опасный",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1100000,
+      "tradeMaxPrice": 5500000
+    },
+    {
+      "internalId": 437,
+      "modelId": 11945,
+      "name": "Гомес",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 438,
+      "modelId": 11946,
+      "name": "Ларч",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 439,
+      "modelId": 11947,
+      "name": "Мейстер",
+      "description": "цитадели",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1000000,
+      "tradeMaxPrice": 5000000
+    },
+    {
+      "internalId": 440,
+      "modelId": 11948,
+      "name": "Всадник",
+      "description": "с головой",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1000000,
+      "tradeMaxPrice": 5000000
+    },
+    {
+      "internalId": 441,
+      "modelId": 11949,
+      "name": "Мортиша",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 442,
+      "modelId": 11950,
+      "name": "Фестер",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 443,
+      "modelId": 11951,
+      "name": "Маг",
+      "description": "волшебник",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1000000,
+      "tradeMaxPrice": 5000000
+    },
+    {
+      "internalId": 444,
+      "modelId": 11952,
+      "name": "Уэнсдей",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 445,
+      "modelId": 11953,
+      "name": "Страж",
+      "description": "Замка",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1000000,
+      "tradeMaxPrice": 5000000
+    },
+    {
+      "internalId": 446,
+      "modelId": 11954,
+      "name": "Бьянка",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 447,
+      "modelId": 11955,
+      "name": "Энид",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 448,
+      "modelId": 11956,
+      "name": "Аленушка",
+      "description": "маленькая",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 800000,
+      "tradeMaxPrice": 4000000
+    },
+    {
+      "internalId": 449,
+      "modelId": 11957,
+      "name": "Знахарь",
+      "description": "цветочный",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1000000,
+      "tradeMaxPrice": 5000000
+    },
+    {
+      "internalId": 450,
+      "modelId": 11958,
+      "name": "Пчелка",
+      "description": "убийца",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 800000,
+      "tradeMaxPrice": 4000000
+    },
+    {
+      "internalId": 451,
+      "modelId": 11959,
+      "name": "Байкер",
+      "description": "из ада",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1000000,
+      "tradeMaxPrice": 5000000
+    },
+    {
+      "internalId": 452,
+      "modelId": 11960,
+      "name": "Рыбак 1",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 1400000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 2100000
+    },
+    {
+      "internalId": 453,
+      "modelId": 11961,
+      "name": "Рыбачка 1",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 800000,
+      "tradeMaxPrice": 4000000
+    },
+    {
+      "internalId": 454,
+      "modelId": 11962,
+      "name": "Рыбак 2",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 800000,
+      "tradeMaxPrice": 4000000
+    },
+    {
+      "internalId": 455,
+      "modelId": 11963,
+      "name": "Рыбачка 2",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 1300000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1950000
+    },
+    {
+      "internalId": 456,
+      "modelId": 11964,
+      "name": "Одежда 11964",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 457,
+      "modelId": 11965,
+      "name": "Одежда 11965",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 458,
+      "modelId": 11966,
+      "name": "Одежда 11966",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 459,
+      "modelId": 11967,
+      "name": "Одежда 11967",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 460,
+      "modelId": 11968,
+      "name": "Одежда 11968",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 461,
+      "modelId": 11969,
+      "name": "Одежда 11969",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 462,
+      "modelId": 11970,
+      "name": "Одежда 11970",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 463,
+      "modelId": 12291,
+      "name": "Солдатка",
+      "description": "красавица",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 600000,
+      "tradeMaxPrice": 3000000
+    },
+    {
+      "internalId": 464,
+      "modelId": 12293,
+      "name": "Емеля",
+      "description": "мал да удал",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 600000,
+      "tradeMaxPrice": 3000000
+    },
+    {
+      "internalId": 465,
+      "modelId": 13725,
+      "name": "Одежда 13725",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 466,
+      "modelId": 13726,
+      "name": "Одежда 13726",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 467,
+      "modelId": 13727,
+      "name": "Одежда 13727",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 468,
+      "modelId": 13728,
+      "name": "Одежда 13728",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 469,
+      "modelId": 13729,
+      "name": "Одежда 13729",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 470,
+      "modelId": 13730,
+      "name": "Одежда 13730",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 471,
+      "modelId": 13817,
+      "name": "Одежда 13817",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 472,
+      "modelId": 13818,
+      "name": "Одежда 13818",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 473,
+      "modelId": 13819,
+      "name": "Одежда 13819",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 474,
+      "modelId": 13820,
+      "name": "Одежда 13820",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 475,
+      "modelId": 13821,
+      "name": "Одежда 13821",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 476,
+      "modelId": 13822,
+      "name": "Одежда 13822",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 477,
+      "modelId": 13823,
+      "name": "Одежда 13823",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 478,
+      "modelId": 13824,
+      "name": "Одежда 13824",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 479,
+      "modelId": 14386,
+      "name": "Бархатные тяги",
+      "description": "спортивные",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 600000,
+      "tradeMaxPrice": 3000000
+    },
+    {
+      "internalId": 480,
+      "modelId": 14387,
+      "name": "Одежда 14387",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1500000
+    },
+    {
+      "internalId": 481,
+      "modelId": 14388,
+      "name": "Бархатные тяги",
+      "description": "особые",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 600000,
+      "tradeMaxPrice": 3000000
+    },
+    {
+      "internalId": 482,
+      "modelId": 18589,
+      "name": "Одежда 18589",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 90000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 135000
+    },
+    {
+      "internalId": 483,
+      "modelId": 18590,
+      "name": "Одежда 18590",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 2,
+            "cost": 420000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 630000
+    },
+    {
+      "internalId": 484,
+      "modelId": 18591,
+      "name": "Одежда 18591",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 2000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 3000000
+    },
+    {
+      "internalId": 485,
+      "modelId": 18592,
+      "name": "Одежда 18592",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 3500000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 5250000
+    },
+    {
+      "internalId": 486,
+      "modelId": 18593,
+      "name": "Одежда 18593",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 30000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 45000
+    },
+    {
+      "internalId": 487,
+      "modelId": 18594,
+      "name": "Одежда 18594",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 25000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 37500
+    },
+    {
+      "internalId": 488,
+      "modelId": 18595,
+      "name": "Одежда 18595",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 489,
+      "modelId": 18596,
+      "name": "Одежда 18596",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 490,
+      "modelId": 18597,
+      "name": "Одежда 18597",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 491,
+      "modelId": 18598,
+      "name": "Одежда 18598",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 492,
+      "modelId": 18599,
+      "name": "Одежда 18599",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 493,
+      "modelId": 18600,
+      "name": "Одежда 18600",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 4500000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 6750000
+    },
+    {
+      "internalId": 494,
+      "modelId": 18601,
+      "name": "Одежда 18601",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 2,
+            "cost": 700000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1050000
+    },
+    {
+      "internalId": 495,
+      "modelId": 18602,
+      "name": "Одежда 18602",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 1200000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1800000
+    },
+    {
+      "internalId": 496,
+      "modelId": 18603,
+      "name": "Одежда 18603",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 330000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 495000
+    },
+    {
+      "internalId": 497,
+      "modelId": 18604,
+      "name": "Одежда 18604",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 2,
+            "cost": 385000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 577500
+    },
+    {
+      "internalId": 498,
+      "modelId": 18605,
+      "name": "Одежда 18605",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 5350000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 8025000
+    },
+    {
+      "internalId": 499,
+      "modelId": 18606,
+      "name": "Поззи",
+      "description": "блогер",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 500,
+      "modelId": 18607,
+      "name": "Одежда 18607",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 1700000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 2550000
+    },
+    {
+      "internalId": 501,
+      "modelId": 18608,
+      "name": "Одежда 18608",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 270000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 405000
+    },
+    {
+      "internalId": 502,
+      "modelId": 18609,
+      "name": "Одежда 18609",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 6200000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 9300000
+    },
+    {
+      "internalId": 503,
+      "modelId": 18610,
+      "name": "Одежда 18610",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 445000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 667500
+    },
+    {
+      "internalId": 504,
+      "modelId": 18611,
+      "name": "Одежда 18611",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 800000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1200000
+    },
+    {
+      "internalId": 505,
+      "modelId": 18612,
+      "name": "Одежда 18612",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 3300000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 4950000
+    },
+    {
+      "internalId": 506,
+      "modelId": 18613,
+      "name": "Одежда 18613",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 507,
+      "modelId": 18614,
+      "name": "Одежда 18614",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 8300000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 12450000
+    },
+    {
+      "internalId": 508,
+      "modelId": 18615,
+      "name": "Одежда 18615",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 55000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 82500
+    },
+    {
+      "internalId": 509,
+      "modelId": 18616,
+      "name": "Одежда 18616",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2300000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 3450000
+    },
+    {
+      "internalId": 510,
+      "modelId": 18617,
+      "name": "Одежда 18617",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 5500000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 8250000
+    },
+    {
+      "internalId": 511,
+      "modelId": 18618,
+      "name": "Одежда 18618",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 512,
+      "modelId": 18619,
+      "name": "Одежда 18619",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 513,
+      "modelId": 18620,
+      "name": "Бандит",
+      "description": "BEE",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 3850000,
+      "tradeMaxPrice": 19250000
+    },
+    {
+      "internalId": 514,
+      "modelId": 18621,
+      "name": "Бандит",
+      "description": "любит ТТ",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 4400000,
+      "tradeMaxPrice": 22000000
+    },
+    {
+      "internalId": 515,
+      "modelId": 18622,
+      "name": "Одежда 18622",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 516,
+      "modelId": 18623,
+      "name": "Бандит",
+      "description": "стилевый",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 3850000,
+      "tradeMaxPrice": 19250000
+    },
+    {
+      "internalId": 517,
+      "modelId": 18624,
+      "name": "Бандит",
+      "description": "ровный",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 4400000,
+      "tradeMaxPrice": 22000000
+    },
+    {
+      "internalId": 518,
+      "modelId": 18625,
+      "name": "Бандит",
+            "description": "ДИМООООН'",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 4400000,
+      "tradeMaxPrice": 22000000
+    },
+    {
+      "internalId": 519,
+      "modelId": 18626,
+      "name": "Бандит",
+      "description": "большой как рама",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 3850000,
+      "tradeMaxPrice": 19250000
+    },
+    {
+      "internalId": 520,
+      "modelId": 18627,
+      "name": "Одежда 18627",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 521,
+      "modelId": 18628,
+      "name": "Бандит",
+      "description": "почти азиат",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 4400000,
+      "tradeMaxPrice": 22000000
+    },
+    {
+      "internalId": 522,
+      "modelId": 18629,
+      "name": "Одежда 18629",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 523,
+      "modelId": 18630,
+      "name": "Одежда 18630",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 524,
+      "modelId": 18860,
+      "name": "Одежда 18860",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1900000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 2850000
+    },
+    {
+      "internalId": 525,
+      "modelId": 18861,
+      "name": "Одежда 18861",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 120000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 180000
+    },
+    {
+      "internalId": 526,
+      "modelId": 19199,
+      "name": "Одежда 19199",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 500000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 750000
+    },
+    {
+      "internalId": 527,
+      "modelId": 19260,
+      "name": "Одежда 19260",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 528,
+      "modelId": 19261,
+      "name": "Одежда 19261",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 3900000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 5850000
+    },
+    {
+      "internalId": 529,
+      "modelId": 19262,
+      "name": "Опасный",
+      "description": "мужчина",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1200000,
+      "tradeMaxPrice": 6000000
+    },
+    {
+      "internalId": 530,
+      "modelId": 19263,
+      "name": "Одежда 19263",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 140000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 210000
+    },
+    {
+      "internalId": 531,
+      "modelId": 19264,
+      "name": "Одежда 19264",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 5,
+            "cost": 11500000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 17250000
+    },
+    {
+      "internalId": 532,
+      "modelId": 19265,
+      "name": "Одежда 19265",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 700000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 1050000
+    },
+    {
+      "internalId": 533,
+      "modelId": 19266,
+      "name": "Одежда 19266",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 650000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 975000
+    },
+    {
+      "internalId": 534,
+      "modelId": 19267,
+      "name": "Одежда 19267",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 5,
+            "cost": 13500000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 20250000
+    },
+    {
+      "internalId": 535,
+      "modelId": 19268,
+      "name": "Одежда 19268",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 220000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 330000
+    },
+    {
+      "internalId": 536,
+      "modelId": 19269,
+      "name": "Одежда 19269",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 5,
+            "cost": 14000000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 21000000
+    },
+    {
+      "internalId": 537,
+      "modelId": 19270,
+      "name": "Одежда 19270",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 600000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 900000
+    },
+    {
+      "internalId": 538,
+      "modelId": 19271,
+      "name": "Одежда 19271",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 5200000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 7800000
+    },
+    {
+      "internalId": 539,
+      "modelId": 19272,
+      "name": "Одежда 19272",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 1,
+            "cost": 45000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 67500
+    },
+    {
+      "internalId": 540,
+      "modelId": 19273,
+      "name": "Бабуля",
+      "description": "Нюра",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 750000,
+      "tradeMaxPrice": 3750000
+    },
+    {
+      "internalId": 541,
+      "modelId": 19274,
+      "name": "Одежда 19274",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 4,
+            "cost": 3800000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 5700000
+    },
+    {
+      "internalId": 542,
+      "modelId": 19275,
+      "name": "Одежда 19275",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 543,
+      "modelId": 19276,
+      "name": "Одежда 19276",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+      "internalId": 544,
+      "modelId": 19596,
+      "name": "Одежда 19596",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 545,
+      "modelId": 19901,
+      "name": "Одежда 19901",
+            "description": "Образ персонажа",
+            "gender": 1
+    },
+    {
+      "internalId": 546,
+      "modelId": 19902,
+      "name": "Одежда 19902",
+      "description": "Образ персонажа",
+            "gender": 1,
+      "rarity": 1,
+            "cost": 140000,
+            "orderGameShop": 1,
+      "tradeMaxPrice": 210000
+    },
+    {
+      "internalId": 547,
+      "modelId": 6835,
+      "name": "Ас команды",
+      "description": "Образ персонажа",
+      "imageName": "img_asscomand.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 548,
+      "modelId": 6836,
+      "name": "Дива Гольфа",
+      "description": "Образ персонажа",
+      "imageName": "img_divagolf.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 549,
+      "modelId": 6837,
+      "name": "Футболист Лео",
+      "description": "Образ персонажа",
+      "imageName": "img_6837.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 550,
+      "modelId": 6838,
+      "name": "Синий спринтер",
+      "description": "Образ персонажа",
+      "imageName": "img_6838.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 551,
+      "modelId": 6839,
+      "name": "Теннисист Мартин",
+      "description": "Образ персонажа",
+      "imageName": "img_6839.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 552,
+      "modelId": 6840,
+      "name": "Турист Арон",
+      "description": "Образ персонажа",
+      "imageName": "img_6840.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 553,
+      "modelId": 6841,
+      "name": "Теннисистка Моника",
+      "description": "Образ персонажа",
+      "imageName": "img_6841.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 554,
+      "modelId": 6842,
+      "name": "Путешественница Люси",
+      "description": "Образ персонажа",
+      "imageName": "img_6842.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 555,
+      "modelId": 6843,
+      "name": "Спасательница Синди",
+      "description": "Образ персонажа",
+      "imageName": "img_6843.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 556,
+      "modelId": 6885,
+      "name": "Егерь",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 2,
+            "cost": 2112000,
+      "tradeMaxPrice": 42240000
+    },
+    {
+      "internalId": 557,
+      "modelId": 6886,
+      "name": "Щёголь",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 22000000,
+      "tradeMaxPrice": 440000000
+    },
+    {
+      "internalId": 558,
+      "modelId": 6887,
+      "name": "Местный Шериф",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 11410000,
+      "tradeMaxPrice": 228200000
+    },
+    {
+      "internalId": 559,
+      "modelId": 6888,
+      "name": "Качок Джонс",
+      "description": "Образ персонажа",
+      "imageName": "img_6888.png",
+            "gender": 0,
+      "rarity": 3
+    },
+    {
+      "internalId": 560,
+      "modelId": 6889,
+      "name": "Модница Ребекка",
+      "description": "Образ персонажа",
+      "imageName": "img_6889.png",
+            "gender": 0,
+      "rarity": 3
+    },
+    {
+      "internalId": 561,
+      "modelId": 6890,
+      "name": "Дрифт Дива",
+      "description": "Образ персонажа",
+      "imageName": "img_6890.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 562,
+      "modelId": 6891,
+      "name": "Драйвер",
+      "description": "Образ персонажа",
+      "imageName": "img_6891.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 563,
+      "modelId": 6892,
+      "name": "Женщина кошка",
+      "description": "Образ персонажа",
+      "imageName": "img_6892.png",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 2500000,
+      "tradeMaxPrice": 12500000
+    },
+    {
+      "internalId": 564,
+      "modelId": 6893,
+      "name": "Горячий мужчина",
+      "description": "Образ персонажа",
+      "imageName": "img_6893.png",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1200000,
+      "tradeMaxPrice": 6000000
+    },
+    {
+      "internalId": 565,
+      "modelId": 6894,
+      "name": "Посейдон",
+      "description": "Образ персонажа",
+      "imageName": "img_6894.png",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 3000000,
+      "tradeMaxPrice": 15000000
+    },
+    {
+      "internalId": 566,
+      "modelId": 6896,
+      "name": "Бизнес Леди",
+      "description": "Образ персонажа",
+      "imageName": "img_6896.png",
+            "gender": 1,
+      "rarity": 3,
+            "cost": 1200000,
+      "tradeMaxPrice": 6000000
+    },
+    {
+      "internalId": 567,
+      "modelId": 6895,
+      "name": "Сотрудник Фирмы",
+      "description": "Образ персонажа",
+      "imageName": "img_6895.png",
+            "gender": 0,
+      "rarity": 3,
+            "cost": 1200000,
+      "tradeMaxPrice": 6000000
+    },
+    {
+      "internalId": 568,
+      "modelId": 6898,
+      "name": "Стритрейсер",
+      "description": "Образ персонажа",
+      "imageName": "img_6898.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 569,
+      "modelId": 6901,
+      "name": "Неуловимый",
+      "description": "Образ персонажа",
+      "imageName": "img_6901.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 570,
+      "modelId": 6897,
+      "name": "Агент Эйч",
+      "description": "Образ персонажа",
+      "imageName": "img_6897.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 571,
+      "modelId": 6900,
+      "name": "Защитница закона",
+      "description": "Образ персонажа",
+      "imageName": "img_6900.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 572,
+      "modelId": 6902,
+      "name": "Гонщица Икс",
+      "description": "Образ персонажа",
+      "imageName": "img_6902.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 573,
+      "modelId": 6899,
+      "name": "Правитель трека",
+      "description": "Образ персонажа",
+      "imageName": "img_6899.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 574,
+      "modelId": 6869,
+      "name": "Вязальщица Дебора",
+      "description": "Образ персонажа",
+      "imageName": "img_6869.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 575,
+      "modelId": 6870,
+      "name": "Громила",
+      "description": "Образ персонажа",
+      "imageName": "img_6870.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 576,
+      "modelId": 6858,
+      "name": "Кристо",
+      "description": "Образ персонажа",
+      "imageName": "img_6858.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 577,
+      "modelId": 6859,
+      "name": "Механик Марк",
+      "description": "Образ персонажа",
+      "imageName": "img_6859.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 578,
+      "modelId": 6860,
+      "name": "Странный фермер",
+      "description": "Образ персонажа",
+      "imageName": "img_6860.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 579,
+      "modelId": 6861,
+      "name": "Ванко",
+      "description": "Образ персонажа",
+      "imageName": "img_6861.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 580,
+      "modelId": 6862,
+      "name": "Полина",
+      "description": "Образ персонажа",
+      "imageName": "img_6862.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 581,
+      "modelId": 6863,
+      "name": "Кумихо",
+      "description": "Образ персонажа",
+      "imageName": "img_6863.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 582,
+      "modelId": 6864,
+      "name": "Хиш-Миш",
+      "description": "Образ персонажа",
+      "imageName": "img_6864.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 583,
+      "modelId": 6865,
+      "name": "Айко",
+      "description": "Образ персонажа",
+      "imageName": "img_6865.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 584,
+      "modelId": 6866,
+      "name": "Капрал EFC",
+      "description": "Образ персонажа",
+      "imageName": "img_6866.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 585,
+      "modelId": 6867,
+      "name": "Ванко Одержимый",
+      "description": "Образ персонажа",
+      "imageName": "img_6867.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 586,
+      "modelId": 6868,
+      "name": "Токсичная",
+      "description": "Образ персонажа",
+      "imageName": "img_6868.png",
+            "gender": 0,
+      "rarity": 3
+    },
+    {
+      "internalId": 587,
+      "modelId": 6884,
+      "name": "Cyber Lady",
+      "description": "Образ персонажа",
+      "imageName": "img_cybergirl_tanpin.png",
+            "gender": 0,
+      "rarity": 5
+    },
+    {
+      "internalId": 588,
+      "modelId": 6844,
+      "name": "Cyber Man",
+      "description": "Образ персонажа",
+      "imageName": "img_cyberman_tanpin.png",
+            "gender": 0,
+      "rarity": 5
+    },
+    {
+      "internalId": 589,
+      "modelId": 6871,
+      "name": "Масленников",
+      "description": "Образ персонажа",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 3000000,
+      "tradeMaxPrice": 15000000
+    },
+    {
+      "internalId": 590,
+      "modelId": 6872,
+      "name": "INSTASAMKA",
+      "description": "Образ персонажа",
+      "imageName": "img_6872.png",
+            "gender": 0,
+      "rarity": 4,
+            "cost": 3000000,
+      "tradeMaxPrice": 15000000
+    },
+    {
+      "internalId": 591,
+      "modelId": 6873,
+      "name": "Флэшка",
+      "description": "Образ персонажа",
+      "imageName": "img_6873.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 592,
+      "modelId": 6874,
+      "name": "Спектр",
+      "description": "Образ персонажа",
+      "imageName": "img_6874.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 593,
+      "modelId": 5884,
+      "name": "Петр Шторм",
+      "description": "Образ персонажа",
+      "imageName": "img_5884.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 594,
+      "modelId": 5885,
+      "name": "Искра",
+      "description": "Образ персонажа",
+      "imageName": "img_5885.png",
+            "gender": 0,
+      "rarity": 3
+    },
+    {
+      "internalId": 595,
+      "modelId": 6881,
+      "name": "Молния Максим",
+      "description": "Образ персонажа",
+      "imageName": "img_6881.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 596,
+      "modelId": 5882,
+      "name": "Ртуть",
+      "description": "Образ персонажа",
+      "imageName": "img_5882.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 597,
+      "modelId": 5883,
+      "name": "Роберт Мрак",
+      "description": "Образ персонажа",
+      "imageName": "img_5883.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 598,
+      "modelId": 6875,
+      "name": "Виктор",
+      "description": "Образ персонажа",
+      "imageName": "img_6875.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 599,
+      "modelId": 6876,
+      "name": "Азартный гонщик",
+      "description": "Образ персонажа",
+      "imageName": "img_6876.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 600,
+      "modelId": 6877,
+      "name": "Петр Тренер",
+      "description": "Образ персонажа",
+      "imageName": "img_6877.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 601,
+      "modelId": 6878,
+      "name": "Кристина",
+      "description": "Образ персонажа",
+      "imageName": "img_6878.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 602,
+      "modelId": 6879,
+      "name": "Анна",
+      "description": "Образ персонажа",
+      "imageName": "img_6879.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 603,
+      "modelId": 6880,
+      "name": "Уличный Продюсер",
+      "description": "Образ персонажа",
+      "imageName": "img_6880.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 604,
+      "modelId": 5892,
+      "name": "Колян Мажор",
+      "description": "Образ персонажа",
+      "imageName": "img_5892.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 605,
+      "modelId": 5886,
+      "name": "Ян Техник",
+      "description": "Образ персонажа",
+      "imageName": "img_5886.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 606,
+      "modelId": 5887,
+      "name": "Ника Добытчица",
+      "description": "Образ персонажа",
+      "imageName": "img_5887.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 607,
+      "modelId": 5888,
+      "name": "Алиса Следопытка",
+      "description": "Образ персонажа",
+      "imageName": "img_5888.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 608,
+      "modelId": 5889,
+      "name": "Охотник Филиппыч",
+      "description": "Образ персонажа",
+      "imageName": "img_5889.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 609,
+      "modelId": 5890,
+      "name": "Лесник",
+      "description": "Образ персонажа",
+      "imageName": "img_5890.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 610,
+      "modelId": 5891,
+      "name": "Бомж Иннокентий",
+      "description": "Образ персонажа",
+      "imageName": "img_5891.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+      "internalId": 611,
+      "modelId": 5894,
+      "name": "Леха",
+      "description": "Образ персонажа",
+      "imageName": "img_5894.png",
+            "gender": 0,
+      "rarity": 3
+    },
+    {
+      "internalId": 612,
+      "modelId": 5893,
+      "name": "Серый",
+      "description": "Образ персонажа",
+      "imageName": "img_5893.png",
+            "gender": 0,
+      "rarity": 3
+    },
+    {
+      "internalId": 613,
+      "modelId": 5895,
+      "name": "Следопыт",
+      "description": "Образ персонажа",
+      "imageName": "img_5895.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+        "internalId": 614,
+        "modelId": 5898,
+        "name": "Танковый Ас",
+        "description": "Образ персонажа",
+        "imageName": "img_5898.png",
+            "gender": 0,
+        "rarity": 4,
+        "tradeMaxPrice": 16000000
+    },
+    {
+      "internalId": 615,
+      "modelId": 5899,
+      "name": "Банкир",
+      "description": "Образ персонажа",
+      "imageName": "img_5899.png",
+            "gender": 0,
+      "rarity": 4
+    },
+    {
+        "internalId": 616,
+        "modelId": 5900,
+        "name": "Боря Бульдозер",
+        "description": "Образ персонажа",
+        "imageName": "img_5900.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 617,
+        "modelId": 5901,
+        "name": "Майор Лгунов",
+        "description": "Образ персонажа",
+        "imageName": "img_5901.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 618,
+        "modelId": 5902,
+        "name": "Следователь Ловцова",
+        "description": "Образ персонажа",
+        "imageName": "img_5902.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 619,
+        "modelId": 5903,
+        "name": "Кастет",
+        "description": "Образ персонажа",
+        "imageName": "img_5903.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 620,
+        "modelId": 7770,
+        "name": "София",
+        "description": "Образ персонажа",
+        "imageName": "img_7770.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 621,
+        "modelId": 7771,
+        "name": "Сокол",
+        "description": "Образ персонажа",
+        "imageName": "img_7771.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 622,
+        "modelId": 7772,
+        "name": "Громов",
+        "description": "Образ персонажа",
+        "imageName": "img_7772.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 623,
+        "modelId": 7773,
+        "name": "Дядя Жора",
+        "description": "Образ персонажа",
+        "imageName": "img_7773.png",
+            "gender": 0,
+        "rarity": 2
+    },
+    {
+        "internalId": 624,
+        "modelId": 7774,
+        "name": "Вульгарная Девушка",
+        "description": "Образ персонажа",
+        "imageName": "img_7774.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 625,
+        "modelId": 5896,
+        "name": "Aarne",
+        "description": "Образ персонажа",
+        "imageName": "img_5896.png",
+            "gender": 0,
+        "rarity": 3,
+        "tradeMaxPrice": 6000000
+    },
+    {
+        "internalId": 626,
+        "modelId": 5897,
+        "name": "Bushido Zho",
+        "description": "Образ персонажа",
+        "imageName": "img_5897.png",
+            "gender": 0,
+        "rarity": 3,
+        "tradeMaxPrice": 6000000
+    },
+    {
+        "internalId": 627,
+        "modelId": 5500001,
+        "name": "Герой Родины",
+        "description": "Образ персонажа",
+        "imageName": "img_5500001.png",
+            "gender": 0,
+        "rarity": 2,
+            "cost": 890000,
+        "tradeMaxPrice": 4450000
+    },
+    {
+        "internalId": 628,
+        "modelId": 5500002,
+        "name": "Даня",
+        "description": "Образ персонажа",
+        "imageName": "img_5500002.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 629,
+        "modelId": 5500003,
+        "name": "Иван Береговой",
+        "description": "Образ персонажа",
+        "imageName": "img_5500003.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 630,
+        "modelId": 5500004,
+        "name": "Дарина Серфер",
+        "description": "Образ персонажа",
+        "imageName": "img_5500004.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 631,
+        "modelId": 5500005,
+        "name": "Кир Кирыч",
+        "description": "Образ персонажа",
+        "imageName": "img_5500005.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 632,
+        "modelId": 5500006,
+        "name": "Яна Лагуна",
+        "description": "Образ персонажа",
+        "imageName": "img_5500006.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 633,
+        "modelId": 5500007,
+        "name": "Варя",
+        "description": "Образ персонажа",
+        "imageName": "img_5500007.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 634,
+        "modelId": 5500008,
+        "name": "Менеджер клуба",
+        "description": "Образ персонажа",
+        "imageName": "img_5500008.png",
+            "gender": 0,
+        "rarity": 3
+    },
+    {
+        "internalId": 635,
+        "modelId": 5500009,
+        "name": "Лера Кокетка",
+        "description": "Образ персонажа",
+        "imageName": "img_5500009.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 636,
+        "modelId": 5500020,
+        "name": "Виктор Уличный",
+        "description": "Образ персонажа",
+        "imageName": "img_5500020.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 637,
+        "modelId": 5500021,
+        "name": "Нико Драйвовый",
+        "description": "Образ персонажа",
+        "imageName": "img_5500021.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 638,
+        "modelId": 5500022,
+        "name": "Филин Детектив",
+        "description": "Образ персонажа",
+        "imageName": "img_5500022.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 639,
+        "modelId": 5500023,
+        "name": "Сема Кореш",
+        "description": "Образ персонажа",
+        "imageName": "img_5500023.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 640,
+        "modelId": 5500024,
+        "name": "Саня Сестра",
+        "description": "Образ персонажа",
+        "imageName": "img_5500024.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 641,
+        "modelId": 5500025,
+        "name": "Шторм Похудевший",
+        "description": "Образ персонажа",
+        "imageName": "img_5500025.png",
+            "gender": 0,
+        "rarity": 3
+    },
+    {
+        "internalId": 642,
+        "modelId": 5500026,
+        "name": "Луна Гонщица",
+        "description": "Образ персонажа",
+        "imageName": "img_5500026.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 643,
+        "modelId": 5500027,
+        "name": "Руслан Дрифтер",
+        "description": "Образ персонажа",
+        "imageName": "img_5500027.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 644,
+        "modelId": 5500028,
+        "name": "Санек Брат",
+        "description": "Образ персонажа",
+        "imageName": "img_5500028.png",
+            "gender": 0,
+        "rarity": 3
+    },
+    {
+        "internalId": 645,
+        "modelId": 5500029,
+        "name": "Уличный Лихач",
+        "description": "Образ персонажа",
+        "imageName": "img_5500029.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 646,
+        "modelId": 5500010,
+        "name": "Страж",
+        "description": "Образ персонажа",
+            "gender": 0,
+            "cost": 6000000
+    },
+    {
+        "internalId": 647,
+        "modelId": 5500017,
+        "name": "Радистка",
+        "description": "Образ персонажа",
+            "gender": 0,
+        "rarity": 5,
+            "cost": 10000000,
+        "tradeMaxPrice": 50000000
+    },
+    {
+        "internalId": 648,
+        "modelId": 5500016,
+        "name": "Ветеран",
+        "description": "Образ персонажа",
+            "gender": 0,
+        "rarity": 5,
+            "cost": 10000000,
+        "tradeMaxPrice": 50000000
+    },
+    {
+        "internalId": 649,
+        "modelId": 5500015,
+        "name": "Начальница",
+        "description": "Образ персонажа",
+            "gender": 0,
+        "rarity": 4,
+            "cost": 9000000,
+        "tradeMaxPrice": 45000000
+    },
+    {
+        "internalId": 650,
+        "modelId": 5500014,
+        "name": "Шериф",
+        "description": "Образ персонажа",
+            "gender": 0,
+        "rarity": 4,
+            "cost": 9000000,
+        "tradeMaxPrice": 45000000
+    },
+    {
+        "internalId": 651,
+        "modelId": 5500034,
+        "name": "Одежда 5500034",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+        "internalId": 652,
+        "modelId": 5500035,
+        "name": "Одежда 5500035",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+        "internalId": 653,
+        "modelId": 5500036,
+        "name": "Одежда 5500036",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+        "internalId": 654,
+        "modelId": 5500011,
+        "name": "Адвокат",
+        "description": "Образ персонажа",
+            "gender": 0,
+        "rarity": 4,
+            "cost": 6000000,
+        "tradeMaxPrice": 30000000
+    },
+    {
+        "internalId": 655,
+        "modelId": 5500018,
+        "name": "Дон",
+        "description": "Образ персонажа",
+            "gender": 0,
+        "rarity": 4,
+            "cost": 7000000,
+        "tradeMaxPrice": 35000000
+    },
+    {
+        "internalId": 656,
+        "modelId": 5500019,
+        "name": "Инспектор",
+        "description": "Образ персонажа",
+            "gender": 0,
+        "rarity": 4,
+            "cost": 7000000,
+        "tradeMaxPrice": 35000000
+    },
+    {
+        "internalId": 657,
+        "modelId": 5500012,
+        "name": "Ямасаки",
+        "description": "Образ персонажа",
+            "gender": 0,
+        "rarity": 4,
+            "cost": 7000000,
+        "tradeMaxPrice": 35000000
+    },
+    {
+        "internalId": 658,
+        "modelId": 5500013,
+        "name": "Агент",
+        "description": "Образ персонажа",
+            "gender": 0,
+        "rarity": 4,
+            "cost": 7000000,
+        "tradeMaxPrice": 35000000
+    },
+    {
+        "internalId": 659,
+        "modelId": 5500039,
+        "name": "Школьный Гик",
+        "description": "Образ персонажа",
+        "imageName": "img_5500039.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 660,
+        "modelId": 5500040,
+        "name": "Девушка Форварда",
+        "description": "Образ персонажа",
+        "imageName": "img_5500040.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 661,
+        "modelId": 5500041,
+        "name": "Школьный Тренер",
+        "description": "Образ персонажа",
+        "imageName": "img_5500041.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 662,
+        "modelId": 5500042,
+        "name": "Мишаня Хулиган",
+        "description": "Образ персонажа",
+        "imageName": "img_5500042.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 663,
+        "modelId": 5500043,
+        "name": "Тяжелый Форвард",
+        "description": "Образ персонажа",
+        "imageName": "img_5500043.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 664,
+        "modelId": 5500044,
+        "name": "Вика Отличница",
+        "description": "Образ персонажа",
+        "imageName": "img_5500044.png",
+            "gender": 0,
+        "rarity": 3
+    },
+    {
+        "internalId": 665,
+        "modelId": 5500045,
+        "name": "Леха Кура",
+        "description": "Образ персонажа",
+        "imageName": "img_5500045.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 666,
+        "modelId": 5500037,
+        "name": "Одежда 5500037",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+        "internalId": 667,
+        "modelId": 5500038,
+        "name": "Одежда 5500038",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+        "internalId": 668,
+        "modelId": 5500033,
+        "name": "Одежда 5500033",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+        "internalId": 669,
+        "modelId": 5500032,
+        "name": "Одежда 5500032",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+        "internalId": 670,
+        "modelId": 5500031,
+        "name": "Одежда 5500031",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+        "internalId": 671,
+        "modelId": 5500030,
+        "name": "Одежда 5500030",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+        "internalId": 672,
+        "modelId": 5500048,
+        "name": "Дядя Слава",
+        "description": "Образ персонажа",
+        "imageName": "img_5500048.png",
+            "gender": 0,
+        "rarity": 3,
+            "cost": 600000,
+        "tradeMaxPrice": 3000000
+    },
+    {
+        "internalId": 673,
+        "modelId": 5500049,
+        "name": "Гость Района",
+        "imageName": "img_5500049.png",
+            "gender": 0,
+        "rarity": 4,
+            "cost": 600000,
+        "tradeMaxPrice": 3000000
+    },
+    {
+        "internalId": 674,
+        "modelId": 5500050,
+        "name": "Гарик Друг",
+        "description": "Образ персонажа",
+        "imageName": "img_5500050.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 675,
+        "modelId": 5500051,
+        "name": "Лиза",
+        "description": "Образ персонажа",
+        "imageName": "img_5500051.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 676,
+        "modelId": 5500052,
+        "name": "Марк Опытный",
+        "description": "Образ персонажа",
+        "imageName": "img_5500052.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 677,
+        "modelId": 5500053,
+        "name": "Лев Пампкин",
+        "description": "Образ персонажа",
+        "imageName": "img_5500053.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 678,
+        "modelId": 5500054,
+        "name": "Ростислав Блогер",
+        "description": "Образ персонажа",
+        "imageName": "img_5500054.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 679,
+        "modelId": 5500056,
+        "name": "Охотник на нечисть",
+        "description": "Образ персонажа",
+        "imageName": "img_5500056.png",
+            "gender": 0,
+        "rarity": 3
+    },
+    {
+        "internalId": 680,
+        "modelId": 5500057,
+        "name": "Полина Ученая",
+        "description": "Образ персонажа",
+        "imageName": "img_5500057.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 681,
+        "modelId": 5500058,
+        "name": "Анна Нокс",
+        "description": "Образ персонажа",
+        "imageName": "img_5500058.png",
+            "gender": 0,
+        "rarity": 3
+    },
+    {
+        "internalId": 682,
+        "modelId": 5500059,
+        "name": "Антиквар Фогг",
+        "description": "Образ персонажа",
+        "imageName": "img_5500059.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 683,
+        "modelId": 5500060,
+        "name": "Кроу",
+        "description": "Образ персонажа",
+        "imageName": "img_5500060.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 684,
+        "modelId": 5500046,
+        "name": "Образ Блогера",
+        "description": "Мужчина",
+        "imageName": "img_5500046.png",
+            "gender": 0,
+        "rarity": 5,
+            "cost": 20000000,
+        "tradeMaxPrice": 100000000
+    },
+    {
+        "internalId": 685,
+        "modelId": 5500047,
+        "name": "Образ Блогера",
+        "description": "Девушка",
+        "imageName": "img_5500047.png",
+            "gender": 0,
+        "rarity": 5,
+            "cost": 20000000,
+        "tradeMaxPrice": 100000000
+    },
+    {
+        "internalId": 686,
+        "modelId": 5500055,
+        "name": "Дух Ванко",
+        "description": "Образ персонажа",
+            "gender": 0,
+        "rarity": 5
+    },
+    {
+        "internalId": 687,
+        "modelId": 5500061,
+        "name": "Майор Гром",
+        "description": "Образ персонажа",
+        "imageName": "img_5500061.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 688,
+        "modelId": 5500062,
+        "name": "Грабитель в маске",
+        "description": "Образ персонажа",
+        "imageName": "img_5500062.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 689,
+        "modelId": 5500063,
+        "name": "Олег Рубцов",
+        "description": "Образ персонажа",
+        "imageName": "img_5500063.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 690,
+        "modelId": 5500064,
+        "name": "Ярослав Зимин",
+        "description": "Образ персонажа",
+        "imageName": "img_5500064.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 691,
+        "modelId": 5500065,
+        "name": "Бабушка Серафима",
+        "description": "Образ персонажа",
+        "imageName": "img_5500065.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 692,
+        "modelId": 5500066,
+        "name": "Шторм Атлетичный",
+        "description": "Образ персонажа",
+        "imageName": "img_5500066.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 693,
+        "modelId": 5500067,
+        "name": "Вязаная Мечта",
+        "description": "Образ персонажа",
+        "imageName": "img_5500067.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 694,
+        "modelId": 5500068,
+        "name": "Снежана",
+        "description": "Образ персонажа",
+        "imageName": "img_5500068.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 695,
+        "modelId": 5500069,
+        "name": "Полярник Клаус",
+        "description": "Образ персонажа",
+        "imageName": "img_5500069.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 696,
+        "modelId": 5500070,
+        "name": "Алина Зимина",
+        "description": "Образ персонажа",
+        "imageName": "img_5500070.png",
+            "gender": 0,
+        "rarity": 3
+    },
+    {
+        "internalId": 697,
+        "modelId": 5500071,
+        "name": "Тима Зимин",
+        "description": "Образ персонажа",
+        "imageName": "img_5500071.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 698,
+        "modelId": 5500072,
+        "name": "Виктор Гонщик",
+        "description": "Образ персонажа",
+        "imageName": "img_5500072.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 699,
+        "modelId": 5500073,
+        "name": "Руслан Джерси",
+        "description": "Образ персонажа",
+        "imageName": "img_5500073.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 700,
+        "modelId": 5500074,
+        "name": "Зимняя Луна",
+        "description": "Образ персонажа",
+        "imageName": "img_5500074.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 701,
+        "modelId": 5500075,
+        "name": "Борик",
+        "description": "Образ персонажа",
+        "imageName": "img_5500075.png",
+            "gender": 0,
+        "rarity": 3,
+            "cost": 1500000,
+        "tradeMaxPrice": 7500000
+    },
+    {
+        "internalId": 702,
+        "modelId": 5500076,
+        "name": "Медсестра Алина",
+        "description": "Образ персонажа",
+            "gender": 0,
+        "rarity": 5
+    },
+    {
+        "internalId": 703,
+        "modelId": 5500083,
+        "name": "Косплей Майора",
+        "description": "Образ персонажа",
+        "imageName": "img_5500083.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 704,
+        "modelId": 5500085,
+        "name": "Стасян",
+        "description": "Образ персонажа",
+        "imageName": "img_5500085.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 705,
+        "modelId": 5500078,
+        "name": "Соня",
+        "description": "Образ персонажа",
+        "imageName": "img_5500078.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 706,
+        "modelId": 5500086,
+        "name": "Артем Кинг",
+        "description": "Образ персонажа",
+        "imageName": "img_5500086.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 707,
+        "modelId": 5500087,
+        "name": "Юный Простак",
+        "description": "Образ персонажа",
+        "imageName": "img_5500087.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 708,
+        "modelId": 5500081,
+        "name": "Артур Игоревич",
+        "description": "Образ персонажа",
+        "imageName": "img_5500081.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 709,
+        "modelId": 5500082,
+        "name": "Рино",
+        "description": "Образ персонажа",
+        "imageName": "img_5500082.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 710,
+        "modelId": 5500089,
+        "name": "Палыч",
+            "description": "Мастер смены",
+            "gender": 0
+    },
+    {
+        "internalId": 711,
+        "modelId": 5500091,
+        "name": "Портовый рабочий",
+            "description": "Мужчина",
+            "gender": 0
+    },
+    {
+        "internalId": 712,
+        "modelId": 5500090,
+        "name": "Портовый рабочий",
+            "description": "Девушка",
+            "gender": 0
+    },
+    {
+        "internalId": 713,
+        "modelId": 5500094,
+        "name": "Тома",
+            "description": "Администратор ПВЗ",
+            "gender": 0
+    },
+    {
+        "internalId": 714,
+        "modelId": 5500093,
+        "name": "Доставщик ПВЗ",
+            "description": "Мужчина",
+            "gender": 0
+    },
+    {
+        "internalId": 715,
+        "modelId": 5500092,
+        "name": "Доставщик ПВЗ",
+            "description": "Девушка",
+            "gender": 0
+    },
+    {
+        "internalId": 716,
+        "modelId": 5500088,
+        "name": "Охранник порта",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+        "internalId": 717,
+        "modelId": 5500095,
+        "name": "Агата Хакер",
+        "description": "Образ персонажа",
+        "imageName": "img_5500095.png",
+            "gender": 1,
+        "rarity": 4
+    },
+    {
+        "internalId": 718,
+        "modelId": 5500096,
+        "name": "Даня Ездок",
+        "description": "Образ персонажа",
+        "imageName": "img_5500096.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 719,
+        "modelId": 5500097,
+        "name": "Дед Максим",
+        "description": "Образ персонажа",
+        "imageName": "img_5500097.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 720,
+        "modelId": 5500098,
+        "name": "Кирилл Авто-Мастер",
+        "description": "Образ персонажа",
+        "imageName": "img_5500098.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 721,
+        "modelId": 5500099,
+        "name": "Анна Организатор",
+        "description": "Образ персонажа",
+        "imageName": "img_5500099.png",
+            "gender": 1,
+        "rarity": 4
+    },
+    {
+        "internalId": 722,
+        "modelId": 5500100,
+        "name": "Ночная Орхидея",
+        "description": "Образ персонажа",
+        "imageName": "img_5500100.png",
+            "gender": 1,
+        "rarity": 3
+    },
+    {
+        "internalId": 723,
+        "modelId": 5500101,
+        "name": "Городской Хищник",
+        "description": "Образ персонажа",
+        "imageName": "img_5500101.png",
+            "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 724,
+        "modelId": 5500102,
+        "name": "Доминик",
+        "description": "Образ персонажа",
+        "imageName": "img_5500102.png",
+            "gender": 0,
+        "rarity": 4
+        },
+        {
+            "internalId": 725,
+            "modelId": 74,
+            "name": "Одежда 74",
+            "description": "Образ персонажа",
+            "gender": 0
+    },
+    {
+        "internalId": 726,
+        "modelId": 5500103,
+        "name": "Главный Герой",
+        "description": "Мужчина",
+        "imageName": "img_5500103.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 727,
+        "modelId": 5500109,
+        "name": "Главный Герой",
+        "description": "Девушка",
+        "imageName": "img_5500109.png",
+        "gender": 1,
+        "rarity": 4
+    },
+    {
+        "internalId": 728,
+        "modelId": 5500104,
+        "name": "Следователь Седов",
+        "description": "Образ персонажа",
+        "imageName": "img_5500104.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 729,
+        "modelId": 5500105,
+        "name": "Вышибала Снэйк",
+        "description": "Образ персонажа",
+        "imageName": "img_5500105.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 730,
+        "modelId": 5500106,
+        "name": "Наемница Бритва ",
+        "description": "Образ персонажа",
+        "imageName": "img_5500106.png",
+        "gender": 1,
+        "rarity": 4
+    },
+    {
+        "internalId": 731,
+        "modelId": 5500107,
+        "name": "Маша Оперативница",
+        "description": "Образ персонажа",
+        "imageName": "img_5500107.png",
+        "gender": 1,
+        "rarity": 4
+    },
+    {
+        "internalId": 732,
+        "modelId": 5500108,
+        "name": "Таинственный Незнакомец",
+        "description": "Образ персонажа",
+        "imageName": "img_5500108.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 733,
+        "modelId": 5500110,
+        "name": "Жека Курортник",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500110.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 734,
+        "modelId": 5500111,
+        "name": "Пикси-бриз",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500111.png",
+        "gender": 1,
+        "rarity": 4
+    },
+    {
+        "internalId": 735,
+        "modelId": 5500112,
+        "name": "Бдительный Спасатель ",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500112.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 736,
+        "modelId": 5500113,
+        "name": "Дед Максим Пляжный",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500113.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 737,
+        "modelId": 5500114,
+        "name": "Глубоководный Дайвер",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500114.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 738,
+        "modelId": 5500115,
+        "name": "Пляжный заводила",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500115.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 739,
+        "modelId": 5500116,
+        "name": "Солнечная тусовщица",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500116.png",
+        "gender": 1,
+        "rarity": 3
+    },
+    {
+        "internalId": 740,
+        "modelId": 5500117,
+        "name": "Летняя милаха",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500117.png",
+        "gender": 1,
+        "rarity": 4
+    },
+    {
+        "internalId": 741,
+        "modelId": 5500118,
+        "name": "Азамат Весельчак",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500118.png",
+        "gender": 0,
+        "rarity": 3
+    },
+    {
+        "internalId": 742,
+        "modelId": 5500123,
+        "name": "Скин Невидимка",
+        "description": "Образ персонажа",
+        "imageName": "",
+        "gender": 0,
+        "rarity": 1
+    },
+    {
+        "internalId": 743,
+        "modelId": 5500119,
+        "name": "Кадрол",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500119.png",
+        "gender": 0,
+        "rarity": 3,
+        "cost": 1900000,
+        "tradeMaxPrice": 7500000
+    },
+    {
+        "internalId": 744,
+        "modelId": 5500120,
+        "name": "Фатич",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500120.png",
+        "gender": 0,
+        "rarity": 3,
+        "cost": 1900000,
+        "tradeMaxPrice": 7500000
+    },
+    {
+        "internalId": 745,
+        "modelId": 5500121,
+        "name": "Образ Хелпера",
+        "description": "Мужчина",
+        "imageName": "sk_5500121.png",
+        "gender": 0,
+        "rarity": 5,
+        "cost": 20000000,
+        "tradeMaxPrice": 100000000
+    },
+    {
+        "internalId": 746,
+        "modelId": 5500122,
+        "name": "Образ Хелпера",
+        "description": "Девушка",
+        "imageName": "sk_5500122.png",
+        "gender": 0,
+        "rarity": 5,
+        "cost": 20000000,
+        "tradeMaxPrice": 100000000
+    },
+    {
+        "internalId": 747,
+        "modelId": 5500124,
+        "name": "Юный чемпион",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500124.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 748,
+        "modelId": 5500125,
+        "name": "Футбольная болельщица",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500125.png",
+        "gender": 1,
+        "rarity": 4
+    },
+    {
+        "internalId": 749,
+        "modelId": 5500126,
+        "name": "Продвинутый герой",
+        "description": "Мужчина",
+        "imageName": "sk_5500126.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 750,
+        "modelId": 5500127,
+        "name": "Продвинутый герой",
+        "description": "Девушка",
+        "imageName": "sk_5500127.png",
+        "gender": 1,
+        "rarity": 4
+    },
+    {
+        "internalId": 751,
+        "modelId": 5500128,
+        "name": "Владелица клуба Варя",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500128.png",
+        "gender": 1,
+        "rarity": 4
+    },
+    {
+        "internalId": 752,
+        "modelId": 5500129,
+        "name": "Ночной тусовщик",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500129.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 753,
+        "modelId": 5500130,
+        "name": "Мистер Эпатаж",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500130.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 754,
+        "modelId": 5500131,
+        "name": "Свидетель из Бусаево",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500131.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 755,
+        "modelId": 5500132,
+        "name": "Жанна Аркадьевна",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500132.png",
+        "gender": 1,
+        "rarity": 4
+    },
+    {
+        "internalId": 756,
+        "modelId": 5500133,
+        "name": "Суровый Джентльмен",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500133.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 757,
+        "modelId": 5500134,
+        "name": "Кулибин",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500134.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 758,
+        "modelId": 5500135,
+        "name": "Робогозин",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500135.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 759,
+        "modelId": 5500137,
+        "name": "Опытный Игрок",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500137.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 760,
+        "modelId": 5500138,
+        "name": "Марианна Берг",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500138.png",
+        "gender": 1,
+        "rarity": 4
+    },
+    {
+        "internalId": 761,
+        "modelId": 5500139,
+        "name": "Верзила Кувалда",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500139.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 762,
+        "modelId": 5500140,
+        "name": "Дворовски",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500140.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 763,
+        "modelId": 5500141,
+        "name": "Пестрая Хайроллерша",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500141.png",
+        "gender": 1,
+        "rarity": 4
+    },
+    {
+        "internalId": 764,
+        "modelId": 5500142,
+        "name": "Хозяин Удачи",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500142.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 765,
+        "modelId": 5500143,
+        "name": "Алексей Лютов",
+        "description": "Туз",
+        "imageName": "sk_5500143.png",
+        "gender": 0,
+        "rarity": 4
+    },
+    {
+        "internalId": 766,
+        "modelId": 5500144,
+        "name": "Ева Краснова",
+        "description": "Образ персонажа",
+        "imageName": "sk_5500144.png",
+        "gender": 1,
+        "rarity": 4
+    },
+    {
+        "internalId": 767,
+        "modelId": 5500145,
+        "name": "Александр Лютов",
+        "description": "Козырь",
+        "imageName": "sk_5500145.png",
+        "gender": 0,
+        "rarity": 4
+    }
+  ]
+}

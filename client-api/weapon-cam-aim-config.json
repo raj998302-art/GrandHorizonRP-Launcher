@@ -1,0 +1,47 @@
+﻿[
+    {
+        "id": "default",
+        "isSniperAim": false,
+        "canZoomIfSniperMode": false,
+        "defaultFOV1stPerson": 100,
+        "defaultFOV3rdPerson": 67,
+        "targetOffsetZ3rdPerson": 0.52,
+        "entityOffsetX3rdPerson": 0.2
+    },
+    {
+        "id": "assaultRifle",
+        "isSniperAim": false,
+        "canZoomIfSniperMode": false,
+        "defaultFOV1stPerson": 85,
+        "defaultFOV3rdPerson": 52,
+        "targetOffsetZ3rdPerson": 0.56,
+        "entityOffsetX3rdPerson": 0.25
+    },
+    {
+        "id": "contryRifle",
+        "isSniperAim": false,
+        "canZoomIfSniperMode": false,
+        "defaultFOV1stPerson": 65,
+        "defaultFOV3rdPerson": 32,
+        "targetOffsetZ3rdPerson": 0.6,
+        "entityOffsetX3rdPerson": 0.3
+    },
+    {
+        "id": "sniper",
+        "isSniperAim": true,
+        "canZoomIfSniperMode": true,
+        "defaultFOV1stPerson": 100,
+        "defaultFOV3rdPerson": 70,
+        "targetOffsetZ3rdPerson": 0.0,
+        "entityOffsetX3rdPerson": 0.0
+    },
+    {
+        "id": "rocketLauncher",
+        "isSniperAim": true,
+        "canZoomIfSniperMode": false,
+        "defaultFOV1stPerson": 100,
+        "defaultFOV3rdPerson": 70,
+        "targetOffsetZ3rdPerson": 0.0,
+        "entityOffsetX3rdPerson": 0.0
+    }
+]

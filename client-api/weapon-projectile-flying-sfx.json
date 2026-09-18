@@ -1,0 +1,9 @@
+﻿[
+    {
+        "id": "rocket",
+		"bankIndex": 0,
+		"sampleIndex": 61,
+        "priority": 3,
+        "maxDistance": 90
+    }
+]

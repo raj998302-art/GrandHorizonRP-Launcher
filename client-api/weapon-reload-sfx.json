@@ -1,0 +1,38 @@
+﻿[
+    {
+        "id": "pistol",
+        "sampleIndex": 31
+    },
+    {
+        "id": "pistol_cyberfarm",
+        "sampleIndex": 62
+    },
+    {
+        "id": "ak47",
+        "sampleIndex": 31
+    },
+    {
+        "id": "m67",
+        "sampleIndex": 57
+    },
+	{
+        "id": "waterblaster",
+        "sampleIndex": 34
+    },
+    {
+        "id": "shotgun",
+        "sampleIndex": 32
+    },
+    {
+        "id": "rlauncher",
+        "sampleIndex": 94
+    },
+    {
+        "id": "rifle",
+        "sampleIndex": 32
+    },
+    {
+        "id": "sniper",
+        "sampleIndex": 51
+    }
+]

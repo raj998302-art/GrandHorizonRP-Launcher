@@ -1,0 +1,434 @@
+﻿[
+  {
+    "id": 0,
+    "nameVinyl": "remapbody8"
+  },
+  {
+    "id": 1,
+    "nameVinyl": "remapbody5"
+  },
+  {
+    "id": 2,
+    "nameVinyl": "remapbody32"
+  },
+  {
+    "id": 3,
+    "nameVinyl": "remapbody40"
+  },
+  {
+    "id": 4,
+    "nameVinyl": "remapbody21"
+  },
+  {
+    "id": 5,
+    "nameVinyl": "remapbody29"
+  },
+  {
+    "id": 6,
+    "nameVinyl": "remapbody41"
+  },
+  {
+    "id": 7,
+    "nameVinyl": "remapbody6"
+  },
+  {
+    "id": 8,
+    "nameVinyl": "remapbody31"
+  },
+  {
+    "id": 9,
+    "nameVinyl": "remapbody19"
+  },
+  {
+    "id": 10,
+    "nameVinyl": "remapbody28"
+  },
+  {
+    "id": 11,
+    "nameVinyl": "remapbody30"
+  },
+  {
+    "id": 12,
+    "nameVinyl": "remapbody11"
+  },
+  {
+    "id": 13,
+    "nameVinyl": "remapbody12"
+  },
+  {
+    "id": 14,
+    "nameVinyl": "remapbody15"
+  },
+  {
+    "id": 15,
+    "nameVinyl": "remapbody26"
+  },
+  {
+    "id": 16,
+    "nameVinyl": "remapbody16"
+  },
+  {
+    "id": 17,
+    "nameVinyl": "remapbody13"
+  },
+  {
+    "id": 18,
+    "nameVinyl": "remapbody18"
+  },
+  {
+    "id": 19,
+    "nameVinyl": "remapbody35"
+  },
+  {
+    "id": 20,
+    "nameVinyl": "remapbody10"
+  },
+  {
+    "id": 21,
+    "nameVinyl": "remapbody17"
+  },
+  {
+    "id": 22,
+    "nameVinyl": "remapbody38"
+  },
+  {
+    "id": 23,
+    "nameVinyl": "remapbody2"
+  },
+  {
+    "id": 24,
+    "nameVinyl": "remapbody23"
+  },
+  {
+    "id": 25,
+    "nameVinyl": "remapbody36"
+  },
+  {
+    "id": 26,
+    "nameVinyl": "remapbody4"
+  },
+  {
+    "id": 27,
+    "nameVinyl": "remapbody14"
+  },
+  {
+    "id": 28,
+    "nameVinyl": "remapbody37"
+  },
+  {
+    "id": 29,
+    "nameVinyl": "remapbody20"
+  },
+  {
+    "id": 30,
+    "nameVinyl": "remapbody7"
+  },
+  {
+    "id": 31,
+    "nameVinyl": "remapbody25"
+  },
+  {
+    "id": 32,
+    "nameVinyl": "remapbody39"
+  },
+  {
+    "id": 33,
+    "nameVinyl": "remapbody1"
+  },
+  {
+    "id": 34,
+    "nameVinyl": "remapbody33"
+  },
+  {
+    "id": 35,
+    "nameVinyl": "remapbody9"
+  },
+  {
+    "id": 36,
+    "nameVinyl": "remapbody22"
+  },
+  {
+    "id": 37,
+    "nameVinyl": "remapbody24"
+  },
+  {
+    "id": 38,
+    "nameVinyl": "remapbody34"
+  },
+  {
+    "id": 39,
+    "nameVinyl": "remapbody42"
+  },
+  {
+    "id": 40,
+    "nameVinyl": "remapbody47"
+  },
+  {
+    "id": 41,
+    "nameVinyl": "remapbody48"
+  },
+  {
+    "id": 42,
+    "nameVinyl": "remapbody43"
+  },
+  {
+    "id": 43,
+    "nameVinyl": "remapbody44"
+  },
+  {
+    "id": 44,
+    "nameVinyl": "remapbody49"
+  },
+  {
+    "id": 45,
+    "nameVinyl": "remapbody51"
+  },
+  {
+    "id": 46,
+    "nameVinyl": "remapbody45"
+  },
+  {
+    "id": 47,
+    "nameVinyl": "remapbody46"
+  },
+  {
+    "id": 48,
+    "nameVinyl": "remaphbody1"
+  },
+  {
+    "id": 49,
+    "nameVinyl": "remaphbody2"
+  },
+  {
+    "id": 50,
+    "nameVinyl": "remaphbody3"
+  },
+  {
+    "id": 51,
+    "nameVinyl": "remaphbody4"
+  },
+  {
+    "id": 52,
+    "nameVinyl": "remaphbody5"
+  },
+  {
+    "id": 53,
+    "nameVinyl": "remaphbody6"
+  },
+  {
+    "id": 54,
+    "nameVinyl": "remaphbody7"
+  },
+  {
+    "id": 55,
+    "nameVinyl": "remaphbody8"
+  },
+  {
+    "id": 56,
+    "nameVinyl": "remaphbody9"
+  },
+  {
+    "id": 57,
+    "nameVinyl": "remaphbody10"
+  },
+  {
+    "id": 58,
+    "nameVinyl": "remaphbody11"
+  },
+  {
+    "id": 59,
+    "nameVinyl": "remapnbody1"
+  },
+  {
+    "id": 60,
+    "nameVinyl": "remapnbody2"
+  },
+  {
+    "id": 61,
+    "nameVinyl": "remapnbody3"
+  },
+  {
+    "id": 62,
+    "nameVinyl": "remapnbody4"
+  },
+  {
+    "id": 63,
+    "nameVinyl": "remapnbody5"
+  },
+  {
+    "id": 64,
+    "nameVinyl": "remapnbody6"
+  },
+  {
+    "id": 65,
+    "nameVinyl": "remapnbody7"
+  },
+  {
+    "id": 66,
+    "nameVinyl": "remapnbody8"
+  },
+  {
+    "id": 67,
+    "nameVinyl": "remapnbody9"
+  },
+  {
+    "id": 68,
+    "nameVinyl": "remapnbody10"
+  },
+  {
+    "id": 69,
+    "nameVinyl": "remapnbody11"
+  },
+  {
+    "id": 70,
+    "nameVinyl": "remapnbody12"
+  },
+  {
+    "id": 71,
+    "nameVinyl": "remapnbody13"
+  },
+  {
+    "id": 72,
+    "nameVinyl": "remapnbody14"
+  },
+  {
+    "id": 73,
+    "nameVinyl": "remapnbody15"
+  },
+  {
+    "id": 74,
+    "nameVinyl": "remapnbody16"
+  },
+  {
+    "id": 75,
+    "nameVinyl": "remapnbody17"
+  },
+  {
+    "id": 76,
+    "nameVinyl": "remapmbody1"
+  },
+  {
+    "id": 77,
+    "nameVinyl": "remapmbody2"
+  },
+  {
+    "id": 78,
+    "nameVinyl": "remapmbody3"
+  },
+  {
+    "id": 79,
+    "nameVinyl": "remapmbody4"
+  },
+  {
+    "id": 80,
+    "nameVinyl": "remapmbody5"
+  },
+  {
+    "id": 81,
+    "nameVinyl": "remapmbody6"
+  },
+  {
+    "id": 82,
+    "nameVinyl": "remapmbody7"
+  },
+  {
+    "id": 83,
+    "nameVinyl": "remapmbody8"
+  },
+  {
+    "id": 84,
+    "nameVinyl": "remapmbody9"
+  },
+  {
+    "id": 85,
+    "nameVinyl": "remapmbody10"
+  },
+  {
+    "id": 86,
+    "nameVinyl": "remapmbody11"
+  },
+  {
+    "id": 87,
+    "nameVinyl": "remapmbody12"
+  },
+  {
+    "id": 88,
+    "nameVinyl": "remapmbody13"
+  },
+  {
+    "id": 89,
+    "nameVinyl": "remapmbody14"
+  },
+  {
+    "id": 90,
+    "nameVinyl": "remapmbody15"
+  },
+  {
+    "id": 91,
+    "nameVinyl": "remapmbody16"
+  },
+  {
+    "id": 92,
+    "nameVinyl": "remapmbody17"
+  },
+  {
+    "id": 110,
+    "nameVinyl": "remapnbody18"
+  },
+  {
+    "id": 111,
+    "nameVinyl": "remapnbody19"
+  },
+  {
+    "id": 112,
+    "nameVinyl": "remapnbody20"
+  },
+  {
+    "id": 113,
+    "nameVinyl": "remapnbody21"
+  },
+  {
+    "id": 114,
+    "nameVinyl": "remapnbody22"
+  },
+  {
+    "id": 115,
+    "nameVinyl": "remapnbody23"
+  },
+  {
+    "id": 116,
+    "nameVinyl": "remapnbody24"
+  },
+  {
+    "id": 117,
+    "nameVinyl": "remapnbody25"
+  },
+  {
+    "id": 118,
+    "nameVinyl": "remapnbody26"
+  },
+  {
+    "id": 119,
+    "nameVinyl": "remapnbody27"
+  },
+  {
+    "id": 277,
+    "nameVinyl": "remapstobody0"
+  },
+  {
+    "id": 278,
+    "nameVinyl": "remapstobody1"
+  },
+  {
+    "id": 279,
+    "nameVinyl": "remapstobody2"
+  },
+  {
+    "id": 280,
+    "nameVinyl": "remapstobody3"
+  },
+  {
+    "id": 281,
+    "nameVinyl": "remapstobody4"
+  }
+]

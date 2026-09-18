@@ -1,0 +1,59 @@
+﻿{
+  "categoriesFilters": [
+    {
+      "categoryFilterId": 1,
+      "categoryFilterName": "Категория",
+      "filters": [
+        {
+          "color": "#FDFDFD",
+          "filterId": 6,
+          "filterName": "Ресурсы",
+          "iconCDN": "ic_gear.svg"
+        },
+        {
+          "color": "#FDFDFD",
+          "filterId": 7,
+          "filterName": "Аксессуары",
+          "iconCDN": "ic_acces.svg"
+        },
+        {
+          "color": "#FDFDFD",
+          "filterId": 8,
+          "filterName": "Одежда",
+          "iconCDN": "ic_clothes.svg"
+        }
+      ]
+    },
+    {
+      "categoryFilterId": 2,
+      "categoryFilterName": "Редкость",
+      "filters": [
+        {
+          "color": "#FDFDFD",
+          "filterId": 1,
+          "filterName": "Обычные"
+        },
+        {
+          "color": "#12DD00",
+          "filterId": 2,
+          "filterName": "Необычные"
+        },
+        {
+          "color": "#3EA2FF",
+          "filterId": 3,
+          "filterName": "Редкие"
+        },
+        {
+          "color": "#C173FE",
+          "filterId": 4,
+          "filterName": "Эпические"
+        },
+        {
+          "color": "#FFCC00",
+          "filterId": 5,
+          "filterName": "Легендарные"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+    "awardsWinners": [
+        {"id": 1, "awardId":  2, "rarity": 4, "internalId": 0, "count": 10000},
+        {"id": 2, "awardId": 23, "rarity": 4, "internalId": 0, "count":  1000}
+    ],
+    "awardsLosers" : [
+        {"id": 1, "awardId":  2, "rarity": 4, "internalId": 0, "count": 5000},
+        {"id": 2, "awardId": 23, "rarity": 4, "internalId": 0, "count":  500}
+    ],
+    "awardsDraw"   : [
+        {"id": 1, "awardId":  2, "rarity": 4, "internalId": 0, "count": 7000},
+        {"id": 2, "awardId": 23, "rarity": 4, "internalId": 0, "count":  700}
+    ]
+}

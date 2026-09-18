@@ -1,0 +1,1070 @@
+﻿{
+    "music"          : {
+        "hubMusic": {
+            "music" : "Event/CasinoHubMusic.ogg",
+            "coords": [-89.56, 813.05, 15.28, 55.0]
+        },
+        "uiMusic" : "Event/CasinoMainScreen.ogg"
+    },
+    "gps"            : {
+        "gpsBtnText"  : "Событие Большой куш",
+        "gpsBtnCoords": [-88.09, 809.56, 15.27]
+    },
+    "greenZone"      : {
+        "isEnable": true,
+        "coords"  : [-89.56, 813.05, 15.28, 55.0]
+    },
+    "offloadZone"    : {
+        "isEnable": true,
+        "coords"  : [
+            [-146.47, 762.16, -40.69, 851.22]
+        ]
+    },
+    "noCollisionZone": {
+        "isEnable": true,
+        "coords"  : [
+            [-146.47, 762.16, -40.69, 851.22]
+        ]
+    },
+    "hubAutoCoords"  : [
+        {
+            "id": 28783,
+            "vinyl": "",
+            "color": [51, 6],
+            "bodykit": [2635, 2636, 2637, 2638, 2639, 2640, 2641, 2642, 2643],
+            "coords": [-103.72, 820.95, 14.40, 0.00, 0.00, -107.27],
+            "collisionObjectModelId": 43053,
+            "collisionObjectPosition": [-88.767044, 816.492188, 12.668307, 0.0, 0.0, 1.0]
+        },
+        {
+            "id"     : 28784,
+            "vinyl"  : "",
+            "color"  : [55, 25],
+            "bodykit": [2713, 2714, 2715, 2716, 2717, 2718, 2719, 2720, 2721, 2722, 2723, 2724, 2725, 2726],
+            "coords" : [-75.30, 811.43, 14.36, -0.00, 0.00, -65.29]
+        },
+        {
+            "id"     : 28785,
+            "vinyl"  : "remapttbody116",
+            "color"  : ["#1D1D1D", 36],
+            "bodykit": [2657, 2659, 2660, 2663],
+            "coords" : [-70.59, 809.21, 14.25, 0.00, 0.00, -61.68]
+        }
+    ],
+    "npcSpawn"       : {
+        "id"          : 5500141,
+        "type"        : "npc",
+        "coords"      : [
+            [ 2748.6140, -2436.9204, 21.7810,  92.0206],
+            [  824.2478,   779.9888, 13.1397, 248.2005],
+            [-2416.5244,   189.2349, 26.0951,   0.5719],
+            [ 1814.8448,  2504.2150, 14.6258,  75.4750],
+            [-2681.907 ,  1997.013 ,  9.94  , 341.278 ],
+            [-2153.484 ,  1575.377 ,  9.84  , 355.110 ]
+        ],
+        "noCollision" : {"isEnabled": true, "radius": 30},
+        "name"        : "{FFFF00}Большой куш\n{FFFFFF}Подойди для {FFFF00}взаимодействия",
+        "useNameCords": "false",
+        "cameraPos"   : {
+            "StartPos"   : [-61.16, 848.14, 19.19],
+            "StartLookAt": [-92.01, 810.66, 21.74]
+        },
+        "dialog"      : [
+            {
+                "id": 1,
+                "title": "Хайроллерша",
+                "description": "Хей! Тебя это точно заинтересует! Мегакрутая вечеринка в Кристалле! Приглашаются только лучшие из лучших. Вот, возьми флаер!<br><br><font color='#ffff00'>Прими участие в событии Большой Куш — собирай Фишки, играй в мини-игры, проходи ленту события. До %s</font>",
+                "speaker": {"type": "npc", "skin": 5500141},
+                "sound": "Event/pestraya_info-001.ogg",
+                "buttons": [
+                    {"name": "Отметить на карте", "color": "green"},
+                    {"name": "Закрыть",           "color": "red"  }
+                ],
+                "is_last": true
+            }
+        ]
+    },
+    "npcMinigame1"   : {
+        "isEnabled"   : true,
+        "id"          : 5500053,
+        "type"        : "npc",
+        "coords"      : [-58.92, 830.81, 15.19, 39.0],
+        "name"        : "Мини-игра - {FFFF00}Великое ограбление\n{FFFFFF}Подойдите для {FFFF00}взаимодействия",
+        "useNameCords": "false",
+        "cameraPos"   : {
+            "StartPos"   : [-57.46, 834.66, 16.0 ],
+            "StartLookAt": [-59.44, 831.4 , 15.19]
+        },
+        "noCollision" : {"isEnabled": false, "radius": 30},
+        "dialog"      : [
+            {
+                "id": 1,
+                "title": "Лев",
+                "description": "Эй, говорят, ты человек надежный и неболтливый?.. А мы тут с ребятами как раз планируем кое-что грандиозное. Для нового казино уже приготовлены большие деньги, и мы знаем, где они хранятся. Смекаешь? Вот только система защиты у них мудреная, да и не только нас этот куш интересует… Если поможешь — доля твоя!",
+                "speaker": {"type": "npc", "skin": 5500053},
+                "sound": "Event/lev_info-001.ogg",
+                "buttons": [
+                    {"name": "Начать игру", "color": "green"},
+                    {"name": "Правила",     "color": "grey" },
+                    {"name": "Закрыть",     "color": "red"  }
+                ],
+                "is_last": true
+            }
+        ]
+    },
+    "npcMinigame2"   : {
+        "isEnabled"   : true,
+        "id"          : 5500102,
+        "type"        : "npc",
+        "coords"      : [-104.1, 849.89, 15.19, 235.0],
+        "name"        : "Мини-игра - {FFFF00}Гонка Колосс\n{FFFFFF}Подойдите для {FFFF00}взаимодействия",
+        "useNameCords": "false",
+        "cameraPos"   : {
+            "StartPos"   : [-102.98, 845.9 , 16.0 ],
+            "StartLookAt": [-103.08, 849.59, 15.19]
+        },
+        "noCollision" : {"isEnabled": false, "radius": 30},
+        "dialog"      : [
+            {
+                "id": 1,
+                "title": "Доминик",
+                "description": "Йоу, это твоя тачка у входа? Тут намечается гонка для избранных. Элита, все дела. Записывайся, не пожалеешь — только самые высокие ставки, играем по-крупному!",
+                "speaker": {"type": "npc", "skin": 5500102},
+                "sound": "Event/dominik_info-001.ogg",
+                "buttons": [
+                    {"name": "Начать игру", "color": "green"},
+                    {"name": "Правила",     "color": "grey" },
+                    {"name": "Закрыть",     "color": "red"  }
+                ],
+                "is_last": true
+            }
+        ]
+    },
+    "npcCasinoHub"   : {
+        "isEnabled"   : true,
+        "id"          : 5500138,
+        "type"        : "npc",
+        "coords"      : [-88.09, 809.56, 15.27, 344.15],
+        "name"        : "Мини-игры - {FFFF00}Фишки в казино\n{FFFFFF}Подойдите для {FFFF00}взаимодействия",
+        "useNameCords": "false",
+        "cameraPos"   : {
+            "StartPos"   : [-83.86, 809.83, 16.1 ],
+            "StartLookAt": [-87.85, 810.4 , 15.28]
+        },
+        "noCollision" : {"isEnabled": false, "radius": 30},
+        "dialog"      : [
+            {
+                "id": 1,
+                "title": "Марианна",
+                "description": "Эй, притормози! У меня есть отличная новость для тебя. Знаешь же старое казино на краю города? Там сейчас раздают Фишки в честь открытия Кристалла! На халяву! Тебе нужно только выиграть в любой активности. Это очень щедро, так что поспеши!\n\n<font color='#ffff00'>Заработано Фишек в казино сегодня: %s.\nЛимит сбрасывается в 5:00 МСК ежедневно.\nДля подробной информации см. Правила",
+                "speaker": {"type": "npc", "skin": 5500138},
+                "sound": "Event/marianna_info-001.ogg",
+                "buttons": [
+                    {"name": "Правила",           "color": "grey" },
+                    {"name": "Отметить на карте", "color": "green"},
+                    {"name": "Закрыть",           "color": "red"  }
+                ],
+                "is_last": true
+            },
+            {
+                "id": 2,
+                "title": "Марианна",
+                "description": "Ого, уже максимум фишек?! Красава! Кстати, они обнуляют счетчик каждый день — просто приходи завтра снова.\n\n<font color='#ffff00'>Заработано Фишек в казино сегодня: %s.\nЛимит сбрасывается в 5:00 МСК ежедневно.\nДля подробной информации см. Правила",
+                "speaker": {"type": "npc", "skin": 5500138},
+                "sound": "Event/marianna_info-002.ogg",
+                "buttons": [
+                    {"name": "Правила", "color": "grey"},
+                    {"name": "Закрыть", "color": "red" }
+                ],
+                "is_last": true
+            }
+        ]
+    },
+    "npcCasinoOld"   : {
+        "isEnabled"   : true,
+        "id"          : 5500138,
+        "type"        : "npc",
+        "coords"      : [1327.86, 2367.61, 17.71, 201.22],
+        "name"        : "Мини-игры - {FFFF00}Фишки в казино\n{FFFFFF}Подойдите для {FFFF00}взаимодействия",
+        "useNameCords": "false",
+        "cameraPos"   : {
+            "StartPos"   : [1323.55, 2364.87, 18.5 ],
+            "StartLookAt": [1328.18, 2366.57, 17.71]
+        },
+        "noCollision" : {"isEnabled": false, "radius": 30},
+        "dialog"      : [
+            {
+                "id": 1,
+                "title": "Марианна",
+                "description": "Привет-привет! Рада тебя видеть! Ты же уже в курсе, что сейчас в казино вместе с обычным выигрышем можно получить еще и Фишки?! Поспеши, это временная акция в честь открытия Кристалла!\n\n<font color='#ffff00'>Заработано Фишек в казино сегодня: %s.\nЛимит сбрасывается в 5:00 МСК ежедневно.\nДля подробной информации см. Правила",
+                "speaker": {"type": "npc", "skin": 5500138},
+                "sound": "Event/marianna_info-003.ogg",
+                "buttons": [
+                    {"name": "Правила", "color": "grey"},
+                    {"name": "Закрыть", "color": "red" }
+                ],
+                "is_last": true
+            },
+            {
+                "id": 2,
+                "title": "Марианна",
+                "description": "Ого, уже максимум фишек?! Красава! Кстати, они обнуляют счетчик каждый день — просто приходи завтра снова.\n\n<font color='#ffff00'>Заработано Фишек в казино сегодня: %s.\nЛимит сбрасывается в 5:00 МСК ежедневно.\nДля подробной информации см. Правила",
+                "speaker": {"type": "npc", "skin": 5500138},
+                "sound": "Event/marianna_info-002.ogg",
+                "buttons": [
+                    {"name": "Правила", "color": "grey"},
+                    {"name": "Закрыть", "color": "red" }
+                ],
+                "is_last": true
+            }
+        ]
+    },
+    "currencyText"   : {"currencyText1": "Большой куш", "currencyText2": "Фишки"},
+    "Properties"     : [
+        {
+            "eventId": 7,
+            "miniGamesId": [1, 2, 3],
+            "dates": [1780884000, 1791943200],
+            "questOpenDate": 1767837600,
+            "color": "#8D1212",
+            "color2": "#8D1212",
+            "name": "Большой куш",
+            "bgImage": "bg_event.png",
+            "icMenuImage": "ic_menu_event.png",
+            "icImage": "ic_event.png",
+            "bpOfferImage": "img_bpofferimage.png",
+            "bpMultiplier": 2,
+            "bpLimit": 2000,
+            "lastChanceImage": "img_lvlofferimage.png",
+            "offerImage": "img_offerimage.png",
+            "offerCost": 239,
+            "offerValue": 1000,
+            "eventCurrencyId": 23,
+            "eventCurrencyOfferName": "Фишек",
+            "eventMainObjectName": "Мастерство игры",
+            "entryStartPos": [-1569.56, 1112.02, 1.78],
+            "entryStartLookAt": [-1604.15, 1072.7, 1.45]
+        }
+    ],
+    "Settings"       : [
+        {
+            "id"          : 1,
+            "name"        : "БОЛЬШОЙ КУШ",
+            "icImage"     : "ic_event.svg",
+            "objectGrades": [0, 25, 49],
+            "objectImages": ["img_event_grade_1.png", "img_event_grade_2.png", "img_event_grade_3.png"]
+        },
+        {
+            "id"          : 2,
+            "name"        : "ЗАДАНИЯ",
+            "icImage"     : "ic_checklist.svg",
+            "objectImages": ["img_daily_tasks.png", "img_unique_tasks.png"]
+        },
+        {
+            "id"          : 3,
+            "name"        : "РЕЙТИНГ",
+            "icImage"     : "ic_reward.svg",
+            "objectImages": ["bg_rating_event.png"]
+        },
+        {
+            "id"          : 4,
+            "name"        : "МИНИ ИГРЫ",
+            "icImage"     : "ic_game.svg",
+            "objectImages": ["img_minigame_1.png", "img_minigame_2.png", "img_minigame_3.png"]
+        }
+    ],
+    "EventLevel"     : [
+    {
+        "id": 1,
+        "cost": 1000,
+        "name": "5 BC",
+        "description": "5 BC",
+        "rarity": 1,
+        "typeId": 3,
+        "internalId": 0,
+        "count": 5
+    },
+    {
+        "id": 2,
+        "cost": 1000,
+        "name": "1000 BP EXP",
+        "description": "1000 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 1000
+    },
+    {
+        "id": 3,
+        "cost": 2000,
+        "name": "X10 ПЫЛЬ",
+        "description": "X10 ПЫЛЬ",
+        "rarity": 1,
+        "typeId": 21,
+        "internalId": 0,
+        "count": 10
+    },
+    {
+        "id": 4,
+        "cost": 2000,
+        "name": "10 000 Р",
+        "description": "10 000 Р",
+        "rarity": 2,
+        "typeId": 2,
+        "internalId": 0,
+        "count": 10000
+    },
+    {
+        "id": 5,
+        "cost": 2000,
+        "name": "ЕЖЕДНЕВНЫЙ",
+        "description": "ЕЖЕДНЕВНЫЙ КЕЙС X1",
+        "rarity": 1,
+        "typeId": 4,
+        "internalId": 1,
+        "count": 1
+    },
+    {
+        "id": 6,
+        "cost": 3000,
+        "name": "2000 BP EXP",
+        "description": "2000 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 2000
+    },
+    {
+        "id": 7,
+        "cost": 3000,
+        "name": "КЕЙС ГОНЩИКА",
+        "description": "КЕЙС С БИЛЕТАМИ ГОНЩИКА",
+        "rarity": 3,
+        "typeId": 4,
+        "internalId": 26,
+        "count": 1,
+        "typeReward": 1
+    },
+    {
+        "id": 8,
+        "cost": 3000,
+        "name": "5 BC",
+        "description": "5 BC",
+        "rarity": 2,
+        "typeId": 3,
+        "internalId": 0,
+        "count": 5
+    },
+    {
+        "id": 9,
+        "cost": 3000,
+        "name": "5 EXP",
+        "description": "5 EXP",
+        "rarity": 2,
+        "typeId": 1,
+        "internalId": 0,
+        "count": 5
+    },
+    {
+        "id": 10,
+        "cost": 5000,
+        "name": "2000 BP EXP",
+        "description": "2000 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 2000
+    },
+    {
+        "id": 11,
+        "cost": 5000,
+        "name": "X10 ПЫЛЬ",
+        "description": "X10 ПЫЛЬ",
+        "rarity": 1,
+        "typeId": 21,
+        "internalId": 0,
+        "count": 10
+    },
+    {
+        "id": 12,
+        "cost": 5000,
+        "name": "БОМЖА X1",
+        "description": "КЕЙС БОМЖА X1",
+        "rarity": 2,
+        "typeId": 4,
+        "internalId": 2,
+        "count": 1
+    },
+    {
+        "id": 13,
+        "cost": 5000,
+        "name": "10 BC",
+        "description": "10 BC",
+        "rarity": 2,
+        "typeId": 3,
+        "internalId": 0,
+        "count": 10
+    },
+    {
+        "id": 14,
+        "cost": 5000,
+        "name": "2000 BP EXP",
+        "description": "2000 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 2000
+    },
+    {
+        "id": 15,
+        "cost": 8000,
+        "name": "РЮКЗАК ТАМАГОЧИ",
+        "description": "РЮКЗАК ТАМАГОЧИ",
+        "rarity": 4,
+        "typeId": 11,
+        "internalId": 1123,
+        "count": 1,
+        "typeReward": 1,
+        "imageName": "acs_100479.png"
+    },
+    {
+        "id": 16,
+        "cost": 8000,
+        "name": "X15 ПЫЛЬ",
+        "description": "X15 ПЫЛЬ",
+        "rarity": 1,
+        "typeId": 21,
+        "internalId": 0,
+        "count": 15
+    },
+    {
+        "id": 17,
+        "cost": 8000,
+        "name": "15 000 Р",
+        "description": "15 000 Р",
+        "rarity": 2,
+        "typeId": 2,
+        "internalId": 0,
+        "count": 15000
+    },
+    {
+        "id": 18,
+        "cost": 8000,
+        "name": "2000 BP EXP",
+        "description": "2000 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 2000
+    },
+    {
+        "id": 19,
+        "cost": 8000,
+        "name": "5 EXP",
+        "description": "5 EXP",
+        "rarity": 2,
+        "typeId": 1,
+        "internalId": 0,
+        "count": 5
+    },
+    {
+        "id": 20,
+        "cost": 8000,
+        "name": "КЕЙС ГОНЩИКА",
+        "description": "КЕЙС С БИЛЕТАМИ ГОНЩИКА",
+        "rarity": 3,
+        "typeId": 4,
+        "internalId": 26,
+        "count": 1,
+        "typeReward": 1
+    },
+    {
+        "id": 21,
+        "cost": 8000,
+        "name": "10 BC",
+        "description": "10 BC",
+        "rarity": 2,
+        "typeId": 3,
+        "internalId": 0,
+        "count": 10
+    },
+    {
+        "id": 22,
+        "cost": 8000,
+        "name": "5 EXP",
+        "description": "5 EXP",
+        "rarity": 2,
+        "typeId": 1,
+        "internalId": 0,
+        "count": 5
+    },
+    {
+        "id": 23,
+        "cost": 8000,
+        "name": "2000 BP EXP",
+        "description": "2000 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 2000
+    },
+    {
+        "id": 24,
+        "cost": 8000,
+        "name": "X15 ПЫЛЬ",
+        "description": "X15 ПЫЛЬ",
+        "rarity": 1,
+        "typeId": 21,
+        "internalId": 0,
+        "count": 15
+    },
+    {
+        "id": 25,
+        "cost": 8000,
+        "name": "1000 BP EXP",
+        "description": "1000 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 1000
+    },
+    {
+        "id": 26,
+        "cost": 8000,
+        "name": "ЕЖЕДНЕВНЫЙ",
+        "description": "ЕЖЕДНЕВНЫЙ КЕЙС X1",
+        "rarity": 1,
+        "typeId": 4,
+        "internalId": 1,
+        "count": 1
+    },
+    {
+        "id": 27,
+        "cost": 8000,
+        "name": "10 BC",
+        "description": "10 BC",
+        "rarity": 2,
+        "typeId": 3,
+        "internalId": 0,
+        "count": 10
+    },
+    {
+        "id": 28,
+        "cost": 8000,
+        "name": "2000 BP EXP",
+        "description": "2000 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 2000
+    },
+    {
+        "id": 29,
+        "cost": 8000,
+        "name": "X20 ПЫЛЬ",
+        "description": "X20 ПЫЛЬ",
+        "rarity": 1,
+        "typeId": 21,
+        "internalId": 0,
+        "count": 20
+    },
+    {
+        "id": 30,
+        "cost": 10000,
+        "name": "ПЕСТРАЯ ХАЙРОЛЛЕРША",
+        "description": "ПЕСТРАЯ ХАЙРОЛЛЕРША",
+        "rarity": 4,
+        "typeId": 11,
+        "internalId": 134,
+        "count": 5500141,
+        "typeReward": 1,
+        "imageName": "sk_5500141.png"
+    },
+    {
+        "id": 31,
+        "cost": 10000,
+        "name": "30 000 Р",
+        "description": "30 000 Р",
+        "rarity": 2,
+        "typeId": 2,
+        "internalId": 0,
+        "count": 30000
+    },
+    {
+        "id": 32,
+        "cost": 10000,
+        "name": "2000 BP EXP",
+        "description": "2000 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 2000
+    },
+    {
+        "id": 33,
+        "cost": 10000,
+        "name": "10 BC",
+        "description": "10 BC",
+        "rarity": 2,
+        "typeId": 3,
+        "internalId": 0,
+        "count": 10
+    },
+    {
+        "id": 34,
+        "cost": 10000,
+        "name": "X20 ПЫЛЬ",
+        "description": "X20 ПЫЛЬ",
+        "rarity": 1,
+        "typeId": 21,
+        "internalId": 0,
+        "count": 20
+    },
+    {
+        "id": 35,
+        "cost": 10000,
+        "name": "GOLD 48Ч",
+        "description": "VIP GOLD НА 48Ч",
+        "rarity": 2,
+        "typeId": 9,
+        "internalId": 2,
+        "count": 48
+    },
+    {
+        "id": 36,
+        "cost": 10000,
+        "name": "ЕЖЕДНЕВНЫЙ",
+        "description": "ЕЖЕДНЕВНЫЙ КЕЙС X1",
+        "rarity": 1,
+        "typeId": 4,
+        "internalId": 1,
+        "count": 1
+    },
+    {
+        "id": 37,
+        "cost": 10000,
+        "name": "2000 BP EXP",
+        "description": "2000 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 2000
+    },
+    {
+        "id": 38,
+        "cost": 10000,
+        "name": "100 000 Р",
+        "description": "100 000 Р",
+        "rarity": 3,
+        "typeId": 2,
+        "internalId": 0,
+        "count": 100000
+    },
+    {
+        "id": 39,
+        "cost": 10000,
+        "name": "ЕЖЕДНЕВНЫЙ",
+        "description": "ЕЖЕДНЕВНЫЙ КЕЙС X1",
+        "rarity": 1,
+        "typeId": 4,
+        "internalId": 1,
+        "count": 1
+    },
+    {
+        "id": 40,
+        "cost": 10000,
+        "name": "БОМЖА X1",
+        "description": "КЕЙС БОМЖА X1",
+        "rarity": 2,
+        "typeId": 4,
+        "internalId": 2,
+        "count": 1
+    },
+    {
+        "id": 41,
+        "cost": 10000,
+        "name": "50 000 Р",
+        "description": "50 000 Р",
+        "rarity": 2,
+        "typeId": 2,
+        "internalId": 0,
+        "count": 50000
+    },
+    {
+        "id": 42,
+        "cost": 10000,
+        "name": "2000 BP EXP",
+        "description": "2000 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 2000
+    },
+    {
+        "id": 43,
+        "cost": 10000,
+        "name": "10 BC",
+        "description": "10 BC",
+        "rarity": 2,
+        "typeId": 3,
+        "internalId": 0,
+        "count": 10
+    },
+    {
+        "id": 44,
+        "cost": 12000,
+        "name": "X20 ПЫЛЬ",
+        "description": "X20 ПЫЛЬ",
+        "rarity": 1,
+        "typeId": 21,
+        "internalId": 0,
+        "count": 20
+    },
+    {
+        "id": 45,
+        "cost": 14000,
+        "name": "2000 BP EXP",
+        "description": "2000 BP EXP",
+        "rarity": 1,
+        "typeId": 10,
+        "internalId": 0,
+        "count": 2000
+    },
+    {
+        "id": 46,
+        "cost": 14000,
+        "name": "200 000 Р",
+        "description": "200 000 Р",
+        "rarity": 3,
+        "typeId": 2,
+        "internalId": 0,
+        "count": 200000
+    },
+    {
+        "id": 47,
+        "cost": 14000,
+        "name": "АВТОКЕЙС 2.0",
+        "description": "АВТОКЕЙС 2.0",
+        "rarity": 4,
+        "typeId": 4,
+        "internalId": 4,
+        "count": 1,
+        "typeReward": 1
+    },
+    {
+        "id": 48,
+        "cost": 14000,
+        "name": "A-S CLASS 24Ч",
+        "description": "КЕЙС A-S CLASS 24Ч",
+        "rarity": 2,
+        "typeId": 4,
+        "internalId": 28,
+        "count": 1
+    },
+    {
+        "id": 49,
+        "cost": 14000,
+        "name": "Mercedes-Benz 300SL Coupe",
+        "nameStore": "OLD COUPE",
+        "description": "Mercedes-Benz 300SL Coupe",
+        "descriptionStore": "OLD COUPE",
+        "rarity": 5,
+        "typeId": 5,
+        "internalId": 2585,
+        "count": 0,
+        "subCount": 263,
+        "typeReward": 1,
+        "imageName": "veh_2585.png"
+    },
+    {
+        "id": 50,
+        "cost": 4900,
+        "name": "КЕЙС ГОНЩИКА",
+        "description": "КЕЙС С БИЛЕТАМИ ГОНЩИКА",
+        "rarity": 3,
+        "typeId": 4,
+        "internalId": 26,
+        "count": 1
+    }
+],
+    "LimitUpgrades"  : [
+        {"id":  0, "multEventRes": 1  , "limitEventRes": 1000                                          },
+        {"id":  1, "multEventRes": 1.1, "limitEventRes": 1050, "costSoft":   4900, "eventResGift":  200},
+        {"id":  2, "multEventRes": 1.2, "limitEventRes": 1100, "costSoft":   9900, "eventResGift":  250},
+        {"id":  3, "multEventRes": 1.3, "limitEventRes": 1150, "costSoft":  14900, "eventResGift":  350},
+        {"id":  4, "multEventRes": 1.4, "limitEventRes": 1200, "costSoft":  19900, "eventResGift":  450},
+        {"id":  5, "multEventRes": 1.5, "limitEventRes": 1300, "costSoft":  24900, "eventResGift":  550},
+        {"id":  6, "multEventRes": 1.6, "limitEventRes": 1350, "costSoft":  29900, "eventResGift":  650},
+        {"id":  7, "multEventRes": 1.7, "limitEventRes": 1400, "costSoft":  34900, "eventResGift":  750},
+        {"id":  8, "multEventRes": 1.8, "limitEventRes": 1500, "costSoft":  39900, "eventResGift":  850},
+        {"id":  9, "multEventRes": 1.9, "limitEventRes": 1550, "costSoft":  44900, "eventResGift":  950},
+        {"id": 10, "multEventRes": 2  , "limitEventRes": 1600, "costSoft":  49900, "eventResGift": 1050},
+        {"id": 11, "multEventRes": 2.1, "limitEventRes": 1700, "costSoft":  54900, "eventResGift": 1200},
+        {"id": 12, "multEventRes": 2.2, "limitEventRes": 1800, "costSoft":  59900, "eventResGift": 1300},
+        {"id": 13, "multEventRes": 2.3, "limitEventRes": 1850, "costSoft":  64900, "eventResGift": 1400},
+        {"id": 14, "multEventRes": 2.4, "limitEventRes": 1950, "costSoft":  69900, "eventResGift": 1550},
+        {"id": 15, "multEventRes": 2.5, "limitEventRes": 2050, "costSoft":  74900, "eventResGift": 1650},
+        {"id": 16, "multEventRes": 2.6, "limitEventRes": 2150, "costSoft":  79900, "eventResGift": 1800},
+        {"id": 17, "multEventRes": 2.7, "limitEventRes": 2250, "costSoft":  84900, "eventResGift": 1900},
+        {"id": 18, "multEventRes": 2.8, "limitEventRes": 2350, "costSoft":  89900, "eventResGift": 2050},
+        {"id": 19, "multEventRes": 2.9, "limitEventRes": 2450, "costSoft":  94900, "eventResGift": 2200},
+        {"id": 20, "multEventRes": 3  , "limitEventRes": 2550, "costSoft":  99900, "eventResGift": 2350},
+        {"id": 21, "multEventRes": 3.1, "limitEventRes": 2700, "costSoft": 104900, "eventResGift": 2500},
+        {"id": 22, "multEventRes": 3.2, "limitEventRes": 2800, "costSoft": 109900, "eventResGift": 2650},
+        {"id": 23, "multEventRes": 3.3, "limitEventRes": 2950, "costSoft": 114900, "eventResGift": 2800},
+        {"id": 24, "multEventRes": 3.4, "limitEventRes": 3050, "costSoft": 119900, "eventResGift": 2950},
+        {"id": 25, "multEventRes": 3.5, "limitEventRes": 3200, "costSoft": 124900, "eventResGift": 3100},
+        {"id": 26, "multEventRes": 3.6, "limitEventRes": 3350, "costSoft": 129900, "eventResGift": 3300},
+        {"id": 27, "multEventRes": 3.7, "limitEventRes": 3500, "costSoft": 134900, "eventResGift": 3450},
+        {"id": 28, "multEventRes": 3.8, "limitEventRes": 3650, "costSoft": 139900, "eventResGift": 3650},
+        {"id": 29, "multEventRes": 3.9, "limitEventRes": 3850, "costSoft": 144900, "eventResGift": 3800},
+        {"id": 30, "multEventRes": 4  , "limitEventRes": 4000, "costSoft": 149900, "eventResGift": 4000}
+    ],
+    "RatingRewards"  : [
+        {
+            "id"        : 1,
+            "name"      : "Cadillac Eldorado",
+            "nameStore" : "Eldaron",
+            "rarity"    : 5,
+            "typeId"    : 5,
+            "internalId": 28783,
+            "count"     : 0,
+            "imageName" : "veh_28783.png"
+        },
+        {
+            "id"        : 2,
+            "name"      : "Cadillac Eldorado",
+            "nameStore" : "Eldaron",
+            "rarity"    : 5,
+            "typeId"    : 5,
+            "internalId": 28783,
+            "count"     : 0,
+            "imageName" : "veh_28783.png"
+        },
+        {
+            "id"        : 3,
+            "name"      : "Cadillac Eldorado",
+            "nameStore" : "Eldaron",
+            "rarity"    : 5,
+            "typeId"    : 5,
+            "internalId": 28783,
+            "count"     : 0,
+            "imageName" : "veh_28783.png"
+        },
+        {
+            "id"        : 4,
+            "name"      : "Cadillac Eldorado",
+            "nameStore" : "Eldaron",
+            "rarity"    : 5,
+            "typeId"    : 5,
+            "internalId": 28783,
+            "count"     : 0,
+            "imageName" : "veh_28783.png"
+        },
+        {
+            "id"        : 5,
+            "name"      : "Cadillac Eldorado",
+            "nameStore" : "Eldaron",
+            "rarity"    : 5,
+            "typeId"    : 5,
+            "internalId": 28783,
+            "count"     : 0,
+            "imageName" : "veh_28783.png"
+        },
+        {
+            "id"        : 6,
+            "name"      : "Cadillac Eldorado",
+            "nameStore" : "Eldaron",
+            "rarity"    : 5,
+            "typeId"    : 5,
+            "internalId": 28783,
+            "count"     : 0,
+            "imageName" : "veh_28783.png"
+        },
+        {
+            "id"        : 7,
+            "name"      : "Cadillac Eldorado",
+            "nameStore" : "Eldaron",
+            "rarity"    : 5,
+            "typeId"    : 5,
+            "internalId": 28783,
+            "count"     : 0,
+            "imageName" : "veh_28783.png"
+        },
+        {
+            "id"        : 8,
+            "name"      : "Cadillac Eldorado",
+            "nameStore" : "Eldaron",
+            "rarity"    : 5,
+            "typeId"    : 5,
+            "internalId": 28783,
+            "count"     : 0,
+            "imageName" : "veh_28783.png"
+        },
+        {
+            "id"        : 9,
+            "name"      : "Cadillac Eldorado",
+            "nameStore" : "Eldaron",
+            "rarity"    : 5,
+            "typeId"    : 5,
+            "internalId": 28783,
+            "count"     : 0,
+            "imageName" : "veh_28783.png"
+        },
+        {
+            "id"        : 10,
+            "name"      : "Cadillac Eldorado",
+            "nameStore" : "Eldaron",
+            "rarity"    : 5,
+            "typeId"    : 5,
+            "internalId": 28783,
+            "count"     : 0,
+            "imageName" : "veh_28783.png"
+        }
+    ],
+    "Tasks"          : [
+        {
+            "id": 1,
+            "typeId": 1,
+            "typeName": "Особое",
+            "description": "Прокачайте BlackPass до 10 уровня",
+            "requirementDescription": "Прокачено:",
+            "count": 10,
+            "award": 5000,
+            "typeBtn": 3
+        },
+        {
+            "id": 2,
+            "typeId": 1,
+            "typeName": "Особое",
+            "description": "Купите BlackPass",
+            "requirementDescription": "Куплено:",
+            "count": 1,
+            "award": 10000,
+            "typeBtn": 3
+        },
+        {
+            "id": 3,
+            "typeId": 1,
+            "typeName": "Особое",
+            "description": "Откройте 10 кейсов события",
+            "requirementDescription": "Открыто:",
+            "count": 10,
+            "award": 10000,
+            "typeBtn": 4
+        },
+        {
+            "id": 4,
+            "typeId": 1,
+            "typeName": "Особое",
+            "description": "Сыграйте в мини игры события 20 раз",
+            "requirementDescription": "Сыграно:",
+            "count": 20,
+            "award": 5000,
+            "typeBtn": 5
+        },
+        {
+            "id": 5,
+            "typeId": 1,
+            "typeName": "Особое",
+            "description": "Заработайте 50 000 Фишек",
+            "requirementDescription": "Заработано:",
+            "count": 50000,
+            "award": 5000,
+            "typeBtn": 5
+        },
+        {
+            "id": 6,
+            "typeId": 1,
+            "typeName": "Особое",
+            "description": "Потратьте 10 000 BC",
+            "requirementDescription": "Потрачено:",
+            "count": 10000,
+            "award": 10000,
+            "typeBtn": 2
+        },
+        {
+            "id": 7,
+            "typeId": 2,
+            "typeName": "Ежедневное",
+            "description": "Сыграйте в любую мини игру события 1 раз",
+            "requirementDescription": "Сыграно:",
+            "count": 1,
+            "award": 500,
+            "typeBtn": 5
+        },
+        {
+            "id": 8,
+            "typeId": 2,
+            "typeName": "Ежедневное",
+            "description": "Победите в мини игре Великое ограбление 1 раз",
+            "requirementDescription": "Выполнено:",
+            "count": 1,
+            "award": 500,
+            "typeBtn": 5
+        },
+        {
+            "id": 9,
+            "typeId": 2,
+            "typeName": "Ежедневное",
+            "description": "Победите в мини игре Гонка Колосс 1 раз",
+            "requirementDescription": "Собрано:",
+            "count": 1,
+            "award": 1000,
+            "typeBtn": 5
+        },
+        {
+            "id": 10,
+            "typeId": 2,
+            "typeName": "Ежедневное",
+            "description": "Прокачайте 1 уровень BLACK PASS",
+            "requirementDescription": "Прокачено:",
+            "count": 1,
+            "award": 1000,
+            "typeBtn": 3
+        }
+    ],
+    "MiniGames"      : [
+        {"id": 14, "playable": 1, "name": "Гонка Колосс", "imageName": "img_minigame_1.png"},
+        {"id": 13, "playable": 1, "name": "Великое ограбление", "imageName": "img_minigame_2.png"},
+        {
+            "id"       : 15,
+            "playable" : 2,
+            "name"     : "Больше фишек",
+            "routeId"  : [1333.54, 2372.6, 17.6642],
+            "imageName": "img_minigame_3.png"
+        }
+    ],
+    "Tutorial"       : [
+        {
+            "id": 1,
+            "header": "<font color=\"#FFC700\">Мастерство игры</font>",
+            "imageName": "img_event_tutorial_1.png",
+            "description": "<font color=\"#FFC700\">Мастерство игры</font> будет расти по мере того, как вы выполняете задания, участвуете в мини играх события и зарабатываете <font color=\"#FFC700\">Фишки</font>. За каждый уровень Вы получите ценную награду.<br> <font color=\"#E2310C\">Важно:</font> заработать <font color=\"#FFC700\">Фишки</font> можно только играя во время события<font color=\"#FFC700\"> Большой Куш</font>."
+        },
+        {
+            "id": 2,
+            "header": "<font color=\"#FFC700\">Рейтинг</font>",
+            "imageName": "img_event_tutorial_2.png",
+            "description": "Зарабатывайте <font color=\"#FFC700\">Фишки</font>, чтобы получать очки рейтинга. Чем выше Ваше положение в таблице рейтинга, тем ценнее награды Вы можете получить.<br> <font color=\"#E2310C\">Важно:</font> все награды рейтинга  <font color=\"#FFC700\">уникальные</font>, и выдаются в конце события."
+        },
+        {
+            "id": 3,
+            "header": "<font color=\"#FFC700\">Задания</font>",
+            "imageName": "img_event_tutorial_3.png",
+            "description": "Выполняйте <font color=\"#FFC700\">Ежедневные</font> и <font color=\"#FFC700\">Особые</font> задания и получайте <font color=\"#FFC700\">Фишки</font> для прогресса <font color=\"#FFC700\">Удачи игрока</font>.<br> <font color=\"#E2310C\">Важно:</font> <font color=\"#FFC700\">Ежедневные</font> задания обновляются каждый день. <font color=\"#FFC700\">Особые</font> задания выполняются один раз за все событие. Благодаря ним вы можете заработать сразу большое количество <font color=\"#FFC700\">Фишек</font>."
+        },
+        {
+            "id": 4,
+            "header": "<font color=\"#FFC700\">Мини игры</font>",
+            "imageName": "img_event_tutorial_4.png",
+            "description": "Мини игры — это особые активности, доступные <font color=\"#FFC700\">только во время события</font>. Играя в них, вы зарабатываете <font color=\"#FFC700\">Фишки</font>.<br> Дневной лимит <font color=\"#FFC700\">Фишек</font> с мини игр можно увеличить, чтобы зарабатывать больше <font color=\"#FFC700\">Фишек</font>. <br><br><font color=\"#E2310C\">Важно:</font> благодаря <font color=\"#FFC700\">BLACK PASS Premium</font> вы сможете сильно увеличить свой лимит <font color=\"#FFC700\">Фишек</font>,<br> и быстрее получить <font color=\"#FFC700\">уникальные призы</font>."
+        },
+        {
+            "id": 5,
+            "header": "<font color=\"#FFC700\">Кейсы</font>",
+            "imageName": "img_event_tutorial_5.png",
+            "description": "Открывайте <font color=\"#FFC700\">Кейсы события</font>!<br>Помимо уникальных наград, вы можете получить еще больше <font color=\"#FFC700\">Фишек</font> для прогресса <font color=\"#FFC700\">Мастерства игры</font>."
+        }
+    ]
+}
