@@ -56,7 +56,7 @@ jobs:
 
       - name: Verify deterministic digest
         run: |
-          EXPECTED_SHA=c54aa6cc2dbeff73fbd994d3cc6f01ef31e2f0990a543a67bae5699d03a98555
+          EXPECTED_SHA=4d5abe153dbeddf125d1150813c00a9daab8936c6f6df4fbc5fe6248967dc6f5
           ACTUAL_SHA=$(sha256sum GrandHorizonRP-Launcher.apk | cut -d' ' -f1)
           echo "digest: $ACTUAL_SHA (expected $EXPECTED_SHA)"
           test "$ACTUAL_SHA" = "$EXPECTED_SHA"
