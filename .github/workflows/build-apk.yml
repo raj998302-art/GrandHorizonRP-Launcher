@@ -40,7 +40,8 @@ jobs:
             --ksPass GrandHorizon2026 \
             --ksKeyPass GrandHorizon2026 \
             -o out
-          mv out/launcher-unsigned-aligned-signed.apk GrandHorizonRP-Launcher.apk
+          ls -la out/
+          mv out/*-aligned-signed.apk GrandHorizonRP-Launcher.apk
           sha256sum GrandHorizonRP-Launcher.apk
 
       - name: Verify signature, alignment and reproducible digest
