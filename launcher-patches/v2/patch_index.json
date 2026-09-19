@@ -1,0 +1,1128 @@
+{
+ "android_version": 1529,
+ "filesize": 4123756579,
+ "link": "ghrp-v1",
+ "hash_commit": "ghrp-v1-20260919",
+ "forced_download_ios": false,
+ "forced_download_market": false,
+ "forced_download_pc": false,
+ "forced_download_rustore": false,
+ "forced_download_site": false,
+ "ios_version": 0,
+ "files": [
+  {
+   "crc_xxhashct": 4092278032,
+   "filesize": 4046406,
+   "link": "files.launcher.bpc#",
+   "path": "launcher.bpc",
+   "rule_file": "loader.video"
+  },
+  {
+   "crc_xxhashct": 3039804085,
+   "filesize": 43958731,
+   "link": "files.resources.video.launcher_video.zip#",
+   "path": "resources/video/launcher_video.zip",
+   "rule_file": "loader.video"
+  },
+  {
+   "crc_xxhashct": 1054588340,
+   "filesize": 102515266,
+   "link": "files.textures.br_tex_cars_01_nologo.astc.bpc#",
+   "path": "textures/br_tex_cars_01_nologo.astc.bpc",
+   "rule_file": "nologo.astc"
+  },
+  {
+   "crc_xxhashct": 374011921,
+   "filesize": 373468,
+   "link": "files.textures.br_tex_cars_01_nologo.astc.bpc.tmb#",
+   "path": "textures/br_tex_cars_01_nologo.astc.bpc.tmb",
+   "rule_file": "nologo.astc"
+  },
+  {
+   "crc_xxhashct": 3890524478,
+   "filesize": 57720600,
+   "link": "files.textures.br_tex_gui_nologo.astc.bpc#",
+   "path": "textures/br_tex_gui_nologo.astc.bpc",
+   "rule_file": "nologo.astc"
+  },
+  {
+   "crc_xxhashct": 1180046600,
+   "filesize": 367462,
+   "link": "files.textures.br_tex_gui_nologo.astc.bpc.tmb#",
+   "path": "textures/br_tex_gui_nologo.astc.bpc.tmb",
+   "rule_file": "nologo.astc"
+  },
+  {
+   "crc_xxhashct": 441892200,
+   "filesize": 329101104,
+   "link": "files.mesh.br_cars_01_nologo.bpc#",
+   "path": "mesh/br_cars_01_nologo.bpc",
+   "rule_file": "nologo"
+  },
+  {
+   "crc_xxhashct": 1017213263,
+   "filesize": 20905614,
+   "link": "files.textures.br_bp_events.astc.bpc#",
+   "path": "textures/br_bp_events.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2649318617,
+   "filesize": 33931,
+   "link": "files.textures.br_bp_events.astc.bpc.tmb#",
+   "path": "textures/br_bp_events.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2716724166,
+   "filesize": 156438957,
+   "link": "files.textures.br_tex_01.astc.bpc#",
+   "path": "textures/br_tex_01.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 3121893801,
+   "filesize": 1319806,
+   "link": "files.textures.br_tex_01.astc.bpc.tmb#",
+   "path": "textures/br_tex_01.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 3326039821,
+   "filesize": 54785007,
+   "link": "files.textures.br_tex_02.astc.bpc#",
+   "path": "textures/br_tex_02.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2087826744,
+   "filesize": 156460,
+   "link": "files.textures.br_tex_02.astc.bpc.tmb#",
+   "path": "textures/br_tex_02.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 3708170394,
+   "filesize": 13930648,
+   "link": "files.textures.br_tex_acc_01.astc.bpc#",
+   "path": "textures/br_tex_acc_01.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1090663781,
+   "filesize": 98848,
+   "link": "files.textures.br_tex_acc_01.astc.bpc.tmb#",
+   "path": "textures/br_tex_acc_01.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 3929842824,
+   "filesize": 32563,
+   "link": "files.textures.br_tex_cars_winter.astc.bpc#",
+   "path": "textures/br_tex_cars_winter.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 38794247,
+   "filesize": 253,
+   "link": "files.textures.br_tex_cars_winter.astc.bpc.tmb#",
+   "path": "textures/br_tex_cars_winter.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 682480919,
+   "filesize": 257368,
+   "link": "files.textures.br_tex_generic.astc.bpc#",
+   "path": "textures/br_tex_generic.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2905661205,
+   "filesize": 16750,
+   "link": "files.textures.br_tex_generic.astc.bpc.tmb#",
+   "path": "textures/br_tex_generic.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 384854154,
+   "filesize": 141877434,
+   "link": "files.textures.br_tex_interiors.astc.bpc#",
+   "path": "textures/br_tex_interiors.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2698474600,
+   "filesize": 338161,
+   "link": "files.textures.br_tex_interiors.astc.bpc.tmb#",
+   "path": "textures/br_tex_interiors.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 380324982,
+   "filesize": 9572244,
+   "link": "files.textures.br_tex_legacy_smp.astc.bpc#",
+   "path": "textures/br_tex_legacy_smp.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 604446012,
+   "filesize": 210574,
+   "link": "files.textures.br_tex_legacy_smp.astc.bpc.tmb#",
+   "path": "textures/br_tex_legacy_smp.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2587138627,
+   "filesize": 35887379,
+   "link": "files.textures.br_tex_LOD_01.astc.bpc#",
+   "path": "textures/br_tex_LOD_01.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 4048815774,
+   "filesize": 175177,
+   "link": "files.textures.br_tex_LOD_01.astc.bpc.tmb#",
+   "path": "textures/br_tex_LOD_01.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 934886569,
+   "filesize": 98628779,
+   "link": "files.textures.br_tex_main.astc.bpc#",
+   "path": "textures/br_tex_main.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1326366604,
+   "filesize": 1003495,
+   "link": "files.textures.br_tex_main.astc.bpc.tmb#",
+   "path": "textures/br_tex_main.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1399173653,
+   "filesize": 25378860,
+   "link": "files.textures.br_tex_mobile.astc.bpc#",
+   "path": "textures/br_tex_mobile.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 3434939541,
+   "filesize": 363337,
+   "link": "files.textures.br_tex_mobile.astc.bpc.tmb#",
+   "path": "textures/br_tex_mobile.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 3737080240,
+   "filesize": 10248113,
+   "link": "files.textures.br_tex_patent.astc.bpc#",
+   "path": "textures/br_tex_patent.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 3615341598,
+   "filesize": 69436,
+   "link": "files.textures.br_tex_patent.astc.bpc.tmb#",
+   "path": "textures/br_tex_patent.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1133298282,
+   "filesize": 15457402,
+   "link": "files.textures.br_tex_racetrack.astc.bpc#",
+   "path": "textures/br_tex_racetrack.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2887600997,
+   "filesize": 51020,
+   "link": "files.textures.br_tex_racetrack.astc.bpc.tmb#",
+   "path": "textures/br_tex_racetrack.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 407534757,
+   "filesize": 158292762,
+   "link": "files.textures.br_tex_skins_01.astc.bpc#",
+   "path": "textures/br_tex_skins_01.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 110146500,
+   "filesize": 627194,
+   "link": "files.textures.br_tex_skins_01.astc.bpc.tmb#",
+   "path": "textures/br_tex_skins_01.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1277657724,
+   "filesize": 4734302,
+   "link": "files.textures.br_tex_txd.astc.bpc#",
+   "path": "textures/br_tex_txd.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2053061540,
+   "filesize": 125390,
+   "link": "files.textures.br_tex_txd.astc.bpc.tmb#",
+   "path": "textures/br_tex_txd.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1994961113,
+   "filesize": 26426508,
+   "link": "files.textures.br_tex_uzniy.astc.bpc#",
+   "path": "textures/br_tex_uzniy.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 3906600377,
+   "filesize": 66967,
+   "link": "files.textures.br_tex_uzniy.astc.bpc.tmb#",
+   "path": "textures/br_tex_uzniy.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2363508925,
+   "filesize": 326171,
+   "link": "files.textures.BugFix.astc.bpc#",
+   "path": "textures/BugFix.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1553862320,
+   "filesize": 1607,
+   "link": "files.textures.BugFix.astc.bpc.tmb#",
+   "path": "textures/BugFix.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 3990538111,
+   "filesize": 9311461,
+   "link": "files.textures.Characters.astc.bpc#",
+   "path": "textures/Characters.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 214369656,
+   "filesize": 16382,
+   "link": "files.textures.Characters.astc.bpc.tmb#",
+   "path": "textures/Characters.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2395321834,
+   "filesize": 13789149,
+   "link": "files.textures.DLC_Casino.astc.bpc#",
+   "path": "textures/DLC_Casino.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2328482894,
+   "filesize": 42530,
+   "link": "files.textures.DLC_Casino.astc.bpc.tmb#",
+   "path": "textures/DLC_Casino.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2607709756,
+   "filesize": 3780038,
+   "link": "files.textures.DLC_PortJob.astc.bpc#",
+   "path": "textures/DLC_PortJob.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 364220119,
+   "filesize": 9743,
+   "link": "files.textures.DLC_PortJob.astc.bpc.tmb#",
+   "path": "textures/DLC_PortJob.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 217027365,
+   "filesize": 1818190,
+   "link": "files.textures.event_9may_25.astc.bpc#",
+   "path": "textures/event_9may_25.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 4214473871,
+   "filesize": 2956,
+   "link": "files.textures.event_9may_25.astc.bpc.tmb#",
+   "path": "textures/event_9may_25.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 3834122928,
+   "filesize": 704072,
+   "link": "files.textures.Event_BP23_tfs.astc.bpc#",
+   "path": "textures/Event_BP23_tfs.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2672150840,
+   "filesize": 2062,
+   "link": "files.textures.Event_BP23_tfs.astc.bpc.tmb#",
+   "path": "textures/Event_BP23_tfs.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1641285703,
+   "filesize": 770105,
+   "link": "files.textures.Event_BP27.astc.bpc#",
+   "path": "textures/Event_BP27.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1872340878,
+   "filesize": 4185,
+   "link": "files.textures.Event_BP27.astc.bpc.tmb#",
+   "path": "textures/Event_BP27.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2495169698,
+   "filesize": 532538,
+   "link": "files.textures.Event_BP28.astc.bpc#",
+   "path": "textures/Event_BP28.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 4049066490,
+   "filesize": 2484,
+   "link": "files.textures.Event_BP28.astc.bpc.tmb#",
+   "path": "textures/Event_BP28.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1921017145,
+   "filesize": 484665,
+   "link": "files.textures.Event_BP29.astc.bpc#",
+   "path": "textures/Event_BP29.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 400010895,
+   "filesize": 2198,
+   "link": "files.textures.Event_BP29.astc.bpc.tmb#",
+   "path": "textures/Event_BP29.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1427569812,
+   "filesize": 765857,
+   "link": "files.textures.Event_BP30.astc.bpc#",
+   "path": "textures/Event_BP30.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 480372126,
+   "filesize": 4965,
+   "link": "files.textures.Event_BP30.astc.bpc.tmb#",
+   "path": "textures/Event_BP30.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1673488838,
+   "filesize": 10169845,
+   "link": "files.textures.Event_Cyberfarm.astc.bpc#",
+   "path": "textures/Event_Cyberfarm.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 762799164,
+   "filesize": 21839,
+   "link": "files.textures.Event_Cyberfarm.astc.bpc.tmb#",
+   "path": "textures/Event_Cyberfarm.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2995335758,
+   "filesize": 534629,
+   "link": "files.textures.Event_Grom.astc.bpc#",
+   "path": "textures/Event_Grom.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1852330529,
+   "filesize": 2003,
+   "link": "files.textures.Event_Grom.astc.bpc.tmb#",
+   "path": "textures/Event_Grom.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2444857308,
+   "filesize": 9871717,
+   "link": "files.textures.Event_H25.astc.bpc#",
+   "path": "textures/Event_H25.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2451192170,
+   "filesize": 20132,
+   "link": "files.textures.Event_H25.astc.bpc.tmb#",
+   "path": "textures/Event_H25.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1944395868,
+   "filesize": 8132281,
+   "link": "files.textures.Event_NY26.astc.bpc#",
+   "path": "textures/Event_NY26.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 3003638930,
+   "filesize": 26716,
+   "link": "files.textures.Event_NY26.astc.bpc.tmb#",
+   "path": "textures/Event_NY26.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2972663385,
+   "filesize": 2262312,
+   "link": "files.textures.Event_Quest1.astc.bpc#",
+   "path": "textures/Event_Quest1.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 860239439,
+   "filesize": 5307,
+   "link": "files.textures.Event_Quest1.astc.bpc.tmb#",
+   "path": "textures/Event_Quest1.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1318380049,
+   "filesize": 11665799,
+   "link": "files.textures.Event_Quest2.astc.bpc#",
+   "path": "textures/Event_Quest2.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 3659616489,
+   "filesize": 35130,
+   "link": "files.textures.Event_Quest2.astc.bpc.tmb#",
+   "path": "textures/Event_Quest2.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2669380159,
+   "filesize": 329013,
+   "link": "files.textures.Event_Quest3.astc.bpc#",
+   "path": "textures/Event_Quest3.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1370351864,
+   "filesize": 3277,
+   "link": "files.textures.Event_Quest3.astc.bpc.tmb#",
+   "path": "textures/Event_Quest3.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1228443031,
+   "filesize": 112855,
+   "link": "files.textures.Event_Quest4.astc.bpc#",
+   "path": "textures/Event_Quest4.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2523550223,
+   "filesize": 463,
+   "link": "files.textures.Event_Quest4.astc.bpc.tmb#",
+   "path": "textures/Event_Quest4.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1271309554,
+   "filesize": 192981,
+   "link": "files.textures.Event_Season1.astc.bpc#",
+   "path": "textures/Event_Season1.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 3712791297,
+   "filesize": 679,
+   "link": "files.textures.Event_Season1.astc.bpc.tmb#",
+   "path": "textures/Event_Season1.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 3760317675,
+   "filesize": 1036058,
+   "link": "files.textures.Event_Season4.astc.bpc#",
+   "path": "textures/Event_Season4.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 941001188,
+   "filesize": 2957,
+   "link": "files.textures.Event_Season4.astc.bpc.tmb#",
+   "path": "textures/Event_Season4.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 61434757,
+   "filesize": 1107929,
+   "link": "files.textures.Event_Season5.astc.bpc#",
+   "path": "textures/Event_Season5.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2764086379,
+   "filesize": 3896,
+   "link": "files.textures.Event_Season5.astc.bpc.tmb#",
+   "path": "textures/Event_Season5.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 826529049,
+   "filesize": 1231928,
+   "link": "files.textures.Event_Season6.astc.bpc#",
+   "path": "textures/Event_Season6.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2351326999,
+   "filesize": 4842,
+   "link": "files.textures.Event_Season6.astc.bpc.tmb#",
+   "path": "textures/Event_Season6.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2277875308,
+   "filesize": 1175648,
+   "link": "files.textures.Event_Valentin26.astc.bpc#",
+   "path": "textures/Event_Valentin26.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1848871833,
+   "filesize": 2150,
+   "link": "files.textures.Event_Valentin26.astc.bpc.tmb#",
+   "path": "textures/Event_Valentin26.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1640672666,
+   "filesize": 79807,
+   "link": "files.textures.Event_World_Cup.astc.bpc#",
+   "path": "textures/Event_World_Cup.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 653949664,
+   "filesize": 701,
+   "link": "files.textures.Event_World_Cup.astc.bpc.tmb#",
+   "path": "textures/Event_World_Cup.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1840757801,
+   "filesize": 488508820,
+   "link": "files.textures.gui_textures.astc.bpc#",
+   "path": "textures/gui_textures.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 99549641,
+   "filesize": 936041,
+   "link": "files.textures.gui_textures.astc.bpc.tmb#",
+   "path": "textures/gui_textures.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 3128197119,
+   "filesize": 4441422,
+   "link": "files.textures.Gun_store.astc.bpc#",
+   "path": "textures/Gun_store.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 4004760835,
+   "filesize": 9904,
+   "link": "files.textures.Gun_store.astc.bpc.tmb#",
+   "path": "textures/Gun_store.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 4206735802,
+   "filesize": 29082113,
+   "link": "files.textures.Interiors.astc.bpc#",
+   "path": "textures/Interiors.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1292032462,
+   "filesize": 10017,
+   "link": "files.textures.Interiors.astc.bpc.tmb#",
+   "path": "textures/Interiors.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 787195935,
+   "filesize": 35503254,
+   "link": "files.textures.Level_Garel.astc.bpc#",
+   "path": "textures/Level_Garel.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 1396231066,
+   "filesize": 71547,
+   "link": "files.textures.Level_Garel.astc.bpc.tmb#",
+   "path": "textures/Level_Garel.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2595696220,
+   "filesize": 108128610,
+   "link": "files.textures.Roads3-0.astc.bpc#",
+   "path": "textures/Roads3-0.astc.bpc",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 2738240182,
+   "filesize": 730729,
+   "link": "files.textures.Roads3-0.astc.bpc.tmb#",
+   "path": "textures/Roads3-0.astc.bpc.tmb",
+   "rule_file": "astc"
+  },
+  {
+   "crc_xxhashct": 3834170137,
+   "filesize": 63827068,
+   "link": "files.audio.audiostream.streams.bpc#",
+   "path": "audio/audiostream/streams.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 2185933597,
+   "filesize": 7096217,
+   "link": "files.audio.samples.GENERIC.bpc#",
+   "path": "audio/samples/GENERIC.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 1029193956,
+   "filesize": 162767,
+   "link": "files.audio.samples.STEPS.bpc#",
+   "path": "audio/samples/STEPS.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 3015100814,
+   "filesize": 60881542,
+   "link": "files.audio.samples.VEHICLE.bpc#",
+   "path": "audio/samples/VEHICLE.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 49686847,
+   "filesize": 7006226,
+   "link": "files.common.bpc#",
+   "path": "common.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 86556308,
+   "filesize": 2710751,
+   "link": "files.gui.bpc#",
+   "path": "gui.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 2629914279,
+   "filesize": 372215,
+   "link": "files.jsons.client-jsons.zip#",
+   "path": "jsons/client-jsons.zip",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 2796396683,
+   "filesize": 347832,
+   "link": "files.jsons.en.client-jsons.zip#",
+   "path": "jsons/en/client-jsons.zip",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 1896575321,
+   "filesize": 348126,
+   "link": "files.jsons.pt-br.client-jsons.zip#",
+   "path": "jsons/pt-br/client-jsons.zip",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 1358287695,
+   "filesize": 13658677,
+   "link": "files.mesh.br_accessories_01.bpc#",
+   "path": "mesh/br_accessories_01.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 2048187207,
+   "filesize": 3800825,
+   "link": "files.mesh.br_anim.bpc#",
+   "path": "mesh/br_anim.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 1089490251,
+   "filesize": 15638065,
+   "link": "files.mesh.br_bp_events.bpc#",
+   "path": "mesh/br_bp_events.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 863025010,
+   "filesize": 35311443,
+   "link": "files.mesh.br_collision.bpc#",
+   "path": "mesh/br_collision.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 2136924336,
+   "filesize": 39017,
+   "link": "files.mesh.br_common.bpc#",
+   "path": "mesh/br_common.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 2006142502,
+   "filesize": 115314013,
+   "link": "files.mesh.br_hotfix.bpc#",
+   "path": "mesh/br_hotfix.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 2226968099,
+   "filesize": 856942,
+   "link": "files.mesh.br_legacy_smp.bpc#",
+   "path": "mesh/br_legacy_smp.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 4090123341,
+   "filesize": 92223133,
+   "link": "files.mesh.br_map_00.bpc#",
+   "path": "mesh/br_map_00.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 993893168,
+   "filesize": 148146154,
+   "link": "files.mesh.br_map_01.bpc#",
+   "path": "mesh/br_map_01.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 1670471520,
+   "filesize": 232378259,
+   "link": "files.mesh.br_map_02.bpc#",
+   "path": "mesh/br_map_02.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 4206344173,
+   "filesize": 24209174,
+   "link": "files.mesh.br_racetrack.bpc#",
+   "path": "mesh/br_racetrack.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 127078416,
+   "filesize": 154163576,
+   "link": "files.mesh.br_skins_01.bpc#",
+   "path": "mesh/br_skins_01.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 120889301,
+   "filesize": 550383,
+   "link": "files.mesh.BugFix.bpc#",
+   "path": "mesh/BugFix.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 583307419,
+   "filesize": 6655426,
+   "link": "files.mesh.DLC_Casino.bpc#",
+   "path": "mesh/DLC_Casino.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 1158883033,
+   "filesize": 8752900,
+   "link": "files.mesh.DLC_PortJob.bpc#",
+   "path": "mesh/DLC_PortJob.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 3404067920,
+   "filesize": 1089606,
+   "link": "files.mesh.Event_9may26.bpc#",
+   "path": "mesh/Event_9may26.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 3908045495,
+   "filesize": 682191,
+   "link": "files.mesh.Event_BP23_tfs.bpc#",
+   "path": "mesh/Event_BP23_tfs.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 2009448445,
+   "filesize": 626630,
+   "link": "files.mesh.Event_BP27.bpc#",
+   "path": "mesh/Event_BP27.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 2239904499,
+   "filesize": 471577,
+   "link": "files.mesh.Event_BP28.bpc#",
+   "path": "mesh/Event_BP28.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 3177351910,
+   "filesize": 403323,
+   "link": "files.mesh.Event_BP29.bpc#",
+   "path": "mesh/Event_BP29.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 1795427013,
+   "filesize": 616193,
+   "link": "files.mesh.Event_BP30.bpc#",
+   "path": "mesh/Event_BP30.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 4178398379,
+   "filesize": 9661659,
+   "link": "files.mesh.Event_Cyberfarm.bpc#",
+   "path": "mesh/Event_Cyberfarm.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 2945212047,
+   "filesize": 348984,
+   "link": "files.mesh.Event_Grom.bpc#",
+   "path": "mesh/Event_Grom.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 1319221636,
+   "filesize": 19114990,
+   "link": "files.mesh.Event_H25.bpc#",
+   "path": "mesh/Event_H25.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 2568239611,
+   "filesize": 3133024,
+   "link": "files.mesh.Event_H25_Old.bpc#",
+   "path": "mesh/Event_H25_Old.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 1843985059,
+   "filesize": 31213016,
+   "link": "files.mesh.Event_NY26.bpc#",
+   "path": "mesh/Event_NY26.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 3486338750,
+   "filesize": 17828300,
+   "link": "files.mesh.Event_NY26_Old.bpc#",
+   "path": "mesh/Event_NY26_Old.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 2440955282,
+   "filesize": 4098346,
+   "link": "files.mesh.Event_Quest1.bpc#",
+   "path": "mesh/Event_Quest1.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 198379747,
+   "filesize": 25621616,
+   "link": "files.mesh.Event_Quest2.bpc#",
+   "path": "mesh/Event_Quest2.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 3173824333,
+   "filesize": 638486,
+   "link": "files.mesh.Event_Quest3.bpc#",
+   "path": "mesh/Event_Quest3.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 2296678888,
+   "filesize": 54267,
+   "link": "files.mesh.Event_Quest4.bpc#",
+   "path": "mesh/Event_Quest4.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 547726378,
+   "filesize": 53573,
+   "link": "files.mesh.Event_Quest_Port_Old.bpc#",
+   "path": "mesh/Event_Quest_Port_Old.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 1938421650,
+   "filesize": 117315,
+   "link": "files.mesh.Event_Season1.bpc#",
+   "path": "mesh/Event_Season1.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 2605981800,
+   "filesize": 8234992,
+   "link": "files.mesh.Event_Season4.bpc#",
+   "path": "mesh/Event_Season4.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 993376246,
+   "filesize": 934568,
+   "link": "files.mesh.Event_Season5.bpc#",
+   "path": "mesh/Event_Season5.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 2506237758,
+   "filesize": 761112,
+   "link": "files.mesh.Event_Season6.bpc#",
+   "path": "mesh/Event_Season6.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 367788666,
+   "filesize": 2529267,
+   "link": "files.mesh.Event_Valentin26.bpc#",
+   "path": "mesh/Event_Valentin26.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 336551515,
+   "filesize": 24213,
+   "link": "files.mesh.Event_Valentin26_Old.bpc#",
+   "path": "mesh/Event_Valentin26_Old.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 3396624223,
+   "filesize": 92673,
+   "link": "files.mesh.Event_World_Cup.bpc#",
+   "path": "mesh/Event_World_Cup.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 1102878069,
+   "filesize": 2321,
+   "link": "files.mesh.FTUE.bpc#",
+   "path": "mesh/FTUE.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 3131822160,
+   "filesize": 3957859,
+   "link": "files.mesh.Gun_store.bpc#",
+   "path": "mesh/Gun_store.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 2627231268,
+   "filesize": 5714394,
+   "link": "files.mesh.Interiors.bpc#",
+   "path": "mesh/Interiors.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 902502343,
+   "filesize": 153723955,
+   "link": "files.mesh.Level_Garel.bpc#",
+   "path": "mesh/Level_Garel.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 2274456157,
+   "filesize": 3626247,
+   "link": "files.mesh.Revert_NY26.bpc#",
+   "path": "mesh/Revert_NY26.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 266874523,
+   "filesize": 265787680,
+   "link": "files.mesh.Roads3-0.bpc#",
+   "path": "mesh/Roads3-0.bpc",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 2189069416,
+   "filesize": 226146,
+   "link": "files.resources.images.accessories.img_event_item_9may.zip#",
+   "path": "resources/images/accessories/img_event_item_9may.zip",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 4022359529,
+   "filesize": 173108,
+   "link": "files.resources.images.accessories.img_vinyl_9may.zip#",
+   "path": "resources/images/accessories/img_vinyl_9may.zip",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 329480740,
+   "filesize": 3259241,
+   "link": "files.resources.images.backgrounds.bg_start_screen.zip#",
+   "path": "resources/images/backgrounds/bg_start_screen.zip",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 1583237673,
+   "filesize": 219628,
+   "link": "files.resources.images.pictures.img_100378.zip#",
+   "path": "resources/images/pictures/img_100378.zip",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 832384178,
+   "filesize": 494179,
+   "link": "files.resources.images.pictures.img_case_event20.zip#",
+   "path": "resources/images/pictures/img_case_event20.zip",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 2634831081,
+   "filesize": 483200,
+   "link": "files.resources.images.pictures.img_case_event21.zip#",
+   "path": "resources/images/pictures/img_case_event21.zip",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 3039804085,
+   "filesize": 43958731,
+   "link": "files.resources.video.launcher.zip#",
+   "path": "resources/video/launcher.zip",
+   "rule_file": "base"
+  },
+  {
+   "crc_xxhashct": 2441928441,
+   "filesize": 455908753,
+   "link": "files.resources.video.video.zip#",
+   "path": "resources/video/video.zip",
+   "rule_file": "base"
+  }
+ ],
+ "patches": []
+}
