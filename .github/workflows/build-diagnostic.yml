@@ -77,24 +77,7 @@ jobs:
 
       - name: Static verification (TEST-2 APK - original bytes + GHRP signature)
         run: |
-          python3 - <<'PYEOF'
-          import zipfile, struct, hashlib, sys
-          z = zipfile.ZipFile("GHRP-Test2-OriginalResigned.apk")
-          names = z.namelist()
-          assert "classes8.dex" not in names, "TEST-2 must not carry extra dex"
-          dex = [n for n in names if n.endswith(".dex")]
-          assert len(dex) == 7, f"expected 7 dex, got {len(dex)}"
-          libs = [n for n in names if n.startswith("lib/") and n.endswith(".so")]
-          assert len(libs) == 26, f"expected 26 libs, got {len(libs)}"
-          abis = sorted(set(n.split("/")[1] for n in libs))
-          assert abis == ["arm64-v8a", "armeabi-v7a"], abis
-          arsc = z.getinfo("resources.arsc")
-          assert arsc.compress_type == zipfile.ZIP_STORED
-          m = z.read("AndroidManifest.xml")
-          assert b"com.launcher.brgame" in m.replace(b"\x00", b""), "package must stay original"
-          assert b"requiredSplitTypes" not in m.replace(b"\x00", b"")
-          print("TEST2 STATIC CHECKS PASSED: 7 original dex, 26 libs, original package, no requiredSplitTypes, arsc stored")
-          PYEOF
+          python3 tools/verify_test2.py GHRP-Test2-OriginalResigned.apk
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
