@@ -75,7 +75,7 @@ jobs:
         run: |
           python3 tools/verify_diag.py GrandHorizonRP-Diagnostic.apk
 
-      - name: Static verification (TEST-2 APK: original bytes + GHRP signature)
+      - name: Static verification (TEST-2 APK - original bytes + GHRP signature)
         run: |
           python3 - <<'PYEOF'
           import zipfile, struct, hashlib, sys
