@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   build:
-    name: Sign & Release Launcher APK
+    name: Sign, Verify & Release Launcher APK
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -22,11 +22,11 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Download unsigned launcher APK (patched build baseline)
+      - name: Download unsigned launcher APK (diagnostic build baseline)
         run: |
           curl -sL --retry 3 -o launcher-unsigned.apk \
             "https://github.com/raj998302-art/GrandHorizonRP-Launcher/releases/download/latest/launcher-unsigned.apk"
-          EXPECTED=118553022
+          EXPECTED=118553666
           ACTUAL=$(stat -c%s launcher-unsigned.apk)
           echo "size: $ACTUAL (expected $EXPECTED)"
           test "$ACTUAL" -eq "$EXPECTED"
@@ -44,12 +44,19 @@ jobs:
           mv out/*-aligned-signed.apk GrandHorizonRP-Launcher.apk
           sha256sum GrandHorizonRP-Launcher.apk
 
-      - name: Verify signature, alignment and reproducible digest
+      - name: Verify signature and zipalign
         run: |
           java -jar tools/uber-apk-signer.jar -a GrandHorizonRP-Launcher.apk -y | tee verify.log
           grep -q "signature verified" verify.log
           grep -q "zipalign verified" verify.log
-          EXPECTED_SHA=6913c095d12602c8b06db875ee6c4ed666aca7a066fbbc417859471782ba32b0
+
+      - name: Static APK verification (package, version, stale refs, ABIs, DEX)
+        run: |
+          python3 tools/verify_apk.py GrandHorizonRP-Launcher.apk
+
+      - name: Verify deterministic digest
+        run: |
+          EXPECTED_SHA=c54aa6cc2dbeff73fbd994d3cc6f01ef31e2f0990a543a67bae5699d03a98555
           ACTUAL_SHA=$(sha256sum GrandHorizonRP-Launcher.apk | cut -d' ' -f1)
           echo "digest: $ACTUAL_SHA (expected $EXPECTED_SHA)"
           test "$ACTUAL_SHA" = "$EXPECTED_SHA"
@@ -69,6 +76,14 @@ jobs:
             Grand Horizon RP Launcher — the original client, fully rebranded and
             re-signed with the project release keystore (deterministic build:
             this workflow reproduces the exact APK below from launcher-unsigned.apk).
+
+            DIAGNOSTIC BUILD: this APK carries the GhrpBoot startup tracer
+            (13 boot stages shown as on-screen toasts + logcat tag GHRP_BOOT +
+            Android/data/com.grandhorizonrp.launcher/files/ghrp-boot.txt) and a
+            crash reporter that shows any Java crash on screen and writes it to
+            ghrp-crash.txt. If the app closes on startup, note the LAST stage
+            toast you saw (or the crash text) and report it — that pinpoints
+            the failing startup step on your specific device.
 
             Assets on this release:
             - GrandHorizonRP-Launcher.apk — install this on your Android phone
