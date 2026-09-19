@@ -8,11 +8,7 @@
     "apiPassword": "",
     "apiBackupPassword": "",
     "donateUrl": "https://github.com/raj998302-art/GrandHorizonRP-Launcher",
-<<<<<<< Updated upstream
-    "characterService": "https://github.com/raj998302-art/GrandHorizonRP-Launcher",
-=======
     "characterService": "https://ghrp-auth.vercel.app/api",
->>>>>>> Stashed changes
     "dataPolicyUrl": "https://github.com/raj998302-art/GrandHorizonRP-Launcher",
     "discordUrl": "https://discord.gg/grandhorizonrp",
     "offerUrl": "https://github.com/raj998302-art/GrandHorizonRP-Launcher",
@@ -35,11 +31,7 @@
     "apiPassword": "",
     "apiBackupPassword": "",
     "donateUrl": "https://github.com/raj998302-art/GrandHorizonRP-Launcher",
-<<<<<<< Updated upstream
-    "characterService": "https://github.com/raj998302-art/GrandHorizonRP-Launcher",
-=======
     "characterService": "https://ghrp-auth.vercel.app/api",
->>>>>>> Stashed changes
     "dataPolicyUrl": "https://github.com/raj998302-art/GrandHorizonRP-Launcher",
     "discordUrl": "https://discord.gg/grandhorizonrp",
     "offerUrl": "https://github.com/raj998302-art/GrandHorizonRP-Launcher",
