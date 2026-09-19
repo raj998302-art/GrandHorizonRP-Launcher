@@ -1,1 +1,956 @@
-[{"name":"streams.bpc","path":"files/audio/audiostream/","size":63827068,"date":"1.0.0"},{"name":"GENERIC.bpc","path":"files/audio/samples/","size":7096217,"date":"1.0.0"},{"name":"STEPS.bpc","path":"files/audio/samples/","size":162767,"date":"1.0.0"},{"name":"VEHICLE.bpc","path":"files/audio/samples/","size":60881542,"date":"1.0.0"},{"name":"common.bpc","path":"files/","size":7006226,"date":"1.0.0"},{"name":"gui.bpc","path":"files/","size":2710751,"date":"1.0.0"},{"name":"client-jsons.zip","path":"files/jsons/","size":372215,"date":"1.0.0"},{"name":"client-jsons.zip","path":"files/jsons/en/","size":347832,"date":"1.0.0"},{"name":"client-jsons.zip","path":"files/jsons/pt-br/","size":348126,"date":"1.0.0"},{"name":"launcher.bpc","path":"files/","size":4046406,"date":"1.0.0"},{"name":"BugFix.bpc","path":"files/mesh/","size":550383,"date":"1.0.0"},{"name":"DLC_Casino.bpc","path":"files/mesh/","size":6655426,"date":"1.0.0"},{"name":"DLC_PortJob.bpc","path":"files/mesh/","size":8752900,"date":"1.0.0"},{"name":"Event_9may26.bpc","path":"files/mesh/","size":1089606,"date":"1.0.0"},{"name":"Event_BP23_tfs.bpc","path":"files/mesh/","size":682191,"date":"1.0.0"},{"name":"Event_BP27.bpc","path":"files/mesh/","size":626630,"date":"1.0.0"},{"name":"Event_BP28.bpc","path":"files/mesh/","size":471577,"date":"1.0.0"},{"name":"Event_BP29.bpc","path":"files/mesh/","size":403323,"date":"1.0.0"},{"name":"Event_BP30.bpc","path":"files/mesh/","size":616193,"date":"1.0.0"},{"name":"Event_Cyberfarm.bpc","path":"files/mesh/","size":9661659,"date":"1.0.0"},{"name":"Event_Grom.bpc","path":"files/mesh/","size":348984,"date":"1.0.0"},{"name":"Event_H25.bpc","path":"files/mesh/","size":19114990,"date":"1.0.0"},{"name":"Event_H25_Old.bpc","path":"files/mesh/","size":3133024,"date":"1.0.0"},{"name":"Event_NY26.bpc","path":"files/mesh/","size":31213016,"date":"1.0.0"},{"name":"Event_NY26_Old.bpc","path":"files/mesh/","size":17828300,"date":"1.0.0"},{"name":"Event_Quest1.bpc","path":"files/mesh/","size":4098346,"date":"1.0.0"},{"name":"Event_Quest2.bpc","path":"files/mesh/","size":25621616,"date":"1.0.0"},{"name":"Event_Quest3.bpc","path":"files/mesh/","size":638486,"date":"1.0.0"},{"name":"Event_Quest4.bpc","path":"files/mesh/","size":54267,"date":"1.0.0"},{"name":"Event_Quest_Port_Old.bpc","path":"files/mesh/","size":53573,"date":"1.0.0"},{"name":"Event_Season1.bpc","path":"files/mesh/","size":117315,"date":"1.0.0"},{"name":"Event_Season4.bpc","path":"files/mesh/","size":8234992,"date":"1.0.0"},{"name":"Event_Season5.bpc","path":"files/mesh/","size":934568,"date":"1.0.0"},{"name":"Event_Season6.bpc","path":"files/mesh/","size":761112,"date":"1.0.0"},{"name":"Event_Valentin26.bpc","path":"files/mesh/","size":2529267,"date":"1.0.0"},{"name":"Event_Valentin26_Old.bpc","path":"files/mesh/","size":24213,"date":"1.0.0"},{"name":"Event_World_Cup.bpc","path":"files/mesh/","size":92673,"date":"1.0.0"},{"name":"FTUE.bpc","path":"files/mesh/","size":2321,"date":"1.0.0"},{"name":"Gun_store.bpc","path":"files/mesh/","size":3957859,"date":"1.0.0"},{"name":"Interiors.bpc","path":"files/mesh/","size":5714394,"date":"1.0.0"},{"name":"Level_Garel.bpc","path":"files/mesh/","size":153723955,"date":"1.0.0"},{"name":"Revert_NY26.bpc","path":"files/mesh/","size":3626247,"date":"1.0.0"},{"name":"Roads3-0.bpc","path":"files/mesh/","size":265787680,"date":"1.0.0"},{"name":"br_accessories_01.bpc","path":"files/mesh/","size":13658677,"date":"1.0.0"},{"name":"br_anim.bpc","path":"files/mesh/","size":3800825,"date":"1.0.0"},{"name":"br_bp_events.bpc","path":"files/mesh/","size":15638065,"date":"1.0.0"},{"name":"br_cars_01_nologo.bpc","path":"files/mesh/","size":329101104,"date":"1.0.0"},{"name":"br_collision.bpc","path":"files/mesh/","size":35311443,"date":"1.0.0"},{"name":"br_common.bpc","path":"files/mesh/","size":39017,"date":"1.0.0"},{"name":"br_hotfix.bpc","path":"files/mesh/","size":115314013,"date":"1.0.0"},{"name":"br_legacy_smp.bpc","path":"files/mesh/","size":856942,"date":"1.0.0"},{"name":"br_map_00.bpc","path":"files/mesh/","size":92223133,"date":"1.0.0"},{"name":"br_map_01.bpc","path":"files/mesh/","size":148146154,"date":"1.0.0"},{"name":"br_map_02.bpc","path":"files/mesh/","size":232378259,"date":"1.0.0"},{"name":"br_racetrack.bpc","path":"files/mesh/","size":24209174,"date":"1.0.0"},{"name":"br_skins_01.bpc","path":"files/mesh/","size":154163576,"date":"1.0.0"},{"name":"img_event_item_9may.zip","path":"files/resources/images/accessories/","size":226146,"date":"1.0.0"},{"name":"img_vinyl_9may.zip","path":"files/resources/images/accessories/","size":173108,"date":"1.0.0"},{"name":"bg_start_screen.zip","path":"files/resources/images/backgrounds/","size":3259241,"date":"1.0.0"},{"name":"img_100378.zip","path":"files/resources/images/pictures/","size":219628,"date":"1.0.0"},{"name":"img_case_event20.zip","path":"files/resources/images/pictures/","size":494179,"date":"1.0.0"},{"name":"img_case_event21.zip","path":"files/resources/images/pictures/","size":483200,"date":"1.0.0"},{"name":"launcher.zip","path":"files/resources/video/","size":43958731,"date":"1.0.0"},{"name":"launcher_video.zip","path":"files/resources/video/","size":43958731,"date":"1.0.0"},{"name":"video.zip","path":"files/resources/video/","size":455908753,"date":"1.0.0"},{"name":"BugFix.astc.bpc","path":"files/textures/","size":326171,"date":"1.0.0"},{"name":"BugFix.astc.bpc.tmb","path":"files/textures/","size":1607,"date":"1.0.0"},{"name":"Characters.astc.bpc","path":"files/textures/","size":9311461,"date":"1.0.0"},{"name":"Characters.astc.bpc.tmb","path":"files/textures/","size":16382,"date":"1.0.0"},{"name":"DLC_Casino.astc.bpc","path":"files/textures/","size":13789149,"date":"1.0.0"},{"name":"DLC_Casino.astc.bpc.tmb","path":"files/textures/","size":42530,"date":"1.0.0"},{"name":"DLC_PortJob.astc.bpc","path":"files/textures/","size":3780038,"date":"1.0.0"},{"name":"DLC_PortJob.astc.bpc.tmb","path":"files/textures/","size":9743,"date":"1.0.0"},{"name":"Event_BP23_tfs.astc.bpc","path":"files/textures/","size":704072,"date":"1.0.0"},{"name":"Event_BP23_tfs.astc.bpc.tmb","path":"files/textures/","size":2062,"date":"1.0.0"},{"name":"Event_BP27.astc.bpc","path":"files/textures/","size":770105,"date":"1.0.0"},{"name":"Event_BP27.astc.bpc.tmb","path":"files/textures/","size":4185,"date":"1.0.0"},{"name":"Event_BP28.astc.bpc","path":"files/textures/","size":532538,"date":"1.0.0"},{"name":"Event_BP28.astc.bpc.tmb","path":"files/textures/","size":2484,"date":"1.0.0"},{"name":"Event_BP29.astc.bpc","path":"files/textures/","size":484665,"date":"1.0.0"},{"name":"Event_BP29.astc.bpc.tmb","path":"files/textures/","size":2198,"date":"1.0.0"},{"name":"Event_BP30.astc.bpc","path":"files/textures/","size":765857,"date":"1.0.0"},{"name":"Event_BP30.astc.bpc.tmb","path":"files/textures/","size":4965,"date":"1.0.0"},{"name":"Event_Cyberfarm.astc.bpc","path":"files/textures/","size":10169845,"date":"1.0.0"},{"name":"Event_Cyberfarm.astc.bpc.tmb","path":"files/textures/","size":21839,"date":"1.0.0"},{"name":"Event_Grom.astc.bpc","path":"files/textures/","size":534629,"date":"1.0.0"},{"name":"Event_Grom.astc.bpc.tmb","path":"files/textures/","size":2003,"date":"1.0.0"},{"name":"Event_H25.astc.bpc","path":"files/textures/","size":9871717,"date":"1.0.0"},{"name":"Event_H25.astc.bpc.tmb","path":"files/textures/","size":20132,"date":"1.0.0"},{"name":"Event_NY26.astc.bpc","path":"files/textures/","size":8132281,"date":"1.0.0"},{"name":"Event_NY26.astc.bpc.tmb","path":"files/textures/","size":26716,"date":"1.0.0"},{"name":"Event_Quest1.astc.bpc","path":"files/textures/","size":2262312,"date":"1.0.0"},{"name":"Event_Quest1.astc.bpc.tmb","path":"files/textures/","size":5307,"date":"1.0.0"},{"name":"Event_Quest2.astc.bpc","path":"files/textures/","size":11665799,"date":"1.0.0"},{"name":"Event_Quest2.astc.bpc.tmb","path":"files/textures/","size":35130,"date":"1.0.0"},{"name":"Event_Quest3.astc.bpc","path":"files/textures/","size":329013,"date":"1.0.0"},{"name":"Event_Quest3.astc.bpc.tmb","path":"files/textures/","size":3277,"date":"1.0.0"},{"name":"Event_Quest4.astc.bpc","path":"files/textures/","size":112855,"date":"1.0.0"},{"name":"Event_Quest4.astc.bpc.tmb","path":"files/textures/","size":463,"date":"1.0.0"},{"name":"Event_Season1.astc.bpc","path":"files/textures/","size":192981,"date":"1.0.0"},{"name":"Event_Season1.astc.bpc.tmb","path":"files/textures/","size":679,"date":"1.0.0"},{"name":"Event_Season4.astc.bpc","path":"files/textures/","size":1036058,"date":"1.0.0"},{"name":"Event_Season4.astc.bpc.tmb","path":"files/textures/","size":2957,"date":"1.0.0"},{"name":"Event_Season5.astc.bpc","path":"files/textures/","size":1107929,"date":"1.0.0"},{"name":"Event_Season5.astc.bpc.tmb","path":"files/textures/","size":3896,"date":"1.0.0"},{"name":"Event_Season6.astc.bpc","path":"files/textures/","size":1231928,"date":"1.0.0"},{"name":"Event_Season6.astc.bpc.tmb","path":"files/textures/","size":4842,"date":"1.0.0"},{"name":"Event_Valentin26.astc.bpc","path":"files/textures/","size":1175648,"date":"1.0.0"},{"name":"Event_Valentin26.astc.bpc.tmb","path":"files/textures/","size":2150,"date":"1.0.0"},{"name":"Event_World_Cup.astc.bpc","path":"files/textures/","size":79807,"date":"1.0.0"},{"name":"Event_World_Cup.astc.bpc.tmb","path":"files/textures/","size":701,"date":"1.0.0"},{"name":"Gun_store.astc.bpc","path":"files/textures/","size":4441422,"date":"1.0.0"},{"name":"Gun_store.astc.bpc.tmb","path":"files/textures/","size":9904,"date":"1.0.0"},{"name":"Interiors.astc.bpc","path":"files/textures/","size":29082113,"date":"1.0.0"},{"name":"Interiors.astc.bpc.tmb","path":"files/textures/","size":10017,"date":"1.0.0"},{"name":"Level_Garel.astc.bpc","path":"files/textures/","size":35503254,"date":"1.0.0"},{"name":"Level_Garel.astc.bpc.tmb","path":"files/textures/","size":71547,"date":"1.0.0"},{"name":"Roads3-0.astc.bpc","path":"files/textures/","size":108128610,"date":"1.0.0"},{"name":"Roads3-0.astc.bpc.tmb","path":"files/textures/","size":730729,"date":"1.0.0"},{"name":"br_bp_events.astc.bpc","path":"files/textures/","size":20905614,"date":"1.0.0"},{"name":"br_bp_events.astc.bpc.tmb","path":"files/textures/","size":33931,"date":"1.0.0"},{"name":"br_tex_01.astc.bpc","path":"files/textures/","size":156438957,"date":"1.0.0"},{"name":"br_tex_01.astc.bpc.tmb","path":"files/textures/","size":1319806,"date":"1.0.0"},{"name":"br_tex_02.astc.bpc","path":"files/textures/","size":54785007,"date":"1.0.0"},{"name":"br_tex_02.astc.bpc.tmb","path":"files/textures/","size":156460,"date":"1.0.0"},{"name":"br_tex_LOD_01.astc.bpc","path":"files/textures/","size":35887379,"date":"1.0.0"},{"name":"br_tex_LOD_01.astc.bpc.tmb","path":"files/textures/","size":175177,"date":"1.0.0"},{"name":"br_tex_acc_01.astc.bpc","path":"files/textures/","size":13930648,"date":"1.0.0"},{"name":"br_tex_acc_01.astc.bpc.tmb","path":"files/textures/","size":98848,"date":"1.0.0"},{"name":"br_tex_cars_01_nologo.astc.bpc","path":"files/textures/","size":102515266,"date":"1.0.0"},{"name":"br_tex_cars_01_nologo.astc.bpc.tmb","path":"files/textures/","size":373468,"date":"1.0.0"},{"name":"br_tex_cars_winter.astc.bpc","path":"files/textures/","size":32563,"date":"1.0.0"},{"name":"br_tex_cars_winter.astc.bpc.tmb","path":"files/textures/","size":253,"date":"1.0.0"},{"name":"br_tex_generic.astc.bpc","path":"files/textures/","size":257368,"date":"1.0.0"},{"name":"br_tex_generic.astc.bpc.tmb","path":"files/textures/","size":16750,"date":"1.0.0"},{"name":"br_tex_gui_nologo.astc.bpc","path":"files/textures/","size":57720600,"date":"1.0.0"},{"name":"br_tex_gui_nologo.astc.bpc.tmb","path":"files/textures/","size":367462,"date":"1.0.0"},{"name":"br_tex_interiors.astc.bpc","path":"files/textures/","size":141877434,"date":"1.0.0"},{"name":"br_tex_interiors.astc.bpc.tmb","path":"files/textures/","size":338161,"date":"1.0.0"},{"name":"br_tex_legacy_smp.astc.bpc","path":"files/textures/","size":9572244,"date":"1.0.0"},{"name":"br_tex_legacy_smp.astc.bpc.tmb","path":"files/textures/","size":210574,"date":"1.0.0"},{"name":"br_tex_main.astc.bpc","path":"files/textures/","size":98628779,"date":"1.0.0"},{"name":"br_tex_main.astc.bpc.tmb","path":"files/textures/","size":1003495,"date":"1.0.0"},{"name":"br_tex_mobile.astc.bpc","path":"files/textures/","size":25378860,"date":"1.0.0"},{"name":"br_tex_mobile.astc.bpc.tmb","path":"files/textures/","size":363337,"date":"1.0.0"},{"name":"br_tex_patent.astc.bpc","path":"files/textures/","size":10248113,"date":"1.0.0"},{"name":"br_tex_patent.astc.bpc.tmb","path":"files/textures/","size":69436,"date":"1.0.0"},{"name":"br_tex_racetrack.astc.bpc","path":"files/textures/","size":15457402,"date":"1.0.0"},{"name":"br_tex_racetrack.astc.bpc.tmb","path":"files/textures/","size":51020,"date":"1.0.0"},{"name":"br_tex_skins_01.astc.bpc","path":"files/textures/","size":158292762,"date":"1.0.0"},{"name":"br_tex_skins_01.astc.bpc.tmb","path":"files/textures/","size":627194,"date":"1.0.0"},{"name":"br_tex_txd.astc.bpc","path":"files/textures/","size":4734302,"date":"1.0.0"},{"name":"br_tex_txd.astc.bpc.tmb","path":"files/textures/","size":125390,"date":"1.0.0"},{"name":"br_tex_uzniy.astc.bpc","path":"files/textures/","size":26426508,"date":"1.0.0"},{"name":"br_tex_uzniy.astc.bpc.tmb","path":"files/textures/","size":66967,"date":"1.0.0"},{"name":"event_9may_25.astc.bpc","path":"files/textures/","size":1818190,"date":"1.0.0"},{"name":"event_9may_25.astc.bpc.tmb","path":"files/textures/","size":2956,"date":"1.0.0"},{"name":"gui_textures.astc.bpc","path":"files/textures/","size":488508820,"date":"1.0.0"},{"name":"gui_textures.astc.bpc.tmb","path":"files/textures/","size":936041,"date":"1.0.0"}]
+[
+  {
+    "name": "streams.bpc",
+    "path": "files/audio/audiostream/",
+    "size": 63827068,
+    "date": "1.0.0"
+  },
+  {
+    "name": "GENERIC.bpc",
+    "path": "files/audio/samples/",
+    "size": 7096217,
+    "date": "1.0.0"
+  },
+  {
+    "name": "STEPS.bpc",
+    "path": "files/audio/samples/",
+    "size": 162767,
+    "date": "1.0.0"
+  },
+  {
+    "name": "VEHICLE.bpc",
+    "path": "files/audio/samples/",
+    "size": 60881542,
+    "date": "1.0.0"
+  },
+  {
+    "name": "common.bpc",
+    "path": "files/",
+    "size": 7006226,
+    "date": "1.0.0"
+  },
+  {
+    "name": "gui.bpc",
+    "path": "files/",
+    "size": 2710751,
+    "date": "1.0.0"
+  },
+  {
+    "name": "client-jsons.zip",
+    "path": "files/jsons/",
+    "size": 372215,
+    "date": "1.0.0"
+  },
+  {
+    "name": "client-jsons.zip",
+    "path": "files/jsons/en/",
+    "size": 347739,
+    "date": "1.0.0"
+  },
+  {
+    "name": "client-jsons.zip",
+    "path": "files/jsons/pt-br/",
+    "size": 348126,
+    "date": "1.0.0"
+  },
+  {
+    "name": "launcher.bpc",
+    "path": "files/",
+    "size": 4046406,
+    "date": "1.0.0"
+  },
+  {
+    "name": "BugFix.bpc",
+    "path": "files/mesh/",
+    "size": 550383,
+    "date": "1.0.0"
+  },
+  {
+    "name": "DLC_Casino.bpc",
+    "path": "files/mesh/",
+    "size": 6655426,
+    "date": "1.0.0"
+  },
+  {
+    "name": "DLC_PortJob.bpc",
+    "path": "files/mesh/",
+    "size": 8752900,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_9may26.bpc",
+    "path": "files/mesh/",
+    "size": 1089606,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_BP23_tfs.bpc",
+    "path": "files/mesh/",
+    "size": 682191,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_BP27.bpc",
+    "path": "files/mesh/",
+    "size": 626630,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_BP28.bpc",
+    "path": "files/mesh/",
+    "size": 471577,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_BP29.bpc",
+    "path": "files/mesh/",
+    "size": 403323,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_BP30.bpc",
+    "path": "files/mesh/",
+    "size": 616193,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Cyberfarm.bpc",
+    "path": "files/mesh/",
+    "size": 9661659,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Grom.bpc",
+    "path": "files/mesh/",
+    "size": 348984,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_H25.bpc",
+    "path": "files/mesh/",
+    "size": 19114990,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_H25_Old.bpc",
+    "path": "files/mesh/",
+    "size": 3133024,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_NY26.bpc",
+    "path": "files/mesh/",
+    "size": 31213016,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_NY26_Old.bpc",
+    "path": "files/mesh/",
+    "size": 17828300,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Quest1.bpc",
+    "path": "files/mesh/",
+    "size": 4098346,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Quest2.bpc",
+    "path": "files/mesh/",
+    "size": 25621616,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Quest3.bpc",
+    "path": "files/mesh/",
+    "size": 638486,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Quest4.bpc",
+    "path": "files/mesh/",
+    "size": 54267,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Quest_Port_Old.bpc",
+    "path": "files/mesh/",
+    "size": 53573,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Season1.bpc",
+    "path": "files/mesh/",
+    "size": 117315,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Season4.bpc",
+    "path": "files/mesh/",
+    "size": 8234992,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Season5.bpc",
+    "path": "files/mesh/",
+    "size": 934568,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Season6.bpc",
+    "path": "files/mesh/",
+    "size": 761112,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Valentin26.bpc",
+    "path": "files/mesh/",
+    "size": 2529267,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Valentin26_Old.bpc",
+    "path": "files/mesh/",
+    "size": 24213,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_World_Cup.bpc",
+    "path": "files/mesh/",
+    "size": 92673,
+    "date": "1.0.0"
+  },
+  {
+    "name": "FTUE.bpc",
+    "path": "files/mesh/",
+    "size": 2321,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Gun_store.bpc",
+    "path": "files/mesh/",
+    "size": 3957859,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Interiors.bpc",
+    "path": "files/mesh/",
+    "size": 5714394,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Level_Garel.bpc",
+    "path": "files/mesh/",
+    "size": 153723955,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Revert_NY26.bpc",
+    "path": "files/mesh/",
+    "size": 3626247,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Roads3-0.bpc",
+    "path": "files/mesh/",
+    "size": 265787680,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_accessories_01.bpc",
+    "path": "files/mesh/",
+    "size": 13658677,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_anim.bpc",
+    "path": "files/mesh/",
+    "size": 3800825,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_bp_events.bpc",
+    "path": "files/mesh/",
+    "size": 15638065,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_cars_01_nologo.bpc",
+    "path": "files/mesh/",
+    "size": 329101104,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_collision.bpc",
+    "path": "files/mesh/",
+    "size": 35311443,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_common.bpc",
+    "path": "files/mesh/",
+    "size": 39017,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_hotfix.bpc",
+    "path": "files/mesh/",
+    "size": 115314013,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_legacy_smp.bpc",
+    "path": "files/mesh/",
+    "size": 856942,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_map_00.bpc",
+    "path": "files/mesh/",
+    "size": 92223133,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_map_01.bpc",
+    "path": "files/mesh/",
+    "size": 148146154,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_map_02.bpc",
+    "path": "files/mesh/",
+    "size": 232378259,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_racetrack.bpc",
+    "path": "files/mesh/",
+    "size": 24209174,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_skins_01.bpc",
+    "path": "files/mesh/",
+    "size": 154163576,
+    "date": "1.0.0"
+  },
+  {
+    "name": "img_event_item_9may.zip",
+    "path": "files/resources/images/accessories/",
+    "size": 226146,
+    "date": "1.0.0"
+  },
+  {
+    "name": "img_vinyl_9may.zip",
+    "path": "files/resources/images/accessories/",
+    "size": 173108,
+    "date": "1.0.0"
+  },
+  {
+    "name": "bg_start_screen.zip",
+    "path": "files/resources/images/backgrounds/",
+    "size": 3259241,
+    "date": "1.0.0"
+  },
+  {
+    "name": "img_100378.zip",
+    "path": "files/resources/images/pictures/",
+    "size": 219628,
+    "date": "1.0.0"
+  },
+  {
+    "name": "img_case_event20.zip",
+    "path": "files/resources/images/pictures/",
+    "size": 494179,
+    "date": "1.0.0"
+  },
+  {
+    "name": "img_case_event21.zip",
+    "path": "files/resources/images/pictures/",
+    "size": 483200,
+    "date": "1.0.0"
+  },
+  {
+    "name": "launcher.zip",
+    "path": "files/resources/video/",
+    "size": 43958731,
+    "date": "1.0.0"
+  },
+  {
+    "name": "launcher_video.zip",
+    "path": "files/resources/video/",
+    "size": 43958731,
+    "date": "1.0.0"
+  },
+  {
+    "name": "video.zip",
+    "path": "files/resources/video/",
+    "size": 455908753,
+    "date": "1.0.0"
+  },
+  {
+    "name": "BugFix.astc.bpc",
+    "path": "files/textures/",
+    "size": 326171,
+    "date": "1.0.0"
+  },
+  {
+    "name": "BugFix.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 1607,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Characters.astc.bpc",
+    "path": "files/textures/",
+    "size": 9311461,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Characters.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 16382,
+    "date": "1.0.0"
+  },
+  {
+    "name": "DLC_Casino.astc.bpc",
+    "path": "files/textures/",
+    "size": 13789149,
+    "date": "1.0.0"
+  },
+  {
+    "name": "DLC_Casino.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 42530,
+    "date": "1.0.0"
+  },
+  {
+    "name": "DLC_PortJob.astc.bpc",
+    "path": "files/textures/",
+    "size": 3780038,
+    "date": "1.0.0"
+  },
+  {
+    "name": "DLC_PortJob.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 9743,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_BP23_tfs.astc.bpc",
+    "path": "files/textures/",
+    "size": 704072,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_BP23_tfs.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 2062,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_BP27.astc.bpc",
+    "path": "files/textures/",
+    "size": 770105,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_BP27.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 4185,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_BP28.astc.bpc",
+    "path": "files/textures/",
+    "size": 532538,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_BP28.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 2484,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_BP29.astc.bpc",
+    "path": "files/textures/",
+    "size": 484665,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_BP29.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 2198,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_BP30.astc.bpc",
+    "path": "files/textures/",
+    "size": 765857,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_BP30.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 4965,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Cyberfarm.astc.bpc",
+    "path": "files/textures/",
+    "size": 10169845,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Cyberfarm.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 21839,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Grom.astc.bpc",
+    "path": "files/textures/",
+    "size": 534629,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Grom.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 2003,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_H25.astc.bpc",
+    "path": "files/textures/",
+    "size": 9871717,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_H25.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 20132,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_NY26.astc.bpc",
+    "path": "files/textures/",
+    "size": 8132281,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_NY26.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 26716,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Quest1.astc.bpc",
+    "path": "files/textures/",
+    "size": 2262312,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Quest1.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 5307,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Quest2.astc.bpc",
+    "path": "files/textures/",
+    "size": 11665799,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Quest2.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 35130,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Quest3.astc.bpc",
+    "path": "files/textures/",
+    "size": 329013,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Quest3.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 3277,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Quest4.astc.bpc",
+    "path": "files/textures/",
+    "size": 112855,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Quest4.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 463,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Season1.astc.bpc",
+    "path": "files/textures/",
+    "size": 192981,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Season1.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 679,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Season4.astc.bpc",
+    "path": "files/textures/",
+    "size": 1036058,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Season4.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 2957,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Season5.astc.bpc",
+    "path": "files/textures/",
+    "size": 1107929,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Season5.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 3896,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Season6.astc.bpc",
+    "path": "files/textures/",
+    "size": 1231928,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Season6.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 4842,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Valentin26.astc.bpc",
+    "path": "files/textures/",
+    "size": 1175648,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_Valentin26.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 2150,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_World_Cup.astc.bpc",
+    "path": "files/textures/",
+    "size": 79807,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Event_World_Cup.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 701,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Gun_store.astc.bpc",
+    "path": "files/textures/",
+    "size": 4441422,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Gun_store.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 9904,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Interiors.astc.bpc",
+    "path": "files/textures/",
+    "size": 29082113,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Interiors.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 10017,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Level_Garel.astc.bpc",
+    "path": "files/textures/",
+    "size": 35503254,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Level_Garel.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 71547,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Roads3-0.astc.bpc",
+    "path": "files/textures/",
+    "size": 108128610,
+    "date": "1.0.0"
+  },
+  {
+    "name": "Roads3-0.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 730729,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_bp_events.astc.bpc",
+    "path": "files/textures/",
+    "size": 20905614,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_bp_events.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 33931,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_01.astc.bpc",
+    "path": "files/textures/",
+    "size": 156438957,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_01.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 1319806,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_02.astc.bpc",
+    "path": "files/textures/",
+    "size": 54785007,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_02.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 156460,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_LOD_01.astc.bpc",
+    "path": "files/textures/",
+    "size": 35887379,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_LOD_01.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 175177,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_acc_01.astc.bpc",
+    "path": "files/textures/",
+    "size": 13930648,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_acc_01.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 98848,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_cars_01_nologo.astc.bpc",
+    "path": "files/textures/",
+    "size": 102515266,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_cars_01_nologo.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 373468,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_cars_winter.astc.bpc",
+    "path": "files/textures/",
+    "size": 32563,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_cars_winter.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 253,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_generic.astc.bpc",
+    "path": "files/textures/",
+    "size": 257368,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_generic.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 16750,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_gui_nologo.astc.bpc",
+    "path": "files/textures/",
+    "size": 57720600,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_gui_nologo.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 367462,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_interiors.astc.bpc",
+    "path": "files/textures/",
+    "size": 141877434,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_interiors.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 338161,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_legacy_smp.astc.bpc",
+    "path": "files/textures/",
+    "size": 9572244,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_legacy_smp.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 210574,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_main.astc.bpc",
+    "path": "files/textures/",
+    "size": 98628779,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_main.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 1003495,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_mobile.astc.bpc",
+    "path": "files/textures/",
+    "size": 25378860,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_mobile.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 363337,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_patent.astc.bpc",
+    "path": "files/textures/",
+    "size": 10248113,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_patent.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 69436,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_racetrack.astc.bpc",
+    "path": "files/textures/",
+    "size": 15457402,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_racetrack.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 51020,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_skins_01.astc.bpc",
+    "path": "files/textures/",
+    "size": 158292762,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_skins_01.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 627194,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_txd.astc.bpc",
+    "path": "files/textures/",
+    "size": 4734302,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_txd.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 125390,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_uzniy.astc.bpc",
+    "path": "files/textures/",
+    "size": 26426508,
+    "date": "1.0.0"
+  },
+  {
+    "name": "br_tex_uzniy.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 66967,
+    "date": "1.0.0"
+  },
+  {
+    "name": "event_9may_25.astc.bpc",
+    "path": "files/textures/",
+    "size": 1818190,
+    "date": "1.0.0"
+  },
+  {
+    "name": "event_9may_25.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 2956,
+    "date": "1.0.0"
+  },
+  {
+    "name": "gui_textures.astc.bpc",
+    "path": "files/textures/",
+    "size": 488508820,
+    "date": "1.0.0"
+  },
+  {
+    "name": "gui_textures.astc.bpc.tmb",
+    "path": "files/textures/",
+    "size": 936041,
+    "date": "1.0.0"
+  }
+]
