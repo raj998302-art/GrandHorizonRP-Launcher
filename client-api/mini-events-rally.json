@@ -1,7 +1,7 @@
 ﻿{
 	"id": 3,
-    "name": "Автопробег",
-    "gpsBtnText": "Автопробег",
+    "name": "Road Rally",
+    "gpsBtnText": "Road Rally",
     
      "npcSpawn":
     {
@@ -46,15 +46,15 @@
             [1793.70, 2540.35, 14.74, 1.63]
         ],
 
-        "npcSpawnName": "{FFFF00}Луна - Автопробег\n{FFFFFF}До {FFFF00}%s\n{FFFFFF}Подойти для {FFFF00}взаимодействия",
-        "npcSpawnNameWithLimits": "{FFFF00}Луна - Автопробег\n{FFFFFF}До {FFFF00}%s\n{FFFFFF}Подойти для {FFFF00}взаимодействия\n{FFFFFF}Лимит сбросится в {FFFF00}5:00 МСК",
+        "npcSpawnName": "{FFFF00}Luna - Road Rally\n{FFFFFF}Until {FFFF00}%s\n{FFFFFF}Approach for {FFFF00}interaction",
+        "npcSpawnNameWithLimits": "{FFFF00}Luna - Road Rally\n{FFFFFF}Until {FFFF00}%s\n{FFFFFF}Approach for {FFFF00}interaction\n{FFFFFF}The limit will reset at {FFFF00}5:00 MSK",
 
         "npcSpawnDialog": 
         [
             {
                 "id": 1,
-                "title": "Луна",
-                "description": "Хей!<br>У нас проходит состязание среди самых топовых тачек области!<br>Хочешь принять участие или узнать об этом подробнее?<br><br><font color='#ffff00'>Осталось времени на заезд: %s</font>",
+                "title": "Moon",
+                "description": "Hey!<br>We are holding a competition among the region's top cars!<br>Want to participate or learn more about it?<br><br><font color='#ffff00'>Time left for your run: %s</font>",
                 "speaker": 
                 {
                     "type": "npc",
@@ -64,19 +64,19 @@
                 "buttons": 
                 [
                     {
-                    "name": "Закрыть",
+                    "name": "Close",
                     "color": 3
                     },
                     {
-                    "name": "Правила",
+                    "name": "Rules",
                     "color": 2
                     },
                     {
-                    "name": "Лидерборд",
+                    "name": "Leaderboard",
                     "color": 2
                     },
                     {
-                    "name": "Начать заезд",
+                    "name": "Start run",
                     "color": 1
                     }
                 ],
@@ -84,8 +84,8 @@
             },
            	{
                 "id": 2,
-                "title": "Луна",
-                "description": "Оу, все предоставленное тебе время уже потрачено?!<br> Что ж, приходи после 5 утра, я тебе еще накину — гоняй в удовольствие!<br><br><font color='#ffff00'>Время к таймеру будет добавлено после 5:00 МСК.</font>",
+                "title": "Moon",
+                "description": "Oh, have you already used up all the time given to you?!<br> Well, come back after 5 AM, and I will add more for you — drive to your heart's content!<br><br><font color='#ffff00'>Time will be added to the timer after 5:00 MSK.</font>",
                 "speaker": 
                 {
                     "type": "npc",
@@ -95,15 +95,15 @@
                 "buttons": 
                 [
                     {
-                    "name": "Закрыть",
+                    "name": "Close",
                     "color": 3
                     },
                     {
-                    "name": "Правила",
+                    "name": "Rules",
                     "color": 2
                     },
                     {
-                    "name": "Лидерборд",
+                    "name": "Leaderboard",
                     "color": 2
                     }
                 ],
@@ -111,8 +111,8 @@
             },
             {
                 "id": 3,
-                "title": "Луна",
-                "description": "Эй, ты же участвуешь в гонке! Таймер тикает! Вернись в свою тачку!",
+                "title": "Moon",
+                "description": "Hey, you are participating in the race! The timer is ticking! Get back in your car!",
                 "speaker": 
                 {
                     "type": "npc",
@@ -121,7 +121,7 @@
                 "sound": "Event/npc-003.ogg",
                 "buttons": 
                 [{
-                    "name": "Закрыть",
+                    "name": "Close",
                     "color": 3
                 }],
                 "is_last": true
@@ -132,30 +132,30 @@
 		"hintGpsButton": 
 			{
 				"id": 1,
-				"comment": "Стартовая подсказка с GPS кнопкой",
-				"header": "Автопробег",
-				"text": "Прими участие в <font color='#ffff00'>“Автопробеге”</font>, попади в топ и получи награды!<br><font color='#ffff00'>До %s</font>",
-				"button": "Отметить на карте",
+				"comment": "Starting hint with GPS button",
+				"header": "Road Rally",
+				"text": "Take part in the <font color='#ffff00'>“Road Rally”</font>, make it into the top, and get rewards!<br><font color='#ffff00'>Until %s</font>",
+				"button": "Mark on map",
 				"timerOnline": 20
 			},
 			
 			"hintLevel": 
 			{
          "minLevel": 3,
-         "text": "Необходим 3 уровень"
+         "text": "Level 3 required"
       },
 	
 	"sideHints":
 	      [
 		      {
 			      "id":1,
-			      "comment": "Боковая подсказка о выезде из стартовой зоны. Спавнится после появления игрока в стартовой зоне. После выезда из стартовой зоны автоматически скрывается",
-			      "text": "Покинь стартовую зону! У тебя есть %d с до дисквалификации."
+			      "comment": "Side hint about leaving the starting zone. Spawns after the player appears in the starting zone. Automatically hides after leaving the starting zone",
+			      "text": "Leave the starting zone! You have %d s before disqualification."
 		      },
 		      {
 			      "id":2,
-			      "comment": "Боковая подсказка, когда игрок выходит из ТС во время заезда, если игрок успел вернуться, то автоматически скрываем ",
-			      "text": "Вернись в ТС, или заезд будет завершен через %d c."
+			      "comment": "Side hint when the player exits the vehicle during a run; if the player manages to return, hide it automatically ",
+			      "text": "Return to the vehicle, or the run will end in %d s."
 		      }
 	      ],
 	      
@@ -163,23 +163,23 @@
 	      [
 		      {
 			      "id":1,
-			      "comment": "клиентское уведомление, игрок не успел покинуть стартовую зону и заезд завершился",
-			      "text": "Ты не успел покинуть стартовую зону и заезд был завершен. Поговори с Луной, чтобы начать заезд."
+			      "comment": "client notification, the player did not manage to leave the starting zone and the run ended",
+			      "text": "You did not manage to leave the starting zone, and the run was ended. Talk to Luna to start a run."
 		      },
 		      {
 			      "id":2,
-			      "comment": "клиентское уведомление, когда начинается заезд - игрок покидает зону старта",
-			      "text": "Заезд начался! Покажи свой лучший результат!"
+			      "comment": "client notification when the run starts - the player leaves the starting zone",
+			      "text": "The run has started! Show your best result!"
 		      },
 		      {
 			      "id":3,
-			      "comment": "клиентское уведомление, игрок не успел вернуться в ТС во время заезда и заезд был завершен",
-			      "text": "Ты покинул ТС, и заезд был завершен. Поговори с Луной, чтобы начать заезд."
+			      "comment": "client notification, the player did not manage to return to the vehicle during the run and the run ended",
+			      "text": "You left the vehicle, and the run was ended. Talk to Luna to start a run."
 		      },
 		      {
 			      "id":4,
-			      "comment": "клиентское уведомление, Когда у основного таймера в заезде остается 15 сек",
-			      "text": "Осталось 15 секунд, поднажми!"
+			      "comment": "client notification when 15 sec remain on the main timer during the run",
+			      "text": "15 seconds left, push harder!"
 		      }
 	      ],
 	      
@@ -187,22 +187,22 @@
 	      	[
 	      		{
 				      "id":1,
-				      "comment": "клиентское уведомление, когда заезд завершается после окончания основного таймера или по решению игрока -команда или кнопка в HUD",
-				      "text": "Заезд завершен, твой результат %.2f км",
-				      "button": "Лидерборд"
+				      "comment": "client notification when the run ends after the main timer expires or by the player's decision - command or button in HUD",
+				      "text": "Run finished, your result is %.2f km",
+				      "button": "Leaderboard"
 			    }
 		    ],
 	      
 		 "oldHudModal": 
 		 {
-					"text": "Старый движок интерфейса не поддерживается в данном событии. Переключись на новый движок для улучшенного игрового опыта",
-					"btnConfirm": "Переключить",
-					"btnReject": "Нет" 
+					"text": "The old interface engine is not supported in this event. Switch to the new engine for an improved gameplay experience",
+					"btnConfirm": "Switch",
+					"btnReject": "No" 
 			},
 			
-		"oldHudMessage": "Для завершения заезда используй команду /finish",
+		"oldHudMessage": "To finish the run, use the command /finish",
       
-     "confirmModalText": "Уверен, что хочешь завершить заезд? Остаток времени на таймере сохранится.",
+     "confirmModalText": "Are you sure you want to finish the run? The remaining time on the timer will be saved.",
    
    
     "timerDaily": 600,

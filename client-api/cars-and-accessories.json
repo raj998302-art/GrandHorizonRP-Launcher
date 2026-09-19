@@ -2,23 +2,23 @@
   "lowClass": [
     {
       "id": 1,
-      "name": "ЗАЗ 968M",
-      "name_store": "АЗ 968"
+      "name": "ZAZ 968M",
+      "name_store": "AZ 968"
     },
     {
       "id": 2,
-      "name": "ВАЗ 1111",
-      "name_store": "АЗ 1111"
+      "name": "VAZ 1111",
+      "name_store": "AZ 1111"
     },
     {
       "id": 3,
-      "name": "ВАЗ 2101",
-      "name_store": "Копейка"
+      "name": "VAZ 2101",
+      "name_store": "Kopeika"
     },
     {
       "id": 4,
-      "name": "Волга 2410",
-      "name_store": "АЗ 2140"
+      "name": "Volga 2410",
+      "name_store": "AZ 2140"
     },
     {
       "id": 5,
@@ -27,18 +27,18 @@
     },
     {
       "id": 6,
-      "name": "ВАЗ 2107",
-      "name_store": "Семерка"
+      "name": "VAZ 2107",
+      "name_store": "Seven"
     },
     {
       "id": 7,
-      "name": "ВАЗ 2114",
-      "name_store": "Четырка"
+      "name": "VAZ 2114",
+      "name_store": "Four"
     },
     {
       "id": 8,
-      "name": "ВАЗ 2115",
-      "name_store": "Пятнашка"
+      "name": "VAZ 2115",
+      "name_store": "Pyatnashka"
     },
     {
       "id": 9,
@@ -47,8 +47,8 @@
     },
     {
       "id": 10,
-      "name": "LADA Приора",
-      "name_store": "АЗ 2170"
+      "name": "LADA Priora",
+      "name_store": "AZ 2170"
     },
     {
       "id": 11,
@@ -57,8 +57,8 @@
     },
     {
       "id": 12,
-      "name": "Нива Urban",
-      "name_store": "Родина 4x4"
+      "name": "Niva Urban",
+      "name_store": "Motherland 4x4"
     },
     {
       "id": 13,
@@ -93,7 +93,7 @@
     {
       "id": 19,
       "name": "Lada Granta",
-      "name_store": "АЗ Граната"
+      "name_store": "AZ Grenade"
     }
   ],
   "middleClass": [
@@ -154,7 +154,7 @@
     },
     {
       "id": 12,
-      "name": "UAZ Patriot (Пикап)",
+      "name": "UAZ Patriot (Pickup)",
       "name_store": "Motherland Pickup"
     },
     {
@@ -247,7 +247,7 @@
     {
       "id": 3,
       "name": "BMW Z4 M40i",
-      "name_store": "Boomer 4 Кабриолет"
+      "name_store": "Boomer 4 Convertible"
     },
     {
       "id": 4,
@@ -286,7 +286,7 @@
     },
     {
       "id": 11,
-      "name": "Cadillac Escalade (Старый)",
+      "name": "Cadillac Escalade (Old)",
       "name_store": "Escaludore"
     },
     {
@@ -311,7 +311,7 @@
     },
     {
       "id": 16,
-      "name": "Audi RS6 (Дорест)",
+      "name": "Audi RS6 (Pre-restyling)",
       "name_store": "Aura Road 6"
     },
     {
@@ -341,7 +341,7 @@
     },
     {
       "id": 22,
-      "name": "Audi RS6 (Рест)",
+      "name": "Audi RS6 (Restyling)",
       "name_store": "Aura Road 6 C7"
     },
     {
@@ -478,7 +478,7 @@
   "motoClass": [
     {
       "id": 1,
-      "name": "Скутер",
+      "name": "Scooter",
       "name_store": "Moto Light"
     },
     {
@@ -525,33 +525,33 @@
   "uniqueClass": [
     {
       "id": 1,
-      "name": "Mercedes-Benz СМИ",
-      "name_store": "M Sprint ГТРК"
+      "name": "Mercedes-Benz MEDIA",
+      "name_store": "M Sprint GTRK"
     },
     {
       "id": 2,
-      "name": "LADA Приора (ППС)",
-      "name_store": "АЗ 2170 ППС"
+      "name": "LADA Priora (PPS)",
+      "name_store": "AZ 2170 PPS"
     },
     {
       "id": 3,
-      "name": "ГАЗ ТИГР",
-      "name_store": "АЗ Тигр"
+      "name": "GAZ TIGR",
+      "name_store": "AZ Tigr"
     },
     {
       "id": 4,
-      "name": "Mercedes-Benz СКОРАЯ",
-      "name_store": "M Sprint СМП"
+      "name": "Mercedes-Benz AMBULANCE",
+      "name_store": "M Sprint SMP"
     },
     {
       "id": 5,
-      "name": "Volkswagen Jetta (ППС)",
-      "name_store": "Gretta ППС"
+      "name": "Volkswagen Jetta (PPS)",
+      "name_store": "Gretta PPS"
     },
     {
       "id": 6,
-      "name": "BMW M5 F90 (ППС)",
-      "name_store": "Boomer 5 F90 ППС"
+      "name": "BMW M5 F90 (PPS)",
+      "name_store": "Boomer 5 F90 PPS"
     },
     {
       "id": 7,
@@ -580,130 +580,130 @@
     },
     {
       "id": 12,
-      "name": "ГАЗ-69",
-      "name_store": "АЗ 69"
+      "name": "GAZ-69",
+      "name_store": "AZ 69"
     }
   ],
   "accessories": [
     {
       "id": 1,
-      "name": "Рюкзак LV",
-      "name_store": "Рюкзак"
+      "name": "Backpack LV",
+      "name_store": "Backpack"
     },
     {
       "id": 2,
-      "name": "Рюкзак Nike(желтый)",
-      "name_store": "Рюкзак Желтый"
+      "name": "Backpack Nike(yellow)",
+      "name_store": "Backpack Yellow"
     },
     {
       "id": 3,
-      "name": "Рюкзак Puma(фиолетовый)",
-      "name_store": "Рюкзак Фиолетовый"
+      "name": "Backpack Puma(purple)",
+      "name_store": "Backpack Purple"
     },
     {
       "id": 4,
-      "name": "Поясная сумка Gucci",
-      "name_store": "Поясная сумка"
+      "name": "Gucci waist bag",
+      "name_store": "Waist bag"
     },
     {
       "id": 5,
-      "name": "Спортивная сумка Supreme",
-      "name_store": "Спортивная сумка красная"
+      "name": "Supreme sports bag",
+      "name_store": "Red sports bag"
     },
     {
       "id": 6,
-      "name": "Рюкзак Gucci(разноцветный)",
-      "name_store": "Рюкзак разноцветный"
+      "name": "Backpack Gucci(multicolored)",
+      "name_store": "Multicolored backpack"
     },
     {
       "id": 7,
-      "name": "Сумка Gucci(с павлином)",
-      "name_store": "Сумка с павлином"
+      "name": "Bag Gucci(with peacock)",
+      "name_store": "Bag with peacock"
     },
     {
       "id": 8,
-      "name": "Кепка Gucci(красная)",
-      "name_store": "Кепка красная"
+      "name": "Gucci cap(red)",
+      "name_store": "Red cap"
     },
     {
       "id": 9,
-      "name": "Кепка Россия(белая)"
+      "name": "Russia cap(white)"
     },
     {
       "id": 10,
-      "name": "Кепка Спартак(белая)"
+      "name": "Spartak cap(white)"
     },
     {
       "id": 11,
-      "name": "Кепка GrandHorizonRP(черная)"
+      "name": "GrandHorizonRP cap(black)"
     },
     {
       "id": 12,
-      "name": "Кепка ЦСКА(черная)"
+      "name": "CSKA cap(black)"
     },
     {
       "id": 13,
-      "name": "Авиаторы с фиол. линзами"
+      "name": "Aviators with purple lenses"
     },
     {
       "id": 14,
-      "name": "Маленькие авиаторы с фиол. линзами"
+      "name": "Small aviators with purple lenses"
     },
     {
       "id": 15,
-      "name": "Черные очки с черными линзами"
+      "name": "Black glasses with black lenses"
     },
     {
       "id": 16,
-      "name": "Маленькие авиаторы с черными линзами"
+      "name": "Small aviators with black lenses"
     },
     {
       "id": 17,
-      "name": "Черные очки с прозрачными линзами"
+      "name": "Black glasses with clear lenses"
     },
     {
       "id": 18,
-      "name": "Поясная сумка Nike",
-      "name_store": "Поясная сумка"
+      "name": "Nike waist bag",
+      "name_store": "Waist bag"
     },
     {
       "id": 19,
-      "name": "Поясная сумка TheNorthFace",
-      "name_store": "Поясная сумка"
+      "name": "TheNorthFace waist bag",
+      "name_store": "Waist bag"
     },
     {
       "id": 20,
-      "name": "Поясная сумка LV",
-      "name_store": "Поясная сумка"
+      "name": "LV waist bag",
+      "name_store": "Waist bag"
     },
     {
       "id": 21,
-      "name": "Apple Watch 5 series (черные)",
-      "name_store": "Часы черные"
+      "name": "Apple Watch 5 series (black)",
+      "name_store": "Black watch"
     },
     {
       "id": 22,
-      "name": "Apple Watch 5 series (белые)",
-      "name_store": "Часы белые"
+      "name": "Apple Watch 5 series (white)",
+      "name_store": "White watch"
     },
     {
       "id": 23,
-      "name": "Часы 'Silver Casio'",
-      "name_store": "Часы серебряные"
+      "name": "'Silver Casio' watch",
+      "name_store": "Silver watch"
     },
     {
       "id": 24,
-      "name": "Часы 'Black Casio'",
-      "name_store": "Часы черные"
+      "name": "'Black Casio' watch",
+      "name_store": "Black watch"
     },
     {
       "id": 25,
-      "name": "Часы 'Gold Casio'",
-      "name_store": "Часы золотые"
+      "name": "'Gold Casio' watch",
+      "name_store": "Gold watch"
     },
     {
       "id": 26,
-      "name": "Акустическая гитара"
+      "name": "Acoustic guitar"
     },
     {
       "id": 27,
@@ -715,927 +715,927 @@
     },
     {
       "id": 29,
-      "name": "Скейт Tony Hawk",
-      "name_store": "Скейт"
+      "name": "Skateboard Tony Hawk",
+      "name_store": "Skateboard"
     },
     {
       "id": 30,
-      "name": "Скейт HooPla",
-      "name_store": "Скейт"
+      "name": "Skateboard HooPla",
+      "name_store": "Skateboard"
     },
     {
       "id": 31,
-      "name": "Доска - скейтборд"
+      "name": "Board - skateboard"
     },
     {
       "id": 32,
-      "name": "Скейт Rise",
-      "name_store": "Скейт"
+      "name": "Skateboard Rise",
+      "name_store": "Skateboard"
     },
     {
       "id": 33,
-      "name": "Женская сумка (черная)"
+      "name": "Women's bag (black)"
     },
     {
       "id": 34,
-      "name": "Женская сумка (оранжевая)"
+      "name": "Women's bag (orange)"
     },
     {
       "id": 35,
-      "name": "Женская сумка (красная)"
+      "name": "Women's bag (red)"
     },
     {
       "id": 36,
-      "name": "Женская сумка (голубая)"
+      "name": "Women's bag (blue)"
     },
     {
       "id": 37,
-      "name": "Женская сумка (зеленая)"
+      "name": "Women's bag (green)"
     },
     {
       "id": 38,
-      "name": "Женская сумка (фиолетовая)"
+      "name": "Women's bag (purple)"
     },
     {
       "id": 39,
-      "name": "Маска 'Black Cute'"
+      "name": "'Black Cute' Mask"
     },
     {
       "id": 40,
-      "name": "Маска 'White Cute'"
+      "name": "'White Cute' Mask"
     },
     {
       "id": 41,
-      "name": "Маска 'Anti Social Club'"
+      "name": "'Anti Social Club' Mask"
     },
     {
       "id": 42,
-      "name": "Маска 'Purple Smile'"
+      "name": "'Purple Smile' Mask"
     },
     {
       "id": 43,
-      "name": "Маска 'Red Smile'"
+      "name": "'Red Smile' Mask"
     },
     {
       "id": 44,
-      "name": "Маска 'Black Smile'"
+      "name": "'Black Smile' Mask"
     },
     {
       "id": 45,
-      "name": "Белая маска"
+      "name": "White mask"
     },
     {
       "id": 46,
-      "name": "Черная маска"
+      "name": "Black mask"
     },
     {
       "id": 47,
-      "name": "Сумка Gucci(с павлином)",
-      "name_store": "Сумка с павлином"
+      "name": "Bag Gucci(with peacock)",
+      "name_store": "Bag with peacock"
     },
     {
       "id": 48,
-      "name": "GrandHorizonRP маска (черная)"
+      "name": "GrandHorizonRP mask (black)"
     },
     {
       "id": 49,
-      "name": "GrandHorizonRP маска (белая)"
+      "name": "GrandHorizonRP mask (white)"
     },
     {
       "id": 50,
-      "name": "Фиолетовая призрачная кепка"
+      "name": "Purple ghost cap"
     },
     {
       "id": 51,
-      "name": "Красная призрачная кепка"
+      "name": "Red ghost cap"
     },
     {
       "id": 52,
-      "name": "Голубая призрачная кепка"
+      "name": "Blue ghost cap"
     },
     {
       "id": 53,
-      "name": "Рюкзак 'Scared Smile' (Голубой)"
+      "name": "Backpack 'Scared Smile' (Blue)"
     },
     {
       "id": 54,
-      "name": "Рюкзак 'Scared Smile' (Фиолетовый)"
+      "name": "Backpack 'Scared Smile' (Purple)"
     },
     {
       "id": 55,
-      "name": "Рюкзак 'Scared Smile' (Красный)"
+      "name": "Backpack 'Scared Smile' (Red)"
     },
     {
       "id": 56,
-      "name": "Хоккейная маска"
+      "name": "Hockey mask"
     },
     {
       "id": 57,
-      "name": "Зеленая маска зомби"
+      "name": "Green zombie mask"
     },
     {
       "id": 58,
-      "name": "Красная маска дьявола"
+      "name": "Red devil mask"
     },
     {
       "id": 59,
-      "name": "Оранжевая маска дьявола"
+      "name": "Orange devil mask"
     },
     {
       "id": 60,
-      "name": "Черная маска дьявола"
+      "name": "Black devil mask"
     },
     {
       "id": 61,
-      "name": "Темная маска тыквы"
+      "name": "Dark pumpkin mask"
     },
     {
       "id": 62,
-      "name": "Зеленая маска тыквы"
+      "name": "Green pumpkin mask"
     },
     {
       "id": 63,
-      "name": "Оранжевая маска тыквы"
+      "name": "Orange pumpkin mask"
     },
     {
       "id": 64,
-      "name": "Маска зомби"
+      "name": "Zombie mask"
     },
     {
       "id": 65,
-      "name": "Новогодняя шапка"
+      "name": "New Year Hat"
     },
     {
       "id": 66,
-      "name": "Шапка Hello Kitty"
+      "name": "Hello Kitty hat"
     },
     {
       "id": 67,
-      "name": "Новогодний шарф"
+      "name": "New Year Scarf"
     },
     {
       "id": 68,
-      "name": "Зимняя шапка"
+      "name": "Winter hat"
     },
     {
       "id": 69,
-      "name": "Маска снеговика"
+      "name": "Snowman mask"
     },
     {
       "id": 70,
-      "name": "Серая шапка Adidas",
-      "name_store": "Серая шапка"
+      "name": "Gray Adidas hat",
+      "name_store": "Gray hat"
     },
     {
       "id": 71,
-      "name": "Красная шапка Adidas",
-      "name_store": "Красная шапка"
+      "name": "Red Adidas hat",
+      "name_store": "Red hat"
     },
     {
       "id": 72,
-      "name": "Черная шапка Adidas",
-      "name_store": "Черная шапка"
+      "name": "Black Adidas hat",
+      "name_store": "Black hat"
     },
     {
       "id": 73,
-      "name": "Красная шапка Nike",
-      "name_store": "Красная шапка"
+      "name": "Red Nike hat",
+      "name_store": "Red hat"
     },
     {
       "id": 74,
-      "name": "Черная шапка Nike",
-      "name_store": "Черная шапка"
+      "name": "Black Nike hat",
+      "name_store": "Black hat"
     },
     {
       "id": 75,
-      "name": "Серая шапка Nike",
-      "name_store": "Серая шапка"
+      "name": "Gray Nike hat",
+      "name_store": "Gray hat"
     },
     {
       "id": 76,
-      "name": "Берет Gucci",
-      "name_store": "Берет"
+      "name": "Gucci beret",
+      "name_store": "Beret"
     },
     {
       "id": 77,
-      "name": "Деревянный посох"
+      "name": "Wooden staff"
     },
     {
       "id": 78,
-      "name": "Зеленая шапка с помпоном"
+      "name": "Green pom-pom hat"
     },
     {
       "id": 79,
-      "name": "Оранжевая шапка с помпоном"
+      "name": "Orange pom-pom hat"
     },
     {
       "id": 80,
-      "name": "Черная шапка Calvin Klein",
-      "name_store": "Черная шапка"
+      "name": "Black Calvin Klein hat",
+      "name_store": "Black hat"
     },
     {
       "id": 81,
-      "name": "Синяя шапка Calvin Klein",
-      "name_store": "Синяя шапка"
+      "name": "Blue Calvin Klein hat",
+      "name_store": "Blue hat"
     },
     {
       "id": 82,
-      "name": "Красная шапка Calvin Klein",
-      "name_store": "Красная шапка"
+      "name": "Red Calvin Klein hat",
+      "name_store": "Red hat"
     },
     {
       "id": 83,
-      "name": "Оранжевая шапка Calvin Klein",
-      "name_store": "Оранжевая шапка"
+      "name": "Orange Calvin Klein hat",
+      "name_store": "Orange hat"
     },
     {
       "id": 84,
-      "name": "Серая шапка Calvin Klein",
-      "name_store": "Серая шапка"
+      "name": "Gray Calvin Klein hat",
+      "name_store": "Gray hat"
     },
     {
       "id": 85,
-      "name": "Фиолетовая шапка Calvin Klein",
-      "name_store": "Фиолетовая шапка"
+      "name": "Purple Calvin Klein hat",
+      "name_store": "Purple hat"
     },
     {
       "id": 86,
-      "name": "Зеленый Calvin Klein",
-      "name_store": "Зеленая шапка"
+      "name": "Green Calvin Klein",
+      "name_store": "Green hat"
     },
     {
       "id": 87,
-      "name": "Карамельная конфета"
+      "name": "Caramel candy"
     },
     {
       "id": 88,
-      "name": "Черная зимняя кепка"
+      "name": "Black winter cap"
     },
     {
       "id": 89,
-      "name": "Камуфляжная зимняя кепка"
+      "name": "Camouflage winter cap"
     },
     {
       "id": 90,
-      "name": "Красная зимняя кепка"
+      "name": "Red winter cap"
     },
     {
       "id": 91,
-      "name": "Зеленая зимняя кепка"
+      "name": "Green winter cap"
     },
     {
       "id": 92,
-      "name": "Синяя зимняя кепка"
+      "name": "Blue winter cap"
     },
     {
       "id": 93,
-      "name": "Коричневая зимняя кепка"
+      "name": "Brown winter cap"
     },
     {
       "id": 94,
-      "name": "Белая панама с сигарой"
+      "name": "White Panama hat with a cigar"
     },
     {
       "id": 95,
-      "name": "Красный зимний рюкзак"
+      "name": "Red winter backpack"
     },
     {
       "id": 96,
-      "name": "Синий зимний рюкзак"
+      "name": "Blue winter backpack"
     },
     {
       "id": 97,
-      "name": "Зеленый зимний рюкзак"
+      "name": "Green winter backpack"
     },
     {
       "id": 98,
-      "name": "Красная шапка Puma",
-      "name_store": "Красная шапка"
+      "name": "Red Puma hat",
+      "name_store": "Red hat"
     },
     {
       "id": 99,
-      "name": "Черная шапка Puma",
-      "name_store": "Черная шапка"
+      "name": "Black Puma hat",
+      "name_store": "Black hat"
     },
     {
       "id": 100,
-      "name": "Желтая шапка Puma",
-      "name_store": "Желтая шапка"
+      "name": "Yellow Puma hat",
+      "name_store": "Yellow hat"
     },
     {
       "id": 101,
-      "name": "Белая шапка Puma",
-      "name_store": "Белая шапка"
+      "name": "White Puma hat",
+      "name_store": "White hat"
     },
     {
       "id": 102,
-      "name": "Зеленая шапка Puma",
-      "name_store": "Зеленая шапка"
+      "name": "Green Puma hat",
+      "name_store": "Green hat"
     },
     {
       "id": 103,
-      "name": "Синяя шапка Puma",
-      "name_store": "Синяя шапка"
+      "name": "Blue Puma hat",
+      "name_store": "Blue hat"
     },
     {
       "id": 104,
-      "name": "Белая панама Gucci",
-      "name_store": "Белая панама"
+      "name": "White Gucci Panama hat",
+      "name_store": "White Panama hat"
     },
     {
       "id": 105,
-      "name": "Черная панама Gucci",
-      "name_store": "Черная панама"
+      "name": "Black Gucci panama",
+      "name_store": "Black panama"
     },
     {
       "id": 106,
-      "name": "Черная панама Adidas",
-      "name_store": "Черная панама"
+      "name": "Black Adidas panama",
+      "name_store": "Black panama"
     },
     {
       "id": 107,
-      "name": "Синяя панама Adidas",
-      "name_store": "Синяя панама"
+      "name": "Blue Adidas panama",
+      "name_store": "Blue panama"
     },
     {
       "id": 108,
-      "name": "Красная панама Adidas",
-      "name_store": "Красная панама"
+      "name": "Red Adidas panama",
+      "name_store": "Red panama"
     },
     {
       "id": 109,
-      "name": "Низкая шапка желтая"
+      "name": "Low yellow hat"
     },
     {
       "id": 110,
-      "name": "Низкая шапка синяя"
+      "name": "Low blue hat"
     },
     {
       "id": 111,
-      "name": "Низкая шапка зеленая"
+      "name": "Low green hat"
     },
     {
       "id": 112,
-      "name": "Низкая шапка красная"
+      "name": "Low red hat"
     },
     {
       "id": 113,
-      "name": "Низкая шапка серая"
+      "name": "Low gray hat"
     },
     {
       "id": 114,
-      "name": "Высокая панама Gucci",
-      "name_store": "Высокая панама"
+      "name": "Tall Gucci Panama hat",
+      "name_store": "Tall Panama hat"
     },
     {
       "id": 115,
-      "name": "Черная панама Nike",
-      "name_store": "Черная панама"
+      "name": "Black Nike panama",
+      "name_store": "Black panama"
     },
     {
       "id": 116,
-      "name": "Белая панама Nike",
-      "name_store": "Белая панама"
+      "name": "White Nike Panama hat",
+      "name_store": "White Panama hat"
     },
     {
       "id": 117,
-      "name": "Красная панама Nike",
-      "name_store": "Красная панама"
+      "name": "Red Nike panama",
+      "name_store": "Red panama"
     },
     {
       "id": 118,
-      "name": "Синяя панама Nike",
-      "name_store": "Синяя панама"
+      "name": "Blue Nike panama",
+      "name_store": "Blue panama"
     },
     {
       "id": 119,
-      "name": "Зеленая панама Nike",
-      "name_store": "Зеленая панама"
+      "name": "Green Nike Panama hat",
+      "name_store": "Green Panama hat"
     },
     {
       "id": 120,
-      "name": "Черная шапка LV",
-      "name_store": "Черная шапка"
+      "name": "Black LV hat",
+      "name_store": "Black hat"
     },
     {
       "id": 121,
-      "name": "Белая шапка LV",
-      "name_store": "Белая шапка"
+      "name": "White LV hat",
+      "name_store": "White hat"
     },
     {
       "id": 122,
-      "name": "Красная шапка LV",
-      "name_store": "Красная шапка"
+      "name": "Red LV hat",
+      "name_store": "Red hat"
     },
     {
       "id": 123,
-      "name": "Синяя шапка LV",
-      "name_store": "Синяя шапка"
+      "name": "Blue LV hat",
+      "name_store": "Blue hat"
     },
     {
       "id": 124,
-      "name": "Новогодний посох-зонт"
+      "name": "New Year Staff-Umbrella"
     },
     {
       "id": 125,
-      "name": "Кандибобер красный"
+      "name": "Red kandibober"
     },
     {
       "id": 126,
-      "name": "Кандибобер синий"
+      "name": "Blue kandibober"
     },
     {
       "id": 127,
-      "name": "Кандибобер желтый"
+      "name": "Yellow kandibober"
     },
     {
       "id": 128,
-      "name": "Кандибобер серый"
+      "name": "Gray kandibober"
     },
     {
       "id": 129,
-      "name": "Кандибобер розовый"
+      "name": "Pink kandibober"
     },
     {
       "id": 130,
-      "name": "Серая панама обычная"
+      "name": "Regular gray panama"
     },
     {
       "id": 131,
-      "name": "Красные наушники на голову"
+      "name": "Red over-ear headphones"
     },
     {
       "id": 132,
-      "name": "Фиолетовые наушники на голову"
+      "name": "Purple over-ear headphones"
     },
     {
       "id": 133,
-      "name": "Светлофиолетовые наушники на голову"
+      "name": "Light purple headphones for the head"
     },
     {
       "id": 134,
-      "name": "Желтые наушники на голову"
+      "name": "Yellow headphones on the head"
     },
     {
       "id": 135,
-      "name": "Красные наушники на голову"
+      "name": "Red over-ear headphones"
     },
     {
       "id": 136,
-      "name": "Серые наушники-пингвин с коричневым поводком"
+      "name": "Gray penguin headphones with brown leash"
     },
     {
       "id": 137,
-      "name": "Серые наушники-пингвин с серым поводком"
+      "name": "Gray penguin headphones with gray leash"
     },
     {
       "id": 138,
-      "name": "Фиолетовые наушники-пингвин с коричневым поводком"
+      "name": "Purple penguin headphones with a brown leash"
     },
     {
       "id": 139,
-      "name": "Фиолетовые наушники-пингвин с серым поводком"
+      "name": "Purple penguin headphones with a gray leash"
     },
     {
       "id": 140,
-      "name": "Синие наушники-пингвин с коричневым поводком"
+      "name": "Blue penguin headphones with brown leash"
     },
     {
       "id": 141,
-      "name": "Красные наушники-пингвин с коричневым поводком"
+      "name": "Red penguin headphones with brown leash"
     },
     {
       "id": 142,
-      "name": "Зеленые наушники-пингвин с коричневым поводком"
+      "name": "Green penguin headphones with brown leash"
     },
     {
       "id": 143,
-      "name": "Желтые наушники-пингвин с коричневым поводком"
+      "name": "Yellow penguin headphones with a brown leash"
     },
     {
       "id": 144,
-      "name": "Кремовые наушники-пингвин с коричневым поводком"
+      "name": "Cream penguin headphones with brown leash"
     },
     {
       "id": 145,
-      "name": "Синие наушники-пингвин с синим поводком"
+      "name": "Blue penguin headphones with blue leash"
     },
     {
       "id": 146,
-      "name": "Красные наушники с красным поводком"
+      "name": "Red headphones with red leash"
     },
     {
       "id": 147,
-      "name": "Зеленые наушники-пингвин с зеленым поводком"
+      "name": "Green penguin headphones with green leash"
     },
     {
       "id": 148,
-      "name": "Желтые наушники с желтым поводком"
+      "name": "Yellow headphones with a yellow leash"
     },
     {
       "id": 149,
-      "name": "Фиолетовые наушники с ушками"
+      "name": "Purple headphones with ears"
     },
     {
       "id": 150,
-      "name": "Сиреневые наушники с ушками"
+      "name": "Lilac headphones with ears"
     },
     {
       "id": 151,
-      "name": "Оранжевые наушники с ушками"
+      "name": "Orange headphones with ears"
     },
     {
       "id": 152,
-      "name": "Синие наушники с ушками"
+      "name": "Blue headphones with ears"
     },
     {
       "id": 153,
-      "name": "Красная зимняя кепка"
+      "name": "Red winter cap"
     },
     {
       "id": 154,
-      "name": "Зелено-синяя зимняя кепка"
+      "name": "Green-blue winter cap"
     },
     {
       "id": 155,
-      "name": "Светлая зимняя кепка"
+      "name": "Light winter cap"
     },
     {
       "id": 156,
-      "name": "Сине-зелено-красная зимняя кепка"
+      "name": "Blue-green-red winter cap"
     },
     {
       "id": 157,
-      "name": "Красно-зеленая зимняя кепка"
+      "name": "Red-green winter cap"
     },
     {
       "id": 158,
-      "name": "Коричневый шарф"
+      "name": "Brown scarf"
     },
     {
       "id": 159,
-      "name": "Синий шарф"
+      "name": "Blue scarf"
     },
     {
       "id": 160,
-      "name": "Зеленый шарф"
+      "name": "Green scarf"
     },
     {
       "id": 161,
-      "name": "Черный шарф"
+      "name": "Black scarf"
     },
     {
       "id": 162,
-      "name": "Коричневый шарф"
+      "name": "Brown scarf"
     },
     {
       "id": 163,
-      "name": "Белый шарф"
+      "name": "White scarf"
     },
     {
       "id": 164,
-      "name": "Черный шарф"
+      "name": "Black scarf"
     },
     {
       "id": 165,
-      "name": "Шарф Gucci",
-      "name_store": "Шарф"
+      "name": "Gucci scarf",
+      "name_store": "Scarf"
     },
     {
       "id": 166,
-      "name": "Синий посох со льдом"
+      "name": "Blue staff with ice"
     },
     {
       "id": 167,
-      "name": "Синий посох со снежинкой"
+      "name": "Blue staff with snowflake"
     },
     {
       "id": 168,
-      "name": "Голубой посох со льдом"
+      "name": "Blue staff with ice"
     },
     {
       "id": 169,
-      "name": "Коричневая шапка TNF",
-      "name_store": "Коричневая шапка"
+      "name": "Brown TNF hat",
+      "name_store": "Brown hat"
     },
     {
       "id": 170,
-      "name": "Черная шапка TNF",
-      "name_store": "Черная шапка"
+      "name": "Black TNF hat",
+      "name_store": "Black hat"
     },
     {
       "id": 171,
-      "name": "Белая шапка TNF",
-      "name_store": "Белая шапка"
+      "name": "White TNF hat",
+      "name_store": "White hat"
     },
     {
       "id": 172,
-      "name": "Синяя шапка TNF",
-      "name_store": "Синяя шапка"
+      "name": "Blue TNF hat",
+      "name_store": "Blue hat"
     },
     {
       "id": 173,
-      "name": "Зеленая шапка TNF",
-      "name_store": "Зеленая шапка"
+      "name": "Green TNF hat",
+      "name_store": "Green hat"
     },
     {
       "id": 174,
-      "name": "Красная шапка с помпоном и шариками"
+      "name": "Red hat with pompom and balls"
     },
     {
       "id": 175,
-      "name": "Салатовая шапка с помпоном и шариками"
+      "name": "Light green hat with pompom and balls"
     },
     {
       "id": 176,
-      "name": "Зеленая шапка с помпоном и шариками"
+      "name": "Green pom-pom hat with balls"
     },
     {
       "id": 177,
-      "name": "Синяя шапка с помпоном и шариками"
+      "name": "Blue hat with pompom and balls"
     },
     {
       "id": 178,
-      "name": "Фиолетовая шапка с помпоном и шариками"
+      "name": "Purple pom-pom hat with balls"
     },
     {
       "id": 179,
-      "name": "Красная шапка с красным помпоном и узором"
+      "name": "Red hat with red pompom and pattern"
     },
     {
       "id": 180,
-      "name": "Красная шапка с белым помпоном и узором"
+      "name": "Red hat with white pompom and pattern"
     },
     {
       "id": 181,
-      "name": "Синяя шапка с помпоном и узором"
+      "name": "Blue hat with pompom and pattern"
     },
     {
       "id": 182,
-      "name": "Зеленая шапка с белым помпоном и узором"
+      "name": "Green hat with white pom-pom and pattern"
     },
     {
       "id": 183,
-      "name": "Бирюзовая шапка с белым помпоном и узором"
+      "name": "Turquoise hat with white pom-pom and pattern"
     },
     {
       "id": 184,
-      "name": "Новогодний топорик"
+      "name": "New Year Hatchet"
     },
     {
       "id": 185,
-      "name": "Голубая шапка с помпоном"
+      "name": "Blue pom-pom hat"
     },
     {
       "id": 186,
-      "name": "Красная шапка с помпоном"
+      "name": "Red pompom hat"
     },
     {
       "id": 187,
-      "name": "Фиолетово-зеленая шапка с помпоном"
+      "name": "Purple-green pom-pom hat"
     },
     {
       "id": 188,
-      "name": "Синяя шапка с красным помпоном"
+      "name": "Blue hat with red pompom"
     },
     {
       "id": 189,
-      "name": "Черная шапка с помпоном"
+      "name": "Black pom-pom hat"
     },
     {
       "id": 190,
-      "name": "Новогодняя палочка с кристаллом"
+      "name": "New Year Wand with Crystal"
     },
     {
       "id": 191,
-      "name": "Разноцветная шапка для пацанов"
+      "name": "Multicolored hat for the boys"
     },
     {
       "id": 192,
-      "name": "Очки-сердечки"
+      "name": "Heart glasses"
     },
     {
       "id": 193,
-      "name": "Рюкзак 'Котик'"
+      "name": "Backpack 'Kitty'"
     },
     {
       "id": 194,
-      "name": "Рюкзак 'Санта-Клауса'"
+      "name": "Backpack 'Santa Claus'"
     },
     {
       "id": 195,
-      "name": "Розовые очки 'Крылья летучей мыши'"
+      "name": "Pink glasses 'Bat Wings'"
     },
     {
       "id": 196,
-      "name": "Очки 'Red Bloody'"
+      "name": "Glasses 'Red Bloody'"
     },
     {
       "id": 197,
-      "name": "Очки 'Крылья бабочки'"
+      "name": "Glasses 'Butterfly Wings'"
     },
     {
       "id": 198,
-      "name": "Черная панама с сигарой"
+      "name": "Black panama with a cigar"
     },
     {
       "id": 199,
-      "name": "Серая панама с сигарой"
+      "name": "Gray panama with cigar"
     },
     {
       "id": 200,
-      "name": "Темная панама с сигарой"
+      "name": "Dark panama with cigar"
     },
     {
       "id": 201,
-      "name": "Очки Глаза кошки"
+      "name": "Cat Eyes Glasses"
     },
     {
       "id": 202,
-      "name": "Очки Облака с грозой"
+      "name": "Storm Clouds Glasses"
     },
     {
       "id": 203,
-      "name": "Очки Новогодние с рогами"
+      "name": "New Year with Horns Glasses"
     },
     {
       "id": 204,
-      "name": "Новогодняя шапка с рогами"
+      "name": "New Year Hat with Horns"
     },
     {
       "id": 205,
-      "name": "Очки Моргающие глаза"
+      "name": "Blinking Eyes Glasses"
     },
     {
       "id": 206,
-      "name": "Очки Пламя"
+      "name": "Flame Glasses"
     },
     {
       "id": 207,
-      "name": "Прямые очки Огонь"
+      "name": "Straight glasses Fire"
     },
     {
       "id": 208,
-      "name": "Очки Оранжевые огни"
+      "name": "Orange Lights Glasses"
     },
     {
       "id": 209,
-      "name": "Розовые очки сердечки"
+      "name": "Pink heart glasses"
     },
     {
       "id": 210,
-      "name": "Голубые очки-звездочки"
+      "name": "Blue star-shaped glasses"
     },
     {
       "id": 211,
-      "name": "Шапка гнома с бородой"
+      "name": "Gnome hat with beard"
     },
     {
       "id": 212,
-      "name": "Гринч",
-      "name_store": "Зеленая маска"
+      "name": "Grinch",
+      "name_store": "Green mask"
     },
     {
       "id": 213,
-      "name": "Новогодняя шапка с гирляндой"
+      "name": "New Year Hat with Garland"
     },
     {
       "id": 214,
-      "name": "Гребешок с ушками и рогами"
+      "name": "Comb with ears and horns"
     },
     {
       "id": 215,
-      "name": "Коричневый гребешок с ушками и рогами"
+      "name": "Brown comb with ears and horns"
     },
     {
       "id": 216,
-      "name": "Очки Анимированный салют"
+      "name": "Animated Fireworks Glasses"
     },
     {
       "id": 217,
-      "name": "Маска кошечки"
+      "name": "Cat mask"
     },
     {
       "id": 218,
-      "name": "Маска тигра"
+      "name": "Tiger mask"
     },
     {
       "id": 219,
-      "name": "Прямые очки Матрица"
+      "name": "Straight glasses Matrix"
     },
     {
       "id": 220,
-      "name": "Рюкзак Олаф",
-      "name_store": "Рюкзак снеговик"
+      "name": "Backpack Olaf",
+      "name_store": "Snowman backpack"
     },
     {
       "id": 221,
-      "name": "Рюкзак Новогоднего оленя"
+      "name": "New Year's Reindeer Backpack"
     },
     {
       "id": 222,
-      "name": "Борода"
+      "name": "Beard"
     },
     {
       "id": 223,
-      "name": "Шарф с тигровой шерстью"
+      "name": "Scarf with tiger wool"
     },
     {
       "id": 224,
-      "name": "Очки с падающими снежинками"
+      "name": "Glasses with falling snowflakes"
     },
     {
       "id": 225,
-      "name": "Очки Сквидвард",
-      "name_store": "Очки"
+      "name": "Squidward Glasses",
+      "name_store": "Glasses"
     },
     {
       "id": 226,
-      "name": "Голубой посох со снежинкой и узором"
+      "name": "Blue staff with a snowflake and pattern"
     },
     {
       "id": 227,
-      "name": "Очки Санрайз у воды"
+      "name": "Sunrise by the Water Glasses"
     },
     {
       "id": 228,
-      "name": "Новогодняя шапка птички"
+      "name": "New Year Bird Hat"
     },
     {
       "id": 229,
-      "name": "Прямые очки WARNING"
+      "name": "Straight glasses WARNING"
     },
     {
       "id": 230,
-      "name": "Очки голубые крылья"
+      "name": "Blue wings glasses"
     },
     {
       "id": 231,
-      "name": "Зеленый берет"
+      "name": "Green beret"
     },
     {
       "id": 232,
-      "name": "Красный берет"
+      "name": "Red beret"
     },
     {
       "id": 233,
-      "name": "Синий берет"
+      "name": "Blue beret"
     },
     {
       "id": 234,
-      "name": "Салатовый берет"
+      "name": "Light green beret"
     },
     {
       "id": 235,
-      "name": "Желтый берет"
+      "name": "Yellow beret"
     },
     {
       "id": 236,
-      "name": "Красная шапка Sport"
+      "name": "Red Sport hat"
     },
     {
       "id": 237,
-      "name": "Голубая шапка Sport"
+      "name": "Blue Sport hat"
     },
     {
       "id": 238,
-      "name": "Светлая панама"
+      "name": "Light panama"
     },
     {
       "id": 239,
-      "name": "Темная панама"
+      "name": "Dark panama"
     },
     {
       "id": 240,
-      "name": "Черная шапка-ушанка"
+      "name": "Black ushanka hat"
     },
     {
       "id": 241,
-      "name": "Кремовая шапка-ушанка"
+      "name": "Cream ushanka hat"
     },
     {
       "id": 242,
-      "name": "Красная шапка ушанка"
+      "name": "Red ushanka hat"
     },
     {
       "id": 243,
-      "name": "Синяя шапка ушанка"
+      "name": "Blue ushanka hat"
     },
     {
       "id": 244,
-      "name": "Зеленая шапка ушанка"
+      "name": "Green ushanka hat"
     },
     {
       "id": 245,
-      "name": "Черная шапка с помпоном"
+      "name": "Black pom-pom hat"
     },
     {
       "id": 246,
-      "name": "Белая шапка с помпоном"
+      "name": "White hat with pom-pom"
     },
     {
       "id": 247,
-      "name": "Серая шапка с помпоном"
+      "name": "Gray hat with pompom"
     }
   ]
 }

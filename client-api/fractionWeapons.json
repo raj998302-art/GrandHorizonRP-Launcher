@@ -1,64 +1,64 @@
-﻿{
+{
     "weaponList": [
         {
             "id": 0,
-            "name": "Кулак"
+            "name": "Fist"
         },
         {
             "id": 1,
-            "name": "Кастет"
+            "name": "Brass knuckles"
         },
         {
             "id": 2,
-            "name": "Клюшка для гольфа"
+            "name": "Golf club"
         },
         {
             "id": 3,
-            "name": "Дубинка"
+            "name": "Club"
         },
         {
             "id": 4,
-            "name": "Нож"
+            "name": "Knife"
         },
         {
             "id": 5,
-            "name": "Бита"
+            "name": "Bat"
         },
         {
             "id": 6,
-            "name": "Лопата"
+            "name": "Shovel"
         },
         {
             "id": 7,
-            "name": "Кий"
+            "name": "Cue"
         },
         {
             "id": 8,
-            "name": "Катана"
+            "name": "Katana"
         },
         {
             "id": 9,
-            "name": "Бензопила"
+            "name": "Chainsaw"
         },
         {
             "id": 14,
-            "name": "Цветы"
+            "name": "Flowers"
         },
         {
             "id": 15,
-            "name": "Топор"
+            "name": "Axe"
         },
         {
             "id": 16,
-            "name": "Граната"
+            "name": "Grenade"
         },
         {
             "id": 17,
-            "name": "Дымовая граната"
+            "name": "Smoke grenade"
         },
         {
             "id": 18,
-            "name": "Коктейль молотова"
+            "name": "Molotov cocktail"
         },
         {
             "id": 19,
@@ -74,11 +74,11 @@
         },
         {
             "id": 22,
-            "name": "Пистолет"
+            "name": "Pistol"
         },
         {
             "id": 23,
-            "name": "Парализатор"
+            "name": "Taser"
         },
         {
             "id": 24,
@@ -86,15 +86,15 @@
         },
         {
             "id": 25,
-            "name": "Дробовик"
+            "name": "Shotgun"
         },
         {
             "id": 26,
-            "name": "Обрез"
+            "name": "Sawed-off shotgun"
         },
         {
             "id": 27,
-            "name": "Тактический дробовик"
+            "name": "Tactical shotgun"
         },
         {
             "id": 28,
@@ -110,7 +110,7 @@
         },
         {
             "id": 31,
-            "name": "АК-74М"
+            "name": "AK-74M"
         },
         {
             "id": 32,
@@ -118,27 +118,27 @@
         },
         {
             "id": 33,
-            "name": "Винтовка"
+            "name": "Rifle"
         },
         {
             "id": 34,
-            "name": "Снайперская винтовка"
+            "name": "Sniper rifle"
         },
         {
             "id": 35,
-            "name": "РПГ"
+            "name": "RPG"
         },
         {
             "id": 36,
-            "name": "Самонаводящаяся установка"
+            "name": "Homing launcher"
         },
         {
             "id": 37,
-            "name": "Огнемет"
+            "name": "Flamethrower"
         },
         {
             "id": 38,
-            "name": "Миниган"
+            "name": "Minigun"
         },
         {
             "id": 39,
@@ -146,45 +146,45 @@
         },
         {
             "id": 40,
-            "name": "Кнопка детонатора"
+            "name": "Detonator button"
         },
         {
             "id": 41,
-            "name": "Баллончик"
+            "name": "Spray can"
         },
         {
             "id": 42,
-            "name": "Огнетушитель"
+            "name": "Fire extinguisher"
         },
         {
             "id": 43,
-            "name": "Фотоаппарат"
+            "name": "Camera"
         },
         {
             "id": 44,
-            "name": "Очки ночного видения"
+            "name": "Night vision goggles"
         },
         {
             "id": 45,
-            "name": "Очки с тепловизором"
+            "name": "Thermal vision goggles"
         },
         {
             "id": 46,
-            "name": "Парашют"
+            "name": "Parachute"
         },
 		{
 			"id": 213,
-			"name": "Стационарный радар"
+			"name": "Stationary radar"
 		},
 		{
 			"id": 47,
-			"name": "Ручной радар"
+			"name": "Handheld radar"
 		}
     ],
     "fractionWeapon": [
         {
             "fractionId": 2,
-            "fractionName": "Армия",
+            "fractionName": "Army",
 			"repositoryPickupWorld": -1,
 			"repositoryPickupCoords": [1804.1218, 1729.9934, 1493.0397],
             "weaponAndMaterials": [
@@ -192,7 +192,7 @@
                     "order": 1,
                     "typeId": 5,
                     "itemId": 3,
-                    "name": "Дубинка",
+                    "name": "Club",
                     "amount": 1,
                     "fillAmmo": 0,
                     "materialCost": 25,
@@ -202,7 +202,7 @@
                     "order": 2,
                     "typeId": 5,
                     "itemId": 24,
-                    "name": "Боевой пистолет",
+                    "name": "Combat pistol",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 50,
@@ -212,7 +212,7 @@
                     "order": 3,
                     "typeId": 5,
                     "itemId": 25,
-                    "name": "Помповый дробовик",
+                    "name": "Pump-action shotgun",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 75,
@@ -222,7 +222,7 @@
                     "order": 4,
                     "typeId": 5,
                     "itemId": 30,
-                    "name": "Автоматическая винтовка",
+                    "name": "Automatic rifle",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 100,
@@ -232,7 +232,7 @@
                     "order": 5,
                     "typeId": 5,
                     "itemId": 33,
-                    "name": "Охотничая винтовка",
+                    "name": "Hunting rifle",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 125,
@@ -242,7 +242,7 @@
                     "order": 1,
                     "typeId": 6,
                     "itemId": 1,
-                    "name": "Патрон для пистолета",
+                    "name": "Pistol round",
                     "amount": 25,
                     "materialCost": 50,
                     "limit": 4
@@ -251,7 +251,7 @@
                     "order": 2,
                     "typeId": 6,
                     "itemId": 2,
-                    "name": "Патрон для дробовика",
+                    "name": "Shotgun shell",
                     "amount": 12,
                     "materialCost": 36,
                     "limit": 8
@@ -260,7 +260,7 @@
                     "order": 3,
                     "typeId": 6,
                     "itemId": 3,
-                    "name": "Патрон для автомата",
+                    "name": "Rifle cartridge",
                     "amount": 30,
                     "materialCost": 60,
                     "limit": 6
@@ -269,7 +269,7 @@
                     "order": 4,
                     "typeId": 6,
                     "itemId": 4,
-                    "name": "Патрон для винтовки",
+                    "name": "Rifle round",
                     "amount": 10,
                     "materialCost": 50,
                     "limit": 10
@@ -278,7 +278,7 @@
         },
         {
             "fractionId": 1,
-            "fractionName": "Правительство",
+            "fractionName": "Government",
 			"repositoryPickupWorld": 21,
 			"repositoryPickupCoords": [-870.681, -1589.15, 1398.5],
             "weaponAndMaterials": [
@@ -286,7 +286,7 @@
                     "order": 1,
                     "typeId": 5,
                     "itemId": 3,
-                    "name": "Дубинка",
+                    "name": "Club",
                     "amount": 1,
                     "fillAmmo": 0,
                     "materialCost": 25,
@@ -296,7 +296,7 @@
                     "order": 2,
                     "typeId": 5,
                     "itemId": 24,
-                    "name": "Боевой пистолет",
+                    "name": "Combat pistol",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 50,
@@ -306,7 +306,7 @@
                     "order": 3,
                     "typeId": 5,
                     "itemId": 30,
-                    "name": "Автоматическая винтовка",
+                    "name": "Automatic rifle",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 100,
@@ -316,7 +316,7 @@
                     "order": 1,
                     "typeId": 6,
                     "itemId": 1,
-                    "name": "Патрон для пистолета",
+                    "name": "Pistol round",
                     "amount": 25,
                     "materialCost": 50,
                     "limit": 4
@@ -325,7 +325,7 @@
                     "order": 2,
                     "typeId": 6,
                     "itemId": 3,
-                    "name": "Патрон для автомата",
+                    "name": "Rifle cartridge",
                     "amount": 30,
                     "materialCost": 60,
                     "limit": 6
@@ -334,7 +334,7 @@
         },
         {
             "fractionId": 7,
-            "fractionName": "ФСБ",
+            "fractionName": "FBI",
 			"repositoryPickupWorld": 17,
 			"repositoryPickupCoords": [2914.13, 2007.62, 2051.0],
             "weaponAndMaterials": [
@@ -342,7 +342,7 @@
                     "order": 1,
                     "typeId": 5,
                     "itemId": 3,
-                    "name": "Дубинка",
+                    "name": "Club",
                     "amount": 1,
                     "fillAmmo": 0,
                     "materialCost": 25,
@@ -352,7 +352,7 @@
                     "order": 2,
                     "typeId": 5,
                     "itemId": 23,
-                    "name": "Шокер",
+                    "name": "Taser",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 100,
@@ -362,7 +362,7 @@
                     "order": 3,
                     "typeId": 5,
                     "itemId": 24,
-                    "name": "Боевой пистолет",
+                    "name": "Combat pistol",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 50,
@@ -372,7 +372,7 @@
                     "order": 4,
                     "typeId": 5,
                     "itemId": 25,
-                    "name": "Помповый дробовик",
+                    "name": "Pump-action shotgun",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 75,
@@ -382,7 +382,7 @@
                     "order": 5,
                     "typeId": 5,
                     "itemId": 30,
-                    "name": "Автоматическая винтовка",
+                    "name": "Automatic rifle",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 100,
@@ -392,7 +392,7 @@
                     "order": 6,
                     "typeId": 5,
                     "itemId": 33,
-                    "name": "Охотничая винтовка",
+                    "name": "Hunting rifle",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 125,
@@ -402,7 +402,7 @@
                     "order": 7,
                     "typeId": 5,
                     "itemId": 34,
-                    "name": "Снайперская винтовка",
+                    "name": "Sniper rifle",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 450,
@@ -412,7 +412,7 @@
                     "order": 1,
                     "typeId": 6,
                     "itemId": 1,
-                    "name": "Патрон для пистолета",
+                    "name": "Pistol round",
                     "amount": 25,
                     "materialCost": 50,
                     "limit": 4
@@ -421,7 +421,7 @@
                     "order": 2,
                     "typeId": 6,
                     "itemId": 2,
-                    "name": "Патрон для дробовика",
+                    "name": "Shotgun shell",
                     "amount": 12,
                     "materialCost": 36,
                     "limit": 8
@@ -430,7 +430,7 @@
                     "order": 3,
                     "typeId": 6,
                     "itemId": 3,
-                    "name": "Патрон для автомата",
+                    "name": "Rifle cartridge",
                     "amount": 30,
                     "materialCost": 60,
                     "limit": 6
@@ -439,7 +439,7 @@
                     "order": 4,
                     "typeId": 6,
                     "itemId": 4,
-                    "name": "Патрон для винтовки",
+                    "name": "Rifle round",
                     "amount": 10,
                     "materialCost": 50,
                     "limit": 10
@@ -448,7 +448,7 @@
         },
         {
             "fractionId": 5,
-            "fractionName": "ГИБДД",
+            "fractionName": "Traffic Police",
 			"repositoryPickupWorld": 5,
 			"repositoryPickupCoords": [-1099.9201, 1523.5153, 1499.9459],
             "weaponAndMaterials": [
@@ -456,7 +456,7 @@
                     "order": 1,
                     "typeId": 5,
                     "itemId": 3,
-                    "name": "Дубинка",
+                    "name": "Club",
                     "amount": 1,
                     "fillAmmo": 0,
                     "materialCost": 25,
@@ -466,7 +466,7 @@
                     "order": 2,
                     "typeId": 5,
                     "itemId": 23,
-                    "name": "Шокер",
+                    "name": "Taser",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 100,
@@ -476,7 +476,7 @@
                     "order": 3,
                     "typeId": 5,
                     "itemId": 24,
-                    "name": "Боевой пистолет",
+                    "name": "Combat pistol",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 50,
@@ -486,7 +486,7 @@
                     "order": 4,
                     "typeId": 5,
                     "itemId": 25,
-                    "name": "Помповый дробовик",
+                    "name": "Pump-action shotgun",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 75,
@@ -496,7 +496,7 @@
                     "order": 5,
                     "typeId": 5,
                     "itemId": 30,
-                    "name": "Автоматическая винтовка",
+                    "name": "Automatic rifle",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 100,
@@ -506,7 +506,7 @@
                     "order": 6,
                     "typeId": 5,
                     "itemId": 33,
-                    "name": "Охотничая винтовка",
+                    "name": "Hunting rifle",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 125,
@@ -516,7 +516,7 @@
                     "order": 1,
                     "typeId": 6,
                     "itemId": 1,
-                    "name": "Патроны для пистолета",
+                    "name": "Pistol ammo",
                     "amount": 25,
                     "materialCost": 50,
                     "limit": 4
@@ -525,7 +525,7 @@
                     "order": 2,
                     "typeId": 6,
                     "itemId": 2,
-                    "name": "Патроны для дробовика",
+                    "name": "Shotgun ammo",
                     "amount": 12,
                     "materialCost": 36,
                     "limit": 8
@@ -534,7 +534,7 @@
                     "order": 3,
                     "typeId": 6,
                     "itemId": 3,
-                    "name": "Патроны для автомата",
+                    "name": "Rifle ammo",
                     "amount": 30,
                     "materialCost": 60,
                     "limit": 6
@@ -543,7 +543,7 @@
                     "order": 4,
                     "typeId": 6,
                     "itemId": 4,
-                    "name": "Патроны для винтовки",
+                    "name": "Rifle ammo",
                     "amount": 10,
                     "materialCost": 50,
                     "limit": 10
@@ -552,7 +552,7 @@
         },    
         {
             "fractionId": 6,
-            "fractionName": "УМВД",
+            "fractionName": "City Police",
 			"repositoryPickupWorld": 6,
 			"repositoryPickupCoords": [-1099.9201, 1523.5153, 1499.9459],
             "weaponAndMaterials": [
@@ -560,7 +560,7 @@
                     "order": 1,
                     "typeId": 5,
                     "itemId": 3,
-                    "name": "Дубинка",
+                    "name": "Club",
                     "amount": 1,
                     "fillAmmo": 0,
                     "materialCost": 25,
@@ -570,7 +570,7 @@
                     "order": 2,
                     "typeId": 5,
                     "itemId": 23,
-                    "name": "Шокер",
+                    "name": "Taser",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 100,
@@ -580,7 +580,7 @@
                     "order": 3,
                     "typeId": 5,
                     "itemId": 24,
-                    "name": "Боевой пистолет",
+                    "name": "Combat pistol",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 50,
@@ -590,7 +590,7 @@
                     "order": 4,
                     "typeId": 5,
                     "itemId": 25,
-                    "name": "Помповый дробовик",
+                    "name": "Pump-action shotgun",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 75,
@@ -600,7 +600,7 @@
                     "order": 5,
                     "typeId": 5,
                     "itemId": 30,
-                    "name": "Автоматическая винтовка",
+                    "name": "Automatic rifle",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 100,
@@ -610,7 +610,7 @@
                     "order": 6,
                     "typeId": 5,
                     "itemId": 33,
-                    "name": "Охотничая винтовка",
+                    "name": "Hunting rifle",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 125,
@@ -620,7 +620,7 @@
                     "order": 1,
                     "typeId": 6,
                     "itemId": 1,
-                    "name": "Патроны для пистолета",
+                    "name": "Pistol ammo",
                     "amount": 25,
                     "materialCost": 50,
                     "limit": 4
@@ -629,7 +629,7 @@
                     "order": 2,
                     "typeId": 6,
                     "itemId": 2,
-                    "name": "Патроны для дробовика",
+                    "name": "Shotgun ammo",
                     "amount": 12,
                     "materialCost": 36,
                     "limit": 8
@@ -638,7 +638,7 @@
                     "order": 3,
                     "typeId": 6,
                     "itemId": 3,
-                    "name": "Патроны для автомата",
+                    "name": "Rifle ammo",
                     "amount": 30,
                     "materialCost": 60,
                     "limit": 6
@@ -647,7 +647,7 @@
                     "order": 4,
                     "typeId": 6,
                     "itemId": 4,
-                    "name": "Патроны для винтовки",
+                    "name": "Rifle ammo",
                     "amount": 10,
                     "materialCost": 50,
                     "limit": 10
@@ -656,7 +656,7 @@
         },   
         {
             "fractionId": 11,
-            "fractionName": "ФСИН",
+            "fractionName": "Penitentiary Service",
 			"repositoryPickupWorld": 0,
 			"repositoryPickupCoords": [-1877.9743, -2735.0605, 7.5845],
             "weaponAndMaterials": [
@@ -664,7 +664,7 @@
                     "order": 1,
                     "typeId": 5,
                     "itemId": 3,
-                    "name": "Дубинка",
+                    "name": "Club",
                     "amount": 1,
                     "fillAmmo": 0,
                     "materialCost": 25,
@@ -674,7 +674,7 @@
                     "order": 2,
                     "typeId": 5,
                     "itemId": 24,
-                    "name": "Боевой пистолет",
+                    "name": "Combat pistol",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 50,
@@ -684,7 +684,7 @@
                     "order": 3,
                     "typeId": 5,
                     "itemId": 25,
-                    "name": "Помповый дробовик",
+                    "name": "Pump-action shotgun",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 75,
@@ -694,7 +694,7 @@
                     "order": 4,
                     "typeId": 5,
                     "itemId": 30,
-                    "name": "Автоматическая винтовка",
+                    "name": "Automatic rifle",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 100,
@@ -704,7 +704,7 @@
                     "order": 5,
                     "typeId": 5,
                     "itemId": 33,
-                    "name": "Охотничая винтовка",
+                    "name": "Hunting rifle",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 125,
@@ -714,7 +714,7 @@
                     "order": 6,
                     "typeId": 5,
                     "itemId": 34,
-                    "name": "Снайперская винтовка",
+                    "name": "Sniper rifle",
                     "amount": 1,
                     "fillAmmo": 1,
                     "materialCost": 450,
@@ -724,7 +724,7 @@
                     "order": 1,
                     "typeId": 6,
                     "itemId": 1,
-                    "name": "Патроны для пистолета",
+                    "name": "Pistol ammo",
                     "amount": 25,
                     "materialCost": 50,
                     "limit": 4
@@ -733,7 +733,7 @@
                     "order": 2,
                     "typeId": 6,
                     "itemId": 2,
-                    "name": "Патроны для дробовика",
+                    "name": "Shotgun ammo",
                     "amount": 12,
                     "materialCost": 36,
                     "limit": 8
@@ -742,7 +742,7 @@
                     "order": 3,
                     "typeId": 6,
                     "itemId": 3,
-                    "name": "Патроны для автомата",
+                    "name": "Rifle ammo",
                     "amount": 30,
                     "materialCost": 60,
                     "limit": 6
@@ -751,7 +751,7 @@
                     "order": 4,
                     "typeId": 6,
                     "itemId": 4,
-                    "name": "Патроны для винтовки",
+                    "name": "Rifle ammo",
                     "amount": 10,
                     "materialCost": 50,
                     "limit": 10
@@ -762,19 +762,19 @@
     "equipment": [
         {
             "fractionId": 2,
-            "fractionName": "Армия",
+            "fractionName": "Army",
 			"equipmentPickupWorld": -1,
 			"equipmentPickupCoords": [1800.9984, 1728.0009, 1493.0397],
             "equipmentList": [
                 {
                     "equipmentId": 1,
                     "modelId": 2641,
-                    "name": "Маска",
+                    "name": "Mask",
                     "materialNumber": 50
                 },
                 {
                     "equipmentId": 2,
-                    "name": "Бронежилет",
+                    "name": "Body armor",
                     "materialNumber": 50,
                     "armour": 100
                 }
@@ -782,19 +782,19 @@
         },
         {
             "fractionId": 1,
-            "fractionName": "Правительство",
+            "fractionName": "Government",
 			"equipmentPickupWorld": 21,
 			"equipmentPickupCoords": [-872.424, -1589.15, 1398.5],
             "equipmentList": [
                 {
                     "equipmentId": 1,
                     "modelId": 2641,
-                    "name": "Маска",
+                    "name": "Mask",
                     "materialNumber": 50
                 },
                 {
                     "equipmentId": 2,
-                    "name": "Бронежилет",
+                    "name": "Body armor",
                     "materialNumber": 50,
                     "armour": 100
                 }
@@ -802,19 +802,19 @@
         },
         {
             "fractionId": 7,
-            "fractionName": "ФСБ",
+            "fractionName": "FBI",
 			"equipmentPickupWorld": 17,
 			"equipmentPickupCoords": [2913.74, 2009.96, 2051.0],
             "equipmentList": [
                 {
                     "equipmentId": 1,
                     "modelId": 2641,
-                    "name": "Маска",
+                    "name": "Mask",
                     "materialNumber": 50
                 },
                 {
                     "equipmentId": 2,
-                    "name": "Бронежилет",
+                    "name": "Body armor",
                     "materialNumber": 50,
                     "armour": 100
                 }
@@ -822,57 +822,57 @@
         },
         {
             "fractionId": 5,
-            "fractionName": "ГИБДД",
+            "fractionName": "Traffic Police",
 			"equipmentPickupWorld": 5,
 			"equipmentPickupCoords": [-1103.6005, 1524.2557, 1499.9459],
             "equipmentList": [
                 {
                     "equipmentId": 1,
                     "modelId": 2641,
-                    "name": "Маска",
+                    "name": "Mask",
                     "materialNumber": 50
                 },
                 {
                     "equipmentId": 2,
-                    "name": "Бронежилет",
+                    "name": "Body armor",
                     "materialNumber": 50,
                     "armour": 100
                 },
                 {
                     "equipmentId": 5,
                     "modelId": 32144,
-                    "name": "Мегафон",
+                    "name": "Megaphone",
                     "materialNumber": 50
                 },
                 {
                     "equipmentId": 6,
                     "modelId": 213,
-                    "name": "Стационарный радар",
+                    "name": "Stationary radar",
                     "materialNumber": 100
                 },
                 {
                     "equipmentId": 7,
                     "modelId": 47,
-                    "name": "Ручной радар",
+                    "name": "Handheld radar",
                     "materialNumber": 100
                 }
             ]
         },
         {
             "fractionId": 6,
-            "fractionName": "УМВД",
+            "fractionName": "City Police",
 			"equipmentPickupWorld": 6,
 			"equipmentPickupCoords": [-1103.6005, 1524.2557, 1499.9459],
             "equipmentList": [
                 {
                     "equipmentId": 1,
                     "modelId": 2641,
-                    "name": "Маска",
+                    "name": "Mask",
                     "materialNumber": 50
                 },
                 {
                     "equipmentId": 2,
-                    "name": "Бронежилет",
+                    "name": "Body armor",
                     "materialNumber": 50,
                     "armour": 100
                 }
@@ -880,19 +880,19 @@
         },
         {
             "fractionId": 11,
-            "fractionName": "ФСИН",
+            "fractionName": "Penitentiary Service",
 			"equipmentPickupWorld": 0,
 			"equipmentPickupCoords": [-1877.7003, -2725.5581, 8.5846],
             "equipmentList": [
                 {
                     "equipmentId": 1,
                     "modelId": 2641,
-                    "name": "Маска",
+                    "name": "Mask",
                     "materialNumber": 50
                 },
                 {
                     "equipmentId": 2,
-                    "name": "Бронежилет",
+                    "name": "Body armor",
                     "materialNumber": 50,
                     "armour": 100
                 }

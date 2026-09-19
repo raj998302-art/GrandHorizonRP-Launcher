@@ -3,25 +3,25 @@
     {
       "id": 1,
       "vipLevel": 0,
-      "name": "Базовая",
+      "name": "Basic",
       "image": "img_default_Frame.png"
     },
     {
       "id": 2,
       "vipLevel": 1,
-      "name": "Серебряная",
+      "name": "Silver",
       "image": "img_silver_Frame.png"
     },
     {
       "id": 3,
       "vipLevel": 2,
-      "name": "Золотая",
+      "name": "Golden",
       "image": "img_gold_Frame.png"
     },
     {
       "id": 4,
       "vipLevel": 3,
-      "name": "Платиновая",
+      "name": "Platinum",
       "image": "img_platinum_Frame.png"
     }
   ],
@@ -33,42 +33,42 @@
     },
     {
       "id": 2,
-      "name": "Игра по-черному",
+      "name": "Playing dirty",
       "image": "img_black_Background.png"
     },
     {
       "id": 3,
-      "name": "Узор из песка",
+      "name": "Sand pattern",
       "image": "img_mixture_Background.png"
     },
     {
       "id": 4,
-      "name": "Взрыв цветов",
+      "name": "Flower explosion",
       "image": "img_explosion_Background.png"
     },
     {
       "id": 5,
-      "name": "Морской берег",
+      "name": "Seashore",
       "image": "img_lines_Background.png"
     },
     {
       "id": 6,
-      "name": "Барханы",
+      "name": "Dunes",
       "image": "img_waves_Background.png"
     },
     {
       "id": 7,
-      "name": "Галактика",
+      "name": "Galaxy",
       "image": "img_space_Background.png"
     },
     {
       "id": 8,
-      "name": "Дорога без конца",
+      "name": "Road without end",
       "image": "img_road_Background.png"
     },
     {
       "id": 9,
-      "name": "Авто встреча",
+      "name": "Car meet",
       "image": "img_parking_Background.png"
     }
   ],
@@ -80,702 +80,702 @@
     },
     {
       "id": 2,
-      "name": "Виктор",
+      "name": "Viktor",
       "image": "img_avatar_147.png"
     },
     {
       "id": 3,
-      "name": "Кристина",
+      "name": "Kristina",
       "image": "img_avatar_148.png"
     },
     {
       "id": 4,
-      "name": "Рыжуля",
+      "name": "Redhead",
       "image": "img_avatar_158.png"
     },
     {
       "id": 5,
-      "name": "Посейдон",
+      "name": "Poseidon",
       "image": "img_avatar_27.png"
     },
     {
       "id": 6,
-      "name": "Змей",
+      "name": "Snake",
       "image": "img_avatar_21.png"
     },
     {
       "id": 7,
-      "name": "Победитель",
+      "name": "Winner",
       "image": "img_avatar_22.png"
     },
     {
       "id": 8,
-      "name": "Волчара",
+      "name": "Wolf",
       "image": "img_avatar_23.png"
     },
     {
       "id": 9,
-      "name": "Крутой пилот",
+      "name": "Cool pilot",
       "image": "img_avatar_24.png"
     },
     {
       "id": 10,
-      "name": "Мурррлин",
+      "name": "Murrrlin",
       "image": "img_avatar_25.png"
     },
     {
       "id": 11,
-      "name": "Ночной хулиган",
+      "name": "Night Hooligan",
       "image": "img_avatar_153.png"
     },
     {
       "id": 12,
-      "name": "Кавалерист",
+      "name": "Cavalryman",
       "image": "img_avatar_161.png"
     },
     {
       "id": 13,
-      "name": "Весь в белом",
+      "name": "All in white",
       "image": "img_avatar_162.png"
     },
     {
       "id": 14,
-      "name": "Антиквар",
+      "name": "Antique dealer",
       "image": "img_avatar_163.png"
     },
     {
       "id": 15,
-      "name": "Гангстер",
+      "name": "Gangster",
       "image": "img_avatar_164.png"
     }
   ],
   "progressions": [
     {
       "id": 1,
-      "header": "Уровень 1",
-      "text": "Пока ты новичок, мир игры закрыт от лишних сложностей. [br/]На этом этапе для тебя доступен только режим обучения у [color=#FFCC00]Дяди Славы[/color]. Не спеши, используй это время, чтобы разобраться с управлением, освоить основные механики и понять, как начать свой путь на сервере. Основные работы, фракции и бандитские разборки пока подождут.[br/][br/]Твоя первая цель — заработать стартовый капитал. В будущем ты сможешь потратить его на свой первый [color=#FFCC00]автомобиль[/color] из автосалона, приобрести [color=#FFCC00]гараж,[/color] [color=#FFCC00]квартиру[/color] или даже собственный [color=#FFCC00]дом.[/color][br/][br/]Ну а если тебе не терпится начать как можно быстрее, можешь попробовать работы для новичков: [color=#E0584B]Завод, Шахта и Ферма.[/color] Для них не требуется никаких дополнительных условий. Найти нужное место можно с помощью команды [color=#E0584B]/gps[/color], построив маршрут до выбранной работы."
+      "header": "Level 1",
+      "text": "While you're still a beginner, the game world is closed off from unnecessary complexity. [br/]At this stage, only the training mode with [color=#FFCC00]Uncle Slava[/color] is available to you. Don't rush—use this time to get familiar with the controls, master the core mechanics, and understand how to begin your journey on the server. Main jobs, factions, and gangster showdowns can wait for now.[br/][br/]Your first goal is to earn your starting capital. In the future, you'll be able to spend it on your first [color=#FFCC00]car[/color] from the dealership, buy a [color=#FFCC00]garage,[/color] an [color=#FFCC00]apartment[/color], or even your own [color=#FFCC00]house.[/color][br/][br/]And if you can't wait to get started as soon as possible, you can try beginner jobs: [color=#E0584B]Factory, Mine, and Farm.[/color] They do not require any additional conditions. You can find the right location using the [color=#E0584B]/gps[/color] command by setting a route to the selected job."
     },
     {
       "id": 2,
-      "header": "Уровень 2",
-      "text": "Ты немного освоился, и теперь перед тобой открываются первые возможности серьезного заработка и службы. Рекомендуем заранее получить [color=#85D359]мед. карту[/color] и [color=#85D359]лицензию категории В[/color] для вождения транспорта – они пригодятся при трудоустройстве на многие работы. Медицинскую карту можно оформить в [color=#FFCC00]центральной больнице[/color] любого города, а права получить в [color=#FFCC00]автошколе.[/color] Найти нужное место можно с помощью команды [color=#E0584B]/gps[/color] или по маркерам на карте. Если возникнут сложности – [color=#FFCC00]Дядя Слава[/color] на вокзале даст тебе все подсказки.[br/][br/][color=#FFCC00]Работы:[/color] [br/]Ты можешь попробовать себя в сфере услуг: стать [color=#E0584B]Водителем автобуса,[/color] [color=#E0584B]Курьером[/color] или устроиться в ночной клуб. Там много подозрительных дел ведется, но [color=#E0584B]Повара[/color] и [color=#E0584B]Танцоры[/color] требуются всегда. И учти, что вход в клуб платный - придется заплатить и одеться поприличнее.[br/][br/][color=#FFCC00]Фракции:[/color] [br/]Хочешь послужить Родине? Теперь ты можешь записаться в [color=#E0584B]Армию[/color] в [color=#FFCC00]Военкомате[/color] и получить военный билет.[br/][br/][color=#FFCC00]Задания:[/color] [br/]Дядя Слава продолжит твое [color=#E0584B]Обучение[/color] и расскажет, что делать дальше."
+      "header": "Level 2",
+      "text": "You've gotten somewhat settled in, and now the first opportunities for serious earnings and service are opening up before you. We recommend getting a [color=#85D359]medical card[/color] and a [color=#85D359]Category B license[/color] for driving vehicles in advance — they will come in handy when applying for many jobs. You can obtain a medical card at the [color=#FFCC00]central hospital[/color] of any city, and get your driver's license at the [color=#FFCC00]driving school.[/color] You can find the place you need using the [color=#E0584B]/gps[/color] command or by the markers on the map. If you run into any difficulties, [color=#FFCC00]Uncle Slava[/color] at the train station will give you all the guidance you need.[br/][br/][color=#FFCC00]Jobs:[/color] [br/]You can try yourself in the service sector: become a [color=#E0584B]Bus Driver,[/color] a [color=#E0584B]Courier[/color] or get a job at a nightclub. A lot of suspicious business goes on there, but [color=#E0584B]Cooks[/color] and [color=#E0584B]Dancers[/color] are always needed. And keep in mind that entry to the club is paid — you'll have to pay and dress more decently.[br/][br/][color=#FFCC00]Factions:[/color] [br/]Want to serve your Motherland? Now you can enlist in the [color=#E0584B]Army[/color] at the [color=#FFCC00]Military Commissariat[/color] and receive a military ID.[br/][br/][color=#FFCC00]Tasks:[/color] [br/]Uncle Slava will continue your [color=#E0584B]Training[/color] and tell you what to do next."
     },
     {
       "id": 3,
-      "header": "Уровень 3",
-      "text": "Это самый важный уровень на твоем пути к успеху. Именно здесь открывается максимум новых возможностей заработка и карьеры. С этого уровня ты также можешь приобретать собственную недвижимость — [color=#FFCC00]квартиры[/color] и [color=#FFCC00]дома.[/color] Покупать их можно напрямую у государства или участвуя в аукционах.[br/][br/][color=#FFCC00]Работы:[/color] [br/]Выбор стал еще шире: лови и продавай рыбу ([color=#E0584B]Рыболов[/color]), убирай город ([color=#E0584B]Водитель мусоровоза[/color]), ищи сокровища ([color=#E0584B]Кладоискатель[/color]) или заработай первый капитал [color=#E0584B]Таксистом[/color]. Еще, говорят, [color=#E0584B]Угонщикам[/color] тоже неплохо платят.[br/][br/][color=#FFCC00]Фракции:[/color] [br/]Теперь ты можешь лечить людей ([color=#E0584B]Больница[/color]), заняться политикой ([color=#E0584B]Правительство[/color]), работать на спецслужбы ([color=#E0584B]ФСБ[/color]), вещать в эфире ([color=#E0584B]СМИ[/color]) или вступить в один из местных «футбольных клубов». Их представители часто проводят наборы и ищут преданных фанатов с необычными талантами.[br/][br/][color=#FFCC00]Задания:[/color] [br/]Теперь тебе открыта [color=#E0584B]Сюжетная линия[/color]. Выполняй задания от Дяди Славы, чтобы узнать больше о мире игры и собрать ценные награды."
+      "header": "Level 3",
+      "text": "This is the most important level on your path to success. This is exactly where the maximum number of new earning and career opportunities opens up. From this level, you can also purchase your own real estate — [color=#FFCC00]apartments[/color] and [color=#FFCC00]houses.[/color] You can buy them directly from the state or by participating in auctions.[br/][br/][color=#FFCC00]Jobs:[/color] [br/]The choice has become even wider: catch and sell fish ([color=#E0584B]Fisherman[/color]), clean up the city ([color=#E0584B]Garbage Truck Driver[/color]), search for treasure ([color=#E0584B]Treasure Hunter[/color]), or earn your first capital as a [color=#E0584B]Taxi Driver[/color]. Also, they say [color=#E0584B]Car Thieves[/color] are paid pretty well too.[br/][br/][color=#FFCC00]Factions:[/color] [br/]Now you can treat people ([color=#E0584B]City Hospital[/color]), go into politics ([color=#E0584B]Government[/color]), work for the special services ([color=#E0584B]FBI[/color]), broadcast on air ([color=#E0584B]Media[/color]), or join one of the local “football clubs.” Their representatives often hold recruitments and look for devoted fans with unusual talents.[br/][br/][color=#FFCC00]Tasks:[/color] [br/]The [color=#E0584B]Storyline[/color] is now open to you. Complete Uncle Slava's tasks to learn more about the game world and collect valuable rewards."
     },
     {
       "id": 4,
-      "header": "Уровень 4",
-      "text": "Если ты мечтаешь ловить преступников или следить за порядком на дорогах — настало твое время. Для дальнейших шагов пригодится [color=#85D359]лицензия на оружие[/color], ее можно получить в [color=#FFCC00]Правительстве[/color].[br/][br/][color=#FFCC00]Работы:[/color]  [br/]Стань [color=#E0584B]Автомехаником[/color] и чини тачки или добывай мясо и шкуры с помощью [color=#E0584B]Охоты[/color] в лесу.[br/][br/][color=#FFCC00]Фракции:[/color]  [br/]Доступны силовые структуры: [color=#E0584B]ГИБДД, УМВД[/color] и [color=#E0584B]ФСИН[/color], ищи их в своем навигаторе ([color=#FFCC00]/gps[/color]).[br/][br/][color=#FFCC00]Задания:[/color] [br/]Дядя Слава подготовил дополнительные [color=#E0584B]Квесты[/color] для опытных игроков, поэтому не забывай к нему иногда заглядывать."
+      "header": "Level 4",
+      "text": "If you dream of catching criminals or keeping order on the roads, your time has come. For your next steps, a [color=#85D359]weapon license[/color] will be useful; you can obtain it from the [color=#FFCC00]Government[/color].[br/][br/][color=#FFCC00]Jobs:[/color]  [br/]Become an [color=#E0584B]Auto Mechanic[/color] and repair cars, or gather meat and hides through [color=#E0584B]Hunting[/color] in the forest.[br/][br/][color=#FFCC00]Factions:[/color]  [br/]Law enforcement agencies are available: [color=#E0584B]Traffic Police, City Police[/color] and [color=#E0584B]Penitentiary Service[/color], look for them in your navigator ([color=#FFCC00]/gps[/color]).[br/][br/][color=#FFCC00]Tasks:[/color] [br/]Uncle Slava has prepared additional [color=#E0584B]Quests[/color] for experienced players, so don't forget to stop by and see him from time to time."
     },
     {
       "id": 5,
-      "header": "Уровень 5",
-      "text": "Теперь тебе можно доверить ответственную работу по улучшению мирной жизни города.[br/][br/][color=#FFCC00]Работы:[/color] [br/]Стань сотрудником [color=#E0584B]МЧС[/color] и туши пожары, обслуживай трубопровод города как [color=#E0584B]Газовщик[/color] или работай [color=#E0584B]Курьером ПВЗ[/color], доставляя заказы клиентам."
+      "header": "Level 5",
+      "text": "Now you can be trusted with responsible work to improve the city's peaceful life.[br/][br/][color=#FFCC00]Jobs:[/color] [br/]Become an [color=#E0584B]EMERCOM[/color] employee and put out fires, maintain the city's pipeline as a [color=#E0584B]Gas Worker[/color], or work as a [color=#E0584B]Pickup Point Courier[/color], delivering orders to customers."
     },
     {
       "id": 6,
-      "header": "Уровень 6",
-      "text": "[color=#FFCC00]Поздравляем с повышением уровня![/color] [br/]Продолжай совершенствоваться, и уже скоро тебе станут доступны новые занятия и фракции."
+      "header": "Level 6",
+      "text": "[color=#FFCC00]Congratulations on leveling up![/color] [br/]Keep improving, and soon new activities and factions will become available to you."
     },
     {
       "id": 7,
-      "header": "Уровень 7",
-      "text": "Продолжай свою карьеру в логистике.[br/][br/][color=#FFCC00]Работы:[/color] [br/]Устраивайся [color=#E0584B]Складским работником[/color]. Здесь нужно быть внимательным и быстрым, сортируя грузы в [color=#FFCC00]порту Нижегородска[/color]."
+      "header": "Level 7",
+      "text": "Continue your career in logistics.[br/][br/][color=#FFCC00]Jobs:[/color] [br/]Get a job as a [color=#E0584B]Warehouse Worker[/color]. Here you need to be attentive and quick while sorting cargo at the [color=#FFCC00]Nizhegorodsk Port[/color]."
     },
     {
       "id": 8,
-      "header": "Уровень 8",
-      "text": "Город постоянно развивается, и ты можешь принять в этом участие.[br/][br/][color=#FFCC00]Работы:[/color] [br/]Стань [color=#E0584B]Разнорабочим[/color] на стройке или садись за штурвал тяжелой техники как [color=#E0584B]Водитель экскаватора[/color]."
+      "header": "Level 8",
+      "text": "The city is constantly developing, and you can take part in it.[br/][br/][color=#FFCC00]Jobs:[/color] [br/]Become a [color=#E0584B]Construction Worker[/color] at a building site, or take the controls of heavy machinery as an [color=#E0584B]Excavator Driver[/color]."
     },
     {
       "id": 9,
-      "header": "Уровень 9",
-      "text": "[color=#FFCC00]Поздравляем с повышением уровня![/color] [br/]Продолжай совершенствоваться, и уже скоро тебе станут доступны новые занятия и фракции."
+      "header": "Level 9",
+      "text": "[color=#FFCC00]Congratulations on leveling up![/color] [br/]Keep improving, and soon new activities and factions will become available to you."
     },
     {
       "id": 10,
-      "header": "Уровень 10",
-      "text": "Одна из самых свободных и прибыльных профессий становится доступна именно сейчас.[br/][br/][color=#FFCC00]Работы:[/color]  [br/]Становись [color=#E0584B]Дальнобойщиком[/color]. Загружай фуру, включай любимую музыку и покоряй трассы, перевозя ценные грузы."
+      "header": "Level 10",
+      "text": "One of the freest and most profitable professions becomes available right now.[br/][br/][color=#FFCC00]Jobs:[/color]  [br/]Become a [color=#E0584B]Truck Driver[/color]. Load up your rig, turn on your favorite music, and conquer the highways while transporting valuable cargo."
     },
     {
       "id": 11,
-      "header": "Уровень 11",
-      "text": "[color=#FFCC00]Поздравляем с повышением уровня![/color] [br/]Продолжай совершенствоваться, и уже скоро тебе станут доступны новые занятия и фракции."
+      "header": "Level 11",
+      "text": "[color=#FFCC00]Congratulations on leveling up![/color] [br/]Keep improving, and soon new activities and factions will become available to you."
     },
     {
       "id": 12,
-      "header": "Уровень 12",
-      "text": "Прибыльная техническая должность для специалистов с умелыми руками.[br/][br/][color=#FFCC00]Работы:[/color]  [br/]Теперь ты можешь стать [color=#E0584B]Электриком[/color]. Восстанавливай свет в домах и чини электросети района."
+      "header": "Level 12",
+      "text": "A profitable technical position for specialists with skilled hands.[br/][br/][color=#FFCC00]Jobs:[/color]  [br/]Now you can become an [color=#E0584B]Electrician[/color]. Restore power to homes and repair the district's electrical networks."
     },
     {
       "id": 13,
-      "header": "Уровень 13",
-      "text": "[color=#FFCC00]Поздравляем с повышением уровня![/color] [br/]Продолжай совершенствоваться, и уже скоро тебе станут доступны новые занятия и фракции."
+      "header": "Level 13",
+      "text": "[color=#FFCC00]Congratulations on leveling up![/color] [br/]Keep improving, and soon new activities and factions will become available to you."
     },
     {
       "id": 14,
-      "header": "Уровень 14",
-      "text": "[color=#FFCC00]Поздравляем с повышением уровня![/color] [br/]Продолжай совершенствоваться, и уже скоро тебе станут доступны новые занятия и фракции."
+      "header": "Level 14",
+      "text": "[color=#FFCC00]Congratulations on leveling up![/color] [br/]Keep improving, and soon new activities and factions will become available to you."
     },
     {
       "id": 15,
-      "header": "Уровень 15",
-      "text": "Твой опыт уже достаточно высок, чтобы справляться с самой опасной работой – перевозкой наличных.[br/][br/][color=#FFCC00]Работы:[/color]  [br/]Устраивайся [color=#E0584B]Инкассатором[/color] в любом банке города. Работа денежная, но и риск высок — будь готов защищать ценный груз от нападения."
+      "header": "Level 15",
+      "text": "Your experience is already high enough to handle the most dangerous job — transporting cash.[br/][br/][color=#FFCC00]Jobs:[/color]  [br/]Get a job as a [color=#E0584B]Cash Collector[/color] at any bank in the city. The work pays well, but the risk is high too — be ready to protect the valuable cargo from attack."
     },
     {
       "id": 16,
-      "header": "Уровень 16",
-      "text": "[color=#FFCC00]Поздравляем с повышением уровня![/color] [br/]Продолжай совершенствоваться, и уже скоро тебе станут доступны новые занятия и фракции."
+      "header": "Level 16",
+      "text": "[color=#FFCC00]Congratulations on leveling up![/color] [br/]Keep improving, and soon new activities and factions will become available to you."
     },
     {
       "id": 17,
-      "header": "Уровень 17",
-      "text": "[color=#FFCC00]Поздравляем с повышением уровня![/color] [br/]Продолжай совершенствоваться, и уже скоро тебе станут доступны новые занятия и фракции."
+      "header": "Level 17",
+      "text": "[color=#FFCC00]Congratulations on leveling up![/color] [br/]Keep improving, and soon new activities and factions will become available to you."
     },
     {
       "id": 18,
-      "header": "Уровень 18",
-      "text": "Для тебя больше нет закрытых дверей – теперь ты можешь заниматься самой прибыльной работой и выполнять задания на глубине. Для этого не забудь обзавестись [color=#85D359]лицензией на управление водным транспортом[/color] и лодкой.[br/][br/][color=#FFCC00]Работы:[/color]  [br/]Опустись на дно за сокровищами в костюме [color=#E0584B]Водолаза[/color]. Обратись к любому [color=#FFCC00]Капитану пирса[/color] и получи задание на месте крушения кораблей."
+      "header": "Level 18",
+      "text": "There are no more closed doors for you — now you can take on the most profitable work and complete tasks in the depths. For this, do not forget to get a [color=#85D359]watercraft operating license[/color] and a boat.[br/][br/][color=#FFCC00]Jobs:[/color]  [br/]Descend to the bottom for treasures in the suit of a [color=#E0584B]Diver[/color]. Contact any [color=#FFCC00]Pier Captain[/color] and receive an assignment at the shipwreck site."
     }
   ],
   "professions": [
     {
       "id": 1,
-      "header": "Завод (1 уровень)",
-      "text": "Производство материалов в цеху. Необходимо брать заготовки, обрабатывать их на рабочем месте и сдавать готовую продукцию. [br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 1 уровень"
+      "header": "Factory (Level 1)",
+      "text": "Production of materials in the workshop. You need to take blanks, process them at the workstation, and turn in the finished products. [br/][br/][color=#FFCC00]Employment requirements: [/color][br/] - Level 1"
     },
     {
       "id": 2,
-      "header": "Шахта (1 уровень)",
-      "text": "Добыча руды в шахте с использованием кирки. После добычи руда доставляется к вагонетке для дальнейшей обработки. [br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 1 уровень"
+      "header": "Mine (Level 1)",
+      "text": "Mining ore in the mine using a pickaxe. After extraction, the ore is delivered to the mine cart for further processing. [br/][br/][color=#FFCC00]Employment requirements: [/color][br/] - Level 1"
     },
     {
       "id": 3,
-      "header": "Ферма (1 уровень)",
-      "text": "Ферма открывает доступ к нескольким видам работ: [br/] [color=#E0584B] 1. Сборщик урожая [/color] — сбор урожая на полях и в теплицах на территории фермы. Собранные культуры необходимо доставлять на склад. [br/] [color=#E0584B] 2. Дояр [/color] — сбор молока с коров с последующей доставкой на склад. [br/] [color=#E0584B] 3. Пчеловод [/color] — сбор меда из ульев с последующей доставкой на склад. Сначала необходимо арендовать улей, а затем достать из него рамку с медом. [br/] [color=#E0584B] 4. Водитель комбайна [/color] — сбор урожая с полей с использованием специализированной техники. Необходимо обрабатывать участки и собирать сельскохозяйственные культуры. [br/] Для удобства перемещения по ферме можно арендовать спец. транспорт. [br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 1 уровень [br/] - Права категории С (для водителя комбайна) [br/][br/][color=#FFCC00]Полезные команды:[/color][br/][color=#E0584B]/lock [/color] - открыть/закрыть дверь комбайна"
+      "header": "Farm (Level 1)",
+      "text": "The farm gives access to several types of jobs: [br/] [color=#E0584B] 1. Crop Collector [/color] — harvesting crops in the fields and greenhouses on the farm territory. The harvested crops must be delivered to the warehouse. [br/] [color=#E0584B] 2. Milker [/color] — collecting milk from cows with subsequent delivery to the warehouse. [br/] [color=#E0584B] 3. Beekeeper [/color] — collecting honey from beehives with subsequent delivery to the warehouse. First you need to rent a hive, and then take a frame with honey out of it. [br/] [color=#E0584B] 4. Combine Driver [/color] — harvesting crops from the fields using specialized machinery. You need to work the plots and collect agricultural crops. [br/] For easier movement around the farm, you can rent special transport. [br/][br/][color=#FFCC00]Employment requirements: [/color][br/] - Level 1 [br/] - Category C license (for the combine driver) [br/][br/][color=#FFCC00]Useful commands:[/color][br/][color=#E0584B]/lock [/color] - open/close the combine door"
     },
     {
       "id": 4,
-      "header": "Клуб (2 уровень)",
-      "text": "Можно устроиться на работу по приглашению владельца клуба на одну из должностей:[br/][color=#E0584B]Танцовщица[/color] — выступления на танцевальном подиуме ночного клуба. Основная задача — попадать в ритм музыки и выполнять комбинации движений. [br/][color=#E0584B]Повар[/color] — приготовление блюд на кухне клуба. Необходимо выбирать доступные рецепты, готовить блюда поэтапно и передавать готовые заказы.[br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 2 уровень[br/] - До 10 000 руб.(цену за вход устанавливает владелец клуба)[br/] - Любой надетый скин кроме “Бомжа“[br/][br/][color=#FFCC00]Полезные команды:[/color][br/][color=#E0584B]/ncleave[/color] - уволиться из ночного клуба[br/][br/][color=#FFCC00]Команды для владельцев ночных клубов:[/color][br/][color=#E0584B]/cemenu[/color] - меню владельца ночного клуба"
+      "header": "Club (Level 2)",
+      "text": "You can get a job by invitation from the club owner for one of the following positions:[br/][color=#E0584B]Dancer[/color] — performances on the dance podium of the nightclub. The main task is to stay on the beat of the music and perform movement combinations. [br/][color=#E0584B]Cook[/color] — preparing dishes in the club kitchen. You need to choose available recipes, cook dishes step by step, and hand over completed orders.[br/][br/][color=#FFCC00]Employment requirements: [/color][br/] - Level 2[br/] - Up to 10,000 rubles (the entrance price is set by the club owner)[br/] - Any equipped skin except “Homeless Person“[br/][br/][color=#FFCC00]Useful commands:[/color][br/][color=#E0584B]/ncleave[/color] - leave the nightclub job[br/][br/][color=#FFCC00]Commands for nightclub owners:[/color][br/][color=#E0584B]/cemenu[/color] - nightclub owner menu"
     },
     {
       "id": 5,
-      "header": "Водитель автобуса (2 уровень)",
-      "text": "Перевозка пассажиров по установленному маршруту с остановками в обозначенных точках. Необходимо следовать маршруту, останавливаться для посадки и высадки пассажиров и продолжать движение по маршруту.[br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 2 уровень[br/] - Права категории D[br/] - Не состоять во фракциях"
+      "header": "Bus Driver (Level 2)",
+      "text": "Transporting passengers along a set route with stops at marked points. You need to follow the route, stop for passenger boarding and disembarking, and continue along the route.[br/][br/][color=#FFCC00]Employment requirements: [/color][br/] - Level 2[br/] - Category D license[br/] - Must not be in a faction"
     },
     {
       "id": 6,
-      "header": "Курьер (2 уровень)",
-      "text": "Доставка заказов от точек выдачи до клиентов с помощью транспорта. Необходимо забирать заказы и доставлять их по указанным адресам. Места получения и доставки заказов автоматически отмечаются на карте. [br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 2 уровень[br/] - Не состоять во фракциях"
+      "header": "Courier (Level 2)",
+      "text": "Delivering orders from pickup points to clients using transport. You need to pick up orders and deliver them to the specified addresses. Order pickup and delivery locations are automatically marked on the map. [br/][br/][color=#FFCC00]Employment requirements: [/color][br/] - Level 2[br/] - Must not be in a faction"
     },
     {
       "id": 7,
-      "header": "Рыболов (3 уровень)",
-      "text": "Вылов рыбы в доступных зонах на карте с использованием удочки. Для начала рыболову необходимо приобрести [color=#85D359]удочки, приманки и снасти[/color] — от их качества зависит доступ к более продуктивным рыболовным зонам и эффективность улова.[br/] Купив все необходимое, необходимо найти подходящую Рыболовную зону. [br/] После успешной рыбалки, требуется вернуться в [color=#FFCC00]Рыболовный магазин[/color] и поговорить со [color=#FFCC00]Скупщиком рыбы[/color], чтобы продать улов.[br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 3 уровень[br/] - Наличие удочки (можно купить в любом Рыболовном магазине)"
+      "header": "Fisherman (Level 3)",
+      "text": "Catching fish in available zones on the map using a fishing rod. To start, a fisherman needs to purchase [color=#85D359]fishing rods, bait, and tackle[/color] — their quality determines access to more productive fishing zones and catch efficiency.[br/] After buying everything necessary, you need to find a suitable Fishing Zone. [br/] After a successful fishing trip, you need to return to the [color=#FFCC00]Fishing Shop[/color] and talk to the [color=#FFCC00]Fish Buyer[/color] to sell your catch.[br/][br/][color=#FFCC00]Employment requirements: [/color][br/] - Level 3[br/] - Fishing rod required (can be bought at any Fishing Shop)"
     },
     {
       "id": 8,
-      "header": "Водитель мусоровоза (3 уровень)",
-      "text": "Сбор и вывоз мусора с контейнерных площадок с использованием специализированного транспорта. Необходимо забирать отходы, загружать их в мусоровоз и доставлять на полигон для разгрузки.[br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 3 уровень[br/] - Права категории С[br/] - Законопослушность не менее -10[br/][br/][color=#FFCC00]Полезные команды: [/color][br/][color=#E0584B]/tlist[/color] - показывает все доступные для взаимодействия мусорные контейнеры, их заполненность и расстояние до игрока"
+      "header": "Garbage Truck Driver (Level 3)",
+      "text": "Collecting and removing garbage from container sites using specialized transport. You need to pick up waste, load it into the garbage truck, and deliver it to the landfill for unloading.[br/][br/][color=#FFCC00]Employment requirements: [/color][br/] - Level 3[br/] - Category C license[br/] - Lawfulness no lower than -10[br/][br/][color=#FFCC00]Useful commands: [/color][br/][color=#E0584B]/tlist[/color] - shows all garbage containers available for interaction, their fill level, and the distance to the player"
     },
     {
       "id": 9,
-      "header": "Кладоискатель (3 уровень)",
-      "text": "Поиск спрятанных кладов в обозначенной зоне. Необходимо исследовать территорию и находить тайники в течение ограниченного времени.[br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 3 уровень[br/] - Лопата (можно купить в любом Магазине 24/7)[br/] - Металлоискатель (можно купить в любом Магазине 24/7)[br/][br/][color=#FFCC00]Полезные команды: [/color][br/][color=#E0584B]/kleave[/color] - покинуть работу[br/][color=#E0584B]/dig[/color] - копать землю"
+      "header": "Treasure Hunter (Level 3)",
+      "text": "Searching for hidden treasures in the marked zone. You need to explore the area and find stashes within a limited time.[br/][br/][color=#FFCC00]Employment requirements: [/color][br/] - Level 3[br/] - Shovel (can be bought at any 24/7 Store)[br/] - Metal detector (can be bought at any 24/7 Store)[br/][br/][color=#FFCC00]Useful commands: [/color][br/][color=#E0584B]/kleave[/color] - leave the job[br/][color=#E0584B]/dig[/color] - dig the ground"
     },
     {
       "id": 10,
-      "header": "Угонщик (3 уровень)",
-      "text": "Поиск, взлом и перегон транспортных средств в указанную точку. Необходимо найти автомобиль в заданной зоне, вскрыть его и доставить к месту сбыта.[br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 3 уровень[br/] - Права категории В[br/] - Набор отмычек (можно купить в любом Магазине 24/7)[br/][br/][color=#FFCC00]Полезные команды: [/color][br/][color=#E0584B]/carjack[/color] - начать взлом автомобиля[br/][color=#E0584B]/scarjack[/color] - прекратить взлом автомобиля"
+      "header": "Car Thief (Level 3)",
+      "text": "Searching for, breaking into, and delivering vehicles to the specified point. You need to find a car in the designated area, break into it, and deliver it to the drop-off point.[br/][br/][color=#FFCC00]Employment requirements: [/color][br/] - Level 3[br/] - Category B license[br/] - Lockpick set (can be bought at any 24/7 Store)[br/][br/][color=#FFCC00]Useful commands: [/color][br/][color=#E0584B]/carjack[/color] - start breaking into a car[br/][color=#E0584B]/scarjack[/color] - stop breaking into a car"
     },
     {
       "id": 11,
-      "header": "Таксист (3 уровень)",
-      "text": "Работа таксистом в одном из таксопарков. Каждый таксопарк выплачивает свою заработную плату. Можно работать только в той [color=#FFCC00]компании[/color], где оформлено официальное трудоустройство.[br/]Перевозка пассажиров и доставка заказов с помощью служебного или личного транспорта. Работа включает принятие заказов, прибытие к клиенту и доставку до указанной точки, а также выполнение поручений по доставке товаров.[br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 3 уровень[br/] - Права категории В[br/][br/][color=#FFCC00]Полезные команды: [/color][br/][color=#E0584B]/tc[/color] - чат внутри таксопарка[br/][color=#E0584B]/tord[/color] - лист заказов в таксопарке[br/][br/][color=#FFCC00]Команды для владельцев таксопарков: [/color][br/][color=#E0584B]/tmenu[/color] - меню управления таксокомпанией[br/][color=#E0584B]/tuninvite[/color] (ID игрока) - уволить сотрудника таксопарка[br/][color=#E0584B]/trank[/color] (ID игрока) - изменить ранг сотруднику в таксопарке"
+      "header": "Taxi Driver (Level 3)",
+      "text": "Work as a taxi driver in one of the taxi companies. Each taxi company pays its own salary. You can work only in the [color=#FFCC00]company[/color] where you are officially employed.[br/]Transporting passengers and delivering orders using a company or personal vehicle. The job includes accepting orders, arriving to the client, and delivering them to the specified point, as well as completing goods delivery assignments.[br/][br/][color=#FFCC00]Employment requirements: [/color][br/] - Level 3[br/] - Category B license[br/][br/][color=#FFCC00]Useful commands: [/color][br/][color=#E0584B]/tc[/color] - taxi company internal chat[br/][color=#E0584B]/tord[/color] - list of orders in the taxi company[br/][br/][color=#FFCC00]Commands for taxi company owners: [/color][br/][color=#E0584B]/tmenu[/color] - taxi company management menu[br/][color=#E0584B]/tuninvite[/color] (player ID) - dismiss a taxi company employee[br/][color=#E0584B]/trank[/color] (player ID) - change an employee's rank in the taxi company"
     },
     {
       "id": 12,
-      "header": "Охотник (4 уровень)",
-      "text": "Выслеживание и добыча диких животных в охотничьих зонах. Необходимо использовать приманки, добывать трофеи и доставлять их для продажи или дальнейшей обработки.[br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 4 уровень[br/] - Лицензия на оружие [br/] - Винтовка и патроны (можно купить в любом Магазине оружия)[br/][br/][color=#FFCC00]Полезные команды: [/color][br/][color=#E0584B]/hleave[/color] - закончить охоту"
+      "header": "Hunter (Level 4)",
+      "text": "Tracking and hunting wild animals in hunting zones. You need to use bait, obtain trophies, and deliver them for sale or further processing.[br/][br/][color=#FFCC00]Employment requirements: [/color][br/] - Level 4[br/] - Weapon license [br/] - Rifle and ammunition (can be bought at any Weapon Store)[br/][br/][color=#FFCC00]Useful commands: [/color][br/][color=#E0584B]/hleave[/color] - finish hunting"
     },
     {
       "id": 13,
-      "header": "Автомеханик (4 уровень)",
-      "text": "Услуги по ремонту и заправке транспортных средств. Необходимо взаимодействовать с автомобилями, выполняя их обслуживание и устанавливая стоимость за оказанные услуги.[br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 4 уровень[br/] - Права категории В[br/][br/][color=#FFCC00]Полезные команды: [/color][br/][color=#E0584B]/joblist[/color] - список доступных вызовов[br/][color=#E0584B]/getfuel[/color] (кол-во в литрах) - покупка топлива на АЗС[br/][color=#E0584B]/find[/color] - работники онлайн[br/][color=#E0584B]/fill[/color] (id игрока) (кол-во топлива) (стоимость) - заправка авто[br/][color=#E0584B]/repair[/color] (id игрока) (стоимость) - починить авто"
+      "header": "Auto Mechanic (Level 4)",
+      "text": "Vehicle repair and refueling services. You need to interact with cars by servicing them and setting the price for the provided services.[br/][br/][color=#FFCC00]Employment requirements: [/color][br/] - Level 4[br/] - Category B license[br/][br/][color=#FFCC00]Useful commands: [/color][br/][color=#E0584B]/joblist[/color] - list of available calls[br/][color=#E0584B]/getfuel[/color] (amount in liters) - buy fuel at a gas station[br/][color=#E0584B]/find[/color] - workers online[br/][color=#E0584B]/fill[/color] (player id) (fuel amount) (price) - refuel a car[br/][color=#E0584B]/repair[/color] (player id) (price) - repair a car"
     },
     {
       "id": 14,
-      "header": "Газовщик (5 уровень)",
-      "text": "Выезды на объекты для диагностики и ремонта газового оборудования в рамках ограниченного времени. Необходимо выявлять неисправности, проводить обслуживание и завершать задачи до истечения срока контракта.[br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 5 уровень[br/] - Права категории В[br/] - Законопослушность не менее 50[br/][br/][color=#FFCC00]Полезные команды: [/color][br/][color=#E0584B]/contract[/color] - список доступных заказов[br/][color=#E0584B]/findgas[/color] - поменять последовательность починки газовых подстанций"
+      "header": "Gas Worker (Level 5)",
+      "text": "Trips to sites for diagnostics and repair of gas equipment within a limited time. You must identify malfunctions, perform maintenance, and complete tasks before the contract expires.[br/][br/][color=#FFCC00]Device requirements: [/color][br/] - Level 5[br/] - Category B driver's license[br/] - Lawfulness of at least 50[br/][br/][color=#FFCC00]Useful commands: [/color][br/][color=#E0584B]/contract[/color] - list of available orders[br/][color=#E0584B]/findgas[/color] - change the repair sequence of gas substations"
     },
     {
       "id": 15,
-      "header": "МЧС (5 уровень)",
-      "text": "Реагирование на чрезвычайные ситуации и ликвидация их последствий. Необходимо использовать специализированное оборудование для тушения пожаров, устранения завалов и вскрытия преград, выполняя задания с выездом на точки.[br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 5 уровень[br/] - Права категории D[br/][br/][color=#FFCC00]Полезные команды: [/color][br/][color=#E0584B]/meslist[/color] - список заказов (доступно только в транспорте)[br/][color=#E0584B]/mesinv[/color] (id игрока) - пригласить игрока в команду[br/][color=#E0584B]/mesleave[/color] - расформировать команду"
+      "header": "EMERCOM (Level 5)",
+      "text": "Responding to emergencies and eliminating their consequences. You need to use specialized equipment to extinguish fires, clear blockages, and force open obstacles while completing tasks with trips to locations.[br/][br/][color=#FFCC00]Employment requirements: [/color][br/] - Level 5[br/] - Category D license[br/][br/][color=#FFCC00]Useful commands: [/color][br/][color=#E0584B]/meslist[/color] - order list (available only in a vehicle)[br/][color=#E0584B]/mesinv[/color] (player id) - invite a player to the team[br/][color=#E0584B]/mesleave[/color] - disband the team"
     },
     {
       "id": 16,
-      "header": "Курьер ПВЗ (5 уровень)",
-      "text": "Доставка товаров по заранее сформированному маршруту. Необходимо забирать груз, загружать его в транспорт и развозить по указанным адресам, передавая получателям. Работа может выполняться как в одиночку, так и [color=#FFCC00]в составе группы[/color], что позволяет эффективнее справляться с задачами. Пригласить игрока в группу можно через радиальное меню.[br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 5 уровень[br/] - Права категории В[br/] - Законопослушность не менее -50"
+      "header": "Pickup Point Courier (Level 5)",
+      "text": "Delivering goods along a pre-planned route. You need to pick up the cargo, load it into transport, and deliver it to the specified addresses, handing it over to recipients. The job can be done alone or [color=#FFCC00]as part of a group[/color], which makes it possible to handle tasks more efficiently. You can invite a player to a group through the radial menu.[br/][br/][color=#FFCC00]Employment requirements: [/color][br/] - Level 5[br/] - Category B license[br/] - Lawfulness no lower than -50"
     },
     {
       "id": 17,
-      "header": "Складской работник (7 уровень)",
-      "text": "Приемка, проверка и размещение товаров на складе. Необходимо сканировать грузы, сверять их с разнарядкой и распределять по соответствующим секторам, при этом работу можно выполнять совместно с напарником для большей эффективности. [br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 7 уровень[br/] - Законопослушность не менее -50"
+      "header": "Warehouse Worker (Level 7)",
+      "text": "Receiving, checking, and placing goods in the warehouse. You need to scan cargo, verify it against the assignment sheet, and distribute it to the appropriate sectors, and the work can be performed together with a partner for greater efficiency. [br/][br/][color=#FFCC00]Employment requirements: [/color][br/] - Level 7[br/] - Lawfulness no lower than -50"
     },
     {
       "id": 18,
-      "header": "Стройка (8 уровень)",
-      "text": "Для трудоустройства в строительную компанию необходимо подать заявку через прораба. Прием в компанию осуществляется заместителем или директором.[br/]Строительные компании открывают доступ к нескольким видам работ:[br/][color=#E0584B]1. Разнорабочий[/color] — выполняет основные задачи на объекте. Данная должность предусматривает переноску цемента, ремонт труб, ремонт проводки, вынос мусора.[br/][color=#E0584B]2. Водитель экскаватора[/color] — выполняет работу с грунтом на объекте строительства. Данная работа доступна только на стройках высокого класса. Для трудоустройства необходимо иметь [color=#85D359]Права категории С[/color] и [color=#85D359]500 навыка[/color] на работе разнорабочего.[br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 8 уровень [br/] - Права категории С (для водителя экскаватора)[br/] - Навык разнорабочего 500 (для водителя экскаватора)[br/][br/][color=#FFCC00]Полезные команды: [/color][br/][color=#E0584B]/bcompany[/color] - основное меню компании[br/][color=#E0584B]/bc[/color] - чат строительной компании"
+      "header": "Construction Site (Level 8)",
+      "text": "To get hired by a construction company, you need to submit an application through the foreman. Admission to the company is handled by the deputy or the director.[br/]Construction companies provide access to several types of jobs:[br/][color=#E0584B]1. Construction Worker[/color] — performs the main tasks on the site. This position includes carrying cement, repairing pipes, repairing wiring, and taking out trash.[br/][color=#E0584B]2. Excavator Driver[/color] — performs ground work on the construction site. This job is available only at high-class construction sites. To get hired, you need to have a [color=#85D359]Category C license[/color] and [color=#85D359]500 skill[/color] in the construction worker job.[br/][br/][color=#FFCC00]Employment requirements: [/color][br/] - Level 8 [br/] - Category C license (for the excavator driver)[br/] - Construction worker skill 500 (for the excavator driver)[br/][br/][color=#FFCC00]Useful commands: [/color][br/][color=#E0584B]/bcompany[/color] - main company menu[br/][color=#E0584B]/bc[/color] - construction company chat"
     },
     {
       "id": 19,
-      "header": "Дальнобойщик (10 уровень)",
-      "text": "Доставка грузов между удаленными точками по заданным маршрутам. Необходимо забирать груз, доставлять его по маршруту и выполнять разгрузку в конечной точке. Работа требует длительных поездок и контроля состояния груза.[br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 10 уровень[br/] - Права категории С[br/] - Мед. карта[br/][br/][color=#FFCC00]Полезные команды: [/color][br/][color=#E0584B]/lock[/color] - сесть в грузовик[br/][color=#E0584B]/cargo[/color] - аренда прицепа"
+      "header": "Truck Driver (Level 10)",
+      "text": "Delivering cargo between remote points along assigned routes. You need to pick up the cargo, deliver it along the route, and unload it at the destination point. The job requires long trips and monitoring the condition of the cargo.[br/][br/][color=#FFCC00]Employment requirements: [/color][br/] - Level 10[br/] - Category C license[br/] - Medical card[br/][br/][color=#FFCC00]Useful commands: [/color][br/][color=#E0584B]/lock[/color] - get into the truck[br/][color=#E0584B]/cargo[/color] - trailer rental"
     },
     {
       "id": 20,
-      "header": "Электрик (12 уровень)",
-      "text": "Обслуживание и восстановление городской электросети. Необходимо выезжать на точки, взаимодействовать с оборудованием и выполнять работы по диагностике и ремонту различных объектов инфраструктуры.[br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 12 уровень[br/] - Права категории В[br/] - Законопослушность не менее -50[br/][br/][color=#FFCC00]Полезные команды: [/color][br/][color=#E0584B]/elist[/color] - список доступных вызовов"
+      "header": "Electrician (Level 12)",
+      "text": "Maintaining and restoring the city's power grid. You need to travel to locations, interact with equipment, and perform diagnostics and repair work on various infrastructure facilities.[br/][br/][color=#FFCC00]Employment requirements: [/color][br/] - Level 12[br/] - Category B license[br/] - Lawfulness no lower than -50[br/][br/][color=#FFCC00]Useful commands: [/color][br/][color=#E0584B]/elist[/color] - list of available calls"
     },
     {
       "id": 21,
-      "header": "Инкассатор (15 уровень)",
-      "text": "Инкассатор — сотрудник банка, занимающийся транспортировкой денежных средств и других драгоценностей по нуждам банка или его клиентов.  Данная работа — [color=#FFCC00]командная[/color], работать на ней можно только вместе с напарником. Пригласить игрока в группу можно через радиальное меню.[br/][br/] Должности напарников:[br/][color=#E0584B]1. Водитель[/color] — член команды, арендовавший автомобиль. Никогда не покидает автомобиль, следит за обстановкой и в случае опасности может вызвать помощь через [color=#FFCC00]тревожную кнопку[/color] в инкассаторской машине. [br/][color=#E0584B]2. Инкассатор[/color] — член команды, выполняющий роль пассажира в автомобиле и инкассатора вне его. Напрямую взаимодействует с ценным грузом и отвечает за его сохранность. [br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 15 уровень[br/] - Права категории С[br/] - Лицензия на оружие[br/][br/][color=#FFCC00]Полезные команды: [/color][br/][color=#E0584B]/cmenu[/color] - личная карточка инкассатора[br/][color=#E0584B]/collist[/color] - список инкассаторов онлайн[br/][color=#E0584B]/ic[/color] - чат инкассаторов[br/][color=#E0584B]/colinv[/color] (id игрока) - пригласить игрока напарником[br/][color=#E0584B]/blist[/color] - список заказов на перевозку денег"
+      "header": "Collector (Level 15)",
+      "text": "Collector — a bank employee engaged in the transportation of money and other valuables for the needs of the bank or its clients.  This job is [color=#FFCC00]team-based[/color]; you can only work it together with a partner. You can invite a player to a group through the radial menu.[br/][br/]Partner roles:[br/][color=#E0584B]1. Driver[/color] — the team member who rented the vehicle. Never leaves the vehicle, monitors the situation, and in case of danger can call for help via the [color=#FFCC00]panic button[/color] in the cash-in-transit vehicle. [br/][color=#E0584B]2. Collector[/color] — the team member acting as a passenger in the vehicle and as the collector outside it. Directly interacts with the valuable cargo and is responsible for its safety. [br/][br/][color=#FFCC00]Employment requirements: [/color][br/] - Level 15[br/] - Category C license[br/] - Weapon license[br/][br/][color=#FFCC00]Useful commands: [/color][br/][color=#E0584B]/cmenu[/color] - collector personal card[br/][color=#E0584B]/collist[/color] - list of collectors online[br/][color=#E0584B]/ic[/color] - collectors chat[br/][color=#E0584B]/colinv[/color] (player id) - invite a player as a partner[br/][color=#E0584B]/blist[/color] - list of money transport orders"
     },
     {
       "id": 22,
-      "header": "Водолаз (18 уровень)",
-      "text": "Поиск и подъем ценных предметов со дна водоемов с использованием арендованной лодки и оборудования. Работа проходит по циклам погружений в заданных точках. После сбора артефактов на затонувших объектах и в их окрестностях добыча доставляется для продажи [color=#FFCC00]Капитану пирса[/color].[br/][br/][color=#FFCC00]Требования к устройству: [/color][br/] - 18 уровень[br/] - Права на водный транспорт"
+      "header": "Diver (Level 18)",
+      "text": "Searching for and recovering valuable items from the bottoms of bodies of water using a rented boat and equipment. The job takes place in dive cycles at designated points. After collecting artifacts from sunken objects and their surroundings, the loot is delivered for sale to the [color=#FFCC00]Pier Captain[/color].[br/][br/][color=#FFCC00]Employment requirements: [/color][br/] - Level 18[br/] - Watercraft license"
     }
   ],
   "help": [
     {
       "id": 1,
-      "header": "О проекте",
-      "text": "[color=#E0584B]GRAND HORIZON RP [/color]— это мобильная игра с картой России.[br/]Интересный игровой мод: наличие сюжетной линии, множество увлекательных профессий и работ, система семей, одиннадцать различных организаций.[br/]Новые 3D интерьеры и здания для полного погружения в игровой мир.[br/] [br/]Около 100 уникальных автомобилей, от отечественной классики до премиальных суперкаров.[br/] [br/]Мы разработали большое количество по-настоящему крутых скинов, которые ты сможешь приобрести в магазинах одежды.[br/]Играй на наших серверах в любом месте, где бы ты ни находился!"
+      "header": "About the project",
+      "text": "[color=#E0584B]GRAND HORIZON RP [/color]is a mobile game with a map of Russia.[br/]An interesting game mode: a storyline, many exciting professions and jobs, a family system, and eleven different organizations.[br/]New 3D interiors and buildings for complete immersion in the game world.[br/] [br/]About 100 unique cars, from domestic classics to premium supercars.[br/] [br/]We have developed a large number of truly cool skins that you will be able to purchase in clothing stores.[br/]Play on our servers anywhere, no matter where you are!"
     },
     {
       "id": 2,
-      "header": "Безопасность",
-      "text": "Администрация [color=#E0584B]Grand Horizon RP [/color]убедительно просит не сообщать третьим лицам свои данные, а именно: пароли и email адреса.[br/] [br/] Не используй этот же [color=#85D359]логин/пароль [/color]на других игровых проектах. Не устанавливай на свои устройства подозрительные программы.[br/]И помни: администрация [color=#E0584B]Grand Horizon RP [/color]никогда не спрашивает у игроков их пароли."
+      "header": "Security",
+      "text": "The [color=#E0584B]Grand Horizon RP [/color]administration strongly asks you not to share your data with third parties, namely: passwords and email addresses.[br/] [br/] Do not use the same [color=#85D359]login/password [/color]on other gaming projects. Do not install suspicious programs on your devices.[br/]And remember: the [color=#E0584B]Grand Horizon RP [/color]administration never asks players for their passwords."
     },
     {
       "id": 3,
-      "header": "Основы игры",
-      "text": "Играя на нашем сервере, каждый час [color=#85D359](PayDay) [/color]ты будешь получать очки опыта [color=#85D359](Exp). [/color]Накопив их в нужном количестве, ты повысишь уровень своего персонажа.[br/][br/]Каждое повышение игрового уровня будет открывать для тебя новые [color=#FFCC00]работы и возможности, [/color]которые позволят персонажу развиваться быстрее.[br/]Для просмотра личной статистики кликни по игровому чату и введи команду [color=#0099CC]/mm[br/] [br/][/color]Она позволит тебе ознакомиться со всеми основными командами на сервере, изменить настройки или задать интересующий вопрос администрации [color=#E0584B]Grand Horizon RP[br/][/color]"
+      "header": "Game basics",
+      "text": "By playing on our server, every hour [color=#85D359](PayDay) [/color]you will receive experience points [color=#85D359](Exp). [/color]Once you accumulate the required amount, you will increase your character's level.[br/][br/]Each increase in your game level will unlock new [color=#FFCC00]jobs and opportunities [/color]for you, allowing your character to develop faster.[br/]To view your personal statistics, click on the game chat and enter the command [color=#0099CC]/mm[br/] [br/][/color]It will allow you to familiarize yourself with all the main commands on the server, change settings, or ask the administration of [color=#E0584B]Grand Horizon RP[br/][/color]a question you are interested in."
     },
     {
       "id": 4,
-      "header": "Первые шаги",
-      "text": "Сразу после регистрации аккаунта для тебя будут доступны основные игровые возможности: [br/][br/][color=#FFCC00]Выполнение заданий[/color][br/]Дядя Слава даст ценные советы и первые поручения, чтобы тебе было проще освоиться в игре. Найти его можно на любом вокзале. [br/][br/][color=#FFCC00]Работы для новичков[/color][br/]Со старта доступны три основные работы: [color=#0099CC]шахтер, сборщик запчастей на заводе, фермер.[br/][/color]У каждой работы своя специфика. Чтобы выбрать ту, которая действительно тебе понравится, мы рекомендуем попробовать их все.[br/] [br/]Все рабочие места можно найти, используя свой GPS. Для этого достаточно ввести [color=#0099CC]/gps — работы для новичков.[br/][/color]Используй подходящий автобус, чтобы добраться до нужной точки.[br/] [br/]Как только ты заработаешь нужную сумму денег, отправляйся в [color=#0099CC]Автошколу[/color] и получи водительское удостоверение.[br/] [br/]Цена экзамена — [color=#85D359]2500 руб.[br/][/color]Перед сдачей обязательно изучи все, что будет предложено в автошколе, это позволит избежать повторных затрат на пересдачу.[br/] [br/]Получив права и повысив уровень, ты сможешь перейти к [color=#85D359]основным работам[/color]."
+      "header": "First steps",
+      "text": "Immediately after registering an account, the main game features will be available to you: [br/][br/][color=#FFCC00]Completing tasks[/color][br/]Uncle Slava will give valuable advice and the first assignments to make it easier for you to get used to the game. You can find him at any train station. [br/][br/][color=#FFCC00]Jobs for beginners[/color][br/]From the start, three main jobs are available: [color=#0099CC]miner, factory parts assembler, farmer.[br/][/color]Each job has its own specifics. To choose the one you will truly like, we recommend trying them all.[br/] [br/]All workplaces can be found using your GPS. To do this, simply enter [color=#0099CC]/gps — jobs for beginners.[br/][/color]Use the appropriate bus to get to the required location.[br/] [br/]As soon as you earn the required amount of money, head to the [color=#0099CC]Driving School[/color] and get a driver's license.[br/] [br/]The exam price is [color=#85D359]2500 rubles.[br/][/color]Before taking it, be sure to study everything offered at the driving school, as this will help avoid additional retake costs.[br/] [br/]After getting your license and leveling up, you will be able to move on to [color=#85D359]main jobs[/color]."
     },
     {
       "id": 5,
       "header": "Role Play",
-      "text": "[color=#85D359]Role Play (RP/РП) [/color]— игра, в которой участник принимает какую-то роль и в любых игровых ситуациях действует соответственно этой роли от лица выбранного персонажа, руководствуясь его характером и внутренней логикой среды действия, а не внешним сценарием поведения.[br/] [br/]То есть то, как будут развиваться события в игровом мире, зависит именно от действий игроков. А сам процесс игры представляет собой моделирование группой людей той или иной ситуации.[br/] [br/]РП-поведение считается важной частью игрового процесса и поддерживается администрацией как способ общения между игроками."
+      "text": "[color=#85D359]Role Play (RP) [/color]is a game in which a participant takes on a role and, in any game situation, acts according to that role on behalf of the chosen character, guided by the character's personality and the internal logic of the environment, rather than by an external behavior script.[br/] [br/]That means how events develop in the game world depends precisely on the actions of the players. And the gameplay process itself is a simulation of one situation or another by a group of people.[br/] [br/]RP behavior is considered an important part of the gameplay and is supported by the administration as a way for players to communicate with each other."
     },
     {
       "id": 6,
-      "header": "Государственное значение",
-      "text": "Вся игровая жизнь персонажей происходит под контролем [color=#FFCC00]Правительства[/color] – главной руководящей организации.[br/] [br/]Правительство находится в центре города Нижегородск и возглавляется Губернатором области. Именно здесь ты сможешь получить [color=#85D359]лицензии[/color] на оружие или управление транспортом, а также зарегистрировать свою [color=#FFCC00]Семью[/color].[br/]Политическая жизнь в [color=#E0584B]Grand Horizon RP [/color] необычайно насыщенная и увлекательная. Ты лично убедишься в этом с первых дней жизни у нас!"
+      "header": "National significance",
+      "text": "The entire in-game life of characters takes place under the control of the [color=#FFCC00]Government[/color] – the main governing organization.[br/] [br/]The Government is located in the center of the city of Nizhegorodsk and is headed by the Regional Governor. It is here that you will be able to obtain [color=#85D359]licenses[/color] for weapons or vehicle operation, as well as register your [color=#FFCC00]Family[/color].[br/]Political life in [color=#E0584B]Grand Horizon RP [/color]is extraordinarily rich and exciting. You will personally see this from your very first days with us!"
     },
     {
       "id": 7,
-      "header": "Общение",
-      "text": "Всего на сервере доступно два основных чата:[br/][color=#E0584B]In Character (IC) [/color]— чат, в котором общаются непосредственно игровые персонажи. Этот чат является основным, именно в нем отыгрывается [color=#FFCC00]Role Play [/color]режим.[br/] [br/][color=#85D359]Out Of Character (ООС) [/color]— все, что касается реального, а не игрового мира, ты сможешь обсудить в этом чате. Для этого используй команду [color=#0099CC]/n[/color]. Она выделит твое сообщение двойными скобками [color=#0099CC](( ))[/color].[br/] [br/]Помимо этого, ты можешь использовать мобильный телефон.[br/]После вступления в организацию тебе станут доступны дополнительные чаты [color=#0099CC]/r[/color] или [color=#0099CC]/f[/color].[br/] [br/]У организации СМИ дополнительно есть возможность проводить публичные эфиры.[br/]Все чаты организаций являются ролевыми [color=#E0584B](In Character (IC)).[br/][/color]"
+      "header": "Communication",
+      "text": "There are two main chats available on the server:[br/][color=#E0584B]In Character (IC) [/color]— a chat in which the game characters themselves communicate. This chat is the main one; it is where the [color=#FFCC00]Role Play [/color]mode is played out.[br/] [br/][color=#85D359]Out Of Character (OOC) [/color]— everything related to the real world rather than the game world can be discussed in this chat. To do this, use the command [color=#0099CC]/n[/color]. It will highlight your message with double parentheses [color=#0099CC](( ))[/color].[br/] [br/]In addition, you can use a mobile phone.[br/]After joining an organization, additional chats [color=#0099CC]/r[/color] or [color=#0099CC]/f[/color] will become available to you.[br/] [br/]The Media organization additionally has the ability to conduct public broadcasts.[br/]All organization chats are roleplay [color=#E0584B](In Character (IC)).[br/][/color]"
     },
     {
       "id": 8,
-      "header": "Место жительства",
-      "text": "В области множество [color=#FFCC00]жилых домов[/color] и [color=#FFCC00]квартир[/color], доступных для покупки.[br/]Стоимость каждого конкретного жилья зависит от множества факторов. Можно приобрести маленькую уютную квартиру за скромные деньги или отдать миллионы за роскошный особняк в престижном районе.[br/] [br/]Если у тебя имеется частный дом, то личный автомобиль ты сможешь хранить в собственном [color=#FFCC00]гараже[/color]. Кроме того, можно приобретать различные улучшения своего жилища. Например, [color=#FFCC00]автоматические двери[/color] или [color=#FFCC00]шкаф[/color], который позволит тебе менять внешность и хранить одежду.[br/]Наличие частного дома также дает возможность устанавливать [color=#FFCC00]Верстаки[/color] и выращивать [color=#FFCC00]Лекарственные травы[/color]. Это лишь маленькая часть всех преимуществ и возможностей собственного жилья.[br/] [br/]В зависимости от престижности жилья с тебя будет взиматься ежедневная плата за коммунальные услуги [color=#E0584B](аренда)[/color].[br/]Оплатить аренду наперед можно в любом ближайшем [color=#FFCC00]Банке[/color]. [br/]Помни, что при неоплате аренды твое жилье будет продано, а все хранящееся в нем имущество — [color=#E0584B]изъято[/color]!"
+      "header": "Place of residence",
+      "text": "There are many [color=#FFCC00]residential houses[/color] and [color=#FFCC00]apartments[/color] available for purchase in the region.[br/]The cost of each specific property depends on many factors. You can buy a small cozy apartment for modest money or spend millions on a luxurious mansion in a prestigious area.[br/] [br/]If you own a private house, you can store your personal vehicle in your own [color=#FFCC00]garage[/color]. In addition, you can purchase various improvements for your home. For example, [color=#FFCC00]automatic doors[/color] or a [color=#FFCC00]wardrobe[/color], which will allow you to change your appearance and store clothes.[br/]Owning a private house also allows you to install [color=#FFCC00]Workbenches[/color] and grow [color=#FFCC00]Medicinal Herbs[/color]. This is only a small part of all the advantages and possibilities of owning your own home.[br/] [br/]Depending on the prestige of the property, you will be charged a daily utility fee [color=#E0584B](rent)[/color].[br/]You can pay rent in advance at any nearby [color=#FFCC00]Bank[/color]. [br/]Remember that if the rent is not paid, your property will be sold, and all property stored in it will be [color=#E0584B]confiscated[/color]!"
     },
     {
       "id": 9,
-      "header": "Транспорт",
-      "text": "Проект имеет развитую транспортную инфраструктуру, благодаря которой ты сможешь быстро перемещаться по городам или осуществлять грузовые перевозки.[br/] [br/]Первый вид транспорта, с которым тебе предстоит встретиться — [color=#85D359]автобусы[/color]. С их помощью у тебя есть возможность добраться до основных мест на карте. Маршруты грамотно проложены по всем ключевым работам и организациям.[br/]Тебе остается лишь выбрать нужный маршрут.[br/] [br/]Второй общественный вид транспорта — [color=#85D359]Такси[/color].[br/]Ты можешь воспользоваться услугами одной из трех конкурирующих между собой компаний такси.[br/] [br/][color=#85D359]Грузоперевозки. [/color] Области всегда требуются новые водители для осуществления грузовых перевозок на дальние расстояния. Благодаря им происходит пополнение товара частных бизнесов и крупных предприятий.[br/] [br/][color=#85D359]Собственное авто. [/color] Приобрести его можно в автосалоне. С помощью навигатора [color=#0099CC](/gps — Автосалоны)[/color] ты найдешь наиболее подходящее по цене и характеристикам транспортное средство для личных нужд. В случае сомнений можно взять любую модель на тест-драйв и проверить ее в деле.[br/]Изначально для каждого игрока доступен [color=#FFCC00]1 слот[/color] для автомобиля, в дальнейшем ты сможешь увеличить количество приобретаемых авто. Собственное транспортное средство имеет износ и пробег, которые учитываются при продаже и влияют на стоимость. Помимо этого, каждое авто подлежит регистрации в [color=#0099CC]ГИБДД.[/color]"
+      "header": "Transport",
+      "text": "The project has a developed transport infrastructure, thanks to which you will be able to quickly move between cities or carry out cargo transportation.[br/] [br/]The first type of transport you will encounter is [color=#85D359]buses[/color]. With their help, you can get to the main places on the map. Routes are intelligently laid out through all key jobs and organizations.[br/]All that remains is for you to choose the required route.[br/] [br/]The second public transport type is [color=#85D359]Taxi[/color].[br/]You can use the services of one of three taxi companies competing with each other.[br/] [br/][color=#85D359]Cargo transportation. [/color] The region always needs new drivers to carry out long-distance cargo transportation. Thanks to them, private businesses and large enterprises are restocked with goods.[br/] [br/][color=#85D359]Your own car. [/color] You can purchase it at a car dealership. With the help of the navigator [color=#0099CC](/gps — Car Dealerships)[/color], you will find the vehicle best suited to your personal needs in terms of price and characteristics. If you are in doubt, you can take any model for a test drive and try it out in action.[br/]Initially, [color=#FFCC00]1 slot[/color] for a car is available to each player; later, you will be able to increase the number of cars you can purchase. Your own vehicle has wear and mileage, which are taken into account when selling and affect the price. In addition, every car is subject to registration with the [color=#0099CC]Traffic Police.[/color]"
     },
     {
       "id": 10,
-      "header": "Система ремонта авто",
-      "text": "Любое транспортное средство состоит из компонентов.[br/]Во время использования они [color=#FFC700]изнашиваются[/color] и, как следствие, портятся.[br/][br/]Для поддержания автомобиля в хорошем состоянии необходимо систематически проходить [color=#FFC700]диагностику[/color] на Станции Технического Обслуживания.[br/]Износ деталей автомобиля зависит от пройденного километража и количества ДТП.[br/]Если детали твоего авто пришли в негодность, необходимо произвести их замену на Станции Технического Обслуживания ([color=#0099CC]/gps - СТО и тюнинг-ателье[color/])."
+      "header": "Car repair system",
+      "text": "Any vehicle consists of components.[br/]During use, they [color=#FFC700]wear out[/color] and, as a result, deteriorate.[br/][br/]To keep a car in good condition, it is necessary to regularly undergo [color=#FFC700]diagnostics[/color] at the Service Station.[br/]Wear of car parts depends on the distance traveled and the number of accidents.[br/]If the parts of your car have become unusable, they must be replaced at the Service Station ([color=#0099CC]/gps - Service Stations and tuning studios[color/])."
     },
     {
       "id": 11,
-      "header": "Банки, хранение средств",
-      "text": "Каждый игрок получает свой личный [color=#FFCC00]счет[/color] в банке. На него перечисляются все доходы: зарплата, награды и т.д. Этот счет называется основным и доступен в любом [color=#FFCC00]банкомате[/color].[br/]Кроме того, в банкомате ты можешь оплатить [color=#0099CC]штрафы[/color] и перевести деньги на [color=#0099CC]благотворительность[/color].[br/] [br/]Отделения банков предлагают любые услуги по обслуживанию счетов: допустимо открыть до 8 дополнительных счетов или перевести деньги на счет другого игрока. Дополнительные счета можно настраивать, устанавливать защиту PIN-кодом, изменять их названия, а также просматривать подробную историю операций.[br/] [br/][color=#FFCC00]Аренды дома, гаража[/color] или [color=#FFCC00]личного бизнеса[/color] тоже оплачиваются в банках."
+      "header": "Banks, fund storage",
+      "text": "Every player gets their own personal [color=#FFCC00]account[/color] at the bank. All income is credited to it: salary, rewards, etc. This account is called the main account and is available at any [color=#FFCC00]ATM[/color].[br/]In addition, at the ATM you can pay [color=#0099CC]fines[/color] and transfer money to [color=#0099CC]charity[/color].[br/] [br/]Bank branches offer any account servicing services: you may open up to 8 additional accounts or transfer money to another player's account. Additional accounts can be customized, protected with a PIN code, renamed, and used to view a detailed transaction history.[br/] [br/][color=#FFCC00]Rent for a house, garage[/color] or [color=#FFCC00]personal business[/color] is also paid at banks."
     },
     {
       "id": 12,
-      "header": "Организации (фракции)",
-      "text": "В игре работает большое количество организаций.[br/]Они могут быть государственными ([color=#85D359]Правительство, ГИБДД, УМВД, ФСБ, больница, СМИ, воинская часть, ФСИН[/color]) или криминальными ([color=#E0584B]ОПГ[/color]).[br/] [br/]При достижении определенного игрового уровня, ты можешь устроиться в любую желаемую организацию. Некоторые из них предъявляют дополнительные требования для вступления.[br/]Например, чтобы попасть в ОПГ, придется продемонстрировать свои навыки владения оружием. А если ты видишь себя редактором объявлений, тебе необходимо хорошо владеть грамматикой и письменной речью.[br/]О дополнительных критериях тебе сообщит руководство организации во время набора сотрудников.[br/] [br/]После вступления тебе станет доступно продвижение по карьерной лестнице.[br/]С каждым повышением [color=#FFCC00]ранга[/color] будут увеличиваться твои зарплата и социальный статус в организации.[br/]Ты найдешь новых друзей, а со временем сможешь занять одну из руководящих должностей.[br/]Жизнь в организации — необычайно интересная и захватывающая."
+      "header": "Organizations (factions)",
+      "text": "A large number of organizations operate in the game.[br/]They can be state organizations ([color=#85D359]Government, Traffic Police, City Police, FBI, City Hospital, Media, Military Unit, Penitentiary Service[/color]) or criminal ([color=#E0584B]OCGs[/color]).[br/] [br/]Upon reaching a certain game level, you can join any organization you want. Some of them have additional entry requirements.[br/]For example, to get into an OCG, you will have to demonstrate your weapon handling skills. And if you see yourself as an ad editor, you need to have a good command of grammar and written language.[br/]You will be informed about additional criteria by the organization's leadership during recruitment.[br/] [br/]After joining, career advancement will become available to you.[br/]With each increase in [color=#FFCC00]rank[/color], your salary and social status in the organization will increase.[br/]You will find new friends, and over time you may take one of the leadership positions.[br/]Life in an organization is incredibly interesting and exciting."
     },
     {
       "id": 13,
-      "header": "Рейтинг законопослушности",
-      "text": "[color=#FFC700]Рейтинг законопослушности [/color]— это рейтинг, который формируется на основе отрицательных действий (убийств). Каждое беспричинное убийство отнимает [color=#FFC700]5 законопослушности. [/color]Например, убийство за ДТП на дороге, охрану семейного особняка и в других ситуациях, когда крайняя мера не обусловлена игровым процессом (РП) и избыточна.[br/] [br/]Безусловно, мы прекрасно понимаем, что некоторые убийства совершены по веской причине — за них законопослушность снижаться [color=#FFC700]не будет. [/color]К таким убийствам относятся: убийство силовыми структурами, убийство на территории военной части (в том числе если ОПГ убил армейца), убийство при ограблении инкассаторов, убийство на войне за бизнес, убийство на семейном аирдропе или битве семей, убийство на мероприятии или убийство во время ограбления банка.[br/] [br/]Повысить законопослушность можно, получая [color=#FFC700]PayDay [/color]в окно выплат каждого часа ([color=#0099CC]ХХ:00-ХХ:10[/color]). За каждый час игроки получают по [color=#FFC700]1 очку[br/][/color]законопослушности (игроки с VIP аккаунтом — 2 очка), а также законопослушность можно приобрести в донат-магазине.[br/] [br/]Стоит понимать, что игроки с [color=#FFC700]низким рейтингом законопослушности[br/][/color]получают ряд ограничений или запретов:[br/][color=#FFC700] - [/color]Игроки с низким рейтингом законопослушности (-70) не смогут приобрести лицензию на оружие.[br/][color=#FFC700] - [/color]Игроки с низкой законопослушностью (-50) будут дольше и дороже лечиться в больнице.[br/][color=#FFC700] - [/color]Игроки с низкой законопослушностью (-125) не смогут вступить в гос. организацию.[br/][color=#FFC700] - [/color]Игроки с низкой законопослушностью (меньше 0) не смогут работать на подработках, в том числе дальнобойщиком и инкассатором.[br/][color=#FFC700] - [/color]У игроков с низкой законопослушностью (-75 и ниже) будет повышенная комиссия при проведении платежей.[br/][color=#FFC700] - [/color]У игроков с низкой законопослушностью (-100 и ниже) будет повышенная стоимость оплаты недвижимости.[br/][color=#FFC700] - [/color]У игроков с низкой законопослушностью (-150 и ниже) будет повышенная стоимость оплаты дорожных штрафов.[br/][color=#FFC700] - [/color]У игроков с низкой законопослушностью (-500) лицензия на оружие автоматически аннулируется.[br/] [br/]Также, в случае, если игрок был наказан администраторами за убийство, на него накладывается запрет на [color=#FFC700]использование и покупку оружия [/color]в течении 24-х часов после выдачи наказания.[br/] [br/]Мы надеемся на понимание и готовы принять любые предложения по изменению системы для избавления нашего проекта от высокого уровня агрессии."
+      "header": "Lawfulness rating",
+      "text": "[color=#FFC700]Lawfulness rating [/color]is a rating that is formed based on negative actions (kills). Every unjustified kill takes away [color=#FFC700]5 lawfulness points. [/color]For example, killing over a road accident, guarding a family mansion, and in other situations where such an extreme measure is not justified by the gameplay (RP) and is excessive.[br/] [br/]Of course, we fully understand that some kills are committed for a valid reason — for them, lawfulness [color=#FFC700]will not decrease. [/color]Such kills include: kills by law enforcement agencies, kills on Military Unit territory (including if an OCG member kills a soldier), kills during a cash-in-transit robbery, kills in a business war, kills at a family airdrop or family battle, kills at an event, or kills during a bank robbery.[br/] [br/]You can increase lawfulness by receiving [color=#FFC700]PayDay [/color]in the hourly payout window ([color=#0099CC]XX:00-XX:10[/color]). For each hour, players receive [color=#FFC700]1 point[br/][/color]of lawfulness (players with a VIP account receive 2 points), and lawfulness can also be purchased in the donation shop.[br/] [br/]It should be understood that players with a [color=#FFC700]low lawfulness rating[br/][/color]receive a number of restrictions or prohibitions:[br/][color=#FFC700] - [/color]Players with a low lawfulness rating (-70) will not be able to purchase a weapon license.[br/][color=#FFC700] - [/color]Players with low lawfulness (-50) will be treated longer and at a higher cost in the hospital.[br/][color=#FFC700] - [/color]Players with low lawfulness (-125) will not be able to join a state organization.[br/][color=#FFC700] - [/color]Players with low lawfulness (less than 0) will not be able to work side jobs, including truck driver and cash-in-transit collector.[br/][color=#FFC700] - [/color]Players with low lawfulness (-75 and below) will have an increased fee when making payments.[br/][color=#FFC700] - [/color]Players with low lawfulness (-100 and below) will have a higher property payment cost.[br/][color=#FFC700] - [/color]Players with low lawfulness (-150 and below) will have a higher cost for paying traffic fines.[br/][color=#FFC700] - [/color]Players with low lawfulness (-500) will have their weapon license automatically revoked.[br/] [br/]Also, if a player was punished by administrators for a kill, they are prohibited from [color=#FFC700]using and purchasing weapons [/color]for 24 hours after the punishment is issued.[br/] [br/]We hope for your understanding and are ready to accept any suggestions for changing the system in order to rid our project of a high level of aggression."
     },
     {
       "id": 14,
-      "header": "Оружие",
-      "text": "Оружие — это опасный инструмент, и его применение строго контролируется.[br/][br/][color=#FFCC00]Получение лицензии[/color][br/]Чтобы применять оружие, необходимо получить [color=#85D359]Лицензию[/color] в Правительстве. Это возможно при [color=#0099CC]4+ уровне[/color] и не менее [color=#0099CC]-70 законопослушности[/color]. Только после получения разрешения тебе станет доступна покупка боеприпасов в [color=#FFCC00]магазине амуниции[/color].[br/][br/][color=#FFCC00]Применение оружия[/color][br/]Каждое оружие имеет свой тип ([color=#0099CC]Ближний бой, Основное, Дополнительное[/color]). Экипируй оружие в соответствующий слот инвентаря, закупи боеприпасы и удачи в бою!"
+      "header": "Weapon",
+      "text": "Weapons are dangerous tools, and their use is strictly controlled.[br/][br/][color=#FFCC00]Obtaining a license[/color][br/]To use weapons, you must obtain a [color=#85D359]License[/color] from the Government. This is possible at [color=#0099CC]level 4+[/color] and with no less than [color=#0099CC]-70 lawfulness[/color]. Only after receiving permission will you be able to purchase ammunition in the [color=#FFCC00]ammo store[/color].[br/][br/][color=#FFCC00]Using weapons[/color][br/]Each weapon has its own type ([color=#0099CC]Melee, Primary, Secondary[/color]). Equip the weapon in the appropriate inventory slot, buy ammunition, and good luck in battle!"
     },
     {
       "id": 15,
-      "header": "Бизнесы",
-      "text": "У тебя есть возможность открыть свое собственное дело и зарабатывать большие суммы.[br/]Это может быть [color=#85D359]АЗС[/color], [color=#85D359]автосалон[/color], [color=#85D359]магазин одежды [/color]или даже[color=#85D359] магазин оружия[/color], [color=#85D359]закусочная [/color]и [color=#85D359]магазин 24/7[/color]! Тебе доступен любой тип бизнеса.[br/] [br/]С появлением бизнеса перед тобой открываются большие перспективы для привлечения новых покупателей, а значит — новые источники дохода.[br/]Ты сможешь регулировать цены, улучшая различные характеристики своего бизнеса, одновременно проводя борьбу с конкурентами.[br/] [br/]Не забывай, что ведение бизнеса требует постоянного внимания: оплаты [color=#FFCC00]аренды[/color] и выполнения заданий [color=#FFCC00]Центра Предпринимательства[/color]."
+      "header": "Businesses",
+      "text": "You have the opportunity to open your own business and earn large sums of money.[br/]It can be a [color=#85D359]gas station[/color], [color=#85D359]car dealership[/color], [color=#85D359]clothing store [/color]or even a[color=#85D359] gun store[/color], [color=#85D359]snack bar [/color]and [color=#85D359]24/7 store[/color]! Any type of business is available to you.[br/] [br/]With the appearance of a business, great prospects open up before you for attracting new customers, which means new sources of income.[br/]You will be able to regulate prices, improve various characteristics of your business, and compete with rivals at the same time.[br/] [br/]Do not forget that running a business requires constant attention: paying [color=#FFCC00]rent[/color] and completing tasks from the [color=#FFCC00]Entrepreneurship Center[/color]."
     },
     {
       "id": 16,
-      "header": "Работы",
-      "text": "Список доступных работ расширяется по мере прокачки игровых уровней. Каждая профессия имеет свои требования для трудоустройства, которые можно узнать в соответствующем разделе информации ([color=#FFCC00]Профессии[/color]). Общее требование: нельзя одновременно состоять в организации и в то же время быть устроенным на работу.[br/] [br/]Помимо основной работы существуют и подработки. К ним относятся:[br/][color=#85D359]шахта[/color], [color=#85D359]завод [/color]и [color=#85D359]ферма[/color]. Такие подработки можно совмещать с основными работами, тем самым повышая свой доход. Используй команду [color=#0099CC]/gps [/color], чтобы найти месторасположение подработок.[br/]Обо всех подробностях и инструкциях по подработке ты узнаешь на месте."
+      "header": "Jobs",
+      "text": "The list of available jobs expands as you level up. Each profession has its own employment requirements, which can be found in the relevant information section ([color=#FFCC00]Professions[/color]). General requirement: you cannot be in an organization and employed at a job at the same time.[br/] [br/]In addition to a main job, there are side jobs. These include:[br/][color=#85D359]mine[/color], [color=#85D359]factory [/color]and [color=#85D359]farm[/color]. Such side jobs can be combined with main jobs, thereby increasing your income. Use the command [color=#0099CC]/gps [/color]to find the location of side jobs.[br/]You will learn all details and instructions for the side job on site."
     },
     {
       "id": 17,
-      "header": "Крафт",
-      "text": "С помощью крафта игроки могут создавать предметы, используя найденные или полученные [color=#FFCC00]компоненты.[/color] Произвести можно уникальный транспорт, скины, аксессуары, расходуемые предметы и более дорогие компоненты.[br/][br/][color=#FFCC00]Компоненты[/color][br/]Компоненты для крафта можно добывать разными способами: на [color=#85D359]работах,[/color] при [color=#85D359]исследовании мира,[/color] получать за выполнение [color=#85D359]заданий,[/color] покупать у других игроков через [color=#85D359]маркетплейс[/color] или доставать из [color=#85D359]кейсов.[/color][br/][br/][color=#FFCC00]Разные компоненты добываются в разных местах:[/color][br/]- Шахта — бокситы, железная руда[br/]- Завод — металлолом, радиодетали[br/]- Ферма — древесина, текстильное волокно[br/]- Водитель мусоровоза — обрезки резины, пластиковые бутылки, реагенты[br/]- Кладоискатель — металлолом, обрезки резины, пластиковые бутылки[br/]- Охота — шкуры животных[br/]- Рыбалка — обрезки резины, пластиковые бутылки[br/]Пробуй разные активности и способы заработка, чтобы собрать нужные ресурсы для крафта.[br/][br/][color=#FFCC00]Верстак[/color][br/]Для создания предметов необходим [color=#FFCC00]верстак.[/color] Верстаки могут быть личными (устанавливаются в подвале дома), или общими (в мастерских).[br/][br/]Для создания более редких предметов потребуется:[br/]- Более высокий уровень навыка производства[br/]- Верстак подходящего уровня[br/][br/]Верстаки более высокого уровня позволяют создавать не только предметы своего класса, но и все классы ниже. [color=#FFCC00]Повышай навык производства и улучшай верстак,[/color] чтобы получить доступ к созданию более редких и ценных предметов![br/][br/][color=#FFCC00]Изготовление предметов[/color][br/]Все создаваемые предметы имеют собственный [color=#FFCC00]класс.[/color] Класс определяет ценность предмета, его редкость и сложность изготовления.[br/][br/]У всех предметов есть [color=#FFCC00]параметры производства:[/color] время создания, шанс успешного изготовления, список необходимых компонентов, стоимость производства.[br/][br/]Также для создания предметов потребуются специальные [color=#FFCC00]инструкции.[/color] Их можно приобрести у [color=#FFCC00]Кулибыча[/color] в мастерских. Все инструкции распределены между разными мастерскими, их ассортимент обновляется ежедневно. Если какая-то инструкция требуется срочно, используй поиск — Кулибыч подскажет, в какой мастерской она доступна в данный момент."
+      "header": "Craft",
+      "text": "With crafting, players can create items using found or obtained [color=#FFCC00]components.[/color] You can produce unique vehicles, skins, accessories, consumable items, and more expensive components.[br/][br/][color=#FFCC00]Components[/color][br/]Crafting components can be obtained in different ways: at [color=#85D359]jobs,[/color] while [color=#85D359]exploring the world,[/color] received for completing [color=#85D359]tasks,[/color] bought from other players through the [color=#85D359]marketplace[/color] or taken from [color=#85D359]cases.[/color][br/][br/][color=#FFCC00]Different components are obtained in different places:[/color][br/]- Mine — bauxite, iron ore[br/]- Factory — scrap metal, radio components[br/]- Farm — wood, textile fiber[br/]- Garbage truck driver — rubber scraps, plastic bottles, reagents[br/]- Treasure hunter — scrap metal, rubber scraps, plastic bottles[br/]- Hunting — animal hides[br/]- Fishing — rubber scraps, plastic bottles[br/]Try different activities and earning methods to collect the resources needed for crafting.[br/][br/][color=#FFCC00]Workbench[/color][br/]A [color=#FFCC00]workbench[/color] is required to create items. Workbenches can be personal (installed in a house basement) or shared (in workshops).[br/][br/]To create rarer items, you will need:[br/]- A higher production skill level[br/]- A workbench of the appropriate level[br/][br/]Higher-level workbenches allow you to create not only items of their own class, but also all lower classes. [color=#FFCC00]Increase your production skill and upgrade your workbench[/color] to gain access to creating rarer and more valuable items![br/][br/][color=#FFCC00]Item crafting[/color][br/]All created items have their own [color=#FFCC00]class.[/color] The class determines the item's value, rarity, and crafting difficulty.[br/][br/]All items have [color=#FFCC00]production parameters:[/color] creation time, chance of successful crafting, list of required components, production cost.[br/][br/]Special [color=#FFCC00]instructions[/color] will also be required to create items. They can be purchased from [color=#FFCC00]Kulibych[/color] in workshops. All instructions are distributed among different workshops, and their assortment is updated daily. If a certain instruction is urgently needed, use the search — Kulibych will tell you which workshop currently has it available."
     },
     {
       "id": 18,
-      "header": "Семьи",
-      "text": "Семьи — это клановая социальная система. В семью собираются те, кто знает: вместе с друзьями любая цель достижима. Здесь вы сможете совместно выполнять [color=#FFCC00]задания[/color], [color=#FFCC00]сражаться[/color] и [color=#FFCC00]захватывать территории[/color].[br/][br/]Семьям доступны различные активности:[br/][color=#E0584B]Битва Семей[/color] — главное PVP-событие для семей. Сделав ставку рейтинга, команды участвуют в перестрелке и сражаются за весь банк. Найти место проведения Битвы Семей можно в [color=#0099CC]/gps — Важные места — Война Семей[/color].[br/][color=#E0584B]Захваты территорий (капты)[/color] — регулярные события, проходящие на сервере каждый день. Семьи сталкиваются на локациях в разных уголках области, победитель перестрелки получает денежные призы и очки семейного рейтинга.[br/][br/]Семью можно создать в здании [color=#FFCC00]Правительства[/color]. При этом игрок задает название семьи и оплачивает стоимость ее регистрации. Приглашать в семью может глава семьи или доверенные участники, имеющие соответствующие права.⁠[br/]Игроки в одной семье получают общий чат, ранги, склад, автопарк, семейные задания, магазин, рейтинг и доступ к семейным PvP-активностям.⁠"
+      "header": "Families",
+      "text": "Families are a clan-based social system. Those who know that any goal is achievable together with friends gather into a family. Here you will be able to complete [color=#FFCC00]tasks[/color], [color=#FFCC00]fight[/color], and [color=#FFCC00]capture territories[/color] together.[br/][br/]Various activities are available to families:[br/][color=#E0584B]Family Battle[/color] — the main PvP event for families. By placing a rating bet, teams participate in a shootout and fight for the entire pot. You can find the location of the Family Battle in [color=#0099CC]/gps — Important Places — Family War[/color].[br/][color=#E0584B]Territory captures (caps)[/color] — regular events held on the server every day. Families clash at locations in different corners of the region, and the winner of the shootout receives cash prizes and family rating points.[br/][br/]A family can be created in the [color=#FFCC00]Government[/color] building. In doing so, the player sets the family name and pays the registration cost. The family head or trusted members with the appropriate permissions can invite players to the family.⁠[br/]Players in the same family receive a shared chat, ranks, storage, a vehicle fleet, family tasks, a shop, a rating, and access to family PvP activities.⁠"
     },
     {
       "id": 19,
-      "header": "Развлечения",
-      "text": "Если у тебя есть свободное время и желание, то рекомендуем посетить наши развлекательные активности:[br/][br/][color=#FFCC00]Мероприятия от администрации[/color][br/]Ежедневно администрация проекта проводит мероприятия для игроков с денежными призами — следи за чатом, чтобы не упустить свой шанс повеселиться и заработать немного кэша.[br/][br/][color=#FFCC00]Казино[/color][br/]Для азартных игроков всегда открыты двери Казино: здесь ты найдешь все традиционные активности (игры в [color=#85D359]BlackJack, рулетку и кости[/color]), а также способ устроиться на работу [color=#E0584B]Менеджером[/color] или [color=#E0584B]Крупье[/color].[br/][br/][color=#FFCC00]Битва за контейнеры[/color][br/]В Арзамасе ([color=#0099CC]/gps — Развлечения — Битва за контейнеры[/color]) каждый день проводятся торги за содержимое контейнеров — если хочешь испытать удачу и побороться за особые награды, следи за объявлениями чата.[br/][br/][color=#FFCC00]Компьютерный клуб[/color][br/]Лучшее место для совместного веселья — это Компьютерный клуб! Выбирай одну из мини-игр и зови друзей! Наградой победителю станет денежная ставка, принимаемая перед стартом матча.[br/][br/][color=#FFCC00]Ночной клуб[/color][br/]Для любителей музыки и тусовок круглосуточно открыт Клуб: здесь ты найдешь новые способы заработка (работа [color=#E0584B]Повара[/color]) и место для отдыха с друзьями."
+      "header": "Entertainment",
+      "text": "If you have free time and the desire, we recommend visiting our entertainment activities:[br/][br/][color=#FFCC00]Events from the administration[/color][br/]Every day, the project administration holds events for players with cash prizes — keep an eye on the chat so you do not miss your chance to have fun and earn some cash.[br/][br/][color=#FFCC00]Casino[/color][br/]For gambling players, the doors of the Casino are always open: here you will find all the traditional activities (games of [color=#85D359]BlackJack, roulette, and dice[/color]), as well as a way to get a job as a [color=#E0584B]Manager[/color] or [color=#E0584B]Croupier[/color].[br/][br/][color=#FFCC00]Container Battle[/color][br/]In Arzamas ([color=#0099CC]/gps — Entertainment — Container Battle[/color]), auctions for the contents of containers are held every day — if you want to test your luck and compete for special rewards, watch the chat announcements.[br/][br/][color=#FFCC00]Computer Club[/color][br/]The best place for fun together is the Computer Club! Choose one of the mini-games and invite your friends! The winner's reward will be the cash bet placed before the match starts.[br/][br/][color=#FFCC00]Nightclub[/color][br/]For lovers of music and parties, the Club is open around the clock: here you will find new ways to earn money (the job of [color=#E0584B]Cook[/color]) and a place to relax with friends."
     },
     {
       "id": 20,
-      "header": "Музыка",
-      "text": "В игре работают радиостанции с музыкой на любой вкус. Самый простой способ включить радио — кнопка с изображением приемника в [color=#FFC700]машине[/color]. Для личного прослушивания музыки нужно приобрести в магазине 24/7 [color=#FFC700]наушники[/color] или [color=#FFC700]колонку[/color]. [br/][br/]Чтобы включить музыку, открой инвентарь, выбери объект воспроизведения и нажми «Использовать»."
+      "header": "Music",
+      "text": "Radio stations with music for every taste operate in the game. The easiest way to turn on the radio is the receiver icon button in the [color=#FFC700]car[/color]. For personal music listening, you need to buy [color=#FFC700]headphones[/color] or a [color=#FFC700]speaker[/color] in a 24/7 store. [br/][br/]To turn on music, open your inventory, select the playback device, and press \"Use\"."
     },
     {
       "id": 21,
-      "header": "Аукцион и маркетплейс",
-      "text": "На [color=#FFCC00]Аукционе[/color] игроки ведут торги за самое ценное имущество: недвижимость, бизнесы и т.д.[br/][br/]Чтобы выставить что-либо на аукцион, перейди в специальную вкладку [color=#FFC700]'Продажа'[/color], в которой выбери тип и товар, который желаешь продать, а также установи ему стоимость и составь краткое описание. После завершения торгов имущество будет передано новому владельцу, а ты получишь деньги.[br/]Чтобы удалить ранее выставленный на аукцион товар, необходимо перейти в раздел [color=#FFC700]'Мои'[/color], а затем — в специальную вкладку [color=#FFC700]'Продажа'[/color].[br/][br/][color=#FFCC00]Маркетплейс[/color] нужен для продажи мелкого имущества: аксессуаров, скинов и крафтовых предметов. Для него не требуется приезжать на место продажи, он доступен прямо из [color=#0099CC]Планшета[/color]. Зайди в меню маркетплейса, выбери предмет из своего инвентаря и назначь цену — после покупки тебе придет автоматическое сообщение в планшет."
+      "header": "Auction and marketplace",
+      "text": "At the [color=#FFCC00]Auction[/color], players bid on the most valuable property: real estate, businesses, etc.[br/][br/]To put something up for auction, go to the special [color=#FFC700]'Sale'[/color] tab, where you choose the type and item you want to sell, set its price, and write a short description. After the bidding ends, the property will be transferred to the new owner, and you will receive the money.[br/]To remove an item previously listed on the auction, you need to go to the [color=#FFC700]'Mine'[/color] section, and then to the special [color=#FFC700]'Sale'[/color] tab.[br/][br/][color=#FFCC00]Marketplace[/color] is needed for selling small property: accessories, skins, and crafted items. You do not need to come to the place of sale for it, as it is available directly from the [color=#0099CC]Tablet[/color]. Go to the marketplace menu, choose an item from your inventory, and set a price — after the purchase, you will receive an automatic message in the tablet."
     },
     {
       "id": 22,
-      "header": "Инициативы",
-      "text": "[color=#FFC700]Инициативы[/color] — это коллективные задания для всей фракции.[br/]Лидер задает минимальный ранг, время старта и уровень сложности.[br/]Чем выше сложность, тем труднее выполнить условия и тем больше участников требуется, но и награды заметно ценнее.[br/] [br/]Любой сотрудник, внесший вклад, получает гарантированное вознаграждение.[br/]Лучшие игроки в рейтинге инициативы награждаются дополнительно.[br/]Так система поощряет и массовое участие, и личную активность.[br/] [br/]Интерфейс разделен на вкладки: [color=#85D359]Цели[/color], [color=#85D359]Результаты[/color], [color=#85D359]Список лидеров[/color] и [color=#85D359]Информация[/color].[br/]- В «Целях» видно, что нужно выполнить.[br/]- В «Результатах» — общий прогресс и личный вклад.[br/]- «Список лидеров» показывает топ участников.[br/]Чтобы присоединиться, выбери инициативу и нажми [color=#85D359]«Участвовать»[/color]. Таймер сверху показывает, сколько осталось времени до завершения.[br/] [br/]Результативность считается как среднее значение десяти последних инициатив.[br/]Чем она выше, тем больше [color=#E0584B]PayDay[/color] и доход фракции от квестов.[br/]Каждое участие увеличивает этот показатель, даже если вклад небольшой.[br/]Поэтому регулярное участие важно и для личной выгоды, и для всей команды."
+      "header": "Initiatives",
+      "text": "[color=#FFC700]Initiatives[/color] are collective tasks for the entire faction.[br/]The leader sets the minimum rank, start time, and difficulty level.[br/]The higher the difficulty, the harder it is to meet the conditions and the more participants are required, but the rewards are also noticeably more valuable.[br/] [br/]Any employee who contributed receives a guaranteed reward.[br/]The best players in the initiative ranking are rewarded additionally.[br/]This way, the system encourages both mass participation and personal activity.[br/] [br/]The interface is divided into tabs: [color=#85D359]Goals[/color], [color=#85D359]Results[/color], [color=#85D359]Leaderboard[/color], and [color=#85D359]Information[/color].[br/]- In \"Goals\" you can see what needs to be completed.[br/]- In \"Results\" — the overall progress and personal contribution.[br/]- \"Leaderboard\" shows the top participants.[br/]To join, select an initiative and press [color=#85D359]\"Participate\"[/color]. The timer at the top shows how much time is left until completion.[br/] [br/]Performance is calculated as the average value of the last ten initiatives.[br/]The higher it is, the greater the [color=#E0584B]PayDay[/color] and the faction's income from quests.[br/]Each participation increases this indicator, even if the contribution is small.[br/]Therefore, regular participation is important both for personal benefit and for the whole team."
     },
     {
       "id": 23,
-      "header": "Дуэли",
-      "text": "[color=#E0584B]Дуэль[/color] — это честный поединок 1 на 1 для игроков, достигших [color=#85D359]4-го уровня[/color]. Соперники могут выбрать оружие, место проведения и ставку, чтобы выяснить, кто из них лучший стрелок.[br/]Команда для вызова на дуэль: [color=#E0584B]/duel id игрока [/color]. Для успешного вызова игроки должны стоять не дальше чем за 10 метров друг от друга.[br/]Поединки бывают рейтинговыми, классическими и тренировочными. [br/][color=#85D359]Рейтинговые[/color] дуэли проводятся ограниченный период времени. Те, кто собрал больше очков рейтинга, попадают в топы и получают ценные призы в конце события. [br/][color=#85D359]Классические дуэли[/color] доступны постоянно. Ставкой для них становятся деньги игроков — победитель забирает себе весь банк. [br/][color=#85D359]Тренировочные бои[/color] также доступны без ограничений, в них не принимаются ставки — только оружие и соперник, ничего лишнего. [br/][br/]С помощью команды [color=#E0584B]/invduel id игрока [/color] соперники могут приглашать с собой на дуэль свидетелей. [br/]Вмешиваться в ход поединка им запрещено, только наблюдать и оказывать поддержку."
+      "header": "Duels",
+      "text": "[color=#E0584B]Duel[/color] is an honest 1-on-1 fight for players who have reached [color=#85D359]level 4[/color]. Opponents can choose the weapon, location, and bet to find out which of them is the better shooter.[br/]Command to challenge to a duel: [color=#E0584B]/duel player id [/color]. For a successful challenge, players must stand no farther than 10 meters from each other.[br/]Duels can be rated, classic, and training. [br/][color=#85D359]Rated[/color] duels are held for a limited period of time. Those who collect more rating points get into the top rankings and receive valuable prizes at the end of the event. [br/][color=#85D359]Classic duels[/color] are available at all times. The bet for them is the players' money — the winner takes the entire pot. [br/][color=#85D359]Training fights[/color] are also available without restrictions, and no bets are accepted in them — only weapons and an opponent, nothing extra. [br/][br/]Using the command [color=#E0584B]/invduel player id [/color], opponents can invite witnesses with them to the duel. [br/]They are forbidden from interfering in the course of the fight; they may only observe and offer support."
     },
     {
       "id": 24,
       "header": "PayDay",
-      "text": "[color=#FFCC00]PayDay[/color] — это система регулярных выплат, которые игрок получает за активную игру. Чтобы получить PayDay, необходимо суммарно отыграть 20 минут в течение одного часа (например, с 12:00 до 13:00). Играть можно не подряд — время накапливается. Каждый час (в 00 минут) начинается новый цикл накопления. Чтобы получить выплату, нужно зайти в игру в течение 10 минут после начала нового часа. Учитывается только активная игра — время бездействия (AFK) может не засчитываться для получения выплаты! [br/][br/][color=#FFCC00]Что дает PayDay:[/color][br/]- Опыт (EXP) [br/]- Законопослушность — 1 очко (2 очка для игроков с VIP-аккаунтом) [br/]- Зарплата — если игрок работает во фракции и находится на рабочем месте в момент получения PayDay (чем выше результативность фракции, тем больше доход) [br/]- Также во время PayDay пополняются склады [br/][br/][color=#FFCC00]Полезно знать:[/color][br/]Проверить время можно с помощью команды [color=#E0584B]/time[/color][br/]Следи за подсказками в чате и всплывающими уведомлениями — они сообщат, сколько времени осталось до PayDay и когда можно получить награду."
+      "text": "[color=#FFCC00]PayDay[/color] is a system of regular payouts that a player receives for active play. To receive PayDay, you need to play a total of 20 minutes within one hour (for example, from 12:00 to 13:00). You do not have to play continuously — the time accumulates. Every hour (at 00 minutes), a new accumulation cycle begins. To receive the payout, you need to log into the game within 10 minutes after the start of the new hour. Only active play counts — idle time (AFK) may not count toward receiving the payout! [br/][br/][color=#FFCC00]What PayDay gives:[/color][br/]- Experience (EXP) [br/]- Lawfulness — 1 point (2 points for players with a VIP account) [br/]- Salary — if the player works in a faction and is at the workplace at the moment of receiving PayDay (the higher the faction's effectiveness, the greater the income) [br/]- Warehouses are also replenished during PayDay [br/][br/][color=#FFCC00]Useful to know:[/color][br/]You can check the time using the command [color=#E0584B]/time[/color][br/]Watch the chat tips and pop-up notifications — they will tell you how much time is left until PayDay and when the reward can be collected."
     },
     {
       "id": 25,
-      "header": "Кубок Шторма",
-      "text": "Кубок Шторма — это регулярное [color=#FFCC00]гоночное событие[/color], где ты участвуешь в заездах, набираешь очки опыта и продвигаешься к ценным наградам.[br/][br/]Выбирай подходящий заезд через Планшет и показывай мастерство на улицах города! Обрати внимание, что машина должна соответствовать требованиям [color=#FFCC00]ранга[/color] — ты можешь использовать как свою, так и предложенную автоматически.[br/][br/]Каждую неделю обновляется ранг ТС в заездах и пополняется внутренний [color=#FFCC00]магазин[/color] Кубка Шторма, а в конце сезона лучшие из лучших получают ценные [color=#FFCC00]призы[/color] и уникальный транспорт."
+      "header": "Storm Cup",
+      "text": "The Storm Cup is a regular [color=#FFCC00]racing event[/color] where you take part in races, earn experience points, and progress toward valuable rewards.[br/][br/]Choose a suitable race through the Tablet and show your skill on the city streets! Please note that the car must meet the [color=#FFCC00]rank[/color] requirements — you can use either your own car or one offered automatically.[br/][br/]Every week, the vehicle rank in races is updated and the internal [color=#FFCC00]store[/color] of the Storm Cup is replenished, and at the end of the season, the very best receive valuable [color=#FFCC00]prizes[/color] and unique vehicles."
     }
   ],
   "instructions": [
     {
       "id": 1,
-      "header": "Общие команды",
-      "text": "[color=#FFCC00]Личные команды:[/color][br/][color=#E0584B]/menu[/color][color=#555555](/mn) [/color]- Меню игрока[br/][color=#E0584B]/donat[/color][color=#555555](e) [/color]- Зачисления Black Coin[br/][color=#E0584B]/donate[/color][color=#555555](e) [/color]- Донат меню[br/][color=#E0584B]/gps [/color]- GPS навигатор[br/][color=#E0584B]/referals [/color]- Просмотр рефералов[br/][color=#E0584B]/help [/color]- Помощь по игре[br/][color=#E0584B]/setspawn [/color]- Изменение места появления в игре[br/][color=#E0584B]/charity [/color]- Общая сумма пожертвований[br/][color=#E0584B]/anim[/color](list) - Список анимаций[br/][br/][color=#FFCC00]Проверка онлайна:[/color][br/][color=#E0584B]/members [/color]- Члены организации/подразделения/Сотрудники online[br/][color=#E0584B]/liclist [/color]- Лицензеры онлайн[br/][color=#E0584B]/adlist [/color]- Адвокаты онлайн[br/][br/][color=#FFC700]Взаимодействия:[/color][br/][color=#E0584B]/cancel [/color]- Отменить заказ[br/][color=#E0584B]/pay [/color][color=#555555]{id игрока} [/color]- Передать деньги[br/][color=#E0584B]/givemet [/color][color=#555555]{id игрока} [/color]- Передать материалы игроку[br/][color=#E0584B]/present [/color][color=#555555]{id игрока} [/color]- Подарить букет цветов[br/][color=#E0584B]/lic [/color][color=#555555]{id игрока} [/color]- Показать лицензии[br/][color=#E0584B]/pass [/color][color=#555555]{id игрока} [/color]- Показать паспорт[br/][color=#E0584B]/med [/color][color=#555555]{id игрока} [/color]- Показать свою медицинскую карту[br/][color=#E0584B]/changeprop [/color][color=#555555]{id игрока} [/color]- Предложить обмен[br/][color=#E0584B]/buy [/color]- Покупка ([color=#555555]в магазинах / закусочных [/color])[br/][color=#E0584B]/leave [/color]- Покинуть организацию по собственному желанию[br/][br/][color=#FFCC00]Телефон:[/color][br/][color=#E0584B]/c [/color]- Позвонить другим игрокам или вызвать гос. службы[br/][color=#E0584B]/h [/color]- Завершить активный звонок[br/][color=#E0584B]/sms [/color][color=#555555]{номер телефона} {сообщение} [/color]- Написать СМС-сообщение[br/][color=#E0584B]/add [/color][color=#555555]{id игрока} {номер телефона} [/color]- Добавить контакт в телефонную книгу[br/][br/][color=#FFCC00]Прочее:[/color][br/][color=#E0584B]/binder [/color]- Меню биндера[br/][color=#E0584B]/br [/color][color=#555555]{номер профиля (1-5)} [/color]- Запустить профиль биндера[br/][color=#E0584B]/id [/color][color=#555555]{имя или часть имени игрока} - [/color]Определения ID по нику[br/][color=#E0584B]/book [/color]- Телефонная книга[br/][color=#E0584B]/time [/color]- Точное время[br/][color=#E0584B]/bank [/color]- Меню банка[br/][color=#E0584B]/history [/color]- История ников"
+      "header": "General commands",
+      "text": "[color=#FFCC00]Personal commands:[/color][br/][color=#E0584B]/menu[/color][color=#555555](/mn) [/color]- Player menu[br/][color=#E0584B]/donat[/color][color=#555555](e) [/color]- Black Coin top-ups[br/][color=#E0584B]/donate[/color][color=#555555](e) [/color]- Donation menu[br/][color=#E0584B]/gps [/color]- GPS navigator[br/][color=#E0584B]/referals [/color]- View referrals[br/][color=#E0584B]/help [/color]- Game help[br/][color=#E0584B]/setspawn [/color]- Change spawn location in the game[br/][color=#E0584B]/charity [/color]- Total amount of donations[br/][color=#E0584B]/anim[/color](list) - Animation list[br/][br/][color=#FFCC00]Online check:[/color][br/][color=#E0584B]/members [/color]- Organization/subdivision members/employees online[br/][color=#E0584B]/liclist [/color]- License issuers online[br/][color=#E0584B]/adlist [/color]- Lawyers online[br/][br/][color=#FFC700]Interactions:[/color][br/][color=#E0584B]/cancel [/color]- Cancel order[br/][color=#E0584B]/pay [/color][color=#555555]{player id} [/color]- Transfer money[br/][color=#E0584B]/givemet [/color][color=#555555]{player id} [/color]- Give materials to a player[br/][color=#E0584B]/present [/color][color=#555555]{player id} [/color]- Give a bouquet of flowers[br/][color=#E0584B]/lic [/color][color=#555555]{player id} [/color]- Show licenses[br/][color=#E0584B]/pass [/color][color=#555555]{player id} [/color]- Show passport[br/][color=#E0584B]/med [/color][color=#555555]{player id} [/color]- Show your medical card[br/][color=#E0584B]/changeprop [/color][color=#555555]{player id} [/color]- Offer an exchange[br/][color=#E0584B]/buy [/color]- Purchase ([color=#555555]in stores / snack bars [/color])[br/][color=#E0584B]/leave [/color]- Leave the organization voluntarily[br/][br/][color=#FFCC00]Phone:[/color][br/][color=#E0584B]/c [/color]- Call other players or emergency services[br/][color=#E0584B]/h [/color]- End the active call[br/][color=#E0584B]/sms [/color][color=#555555]{phone number} {message} [/color]- Write an SMS message[br/][color=#E0584B]/add [/color][color=#555555]{player id} {phone number} [/color]- Add a contact to the phone book[br/][br/][color=#FFCC00]Other:[/color][br/][color=#E0584B]/binder [/color]- Binder menu[br/][color=#E0584B]/br [/color][color=#555555]{profile number (1-5)} [/color]- Launch binder profile[br/][color=#E0584B]/id [/color][color=#555555]{player name or part of the name} - [/color]Determine ID by nickname[br/][color=#E0584B]/book [/color]- Phone book[br/][color=#E0584B]/time [/color]- Exact time[br/][color=#E0584B]/bank [/color]- Bank menu[br/][color=#E0584B]/history [/color]- Nickname history"
     },
     {
       "id": 2,
-      "header": "Общение",
-      "text": "[color=#E0584B]/r [/color][color=#555555]{текст} [/color]- Чат для государственных организаций (IC)[br/][color=#E0584B]/rn [/color][color=#555555]{текст} [/color]- Чат для государственных организаций (OOC)[br/][color=#E0584B]/f [/color][color=#555555]{текст} [/color]- Чат для организованных преступных группировок (IC)[br/][color=#E0584B]/fn [/color][color=#555555]{текст} [/color]- Чат для организованных преступных группировок (OOC)[br/][color=#E0584B]/me [/color][color=#555555]{текст} [/color]- Описывает действие от первого лица[br/][color=#E0584B]/do [/color][color=#555555]{текст} [/color]- Описывает действие от третьего лица[br/][color=#E0584B]/try [/color][color=#555555]{текст} [/color]- Описывает действие с вероятностью успеха в 50%, если есть шанс провала[br/][color=#E0584B]/s [/color][color=#555555]{текст} [/color]- Кричать[br/][color=#E0584B]/w [/color][color=#555555]{текст} [/color]- Шептать[br/][color=#E0584B]/ad [/color][color=#555555]{текст} [/color]- Подать объявление[br/][color=#E0584B]/news [/color][color=#555555][/color]- Гос.новости[br/][color=#E0584B]/d [/color][color=#555555]{текст} [/color]- Чат департамента для государственных организаций[br/][color=#E0584B]/p [/color]- Поднять трубку"
+      "header": "Communication",
+      "text": "[color=#E0584B]/r [/color][color=#555555]{text} [/color]- Chat for state organizations (IC)[br/][color=#E0584B]/rn [/color][color=#555555]{text} [/color]- Chat for state organizations (OOC)[br/][color=#E0584B]/f [/color][color=#555555]{text} [/color]- Chat for OCGs (IC)[br/][color=#E0584B]/fn [/color][color=#555555]{text} [/color]- Chat for OCGs (OOC)[br/][color=#E0584B]/me [/color][color=#555555]{text} [/color]- Describes an action in the first person[br/][color=#E0584B]/do [/color][color=#555555]{text} [/color]- Describes an action in the third person[br/][color=#E0584B]/try [/color][color=#555555]{text} [/color]- Describes an action with a 50% chance of success, if failure is possible[br/][color=#E0584B]/s [/color][color=#555555]{text} [/color]- Shout[br/][color=#E0584B]/w [/color][color=#555555]{text} [/color]- Whisper[br/][color=#E0584B]/ad [/color][color=#555555]{text} [/color]- Submit an ad[br/][color=#E0584B]/news [/color][color=#555555][/color]- Government news[br/][color=#E0584B]/d [/color][color=#555555]{text} [/color]- Department chat for state organizations[br/][color=#E0584B]/p [/color]- Pick up the phone"
     },
     {
       "id": 3,
-      "header": "Недвижимость",
-      "text": "[color=#FFCC00]Дома и квартиры:[/color][br/][color=#E0584B]/home [/color]- Информация о доме[br/][color=#E0584B]/exit [/color]- Выход из дома[br/][color=#E0584B]/makestore [/color]- Переставить шкаф[br/][color=#E0584B]/use [/color]- Открыть шкаф[br/][color=#E0584B]/liveout [/color]- Выселиться из дома[br/][color=#E0584B]/sellhome [/color]- Продать дом государству[br/][color=#E0584B]/live [/color][color=#555555]{id игрока}[/color]- Подселить игрока в свой дом[br/][color=#E0584B]/sellmyhome [/color][color=#555555]{id игрока} {стоимость}[/color]- Продать дом игроку[br/][br/][color=#FFCC00]Гаражи:[/color][br/][color=#E0584B]/garage [/color]- Информация о гараже[br/][br/]Помощь по основному меню гаража:[br/][color=#E0584B]Открыть/закрыть гараж[/color] — управление дверями гаража.[br/][color=#E0584B]Продать гараж[/color] —- продажа игроку государству за 70% стоимости.[br/][color=#E0584B]Улучшения[/color] — изменение функций своего гаража: возможность проживания, наличие шкафа, изменение интерьера гаража.[br/]Гараж может стать семейным, для этого лидеру семьи необходимо привязать гараж и установить его местом появления семьи."
+      "header": "Real estate",
+      "text": "[color=#FFCC00]Houses and apartments:[/color][br/][color=#E0584B]/home [/color]- House information[br/][color=#E0584B]/exit [/color]- Exit the house[br/][color=#E0584B]/makestore [/color]- Move the wardrobe[br/][color=#E0584B]/use [/color]- Open the wardrobe[br/][color=#E0584B]/liveout [/color]- Move out of the house[br/][color=#E0584B]/sellhome [/color]- Sell the house to the state[br/][color=#E0584B]/live [/color][color=#555555]{player id}[/color]- Let a player move into your house[br/][color=#E0584B]/sellmyhome [/color][color=#555555]{player id} {price}[/color]- Sell the house to a player[br/][br/][color=#FFCC00]Garages:[/color][br/][color=#E0584B]/garage [/color]- Garage information[br/][br/]Help for the main garage menu:[br/][color=#E0584B]Open/close garage[/color] — garage door control.[br/][color=#E0584B]Sell garage[/color] —- sale to a player or to the state for 70% of the price.[br/][color=#E0584B]Upgrades[/color] — changing your garage functions: ability to live in it, presence of a wardrobe, changing the garage interior.[br/]A garage can become a family garage; to do this, the family leader must link the garage and set it as the family's spawn point."
     },
     {
       "id": 4,
-      "header": "Бизнесы",
-      "text": "[color=#FFCC00]Бизнесы:[br/][/color][color=#E0584B]/business [/color]- Информация о бизнесе[br/][color=#E0584B]/sellbiz [/color]- Продать бизнес государству[br/][color=#E0584B]/bizmusic [/color]- Звук при входе в бизнес[br/][br/][color=#FFCC00]АЗС:[br/][/color][color=#E0584B]/fuelst [/color]- Информация о заправке[br/][color=#E0584B]/buyfuelst [/color]- Купить заправку[br/][color=#E0584B]/sellfuelst [/color]- Продать заправку государству[br/][br/][color=#FFCC00]Транспортные компании:[br/][/color][color=#E0584B]/company[/color] - Основное меню компании[br/][color=#E0584B]/orders[/color] - Список заказов компании[br/][color=#E0584B]/tc[/color] - Чат дальнобойщиков[br/][br/][color=#FFCC00]Строительные компании:[br/][/color][color=#E0584B]/bcompany[/color] - Меню управления строительной компанией[br/][color=#E0584B]/bc[/color] - Чат строительной компании[br/][br/][color=#FFC700]Таксопарки:[br/][/color][color=#E0584B]/tmenu[/color] - Меню управления таксокомпанией[br/][color=#E0584B]/tc[/color] - Чат внутри таксопарка[br/][color=#E0584B]/tord[/color] - Лист заказов в таксопарке[br/][color=#E0584B]/tuninvite[/color] - Уволить сотрудника таксопарка[br/][color=#E0584B]/trank[/color] - Изменить ранг сотруднику в таксопарке[br/][br/][color=#FFC700]Ночной клуб:[br/][/color][color=#E0584B]/cemenu[/color] - Меню владельца ночного клуба[br/][color=#E0584B]/ncleave[/color] - Уволиться из ночного клуба[br/][color=#E0584B]/exitvip[/color] - Закончить аренду VIP-комнаты"
+      "header": "Businesses",
+      "text": "[color=#FFCC00]Businesses:[br/][/color][color=#E0584B]/business [/color]- Business information[br/][color=#E0584B]/sellbiz [/color]- Sell the business to the state[br/][color=#E0584B]/bizmusic [/color]- Sound when entering the business[br/][br/][color=#FFCC00]Gas stations:[br/][/color][color=#E0584B]/fuelst [/color]- Gas station information[br/][color=#E0584B]/buyfuelst [/color]- Buy a gas station[br/][color=#E0584B]/sellfuelst [/color]- Sell the gas station to the state[br/][br/][color=#FFCC00]Transport companies:[br/][/color][color=#E0584B]/company[/color] - Company main menu[br/][color=#E0584B]/orders[/color] - Company order list[br/][color=#E0584B]/tc[/color] - Truckers' chat[br/][br/][color=#FFCC00]Construction companies:[br/][/color][color=#E0584B]/bcompany[/color] - Construction company management menu[br/][color=#E0584B]/bc[/color] - Construction company chat[br/][br/][color=#FFC700]Taxi depots:[br/][/color][color=#E0584B]/tmenu[/color] - Taxi company management menu[br/][color=#E0584B]/tc[/color] - Chat within the taxi depot[br/][color=#E0584B]/tord[/color] - Order list in the taxi depot[br/][color=#E0584B]/tuninvite[/color] - Dismiss a taxi depot employee[br/][color=#E0584B]/trank[/color] - Change an employee's rank in the taxi depot[br/][br/][color=#FFC700]Night Club:[br/][/color][color=#E0584B]/cemenu[/color] - Night club owner menu[br/][color=#E0584B]/ncleave[/color] - Quit the night club[br/][color=#E0584B]/exitvip[/color] - End VIP room rental"
     },
     {
       "id": 5,
-      "header": "Криминальные организации",
+      "header": "Criminal organizations",
       "availableIds": [8,9,10],
-      "text": "[color=#E0584B]/makegun[/color] [color=#555555]{id оружия} [/color]- Перевести из материала в патроны[br/][color=#E0584B]/bizwar [/color]- Организовывать захват бизнеса[br/][color=#E0584B]/bwlist [/color]- Посмотреть бизнесы под крышей банды и их прибыль[br/][color=#E0584B]/close [/color]- Открыть/закрыть склад[br/][color=#E0584B]/loadgun [/color]- Запустить кражу материалов со склада военной части"
+      "text": "[color=#E0584B]/makegun[/color] [color=#555555]{weapon id} [/color]- Convert materials into ammo[br/][color=#E0584B]/bizwar [/color]- Organize a business capture[br/][color=#E0584B]/bwlist [/color]- View businesses under gang protection and their profit[br/][color=#E0584B]/close [/color]- Open/close the warehouse[br/][color=#E0584B]/loadgun [/color]- Start stealing materials from the Military Unit warehouse"
     },
     {
       "id": 6,
-      "header": "Правительство",
+      "header": "Government",
       "availableIds": [1],
-      "text": "[color=#E0584B]/givelic [/color][color=#555555]{id игрока} {идентификатор лицензии} {цена} [/color]- Продажа лицензии[br/][color=#E0584B]/free [/color][color=#555555]{id игрока} {цена} [/color]- Выпустить игрока из тюрьмы"
+      "text": "[color=#E0584B]/givelic [/color][color=#555555]{player id} {license identifier} {price} [/color]- Sell a license[br/][color=#E0584B]/free [/color][color=#555555]{player id} {price} [/color]- Release a player from jail"
     },
     {
       "id": 7,
-      "header": "Правоохранительные органы",
+      "header": "Law enforcement agencies",
       "availableIds": [5,6,7],
-      "text": "[color=#E0584B]/search [/color][color=#555555]{id игрока} [/color]- Произвести обыск[br/][color=#E0584B]/cuff [/color][color=#555555]{id игрока} [/color]- Надеть наручники[br/][color=#E0584B]/uncuff [/color][color=#555555]{id игрока} [/color]- Снять наручники[br/][color=#E0584B]/clear [/color][color=#555555]{id игрока} [/color]- Удалить из базы разыскиваемых[br/][color=#E0584B]/su [/color][color=#555555]{id игрока / никнейм} {количество звезд} {причина} [/color]- Объявить в розыск[br/][color=#E0584B]/arrest [/color][color=#555555]{id игрока} [/color]- Арестовать игрока[br/][color=#E0584B]/takelic [/color][color=#555555]{id игрока} [/color]- Забрать права[br/][color=#E0584B]/putpl [/color][color=#555555]{id игрока} [/color]- Посадить в машину[br/][color=#E0584B]/gotome [/color][color=#555555]{id игрока} [/color]- Тащить за собой[br/][color=#E0584B]/base [/color]- Открыть бортовой компьютер[br/][color=#E0584B]/ceject [/color][color=#555555]{id игрока} [/color]- Вытащить игрока из машины[br/][color=#FFCC00]ГИБДД:[br/][/color][color=#E0584B]/ptickets [/color][color=#555555]{id игрока} [/color]- Посмотреть список штрафов[br/][color=#E0584B]/searchcar [/color] - Обыскать багажник ближайшего транспорта[br/][color=#E0584B]/radarmap [/color]- Вызвать меню мест использования ручного радара[br/][color=#E0584B]/delticket [/color][color=#555555]{номер штрафа} [/color]- Удалить штраф по номеру[br/][color=#E0584B]/clearfine[/color][color=#555555] {имя игрока}[/color] - Вызвать список штрафов, выписанных сотрудниками ГИБДД[br/][color=#FFCC00]ФСБ:[br/][/color][color=#E0584B]/rc[/color] - IC рация для шпионажа в гос. структурах[br/][color=#E0584B]/rnc[/color] - OOC рация для шпионажа в гос. структурах[br/][color=#E0584B]/fc[/color] - IC рация для шпионажа в ОПГ[br/][color=#E0584B]/fnc[/color] - OOC рация для шпионажа в ОПГ[br/][color=#E0584B]/cmembers[/color] - Список сотрудников в организации под прикрытием[br/][color=#E0584B]/dismiss [/color][color=#555555]{id игрока} [/color] - Уволить сотрудника силовых структур (Армия, ГИБДД, УМВД; от 9 ранга в ФСБ)"
+      "text": "[color=#E0584B]/search [/color][color=#555555]{player id} [/color]- Conduct a search[br/][color=#E0584B]/cuff [/color][color=#555555]{player id} [/color]- Put handcuffs on[br/][color=#E0584B]/uncuff [/color][color=#555555]{player id} [/color]- Remove handcuffs[br/][color=#E0584B]/clear [/color][color=#555555]{player id} [/color]- Remove from the wanted database[br/][color=#E0584B]/su [/color][color=#555555]{player id / nickname} {number of stars} {reason} [/color]- Put on the wanted list[br/][color=#E0584B]/arrest [/color][color=#555555]{player id} [/color]- Arrest a player[br/][color=#E0584B]/takelic [/color][color=#555555]{player id} [/color]- Revoke driver's license[br/][color=#E0584B]/putpl [/color][color=#555555]{player id} [/color]- Put in the car[br/][color=#E0584B]/gotome [/color][color=#555555]{player id} [/color]- Drag along with you[br/][color=#E0584B]/base [/color]- Open the onboard computer[br/][color=#E0584B]/ceject [/color][color=#555555]{player id} [/color]- Pull a player out of the car[br/][color=#FFCC00]Traffic Police:[br/][/color][color=#E0584B]/ptickets [/color][color=#555555]{player id} [/color]- View the list of fines[br/][color=#E0584B]/searchcar [/color] - Search the trunk of the nearest vehicle[br/][color=#E0584B]/radarmap [/color]- Open the menu of handheld radar usage locations[br/][color=#E0584B]/delticket [/color][color=#555555]{fine number} [/color]- Delete a fine by number[br/][color=#E0584B]/clearfine[/color][color=#555555] {player name}[/color] - Open the list of fines issued by Traffic Police officers[br/][color=#FFCC00]FBI:[br/][/color][color=#E0584B]/rc[/color] - IC radio for spying in government structures[br/][color=#E0584B]/rnc[/color] - OOC radio for spying in government structures[br/][color=#E0584B]/fc[/color] - IC radio for spying in OCGs[br/][color=#E0584B]/fnc[/color] - OOC radio for spying in OCGs[br/][color=#E0584B]/cmembers[/color] - List of employees undercover in the organization[br/][color=#E0584B]/dismiss [/color][color=#555555]{player id} [/color] - Dismiss a law enforcement employee (Army, Traffic Police, City Police; from rank 9 in the FBI)"
       },
     {
       "id": 8,
-      "header": "Армия",
+      "header": "Army",
       "availableIds": [2],
-      "text": "[color=#E0584B]/adelivery [/color]- Открыть меню поставки материалов[br/]/givevb [color=#555555]{id игрока} [/color]- Выдать военный билет[br/]/makegun [color=#555555]{id оружия} [/color]- Перевести из материала в патроны"
+      "text": "[color=#E0584B]/adelivery [/color]- Open the material supply menu[br/]/givevb [color=#555555]{player id} [/color]- Issue a military ID[br/]/makegun [color=#555555]{weapon id} [/color]- Convert materials into ammo"
     },
     {
       "id": 9,
-      "header": "Больница",
+      "header": "Hospital",
       "availableIds": [3],
-      "text": "[color=#E0584B]/heal [/color][color=#555555]{id игрока} {цена} [/color]- Лечение пациента[br/][color=#E0584B]/out [/color][color=#555555]{id игрока} [/color]- Выписать из больницы[br/][color=#E0584B]/ills[/color] - список раненых[br/][color=#E0584B]/medhelp [/color][color=#555555]{id игрока} {цена} [/color]- Лечение пациента (на койке)[br/][color=#E0584B]/gmedcard [/color][color=#555555]{id игрока} {цена} [/color]- Заполнить медицинскую карту[br/][color=#E0584B]/pill [/color][color=#555555]{id игрока} [/color]- Выписать лекарство по рецепту[br/][color=#E0584B]/changesex [/color][color=#555555]{id игрока} {цена} [/color]- Операция по смене пола"
+      "text": "[color=#E0584B]/heal [/color][color=#555555]{player id} {price} [/color]- Treat a patient[br/][color=#E0584B]/out [/color][color=#555555]{player id} [/color]- Discharge from the hospital[br/][color=#E0584B]/ills[/color] - list of injured[br/][color=#E0584B]/medhelp [/color][color=#555555]{player id} {price} [/color]- Treat a patient (in bed)[br/][color=#E0584B]/gmedcard [/color][color=#555555]{player id} {price} [/color]- Fill out a medical card[br/][color=#E0584B]/pill [/color][color=#555555]{player id} [/color]- Prescribe medicine by prescription[br/][color=#E0584B]/changesex [/color][color=#555555]{player id} {price} [/color]- Gender reassignment surgery"
     },
     {
       "id": 10,
-      "header": "Радио",
+      "header": "Radio",
       "availableIds": [4],
-      "text": "[color=#E0584B]/givemic [/color][color=#555555]{id игрока} [/color]- Выдать микрофон[br/][color=#E0584B]/estats [/color]- Статистика за день[br/][color=#E0584B]/t [/color][color=#555555]{текст} [/color]- Радиовещание[br/][color=#E0584B]/edit [/color]- Публикация с объявлениями[br/][color=#E0584B]/u [/color][color=#555555]{Текст} [/color]- Ответить в роли гостя (Эфиры)"
+      "text": "[color=#E0584B]/givemic [/color][color=#555555]{player id} [/color]- Give a microphone[br/][color=#E0584B]/estats [/color]- Statistics for the day[br/][color=#E0584B]/t [/color][color=#555555]{text} [/color]- Radio broadcast[br/][color=#E0584B]/edit [/color]- Publication with ads[br/][color=#E0584B]/u [/color][color=#555555]{Text} [/color]- Reply as a guest (Broadcasts)"
     },
     {
       "id": 11,
-      "header": "ФСИН",
+      "header": "Penitentiary Service",
       "availableIds": [11],
-      "text": "[color=#E0584B]/cuff [/color][color=#555555]{id игрока} [/color]- Надеть наручники[br/][color=#E0584B]/uncuff [/color][color=#555555]{id игрока} [/color]- Снять наручники[br/][color=#E0584B]/rummage [/color]- Обыскать тайник[br/][color=#E0584B]/gotome [color=#555555]{id игрока} [/color]- Тащить за собой[br/][color=#E0584B]/search [color=#555555]{id игрока} [/color]- Произвести обыск[br/][color=#E0584B]/startmeet [/color][color=#555555]{id игрока} {время} [/color]- Начать свидание[br/][color=#E0584B]/stopmeet [/color][color=#555555]{id игрока} [/color]- Закончить свидание[br/][color=#E0584B]/mr [/color][color=#555555]{id игрока} {причина} [/color]- Выдать выговор заключенному[br/][color=#E0584B]/unmr [/color][color=#555555]{id игрока} {причина} [/color]- Снять выговор заключенному[br/][color=#E0584B]/pr [/color][color=#555555]{id игрока} {причина} [/color]- Выдать поощрение заключенному[br/][color=#E0584B]/prin [/color][color=#555555]{id игрока} {время} {причина} [/color]- Посадить заключенного в карцер[br/][color=#E0584B]/prout [color=#555555]{id игрока} {причина} [/color]- Выпустить заключенного из карцера[br/][color=#E0584B]/groom [/color][color=#555555]{id игрока} [/color]- Выдать пропуск в комнату для свиданий"
+      "text": "[color=#E0584B]/cuff [/color][color=#555555]{player id} [/color]- Put handcuffs on[br/][color=#E0584B]/uncuff [/color][color=#555555]{player id} [/color]- Remove handcuffs[br/][color=#E0584B]/rummage [/color]- Search the stash[br/][color=#E0584B]/gotome [color=#555555]{player id} [/color]- Drag along[br/][color=#E0584B]/search [color=#555555]{player id} [/color]- Conduct a search[br/][color=#E0584B]/startmeet [/color][color=#555555]{player id} {time} [/color]- Start a visit[br/][color=#E0584B]/stopmeet [/color][color=#555555]{player id} [/color]- End a visit[br/][color=#E0584B]/mr [/color][color=#555555]{player id} {reason} [/color]- Issue a reprimand to the inmate[br/][color=#E0584B]/unmr [/color][color=#555555]{player id} {reason} [/color]- Remove a reprimand from the inmate[br/][color=#E0584B]/pr [/color][color=#555555]{player id} {reason} [/color]- Issue an incentive to the inmate[br/][color=#E0584B]/prin [/color][color=#555555]{player id} {time} {reason} [/color]- Place the inmate in solitary confinement[br/][color=#E0584B]/prout [color=#555555]{player id} {reason} [/color]- Release the inmate from solitary confinement[br/][color=#E0584B]/groom [/color][color=#555555]{player id} [/color]- Issue a pass to the visitation room"
     },
     {
       "id": 12,
-      "header": "Лидерам",
-      "text": "[color=#E0584B]/lmenu [/color]- Открыть меню лидера[br/][color=#E0584B]/showall [/color]- Показать оффлайн игроков[color=#555555](+ offline увольнения)[br/][/color][color=#E0584B]/invite [/color][color=#555555]{id игрока} [/color]- Принять во фракцию[br/][color=#E0584B]/uninvite [/color][color=#555555]{id игрока} [/color]- Выгнать из фракции[br/][color=#E0584B]/changeskin [/color][color=#555555]{id игрока} [/color]- Сменить скин[br/][color=#E0584B]/fvig [color=#555555]{id игрока} {причина}[/color]- Выдать выговор[br/][color=#E0584B]/funvig [/color][color=#555555]{id игрока} [/color]- Снять выговор[br/][color=#E0584B]/rang [/color][color=#555555]{id игрока} {+ -} [/color]- Повысить/Понизить ранг"
+      "header": "To leaders",
+      "text": "[color=#E0584B]/lmenu [/color]- Open the leader menu[br/][color=#E0584B]/showall [/color]- Show offline players[color=#555555](+ offline dismissals)[br/][/color][color=#E0584B]/invite [/color][color=#555555]{player id} [/color]- Accept into the faction[br/][color=#E0584B]/uninvite [/color][color=#555555]{player id} [/color]- Kick from the faction[br/][color=#E0584B]/changeskin [/color][color=#555555]{player id} [/color]- Change skin[br/][color=#E0584B]/fvig [color=#555555]{player id} {reason}[/color]- Issue a reprimand[br/][color=#E0584B]/funvig [/color][color=#555555]{player id} [/color]- Remove a reprimand[br/][color=#E0584B]/rang [/color][color=#555555]{player id} {+ -} [/color]- Promote/Demote rank"
     },
     {
       "id": 13,
-      "header": "Семьи",
-      "text": "[color=#E0584B]/fammenu (/fm) [/color]- Основное меню управления семьей[br/][color=#E0584B]/fam [/color][color=#555555](сообщение) [/color]- Чат семьи[br/] [br/][color=#E0584B]/fbl [/color]- Черный список[br/] [br/][color=#E0584B]/loadfamily [/color]- Начать загрузку/разгрузку на AirDrop[br/][br/][color=#E0584B]Настройка семьи [/color]— изменение ранга и т.д. лидером семьи.[br/][br/][color=#E0584B]Управление семьей [/color]— принятие в семью, увольнение из нее и прочие моменты, относящиеся к руководству семьей.[br/][br/][color=#E0584B]Автопарк [/color]— панель управления транспортом семьи, доступна только персонажам с соответствующим рангом.[br/][br/][color=#E0584B]Рейтинг семьи [/color]— специальные очки, которые семья получает за наличие членов семьи онлайн в PayDay, зарабатывает на AirDrop или битвах.[br/]"
+      "header": "Families",
+      "text": "[color=#E0584B]/fammenu (/fm) [/color]- Main family management menu[br/][color=#E0584B]/fam [/color][color=#555555](message) [/color]- Family chat[br/] [br/][color=#E0584B]/fbl [/color]- Blacklist[br/] [br/][color=#E0584B]/loadfamily [/color]- Start loading/unloading at AirDrop[br/][br/][color=#E0584B]Family setup [/color]— changing rank, etc. by the family leader.[br/][br/][color=#E0584B]Family management [/color]— accepting into the family, dismissing from it, and other matters related to leading the family.[br/][br/][color=#E0584B]Vehicle fleet [/color]— the family vehicle control panel, available only to characters with the appropriate rank.[br/][br/][color=#E0584B]Family rating [/color]— special points that the family receives for having family members online during PayDay, earning them at AirDrop, or in battles.[br/]"
     },
     {
       "id": 15,
-      "header": "Транспорт",
-      "text": "[color=#FFCC00]Транспорт:[br/][/color][color=#E0584B]/eject [/color][color=#555555]{id игрока} [/color]- Выкинуть игрока из машины[br/][color=#E0584B]/rem [/color]- Пристегнуть/отстегнуть ремень безопасности[br/][color=#E0584B]/buyfuel [/color]- Купить канистру[br/][color=#E0584B]/i [/color]- Заправить автомобиль на заправке [br/][color=#E0584B]/e [/color]- Завести автомобиль[br/] [br/][color=#FFCC00]Личный транспорт:[br/][/color][color=#E0584B]/sellcar [/color]- Продать машину государству[br/][color=#E0584B]/sellmycar [/color][color=#555555]{id игрока} {Cтоимость}[/color]- Продать машину игроку[br/][color=#E0584B]/getmycar [/color]- Местоположение твоего транспорта [br/][color=#E0584B]/car [/color]- Загрузка личного транспорта на сервер [br/][color=#E0584B]/trunk [/color]- Воспользоваться багажником транспортного средства[br/][color=#E0584B]/carpass [/color]- Показать технический паспорт автомобиля[br/] [br/]Чтобы снять номера со своего личного транспортного средства, воспользуйся командой: [color=#E0584B]/car[/color]"
+      "header": "Transport",
+      "text": "[color=#FFCC00]Transport:[br/][/color][color=#E0584B]/eject [/color][color=#555555]{player id} [/color]- Throw a player out of the car[br/][color=#E0584B]/rem [/color]- Fasten/unfasten the seat belt[br/][color=#E0584B]/buyfuel [/color]- Buy a canister[br/][color=#E0584B]/i [/color]- Refuel the car at the gas station [br/][color=#E0584B]/e [/color]- Start the car[br/] [br/][color=#FFCC00]Personal transport:[br/][/color][color=#E0584B]/sellcar [/color]- Sell the car to the state[br/][color=#E0584B]/sellmycar [/color][color=#555555]{player id} {Price}[/color]- Sell the car to a player[br/][color=#E0584B]/getmycar [/color]- Location of your vehicle [br/][color=#E0584B]/car [/color]- Load personal transport onto the server [br/][color=#E0584B]/trunk [/color]- Use the vehicle trunk[br/][color=#E0584B]/carpass [/color]- Show the vehicle registration certificate[br/] [br/]To remove the plates from your personal vehicle, use the command: [color=#E0584B]/car[/color]"
     }
   ],
   "businesses": [
     {
       "id": 1,
-      "header": "Магазин 24/7",
-      "text": "[color=#FFC700]Магазин 24/7[/color] — один из основных видов бизнеса в игре. Через магазины игроки продают товары общего спроса другим игрокам, зарабатывая при этом деньги.[br/][br/][color=#FFCC00]Команды магазина:[br/][/color][color=#E0584B]/business [/color]- Информация о бизнесе[br/][color=#E0584B]/sellbiz [/color]- Продать бизнес государству[br/][color=#E0584B]/bizmusic [/color]- Звук при входе в бизнес[br/]"
+      "header": "24/7 Store",
+      "text": "[color=#FFC700]24/7 Store[/color] is one of the main types of business in the game. Through stores, players sell general-demand goods to other players while earning money.[br/][br/][color=#FFCC00]Store commands:[br/][/color][color=#E0584B]/business [/color]- Business information[br/][color=#E0584B]/sellbiz [/color]- Sell the business to the state[br/][color=#E0584B]/bizmusic [/color]- Sound when entering the business[br/]"
     },
     {
       "id": 2,
-      "header": "АЗС",
-      "text": "[color=#FFC700]АЗС [/color][color=#888888](автозаправочная станция) [/color]— это особый, очень прибыльный тип бизнеса. Через АЗС игроки заправляют топливом транспортные средства других игроков, зарабатывая при этом деньги. [br/]Для стабильной работы АЗС нужно регулярно заключать контракты со службой доставки топлива. Игрок может владеть обычным бизнесом и АЗС одновременно.[br/][br/][color=#FFCC00]Команды АЗС:[br/][/color][color=#E0584B]/fuelst [/color]- Информация о заправке[br/][color=#E0584B]/buyfuelst [/color]- Купить заправку[br/][color=#E0584B]/sellfuelst [/color]- Продать заправку государству[br/]"
+      "header": "Gas Station",
+      "text": "[color=#FFC700]Gas Station [/color][color=#888888](automobile filling station) [/color]is a special, highly profitable type of business. Through a gas station, players refuel other players' vehicles while earning money. [br/]For stable gas station operation, it is necessary to regularly sign contracts with the fuel delivery service. A player can own a regular business and a gas station at the same time.[br/][br/][color=#FFCC00]Gas station commands:[br/][/color][color=#E0584B]/fuelst [/color]- Gas station information[br/][color=#E0584B]/buyfuelst [/color]- Buy a gas station[br/][color=#E0584B]/sellfuelst [/color]- Sell the gas station to the state[br/]"
     },
     {
       "id": 3,
-      "header": "Ночной клуб",
-      "text": "[color=#FFC700]Ночной клуб[/color] — отличное место для развлечений и приятного времяпрепровождения. Он располагается в [color=#0099CC]/gps — Развлечения[/color]. Попасть в него может каждый желающий, прошедший [color=#FFC700]фейс-контроль[/color] (твоя одежда не должна быть стандартной).[br/][br/]В ночном клубе игрокам доступны [color=#FFC700]танцевальные баттлы, бар, VIP-комната для отдыха[/color] и многое другое.[br/] [br/]Владелец ночного клуба может полностью управлять своим клубом, нанимать на работу [color=#FFC700]танцовщиц или поваров[/color].[br/] [br/][color=#FFC700]Танцовщица[/color] — танцует на подиуме в ночном клубе. У нее есть 3 уровня, от которых зависит зарплата.[br/][color=#FFC700]Повар[/color] — готовит еду на кухне. У поваров также есть 3 уровня, от которых зависит их зарплата.[br/] [br/]Узнать все подробности можно прямо в [color=#FFC700]ночном клубе[/color].[br/][br/][color=#FFC700]Команды Ночного клуба:[br/][/color][color=#E0584B]/cemenu[/color] - Меню владельца ночного клуба[br/][color=#E0584B]/ncleave[/color] - Уволиться из ночного клуба[br/][color=#E0584B]/exitvip[/color] - Закончить аренду VIP-комнаты"
+      "header": "Nightclub",
+      "text": "[color=#FFC700]Nightclub[/color] is an excellent place for entertainment and pleasant leisure. It is located at [color=#0099CC]/gps — Entertainment[/color]. Anyone who passes [color=#FFC700]face control[/color] can get in (your clothes must not be standard).[br/][br/]In the nightclub, players have access to [color=#FFC700]dance battles, a bar, a VIP lounge[/color] and much more.[br/] [br/]The nightclub owner can fully manage their club and hire [color=#FFC700]dancers or cooks[/color].[br/] [br/][color=#FFC700]Dancer[/color] — dances on the podium in the nightclub. She has 3 levels, which determine the salary.[br/][color=#FFC700]Cook[/color] — prepares food in the kitchen. Cooks also have 3 levels, which determine their salary.[br/] [br/]You can learn all the details directly in the [color=#FFC700]nightclub[/color].[br/][br/][color=#FFC700]Nightclub commands:[br/][/color][color=#E0584B]/cemenu[/color] - Nightclub owner menu[br/][color=#E0584B]/ncleave[/color] - Quit the nightclub job[br/][color=#E0584B]/exitvip[/color] - End VIP room rental"
     },
     {
       "id": 4,
-      "header": "Казино",
-      "text": "[color=#FFC700]Казино[/color] — один из самых прибыльных видов бизнеса в игре. Причем персонажи могут не только участвовать в играх как клиенты заведения, но и устраиваться сюда на работу в качестве [color=#E0584B]Менеджера[/color] или [color=#E0584B]Крупье[/color].[br/][br/][color=#FFCC00]Команды бизнеса:[br/][/color][color=#E0584B]/business [/color]- Информация о бизнесе[br/][color=#E0584B]/sellbiz [/color]- Продать бизнес государству[br/][color=#E0584B]/bizmusic [/color]- Звук при входе в бизнес[br/][color=#E0584B]/manager[/color] - Меню управления персоналом (для менеджера) "
+      "header": "Casino",
+      "text": "[color=#FFC700]Casino[/color] is one of the most profitable types of business in the game. Moreover, characters can not only participate in games as establishment customers, but also get a job here as a [color=#E0584B]Manager[/color] or [color=#E0584B]Croupier[/color].[br/][br/][color=#FFCC00]Business commands:[br/][/color][color=#E0584B]/business [/color]- Business information[br/][color=#E0584B]/sellbiz [/color]- Sell the business to the state[br/][color=#E0584B]/bizmusic [/color]- Sound when entering the business[br/][color=#E0584B]/manager[/color] - Staff management menu (for the manager) "
     },
     {
       "id": 5,
-      "header": "Автомастерская | СТО",
-      "text": "В [color=#FFC700]автомастерских[/color] игроки производят тюнинг и обслуживание своих ТС. Всего в игре несколько станций: [color=#FFC700]Станция Технического Обслуживания, Стайлинг Центр, Шиномонтажный Центр[/color] и [color=#FFC700]Технический Центр[/color]. Каждая из них может быть куплена как самостоятельный прибыльный бизнес.[br/][br/][color=#FFCC00]Команды бизнеса:[br/][/color][color=#E0584B]/business [/color]- Информация о бизнесе[br/][color=#E0584B]/sellbiz [/color]- Продать бизнес государству[br/][color=#E0584B]/bizmusic [/color]- Звук при входе в бизнес[br/]"
+      "header": "Auto Repair Shop | Service Station",
+      "text": "At [color=#FFC700]auto repair shops[/color], players perform tuning and maintenance of their vehicles. There are several stations in the game in total: [color=#FFC700]Service Station, Styling Center, Tire Service Center[/color] and [color=#FFC700]Technical Center[/color]. Each of them can be purchased as an independent profitable business.[br/][br/][color=#FFCC00]Business commands:[br/][/color][color=#E0584B]/business [/color]- Business information[br/][color=#E0584B]/sellbiz [/color]- Sell the business to the state[br/][color=#E0584B]/bizmusic [/color]- Sound when entering the business[br/]"
     },
     {
       "id": 6,
-      "header": "Ларек",
-      "text": "[color=#FFC700]Ларьки[/color] — один из самых дешевых бизнесов. Ларьки есть в каждом районе (на вокзалах и остановках), в них игроки покупают еду для пополнения [color=#85D359]сытости[/color] и приносят этим владельцу бизнеса прибыль.[br/][br/][color=#FFCC00]Команды бизнеса:[br/][/color][color=#E0584B]/business [/color]- Информация о бизнесе[br/][color=#E0584B]/sellbiz [/color]- Продать бизнес государству[br/][color=#E0584B]/bizmusic [/color]- Звук при входе в бизнес[br/]"
+      "header": "Stall",
+      "text": "[color=#FFC700]Kiosks[/color] are one of the cheapest businesses. Kiosks are present in every district (at railway stations and stops), where players buy food to restore [color=#85D359]satiety[/color], thereby bringing profit to the business owner.[br/][br/][color=#FFCC00]Business commands:[br/][/color][color=#E0584B]/business [/color]- Business information[br/][color=#E0584B]/sellbiz [/color]- Sell the business to the state[br/][color=#E0584B]/bizmusic [/color]- Sound when entering the business[br/]"
     },
     {
       "id": 7,
-      "header": "Закусочная",
-      "text": "[color=#FFC700]Закусочные[/color] — распространенный и прибыльный бизнес. В закусочных игроки покупают еду, а также выполняют задания Курьера, принося владельцу дополнительную прибыль.[br/][br/][color=#FFCC00]Команды бизнеса:[br/][/color][color=#E0584B]/business [/color]- Информация о бизнесе[br/][color=#E0584B]/sellbiz [/color]- Продать бизнес государству[br/][color=#E0584B]/bizmusic [/color]- Звук при входе в бизнес[br/]"
+      "header": "Snack bar",
+      "text": "[color=#FFC700]Snack bars[/color] are a common and profitable business. In snack bars, players buy food and also complete Courier tasks, bringing the owner additional profit.[br/][br/][color=#FFCC00]Business commands:[br/][/color][color=#E0584B]/business [/color]- Business information[br/][color=#E0584B]/sellbiz [/color]- Sell the business to the state[br/][color=#E0584B]/bizmusic [/color]- Sound when entering the business[br/]"
     },
     {
       "id": 8,
-      "header": "Магазин амуниции",
-      "text": "В [color=#FFC700]Магазине амуниции[/color] продается оружие и боевая экипировка.[br/][br/][color=#FFCC00]Команды магазина:[br/][/color][color=#E0584B]/business [/color]- Информация о бизнесе[br/][color=#E0584B]/sellbiz [/color]- Продать бизнес государству[br/][color=#E0584B]/bizmusic [/color]- Звук при входе в бизнес[br/]"
+      "header": "Ammo Store",
+      "text": "Weapons and combat equipment are sold in the [color=#FFC700]Ammo Store[/color].[br/][br/][color=#FFCC00]Store commands:[br/][/color][color=#E0584B]/business [/color]- Business information[br/][color=#E0584B]/sellbiz [/color]- Sell the business to the state[br/][color=#E0584B]/bizmusic [/color]- Sound when entering the business[br/]"
     },
     {
       "id": 9,
-      "header": "Транспортная компания",
-      "text": "[color=#FFC700]Транспортные компании[/color] занимаются перевозкой грузов по всей области, снабжая бизнесы необходимыми товарами. Офисы компании расположены в [color=#FFC700]пгт. Батырево[/color] и [color=#FFC700]п. Бусаево[/color].[br/][br/][color=#FFC700]Для владельцев бизнеса:[/color][br/]Грузовики в транспортную компанию необходимо приобретать в автосалоне грузовых автомобилей и регулярно производить их обслуживание и ремонт.[br/][br/][color=#FFCC00]Команды ТК:[br/][/color][color=#E0584B]/company[/color] - Основное меню компании[br/][color=#E0584B]/orders[/color] - Список заказов компании[br/][color=#E0584B]/tc[/color] - Чат дальнобойщиков[br/]"
+      "header": "Transport company",
+      "text": "[color=#FFC700]Transport companies[/color] are engaged in cargo transportation throughout the entire region, supplying businesses with the necessary goods. The company offices are located in [color=#FFC700]Batyrevo urban-type settlement[/color] and [color=#FFC700]Busaevo settlement[/color].[br/][br/][color=#FFC700]For business owners:[/color][br/]Trucks for the transport company must be purchased at the truck dealership and regularly maintained and repaired.[br/][br/][color=#FFCC00]Transport company commands:[br/][/color][color=#E0584B]/company[/color] - Company main menu[br/][color=#E0584B]/orders[/color] - Company order list[br/][color=#E0584B]/tc[/color] - Truckers' chat[br/]"
     },
     {
       "id": 10,
-      "header": "Строительная компания",
-      "text": "[color=#FFC700]Строительные компании[/color] — важный бизнес для развития области.[br/]Управление строительными компаниями и выдача контрактов на строительство (аренда строек) ведется в основном офисе, расположенном в [color=#FFC700]/gps — Строительные компании.[/color][br/][br/][color=#FFCC00]Команды СК:[br/][/color][color=#E0584B]/bcompany[/color] - Меню управления строительной компанией[br/][color=#E0584B]/bc[/color] - Чат строительной компании[br/]"
+      "header": "Construction company",
+      "text": "[color=#FFC700]Construction companies[/color] are an important business for the development of the region.[br/]Management of construction companies and issuance of construction contracts (construction site rental) is handled in the main office located at [color=#FFC700]/gps — Construction companies.[/color][br/][br/][color=#FFCC00]Construction company commands:[br/][/color][color=#E0584B]/bcompany[/color] - Construction company management menu[br/][color=#E0584B]/bc[/color] - Construction company chat[br/]"
     },
     {
       "id": 11,
-      "header": "Магазин одежды",
-      "text": "[color=#FFC700]Магазины одежды[/color] — бизнес для тех, кто знает толк в моде! Владелец бизнеса продает игрокам скины, получая свой доход.[br/][br/][color=#FFCC00]Команды магазина:[br/][/color][color=#E0584B]/business [/color]- Информация о бизнесе[br/][color=#E0584B]/sellbiz [/color]- Продать бизнес государству[br/][color=#E0584B]/bizmusic [/color]- Звук при входе в бизнес[br/]"
+      "header": "Clothing store",
+      "text": "[color=#FFC700]Clothing stores[/color] are a business for those who know fashion! The business owner sells skins to players, receiving income from it.[br/][br/][color=#FFCC00]Store commands:[br/][/color][color=#E0584B]/business [/color]- Business information[br/][color=#E0584B]/sellbiz [/color]- Sell the business to the state[br/][color=#E0584B]/bizmusic [/color]- Sound when entering the business[br/]"
     },
     {
       "id": 12,
-      "header": "Магазин аксессуаров",
-      "text": "[color=#FFC700]Магазины аксессуаров[/color] — бизнес для ярких людей. В таких магазинах игроки покупают разнообразные аксессуары (отдельный тип одежды) и тем самым приносят владельцу бизнеса прибыль.[br/][br/][color=#FFCC00]Команды магазина:[br/][/color][color=#E0584B]/business [/color]- Информация о бизнесе[br/][color=#E0584B]/sellbiz [/color]- Продать бизнес государству[br/][color=#E0584B]/bizmusic [/color]- Звук при входе в бизнес[br/]"
+      "header": "Accessory store",
+      "text": "[color=#FFC700]Accessory stores[/color] are a business for bright personalities. In such stores, players buy various accessories (a separate type of clothing), thereby bringing profit to the business owner.[br/][br/][color=#FFCC00]Store commands:[br/][/color][color=#E0584B]/business [/color]- Business information[br/][color=#E0584B]/sellbiz [/color]- Sell the business to the state[br/][color=#E0584B]/bizmusic [/color]- Sound when entering the business[br/]"
     },
     {
       "id": 13,
-      "header": "Таксопарк",
-      "text": "[color=#FFC700]Таксопарки[/color] — бизнес по перевозке пассажиров и небольших грузов. На сервере присутствуют [color=#FFC700]3 таксопарка[/color], расположенных в г. Арзамас, г. Южный и п. Батырево. Найти таксопарки можно при помощи [color=#FFC700]/gps — Таксопарки[/color].[br/][br/]Владелец компании может полностью управлять своим таксопарком:[br/]- [color=#FFC700]Закупать автомобили[/color] в таксопарк компании (через обычные автосалоны).[br/]- [color=#FFC700]Настраивать ранги[/color], в том числе их названия и доступ к автомобилям.[br/]- [color=#FFC700]Настраивать автомобилям тип комфортности[/color], а также стоимость 1 километра поездки для каждого тарифа.[br/]- [color=#FFC700]Приобретать [/color]перманентные улучшения или временные бусты.[br/][br/][color=#FFC700]Важно:[/color] за покупку улучшений или бустов снимаются выполненные заказы компании. Их можно приобрести за [color=#FFC700]Black Coins.[/color][br/][br/][color=#FFC700]Команды таксопарка:[br/][/color][color=#E0584B]/tmenu[/color] - Меню управления таксокомпанией[br/][color=#E0584B]/tc[/color] - Чат внутри таксопарка[br/][color=#E0584B]/tord[/color] - Лист заказов в таксопарке[br/][color=#E0584B]/tuninvite[/color] - Уволить сотрудника таксопарка[br/][color=#E0584B]/trank[/color] - Изменить ранг сотруднику в таксопарке"
+      "header": "Taxi Depot",
+      "text": "[color=#FFC700]Taxi fleets[/color] are a business for transporting passengers and small cargo. There are [color=#FFC700]3 taxi fleets[/color] on the server, located in the city of Arzamas, the city of Yuzhny, and the settlement of Batyrevo. You can find taxi fleets using [color=#FFC700]/gps — Taxi Fleets[/color].[br/][br/]The company owner can fully manage their taxi fleet:[br/]- [color=#FFC700]Purchase vehicles[/color] for the company's taxi fleet (through regular car dealerships).[br/]- [color=#FFC700]Configure ranks[/color], including their names and access to vehicles.[br/]- [color=#FFC700]Set comfort class for vehicles[/color], as well as the cost of 1 kilometer of travel for each fare.[br/]- [color=#FFC700]Purchase [/color]permanent upgrades or temporary boosts.[br/][br/][color=#FFC700]Important:[/color] completed company orders are deducted for purchasing upgrades or boosts. They can be purchased for [color=#FFC700]Black Coins.[/color][br/][br/][color=#FFC700]Taxi fleet commands:[br/][/color][color=#E0584B]/tmenu[/color] - Taxi company management menu[br/][color=#E0584B]/tc[/color] - Taxi fleet internal chat[br/][color=#E0584B]/tord[/color] - Taxi fleet order list[br/][color=#E0584B]/tuninvite[/color] - Fire a taxi fleet employee[br/][color=#E0584B]/trank[/color] - Change an employee's rank in the taxi fleet"
     },
     {
       "id": 14,
-      "header": "Автосалоны",
-      "text": "В [color=#FFC700]автосалонах[/color] игроки покупают за софт-валюту разные виды транспортных средств: авто низкого класса, авто среднего класса, авто премиум класса, мотоциклы, грузовые авто и водный транспорт. Для каждого из 5 видов существует свой салон, который можно приобрести в качестве самостоятельного бизнеса.[br/][br/][color=#FFCC00]Команды магазина:[br/][/color][color=#E0584B]/business [/color]- Информация о бизнесе[br/][color=#E0584B]/sellbiz [/color]- Продать бизнес государству[br/][color=#E0584B]/bizmusic [/color]- Звук при входе в бизнес[br/]"
+      "header": "Car dealerships",
+      "text": "In [color=#FFC700]car dealerships[/color], players buy different types of vehicles for soft currency: low-class cars, middle-class cars, premium-class cars, motorcycles, trucks, and water transport. Each of the 5 types has its own dealership, which can be purchased as an independent business.[br/][br/][color=#FFCC00]Store commands:[br/][/color][color=#E0584B]/business [/color]- Business information[br/][color=#E0584B]/sellbiz [/color]- Sell the business to the state[br/][color=#E0584B]/bizmusic [/color]- Sound when entering the business[br/]"
     },
     {
       "id": 15,
-      "header": "Мастерская",
-      "text": "[color=#FFC700]Мастерская[/color] — бизнес для креативных. Здесь игроки производят аксессуары, скины и даже транспортные средства, принося прибыль владельцу. Чтобы обеспечить высокий доход, необходимо устанавливать самые современные [color=#FFC700]Верстаки[/color] — без них клиенты не смогут создавать предметы высокой ценности.[br/][br/][color=#FFCC00]Команды бизнеса:[br/][/color][color=#E0584B]/business [/color]- Информация о бизнесе[br/][color=#E0584B]/sellbiz [/color]- Продать бизнес государству[br/][color=#E0584B]/bizmusic [/color]- Звук при входе в бизнес[br/]"
+      "header": "Workshop",
+      "text": "[color=#FFC700]Workshop[/color] is a business for creative people. Here, players produce accessories, skins, and even vehicles, bringing profit to the owner. To ensure high income, it is necessary to install the most modern [color=#FFC700]Workbenches[/color] — without them, customers will not be able to create high-value items.[br/][br/][color=#FFCC00]Business commands:[br/][/color][color=#E0584B]/business [/color]- Business information[br/][color=#E0584B]/sellbiz [/color]- Sell the business to the state[br/][color=#E0584B]/bizmusic [/color]- Sound when entering the business[br/]"
     },
     {
       "id": 16,
-      "header": "Рыболовный магазин",
-      "text": "В [color=#FFC700]рыболовных магазинах[/color] игроки могут закупать все необходимые снасти: ([color=#FFC700]удочки, прикорм, приманки[/color]) для ловли рыбы. И сюда же можно принести на продажу свой улов.[br/][br/][color=#FFCC00]Команды бизнеса:[br/][/color][color=#E0584B]/business [/color]- Информация о бизнесе[br/][color=#E0584B]/sellbiz [/color]- Продать бизнес государству[br/][color=#E0584B]/bizmusic [/color]- Звук при входе в бизнес[br/]"
+      "header": "Fishing shop",
+      "text": "In [color=#FFC700]fishing stores[/color], players can buy all the necessary tackle: ([color=#FFC700]fishing rods, groundbait, lures[/color]) for catching fish. You can also bring your catch here to sell it.[br/][br/][color=#FFCC00]Business commands:[br/][/color][color=#E0584B]/business [/color]- Business information[br/][color=#E0584B]/sellbiz [/color]- Sell the business to the state[br/][color=#E0584B]/bizmusic [/color]- Sound when entering the business[br/]"
     },
     {
       "id": 17,
-      "header": "Центр Предпринимательства",
-      "text": "[color=#FFC700]Центр Предпринимательства[/color] — важное место для каждого владельца бизнеса. В нем регулируются [color=#E0584B]проценты прибыли[/color] и принимаются решения об [color=#E0584B]изъятии[/color] бизнеса.[br/][br/]Чтобы сохранить свой бизнес, владелец должен его обслуживать. Необходимо приезжать в Центр ([color=#0099CC]/gps — Важные места[/color]) и выполнять список заданий. Чем больше заданий выполнено, тем выше будет прибыль бизнеса на следующий день. Если задания игнорируются владельцем более 4-х дней, то бизнес будет изъят и передан на аукцион."
+      "header": "Entrepreneurship Center",
+      "text": "[color=#FFC700]Entrepreneurship Center[/color] is an important place for every business owner. It regulates [color=#E0584B]profit percentages[/color] and makes decisions on [color=#E0584B]confiscation[/color] of a business.[br/][br/]To keep their business, the owner must maintain it. You need to come to the Center ([color=#0099CC]/gps — Important Places[/color]) and complete the list of tasks. The more tasks completed, the higher the business profit will be the next day. If the owner ignores the tasks for more than 4 days, the business will be confiscated and put up for auction."
     }
   ],
   "security": [
     {
       "id": 1,
-      "text": "[color=#FFC700]Безопасность Вашего аккаунта - Ваша ответственность.[/color][br/][br/]На нашем проекте существует современная система безопасности. [br/][br/]Обезопасить Ваш аккаунт, ограничить его от взлома можно несколькими способами:[br/][br/][color=#FFC700]1. Изменение пароля[/color] - в случае, если злоумышленники получили данные от Вашего аккаунта,своевременная смена пароля сможет его защитить. [br/][br/]Мы рекомендуем ставить сложный и уникальный пароль,состоящий из букв и цифр латинского алфавита разного регистра.[br/][br/][color=#FFC700]2. Дополнительная безопасность[/color] - повышенный уровень безопасности Вашего аккаунта.[br/][br/]Мы рекомендуем каждому игроку поставить данный уровень защиты: привязать к аккаунта страницу ВКонтакте,почтовый ящик и Google Authenticator.[br/][br/]Для установки этого уровня защиты выберите [color=#FFC700]Дополнительная безопасность[/color]"
+      "text": "[color=#FFC700]The security of your account is your responsibility.[/color][br/][br/]Our project has a modern security system. [br/][br/]You can secure your account and reduce the risk of it being hacked in several ways:[br/][br/][color=#FFC700]1. Changing the password[/color] - if intruders have obtained your account data, changing the password in time can protect it. [br/][br/]We recommend setting a complex and unique password consisting of uppercase and lowercase Latin letters and numbers.[br/][br/][color=#FFC700]2. Additional security[/color] - an increased level of security for your account.[br/][br/]We recommend that every player enable this level of protection: link a VKontakte page, an email address, and Google Authenticator to the account.[br/][br/]To enable this level of protection, select [color=#FFC700]Additional security[/color]"
     },
     {
       "id": 2,
-      "text": "[color=#FFC700]Привязка электронной почты к игровому акканту[/color] - вид защиты аккаунта, при котором уникальные коды для восстановления пароля будут приходить на электронную почту.[br/] [br/]Помните, что с этим видом защиты Вы сможете [color=#FFC700]восстановить пароль[/color], в случае, если Ваш аккаунт будет украден.[br/][br/]Мы рекомендуем включить данный тип защиты для Вашего игрового аккаунта и потенциального восстановления пароля.[br/][br/]Введите вашу действующую электронную почту в окно ниже, на неё будет отправлен код для подтверждения.[br/] [br/]Помните, что привязка к электронной почте поможет восстановить пароль от Вашего аккаунта в случае взлома или потери доступа к аккаунту"
+      "text": "[color=#FFC700]Linking an email address to a game account[/color] - is a type of account protection in which unique codes for password recovery will be sent to your email address.[br/] [br/]Remember that with this type of protection you will be able to [color=#FFC700]recover your password[/color] if your account is stolen.[br/][br/]We recommend enabling this type of protection for your game account and possible password recovery.[br/][br/]Enter your valid email address in the window below; a confirmation code will be sent to it.[br/] [br/]Remember that linking an email address will help recover the password to your account in case of a hack or loss of access to the account"
     },
     {
       "id": 4,
-      "text": "[color=#FFC700]PIN-CODE[/color] - вид защиты, при которой на аккаунт устанавливается статичный защитный код.[br/][br/]При таком виде защиты Ваш аккаунт будет защищён от злоумышленников в случае, если кто-то попытается войти на него.[br/][br/]Однако если злоумышленнику известен Ваш пин-код, он сможет зайти на аккаунт.[br/][br/]Мы рекомендуем установить данный тип защиты, а также привязать аккаунт к Google Authenticator."
+      "text": "[color=#FFC700]PIN CODE[/color] - a type of protection in which a static security code is set on the account.[br/][br/]With this type of protection, your account will be protected from intruders if someone tries to log into it.[br/][br/]However, if an intruder knows your PIN code, they will be able to access the account.[br/][br/]We recommend enabling this type of protection, as well as linking the account to Google Authenticator."
     },
     {
       "id": 5,
-      "text": "Для продолжения Вам необходимо придумать и набрать 4-х значный код.[br/] [br/]Эта система безопасности поможет защитить Ваш аккаунт, если на компьютер попадет вирус-кейлоггер, который перехватывает данные с клавиатуры. Кнопки всегда располагаются в случайном порядке, что не даст злоумышленникам возможность узнать Ваш PIN-код."
+      "text": "To continue, you need to come up with and enter a 4-digit code.[br/] [br/]This security system will help protect your account if a keylogger virus gets onto your computer and intercepts keyboard input. The buttons are always arranged in random order, which will prevent an attacker from learning your PIN code."
     },
     {
       "id": 6,
-      "text": "Пинкод должен состоять из цифр.[br/]Пинкод должен быть 4-х значный."
+      "text": "The PIN code must consist of digits.[br/]The PIN code must be 4 digits long."
     },
     {
       "id": 7,
-      "text": "Введите Ваш будущий пин-код:"
+      "text": "Enter your future PIN code:"
     },
     {
       "id": 8,
-      "text": "[color=#FFC700]Google Authenticator[/color] — это мобильное приложение, которое обеспечивает двухфакторную защиту игровых аккаунтов.[br/] [br/]При выборе данного вида защиты Вам потребуется установка приложения Google Authenticator на Ваше мобильное устройство.[br/] [br/]Помните, что это - один из самых безопасных видов защиты.[br/][br/]Мы рекомендуем включить его на Вашем игровом аккаунте и запрашивать специальный код при каждом входе в игру."
+      "text": "[color=#FFC700]Google Authenticator[/color] is a mobile application that provides two-factor protection for game accounts.[br/] [br/]When choosing this type of protection, you will need to install the Google Authenticator application on your mobile device.[br/] [br/]Remember that this is one of the safest types of protection.[br/][br/]We recommend enabling it on your game account and requesting a special code every time you log into the game."
     },
     {
       "id": 9,
-      "text": "Введите код из Google Authenticator, чтобы отключить его[br/] [br/]- Если у Вас нет доступа к Google Authenticator, воспользуйтесь отключением через EMAIL"
+      "text": "Enter the code from Google Authenticator to disable it[br/] [br/]- If you do not have access to Google Authenticator, use disabling via EMAIL"
     },
     {
       "id": 10,
-      "text": "Вам отправлен код на почту, введите его в строку ниже:"
+      "text": "A code has been sent to your email, enter it in the line below:"
     },
     {
       "id": 11,
-      "text": "На Вашу почту был отправлен код Google Authenticator, который Вы должны ввести в приложении Google Authenticator[br/][br/]После того как Вы введете код, Вы получите 6-ти значный код, который должны ввести в строку ниже:"
+      "text": "A Google Authenticator code was sent to your email, which you must enter in the Google Authenticator application[br/][br/]After you enter the code, you will receive a 6-digit code, which you must enter in the line below:"
     },
     {
       "id": 12,
-      "text": "Введите вашу действующую электронную почту в окно ниже, на неё будет отправлен код для подтверждения.[br/] [br/]Помните, что привязка к электронной почте поможет восстановить пароль от Вашего аккаунта в случае взлома или потери доступа к аккаунту."
+      "text": "Enter your active email address in the window below, a confirmation code will be sent to it.[br/] [br/]Remember that linking an email address will help recover your account password in case of hacking or loss of access to the account."
     },
     {
       "id": 13,
-      "text": "Вы собираетесь изменить пароль от игрового аккаунта на новый. Чтобы совершить данное действие – необходимо ввести в диалоговое поле ниже актуальный пароль, который сейчас установлен на игровом аккаунте."
+      "text": "You are going to change the password of the game account to a new one. To perform this action, you need to enter the current password that is now set on the game account in the dialog box below."
     },
     {
       "id": 14,
-      "text": "Чтобы изменить пароль от игрового аккаунта на новый – необходимо его придумать, а затем ввести в диалоговое поле ниже.[br/] [br/][color=#FFC700]| [/color]Длина нового пароля должна быть от [color=#FFC700]6 [/color]до [color=#FFC700]16 [/color]символов.[br/][color=#FFC700]| [/color]Новый пароль не должен содержать в себе пробелы."
+      "text": "To change your game account password to a new one, you need to come up with it and then enter it in the dialog field below.[br/] [br/][color=#FFC700]| [/color]The new password length must be from [color=#FFC700]6 [/color]to [color=#FFC700]16 [/color]characters.[br/][color=#FFC700]| [/color]The new password must not contain spaces."
     },
     {
       "id": 15,
-      "text": "[color=#FFC700]Привязка ВКонтакте к своему игровому аккаунту — [/color]это один из видов защиты, при котором восстановить пароль или пин-код можно будет напрямую через официальное сообщество проекта.[br/] [br/]Мы настоятельно рекомендуем включить данный тип защиты, чтобы восстановить доступ в случае взлома.[br/] [br/]Более подробная информация доступна в личных сообщениях сообщества по адресу: [color=#FFC700][url='vk.com/github.com/raj998302-art/GrandHorizonRP-Launcher']vk.com/github.com/raj998302-art/GrandHorizonRP-Launcher[/url][/color]"
+      "text": "[color=#FFC700]Linking VKontakte to your game account — [/color]is one of the types of protection that allows you to recover your password or PIN code directly through the project's official community.[br/] [br/]We strongly recommend enabling this type of protection so you can restore access in case of a hack.[br/] [br/]More detailed information is available in the community's private messages at: [color=#FFC700][url='vk.com/github.com/raj998302-art/GrandHorizonRP-Launcher']vk.com/github.com/raj998302-art/GrandHorizonRP-Launcher[/url][/color]"
     },
     {
       "id": 16,
-      "text": "Чтобы привязать ВКонтакте к своему игровому аккаунту, необходимо ввести сгенерированный проверочный код из личных сообщений официального сообщества проекта: [color=#FFC700][url='vk.com/github.com/raj998302-art/GrandHorizonRP-Launcher']vk.com/github.com/raj998302-art/GrandHorizonRP-Launcher[/url][br/] [br/][/color][color=#FFC700]Примечание: [/color]вы рискуете потерять свой игровой аккаунт навсегда при вводе чужого проверочного кода. Никогда не делайте этого."
+      "text": "To link VKontakte to your game account, you need to enter the generated verification code from private messages of the project's official community: [color=#FFC700][url='vk.com/github.com/raj998302-art/GrandHorizonRP-Launcher']vk.com/github.com/raj998302-art/GrandHorizonRP-Launcher[/url][br/] [br/][/color][color=#FFC700]Note: [/color]you risk losing your game account forever if you enter someone else's verification code. Never do this."
     },
     {
       "id": 17,
-      "text": "[color=#FFC700]Привязка Telegram к своему игровому аккаунту — [/color]это один из видов защиты, при котором восстановить пароль или пин-код можно будет напрямую через официальное сообщество проекта.[br/] [br/]Мы настоятельно рекомендуем включить данный тип защиты, чтобы восстановить доступ в случае взлома.[br/] [br/]Более подробная информация доступна в личных сообщениях бота по адресу: [color=#FFC700][url='t.me/br_helper_bot']t.me/br_helper_bot[/url][/color]"
+      "text": "[color=#FFC700]Linking Telegram to your game account — [/color]is one of the types of protection that allows you to recover your password or PIN code directly through the project's official community.[br/] [br/]We strongly recommend enabling this type of protection so you can restore access in case of a hack.[br/] [br/]More detailed information is available in the bot's private messages at: [color=#FFC700][url='t.me/br_helper_eu_bot']t.me/br_helper_eu_bot[/url][/color]"
     },
     {
       "id": 18,
-      "text": "Чтобы привязать Telegram к своему игровому аккаунту, необходимо ввести сгенерированный проверочный код из личных сообщений в официального бота проекта в Telegram: [color=#FFC700][url='t.me/br_helper_bot']t.me/br_helper_bot[/url][br/] [br/][/color][color=#FFC700]Примечание: [/color]вы рискуете потерять свой игровой аккаунт навсегда при вводе чужого проверочного кода. Никогда не делайте этого."
+      "text": "To link Telegram to your game account, you need to enter the generated verification code from private messages from the project's official bot in Telegram: [color=#FFC700][url='t.me/br_helper_eu_bot']t.me/br_helper_eu_bot[/url][br/] [br/][/color][color=#FFC700]Note: [/color]you risk losing your game account forever if you enter someone else's verification code. Never do this."
     },
     {
       "id": 19,
-      "text": "[color=#FFC700]Привязка Discord к своему игровому аккаунту — [/color]это один из видов защиты, при котором восстановить пароль или пин-код можно будет напрямую через официальный Discord сервер проекта.[br/] [br/]Помимо этого, Вы сможете автоматически получать роли в Discord, которые соответствуют Вашим ролям в игре. [br/]Например, роль сотрудника полиции или VIP игрока сервера.[br/] [br/]Мы настоятельно рекомендуем включить данный тип защиты чтобы восстановить доступ в случае взлома.[br/] [br/]Более подробная информация доступна в текстовом канале [color=#FFC700]привязка аккаунта. [/color]Он располагается в самом верху официального Discord сервера проекта: [color=#FFC700][url='discord.gg/grandhorizonrp']discord.gg/grandhorizonrp[/url].[/color]"
+      "text": "[color=#FFC700]Linking Discord to your game account — [/color]is one of the types of protection that allows you to recover your password or PIN code directly through the project's official Discord server.[br/] [br/]In addition, you will be able to automatically receive Discord roles that match your roles in the game. [br/]For example, the role of a police officer or a server VIP player.[br/] [br/]We strongly recommend enabling this type of protection so you can restore access in case of a hack.[br/] [br/]More detailed information is available in the text channel [color=#FFC700]account linking. [/color]It is located at the very top of the project's official Discord server: [color=#FFC700][url='discord.gg/grandhorizonrp']discord.gg/grandhorizonrp[/url].[/color]"
     },
     {
       "id": 20,
-      "text": "Чтобы привязать Discord к своему игровому аккаунту, необходимо ввести сгенерированный проверочный код из текстового канала [color=#FFC700]привязка аккаунта. [/color]Он располагается в самом верху официального Discord сервера проекта: [color=#FFC700][url='discord.gg/grandhorizonrp']discord.gg/grandhorizonrp[/url].[br/] [br/][/color][color=#FFC700]Примечание: [/color]Вы рискуете потерять свой игровой аккаунт навсегда при вводе чужого проверочного кода. [color=#FFC700]Никогда не делайте этого.[br/] [br/][/color]Вы можете привязать только по три игровых аккаунта с каждого сервера к одному Discord аккаунту. В первую очередь обязательно привязывайте свой основной аккаунт."
+      "text": "To link Discord to your game account, you need to enter the generated verification code from the text channel [color=#FFC700]account linking. [/color]It is located at the very top of the project's official Discord server: [color=#FFC700][url='discord.gg/grandhorizonrp']discord.gg/grandhorizonrp[/url].[br/] [br/][/color][color=#FFC700]Note: [/color]You risk losing your game account forever if you enter someone else's verification code. [color=#FFC700]Never do this.[br/] [br/][/color]You can link only three game accounts from each server to one Discord account. First of all, be sure to link your main account."
     }
   ],
   "settings_type": [
     {
       "id": 1,
-      "comment": "Настройка рамки"
+      "comment": "Frame settings"
     },
     {
       "id": 2,
-      "comment": "Настройки аватара"
+      "comment": "Avatar settings"
     },
     {
       "id": 3,
-      "comment": "Настройка фона"
+      "comment": "Background settings"
     },
     {
       "id": 4,
-      "comment": "Чат организации"
+      "comment": "Organization chat"
     },
     {
       "id": 5,
-      "comment": "Отображение ВИП чата"
+      "comment": "VIP chat display"
     },
     {
       "id": 6,
-      "comment": "Отображение уведомлений старшему составу"
+      "comment": "Senior staff notifications display"
     },
     {
       "id": 7,
-      "comment": "Игровой худ"
+      "comment": "Game HUD"
     },
     {
       "id": 8,
-      "comment": "Цензурное радио"
+      "comment": "Censored radio"
     },
     {
       "id": 9,
-      "comment": "Дрифт мод"
+      "comment": "Drift mode"
     },
     {
       "id": 10,
-      "comment": "Смена пароля"
+      "comment": "Password change"
     },
     {
       "id": 11,
-      "comment": "Телеграм"
+      "comment": "Telegram"
     },
     {
       "id": 12,
-      "comment": "ВК"
+      "comment": "VK"
     },
     {
       "id": 13,
-      "comment": "Дискорд"
+      "comment": "Discord"
     },
     {
       "id": 14,
@@ -793,215 +793,215 @@
   "crowns": [
     {
       "id": 1,
-      "name": "Базовая",
+      "name": "Basic",
       "image": "img_default_Crown.png"
     },
     {
       "id": 2,
-      "name": "Серебряная",
+      "name": "Silver",
       "image": "img_silver_Crown.png"
     },
     {
       "id": 3,
-      "name": "Золотая",
+      "name": "Golden",
       "image": "img_gold_Crown.png"
     },
     {
       "id": 4,
-      "name": "Платиновая",
+      "name": "Platinum",
       "image": "img_platinum_Crown.png"
     }
   ],
   "iconLibrary": [
     {
       "id": 1,
-      "title": "Информация",
+      "title": "Information",
       "image": "ic_info",
       "appletId": 5
     },
     {
       "id": 2,
-      "title": "Фракции",
+      "title": "Factions",
       "image": "ic_factions",
       "appletId": 100
     },
     {
       "id": 3,
-      "title": "Вызов такси",
+      "title": "Taxi call",
       "image": "ic_taxi",
       "appletId": 8
     },
     {
       "id": 4,
-      "title": "Анимация",
+      "title": "Animation",
       "image": "ic_animations",
       "appletId": 12
     },
     {
       "id": 5,
-      "title": "Донат",
+      "title": "Donation",
       "image": "ic_donat",
       "appletId": 13
     },
     {
       "id": 6,
-      "title": "Календарь",
+      "title": "Calendar",
       "image": "ic_calendar",
       "appletId": 18
     },
     {
       "id": 7,
-      "title": "Тариф",
+      "title": "Tariff",
       "image": "ic_sim",
       "appletId": 19
     },
     {
       "id": 8,
-      "title": "База знаний",
+      "title": "Knowledge base",
       "image": "ic_book",
       "appletId": 23
     },
     {
       "id": 9,
-      "title": "Добыча",
+      "title": "Mining",
       "image": "ic_rewards",
       "appletId": 22
     },
     {
       "id": 10,
-      "title": "Инвентарь",
+      "title": "Inventory",
       "image": "ic_inventory",
       "appletId": 11
     },
     {
       "id": 11,
-      "title": "Маркетплейс",
+      "title": "Marketplace",
       "image": "ic_market_logo",
       "appletId": 21
     },
     {
       "id": 12,
-      "title": "Промокод",
+      "title": "Promo code",
       "image": "ic_promo",
       "appletId": 15
     },
     {
       "id": 13,
-      "title": "Транспорт",
+      "title": "Transport",
       "image": "ic_transport",
       "appletId": 14
     },
     {
       "id": 14,
-      "title": "Навигатор",
+      "title": "Navigator",
       "image": "ic_navigation",
       "appletId": 7
     },
     {
       "id": 15,
-      "title": "Семья",
+      "title": "Family",
       "image": "ic_family",
       "appletId": 17
     },
     {
       "id": 16,
-      "title": "Настройки игры",
+      "title": "Game settings",
       "image": "ic_gear",
       "appletId": 30
     },
     {
       "id": 17,
-      "title": "Жалоба",
+      "title": "Complaint",
       "image": "ic_appeal",
       "appletId": 16
     },
     {
       "id": 18,
-      "title": "Токены",
+      "title": "Tokens",
       "image": "ic_tokens",
       "appletId": 20
     },
     {
       "id": 19,
-      "title": "Меню",
+      "title": "Menu",
       "image": "ic_menu",
       "appletId": 9
     },
     {
       "id": 20,
-      "title": "Ранги",
+      "title": "Ranks",
       "image": "ic_rank",
       "appletId": 110
     },
     {
       "id": 21,
-      "title": "Логи",
+      "title": "Logs",
       "image": "ic_catalog",
       "appletId": 101
     },
     {
       "id": 22,
-      "title": "Черный список",
+      "title": "Blacklist",
       "image": "ic_blacklist",
       "appletId": 102
     },
     {
       "id": 23,
-      "title": "Магазин",
+      "title": "Store",
       "image": "ic_cart",
       "appletId": 104
     },
     {
       "id": 24,
-      "title": "Состав",
+      "title": "Roster",
       "image": "ic_skins",
       "appletId": 105
     },
     {
       "id": 25,
-      "title": "Задания",
+      "title": "Tasks",
       "image": "ic_checklist",
       "appletId": 103
     },
     {
       "id": 26,
-      "title": "Документы",
+      "title": "Documents",
       "image": "ic_document",
       "appletId": 106
     },
     {
       "id": 27,
-      "title": "Мероприятия",
+      "title": "Events",
       "image": "ic_measure",
       "appletId": 108
     },
     {
       "id": 28,
-      "title": "Тесты",
+      "title": "Tests",
       "image": "ic_post",
       "appletId": 107
     },
     {
       "id": 29,
-      "title": "Инициативы",
+      "title": "Initiatives",
       "image": "ic_initiative",
       "appletId": 111
     },
     {
       "id": 30,
-      "title": "Событие",
+      "title": "Event",
       "image": "ic_tablet_event",
       "appletId": 24
     },
     {
       "id": 31,
-      "title": "Новости",
+      "title": "News",
       "image": "ic_news",
       "appletId": 25
     },
     {
       "id": 32,
-      "title": "Кубок Шторма",
+      "title": "Storm Cup",
       "image": "ic_racemode",
       "appletId": 26
     }
@@ -1009,31 +1009,31 @@
   "infoTabs": [
     {
       "id": 1,
-      "treeText": "Помощь по игре",
+      "treeText": "Game help",
       "data": "help"
     },
     {
       "id": 2,
-      "treeText": "Список команд",
+      "treeText": "Command List",
       "data": "instructions"
     },
     {
       "id": 3,
-      "treeText": "Фракции"
+      "treeText": "Factions"
     },
     {
       "id": 4,
-      "treeText": "Прогрессия уровней",
+      "treeText": "Level Progression",
       "data": "progressions"
     },
     {
       "id": 5,
-      "treeText": "Профессии",
+      "treeText": "Professions",
       "data": "professions"
     },
     {
       "id": 6,
-      "treeText": "Бизнесы",
+      "treeText": "Businesses",
       "data": "businesses"
     }
   ]

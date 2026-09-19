@@ -3,92 +3,92 @@
     {
       "color": "#af9a5b",
       "id": 0,
-      "title": "Оливковый"
+      "title": "Olive"
     },
     {
       "color": "#b1b7f1",
       "id": 1,
-      "title": "Сиреневый"
+      "title": "Lilac"
     },
     {
       "color": "#5ba8a4",
       "id": 2,
-      "title": "Бирюзовый"
+      "title": "Turquoise"
     },
     {
       "color": "#b9378f",
       "id": 3,
-      "title": "Малиновый"
+      "title": "Crimson"
     },
     {
       "color": "#1028f4",
       "id": 4,
-      "title": "Синий"
+      "title": "Blue"
     },
     {
       "color": "#5054ec",
       "id": 5,
-      "title": "Васильковый"
+      "title": "Cornflower Blue"
     },
     {
       "color": "#01ff23",
       "id": 6,
-      "title": "Салатовый"
+      "title": "Lime"
     },
     {
       "color": "#f29527",
       "id": 7,
-      "title": "Оранжевый"
+      "title": "Orange"
     },
     {
       "color": "#6c4559",
       "id": 8,
-      "title": "Коричневый"
+      "title": "Brown"
     },
     {
       "color": "#f2dafe",
       "id": 9,
-      "title": "Белый"
+      "title": "White"
     },
     {
       "color": "#7eadff",
       "id": 10,
-      "title": "Голубой"
+      "title": "Light Blue"
     },
     {
       "color": "#c95eec",
       "id": 11,
-      "title": "Фиолетовый"
+      "title": "Purple"
     },
     {
       "color": "#852048",
       "id": 12,
-      "title": "Бордовый"
+      "title": "Burgundy"
     },
     {
       "color": "#76b3f2",
       "id": 13,
-      "title": "Лазурный"
+      "title": "Azure"
     },
     {
       "color": "#dcb72b",
       "id": 14,
-      "title": "Желтый"
+      "title": "Yellow"
     },
     {
       "color": "#31d166",
       "id": 15,
-      "title": "Зеленый"
+      "title": "Green"
     },
     {
       "color": "#3969cd",
       "id": 16,
-      "title": "Джинсовый"
+      "title": "Denim"
     },
     {
       "color": "#c9e8f2",
       "id": 17,
-      "title": "Мятный"
+      "title": "Mint"
     }
   ],
   "RewardTop": [
@@ -129,7 +129,7 @@
       "object_id": 18526,
       "price": 80,
       "server_id": 389,
-      "title": "Кейс",
+      "title": "Case",
       "type": 0,
       "type_id": 3
     },
@@ -138,7 +138,7 @@
       "object_id": 7378,
       "price": 100,
       "server_id": 442,
-      "title": "Катана",
+      "title": "Katana",
       "type": 0,
       "type_id": 0
     },
@@ -147,7 +147,7 @@
       "object_id": 7344,
       "price": 60,
       "server_id": 408,
-      "title": "Панама Stone",
+      "title": "Stone Panama",
       "type": 0,
       "type_id": 0
     },
@@ -156,7 +156,7 @@
       "object_id": 7374,
       "price": 100,
       "server_id": 438,
-      "title": "Медведь",
+      "title": "Bear",
       "type": 0,
       "type_id": 0
     },
@@ -165,7 +165,7 @@
       "object_id": 7387,
       "price": 100,
       "server_id": 451,
-      "title": "Акула",
+      "title": "Shark",
       "type": 0,
       "type_id": 0
     },
@@ -174,7 +174,7 @@
       "object_id": 7385,
       "price": 100,
       "server_id": 449,
-      "title": "Лодка",
+      "title": "Boat",
       "type": 0,
       "type_id": 0
     },
@@ -183,7 +183,7 @@
       "object_id": 7397,
       "price": 50,
       "server_id": 461,
-      "title": "Пакет",
+      "title": "Bag",
       "type": 0,
       "type_id": 0
     },
@@ -192,7 +192,7 @@
       "object_id": 7390,
       "price": 60,
       "server_id": 454,
-      "title": "Гитара",
+      "title": "Guitar",
       "type": 0,
       "type_id": 0
     },
@@ -201,58 +201,58 @@
       "object_id": 2641,
       "price": 100,
       "server_id": 0,
-      "title": "Синдикат",
+      "title": "Syndicate",
       "type": 1,
       "type_id": 4
     }
   ],
   "Tasks": [
     {
-      "description": "Коллекционировать машины - это ли не счастье? Семье необходимо помочь с финансами, для этого Вам нужно украсть 3 машины на работе Автоугонщика. Отправляйтесь на работу и украдите 3 автомобиля.",
+      "description": "Collecting cars - isn't that happiness? The family needs help with finances, so you need to steal 3 cars at the Car Thief job. Go to work and steal 3 vehicles.",
       "id": 0,
       "money_reward": 2000,
       "score_reward": 10,
-      "title": "Коллекционер",
+      "title": "Collector",
       "token_reward": 2
     },
     {
-      "description": "Семья развивается и ей требуется больше ресурсов! Говорят, на окраине городов работают кладоискатели, попробуй в этом деле себя: найдите 5 кладов. Для начала выполнения задания отправляйся к Пантелеевичу, но не забудьте купить металлоискатель!",
+      "description": "The family is developing and needs more resources! They say treasure hunters work on the outskirts of the cities, try your hand at it: find 5 treasures. To start the task, head to Panteleevich, but don't forget to buy a metal detector!",
       "id": 1,
       "money_reward": 2000,
       "score_reward": 10,
-      "title": "Сыщик",
+      "title": "Detective",
       "token_reward": 2
     },
     {
-      "description": "Охота - отличный способ добыть пищу или заработать. Наша семья нуждается в трех тушах зайцев. Ваша задача: доставить свежую тушу трех зайцев.",
+      "description": "Hunting is a great way to get food or earn money. Our family needs three rabbit carcasses. Your task: deliver fresh carcasses of three rabbits.",
       "id": 2,
       "money_reward": 4000,
       "score_reward": 10,
-      "title": "Охотник",
+      "title": "Hunter",
       "token_reward": 4
     },
     {
-      "description": "Наша семья часто сражается в Битве семей и ей требуется помощь. Ваша задача: принять участие в Битве семей. Для участия обратитесь к владельцу вашей семьи или заместителю. Место проведения: GPS - 1 - Война семей",
+      "description": "Our family often fights in the Family Battle and needs help. Your task: take part in the Family Battle. To participate, contact your family owner or deputy. Venue: GPS - 1 - Family War",
       "id": 3,
       "money_reward": 2000,
       "score_reward": 10,
-      "title": "Солдат",
+      "title": "Soldier",
       "token_reward": 2
     },
     {
-      "description": "Зарабатывать семейную репутацию - очень важное и ответственное дело. Отличный способ для демонстрации своей силы: битва за контейнер! Она проходит каждый час в Роговичах и по дороге к тюрьме. Ваша задача: доставить два ящика из контейнера в автомобиль семьи.",
+      "description": "Earning family reputation is a very important and responsible matter. A great way to demonstrate your strength: the battle for the container! It takes place every hour in Rogovichi and on the road to the prison. Your task: deliver two boxes from the container to the family vehicle.",
       "id": 4,
       "money_reward": 3000,
       "score_reward": 10,
-      "title": "Помощь Поднебесной",
+      "title": "Help from the Celestial Empire",
       "token_reward": 2
     },
     {
-      "description": "Легко зарабатывать - мечта каждого. Но мы можем это сделать совершенно легко, надо только постараться. В общем, возьмите задание у Ростислава, нападите на инкассаторскую машину и ограбьте её! Как только возьмете мешок - выполните мое поручение.",
+      "description": "Easy earning is everyone's dream. But we can do it quite easily, we just need to try. So, take the task from Rostislav, attack the cash-in-transit vehicle and rob it! As soon as you take the bag, complete my assignment.",
       "id": 5,
       "money_reward": 3000,
       "score_reward": 10,
-      "title": "Легкие деньги",
+      "title": "Easy money",
       "token_reward": 2
     }
   ],

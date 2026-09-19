@@ -1,8 +1,8 @@
-﻿{
+{
     "ammo": [
             {
             "id": 1,
-            "name": "Патроны для пистолета",
+            "name": "Pistol ammo",
             "modelId": 100133,
             "image": "img_100133.png",
             "stackInventory": 50,
@@ -11,7 +11,7 @@
         },
         {
             "id": 2,
-            "name": "Патроны для дробовика",
+            "name": "Shotgun ammo",
             "modelId": 100134,
             "image": "img_100134.png",
             "stackInventory": 24,
@@ -20,7 +20,7 @@
         },
         {
             "id": 3,
-            "name": "Патроны для автомата",
+            "name": "Rifle ammo",
             "modelId": 100135,
             "image": "img_100135.png",
             "stackInventory": 60,
@@ -29,7 +29,7 @@
         },
         {
             "id": 4,
-            "name": "Патроны для винтовки",
+            "name": "Rifle ammo",
             "modelId": 100136,
             "image": "img_100136.png",
             "stackInventory": 20,
@@ -38,21 +38,21 @@
         },
         {
             "id": 5,
-            "name": "Заряды гранатомета",
+            "name": "Grenade launcher charges",
             "stackInventory": 1,
             "stackStorage": 3,
             "frags": 1
         },
         {
             "id": 6,
-            "name": "Заряды шокера",
+            "name": "Taser charges",
             "stackInventory": 10,
             "stackStorage": 10,
             "frags": 1
         },
         {
             "id": 7,
-            "name": "Заряды бластера",
+            "name": "Blaster charges",
             "modelId": 375,
             "image": "img_375.png",
             "stackInventory": 600,
@@ -63,7 +63,7 @@
     "equipment": [
         {
             "id": 1,
-            "name": "Бронежилет",
+            "name": "Body armor",
             "modelId": 373,
             "image": "img_373.png",
             "armourAmount": 100,
@@ -72,7 +72,7 @@
         },
         {
             "id": 2,
-            "name": "Маска",
+            "name": "Mask",
             "modelId": 100001,
             "image": "img_100001.png",
             "stackInventory": 3,
@@ -80,7 +80,7 @@
         },
         {
             "id": 3,
-            "name": "Стационарный радар",
+            "name": "Stationary radar",
             "modelId": 32154,
             "image": "img_32154.png"
         }

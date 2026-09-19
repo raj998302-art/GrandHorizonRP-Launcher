@@ -17,8 +17,8 @@
     {
       "bannerId": 1,
       "caseImage": "img_case_event25.png",
-      "backGroundTitle": "КЕЙС: ТУЗ",
-      "backGroundDescription": "Встречайте новый <font color=#FFC700>Кейс события: КЕЙС: ТУЗ </font><br><br><font color=#FFC700>Ваша бесплатная награда - x1 ЕЖЕДНЕВНЫЙ КЕЙС!</font><br>Прокачивайте BLACK PASS и получайте ежедневный кейс каждый день.",
+      "backGroundTitle": "CASE: ACE",
+      "backGroundDescription": "Welcome the new <font color=#FFC700>Event Case: CASE: ACE </font><br><br><font color=#FFC700>Your free reward is x1 DAILY CASE!</font><br>Level up BLACK PASS and receive a daily case every day.",
       "backGroundImage": "bg_cases_banner.png",
       "rightImage": "img_cases_right_image_part_1.png",
       "caseRewardsPreviewId": "34",
@@ -28,8 +28,8 @@
     {
       "bannerId": 2,
       "caseImage": "img_case_event26.png",
-      "backGroundTitle": "КЕЙС: КОЗЫРЬ",
-      "backGroundDescription": "Встречайте новый <font color=#FFC700>Кейс события: КЕЙС: КОЗЫРЬ </font><br><br><font color=#FFC700>Ваша бесплатная награда - x1 ЕЖЕДНЕВНЫЙ КЕЙС!</font><br>Прокачивайте BLACK PASS и получайте ежедневный кейс каждый день.",
+      "backGroundTitle": "CASE: TRUMP",
+      "backGroundDescription": "Welcome the new <font color=#FFC700>Event Case: CASE: TRUMP </font><br><br><font color=#FFC700>Your free reward is x1 DAILY CASE!</font><br>Level up BLACK PASS and receive a daily case every day.",
       "backGroundImage": "bg_cases_banner.png",
       "rightImage": "img_cases_right_image_part_2.png",
       "caseRewardsPreviewId": "35",
@@ -40,7 +40,7 @@
   "cases": [
     {
       "id": 1,
-      "name": "ЕЖЕДНЕВНЫЙ КЕЙС",
+      "name": "DAILY CASE",
       "dates": [
         0,
         0
@@ -60,7 +60,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Рем.комплект",
+          "name": "Repair kit",
           "rarity": 1,
           "type": 11,
           "internalId": 23,
@@ -69,7 +69,7 @@
         },
         {
           "id": 2,
-          "name": "Аптечка",
+          "name": "First aid kit",
           "rarity": 1,
           "type": 11,
           "internalId": 22,
@@ -87,7 +87,7 @@
         },
         {
           "id": 4,
-          "name": "Канистра с бензином",
+          "name": "Gasoline canister",
           "rarity": 1,
           "type": 11,
           "internalId": 21,
@@ -96,7 +96,7 @@
         },
         {
           "id": 5,
-          "name": "2000 Р",
+          "name": "2000 R",
           "rarity": 1,
           "type": 2,
           "internalId": 1,
@@ -114,7 +114,7 @@
         },
         {
           "id": 7,
-          "name": "3000 Р",
+          "name": "3000 R",
           "rarity": 1,
           "type": 2,
           "internalId": 1,
@@ -132,7 +132,7 @@
         },
         {
           "id": 9,
-          "name": "VIP SILVER 2Ч.",
+          "name": "VIP SILVER 2H.",
           "rarity": 1,
           "type": 9,
           "internalId": 1,
@@ -178,7 +178,7 @@
         },
         {
           "id": 14,
-          "name": "20000 Р",
+          "name": "20000 R",
           "rarity": 1,
           "type": 2,
           "internalId": 1,
@@ -196,7 +196,7 @@
         },
         {
           "id": 16,
-          "name": "VIP GOLD 2Ч.",
+          "name": "VIP GOLD 2H.",
           "rarity": 1,
           "type": 9,
           "internalId": 2,
@@ -214,7 +214,7 @@
         },
         {
           "id": 18,
-          "name": "30000 Р",
+          "name": "30000 R",
           "rarity": 1,
           "type": 2,
           "internalId": 1,
@@ -233,7 +233,7 @@
         {
           "id": 20,
           "name": "VAZ 1111",
-          "name_store": "АЗ 1111",
+          "name_store": "AZ 1111",
           "rarity": 1,
           "type": 5,
           "internalId": 549,
@@ -245,7 +245,7 @@
         {
           "id": 1,
           "numberOpen": 40,
-          "name": "СТАНДАРТНЫЙ КЕЙС Х1",
+          "name": "STANDARD CASE X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_standart.png",
@@ -256,7 +256,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "ПЫЛЬ Х50",
+          "name": "DUST X50",
           "rarity": 3,
           "type": 21,
           "internalId": 1,
@@ -266,7 +266,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС БОМЖА Х1",
+          "name": "BUM CASE X1",
           "rarity": 2,
           "type": 4,
           "renderId": "img_case_bomj.png",
@@ -277,7 +277,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "ЕЖЕДНЕВНЫЙ КЕЙС Х2",
+          "name": "DAILY CASE X2",
           "rarity": 1,
           "type": 4,
           "renderId": "img_case_daily.png",
@@ -288,7 +288,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "ЕЖЕДНЕВНЫЙ КЕЙС Х1",
+          "name": "DAILY CASE X1",
           "rarity": 1,
           "type": 4,
           "renderId": "img_case_daily.png",
@@ -300,7 +300,7 @@
     },
     {
       "id": 2,
-      "name": "КЕЙС БОМЖА",
+      "name": "BUM CASE",
       "dates": [
         0,
         0
@@ -340,7 +340,7 @@
         },
         {
           "id": 3,
-          "name": "75000 Р",
+          "name": "75000 R",
           "rarity": 1,
           "type": 2,
           "internalId": 1,
@@ -350,7 +350,7 @@
         {
           "id": 4,
           "name": "VAZ 2109",
-          "name_store": "АЗ 2109",
+          "name_store": "AZ 2109",
           "rarity": 1,
           "type": 5,
           "internalId": 28670,
@@ -369,7 +369,7 @@
         {
           "id": 6,
           "name": "VAZ 2108",
-          "name_store": "АЗ 2108",
+          "name_store": "AZ 2108",
           "rarity": 1,
           "type": 5,
           "internalId": 439,
@@ -378,7 +378,7 @@
         },
         {
           "id": 7,
-          "name": "90000 Р",
+          "name": "90000 R",
           "rarity": 1,
           "type": 2,
           "internalId": 1,
@@ -387,8 +387,8 @@
         },
         {
           "id": 8,
-          "name": "ВАЗ 2109",
-          "name_store": "АЗ 2109",
+          "name": "VAZ 2109",
+          "name_store": "AZ 2109",
           "rarity": 1,
           "type": 5,
           "internalId": 492,
@@ -398,7 +398,7 @@
         {
           "id": 9,
           "name": "VAZ 2110",
-          "name_store": "АЗ 2110",
+          "name_store": "AZ 2110",
           "rarity": 1,
           "type": 5,
           "internalId": 547,
@@ -408,7 +408,7 @@
         {
           "id": 10,
           "name": "VAZ 2114",
-          "name_store": "АЗ 2114",
+          "name_store": "AZ 2114",
           "rarity": 1,
           "type": 5,
           "internalId": 458,
@@ -417,7 +417,7 @@
         },
         {
           "id": 11,
-          "name": "VIP SILVER 7 ДН.",
+          "name": "VIP SILVER 7 DAYS.",
           "rarity": 1,
           "type": 9,
           "internalId": 1,
@@ -427,7 +427,7 @@
         {
           "id": 12,
           "name": "VAZ 2112",
-          "name_store": "АЗ 2112",
+          "name_store": "AZ 2112",
           "rarity": 1,
           "type": 5,
           "internalId": 491,
@@ -437,7 +437,7 @@
         {
           "id": 13,
           "name": "VAZ 2115",
-          "name_store": "АЗ 2115",
+          "name_store": "AZ 2115",
           "rarity": 1,
           "type": 5,
           "internalId": 585,
@@ -455,7 +455,7 @@
         },
         {
           "id": 15,
-          "name": "120000 Р",
+          "name": "120000 R",
           "rarity": 1,
           "type": 2,
           "internalId": 1,
@@ -464,7 +464,7 @@
         },
         {
           "id": 16,
-          "name": "VIP GOLD 3 ДН.",
+          "name": "VIP GOLD 3 DAYS.",
           "rarity": 1,
           "type": 9,
           "internalId": 2,
@@ -484,7 +484,7 @@
         {
           "id": 18,
           "name": "VAZ 2170",
-          "name_store": "АЗ 2170",
+          "name_store": "AZ 2170",
           "rarity": 1,
           "type": 5,
           "internalId": 529,
@@ -493,7 +493,7 @@
         },
         {
           "id": 19,
-          "name": "VIP PLATINUM 3 ДН.",
+          "name": "VIP PLATINUM 3 DAYS.",
           "rarity": 1,
           "type": 9,
           "internalId": 3,
@@ -542,7 +542,7 @@
         },
         {
           "id": 24,
-          "name": "РЮКЗАК СИФОНА",
+          "name": "SIFON'S BACKPACK",
           "rarity": 3,
           "type": 11,
           "internalId": 705,
@@ -561,7 +561,7 @@
         },
         {
           "id": 26,
-          "name": "ПОБИТЫЕ ОЧКИ",
+          "name": "BROKEN GLASSES",
           "rarity": 3,
           "type": 11,
           "internalId": 706,
@@ -570,7 +570,7 @@
         },
         {
           "id": 27,
-          "name": "КОРОЛЬ БОМЖЕЙ",
+          "name": "KING OF BUMS",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -593,7 +593,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "ПЫЛЬ Х100",
+          "name": "DUST X100",
           "rarity": 3,
           "type": 21,
           "internalId": 1,
@@ -603,7 +603,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС БОМЖА Х2",
+          "name": "BUM CASE X2",
           "rarity": 3,
           "type": 4,
           "renderId": "img_case_bomj.png",
@@ -614,7 +614,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "ПЫЛЬ Х50",
+          "name": "DUST X50",
           "rarity": 3,
           "type": 21,
           "internalId": 1,
@@ -624,7 +624,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС БОМЖА Х1",
+          "name": "BUM CASE X1",
           "rarity": 3,
           "type": 4,
           "renderId": "img_case_bomj.png",
@@ -636,7 +636,7 @@
     },
     {
       "id": 3,
-      "name": "СТАНДАРТНЫЙ КЕЙС",
+      "name": "STANDARD CASE",
       "dates": [
         0,
         0
@@ -656,7 +656,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "КОРОНА КОРОЛЯ",
+          "name": "KING'S CROWN",
           "rarity": 2,
           "type": 11,
           "internalId": 363,
@@ -665,7 +665,7 @@
         },
         {
           "id": 2,
-          "name": "VIP GOLD 21 ДН.",
+          "name": "VIP GOLD 21 DAYS.",
           "rarity": 2,
           "type": 9,
           "internalId": 2,
@@ -674,7 +674,7 @@
         },
         {
           "id": 3,
-          "name": "600000 Р",
+          "name": "600000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -683,7 +683,7 @@
         },
         {
           "id": 4,
-          "name": "КЕЙС ЧЕРНЫЙ",
+          "name": "BLACK CASE",
           "rarity": 2,
           "type": 11,
           "internalId": 360,
@@ -711,7 +711,7 @@
         },
         {
           "id": 7,
-          "name": "VIP PLATINUM 15 Д.",
+          "name": "VIP PLATINUM 15 D.",
           "rarity": 2,
           "type": 9,
           "internalId": 3,
@@ -730,7 +730,7 @@
         },
         {
           "id": 9,
-          "name": "МОПС НА СПИНУ",
+          "name": "PUG ON THE BACK",
           "rarity": 2,
           "type": 11,
           "internalId": 583,
@@ -739,7 +739,7 @@
         },
         {
           "id": 10,
-          "name": "БАРХАТНЫЕ ТЯГИ СПОРТИВНЫЕ",
+          "name": "VELVET TRACTION SPORT",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -748,7 +748,7 @@
         },
         {
           "id": 11,
-          "name": "КОРОНА ДЕМОНА",
+          "name": "DEMON CROWN",
           "rarity": 2,
           "type": 11,
           "internalId": 508,
@@ -757,7 +757,7 @@
         },
         {
           "id": 12,
-          "name": "ХОУМИ С РАЙОНА",
+          "name": "HOMIE FROM THE BLOCK",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -786,7 +786,7 @@
         },
         {
           "id": 15,
-          "name": "РЫБАЧКА",
+          "name": "FISHERWOMAN",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -835,7 +835,7 @@
         },
         {
           "id": 20,
-          "name": "1000000 Р",
+          "name": "1000000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -844,7 +844,7 @@
         },
         {
           "id": 21,
-          "name": "VIP PLATINUM 30 Д.",
+          "name": "VIP PLATINUM 30 D.",
           "rarity": 3,
           "type": 9,
           "internalId": 3,
@@ -853,7 +853,7 @@
         },
         {
           "id": 22,
-          "name": "БАРЫГА ПРЕСТУПНИК",
+          "name": "CRIMINAL DEALER",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -872,7 +872,7 @@
         },
         {
           "id": 24,
-          "name": "МЕНТ ИЗ КЛИПА",
+          "name": "COP FROM THE MUSIC VIDEO",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -891,7 +891,7 @@
         },
         {
           "id": 26,
-          "name": "ОПАСНЫЙ МУЖЧИНА",
+          "name": "DANGEROUS MAN",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -931,7 +931,7 @@
         {
           "id": 30,
           "name": "BMW Z4 M40i ",
-          "name_store": "BOOMER 4 КАБРИОЛЕТ",
+          "name_store": "BOOMER 4 CONVERTIBLE",
           "rarity": 3,
           "type": 5,
           "internalId": 480,
@@ -940,7 +940,7 @@
         },
         {
           "id": 31,
-          "name": "МАСКА СВИНА",
+          "name": "PIG MASK",
           "rarity": 4,
           "type": 11,
           "internalId": 707,
@@ -1024,7 +1024,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "ПЫЛЬ Х250",
+          "name": "DUST X250",
           "rarity": 4,
           "type": 21,
           "internalId": 1,
@@ -1034,7 +1034,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "СТАНДАРТНЫЙ КЕЙС Х2",
+          "name": "STANDARD CASE X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_standart.png",
@@ -1045,7 +1045,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "ПЫЛЬ Х150",
+          "name": "DUST X150",
           "rarity": 3,
           "type": 21,
           "internalId": 1,
@@ -1055,7 +1055,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "СТАНДАРТНЫЙ КЕЙС Х1",
+          "name": "STANDARD CASE X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_standart.png",
@@ -1067,7 +1067,7 @@
     },
     {
       "id": 4,
-      "name": "АВТО-КЕЙС 2.0",
+      "name": "AUTO CASE 2.0",
       "dates": [
         0,
         0
@@ -1259,7 +1259,7 @@
         {
           "id": 18,
           "name": "BMW Z4 M40I",
-          "name_store": "BOOMER 4 \"КАБРИОЛЕТ\"",
+          "name_store": "BOOMER 4 \"CONVERTIBLE\"",
           "rarity": 3,
           "type": 5,
           "internalId": 480,
@@ -1492,7 +1492,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "ПЫЛЬ Х500",
+          "name": "DUST X500",
           "rarity": 4,
           "type": 21,
           "internalId": 1,
@@ -1502,7 +1502,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "АВТО-КЕЙС 2.0 Х2",
+          "name": "AUTO CASE 2.0 X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_auto.png",
@@ -1513,7 +1513,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "ПЫЛЬ Х300",
+          "name": "DUST X300",
           "rarity": 4,
           "type": 21,
           "internalId": 1,
@@ -1523,7 +1523,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "АВТО-КЕЙС 2.0 Х1",
+          "name": "AUTO CASE 2.0 X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_auto.png",
@@ -1535,7 +1535,7 @@
     },
     {
       "id": 5,
-      "name": "ОСОБЫЙ КЕЙС",
+      "name": "SPECIAL CASE",
       "dates": [
         0,
         0
@@ -1772,8 +1772,8 @@
         },
         {
           "id": 22,
-          "name": "BMW M5 F90 (ДПС)",
-          "name_store": "BOOMER 5 F90 (ДПС)",
+          "name": "BMW M5 F90 (Traffic Police)",
+          "name_store": "BOOMER 5 F90 (Traffic Police)",
           "rarity": 5,
           "type": 5,
           "internalId": 466,
@@ -1808,7 +1808,7 @@
         {
           "id": 2,
           "numberOpen": 20,
-          "name": "ПЫЛЬ Х1500",
+          "name": "DUST X1500",
           "rarity": 5,
           "type": 21,
           "internalId": 1,
@@ -1818,7 +1818,7 @@
         {
           "id": 3,
           "numberOpen": 15,
-          "name": "ОСОБЫЙ КЕЙС Х2",
+          "name": "SPECIAL CASE X2",
           "rarity": 5,
           "type": 4,
           "renderId": "img_case_special.png",
@@ -1829,7 +1829,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "ПЫЛЬ Х1000",
+          "name": "DUST X1000",
           "rarity": 5,
           "type": 21,
           "internalId": 1,
@@ -1839,7 +1839,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "ОСОБЫЙ КЕЙС Х1",
+          "name": "SPECIAL CASE X1",
           "rarity": 5,
           "type": 4,
           "renderId": "img_case_special.png",
@@ -1851,7 +1851,7 @@
     },
     {
       "id": 6,
-      "name": "КЕЙС: К ВЕРШИНАМ",
+      "name": "CASE: TO THE TOPS",
       "dates": [
         1723082400,
         1724810400
@@ -1871,7 +1871,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Емеля",
+          "name": "Emelya",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -1880,7 +1880,7 @@
         },
         {
           "id": 2,
-          "name": "Корона демона",
+          "name": "Demon crown",
           "rarity": 2,
           "type": 11,
           "internalId": 508,
@@ -1889,7 +1889,7 @@
         },
         {
           "id": 3,
-          "name": "Крылья ангела",
+          "name": "Angel wings",
           "rarity": 2,
           "type": 11,
           "internalId": 511,
@@ -1907,7 +1907,7 @@
         },
         {
           "id": 5,
-          "name": "Маска дайвера",
+          "name": "Diver mask",
           "rarity": 2,
           "type": 11,
           "internalId": 890,
@@ -1917,7 +1917,7 @@
         },
         {
           "id": 6,
-          "name": "Кейс черный",
+          "name": "Black case",
           "rarity": 2,
           "type": 11,
           "internalId": 360,
@@ -1935,7 +1935,7 @@
         },
         {
           "id": 8,
-          "name": "Хоуми с района",
+          "name": "Homie from the block",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -1963,7 +1963,7 @@
         },
         {
           "id": 11,
-          "name": "750000 Р",
+          "name": "750000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -1972,7 +1972,7 @@
         },
         {
           "id": 12,
-          "name": "Рюкзак Боксера",
+          "name": "Boxer's Backpack",
           "rarity": 2,
           "type": 11,
           "internalId": 891,
@@ -1991,7 +1991,7 @@
         },
         {
           "id": 14,
-          "name": "Барыга преступник",
+          "name": "Criminal dealer",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -2000,7 +2000,7 @@
         },
         {
           "id": 15,
-          "name": "Водяной пистолет",
+          "name": "Water pistol",
           "rarity": 3,
           "type": 11,
           "internalId": 892,
@@ -2010,7 +2010,7 @@
         },
         {
           "id": 16,
-          "name": "Модница Ребекка",
+          "name": "Fashionista Rebecca",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -2020,7 +2020,7 @@
         },
         {
           "id": 17,
-          "name": "Качок Джонс",
+          "name": "Buff Jones",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -2130,7 +2130,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "ПЫЛЬ Х350",
+          "name": "DUST X350",
           "rarity": 4,
           "type": 21,
           "internalId": 1,
@@ -2140,7 +2140,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: К ВЕРШИНАМ Х2",
+          "name": "CASE: TO THE TOPS X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event1.png",
@@ -2151,7 +2151,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "ПЫЛЬ Х200",
+          "name": "DUST X200",
           "rarity": 4,
           "type": 21,
           "internalId": 1,
@@ -2161,7 +2161,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: К ВЕРШИНАМ Х1",
+          "name": "CASE: TO THE TOPS X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event1.png",
@@ -2173,7 +2173,7 @@
     },
     {
       "id": 7,
-      "name": "КЕЙС: ОБЛАСТЬ ТЬМЫ",
+      "name": "CASE: REALM OF DARKNESS",
       "dates": [
         1729119600,
         1732748400
@@ -2193,7 +2193,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Емеля",
+          "name": "Emelya",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -2202,7 +2202,7 @@
         },
         {
           "id": 2,
-          "name": "Кейс черный",
+          "name": "Black case",
           "rarity": 2,
           "type": 11,
           "internalId": 360,
@@ -2211,7 +2211,7 @@
         },
         {
           "id": 3,
-          "name": "Живая Росянка",
+          "name": "Living Sundew",
           "rarity": 2,
           "type": 11,
           "renderId": "img_4547.png",
@@ -2221,7 +2221,7 @@
         },
         {
           "id": 4,
-          "name": "Крылья ангела",
+          "name": "Angel wings",
           "rarity": 2,
           "type": 11,
           "internalId": 511,
@@ -2230,7 +2230,7 @@
         },
         {
           "id": 5,
-          "name": "Шлем Bunny",
+          "name": "Bunny helmet",
           "rarity": 2,
           "type": 11,
           "renderId": "img_10492.png",
@@ -2258,7 +2258,7 @@
         },
         {
           "id": 8,
-          "name": "Хоуми с района",
+          "name": "Homie from the block",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -2267,7 +2267,7 @@
         },
         {
           "id": 9,
-          "name": "Батарейки Х3000",
+          "name": "X3000 Batteries",
           "rarity": 2,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -2287,7 +2287,7 @@
         },
         {
           "id": 11,
-          "name": "Книга Тайн",
+          "name": "Book of Secrets",
           "rarity": 3,
           "type": 11,
           "renderId": "img_4546.png",
@@ -2297,7 +2297,7 @@
         },
         {
           "id": 12,
-          "name": "Токсичная",
+          "name": "Toxic",
           "rarity": 3,
           "type": 11,
           "renderId": "img_6868.png",
@@ -2307,7 +2307,7 @@
         },
         {
           "id": 13,
-          "name": "Барыга преступник",
+          "name": "Criminal dealer",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -2326,7 +2326,7 @@
         },
         {
           "id": 15,
-          "name": "Батарейки Х7500",
+          "name": "Batteries X7500",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -2346,7 +2346,7 @@
         },
         {
           "id": 17,
-          "name": "Батарейки Х5000",
+          "name": "Batteries X5000",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -2356,7 +2356,7 @@
         },
         {
           "id": 18,
-          "name": "Ванко Одержимый",
+          "name": "Vanko the Possessed",
           "rarity": 4,
           "type": 11,
           "renderId": "img_6867.png",
@@ -2376,7 +2376,7 @@
         },
         {
           "id": 20,
-          "name": "Батарейки Х15000",
+          "name": "Batteries X15000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -2456,7 +2456,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "Батарейки Х10000",
+          "name": "Batteries X10000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -2467,7 +2467,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: ОБЛАСТЬ ТЬМЫ Х2",
+          "name": "CASE: REALM OF DARKNESS X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event2.png",
@@ -2478,7 +2478,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "Батарейки Х5000",
+          "name": "Batteries X5000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -2489,7 +2489,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: ОБЛАСТЬ ТЬМЫ Х1",
+          "name": "CASE: REALM OF DARKNESS X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event2.png",
@@ -2501,7 +2501,7 @@
     },
     {
       "id": 8,
-      "name": "КЕЙС: ДРАЙВ",
+      "name": "CASE: DRIVE",
       "dates": [
         1733364000,
         1737597600
@@ -2521,7 +2521,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Бархатные тяги спортивные",
+          "name": "Sport velvet traction",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -2530,7 +2530,7 @@
         },
         {
           "id": 2,
-          "name": "Кейс черный",
+          "name": "Black case",
           "rarity": 2,
           "type": 11,
           "internalId": 360,
@@ -2539,7 +2539,7 @@
         },
         {
           "id": 3,
-          "name": "Маска Fresh'а",
+          "name": "Fresh's Mask",
           "rarity": 2,
           "type": 11,
           "renderId": "img_4702.png",
@@ -2549,7 +2549,7 @@
         },
         {
           "id": 4,
-          "name": "Крылья ангела",
+          "name": "Angel wings",
           "rarity": 2,
           "type": 11,
           "internalId": 511,
@@ -2558,7 +2558,7 @@
         },
         {
           "id": 5,
-          "name": "Рюкзак Energy",
+          "name": "Backpack Energy",
           "rarity": 2,
           "type": 11,
           "renderId": "img_14643.png",
@@ -2586,7 +2586,7 @@
         },
         {
           "id": 8,
-          "name": "Хоуми с района",
+          "name": "Homie from the block",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -2595,7 +2595,7 @@
         },
         {
           "id": 9,
-          "name": "Батарейки Х3000",
+          "name": "X3000 Batteries",
           "rarity": 2,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -2615,7 +2615,7 @@
         },
         {
           "id": 11,
-          "name": "Сумка SpeedPack",
+          "name": "Bag SpeedPack",
           "rarity": 3,
           "type": 11,
           "renderId": "img_14647.png",
@@ -2625,7 +2625,7 @@
         },
         {
           "id": 12,
-          "name": "Искра",
+          "name": "Spark",
           "rarity": 3,
           "type": 11,
           "renderId": "img_5885.png",
@@ -2635,7 +2635,7 @@
         },
         {
           "id": 13,
-          "name": "Снеговик не растает",
+          "name": "The snowman won't melt",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -2654,7 +2654,7 @@
         },
         {
           "id": 15,
-          "name": "Батарейки Х7500",
+          "name": "Batteries X7500",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -2674,7 +2674,7 @@
         },
         {
           "id": 17,
-          "name": "Батарейки Х5000",
+          "name": "Batteries X5000",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -2684,7 +2684,7 @@
         },
         {
           "id": 18,
-          "name": "Петр Шторм",
+          "name": "Petr Shtorm",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5884.png",
@@ -2704,7 +2704,7 @@
         },
         {
           "id": 20,
-          "name": "Батарейки Х15000",
+          "name": "Batteries X15000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -2784,7 +2784,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "Батарейки Х10000",
+          "name": "Batteries X10000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -2795,7 +2795,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: ДРАЙВ Х2",
+          "name": "CASE: DRIVE X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event3.png",
@@ -2806,7 +2806,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "Батарейки Х5000",
+          "name": "Batteries X5000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -2817,7 +2817,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: ДРАЙВ Х1",
+          "name": "CASE: DRIVE X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event3.png",
@@ -2829,7 +2829,7 @@
     },
     {
       "id": 9,
-      "name": "КЕЙС: ВЕСЕННИЙ",
+      "name": "CASE: SPRING",
       "dates": [
         1771466400,
         1772676000
@@ -2849,7 +2849,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Рыбак",
+          "name": "Fisherman",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -2858,7 +2858,7 @@
         },
         {
           "id": 2,
-          "name": "Кейс черный",
+          "name": "Black case",
           "rarity": 2,
           "type": 11,
           "internalId": 360,
@@ -2867,7 +2867,7 @@
         },
         {
           "id": 3,
-          "name": "Очки Санрайз у воды",
+          "name": "Sunrise by the Water Glasses",
           "rarity": 2,
           "type": 11,
           "internalId": 324,
@@ -2876,7 +2876,7 @@
         },
         {
           "id": 4,
-          "name": "Крылья ангела",
+          "name": "Angel wings",
           "rarity": 2,
           "type": 11,
           "internalId": 511,
@@ -2894,7 +2894,7 @@
         },
         {
           "id": 6,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -2903,7 +2903,7 @@
         },
         {
           "id": 7,
-          "name": "Хоуми с района",
+          "name": "Homie from the block",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -2912,7 +2912,7 @@
         },
         {
           "id": 8,
-          "name": "Золотая корона",
+          "name": "Golden crown",
           "rarity": 2,
           "type": 11,
           "internalId": 362,
@@ -2931,7 +2931,7 @@
         },
         {
           "id": 10,
-          "name": "Маска Чилл",
+          "name": "Chill Mask",
           "rarity": 3,
           "type": 11,
           "renderId": "img_11304.png",
@@ -2941,7 +2941,7 @@
         },
         {
           "id": 11,
-          "name": "Леха",
+          "name": "Lekha",
           "rarity": 3,
           "type": 11,
           "renderId": "img_5894.png",
@@ -2951,7 +2951,7 @@
         },
         {
           "id": 12,
-          "name": "Маньяк с мешком",
+          "name": "Maniac with a sack",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -2970,7 +2970,7 @@
         },
         {
           "id": 14,
-          "name": "1200000 Р",
+          "name": "1200000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -2989,7 +2989,7 @@
         },
         {
           "id": 16,
-          "name": "1500000 Р",
+          "name": "1500000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -2998,7 +2998,7 @@
         },
         {
           "id": 17,
-          "name": "Серый",
+          "name": "Gray",
           "rarity": 3,
           "type": 11,
           "renderId": "img_5893.png",
@@ -3020,7 +3020,7 @@
         },
         {
           "id": 19,
-          "name": "Сумка мажора",
+          "name": "Rich kid bag",
           "rarity": 4,
           "type": 11,
           "renderId": "img_15055.png",
@@ -3040,7 +3040,7 @@
         },
         {
           "id": 21,
-          "name": "3000000 Р",
+          "name": "3000000 R",
           "rarity": 4,
           "type": 2,
           "internalId": 1,
@@ -3107,7 +3107,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "2500000 Р",
+          "name": "2500000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -3117,7 +3117,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: ВЕСЕННИЙ Х2",
+          "name": "CASE: SPRING X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event4.png",
@@ -3128,7 +3128,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "1200000 Р",
+          "name": "1200000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -3138,7 +3138,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: ВЕСЕННИЙ Х1",
+          "name": "CASE: SPRING X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event4.png",
@@ -3150,7 +3150,7 @@
     },
     {
       "id": 10,
-      "name": "КЕЙС: БЛИЦ",
+      "name": "CASE: BLITZ",
       "dates": [
         1740967200,
         1742954400
@@ -3170,7 +3170,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Солдатка Красавица",
+          "name": "Beautiful female soldier",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -3179,7 +3179,7 @@
         },
         {
           "id": 2,
-          "name": "Кейс черный",
+          "name": "Black case",
           "rarity": 2,
           "type": 11,
           "internalId": 360,
@@ -3188,7 +3188,7 @@
         },
         {
           "id": 3,
-          "name": "Вездеход Монстр",
+          "name": "Monster all-terrain vehicle",
           "rarity": 2,
           "type": 5,
           "internalId": 2384,
@@ -3197,7 +3197,7 @@
         },
         {
           "id": 4,
-          "name": "МОПС НА СПИНУ",
+          "name": "PUG ON THE BACK",
           "rarity": 2,
           "type": 11,
           "internalId": 583,
@@ -3206,7 +3206,7 @@
         },
         {
           "id": 5,
-          "name": "Игла преступник",
+          "name": "Needle criminal",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -3224,7 +3224,7 @@
         },
         {
           "id": 7,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -3233,7 +3233,7 @@
         },
         {
           "id": 8,
-          "name": "Хоуми с района",
+          "name": "Homie from the block",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -3261,7 +3261,7 @@
         },
         {
           "id": 11,
-          "name": "Рюкзак Танкиста",
+          "name": "Tanker Backpack",
           "rarity": 2,
           "type": 11,
           "renderId": "img_16699.png",
@@ -3271,7 +3271,7 @@
         },
         {
           "id": 12,
-          "name": "Бархатные тяги особые",
+          "name": "Special velvet traction",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -3280,7 +3280,7 @@
         },
         {
           "id": 13,
-          "name": "Сотрудник Фирмы",
+          "name": "Company employee",
           "rarity": 3,
           "type": 11,
           "renderId": "img_6895.png",
@@ -3319,7 +3319,7 @@
         },
         {
           "id": 17,
-          "name": "1200000 Р",
+          "name": "1200000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -3328,7 +3328,7 @@
         },
         {
           "id": 18,
-          "name": "Танковый Ас",
+          "name": "Tank Ace",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5898.png",
@@ -3388,7 +3388,7 @@
         {
           "id": 24,
           "name": "Gaz Tigr",
-          "name_store": "АЗ ТИГР",
+          "name_store": "AZ TIGR",
           "rarity": 5,
           "type": 5,
           "internalId": 470,
@@ -3397,8 +3397,8 @@
         },
         {
           "id": 25,
-          "name": "Урал ИМЗ 8 Блиц",
-          "name_store": "УРА 8 БЛИЦ",
+          "name": "Ural IMZ 8 Blits",
+          "name_store": "HURRAH 8 BLITS",
           "rarity": 5,
           "type": 5,
           "renderId": "img_758.png",
@@ -3412,8 +3412,8 @@
         {
           "id": 1,
           "numberOpen": 40,
-          "name": "ЗИЛ 4104",
-          "name_store": "ИЛ 41",
+          "name": "ZIL 4104",
+          "name_store": "IL 41",
           "rarity": 5,
           "type": 5,
           "renderId": "img_614.png",
@@ -3424,7 +3424,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "ПЫЛЬ Х400",
+          "name": "DUST X400",
           "rarity": 4,
           "type": 21,
           "internalId": 1,
@@ -3434,7 +3434,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: БЛИЦ Х2",
+          "name": "CASE: BLITZ X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event5.png",
@@ -3445,7 +3445,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "ПЫЛЬ Х300",
+          "name": "DUST X300",
           "rarity": 4,
           "type": 21,
           "internalId": 1,
@@ -3455,7 +3455,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: БЛИЦ Х1",
+          "name": "CASE: BLITZ X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event5.png",
@@ -3467,7 +3467,7 @@
     },
     {
       "id": 11,
-      "name": "КЕЙС: ДЕЛО №5",
+      "name": "CASE: CASE No. 5",
       "dates": [
         1742436000,
         1746583200
@@ -3487,7 +3487,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Бархатные тяги особые",
+          "name": "Special velvet traction",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -3496,7 +3496,7 @@
         },
         {
           "id": 2,
-          "name": "Кейс черный",
+          "name": "Black case",
           "rarity": 2,
           "type": 11,
           "internalId": 360,
@@ -3505,7 +3505,7 @@
         },
         {
           "id": 3,
-          "name": "Черная панама с сигарой",
+          "name": "Black panama with a cigar",
           "rarity": 2,
           "type": 11,
           "internalId": 295,
@@ -3514,7 +3514,7 @@
         },
         {
           "id": 4,
-          "name": "Анимированная Лапка",
+          "name": "Animated Paw",
           "rarity": 2,
           "type": 11,
           "internalId": 709,
@@ -3523,7 +3523,7 @@
         },
         {
           "id": 5,
-          "name": "Кепка-платок Браток",
+          "name": "Bandana cap Bro",
           "rarity": 3,
           "type": 11,
           "renderId": "img_15636.png",
@@ -3542,7 +3542,7 @@
         },
         {
           "id": 7,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -3551,7 +3551,7 @@
         },
         {
           "id": 8,
-          "name": "Игла преступник",
+          "name": "Needle criminal",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -3560,7 +3560,7 @@
         },
         {
           "id": 9,
-          "name": "Батарейки X3000",
+          "name": "X3000 Batteries",
           "rarity": 2,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -3580,7 +3580,7 @@
         },
         {
           "id": 11,
-          "name": "Электрическая дубинка",
+          "name": "Electric baton",
           "rarity": 2,
           "type": 11,
           "renderId": "img_15635.png",
@@ -3590,7 +3590,7 @@
         },
         {
           "id": 12,
-          "name": "Дядя Жора",
+          "name": "Uncle Zhora",
           "rarity": 2,
           "type": 11,
           "renderId": "img_7773.png",
@@ -3600,7 +3600,7 @@
         },
         {
           "id": 13,
-          "name": "Опасный мужчина",
+          "name": "Dangerous man",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -3619,7 +3619,7 @@
         },
         {
           "id": 15,
-          "name": "Батарейки Х7500",
+          "name": "Batteries X7500",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -3639,7 +3639,7 @@
         },
         {
           "id": 17,
-          "name": "Батарейки Х5000",
+          "name": "Batteries X5000",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -3649,7 +3649,7 @@
         },
         {
           "id": 18,
-          "name": "Громов",
+          "name": "Gromov",
           "rarity": 4,
           "type": 11,
           "renderId": "img_7772.png",
@@ -3669,7 +3669,7 @@
         },
         {
           "id": 20,
-          "name": "Батарейки Х15000",
+          "name": "Batteries X15000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -3737,7 +3737,7 @@
           "id": 1,
           "numberOpen": 40,
           "name": "Gaz 2402 Halloween",
-          "name_store": "АЗ Гроб",
+          "name_store": "AZ Coffin",
           "rarity": 5,
           "type": 5,
           "renderId": "img_438.png",
@@ -3749,7 +3749,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "Батарейки X10000",
+          "name": "X10000 Batteries",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -3760,7 +3760,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: ДЕЛО №5 Х2",
+          "name": "CASE: CASE No. 5 X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event6.png",
@@ -3771,7 +3771,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "Батарейки X5000",
+          "name": "X5000 Batteries",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -3782,7 +3782,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: ДЕЛО №5 Х1",
+          "name": "CASE: CASE No. 5 X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event6.png",
@@ -3794,7 +3794,7 @@
     },
     {
       "id": 12,
-      "name": "КЕЙС: ПЛЯЖНЫЙ",
+      "name": "CASE: BEACH",
       "dates": [
         1749520800,
         1751421600
@@ -3814,7 +3814,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Рыбачка",
+          "name": "Fisherwoman",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -3823,7 +3823,7 @@
         },
         {
           "id": 2,
-          "name": "Кейс черный",
+          "name": "Black case",
           "rarity": 2,
           "type": 11,
           "internalId": 360,
@@ -3832,7 +3832,7 @@
         },
         {
           "id": 3,
-          "name": "Надувной жилет",
+          "name": "Life jacket",
           "rarity": 2,
           "type": 11,
           "internalId": 915,
@@ -3841,7 +3841,7 @@
         },
         {
           "id": 4,
-          "name": "Очки звездочки",
+          "name": "Star glasses",
           "rarity": 2,
           "type": 11,
           "internalId": 916,
@@ -3850,7 +3850,7 @@
         },
         {
           "id": 5,
-          "name": "Кулон Драконий камень",
+          "name": "Dragon Stone Pendant",
           "rarity": 3,
           "type": 11,
           "renderId": "img_31965.png",
@@ -3869,7 +3869,7 @@
         },
         {
           "id": 7,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -3878,7 +3878,7 @@
         },
         {
           "id": 8,
-          "name": "Игла преступник",
+          "name": "Needle criminal",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -3887,7 +3887,7 @@
         },
         {
           "id": 9,
-          "name": "Батарейки X3000",
+          "name": "X3000 Batteries",
           "rarity": 2,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -3907,7 +3907,7 @@
         },
         {
           "id": 11,
-          "name": "Рюкзак Олигарха",
+          "name": "Oligarch's Backpack",
           "rarity": 4,
           "type": 11,
           "renderId": "img_31961.png",
@@ -3917,7 +3917,7 @@
         },
         {
           "id": 12,
-          "name": "Менеджер клуба",
+          "name": "Club manager",
           "rarity": 3,
           "type": 11,
           "renderId": "img_5500008.png",
@@ -3927,7 +3927,7 @@
         },
         {
           "id": 13,
-          "name": "Горячий мужчина",
+          "name": "Hot man",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -3946,7 +3946,7 @@
         },
         {
           "id": 15,
-          "name": "Батарейки Х7500",
+          "name": "Batteries X7500",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -3966,7 +3966,7 @@
         },
         {
           "id": 17,
-          "name": "Батарейки Х5000",
+          "name": "Batteries X5000",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -3976,7 +3976,7 @@
         },
         {
           "id": 18,
-          "name": "Варя",
+          "name": "Varya",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5500007.png",
@@ -3996,7 +3996,7 @@
         },
         {
           "id": 20,
-          "name": "Батарейки Х15000",
+          "name": "Batteries X15000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -4076,7 +4076,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "Батарейки X10000",
+          "name": "X10000 Batteries",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -4087,7 +4087,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: ПЛЯЖНЫЙ Х2",
+          "name": "CASE: BEACH X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event7.png",
@@ -4098,7 +4098,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "Батарейки X5000",
+          "name": "X5000 Batteries",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -4109,7 +4109,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: ПЛЯЖНЫЙ Х1",
+          "name": "CASE: BEACH X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event7.png",
@@ -4121,7 +4121,7 @@
     },
     {
       "id": 13,
-      "name": "КЕЙС: ПЕРВЫЙ МАНЕВР",
+      "name": "CASE: FIRST MANEUVER",
       "dates": [
         1753884000,
         1755136800
@@ -4141,7 +4141,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Хоуми с района",
+          "name": "Homie from the block",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -4150,7 +4150,7 @@
         },
         {
           "id": 2,
-          "name": "Шлем MVP",
+          "name": "MVP helmet",
           "rarity": 4,
           "type": 11,
           "renderId": "img_4859.png",
@@ -4160,7 +4160,7 @@
         },
         {
           "id": 3,
-          "name": "Очки люкс",
+          "name": "Luxury glasses",
           "rarity": 2,
           "type": 11,
           "internalId": 917,
@@ -4169,7 +4169,7 @@
         },
         {
           "id": 4,
-          "name": "Маска ведущего",
+          "name": "Host mask",
           "rarity": 2,
           "type": 11,
           "internalId": 159,
@@ -4178,7 +4178,7 @@
         },
         {
           "id": 5,
-          "name": "Рюкзак ускорение",
+          "name": "Acceleration backpack",
           "rarity": 4,
           "type": 11,
           "renderId": "img_32129.png",
@@ -4197,7 +4197,7 @@
         },
         {
           "id": 7,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -4206,7 +4206,7 @@
         },
         {
           "id": 8,
-          "name": "Игла преступник",
+          "name": "Needle criminal",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -4215,7 +4215,7 @@
         },
         {
           "id": 9,
-          "name": "Батарейки X3000",
+          "name": "X3000 Batteries",
           "rarity": 2,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -4235,7 +4235,7 @@
         },
         {
           "id": 11,
-          "name": "Голова ОКАК",
+          "name": "OKAK Head",
           "rarity": 3,
           "type": 11,
           "renderId": "img_32136.png",
@@ -4245,7 +4245,7 @@
         },
         {
           "id": 12,
-          "name": "Сумка Мастера",
+          "name": "Master's Bag",
           "rarity": 4,
           "type": 11,
           "renderId": "img_32130.png",
@@ -4255,7 +4255,7 @@
         },
         {
           "id": 13,
-          "name": "Шторм Похудевший",
+          "name": "Storm Slimmed Down",
           "rarity": 3,
           "type": 11,
           "renderId": "img_5500025.png",
@@ -4275,7 +4275,7 @@
         },
         {
           "id": 15,
-          "name": "Батарейки Х7500",
+          "name": "Batteries X7500",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -4295,7 +4295,7 @@
         },
         {
           "id": 17,
-          "name": "Батарейки Х5000",
+          "name": "Batteries X5000",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -4305,7 +4305,7 @@
         },
         {
           "id": 18,
-          "name": "Луна Гонщица",
+          "name": "Moon Racer",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5500026.png",
@@ -4325,7 +4325,7 @@
         },
         {
           "id": 20,
-          "name": "Батарейки Х15000",
+          "name": "Batteries X15000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -4366,7 +4366,7 @@
         {
           "id": 24,
           "name": "BMW Z4 M40i",
-          "name_store": "Boomer 4 Кабриолет",
+          "name_store": "Boomer 4 Convertible",
           "rarity": 3,
           "type": 5,
           "internalId": 480,
@@ -4403,7 +4403,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "Батарейки X10000",
+          "name": "X10000 Batteries",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -4414,7 +4414,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: ПЕРВЫЙ МАНЕВР Х2",
+          "name": "CASE: FIRST MANEUVER X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event8.png",
@@ -4425,7 +4425,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "Батарейки X5000",
+          "name": "X5000 Batteries",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -4436,7 +4436,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: ПЕРВЫЙ МАНЕВР Х1",
+          "name": "CASE: FIRST MANEUVER X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event8.png",
@@ -4448,7 +4448,7 @@
     },
     {
       "id": 14,
-      "name": "КЕЙС: ВТОРОЙ МАНЕВР",
+      "name": "CASE: SECOND MANEUVER",
       "dates": [
         1755144900,
         1756346400
@@ -4468,7 +4468,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Бархатные тяги особые",
+          "name": "Special velvet traction",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -4477,7 +4477,7 @@
         },
         {
           "id": 2,
-          "name": "Рюкзак Fuel",
+          "name": "Backpack Fuel",
           "rarity": 2,
           "type": 11,
           "renderId": "img_4864.png",
@@ -4487,7 +4487,7 @@
         },
         {
           "id": 3,
-          "name": "Прямые очки 'Огонь'",
+          "name": "Straight glasses 'Fire'",
           "rarity": 2,
           "type": 11,
           "internalId": 304,
@@ -4496,7 +4496,7 @@
         },
         {
           "id": 4,
-          "name": "Маска ведущего",
+          "name": "Host mask",
           "rarity": 2,
           "type": 11,
           "internalId": 159,
@@ -4505,7 +4505,7 @@
         },
         {
           "id": 5,
-          "name": "Маска Metal Dragon",
+          "name": "Metal Dragon Mask",
           "rarity": 4,
           "type": 11,
           "renderId": "img_32137.png",
@@ -4524,7 +4524,7 @@
         },
         {
           "id": 7,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -4533,7 +4533,7 @@
         },
         {
           "id": 8,
-          "name": "Игла преступник",
+          "name": "Needle criminal",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -4542,7 +4542,7 @@
         },
         {
           "id": 9,
-          "name": "Батарейки X3000",
+          "name": "X3000 Batteries",
           "rarity": 2,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -4562,7 +4562,7 @@
         },
         {
           "id": 11,
-          "name": "Рюкзак Дрифтера",
+          "name": "Drifter's Backpack",
           "rarity": 3,
           "type": 11,
           "renderId": "img_32138.png",
@@ -4572,7 +4572,7 @@
         },
         {
           "id": 12,
-          "name": "Санек Брат",
+          "name": "Sanyok Bro",
           "rarity": 3,
           "type": 11,
           "renderId": "img_5500028.png",
@@ -4582,7 +4582,7 @@
         },
         {
           "id": 13,
-          "name": "Мент из клипа",
+          "name": "Cop from the music video",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -4601,7 +4601,7 @@
         },
         {
           "id": 15,
-          "name": "Батарейки Х7500",
+          "name": "Batteries X7500",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -4621,7 +4621,7 @@
         },
         {
           "id": 17,
-          "name": "Батарейки Х5000",
+          "name": "Batteries X5000",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -4631,7 +4631,7 @@
         },
         {
           "id": 18,
-          "name": "Руслан Дрифтер",
+          "name": "Ruslan Drifter",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5500027.png",
@@ -4651,7 +4651,7 @@
         },
         {
           "id": 20,
-          "name": "Батарейки Х15000",
+          "name": "Batteries X15000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -4729,7 +4729,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "Батарейки X10000",
+          "name": "X10000 Batteries",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -4740,7 +4740,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: ВТОРОЙ МАНЕВР Х2",
+          "name": "CASE: SECOND MANEUVER X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event9.png",
@@ -4751,7 +4751,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "Батарейки X5000",
+          "name": "X5000 Batteries",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -4762,7 +4762,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: ВТОРОЙ МАНЕВР Х1",
+          "name": "CASE: SECOND MANEUVER X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event9.png",
@@ -4774,7 +4774,7 @@
     },
     {
       "id": 15,
-      "name": "КЕЙС: ШКОЛЬНЫЙ",
+      "name": "CASE: SCHOOL",
       "dates": [
         1758160800,
         1759975200
@@ -4794,7 +4794,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Хоуми с района",
+          "name": "Homie from the block",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -4803,7 +4803,7 @@
         },
         {
           "id": 2,
-          "name": "Золотая корона",
+          "name": "Golden crown",
           "rarity": 2,
           "type": 11,
           "internalId": 362,
@@ -4812,7 +4812,7 @@
         },
         {
           "id": 3,
-          "name": "Очки 'Пламя'",
+          "name": "Glasses 'Flame'",
           "rarity": 3,
           "type": 11,
           "internalId": 303,
@@ -4821,7 +4821,7 @@
         },
         {
           "id": 4,
-          "name": "Берет 'Gucci'",
+          "name": "'Gucci' beret",
           "rarity": 2,
           "type": 11,
           "internalId": 169,
@@ -4839,7 +4839,7 @@
         },
         {
           "id": 6,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -4858,7 +4858,7 @@
         },
         {
           "id": 8,
-          "name": "Барыга преступник",
+          "name": "Criminal dealer",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -4867,7 +4867,7 @@
         },
         {
           "id": 9,
-          "name": "Вика Отличница",
+          "name": "Vika Straight-A Student",
           "rarity": 3,
           "type": 11,
           "renderId": "img_5500044.png",
@@ -4877,7 +4877,7 @@
         },
         {
           "id": 10,
-          "name": "Сотрудник Фирмы",
+          "name": "Company employee",
           "rarity": 3,
           "type": 11,
           "renderId": "img_6895.png",
@@ -4897,7 +4897,7 @@
         },
         {
           "id": 12,
-          "name": "1200000 Р",
+          "name": "1200000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -4916,7 +4916,7 @@
         },
         {
           "id": 14,
-          "name": "1500000 Р",
+          "name": "1500000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -4935,7 +4935,7 @@
         },
         {
           "id": 16,
-          "name": "Кепка Школьника",
+          "name": "Schoolboy cap",
           "rarity": 3,
           "type": 11,
           "renderId": "img_32420.png",
@@ -4945,7 +4945,7 @@
         },
         {
           "id": 17,
-          "name": "Сумка Чемпиона",
+          "name": "Champion's Bag",
           "rarity": 4,
           "type": 11,
           "renderId": "img_32418.png",
@@ -4955,7 +4955,7 @@
         },
         {
           "id": 18,
-          "name": "Рюкзак для вечеринок",
+          "name": "Party backpack",
           "rarity": 4,
           "type": 11,
           "renderId": "img_32419.png",
@@ -4965,7 +4965,7 @@
         },
         {
           "id": 19,
-          "name": "Тяжелый Форвард",
+          "name": "Power Forward",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5500043.png",
@@ -4985,7 +4985,7 @@
         },
         {
           "id": 21,
-          "name": "3000000 Р",
+          "name": "3000000 R",
           "rarity": 4,
           "type": 2,
           "internalId": 1,
@@ -5052,7 +5052,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "1200000 Р",
+          "name": "1200000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -5062,7 +5062,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: ШКОЛЬНЫЙ Х2",
+          "name": "CASE: SCHOOL X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event10.png",
@@ -5073,7 +5073,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "2500000 Р",
+          "name": "2500000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -5083,7 +5083,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: ШКОЛЬНЫЙ Х1",
+          "name": "CASE: SCHOOL X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event10.png",
@@ -5095,7 +5095,7 @@
     },
     {
       "id": 16,
-      "name": "КЕЙС: ПРОЛОГ ТАЙНЫ",
+      "name": "CASE: PROLOGUE OF THE MYSTERY",
       "dates": [
         1761530400,
         1762999200
@@ -5115,7 +5115,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Игла преступник",
+          "name": "Needle criminal",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -5124,7 +5124,7 @@
         },
         {
           "id": 2,
-          "name": "Красная коса",
+          "name": "Red braid",
           "rarity": 2,
           "type": 11,
           "internalId": 144,
@@ -5133,7 +5133,7 @@
         },
         {
           "id": 3,
-          "name": "Шапка ведьмы",
+          "name": "Witch hat",
           "rarity": 2,
           "type": 11,
           "internalId": 138,
@@ -5142,7 +5142,7 @@
         },
         {
           "id": 4,
-          "name": "Кукла Вуду",
+          "name": "Voodoo Doll",
           "rarity": 2,
           "type": 11,
           "internalId": 663,
@@ -5160,7 +5160,7 @@
         },
         {
           "id": 6,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -5179,7 +5179,7 @@
         },
         {
           "id": 8,
-          "name": "Очки 'Пламя'",
+          "name": "Glasses 'Flame'",
           "rarity": 3,
           "type": 11,
           "internalId": 303,
@@ -5188,7 +5188,7 @@
         },
         {
           "id": 9,
-          "name": "Барыга преступник",
+          "name": "Criminal dealer",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -5197,7 +5197,7 @@
         },
         {
           "id": 10,
-          "name": "Охотник на нечисть",
+          "name": "Monster hunter",
           "rarity": 3,
           "type": 11,
           "renderId": "img_5500056.png",
@@ -5207,7 +5207,7 @@
         },
         {
           "id": 11,
-          "name": "Сотрудник Фирмы",
+          "name": "Company employee",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -5226,7 +5226,7 @@
         },
         {
           "id": 13,
-          "name": "Батарейки Х7500",
+          "name": "Batteries X7500",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -5246,7 +5246,7 @@
         },
         {
           "id": 15,
-          "name": "Батарейки Х5000",
+          "name": "Batteries X5000",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -5266,7 +5266,7 @@
         },
         {
           "id": 17,
-          "name": "Мистический Амулет",
+          "name": "Mystical Amulet",
           "rarity": 4,
           "type": 11,
           "renderId": "img_100072.png",
@@ -5276,7 +5276,7 @@
         },
         {
           "id": 18,
-          "name": "Цилиндр Доп. Интеллект",
+          "name": "Cylinder Additional Intelligence",
           "rarity": 4,
           "type": 11,
           "renderId": "img_100071.png",
@@ -5286,7 +5286,7 @@
         },
         {
           "id": 19,
-          "name": "Полина Ученая",
+          "name": "Polina the Scientist",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5500057.png",
@@ -5306,7 +5306,7 @@
         },
         {
           "id": 21,
-          "name": "Батарейки Х15000",
+          "name": "Batteries X15000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -5374,7 +5374,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "Батарейки X10000",
+          "name": "X10000 Batteries",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -5385,7 +5385,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: ПРОЛОГ ТАЙНЫ Х2",
+          "name": "CASE: PROLOGUE OF THE MYSTERY X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event11.png",
@@ -5396,7 +5396,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "Батарейки X5000",
+          "name": "X5000 Batteries",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -5407,7 +5407,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: ПРОЛОГ ТАЙНЫ Х1",
+          "name": "CASE: PROLOGUE OF THE MYSTERY X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event11.png",
@@ -5419,7 +5419,7 @@
     },
     {
       "id": 17,
-      "name": "КЕЙС: ЭПИЛОГ ТАЙНЫ",
+      "name": "CASE: EPILOGUE OF THE MYSTERY",
       "dates": [
         1762999200,
         1764208800
@@ -5439,7 +5439,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Игла преступник",
+          "name": "Needle criminal",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -5448,7 +5448,7 @@
         },
         {
           "id": 2,
-          "name": "Железная коса",
+          "name": "Iron scythe",
           "rarity": 2,
           "type": 11,
           "internalId": 143,
@@ -5457,7 +5457,7 @@
         },
         {
           "id": 3,
-          "name": "Шапка с привидением",
+          "name": "Hat with a ghost",
           "rarity": 2,
           "type": 11,
           "internalId": 139,
@@ -5466,7 +5466,7 @@
         },
         {
           "id": 4,
-          "name": "Кукла Вуду",
+          "name": "Voodoo Doll",
           "rarity": 2,
           "type": 11,
           "internalId": 663,
@@ -5484,7 +5484,7 @@
         },
         {
           "id": 6,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -5503,7 +5503,7 @@
         },
         {
           "id": 8,
-          "name": "Очки 'Пламя'",
+          "name": "Glasses 'Flame'",
           "rarity": 3,
           "type": 11,
           "internalId": 303,
@@ -5512,7 +5512,7 @@
         },
         {
           "id": 9,
-          "name": "Пчелка убийца",
+          "name": "Killer bee",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -5521,7 +5521,7 @@
         },
         {
           "id": 10,
-          "name": "Анна Нокс",
+          "name": "Anna Knox",
           "rarity": 3,
           "type": 11,
           "renderId": "img_5500058.png",
@@ -5531,7 +5531,7 @@
         },
         {
           "id": 11,
-          "name": "Рюкзак Монстр",
+          "name": "Monster Backpack",
           "rarity": 3,
           "type": 11,
           "renderId": "img_100075.png",
@@ -5551,7 +5551,7 @@
         },
         {
           "id": 13,
-          "name": "Батарейки Х7500",
+          "name": "Batteries X7500",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -5571,7 +5571,7 @@
         },
         {
           "id": 15,
-          "name": "Батарейки Х5000",
+          "name": "Batteries X5000",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -5591,7 +5591,7 @@
         },
         {
           "id": 17,
-          "name": "Рюкзак Гробик",
+          "name": "Backpack Coffin",
           "rarity": 4,
           "type": 11,
           "renderId": "img_100073.png",
@@ -5601,7 +5601,7 @@
         },
         {
           "id": 18,
-          "name": "Сумка Котел с зельем",
+          "name": "Bag Cauldron with potion",
           "rarity": 4,
           "type": 11,
           "renderId": "img_100074.png",
@@ -5611,7 +5611,7 @@
         },
         {
           "id": 19,
-          "name": "Антиквар Фогг",
+          "name": "Antique Dealer Fogg",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5500059.png",
@@ -5631,7 +5631,7 @@
         },
         {
           "id": 21,
-          "name": "Батарейки Х15000",
+          "name": "Batteries X15000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -5699,7 +5699,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "Батарейки X10000",
+          "name": "X10000 Batteries",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -5710,7 +5710,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: ЭПИЛОГ ТАЙНЫ Х2",
+          "name": "CASE: EPILOGUE OF THE MYSTERY X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event12.png",
@@ -5721,7 +5721,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "Батарейки X5000",
+          "name": "X5000 Batteries",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -5732,7 +5732,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: ЭПИЛОГ ТАЙНЫ Х1",
+          "name": "CASE: EPILOGUE OF THE MYSTERY X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event12.png",
@@ -5744,7 +5744,7 @@
     },
     {
       "id": 18,
-      "name": "КЕЙС: ОСНОВАТЕЛЯ",
+      "name": "CASE: FOUNDER",
       "dates": [
         1766023200,
         1767837600
@@ -5764,7 +5764,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Бархатные тяги особые",
+          "name": "Special velvet traction",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -5773,7 +5773,7 @@
         },
         {
           "id": 2,
-          "name": "Маска Снегурочка",
+          "name": "Snow Maiden Mask",
           "rarity": 2,
           "type": 11,
           "internalId": 533,
@@ -5782,7 +5782,7 @@
         },
         {
           "id": 3,
-          "name": "Новогодний топорик",
+          "name": "New Year Hatchet",
           "rarity": 2,
           "type": 11,
           "internalId": 281,
@@ -5791,7 +5791,7 @@
         },
         {
           "id": 4,
-          "name": "Новогодняя шапка с рогами",
+          "name": "New Year Hat with Horns",
           "rarity": 2,
           "type": 11,
           "internalId": 301,
@@ -5809,7 +5809,7 @@
         },
         {
           "id": 6,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -5828,7 +5828,7 @@
         },
         {
           "id": 8,
-          "name": "Очки салют",
+          "name": "Fireworks glasses",
           "rarity": 2,
           "type": 11,
           "internalId": 313,
@@ -5837,7 +5837,7 @@
         },
         {
           "id": 9,
-          "name": "Новогодний пингвин",
+          "name": "New Year Penguin",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -5846,7 +5846,7 @@
         },
         {
           "id": 10,
-          "name": "Алина Зимина",
+          "name": "Alina Zimina",
           "rarity": 3,
           "type": 11,
           "renderId": "img_5500070.png",
@@ -5856,7 +5856,7 @@
         },
         {
           "id": 11,
-          "name": "Сотрудник Фирмы",
+          "name": "Company employee",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -5875,7 +5875,7 @@
         },
         {
           "id": 13,
-          "name": "Батарейки Х7500",
+          "name": "Batteries X7500",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -5895,7 +5895,7 @@
         },
         {
           "id": 15,
-          "name": "Батарейки Х5000",
+          "name": "Batteries X5000",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -5915,7 +5915,7 @@
         },
         {
           "id": 17,
-          "name": "Сноуборд за спину",
+          "name": "Snowboard on the back",
           "rarity": 4,
           "type": 11,
           "renderId": "img_100108.png",
@@ -5925,7 +5925,7 @@
         },
         {
           "id": 18,
-          "name": "Рюкзак Снежный шар",
+          "name": "Snow Globe Backpack",
           "rarity": 4,
           "type": 11,
           "renderId": "img_100109.png",
@@ -5935,7 +5935,7 @@
         },
         {
           "id": 19,
-          "name": "Тима Зимин",
+          "name": "Tima Zimin",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5500071.png",
@@ -5955,7 +5955,7 @@
         },
         {
           "id": 21,
-          "name": "Батарейки Х15000",
+          "name": "Batteries X15000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -6023,7 +6023,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "Батарейки X10000",
+          "name": "X10000 Batteries",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -6034,7 +6034,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: ОСНОВАТЕЛЯ Х2",
+          "name": "CASE: FOUNDER X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event13.png",
@@ -6045,7 +6045,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "Батарейки X5000",
+          "name": "X5000 Batteries",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -6056,7 +6056,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: ОСНОВАТЕЛЯ Х1",
+          "name": "CASE: FOUNDER X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event13.png",
@@ -6068,7 +6068,7 @@
     },
     {
       "id": 19,
-      "name": "КЕЙС: ЗАЩИТНИКА",
+      "name": "CASE: DEFENDER",
       "dates": [
         1767837600,
         1767924000
@@ -6088,7 +6088,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Бархатные тяги спортивные",
+          "name": "Sport velvet traction",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -6097,7 +6097,7 @@
         },
         {
           "id": 2,
-          "name": "Маска Деда Мороза",
+          "name": "Santa Claus Mask",
           "rarity": 2,
           "type": 11,
           "internalId": 522,
@@ -6106,7 +6106,7 @@
         },
         {
           "id": 3,
-          "name": "Новогодняя палочка с кристаллом",
+          "name": "New Year Wand with Crystal",
           "rarity": 2,
           "type": 11,
           "internalId": 287,
@@ -6115,7 +6115,7 @@
         },
         {
           "id": 4,
-          "name": "Гринч",
+          "name": "Grinch",
           "rarity": 2,
           "type": 11,
           "internalId": 309,
@@ -6133,7 +6133,7 @@
         },
         {
           "id": 6,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -6152,7 +6152,7 @@
         },
         {
           "id": 8,
-          "name": "Очки Анимированный салют",
+          "name": "Animated Fireworks Glasses",
           "rarity": 2,
           "type": 11,
           "internalId": 313,
@@ -6161,7 +6161,7 @@
         },
         {
           "id": 9,
-          "name": "Снеговик не растает",
+          "name": "The snowman won't melt",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -6170,7 +6170,7 @@
         },
         {
           "id": 10,
-          "name": "Голова Коня",
+          "name": "Horse Head",
           "rarity": 3,
           "type": 11,
           "renderId": "img_100113.png",
@@ -6190,7 +6190,7 @@
         },
         {
           "id": 12,
-          "name": "Батарейки Х7500",
+          "name": "Batteries X7500",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -6210,7 +6210,7 @@
         },
         {
           "id": 14,
-          "name": "Батарейки Х5000",
+          "name": "Batteries X5000",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -6230,7 +6230,7 @@
         },
         {
           "id": 16,
-          "name": "Руслан Джерси",
+          "name": "Ruslan Jersey",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5500073.png",
@@ -6252,7 +6252,7 @@
         },
         {
           "id": 18,
-          "name": "Виктор Гонщик",
+          "name": "Viktor Racer",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5500072.png",
@@ -6262,7 +6262,7 @@
         },
         {
           "id": 19,
-          "name": "Шлем Мороз",
+          "name": "Frost helmet",
           "rarity": 4,
           "type": 11,
           "renderId": "img_100110.png",
@@ -6272,7 +6272,7 @@
         },
         {
           "id": 20,
-          "name": "Рюкзак Медведь",
+          "name": "Bear Backpack",
           "rarity": 4,
           "type": 11,
           "renderId": "img_100111.png",
@@ -6282,7 +6282,7 @@
         },
         {
           "id": 21,
-          "name": "Зимняя Луна",
+          "name": "Winter Moon",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5500074.png",
@@ -6292,7 +6292,7 @@
         },
         {
           "id": 22,
-          "name": "Батарейки Х15000",
+          "name": "Batteries X15000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -6338,7 +6338,7 @@
           "id": 1,
           "numberOpen": 40,
           "name": "VAZ 2109 Turbo Edition",
-          "name_store": "Девятка Turbo Edition",
+          "name_store": "Nine Turbo Edition",
           "rarity": 5,
           "type": 5,
           "renderId": "img_28721.png",
@@ -6350,7 +6350,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "Батарейки X10000",
+          "name": "X10000 Batteries",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -6361,7 +6361,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: ЗАЩИТНИКА Х2",
+          "name": "CASE: DEFENDER X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event14.png",
@@ -6372,7 +6372,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "Батарейки X5000",
+          "name": "X5000 Batteries",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -6383,7 +6383,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: ЗАЩИТНИКА Х1",
+          "name": "CASE: DEFENDER X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event14.png",
@@ -6395,7 +6395,7 @@
     },
     {
       "id": 20,
-      "name": "КЕЙС: ГРОМ",
+      "name": "CASE: GROM",
       "dates": [
         1769047200,
         1770256800
@@ -6415,7 +6415,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Игла преступник",
+          "name": "Needle criminal",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -6424,7 +6424,7 @@
         },
         {
           "id": 2,
-          "name": "Очки люкс",
+          "name": "Luxury glasses",
           "rarity": 2,
           "type": 11,
           "internalId": 917,
@@ -6433,7 +6433,7 @@
         },
         {
           "id": 3,
-          "name": "Очки звездочки",
+          "name": "Star glasses",
           "rarity": 2,
           "type": 11,
           "internalId": 916,
@@ -6442,7 +6442,7 @@
         },
         {
           "id": 4,
-          "name": "Советская шапка",
+          "name": "Soviet hat",
           "rarity": 2,
           "type": 11,
           "internalId": 918,
@@ -6460,7 +6460,7 @@
         },
         {
           "id": 6,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -6479,7 +6479,7 @@
         },
         {
           "id": 8,
-          "name": "Прямые очки 'Огонь'",
+          "name": "Straight glasses 'Fire'",
           "rarity": 2,
           "type": 11,
           "internalId": 304,
@@ -6488,7 +6488,7 @@
         },
         {
           "id": 9,
-          "name": "Бархатные тяги спортивные",
+          "name": "Sport velvet traction",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -6497,7 +6497,7 @@
         },
         {
           "id": 10,
-          "name": "Барыга преступник",
+          "name": "Criminal dealer",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -6506,7 +6506,7 @@
         },
         {
           "id": 11,
-          "name": "Опасный мужчина",
+          "name": "Dangerous man",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -6525,7 +6525,7 @@
         },
         {
           "id": 13,
-          "name": "Мент из клипа",
+          "name": "Cop from the music video",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -6544,7 +6544,7 @@
         },
         {
           "id": 15,
-          "name": "Косплей Майора",
+          "name": "Major cosplay",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5500083.png",
@@ -6554,7 +6554,7 @@
         },
         {
           "id": 16,
-          "name": "Кейс черный",
+          "name": "Black case",
           "rarity": 2,
           "type": 11,
           "internalId": 360,
@@ -6563,7 +6563,7 @@
         },
         {
           "id": 17,
-          "name": "Олег Рубцов",
+          "name": "Oleg Rubtsov",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5500063.png",
@@ -6573,7 +6573,7 @@
         },
         {
           "id": 18,
-          "name": "Грабитель в маске",
+          "name": "Masked robber",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5500062.png",
@@ -6583,7 +6583,7 @@
         },
         {
           "id": 19,
-          "name": "Маска Чумного доктора",
+          "name": "Plague Doctor Mask",
           "rarity": 4,
           "type": 11,
           "renderId": "img_100077.png",
@@ -6603,7 +6603,7 @@
         },
         {
           "id": 21,
-          "name": "Маска Призрака",
+          "name": "Ghost Mask",
           "rarity": 4,
           "type": 11,
           "renderId": "img_100078.png",
@@ -6673,7 +6673,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "2500000 Р",
+          "name": "2500000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -6683,7 +6683,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: ГРОМ Х2",
+          "name": "CASE: GROM X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event15.png",
@@ -6694,7 +6694,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "ПЫЛЬ X300",
+          "name": "DUST X300",
           "rarity": 4,
           "type": 21,
           "renderId": "ic_dust.svg",
@@ -6705,7 +6705,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: ГРОМ Х1",
+          "name": "CASE: GROM X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event15.png",
@@ -6717,7 +6717,7 @@
     },
     {
       "id": 21,
-      "name": "КЕЙС: ГОЛОС УЛИЦ",
+      "name": "CASE: VOICE OF THE STREETS",
       "dates": [
         1770256800,
         1771466400
@@ -6737,7 +6737,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Хоуми с района",
+          "name": "Homie from the block",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -6746,7 +6746,7 @@
         },
         {
           "id": 2,
-          "name": "Очки Доллар",
+          "name": "Dollar Glasses",
           "rarity": 2,
           "type": 11,
           "internalId": 367,
@@ -6755,7 +6755,7 @@
         },
         {
           "id": 3,
-          "name": "Кейс серый",
+          "name": "Gray case",
           "rarity": 2,
           "type": 11,
           "internalId": 361,
@@ -6764,7 +6764,7 @@
         },
         {
           "id": 4,
-          "name": "Советская шапка",
+          "name": "Soviet hat",
           "rarity": 2,
           "type": 11,
           "internalId": 918,
@@ -6782,7 +6782,7 @@
         },
         {
           "id": 6,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -6801,7 +6801,7 @@
         },
         {
           "id": 8,
-          "name": "Очки Санрайз у воды",
+          "name": "Sunrise by the Water Glasses",
           "rarity": 2,
           "type": 11,
           "internalId": 324,
@@ -6810,7 +6810,7 @@
         },
         {
           "id": 9,
-          "name": "Бархатные тяги спортивные",
+          "name": "Sport velvet traction",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -6819,7 +6819,7 @@
         },
         {
           "id": 10,
-          "name": "Барыга преступник",
+          "name": "Criminal dealer",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -6828,7 +6828,7 @@
         },
         {
           "id": 11,
-          "name": "1200000 Р",
+          "name": "1200000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -6847,7 +6847,7 @@
         },
         {
           "id": 13,
-          "name": "Мент из клипа",
+          "name": "Cop from the music video",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -6856,7 +6856,7 @@
         },
         {
           "id": 14,
-          "name": "1500000 Р",
+          "name": "1500000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -6875,7 +6875,7 @@
         },
         {
           "id": 16,
-          "name": "Артур Игоревич",
+          "name": "Artur Igorevich",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5500081.png",
@@ -6885,7 +6885,7 @@
         },
         {
           "id": 17,
-          "name": "Кейс Рентген",
+          "name": "X-Ray Case",
           "rarity": 4,
           "type": 11,
           "renderId": "img_100166.png",
@@ -6895,7 +6895,7 @@
         },
         {
           "id": 18,
-          "name": "Рино",
+          "name": "Rino",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5500082.png",
@@ -6905,7 +6905,7 @@
         },
         {
           "id": 19,
-          "name": "Балаклава Криминал",
+          "name": "Criminal balaclava",
           "rarity": 4,
           "type": 11,
           "renderId": "img_100167.png",
@@ -6925,7 +6925,7 @@
         },
         {
           "id": 21,
-          "name": "3000000 Р",
+          "name": "3000000 R",
           "rarity": 4,
           "type": 2,
           "internalId": 1,
@@ -6992,7 +6992,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "2500000 Р",
+          "name": "2500000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -7002,7 +7002,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: ГОЛОС УЛИЦ Х2",
+          "name": "CASE: VOICE OF THE STREETS X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event16.png",
@@ -7013,7 +7013,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "1200000 Р",
+          "name": "1200000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -7023,7 +7023,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: ГОЛОС УЛИЦ Х1",
+          "name": "CASE: VOICE OF THE STREETS X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event16.png",
@@ -7035,7 +7035,7 @@
     },
     {
       "id": 22,
-      "name": "КЕЙС: ТУРБО",
+      "name": "CASE: TURBO",
       "dates": [
         1773885600,
         1775095200
@@ -7055,7 +7055,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Очки пиксели",
+          "name": "Pixel glasses",
           "rarity": 2,
           "type": 11,
           "internalId": 376,
@@ -7064,7 +7064,7 @@
         },
         {
           "id": 2,
-          "name": "Лавровый венец",
+          "name": "Laurel wreath",
           "rarity": 2,
           "type": 11,
           "internalId": 365,
@@ -7073,7 +7073,7 @@
         },
         {
           "id": 3,
-          "name": "Прямые очки 'Огонь'",
+          "name": "Straight glasses 'Fire'",
           "rarity": 2,
           "type": 11,
           "internalId": 304,
@@ -7082,7 +7082,7 @@
         },
         {
           "id": 4,
-          "name": "Шлем велосипедиста",
+          "name": "Cyclist helmet",
           "rarity": 2,
           "type": 11,
           "internalId": 914,
@@ -7091,7 +7091,7 @@
         },
         {
           "id": 5,
-          "name": "Бархатные тяги особые",
+          "name": "Special velvet traction",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -7100,7 +7100,7 @@
         },
         {
           "id": 6,
-          "name": "Хоуми с района",
+          "name": "Homie from the block",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -7128,7 +7128,7 @@
         },
         {
           "id": 9,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -7137,7 +7137,7 @@
         },
         {
           "id": 10,
-          "name": "Барыга преступник",
+          "name": "Criminal dealer",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -7146,7 +7146,7 @@
         },
         {
           "id": 11,
-          "name": "Мент из клипа",
+          "name": "Cop from the music video",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -7155,7 +7155,7 @@
         },
         {
           "id": 12,
-          "name": "1200000 Р",
+          "name": "1200000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -7174,7 +7174,7 @@
         },
         {
           "id": 14,
-          "name": "1500000 Р",
+          "name": "1500000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -7183,7 +7183,7 @@
         },
         {
           "id": 15,
-          "name": "Ночная Орхидея",
+          "name": "Night Orchid",
           "rarity": 3,
           "type": 11,
           "renderId": "img_5500100.png",
@@ -7203,7 +7203,7 @@
         },
         {
           "id": 17,
-          "name": "Жетон на шею",
+          "name": "Neck tag",
           "rarity": 4,
           "type": 11,
           "internalId": 1081,
@@ -7212,7 +7212,7 @@
         },
         {
           "id": 18,
-          "name": "Анна Организатор",
+          "name": "Anna Organizer",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5500099.png",
@@ -7222,7 +7222,7 @@
         },
         {
           "id": 19,
-          "name": "Рюкзак Уличный",
+          "name": "Street Backpack",
           "rarity": 4,
           "type": 11,
           "internalId": 1082,
@@ -7231,7 +7231,7 @@
         },
         {
           "id": 20,
-          "name": "3000000 Р",
+          "name": "3000000 R",
           "rarity": 4,
           "type": 2,
           "internalId": 1,
@@ -7308,7 +7308,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "2500000 Р",
+          "name": "2500000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -7318,7 +7318,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: ТУРБО Х2",
+          "name": "CASE: TURBO X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event17.png",
@@ -7329,7 +7329,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "1200000 Р",
+          "name": "1200000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -7339,7 +7339,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: ТУРБО Х1",
+          "name": "CASE: TURBO X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event17.png",
@@ -7351,7 +7351,7 @@
     },
     {
       "id": 23,
-      "name": "КЕЙС: НИТРО",
+      "name": "CASE: NITRO",
       "dates": [
         1775095200,
         1776304800
@@ -7371,7 +7371,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Очки День рождения",
+          "name": "Birthday Glasses",
           "rarity": 2,
           "type": 11,
           "internalId": 368,
@@ -7380,7 +7380,7 @@
         },
         {
           "id": 2,
-          "name": "Золотая корона",
+          "name": "Golden crown",
           "rarity": 2,
           "type": 11,
           "internalId": 362,
@@ -7389,7 +7389,7 @@
         },
         {
           "id": 3,
-          "name": "Очки 'Пламя'",
+          "name": "Glasses 'Flame'",
           "rarity": 3,
           "type": 11,
           "internalId": 303,
@@ -7398,7 +7398,7 @@
         },
         {
           "id": 4,
-          "name": "Очки люкс",
+          "name": "Luxury glasses",
           "rarity": 2,
           "type": 11,
           "internalId": 917,
@@ -7407,7 +7407,7 @@
         },
         {
           "id": 5,
-          "name": "Бархатные тяги особые",
+          "name": "Special velvet traction",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -7416,7 +7416,7 @@
         },
         {
           "id": 6,
-          "name": "Хоуми с района",
+          "name": "Homie from the block",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -7444,7 +7444,7 @@
         },
         {
           "id": 9,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -7453,7 +7453,7 @@
         },
         {
           "id": 10,
-          "name": "Барыга преступник",
+          "name": "Criminal dealer",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -7462,7 +7462,7 @@
         },
         {
           "id": 11,
-          "name": "Мент из клипа",
+          "name": "Cop from the music video",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -7471,7 +7471,7 @@
         },
         {
           "id": 12,
-          "name": "1200000 Р",
+          "name": "1200000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -7490,7 +7490,7 @@
         },
         {
           "id": 14,
-          "name": "1500000 Р",
+          "name": "1500000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -7509,7 +7509,7 @@
         },
         {
           "id": 16,
-          "name": "Доминик",
+          "name": "Dominik",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5500102.png",
@@ -7519,7 +7519,7 @@
         },
         {
           "id": 17,
-          "name": "Очки Горение",
+          "name": "Burning Glasses",
           "rarity": 4,
           "type": 11,
           "renderId": "img_100184.png",
@@ -7529,7 +7529,7 @@
         },
         {
           "id": 18,
-          "name": "Городской Хищник",
+          "name": "Urban Predator",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5500101.png",
@@ -7539,7 +7539,7 @@
         },
         {
           "id": 19,
-          "name": "Мопс на плечо",
+          "name": "Pug on shoulder",
           "rarity": 4,
           "type": 11,
           "renderId": "img_100185.png",
@@ -7549,7 +7549,7 @@
         },
         {
           "id": 20,
-          "name": "3000000 Р",
+          "name": "3000000 R",
           "rarity": 4,
           "type": 2,
           "internalId": 1,
@@ -7628,7 +7628,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "2500000 Р",
+          "name": "2500000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -7638,7 +7638,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: НИТРО Х2",
+          "name": "CASE: NITRO X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event18.png",
@@ -7649,7 +7649,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "1200000 Р",
+          "name": "1200000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -7659,7 +7659,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: НИТРО Х1",
+          "name": "CASE: NITRO X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event18.png",
@@ -7671,7 +7671,7 @@
     },
     {
       "id": 25,
-      "name": "АВТО-КЕЙС 3.0",
+      "name": "AUTO CASE 3.0",
       "dates": [
         1787796000,
         1788400800
@@ -7966,7 +7966,7 @@
         {
           "id": 3,
           "numberOpen": 25,
-          "name": "АВТО-КЕЙС 3.0 X2",
+          "name": "AUTO CASE 3.0 X2",
           "rarity": 5,
           "type": 4,
           "renderId": "img_case_auto_time_limited.png",
@@ -7977,7 +7977,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "Пыль х500",
+          "name": "Dust x500",
           "rarity": 5,
           "type": 21,
           "internalId": 1,
@@ -7987,7 +7987,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "АВТО-КЕЙС 3.0 X1",
+          "name": "AUTO CASE 3.0 X1",
           "rarity": 5,
           "type": 4,
           "renderId": "img_case_auto_time_limited.png",
@@ -7999,7 +7999,7 @@
     },
     {
       "id": 26,
-      "name": "КЕЙС С БИЛЕТАМИ ГОНЩИКА",
+      "name": "CASE WITH RACER TICKETS",
       "dates": [
         0,
         0
@@ -8019,7 +8019,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Билет гонщика х3",
+          "name": "Racer Ticket x3",
           "rarity": 3,
           "type": 34,
           "renderId": "img_race_ticket.png",
@@ -8029,7 +8029,7 @@
         },
         {
           "id": 2,
-          "name": "Билет гонщика х5",
+          "name": "Racer Ticket x5",
           "rarity": 3,
           "type": 34,
           "renderId": "img_race_ticket.png",
@@ -8039,7 +8039,7 @@
         },
         {
           "id": 3,
-          "name": "Билет гонщика х10",
+          "name": "Racer Ticket x10",
           "rarity": 4,
           "type": 34,
           "renderId": "img_race_ticket.png",
@@ -8049,7 +8049,7 @@
         },
         {
           "id": 4,
-          "name": "Билет гонщика х20",
+          "name": "Racer Ticket x20",
           "rarity": 4,
           "type": 34,
           "renderId": "img_race_ticket.png",
@@ -8059,7 +8059,7 @@
         },
         {
           "id": 5,
-          "name": "Билет гонщика х30",
+          "name": "Racer Ticket x30",
           "rarity": 5,
           "type": 34,
           "renderId": "img_race_ticket.png",
@@ -8072,7 +8072,7 @@
         {
           "id": 1,
           "numberOpen": 40,
-          "name": "Билет гонщика х30",
+          "name": "Racer Ticket x30",
           "rarity": 5,
           "type": 34,
           "internalId": 1,
@@ -8082,7 +8082,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "Билет гонщика х30",
+          "name": "Racer Ticket x30",
           "rarity": 5,
           "type": 34,
           "internalId": 1,
@@ -8092,7 +8092,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "Билет гонщика х20",
+          "name": "Racer Ticket x20",
           "rarity": 4,
           "type": 34,
           "internalId": 1,
@@ -8102,7 +8102,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "Билет гонщика х20",
+          "name": "Racer Ticket x20",
           "rarity": 4,
           "type": 34,
           "internalId": 1,
@@ -8112,7 +8112,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "Билет гонщика х10",
+          "name": "Racer Ticket x10",
           "rarity": 3,
           "type": 34,
           "internalId": 1,
@@ -8123,7 +8123,7 @@
     },
     {
       "id": 27,
-      "name": "АВТО-КЕЙС B-C CLASS 24Ч",
+      "name": "AUTO CASE B-C CLASS 24H",
       "dates": [
         1775354400,
         1775440800
@@ -8143,8 +8143,8 @@
       "awards": [
         {
           "id": 1,
-          "name": "Каракал (24 ч)",
-          "name_store": "Каракал (24 ч)",
+          "name": "Caracal (24 h)",
+          "name_store": "Caracal (24 h)",
           "rarity": 1,
           "type": 5,
           "internalId": 649,
@@ -8153,8 +8153,8 @@
         },
         {
           "id": 2,
-          "name": "Слейпнир (24 ч)",
-          "name_store": "Слейпнир (24 ч)",
+          "name": "Sleipnir (24 h)",
+          "name_store": "Sleipnir (24 h)",
           "rarity": 1,
           "type": 5,
           "internalId": 654,
@@ -8163,8 +8163,8 @@
         },
         {
           "id": 3,
-          "name": "Койот (24 ч)",
-          "name_store": "Койот (24 ч)",
+          "name": "Coyote (24 h)",
+          "name_store": "Coyote (24 h)",
           "rarity": 1,
           "type": 5,
           "internalId": 650,
@@ -8173,8 +8173,8 @@
         },
         {
           "id": 4,
-          "name": "VAZ 2170 (24 ч)",
-          "name_store": "АЗ 2170 (24 ч)",
+          "name": "VAZ 2170 (24 h)",
+          "name_store": "AZ 2170 (24 h)",
           "rarity": 2,
           "type": 5,
           "internalId": 529,
@@ -8183,8 +8183,8 @@
         },
         {
           "id": 5,
-          "name": "Mazda Sedan 3 (24 ч)",
-          "name_store": "Sedan 3 (24 ч)",
+          "name": "Mazda Sedan 3 (24 h)",
+          "name_store": "Sedan 3 (24 h)",
           "rarity": 2,
           "type": 5,
           "internalId": 540,
@@ -8193,8 +8193,8 @@
         },
         {
           "id": 6,
-          "name": "Toyota Mark II (24 ч)",
-          "name_store": "Mark II (24 ч)",
+          "name": "Toyota Mark II (24 h)",
+          "name_store": "Mark II (24 h)",
           "rarity": 2,
           "type": 5,
           "internalId": 559,
@@ -8203,8 +8203,8 @@
         },
         {
           "id": 7,
-          "name": "Nissan Skyline R34 (24 ч)",
-          "name_store": "Sunline 34 (24 ч)",
+          "name": "Nissan Skyline R34 (24 h)",
+          "name_store": "Sunline 34 (24 h)",
           "rarity": 2,
           "type": 5,
           "internalId": 562,
@@ -8213,8 +8213,8 @@
         },
         {
           "id": 8,
-          "name": "VAZ-2105 Street 1996 (24 ч)",
-          "name_store": "Пятерка Street 1996 (24 ч)",
+          "name": "VAZ-2105 Street 1996 (24 h)",
+          "name_store": "Pyaterka Street 1996 (24 h)",
           "rarity": 2,
           "type": 5,
           "internalId": 28730,
@@ -8223,8 +8223,8 @@
         },
         {
           "id": 9,
-          "name": "VAZ 2106 (Hoonicorn style) (24 ч)",
-          "name_store": "Шестерка HNC (24 ч)",
+          "name": "VAZ 2106 (Hoonicorn style) (24 h)",
+          "name_store": "Shesterka HNC (24 h)",
           "rarity": 2,
           "type": 5,
           "internalId": 28677,
@@ -8233,8 +8233,8 @@
         },
         {
           "id": 10,
-          "name": "Audi Quattro 80 B2 (24 ч)",
-          "name_store": "Aura Quatron 80 B2 (24 ч)",
+          "name": "Audi Quattro 80 B2 (24 h)",
+          "name_store": "Aura Quatron 80 B2 (24 h)",
           "rarity": 2,
           "type": 5,
           "internalId": 28737,
@@ -8243,8 +8243,8 @@
         },
         {
           "id": 11,
-          "name": "Dodge Charger R/T 1969 (24 ч)",
-          "name_store": "Charger RT 1969 (24 ч)",
+          "name": "Dodge Charger R/T 1969 (24 h)",
+          "name_store": "Charger RT 1969 (24 h)",
           "rarity": 2,
           "type": 5,
           "internalId": 28702,
@@ -8253,8 +8253,8 @@
         },
         {
           "id": 12,
-          "name": "Buick GSX 1970 (24 ч)",
-          "name_store": "Bullik X 1970 (24 ч)",
+          "name": "Buick GSX 1970 (24 h)",
+          "name_store": "Bullik X 1970 (24 h)",
           "rarity": 2,
           "type": 5,
           "internalId": 28658,
@@ -8263,8 +8263,8 @@
         },
         {
           "id": 13,
-          "name": "BMW E28 Alpina (24 ч)",
-          "name_store": "Boomer E28 Alpa (24 ч)",
+          "name": "BMW E28 Alpina (24 h)",
+          "name_store": "Boomer E28 Alpa (24 h)",
           "rarity": 2,
           "type": 5,
           "internalId": 28688,
@@ -8273,8 +8273,8 @@
         },
         {
           "id": 14,
-          "name": "ГАЗ-21 Coupe (24 ч)",
-          "name_store": "АЗ-21 Coupe (24 ч)",
+          "name": "GAZ-21 Coupe (24 h)",
+          "name_store": "AZ-21 Coupe (24 h)",
           "rarity": 2,
           "type": 5,
           "internalId": 771,
@@ -8283,8 +8283,8 @@
         },
         {
           "id": 15,
-          "name": "Volvo 240 GL (24 ч)",
-          "name_store": "240 GL (24 ч)",
+          "name": "Volvo 240 GL (24 h)",
+          "name_store": "240 GL (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 28678,
@@ -8293,8 +8293,8 @@
         },
         {
           "id": 16,
-          "name": "Dodge Demon SRT Off-Road (24 ч)",
-          "name_store": "Demon Off-Road (24 ч)",
+          "name": "Dodge Demon SRT Off-Road (24 h)",
+          "name_store": "Demon Off-Road (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 749,
@@ -8303,8 +8303,8 @@
         },
         {
           "id": 17,
-          "name": "Mazda RX-7 (24 ч)",
-          "name_store": "RX-7 (24 ч)",
+          "name": "Mazda RX-7 (24 h)",
+          "name_store": "RX-7 (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 477,
@@ -8313,8 +8313,8 @@
         },
         {
           "id": 18,
-          "name": "Cadillac Miller-Meteor 1959 Ecto-1 (24 ч)",
-          "name_store": "Meteo 1959-1 (24 ч)",
+          "name": "Cadillac Miller-Meteor 1959 Ecto-1 (24 h)",
+          "name_store": "Meteo 1959-1 (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 28699,
@@ -8323,8 +8323,8 @@
         },
         {
           "id": 19,
-          "name": "Honda RD1 CR-V 5 (24 ч)",
-          "name_store": "Hand Rd1 CR-5 (24 ч)",
+          "name": "Honda RD1 CR-V 5 (24 h)",
+          "name_store": "Hand Rd1 CR-5 (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 28728,
@@ -8333,8 +8333,8 @@
         },
         {
           "id": 20,
-          "name": "Chevrolet Camaro Z28 (24 ч)",
-          "name_store": "Comaric Z28 1979 (24 ч)",
+          "name": "Chevrolet Camaro Z28 (24 h)",
+          "name_store": "Comaric Z28 1979 (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 28685,
@@ -8343,8 +8343,8 @@
         },
         {
           "id": 21,
-          "name": "Honda Civic VIII (24 ч)",
-          "name_store": "Hand C4D (24 ч)",
+          "name": "Honda Civic VIII (24 h)",
+          "name_store": "Hand C4D (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 621,
@@ -8353,8 +8353,8 @@
         },
         {
           "id": 22,
-          "name": "Mitsubishi Lancer EVO 7 (24 ч)",
-          "name_store": "Mitsu EVA 7 (24 ч)",
+          "name": "Mitsubishi Lancer EVO 7 (24 h)",
+          "name_store": "Mitsu EVA 7 (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 28674,
@@ -8363,8 +8363,8 @@
         },
         {
           "id": 23,
-          "name": "Lincoln Town Car (24 ч)",
-          "name_store": "Link Town (24 ч)",
+          "name": "Lincoln Town Car (24 h)",
+          "name_store": "Link Town (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 767,
@@ -8373,8 +8373,8 @@
         },
         {
           "id": 24,
-          "name": "BMW Alpina B12 E32 (24 ч)",
-          "name_store": "Boomer 12 Alpa 32 (24 ч)",
+          "name": "BMW Alpina B12 E32 (24 h)",
+          "name_store": "Boomer 12 Alpa 32 (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 764,
@@ -8383,8 +8383,8 @@
         },
         {
           "id": 25,
-          "name": "Mercedes-Benz w211 (24 ч)",
-          "name_store": "W211 (24 ч)",
+          "name": "Mercedes-Benz w211 (24 h)",
+          "name_store": "W211 (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 28669,
@@ -8393,8 +8393,8 @@
         },
         {
           "id": 26,
-          "name": "Jeep Cherokee 1993 (24 ч)",
-          "name_store": "Charoke 1993 (24 ч)",
+          "name": "Jeep Cherokee 1993 (24 h)",
+          "name_store": "Charoke 1993 (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 28700,
@@ -8403,8 +8403,8 @@
         },
         {
           "id": 27,
-          "name": "Lamborghini LM002 (24 ч)",
-          "name_store": "LM 02 (24 ч)",
+          "name": "Lamborghini LM002 (24 h)",
+          "name_store": "LM 02 (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 769,
@@ -8413,8 +8413,8 @@
         },
         {
           "id": 28,
-          "name": "Jeep Wrangler Rubicon (24 ч)",
-          "name_store": "Rangler Rubic (24 ч)",
+          "name": "Jeep Wrangler Rubicon (24 h)",
+          "name_store": "Rangler Rubic (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 28656,
@@ -8423,8 +8423,8 @@
         },
         {
           "id": 29,
-          "name": "Mercedes-Benz X-Class (24 ч)",
-          "name_store": "X-Pickup (24 ч)",
+          "name": "Mercedes-Benz X-Class (24 h)",
+          "name_store": "X-Pickup (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 28712,
@@ -8433,8 +8433,8 @@
         },
         {
           "id": 30,
-          "name": "Mercedes-Benz 500 SL R107 (24 ч)",
-          "name_store": "500 SL R 107 (24 ч)",
+          "name": "Mercedes-Benz 500 SL R107 (24 h)",
+          "name_store": "500 SL R 107 (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 28729,
@@ -8443,8 +8443,8 @@
         },
         {
           "id": 31,
-          "name": "Dodge Charger Police (24 ч)",
-          "name_store": "Charger Police (24 ч)",
+          "name": "Dodge Charger Police (24 h)",
+          "name_store": "Charger Police (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 28675,
@@ -8453,8 +8453,8 @@
         },
         {
           "id": 32,
-          "name": "Toyota Chaser Tourer v 100 (24 ч)",
-          "name_store": "Chase V100 (24 ч)",
+          "name": "Toyota Chaser Tourer v 100 (24 h)",
+          "name_store": "Chase V100 (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 759,
@@ -8463,8 +8463,8 @@
         },
         {
           "id": 33,
-          "name": "Mercedes Benz g500 Police (24 ч)",
-          "name_store": "Gelik G500 Police (24 ч)",
+          "name": "Mercedes Benz g500 Police (24 h)",
+          "name_store": "Gelik G500 Police (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 768,
@@ -8473,8 +8473,8 @@
         },
         {
           "id": 34,
-          "name": "Mazda RX7 Veilside (24 ч)",
-          "name_store": "RK7 Side (24 ч)",
+          "name": "Mazda RX7 Veilside (24 h)",
+          "name_store": "RK7 Side (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 28676,
@@ -8483,8 +8483,8 @@
         },
         {
           "id": 35,
-          "name": "Subaru Levorg (24 ч)",
-          "name_store": "Siberia LevG (24 ч)",
+          "name": "Subaru Levorg (24 h)",
+          "name_store": "Siberia LevG (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 678,
@@ -8493,8 +8493,8 @@
         },
         {
           "id": 36,
-          "name": "Subaru Impreza II WRX STi (24 ч)",
-          "name_store": "Syberia Preza II WinR (24 ч)",
+          "name": "Subaru Impreza II WRX STi (24 h)",
+          "name_store": "Syberia Preza II WinR (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 28683,
@@ -8503,8 +8503,8 @@
         },
         {
           "id": 37,
-          "name": "Land Rover Range Rover III (24 ч)",
-          "name_store": "RangeLander 3 (24 ч)",
+          "name": "Land Rover Range Rover III (24 h)",
+          "name_store": "RangeLander 3 (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 760,
@@ -8513,8 +8513,8 @@
         },
         {
           "id": 38,
-          "name": "Hummer H2 (24 ч)",
-          "name_store": "H2 6x6 (24 ч)",
+          "name": "Hummer H2 (24 h)",
+          "name_store": "H2 6x6 (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 751,
@@ -8523,8 +8523,8 @@
         },
         {
           "id": 39,
-          "name": "Tank 500 (24 ч)",
-          "name_store": "TK 500 (24 ч)",
+          "name": "Tank 500 (24 h)",
+          "name_store": "TK 500 (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 28667,
@@ -8533,8 +8533,8 @@
         },
         {
           "id": 40,
-          "name": "Toyota Altezza (24 ч)",
-          "name_store": "Altezo (24 ч)",
+          "name": "Toyota Altezza (24 h)",
+          "name_store": "Altezo (24 h)",
           "rarity": 4,
           "type": 5,
           "internalId": 28735,
@@ -8543,8 +8543,8 @@
         },
         {
           "id": 41,
-          "name": "Zeekr 001 (24 ч)",
-          "name_store": "Zek 001 (24 ч)",
+          "name": "Zeekr 001 (24 h)",
+          "name_store": "Zek 001 (24 h)",
           "rarity": 4,
           "type": 5,
           "internalId": 28694,
@@ -8553,8 +8553,8 @@
         },
         {
           "id": 42,
-          "name": "Hummer H3T Alpha (24 ч)",
-          "name_store": "Hum 3 Alpha (24 ч)",
+          "name": "Hummer H3T Alpha (24 h)",
+          "name_store": "Hum 3 Alpha (24 h)",
           "rarity": 4,
           "type": 5,
           "internalId": 28732,
@@ -8563,8 +8563,8 @@
         },
         {
           "id": 43,
-          "name": "Toyota Land Cruiser 200 (24 ч)",
-          "name_store": "LC 200 (24 ч)",
+          "name": "Toyota Land Cruiser 200 (24 h)",
+          "name_store": "LC 200 (24 h)",
           "rarity": 4,
           "type": 5,
           "internalId": 2547,
@@ -8573,8 +8573,8 @@
         },
         {
           "id": 44,
-          "name": "Mercedes-Benz GLS 400 (24 ч)",
-          "name_store": "Geep 400LS (24 ч)",
+          "name": "Mercedes-Benz GLS 400 (24 h)",
+          "name_store": "Geep 400LS (24 h)",
           "rarity": 4,
           "type": 5,
           "internalId": 2550,
@@ -8583,8 +8583,8 @@
         },
         {
           "id": 45,
-          "name": "Volkswagen Touareg 2022 (24 ч)",
-          "name_store": "Tour gen (24 ч)",
+          "name": "Volkswagen Touareg 2022 (24 h)",
+          "name_store": "Tour gen (24 h)",
           "rarity": 4,
           "type": 5,
           "internalId": 763,
@@ -8593,8 +8593,8 @@
         },
         {
           "id": 46,
-          "name": "Hyundai Grandeur (24 ч)",
-          "name_store": "Grandour (24 ч)",
+          "name": "Hyundai Grandeur (24 h)",
+          "name_store": "Grandour (24 h)",
           "rarity": 4,
           "type": 5,
           "internalId": 28664,
@@ -8603,8 +8603,8 @@
         },
         {
           "id": 47,
-          "name": "Audi RS Q e-tron Dacar (24 ч)",
-          "name_store": "Aura Tronus Dacar (24 ч)",
+          "name": "Audi RS Q e-tron Dacar (24 h)",
+          "name_store": "Aura Tronus Dacar (24 h)",
           "rarity": 4,
           "type": 5,
           "internalId": 28660,
@@ -8613,8 +8613,8 @@
         },
         {
           "id": 48,
-          "name": "Ford Explorer (24 ч)",
-          "name_store": "F Explorer (24 ч)",
+          "name": "Ford Explorer (24 h)",
+          "name_store": "F Explorer (24 h)",
           "rarity": 4,
           "type": 5,
           "internalId": 28665,
@@ -8623,8 +8623,8 @@
         },
         {
           "id": 49,
-          "name": "Ford Mondeo (24 ч)",
-          "name_store": "F Rodeo (24 ч)",
+          "name": "Ford Mondeo (24 h)",
+          "name_store": "F Rodeo (24 h)",
           "rarity": 4,
           "type": 5,
           "internalId": 28668,
@@ -8633,8 +8633,8 @@
         },
         {
           "id": 50,
-          "name": "Mercedes-Benz G63 AMG (24 ч)",
-          "name_store": "Gelik 63 (24 ч)",
+          "name": "Mercedes-Benz G63 AMG (24 h)",
+          "name_store": "Gelik 63 (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 28672,
@@ -8643,8 +8643,8 @@
         },
         {
           "id": 51,
-          "name": "Xiaomi su7 (24 ч)",
-          "name_store": "Xi SU7 (24 ч)",
+          "name": "Xiaomi su7 (24 h)",
+          "name_store": "Xi SU7 (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 28666,
@@ -8653,8 +8653,8 @@
         },
         {
           "id": 52,
-          "name": "Ferrari 308 GTB (24 ч)",
-          "name_store": "Fer 308 GT (24 ч)",
+          "name": "Ferrari 308 GTB (24 h)",
+          "name_store": "Fer 308 GT (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 28680,
@@ -8663,8 +8663,8 @@
         },
         {
           "id": 53,
-          "name": "Mercedes-Benz G63 AMG 6x6 (24 ч)",
-          "name_store": "Gelik 63 6x6 (24 ч)",
+          "name": "Mercedes-Benz G63 AMG 6x6 (24 h)",
+          "name_store": "Gelik 63 6x6 (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 765,
@@ -8676,7 +8676,7 @@
         {
           "id": 1,
           "numberOpen": 40,
-          "name": "АВТО-КЕЙС B-C CLASS 24Ч Х5",
+          "name": "AUTO CASE B-C CLASS 24H X5",
           "rarity": 5,
           "type": 4,
           "renderId": "img_case_time_limited_auto_common.png",
@@ -8687,7 +8687,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "АВТО-КЕЙС B-C CLASS 24Ч Х5",
+          "name": "AUTO CASE B-C CLASS 24H X5",
           "rarity": 5,
           "type": 4,
           "renderId": "img_case_time_limited_auto_common.png",
@@ -8698,7 +8698,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "АВТО-КЕЙС B-C CLASS 24Ч Х5",
+          "name": "AUTO CASE B-C CLASS 24H X5",
           "rarity": 5,
           "type": 4,
           "renderId": "img_case_time_limited_auto_common.png",
@@ -8709,7 +8709,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "АВТО-КЕЙС B-C CLASS 24Ч Х5",
+          "name": "AUTO CASE B-C CLASS 24H X5",
           "rarity": 5,
           "type": 4,
           "renderId": "img_case_time_limited_auto_common.png",
@@ -8720,7 +8720,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "АВТО-КЕЙС B-C CLASS 24Ч Х5",
+          "name": "AUTO CASE B-C CLASS 24H X5",
           "rarity": 5,
           "type": 4,
           "renderId": "img_case_time_limited_auto_common.png",
@@ -8732,7 +8732,7 @@
     },
     {
       "id": 28,
-      "name": "АВТО-КЕЙС A-S CLASS 24Ч",
+      "name": "AUTO CASE A-S CLASS 24H",
       "dates": [
         1775354400,
         1775440800
@@ -8752,8 +8752,8 @@
       "awards": [
         {
           "id": 1,
-          "name": "Dodge Demon SRT (24 ч)",
-          "name_store": "Demon SRT (24 ч)",
+          "name": "Dodge Demon SRT (24 h)",
+          "name_store": "Demon SRT (24 h)",
           "rarity": 4,
           "type": 5,
           "internalId": 503,
@@ -8762,8 +8762,8 @@
         },
         {
           "id": 2,
-          "name": "Dodge Viper GTC (24 ч)",
-          "name_store": "Viper GTC (24 ч)",
+          "name": "Dodge Viper GTC (24 h)",
+          "name_store": "Viper GTC (24 h)",
           "rarity": 3,
           "type": 5,
           "internalId": 745,
@@ -8772,8 +8772,8 @@
         },
         {
           "id": 3,
-          "name": "Mercedes-AMG E63 S Wagon (24 ч)",
-          "name_store": "E63s Wagon (24 ч)",
+          "name": "Mercedes-AMG E63 S Wagon (24 h)",
+          "name_store": "E63s Wagon (24 h)",
           "rarity": 4,
           "type": 5,
           "internalId": 752,
@@ -8782,8 +8782,8 @@
         },
         {
           "id": 4,
-          "name": "Mercedes-Benz SL65 AMG (24 ч)",
-          "name_store": "SL65 AMG (24 ч)",
+          "name": "Mercedes-Benz SL65 AMG (24 h)",
+          "name_store": "SL65 AMG (24 h)",
           "rarity": 4,
           "type": 5,
           "internalId": 28701,
@@ -8792,8 +8792,8 @@
         },
         {
           "id": 5,
-          "name": "BMW M8 Competition Coupe (24 ч)",
-          "name_store": "M8 Coupe (24 ч)",
+          "name": "BMW M8 Competition Coupe (24 h)",
+          "name_store": "M8 Coupe (24 h)",
           "rarity": 4,
           "type": 5,
           "internalId": 28713,
@@ -8802,8 +8802,8 @@
         },
         {
           "id": 6,
-          "name": "Mercedes AMG GT (24 ч)",
-          "name_store": "AMG GT (24 ч)",
+          "name": "Mercedes AMG GT (24 h)",
+          "name_store": "AMG GT (24 h)",
           "rarity": 4,
           "type": 5,
           "internalId": 28736,
@@ -8812,8 +8812,8 @@
         },
         {
           "id": 7,
-          "name": "Lamborghini Reventon (24 ч)",
-          "name_store": "Reventon (24 ч)",
+          "name": "Lamborghini Reventon (24 h)",
+          "name_store": "Reventon (24 h)",
           "rarity": 4,
           "type": 5,
           "internalId": 28710,
@@ -8822,8 +8822,8 @@
         },
         {
           "id": 8,
-          "name": "Ferrari F50 (24 ч)",
-          "name_store": "F50 (24 ч)",
+          "name": "Ferrari F50 (24 h)",
+          "name_store": "F50 (24 h)",
           "rarity": 4,
           "type": 5,
           "internalId": 28733,
@@ -8832,8 +8832,8 @@
         },
         {
           "id": 9,
-          "name": "Alfa Romeo Guilia (24 ч)",
-          "name_store": "Giulia (24 ч)",
+          "name": "Alfa Romeo Guilia (24 h)",
+          "name_store": "Giulia (24 h)",
           "rarity": 4,
           "type": 5,
           "internalId": 551,
@@ -8842,8 +8842,8 @@
         },
         {
           "id": 10,
-          "name": "Ford Mustang GT3 (24 ч)",
-          "name_store": "Mustang GT3 (24 ч)",
+          "name": "Ford Mustang GT3 (24 h)",
+          "name_store": "Mustang GT3 (24 h)",
           "rarity": 4,
           "type": 5,
           "internalId": 28720,
@@ -8852,8 +8852,8 @@
         },
         {
           "id": 11,
-          "name": "Nissan GT-R R35 (24 ч)",
-          "name_store": "GT-R R35 (24 ч)",
+          "name": "Nissan GT-R R35 (24 h)",
+          "name_store": "GT-R R35 (24 h)",
           "rarity": 4,
           "type": 5,
           "internalId": 502,
@@ -8862,8 +8862,8 @@
         },
         {
           "id": 12,
-          "name": "Audi R8 V10 (24 ч)",
-          "name_store": "R8 V10 (24 ч)",
+          "name": "Audi R8 V10 (24 h)",
+          "name_store": "R8 V10 (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 533,
@@ -8872,8 +8872,8 @@
         },
         {
           "id": 13,
-          "name": "Chevrolet Corvette C8 (24 ч)",
-          "name_store": "Corvette C8 (24 ч)",
+          "name": "Chevrolet Corvette C8 (24 h)",
+          "name_store": "Corvette C8 (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 2393,
@@ -8882,8 +8882,8 @@
         },
         {
           "id": 14,
-          "name": "Audi R8 LMS GT2 (24 ч)",
-          "name_store": "R8 LMS GT2 (24 ч)",
+          "name": "Audi R8 LMS GT2 (24 h)",
+          "name_store": "R8 LMS GT2 (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 740,
@@ -8892,8 +8892,8 @@
         },
         {
           "id": 15,
-          "name": "SCG 003 (24 ч)",
-          "name_store": "SCG 003 (24 ч)",
+          "name": "SCG 003 (24 h)",
+          "name_store": "SCG 003 (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 632,
@@ -8902,8 +8902,8 @@
         },
         {
           "id": 16,
-          "name": "Lamborghini Aventador S (24 ч)",
-          "name_store": "Aventador S (24 ч)",
+          "name": "Lamborghini Aventador S (24 h)",
+          "name_store": "Aventador S (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 28723,
@@ -8912,8 +8912,8 @@
         },
         {
           "id": 17,
-          "name": "Ferrari 812 Superfast (24 ч)",
-          "name_store": "812 Superfast (24 ч)",
+          "name": "Ferrari 812 Superfast (24 h)",
+          "name_store": "812 Superfast (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 661,
@@ -8922,8 +8922,8 @@
         },
         {
           "id": 18,
-          "name": "Lincoln Phaeton HOT-ROD 1932 (24 ч)",
-          "name_store": "Hot-Rod 1932 (24 ч)",
+          "name": "Lincoln Phaeton HOT-ROD 1932 (24 h)",
+          "name_store": "Hot-Rod 1932 (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 28704,
@@ -8932,8 +8932,8 @@
         },
         {
           "id": 19,
-          "name": "BMW M4 CSL (24 ч)",
-          "name_store": "M4 CSL (24 ч)",
+          "name": "BMW M4 CSL (24 h)",
+          "name_store": "M4 CSL (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 28706,
@@ -8942,8 +8942,8 @@
         },
         {
           "id": 20,
-          "name": "Lamborghini Aventador SV 2017 (24 ч)",
-          "name_store": "Aventador SV (24 ч)",
+          "name": "Lamborghini Aventador SV 2017 (24 h)",
+          "name_store": "Aventador SV (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 28723,
@@ -8952,8 +8952,8 @@
         },
         {
           "id": 21,
-          "name": "Porsche 918 Spyder (24 ч)",
-          "name_store": "918 Spyder (24 ч)",
+          "name": "Porsche 918 Spyder (24 h)",
+          "name_store": "918 Spyder (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 755,
@@ -8962,8 +8962,8 @@
         },
         {
           "id": 22,
-          "name": "Koenigsegg CCXR (24 ч)",
-          "name_store": "CCXR (24 ч)",
+          "name": "Koenigsegg CCXR (24 h)",
+          "name_store": "CCXR (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 28705,
@@ -8972,8 +8972,8 @@
         },
         {
           "id": 23,
-          "name": "Ferrari SF90 Stradale Spider (24 ч)",
-          "name_store": "SF90 Spider (24 ч)",
+          "name": "Ferrari SF90 Stradale Spider (24 h)",
+          "name_store": "SF90 Spider (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 28661,
@@ -8982,8 +8982,8 @@
         },
         {
           "id": 24,
-          "name": "Lamborghini Countach (2022) (24 ч)",
-          "name_store": "Countach 2022 (24 ч)",
+          "name": "Lamborghini Countach (2022) (24 h)",
+          "name_store": "Countach 2022 (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 28682,
@@ -8992,8 +8992,8 @@
         },
         {
           "id": 25,
-          "name": "BMW M5 F90 (24 ч)",
-          "name_store": "M5 F90 (24 ч)",
+          "name": "BMW M5 F90 (24 h)",
+          "name_store": "M5 F90 (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 596,
@@ -9002,8 +9002,8 @@
         },
         {
           "id": 26,
-          "name": "McLaren P1 (24 ч)",
-          "name_store": "P1 (24 ч)",
+          "name": "McLaren P1 (24 h)",
+          "name_store": "P1 (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 28717,
@@ -9012,8 +9012,8 @@
         },
         {
           "id": 27,
-          "name": "Toyota Custom BodyKit (24 ч)",
-          "name_store": "Custom BodyKit (24 ч)",
+          "name": "Toyota Custom BodyKit (24 h)",
+          "name_store": "Custom BodyKit (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 28740,
@@ -9022,8 +9022,8 @@
         },
         {
           "id": 28,
-          "name": "Bugatti Centodieci (24 ч)",
-          "name_store": "Centodieci (24 ч)",
+          "name": "Bugatti Centodieci (24 h)",
+          "name_store": "Centodieci (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 28689,
@@ -9032,8 +9032,8 @@
         },
         {
           "id": 29,
-          "name": "Lamborghini Centenario (24 ч)",
-          "name_store": "Centenario (24 ч)",
+          "name": "Lamborghini Centenario (24 h)",
+          "name_store": "Centenario (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 28738,
@@ -9042,8 +9042,8 @@
         },
         {
           "id": 30,
-          "name": "Lamborghini Veneno 2013 (24 ч)",
-          "name_store": "Veneno (24 ч)",
+          "name": "Lamborghini Veneno 2013 (24 h)",
+          "name_store": "Veneno (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 28708,
@@ -9052,8 +9052,8 @@
         },
         {
           "id": 31,
-          "name": "Porsche Mission R (24 ч)",
-          "name_store": "Mission R (24 ч)",
+          "name": "Porsche Mission R (24 h)",
+          "name_store": "Mission R (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 28719,
@@ -9062,8 +9062,8 @@
         },
         {
           "id": 32,
-          "name": "Bugatti Divo (24 ч)",
-          "name_store": "Divo (24 ч)",
+          "name": "Bugatti Divo (24 h)",
+          "name_store": "Divo (24 h)",
           "rarity": 5,
           "type": 5,
           "internalId": 2570,
@@ -9075,7 +9075,7 @@
         {
           "id": 1,
           "numberOpen": 40,
-          "name": "АВТО-КЕЙС A-S CLASS 24Ч Х5",
+          "name": "AUTO CASE A-S CLASS 24H X5",
           "rarity": 5,
           "type": 4,
           "renderId": "img_case_time_limited_auto_expensive.png",
@@ -9086,7 +9086,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "АВТО-КЕЙС A-S CLASS 24Ч Х5",
+          "name": "AUTO CASE A-S CLASS 24H X5",
           "rarity": 5,
           "type": 4,
           "renderId": "img_case_time_limited_auto_expensive.png",
@@ -9097,7 +9097,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "АВТО-КЕЙС A-S CLASS 24Ч Х5",
+          "name": "AUTO CASE A-S CLASS 24H X5",
           "rarity": 5,
           "type": 4,
           "renderId": "img_case_time_limited_auto_expensive.png",
@@ -9108,7 +9108,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "АВТО-КЕЙС A-S CLASS 24Ч Х5",
+          "name": "AUTO CASE A-S CLASS 24H X5",
           "rarity": 5,
           "type": 4,
           "renderId": "img_case_time_limited_auto_expensive.png",
@@ -9119,7 +9119,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "АВТО-КЕЙС A-S CLASS 24Ч Х5",
+          "name": "AUTO CASE A-S CLASS 24H X5",
           "rarity": 5,
           "type": 4,
           "renderId": "img_case_time_limited_auto_expensive.png",
@@ -9131,7 +9131,7 @@
     },
     {
       "id": 24,
-      "name": "КЕЙС: ДЕТЕКТИВ",
+      "name": "CASE: DETECTIVE",
       "dates": [
         1777514400,
         1778724000
@@ -9151,7 +9151,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Очки Доллар",
+          "name": "Dollar Glasses",
           "rarity": 2,
           "type": 11,
           "internalId": 367,
@@ -9160,7 +9160,7 @@
         },
         {
           "id": 2,
-          "name": "Белая панама с сигарой",
+          "name": "White Panama hat with a cigar",
           "rarity": 2,
           "type": 11,
           "internalId": 187,
@@ -9169,7 +9169,7 @@
         },
         {
           "id": 3,
-          "name": "Прямые очки 'WARNING'",
+          "name": "Straight glasses 'WARNING'",
           "rarity": 2,
           "type": 11,
           "internalId": 326,
@@ -9178,7 +9178,7 @@
         },
         {
           "id": 4,
-          "name": "Солдатка Красавица",
+          "name": "Beautiful female soldier",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -9187,7 +9187,7 @@
         },
         {
           "id": 5,
-          "name": "Бархатные тяги особые",
+          "name": "Special velvet traction",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -9196,7 +9196,7 @@
         },
         {
           "id": 6,
-          "name": "Анимированная Лапка",
+          "name": "Animated Paw",
           "rarity": 2,
           "type": 11,
           "internalId": 709,
@@ -9224,7 +9224,7 @@
         },
         {
           "id": 9,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -9233,7 +9233,7 @@
         },
         {
           "id": 10,
-          "name": "Барыга преступник",
+          "name": "Criminal dealer",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -9242,7 +9242,7 @@
         },
         {
           "id": 11,
-          "name": "Мент из клипа",
+          "name": "Cop from the music video",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -9251,7 +9251,7 @@
         },
         {
           "id": 12,
-          "name": "1200000 Р",
+          "name": "1200000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -9270,7 +9270,7 @@
         },
         {
           "id": 14,
-          "name": "1500000 Р",
+          "name": "1500000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -9289,7 +9289,7 @@
         },
         {
           "id": 16,
-          "name": "Рюкзак Верный друг",
+          "name": "Faithful Friend Backpack",
           "rarity": 3,
           "type": 11,
           "renderId": "img_100091.png",
@@ -9299,7 +9299,7 @@
         },
         {
           "id": 17,
-          "name": "Маша Оперативница",
+          "name": "Masha Operative",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5500107.png",
@@ -9309,7 +9309,7 @@
         },
         {
           "id": 18,
-          "name": "Маска Крысы",
+          "name": "Rat Mask",
           "rarity": 4,
           "type": 11,
           "renderId": "img_100090.png",
@@ -9319,7 +9319,7 @@
         },
         {
           "id": 19,
-          "name": "Полицейский щит",
+          "name": "Police Shield",
           "rarity": 4,
           "type": 11,
           "renderId": "img_100089.png",
@@ -9329,7 +9329,7 @@
         },
         {
           "id": 20,
-          "name": "3000000 Р",
+          "name": "3000000 R",
           "rarity": 4,
           "type": 2,
           "internalId": 1,
@@ -9358,7 +9358,7 @@
         },
         {
           "id": 23,
-          "name": "Таинственный Незнакомец",
+          "name": "Mysterious Stranger",
           "rarity": 4,
           "type": 11,
           "renderId": "img_5500108.png",
@@ -9406,7 +9406,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "2500000 Р",
+          "name": "2500000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -9416,7 +9416,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: ДЕТЕКТИВ Х2",
+          "name": "CASE: DETECTIVE X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event19.png",
@@ -9427,7 +9427,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "1200000 Р",
+          "name": "1200000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -9437,7 +9437,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: ДЕТЕКТИВ Х1",
+          "name": "CASE: DETECTIVE X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event19.png",
@@ -9449,7 +9449,7 @@
     },
     {
       "id": 29,
-      "name": "КЕЙС: ЖАРА",
+      "name": "CASE: HEAT",
       "dates": [
         1781056800,
         1782352800
@@ -9469,7 +9469,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Неоновые очки",
+          "name": "Neon glasses",
           "rarity": 2,
           "type": 11,
           "internalId": 371,
@@ -9478,7 +9478,7 @@
         },
         {
           "id": 2,
-          "name": "Темная панама с сигарой",
+          "name": "Dark panama with cigar",
           "rarity": 2,
           "type": 11,
           "internalId": 297,
@@ -9487,7 +9487,7 @@
         },
         {
           "id": 3,
-          "name": "Очки 'Санрайз у воды'",
+          "name": "Glasses 'Sunrise by the Water'",
           "rarity": 2,
           "type": 11,
           "internalId": 324,
@@ -9496,7 +9496,7 @@
         },
         {
           "id": 4,
-          "name": "Хоуми с района",
+          "name": "Homie from the block",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -9505,7 +9505,7 @@
         },
         {
           "id": 5,
-          "name": "Бархатные тяги особые",
+          "name": "Special velvet traction",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -9514,7 +9514,7 @@
         },
         {
           "id": 6,
-          "name": "Крылья ангела",
+          "name": "Angel wings",
           "rarity": 2,
           "type": 11,
           "internalId": 511,
@@ -9542,7 +9542,7 @@
         },
         {
           "id": 9,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -9551,7 +9551,7 @@
         },
         {
           "id": 10,
-          "name": "Батарейки Х5000",
+          "name": "Batteries X5000",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -9561,7 +9561,7 @@
         },
         {
           "id": 11,
-          "name": "Мент из клипа",
+          "name": "Cop from the music video",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -9570,7 +9570,7 @@
         },
         {
           "id": 12,
-          "name": "Батарейки Х7500",
+          "name": "Batteries X7500",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -9610,7 +9610,7 @@
         },
         {
           "id": 16,
-          "name": "Солнечная тусовщица",
+          "name": "Sunny Party Girl",
           "rarity": 3,
           "type": 11,
           "renderId": "sk_5500116.png",
@@ -9630,7 +9630,7 @@
         },
         {
           "id": 18,
-          "name": "Пляжное полотенце",
+          "name": "Beach Towel",
           "rarity": 4,
           "type": 11,
           "renderId": "acs_100435.png",
@@ -9640,7 +9640,7 @@
         },
         {
           "id": 19,
-          "name": "Пляжный заводила",
+          "name": "Beach Ringleader",
           "rarity": 4,
           "type": 11,
           "renderId": "sk_5500115.png",
@@ -9650,7 +9650,7 @@
         },
         {
           "id": 20,
-          "name": "Сумка Божья коровка",
+          "name": "Ladybug Bag",
           "rarity": 4,
           "type": 11,
           "renderId": "acs_100436.png",
@@ -9660,7 +9660,7 @@
         },
         {
           "id": 21,
-          "name": "Батарейки Х15000",
+          "name": "Batteries X15000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -9728,7 +9728,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "Батарейки Х10000",
+          "name": "Batteries X10000",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -9739,7 +9739,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: ЖАРА Х2",
+          "name": "CASE: HEAT X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event20.png",
@@ -9750,7 +9750,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "Батарейки Х5000",
+          "name": "Batteries X5000",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -9761,7 +9761,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: ЖАРА Х1",
+          "name": "CASE: HEAT X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event20.png",
@@ -9773,7 +9773,7 @@
     },
     {
       "id": 30,
-      "name": "КЕЙС: ПЕКЛО",
+      "name": "CASE: SWELTER",
       "dates": [
         1783562400,
         1783562400
@@ -9793,7 +9793,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Неоновые очки",
+          "name": "Neon glasses",
           "rarity": 2,
           "type": 11,
           "internalId": 370,
@@ -9802,7 +9802,7 @@
         },
         {
           "id": 2,
-          "name": "Белая панама с сигарой",
+          "name": "White Panama hat with a cigar",
           "rarity": 2,
           "type": 11,
           "internalId": 187,
@@ -9811,7 +9811,7 @@
         },
         {
           "id": 3,
-          "name": "Очки 'Санрайз у воды'",
+          "name": "Glasses 'Sunrise by the Water'",
           "rarity": 2,
           "type": 11,
           "internalId": 324,
@@ -9820,7 +9820,7 @@
         },
         {
           "id": 4,
-          "name": "Хоуми с района",
+          "name": "Homie from the block",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -9829,7 +9829,7 @@
         },
         {
           "id": 5,
-          "name": "Бархатные тяги особые",
+          "name": "Special velvet traction",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -9838,7 +9838,7 @@
         },
         {
           "id": 6,
-          "name": "Надувной жилет",
+          "name": "Life jacket",
           "rarity": 2,
           "type": 11,
           "internalId": 915,
@@ -9866,7 +9866,7 @@
         },
         {
           "id": 9,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -9875,7 +9875,7 @@
         },
         {
           "id": 10,
-          "name": "Батарейки Х5000",
+          "name": "Batteries X5000",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -9885,7 +9885,7 @@
         },
         {
           "id": 11,
-          "name": "Мент из клипа",
+          "name": "Cop from the music video",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -9894,7 +9894,7 @@
         },
         {
           "id": 12,
-          "name": "Батарейки Х7500",
+          "name": "Batteries X7500",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -9945,7 +9945,7 @@
         },
         {
           "id": 17,
-          "name": "Азамат Весельчак",
+          "name": "Azamat Fun Guy",
           "rarity": 3,
           "type": 11,
           "renderId": "sk_5500118.png",
@@ -9955,7 +9955,7 @@
         },
         {
           "id": 18,
-          "name": "Летняя милаха",
+          "name": "Summer Cutie",
           "rarity": 4,
           "type": 11,
           "renderId": "sk_5500117.png",
@@ -9965,7 +9965,7 @@
         },
         {
           "id": 19,
-          "name": "Сумка Аквариум",
+          "name": "Aquarium Bag",
           "rarity": 4,
           "type": 11,
           "renderId": "acs_100438.png",
@@ -9975,7 +9975,7 @@
         },
         {
           "id": 20,
-          "name": "Маска Тики",
+          "name": "Tiki Mask",
           "rarity": 4,
           "type": 11,
           "renderId": "acs_100437.png",
@@ -9985,7 +9985,7 @@
         },
         {
           "id": 21,
-          "name": "Батарейки Х15000",
+          "name": "Batteries X15000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -10053,7 +10053,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "Батарейки Х10000",
+          "name": "Batteries X10000",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -10064,7 +10064,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: ПЕКЛО Х2",
+          "name": "CASE: SWELTER X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event21.png",
@@ -10075,7 +10075,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "Батарейки Х5000",
+          "name": "Batteries X5000",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -10086,7 +10086,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: ПЕКЛО Х1",
+          "name": "CASE: SWELTER X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event21.png",
@@ -10098,7 +10098,7 @@
     },
     {
       "id": 31,
-      "name": "КЕЙС: ЧЕМПИОН",
+      "name": "CASE: CHAMPION",
       "dates": [
         1783562400,
         1784772000
@@ -10118,7 +10118,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Очки Доллар",
+          "name": "Dollar Glasses",
           "rarity": 2,
           "type": 11,
           "internalId": 367,
@@ -10127,7 +10127,7 @@
         },
         {
           "id": 2,
-          "name": "Темная панама с сигарой",
+          "name": "Dark panama with cigar",
           "rarity": 2,
           "type": 11,
           "internalId": 297,
@@ -10136,7 +10136,7 @@
         },
         {
           "id": 3,
-          "name": "Корона Короля",
+          "name": "King's Crown",
           "rarity": 2,
           "type": 11,
           "internalId": 363,
@@ -10145,7 +10145,7 @@
         },
         {
           "id": 4,
-          "name": "Хоуми с района",
+          "name": "Homie from the block",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -10154,7 +10154,7 @@
         },
         {
           "id": 5,
-          "name": "Бархатные тяги спортивные",
+          "name": "Sport velvet traction",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -10163,7 +10163,7 @@
         },
         {
           "id": 6,
-          "name": "Очки люкс",
+          "name": "Luxury glasses",
           "rarity": 2,
           "type": 11,
           "internalId": 917,
@@ -10191,7 +10191,7 @@
         },
         {
           "id": 9,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "internalId": 1,
@@ -10200,7 +10200,7 @@
         },
         {
           "id": 10,
-          "name": "Барыга преступник",
+          "name": "Criminal dealer",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -10209,7 +10209,7 @@
         },
         {
           "id": 11,
-          "name": "Мент из клипа",
+          "name": "Cop from the music video",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -10218,7 +10218,7 @@
         },
         {
           "id": 12,
-          "name": "1200000 Р",
+          "name": "1200000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -10267,7 +10267,7 @@
         },
         {
           "id": 17,
-          "name": "Футбольная болельщица",
+          "name": "Football Cheerleader",
           "rarity": 4,
           "type": 11,
           "renderId": "sk_5500125.png",
@@ -10277,7 +10277,7 @@
         },
         {
           "id": 18,
-          "name": "Юный чемпион",
+          "name": "Young Champion",
           "rarity": 4,
           "type": 11,
           "renderId": "sk_5500124.png",
@@ -10287,7 +10287,7 @@
         },
         {
           "id": 19,
-          "name": "Кубок Чемпиона",
+          "name": "Champion's Trophy",
           "rarity": 4,
           "type": 11,
           "renderId": "acs_100442.png",
@@ -10297,7 +10297,7 @@
         },
         {
           "id": 20,
-          "name": "Рюкзак Чемпиона",
+          "name": "Champion's Backpack",
           "rarity": 4,
           "type": 11,
           "renderId": "acs_100443.png",
@@ -10307,7 +10307,7 @@
         },
         {
           "id": 21,
-          "name": "3000000 Р",
+          "name": "3000000 R",
           "rarity": 4,
           "type": 2,
           "internalId": 1,
@@ -10374,7 +10374,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "2500000 Р",
+          "name": "2500000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -10384,7 +10384,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: ЧЕМПИОН Х2",
+          "name": "CASE: CHAMPION X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event22.png",
@@ -10395,7 +10395,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "1200000 Р",
+          "name": "1200000 R",
           "rarity": 3,
           "type": 2,
           "internalId": 1,
@@ -10405,7 +10405,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: ЧЕМПИОН Х1",
+          "name": "CASE: CHAMPION X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event22.png",
@@ -10417,7 +10417,7 @@
     },
     {
       "id": 32,
-      "name": "КЕЙС: КЛУБНЫЙ",
+      "name": "CASE: CLUB",
       "dates": [
         1784772000,
         1785981600
@@ -10437,7 +10437,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Неоновые очки",
+          "name": "Neon glasses",
           "rarity": 2,
           "type": 11,
           "internalId": 371,
@@ -10446,7 +10446,7 @@
         },
         {
           "id": 2,
-          "name": "Кандибобер Красный",
+          "name": "Red Kandibober",
           "rarity": 2,
           "type": 11,
           "internalId": 221,
@@ -10455,7 +10455,7 @@
         },
         {
           "id": 3,
-          "name": "Черная Панама",
+          "name": "Black Panama Hat",
           "rarity": 2,
           "type": 11,
           "internalId": 295,
@@ -10464,7 +10464,7 @@
         },
         {
           "id": 4,
-          "name": "Бархатные тяги особые",
+          "name": "Special velvet traction",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -10473,7 +10473,7 @@
         },
         {
           "id": 5,
-          "name": "Крылья ангела",
+          "name": "Angel wings",
           "rarity": 2,
           "type": 11,
           "internalId": 511,
@@ -10501,7 +10501,7 @@
         },
         {
           "id": 8,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "renderId": "ic_prize_money.png",
@@ -10511,7 +10511,7 @@
         },
         {
           "id": 9,
-          "name": "Бизнес Леди",
+          "name": "Business Lady",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -10520,7 +10520,7 @@
         },
         {
           "id": 10,
-          "name": "Сотрудник Фирмы",
+          "name": "Company employee",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -10529,7 +10529,7 @@
         },
         {
           "id": 11,
-          "name": "Мент из клипа",
+          "name": "Cop from the music video",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -10538,7 +10538,7 @@
         },
         {
           "id": 12,
-          "name": "1200000 Р",
+          "name": "1200000 R",
           "rarity": 3,
           "type": 2,
           "renderId": "ic_prize_money.png",
@@ -10588,7 +10588,7 @@
         },
         {
           "id": 17,
-          "name": "Люксовая Сумка",
+          "name": "Luxury Bag",
           "rarity": 4,
           "type": 11,
           "renderId": "acs_100456.png",
@@ -10598,7 +10598,7 @@
         },
         {
           "id": 18,
-          "name": "Трость Кобра",
+          "name": "Cobra Cane",
           "rarity": 4,
           "type": 11,
           "renderId": "acs_100457.png",
@@ -10608,7 +10608,7 @@
         },
         {
           "id": 19,
-          "name": "Жанна Аркадьевна",
+          "name": "Zhanna Arkadyevna",
           "rarity": 4,
           "type": 11,
           "renderId": "sk_5500132.png",
@@ -10618,7 +10618,7 @@
         },
         {
           "id": 20,
-          "name": "Суровый Джентльмен",
+          "name": "Stern Gentleman",
           "rarity": 4,
           "type": 11,
           "renderId": "sk_5500133.png",
@@ -10628,7 +10628,7 @@
         },
         {
           "id": 21,
-          "name": "3000000 Р",
+          "name": "3000000 R",
           "rarity": 4,
           "type": 2,
           "renderId": "ic_prize_money.png",
@@ -10683,8 +10683,8 @@
         {
           "id": 1,
           "numberOpen": 40,
-          "name": "ЗИС-115",
-          "name_store": "ЗаСт 115",
+          "name": "ZIS-115",
+          "name_store": "Outpost 115",
           "rarity": 5,
           "type": 5,
           "renderId": "veh_28773.png",
@@ -10696,7 +10696,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "2500000 Р",
+          "name": "2500000 R",
           "rarity": 4,
           "type": 2,
           "renderId": "ic_prize_money.png",
@@ -10707,7 +10707,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: КЛУБНЫЙ Х2",
+          "name": "CASE: CLUB X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event23.png",
@@ -10718,7 +10718,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "1200000 Р",
+          "name": "1200000 R",
           "rarity": 4,
           "type": 2,
           "renderId": "ic_prize_money.png",
@@ -10729,7 +10729,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: КЛУБНЫЙ X1",
+          "name": "CASE: CLUB X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event23.png",
@@ -10741,7 +10741,7 @@
     },
     {
       "id": 33,
-      "name": "КЕЙС: КИБЕРДЕРЕВНЯ",
+      "name": "CASE: CYBERVILLAGE",
       "dates": [
         1785981600,
         1787796000
@@ -10761,7 +10761,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Кандибобер Красный",
+          "name": "Red Kandibober",
           "rarity": 2,
           "type": 11,
           "internalId": 221,
@@ -10770,7 +10770,7 @@
         },
         {
           "id": 2,
-          "name": "Прямые очки 'Матрица'",
+          "name": "Straight glasses 'Matrix'",
           "rarity": 2,
           "type": 11,
           "internalId": 316,
@@ -10779,7 +10779,7 @@
         },
         {
           "id": 3,
-          "name": "Бабуля Нюра",
+          "name": "Grandma Nyura",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -10788,7 +10788,7 @@
         },
         {
           "id": 4,
-          "name": "Рыбак",
+          "name": "Fisherman",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -10816,7 +10816,7 @@
         },
         {
           "id": 7,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "renderId": "ic_prize_money.png",
@@ -10826,8 +10826,8 @@
         },
         {
           "id": 8,
-          "name": "Моторная лодка",
-          "name_store": "Моторная лодка",
+          "name": "Motor boat",
+          "name_store": "Motor boat",
           "rarity": 3,
           "type": 5,
           "internalId": 472,
@@ -10836,7 +10836,7 @@
         },
         {
           "id": 9,
-          "name": "Батарейки Х5000",
+          "name": "Batteries X5000",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -10846,7 +10846,7 @@
         },
         {
           "id": 10,
-          "name": "Сотрудник Фирмы",
+          "name": "Company employee",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -10855,7 +10855,7 @@
         },
         {
           "id": 11,
-          "name": "Мент из клипа",
+          "name": "Cop from the music video",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -10864,7 +10864,7 @@
         },
         {
           "id": 12,
-          "name": "Глушь",
+          "name": "Backwoods",
           "rarity": 3,
           "type": 11,
           "renderId": "wp_51.png",
@@ -10874,7 +10874,7 @@
         },
         {
           "id": 13,
-          "name": "Батарейки Х7500",
+          "name": "Batteries X7500",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -10923,7 +10923,7 @@
         },
         {
           "id": 18,
-          "name": "ЭлектроГармонь",
+          "name": "Electro Accordion",
           "rarity": 4,
           "type": 11,
           "renderId": "acs_100458.png",
@@ -10933,7 +10933,7 @@
         },
         {
           "id": 19,
-          "name": "Напарник Жужик",
+          "name": "Partner Zhuzhik",
           "rarity": 4,
           "type": 11,
           "renderId": "acs_100450.png",
@@ -10943,7 +10943,7 @@
         },
         {
           "id": 20,
-          "name": "Кулибин",
+          "name": "Kulibin",
           "rarity": 4,
           "type": 11,
           "renderId": "sk_5500134.png",
@@ -10953,7 +10953,7 @@
         },
         {
           "id": 21,
-          "name": "Робогозин",
+          "name": "Robogozin",
           "rarity": 4,
           "type": 11,
           "renderId": "sk_5500135.png",
@@ -10963,7 +10963,7 @@
         },
         {
           "id": 22,
-          "name": "Батарейки Х15000",
+          "name": "Batteries X15000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -10973,7 +10973,7 @@
         },
         {
           "id": 23,
-          "name": "Батарейки Х25000",
+          "name": "Batteries X25000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -11033,7 +11033,7 @@
         },
         {
           "id": 29,
-          "name": "Батарейки Х50000",
+          "name": "Batteries X50000",
           "rarity": 5,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -11043,8 +11043,8 @@
         },
         {
           "id": 30,
-          "name": "КиберГАЗ-21",
-          "name_store": "КиберАЗ 21",
+          "name": "CyberGAZ-21",
+          "name_store": "CyberAZ 21",
           "rarity": 5,
           "type": 5,
           "renderId": "veh_28774.png",
@@ -11067,8 +11067,8 @@
         {
           "id": 1,
           "numberOpen": 40,
-          "name": "Кибербуханка",
-          "name_store": "Кибербуханка",
+          "name": "Cyber Bukhanka",
+          "name_store": "Cyber Bukhanka",
           "rarity": 5,
           "type": 5,
           "renderId": "veh_28775.png",
@@ -11080,7 +11080,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "Батарейки Х10000",
+          "name": "Batteries X10000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -11091,7 +11091,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: КИБЕРДЕРЕВНЯ Х2",
+          "name": "CASE: CYBERVILLAGE X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event24.png",
@@ -11102,7 +11102,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "Батарейки Х5000",
+          "name": "Batteries X5000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -11113,7 +11113,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: КИБЕРДЕРЕВНЯ X1",
+          "name": "CASE: CYBERVILLAGE X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event24.png",
@@ -11125,7 +11125,7 @@
     },
     {
       "id": 34,
-      "name": "КЕЙС: ТУЗ",
+      "name": "CASE: ACE",
       "dates": [
         1788400800,
         1789610400
@@ -11145,7 +11145,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Очки Доллар",
+          "name": "Dollar Glasses",
           "rarity": 2,
           "type": 11,
           "internalId": 367,
@@ -11154,7 +11154,7 @@
         },
         {
           "id": 2,
-          "name": "Белая панама 'Gucci'",
+          "name": "White 'Gucci' Panama hat",
           "rarity": 2,
           "type": 11,
           "internalId": 200,
@@ -11163,7 +11163,7 @@
         },
         {
           "id": 3,
-          "name": "Бархатные тяги особые",
+          "name": "Special velvet traction",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -11172,7 +11172,7 @@
         },
         {
           "id": 4,
-          "name": "Корона Короля",
+          "name": "King's Crown",
           "rarity": 2,
           "type": 11,
           "internalId": 363,
@@ -11201,7 +11201,7 @@
         },
         {
           "id": 7,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "renderId": "ic_prize_money.png",
@@ -11211,7 +11211,7 @@
         },
         {
           "id": 8,
-          "name": "Бизнес Леди",
+          "name": "Business Lady",
           "rarity": 3,
           "type": 11,
           "renderId": "img_6896.png",
@@ -11221,7 +11221,7 @@
         },
         {
           "id": 9,
-          "name": "Опасный мужчина",
+          "name": "Dangerous man",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -11230,7 +11230,7 @@
         },
         {
           "id": 10,
-          "name": "Мент из клипа",
+          "name": "Cop from the music video",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -11249,7 +11249,7 @@
         },
         {
           "id": 12,
-          "name": "Фишки Х7500",
+          "name": "Chips X7500",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -11280,7 +11280,7 @@
         {
           "id": 15,
           "name": "BMW Z4 M40i",
-          "name_store": "Boomer 4 Кабриолет",
+          "name_store": "Boomer 4 Convertible",
           "rarity": 3,
           "type": 5,
           "internalId": 480,
@@ -11309,7 +11309,7 @@
         },
         {
           "id": 18,
-          "name": "Кейс миллионера",
+          "name": "Millionaire Case",
           "rarity": 4,
           "type": 11,
           "renderId": "acs_100480.png",
@@ -11319,7 +11319,7 @@
         },
         {
           "id": 19,
-          "name": "Шляпа Рулетка",
+          "name": "Roulette Hat",
           "rarity": 4,
           "type": 11,
           "renderId": "acs_100481.png",
@@ -11329,7 +11329,7 @@
         },
         {
           "id": 20,
-          "name": "Хозяин Удачи",
+          "name": "Master of Luck",
           "rarity": 4,
           "type": 11,
           "renderId": "sk_5500142.png",
@@ -11339,7 +11339,7 @@
         },
         {
           "id": 21,
-          "name": "Алексей Лютов, Туз",
+          "name": "Aleksey Lyutov, Ace",
           "rarity": 4,
           "type": 11,
           "renderId": "sk_5500143.png",
@@ -11349,7 +11349,7 @@
         },
         {
           "id": 22,
-          "name": "Фишки Х15000",
+          "name": "Chips X15000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -11359,7 +11359,7 @@
         },
         {
           "id": 23,
-          "name": "Фишки Х25000",
+          "name": "Chips X25000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -11389,8 +11389,8 @@
         },
         {
           "id": 26,
-          "name": "ЗИЛ 4104",
-          "name_store": "ИЛ 41",
+          "name": "ZIL 4104",
+          "name_store": "IL 41",
           "rarity": 4,
           "type": 5,
           "internalId": 614,
@@ -11419,7 +11419,7 @@
         },
         {
           "id": 29,
-          "name": "Фишки Х50000",
+          "name": "Chips X50000",
           "rarity": 5,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -11467,7 +11467,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "Фишки Х10000",
+          "name": "Chips X10000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -11478,7 +11478,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: ТУЗ Х2",
+          "name": "CASE: ACE X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event25.png",
@@ -11489,7 +11489,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "Фишки Х5000",
+          "name": "Chips X5000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -11500,7 +11500,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: ТУЗ X1",
+          "name": "CASE: ACE X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event25.png",
@@ -11512,7 +11512,7 @@
     },
     {
       "id": 35,
-      "name": "КЕЙС: КОЗЫРЬ",
+      "name": "CASE: TRUMP",
       "dates": [
         1789610400,
         1790820000
@@ -11532,7 +11532,7 @@
       "awards": [
         {
           "id": 1,
-          "name": "Очки Доллар",
+          "name": "Dollar Glasses",
           "rarity": 2,
           "type": 11,
           "internalId": 367,
@@ -11541,7 +11541,7 @@
         },
         {
           "id": 2,
-          "name": "Белая панама 'Gucci'",
+          "name": "White 'Gucci' Panama hat",
           "rarity": 2,
           "type": 11,
           "internalId": 200,
@@ -11550,7 +11550,7 @@
         },
         {
           "id": 3,
-          "name": "Бархатные тяги особые",
+          "name": "Special velvet traction",
           "rarity": 2,
           "type": 11,
           "internalId": 134,
@@ -11559,7 +11559,7 @@
         },
         {
           "id": 4,
-          "name": "Корона Короля",
+          "name": "King's Crown",
           "rarity": 2,
           "type": 11,
           "internalId": 363,
@@ -11588,7 +11588,7 @@
         },
         {
           "id": 7,
-          "name": "900000 Р",
+          "name": "900000 R",
           "rarity": 2,
           "type": 2,
           "renderId": "ic_prize_money.png",
@@ -11598,7 +11598,7 @@
         },
         {
           "id": 8,
-          "name": "Бизнес Леди",
+          "name": "Business Lady",
           "rarity": 3,
           "type": 11,
           "renderId": "img_6896.png",
@@ -11608,7 +11608,7 @@
         },
         {
           "id": 9,
-          "name": "Опасный мужчина",
+          "name": "Dangerous man",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -11617,7 +11617,7 @@
         },
         {
           "id": 10,
-          "name": "Мент из клипа",
+          "name": "Cop from the music video",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -11636,7 +11636,7 @@
         },
         {
           "id": 12,
-          "name": "Фишки Х7500",
+          "name": "Chips X7500",
           "rarity": 3,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -11656,7 +11656,7 @@
         },
         {
           "id": 14,
-          "name": "Джеймс Бонд",
+          "name": "James Bond",
           "rarity": 3,
           "type": 11,
           "internalId": 134,
@@ -11666,7 +11666,7 @@
         {
           "id": 15,
           "name": "BMW Z4 M40i",
-          "name_store": "Boomer 4 Кабриолет",
+          "name_store": "Boomer 4 Convertible",
           "rarity": 3,
           "type": 5,
           "internalId": 480,
@@ -11695,7 +11695,7 @@
         },
         {
           "id": 18,
-          "name": "Рюкзак Рулетка",
+          "name": "Roulette Backpack",
           "rarity": 4,
           "type": 11,
           "renderId": "acs_100482.png",
@@ -11705,7 +11705,7 @@
         },
         {
           "id": 19,
-          "name": "Сумка Деловая",
+          "name": "Business Bag",
           "rarity": 4,
           "type": 11,
           "renderId": "acs_100483.png",
@@ -11715,7 +11715,7 @@
         },
         {
           "id": 20,
-          "name": "Ева Краснова",
+          "name": "Eva Krasnova",
           "rarity": 4,
           "type": 11,
           "renderId": "sk_5500144.png",
@@ -11725,7 +11725,7 @@
         },
         {
           "id": 21,
-          "name": "Александр Лютов, Козырь",
+          "name": "Aleksandr Lyutov, Trump Card",
           "rarity": 4,
           "type": 11,
           "renderId": "sk_5500145.png",
@@ -11735,7 +11735,7 @@
         },
         {
           "id": 22,
-          "name": "Фишки Х15000",
+          "name": "Chips X15000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -11745,7 +11745,7 @@
         },
         {
           "id": 23,
-          "name": "Фишки Х25000",
+          "name": "Chips X25000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -11775,8 +11775,8 @@
         },
         {
           "id": 26,
-          "name": "ЗИЛ 4104",
-          "name_store": "ИЛ 41",
+          "name": "ZIL 4104",
+          "name_store": "IL 41",
           "rarity": 4,
           "type": 5,
           "internalId": 614,
@@ -11805,7 +11805,7 @@
         },
         {
           "id": 29,
-          "name": "Фишки Х50000",
+          "name": "Chips X50000",
           "rarity": 5,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -11853,7 +11853,7 @@
         {
           "id": 2,
           "numberOpen": 30,
-          "name": "Фишки Х10000",
+          "name": "Chips X10000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -11864,7 +11864,7 @@
         {
           "id": 3,
           "numberOpen": 20,
-          "name": "КЕЙС: КОЗЫРЬ Х2",
+          "name": "CASE: TRUMP X2",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event26.png",
@@ -11875,7 +11875,7 @@
         {
           "id": 4,
           "numberOpen": 10,
-          "name": "Фишки Х5000",
+          "name": "Chips X5000",
           "rarity": 4,
           "type": 23,
           "renderId": "img_event_res_cases.png",
@@ -11886,7 +11886,7 @@
         {
           "id": 5,
           "numberOpen": 5,
-          "name": "КЕЙС: КОЗЫРЬ X1",
+          "name": "CASE: TRUMP X1",
           "rarity": 4,
           "type": 4,
           "renderId": "img_case_event26.png",

@@ -1,14 +1,14 @@
 ﻿{
     "id": 2,
-    "name": "Ты — мне, я — тебе!",
+    "name": "You scratch my back, I'll scratch yours!",
     "bannerId": 21,
-    "gpsBtnText": "Ты — мне, я — тебе!",
+    "gpsBtnText": "You scratch my back, I'll scratch yours!",
     "gpsBtnCoords": [-2316.8, 20.2, 25.73, 194.74],
     
     "dsmRules":  
     {
-        "title": "Правила события «Ты — мне, я — тебе!»",
-        "text":"По городам ходит слух — в область приехал какой-то {FFFF00}мутный торгаш.\n{FFFFFF} Он массово {FFFF00}скупает аксессуары и костюмы{FFFFFF}, \nа смельчакам еще и предлагает рискнуть — {FFFF00}сыграть с ним в наперстки.\n\n{FFFFFF}Однако торговец покупает не все, что ему предложат и не в любых количествах.\nЗа день ты можешь продать {FFFF00}ограниченное количество предметов: %s,{FFFFFF}\n а об {FFFF00}актуальных предпочтениях{FFFFFF} торговца всегда можешь узнать из личной беседы с ним.\nПри этом каждый день в {FFFF00}5:00 МСК лимит продажи обнуляется,\n{FFFFFF} а принимаемый торговцем {FFFF00}ассортимент пополняется.\n\n{FFFFFF}Кроме того, торговец очень азартен, поэтому ты всегда можешь {FFFF00}сыграть с ним в его любимую игру — наперстки. \n{FFFFFF}Ставкой будет стоимость товаров, которые ты продаешь. \nЕсли выиграешь — получишь больше, а проиграешь — меньше.\nВо время игры выбери один из трех наперстков, \nи под каждым будет уменьшение или увеличение стоимости товаров.\n Рисковать или нет — решать тебе.\n\nПомни, {FFFF00}торговец уедет %s. {FFFFFF}\nСледи за нашими обновлениями, чтобы узнать, когда этот загадочный тип снова вернется в наши края!"
+        "title": "Rules of the event \"You to Me, Me to You!\"",
+        "text":"Rumor has it around the cities that some kind of {FFFF00}shady trader{FFFFFF} has arrived in the region.\n{FFFFFF} He is buying up {FFFF00}accessories and costumes in bulk{FFFFFF}, \nand for the bold he even offers a chance to take a risk — {FFFF00}play shell game with him.\n\n{FFFFFF}However, the trader does not buy everything offered to him or in unlimited quantities.\nPer day, you can sell {FFFF00}a limited number of items: %s,{FFFFFF}\n and you can always learn about the trader's {FFFF00}current preferences{FFFFFF} through a personal conversation with him.\nAt the same time, every day at {FFFF00}5:00 MSK the sales limit resets,\n{FFFFFF} and the {FFFF00}assortment accepted by the trader{FFFFFF} is replenished.\n\n{FFFFFF}In addition, the trader is a real gambler, so you can always {FFFF00}play his favorite game with him — shell game. \n{FFFFFF}The stake will be the value of the goods you sell. \nIf you win — you will get more, and if you lose — less.\nDuring the game, choose one of the three shells, \nand under each one there will be either a decrease or an increase in the value of the goods.\n Whether to risk it or not — that is up to you.\n\nRemember, the {FFFF00}trader will leave %s. {FFFFFF}\nKeep an eye on our updates to find out when this mysterious guy returns to our lands again!"
     },
 
         "npcInfo":
@@ -54,14 +54,14 @@
             [1793.70, 2540.35, 14.74, 1.63]
         ],
 
-        "npcInfoName": "{FFFF00}Зазывала\n{FFFFFF}До {FFFF00}%s\n{FFFFFF}Подойти для {FFFF00}взаимодействия",
+        "npcInfoName": "{FFFF00}Barker\n{FFFFFF}Until {FFFF00}%s\n{FFFFFF}Approach for {FFFF00}interaction",
 
         "npcInfoDialog": 
         [
             {
                 "id": 1,
-                "title": "Зазывала",
-                "description": "Эй, ты, да, ты! Лишние деньжата нужны?<br>У вас тут скупщик появился… очень хорошо платит. Все что угодно берет: побрякушки, ювелирку, шапки, даже шмотки с плеча забрать может.<br>Хочешь, покажу?",
+                "title": "Barker",
+                "description": "Hey, you, yeah, you! Need some extra cash?<br>A dealer has appeared here… pays really well. Takes anything: trinkets, jewelry, hats, can even take the clothes off your back.<br>Want me to show you?",
                 "speaker": 
                 {
                     "type": "npc",
@@ -71,11 +71,11 @@
                 "buttons": 
                 [
                     {
-                    "name": "Отметить на карте",
+                    "name": "Mark on map",
                     "color": 1
                     },
                     {
-                    "name": "Закрыть",
+                    "name": "Close",
                     "color": 3
                     }
                 ],
@@ -101,8 +101,8 @@
                 "camLookAt": [-2315.19, 20.74, 25.5]
             }],
 
-        "npcSpawnName": "{FFFF00}Роман Абрамян - Скупщик\n{FFFFFF}До {FFFF00}%s\n{FFFFFF}Подойти для {FFFF00}взаимодействия",
-        "npcSpawnNameWithLimits": "{FFFF00}Роман Абрамян - Скупщик\n{FFFFFF}До {FFFF00}%s\n{FFFFFF}Подойти для {FFFF00}взаимодействия\n{FFFFFF}Лимит сбросится в {FFFF00}5:00 МСК",
+        "npcSpawnName": "{FFFF00}Roman Abramyan - Buyer\n{FFFFFF}Until {FFFF00}%s\n{FFFFFF}Approach for {FFFF00}interaction",
+        "npcSpawnNameWithLimits": "{FFFF00}Roman Abramyan - Buyer\n{FFFFFF}Until {FFFF00}%s\n{FFFFFF}Approach for {FFFF00}interaction\n{FFFFFF}The limit will reset at {FFFF00}5:00 MSK",
 
         "npcProp": 
         {
@@ -112,14 +112,14 @@
         "noCollisionZone": [-2316.8, 20.2, 25.73, 30],   
         "offloadZone": [-2325.64, 14.44, 0.0, -2304.72, 37.07, 30.0],
         "colorQA": "#ffc700",
-        "message": "Автомобиль был выгружен. Воспользуйтесь парковкой для загрузки."
+        "message": "The vehicle was unloaded. Use the parking for loading."
         },
         "npcSpawnDialog": 
         [
             {
                 "id": 1,
-                "title": "Роман Абрамян - Скупщик",
-                "description": "О, приветствую! Всегда рад!<br>Ну что, о погоде поболтаем или сразу к торговле перейдем?",
+                "title": "Roman Abramyan - Fence",
+                "description": "Oh, greetings! Always glad to see you!<br>So, shall we chat about the weather or get straight to trading?",
                 "speaker": 
                 {
                     "type": "npc",
@@ -129,19 +129,19 @@
                 "buttons": 
                 [
                     {
-                    "name": "Закрыть",
+                    "name": "Close",
                     "color": 3
                     },
                     {
-                    "name": "Правила",
+                    "name": "Rules",
                     "color": 2
                     },
                     {
-                    "name": "Торговать",
+                    "name": "Trade",
                     "color": 1
                     },
                     {
-                    "name": "Ассортимент",
+                    "name": "Assortment",
                     "color": 2
                     }
                 ],
@@ -149,8 +149,8 @@
             },
             {
                 "id": 2,
-                "title": "Роман Абрамян - Скупщик",
-                "description": "И снова привет!<br>К сожалению, на сегодня я всю наличку уже слил.<br>Возвращайся после пяти часов. Тогда и деньги будут и список новый.<br><font color='#ffff00'>Лимит продаж обновится в 5:00 МСК</font>",
+                "title": "Roman Abramyan - Fence",
+                "description": "Hello again!<br>Unfortunately, I've already blown all my cash for today.<br>Come back after five o'clock. Then there will be money and a new list.<br><font color='#ffff00'>The sales limit will refresh at 5:00 MSK</font>",
                 "speaker": 
                 {
                     "type": "npc",
@@ -160,15 +160,15 @@
                 "buttons": 
                 [
                     {
-                    "name": "Закрыть",
+                    "name": "Close",
                     "color": 3
                     },
                     {
-                    "name": "Правила",
+                    "name": "Rules",
                     "color": 2
                     },
                     {
-                    "name": "Ассортимент",
+                    "name": "Assortment",
                     "color": 2
                     }
                 ],
@@ -176,8 +176,8 @@
             },
             {
                 "id": 3,
-                "title": "Роман Абрамян - Скупщик",
-                "description": "Слушай, а может добавим огоньку в нашу торговлю? Сыграем в наперстки!<br> Выбираешь любой из трех и, либо вытянешь повышение цены на свой товар, либо понижение. Ну или на первоначальной разойдемся. <br>Рискнешь?",
+                "title": "Roman Abramyan - Fence",
+                "description": "Listen, how about we spice up our trade a little? Let's play shell game!<br> You pick any of the three and either pull a price increase for your goods or a decrease. Or we can just break even. <br>Feeling lucky?",
                 "speaker": 
                 {
                     "type": "npc",
@@ -187,11 +187,11 @@
                 "buttons": 
                 [
                     {
-                    "name": "Играть",
+                    "name": "Play",
                     "color": 1
                     },
                     {
-                    "name": "Отказать",
+                    "name": "Decline",
                     "color": 3
                     }
                 ],
@@ -199,8 +199,8 @@
             },
             {
                 "id": 4,
-                "title": "Роман Абрамян - Скупщик",
-                "description": "Эх, похоже, очередной душнила попался. Ладно, тогда просто забирай свои деньги.",
+                "title": "Roman Abramyan - Fence",
+                "description": "Ah, looks like another bore showed up. Fine, then just take your money.",
                 "speaker": 
                 {
                     "type": "npc",
@@ -210,7 +210,7 @@
                 "buttons": 
                 [
                     {
-                    "name": "Закрыть",
+                    "name": "Close",
                     "color": 3
                     }
                 ],
@@ -218,8 +218,8 @@
             },
             {
                 "id": 5,
-                "title": "Роман Абрамян - Скупщик",
-                "description": "Ага, вот это я понимаю! Свой человек, на азарте!<br> Что ж, тогда выбирай. Какой наперсток на тебя смотрит?",
+                "title": "Roman Abramyan - Fence",
+                "description": "Ah, now that's what I'm talking about! One of our own, a real gambling spirit!<br> Well then, make your choice. Which thimble is calling to you?",
                 
                 "speaker": 
                 {
@@ -230,15 +230,15 @@
                 "buttons": 
                 [
                     {
-                    "name": "Левый",
+                    "name": "Left",
                     "color": 0
                     },
                     {
-                    "name": "В центре",
+                    "name": "In the center",
                     "color": 0
                     },
                     {
-                    "name": "Правый",
+                    "name": "Right",
                     "color": 0
                     }
                 ],
@@ -246,8 +246,8 @@
             },
             {
                 "id": 6,
-                "title": "Роман Абрамян - Скупщик",
-                "description": "Ну-ка, ну-ка, сейчас поглядим…",
+                "title": "Roman Abramyan - Fence",
+                "description": "Well now, well now, let's take a look…",
                 "speaker": 
                 {
                     "type": "npc",
@@ -257,7 +257,7 @@
                 "buttons": 
                 [
                     {
-                    "name": "Далее",
+                    "name": "Next",
                     "color": 0
                     }
                 ],
@@ -265,8 +265,8 @@
             },
             {
                 "id": 7,
-                "title": "Роман Абрамян - Скупщик",
-                "description": "Эх! Победа за тобой. Что ж, уговор есть уговор. Поздравляю с прибавкой!<br><br><font color='#ffff00'>Стоимость увеличилась - тебе выпал множитель %s, ты получаешь %s рублей.</font>",
+                "title": "Roman Abramyan - Fence",
+                "description": "Ah! Victory is yours. Well, a deal is a deal. Congratulations on the increase!<br><br><font color='#ffff00'>The price has increased - you got a multiplier of %s, you receive %s rubles.</font>",
                 "speaker": 
                 {
                     "type": "npc",
@@ -276,7 +276,7 @@
                 "buttons": 
                 [
                     {
-                    "name": "Закрыть",
+                    "name": "Close",
                     "color": 3
                     }
                 ],
@@ -284,8 +284,8 @@
             },
             {
                 "id": 8,
-                "title": "Роман Абрамян - Скупщик",
-                "description": "Ну вот — ни мне, ни тебе! Во всяком случае свою честную цену ты все равно забираешь.<br><br><font color='#ffff00'>Стоимость не изменилась, ты получаешь %s рублей.</font>",
+                "title": "Roman Abramyan - Fence",
+                "description": "Well, there you go — neither for me nor for you! In any case, you still get your fair price.<br><br><font color='#ffff00'>The price has not changed, you receive %s rubles.</font>",
                 "speaker": 
                 {
                     "type": "npc",
@@ -295,7 +295,7 @@
                 "buttons": 
                 [
                     {
-                    "name": "Закрыть",
+                    "name": "Close",
                     "color": 3
                     }
                 ],
@@ -303,8 +303,8 @@
             },
             {
                 "id": 9,
-                "title": "Роман Абрамян - Скупщик",
-                "description": "Ха! Удача на моей стороне! Придется скинуть ценник. Но не расстраивайся — в следующий раз повезет.<br><br><font color='#ffff00'>Стоимость уменьшилась - тебе выпал множитель %s, ты получаешь %s рублей.</font>",
+                "title": "Roman Abramyan - Fence",
+                "description": "Ha! Luck is on my side! I'll have to lower the price tag. But don't be upset — you'll get lucky next time.<br><br><font color='#ffff00'>The price has decreased - you got a multiplier of %s, you receive %s rubles.</font>",
                 "speaker": 
                 {
                     "type": "npc",
@@ -314,7 +314,7 @@
                 "buttons": 
                 [
                     {
-                    "name": "Закрыть",
+                    "name": "Close",
                     "color": 3
                     }
                 ],
@@ -326,17 +326,17 @@
 	      [
 		      {
 			      "id":1,
-			      "text":"В город приехал <font color='#ffff00'>особый торговец</font>!<br>Только до <font color='#ffff00'>%s</font>!",
-			      "btnText": "Отметить на карте",
+			      "text":"A <font color='#ffff00'>special trader</font> has arrived in town!<br>Only until <font color='#ffff00'>%s</font>!",
+			      "btnText": "Mark on map",
                   "timerOnline": 20
 		      },
 		      {
 			      "id":2,
-			      "text":"Продано вещей скупщику сегодня"
+			      "text":"Items sold to the fence today"
 		      },
 		      {
 			      "id":3,
-			      "text":"Продано вещей скупщику сегодня<br><font color='#ffff00'>Лимит обновится в 5:00 МСК</font>"
+			      "text":"Items sold to the fence today<br><font color='#ffff00'>The limit will reset at 5:00 MSK</font>"
 		      }
 	      ],
 			
@@ -344,19 +344,19 @@
 	      [
 		      {
 			      "id":1,
-			      "text":"Необходим 3 уровень"
+			      "text":"Level 3 required"
 		      },
 		      {
 			      "id":2,
-			      "text":"Нет предметов, которые нужны скупщику, проверь список “Ассортимент”"
+			      "text":"There are no items needed by the buyer, check the “Assortment” list"
 		      },
 		      { 
 			      "id":3,
-			      "text":"Предмет не нужен скупщику"
+			      "text":"The buyer does not need the item"
 		      },
 		      { 
 			      "id":4,
-			      "text":"Достигнут лимит продаж"
+			      "text":"Sales limit reached"
 		      }
 	      ],
 	      

@@ -18,7 +18,7 @@
 "hints": [
         {
             "id"     : 1,
-            "comment": "клиентское уведомление, когда игрок получил ивентовую валюту",
-            "text"   : "Ты получил %d %s"
+            "comment": "client notification when the player received event currency",
+            "text"   : "You received %d %s"
         }]
 }

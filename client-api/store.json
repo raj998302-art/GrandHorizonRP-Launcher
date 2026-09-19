@@ -1,8 +1,8 @@
-﻿{
+{
     "storeItems":[
         {
             "id":1,
-            "name": "КЕЙС: ТУРБО",
+            "name": "CASE: TURBO",
             "currencyAwardCost":3000,
             "discount":0,
             "type": 4,
@@ -15,7 +15,7 @@
         },
         {
             "id":2,
-            "name": "ПЫЛЬ X30",
+            "name": "DUST X30",
             "currencyAwardCost":250,            
             "discount":0,
             "type": 21,
@@ -41,7 +41,7 @@
         },
         {
             "id":4,
-            "name": "VIP GOLD 72Ч.",
+            "name": "VIP GOLD 72H.",
             "currencyAwardCost":150,
             "discount":0,
             "type": 9,
@@ -54,7 +54,7 @@
         },
         {
             "id":5,
-            "name": "Ежедневный кейс X3",
+            "name": "Daily Case X3",
             "currencyAwardCost":100,            
             "discount":0,
             "type": 4,
@@ -67,7 +67,7 @@
         },
         {
             "id":6,
-            "name": "Канистра с бензином",
+            "name": "Gasoline canister",
             "currencyAwardCost":50,            
             "discount":0,
             "type": 11,
@@ -79,7 +79,7 @@
             "imageName": "img_1650.png"
         },{
             "id":7,
-            "name": "Ремонтный комплект",
+            "name": "Repair kit",
             "currencyAwardCost":50,
             "discount":0,
             "type": 11,
@@ -92,7 +92,7 @@
         },
         {
             "id":8,
-            "name": "КЕЙС: НИТРО",
+            "name": "CASE: NITRO",
             "currencyAwardCost":3000,            
             "discount":0,
             "type": 4,
@@ -105,7 +105,7 @@
         },
         {
             "id":9,
-            "name": "Кейс бомжа",
+            "name": "Bum case",
             "currencyAwardCost":250,            
             "discount":0,
             "type": 4,
@@ -144,7 +144,7 @@
         },
         {
             "id":12,
-            "name": "VIP SILVER 24Ч.",
+            "name": "VIP SILVER 24H.",
             "currencyAwardCost":100,            
             "discount":0,
             "type": 9,
@@ -157,7 +157,7 @@
         },
         {
             "id":13,
-            "name": "VIP PLATINUM 24Ч.",
+            "name": "VIP PLATINUM 24H.",
             "currencyAwardCost":250,            
             "discount":0,
             "type": 9,
@@ -170,7 +170,7 @@
         },
         {
             "id":14,
-            "name": "ПЫЛЬ X10",
+            "name": "DUST X10",
             "currencyAwardCost":100,            
             "discount":0,
             "type": 21,
@@ -183,7 +183,7 @@
         },
         {
             "id":15,
-            "name": "VIP SILVER 72Ч.",
+            "name": "VIP SILVER 72H.",
             "currencyAwardCost":100,            
             "discount":0,
             "type": 9,
@@ -209,7 +209,7 @@
         },
         {
             "id":17,
-            "name": "КЕЙС: ТУЗ",
+            "name": "CASE: ACE",
             "currencyAwardCost":3000,            
             "discount":0,
             "type": 4,
@@ -222,7 +222,7 @@
         },
         {
             "id":18,
-            "name": "КЕЙС: КОЗЫРЬ",
+            "name": "CASE: TRUMP",
             "currencyAwardCost":3000,            
             "discount":0,
             "type": 4,
@@ -276,7 +276,7 @@
             "storePlace":"eventRace",
             "isEnable":true,
             "currencyAwardId":33,
-            "textTutorShop":"Обменивай заработанные в гонках [color=#ffc700]Жетоны Гонщика[/color] на ценные награды [br/] [br/] Поторопись, пока магазин не обновился!",
+            "textTutorShop":"Exchange the [color=#ffc700]Racer Tokens[/color] you earn in races for valuable rewards [br/] [br/] Hurry before the shop updates!",
             "sets":[1,2,3,4,5,6,7]
         }
     ]

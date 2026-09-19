@@ -1,45 +1,45 @@
 ﻿{
-  "_comment_": "place - это место позиции в списке на клиенте (вдруг Гордеев захочет поменять позиции, чтобы не было зависимостей в ключе id ( не менять на сервере тоже )",
+  "_comment_": "place - this is the position in the list on the client side (in case Gordeev wants to change positions so there are no dependencies in the id key (also do not change on the server))",
   "spawnLocation": [
     {
       "id": 0,
       "place": 2,
-      "place_name": "Фракция"
+      "place_name": "Faction"
     },
     {
       "id": 1,
       "place": 0,
-      "place_name": "Вокзал"
+      "place_name": "Station"
     },
     {
       "id": 2,
       "place": 1,
-      "place_name": "Последнее место"
+      "place_name": "Last place"
     },
     {
       "id": 3,
       "place": 3,
-      "place_name": "Гараж"
+      "place_name": "Garage"
     },
     {
       "id": 4,
       "place": 4,
-      "place_name": "Дом"
+      "place_name": "House"
     },
     {
       "id": 5,
       "place": 6,
-      "place_name": "Семейный гараж"
+      "place_name": "Family garage"
     },
     {
       "id": 6,
       "place": 7,
-      "place_name": "Семейный дом"
+      "place_name": "Family house"
     },
     {
       "id": 7,
       "place": 5,
-      "place_name": "Яхта"
+      "place_name": "Yacht"
     }
   ]
 }

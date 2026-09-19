@@ -13,25 +13,25 @@
       "conditions": [
         {
           "conditionId": 0,
-          "status": "Всегда по центру мини-карты"
+          "status": "Always in the center of the mini-map"
         },
         {
           "conditionId": 1,
-          "status": "Всегда"
+          "status": "Always"
         },
         {
           "conditionId": 2,
-          "status": "Если попадает в зону видимости мини-карты"
+          "status": "If it falls into the mini-map visibility zone"
         },
         {
           "conditionId": 3,
           "radius": 50,
-          "status": "В радиусе 50 метров"
+          "status": "Within a radius of 50 meters"
         },
         {
           "conditionId": 4,
           "radius": 100,
-          "status": "В радиусе 100 метров"
+          "status": "Within a radius of 100 meters"
         }
       ]
     },
@@ -42,52 +42,52 @@
         {
           "conditionId": 5,
           "colorSec": "0x2A3754FF",
-          "status": "всегда"
+          "status": "always"
         },
         {
           "conditionId": 7,
           "colorSec": "0x3EA2FFFF",
-          "status": "если игрок устроен на эту работу/состоит в этой фракции"
+          "status": "if the player works at this job/is in this faction"
         },
         {
           "conditionId": 8,
           "colorSec": "0x8C0000FF",
-          "status": "Всегда, казино"
+          "status": "Always, casino"
         },
         {
           "conditionId": 9,
           "colorSec": "0x9DA8C7FF",
-          "status": "Всегда, автошкола"
+          "status": "Always, driving school"
         },
         {
           "conditionId": 10,
           "colorSec": "0x737373FF",
-          "status": "Всегда, вокзалы"
+          "status": "Always, stations"
         },
         {
           "conditionId": 11,
           "colorSec": "0x6D7999FF",
-          "status": "Всегда, Битва за контейнеры"
+          "status": "Always, Battle for containers"
         },
         {
           "conditionId": 12,
           "colorSec": "0x8CE30BFF",
-          "status": "Всегда, Ночной клуб"
+          "status": "Always, Nightclub"
         },
         {
           "conditionId": 13,
           "colorSec": "0x2A3754FF",
-          "status": "Всегда, Компьютерный клуб"
+          "status": "Always, Computer club"
         },
         {
           "conditionId": 14,
           "colorSec": "0x6B8980FF",
-          "status": "Всегда, военкомат"
+          "status": "Always, military enlistment office"
         },
         {
           "conditionId": 15,
           "colorSec": "0xFFA385FF",
-          "status": "Всегда, загс"
+          "status": "Always, registry office"
         }
       ]
     },
@@ -98,112 +98,112 @@
         {
           "conditionId": 16,
           "colorPrim": "0xFDFDFDFF",
-          "status": "всегда"
+          "status": "always"
         },
         {
           "conditionId": 17,
           "colorPrim": "0x3EA2FFFF",
-          "status": "если игрок имеет принадлежность к этой иконке (например, состоит в ОПГ или это место является личным бизнесом игрока)"
+          "status": "if the player is related to this icon (for example, is in an OCG or this place is the player's personal business)"
         },
         {
           "conditionId": 18,
           "colorPrim": "0xFDFDFDFF",
-          "status": "Если игрок достиг уровня, с которого данное место становится доступным"
+          "status": "If the player has reached the level from which this spot becomes available"
         },
         {
           "conditionId": 19,
           "colorPrim": "0x28B22DFF",
-          "status": "Если игрок достиг нужного уровня, Зелёная рыболовная зона"
+          "status": "If the player has reached the required level, Green fishing zone"
         },
         {
           "conditionId": 20,
           "colorPrim": "0x00F0FFFF",
-          "status": "Если игрок достиг нужного уровня, Синяя рыболовная зона"
+          "status": "If the player has reached the required level, Blue fishing zone"
         },
         {
           "conditionId": 21,
           "colorPrim": "0x6F4FCBFF",
-          "status": "Если игрок достиг нужного уровня, Фиолетовая рыболовная зона"
+          "status": "If the player has reached the required level, Purple fishing zone"
         },
         {
           "conditionId": 22,
           "colorPrim": "0xDC9429FF",
-          "status": "Если игрок достиг нужного уровня, Золотая рыболовная зона"
+          "status": "If the player has reached the required level, Golden fishing zone"
         },
         {
           "conditionId": 23,
           "colorPrim": "0xFFC700FF",
-          "status": "Всегда, Квест события"
+          "status": "Always, Event quest"
         },
         {
           "conditionId": 24,
           "colorPrim": "0xAAAAAAFF",
-          "status": "Всегда, Квест основной"
+          "status": "Always, Main quest"
         },
         {
           "conditionId": 25,
           "colorPrim": "0x3EA2FFFF",
-          "status": "Всегда, Семейное задание"
+          "status": "Always, Family task"
         },
         {
           "conditionId": 26,
           "colorPrim": "0xC68300FF",
-          "status": "Всегда, Рабочее задание"
+          "status": "Always, Work task"
         },
         {
           "conditionId": 27,
           "colorPrim": "0xFE4141FF",
-          "status": "Всегда, Выбранное место на карте"
+          "status": "Always, Selected place on the map"
         },
         {
           "conditionId": 28,
           "colorPrim": "0xFFDC60FF",
-          "status": "Всегда, Обозначение игрока на карте"
+          "status": "Always, Player marker on the map"
         },
         {
           "conditionId": 29,
           "colorPrim": "0x8CE30BFF",
-          "status": "Всегда, все виды недвижимости в продаже"
+          "status": "Always, all types of real estate for sale"
         },
         {
           "conditionId": 30,
           "colorPrim": "0xDD4B39FF",
-          "status": "Всегда, чужая недвижимость"
+          "status": "Always, someone else's real estate"
         },
         {
           "conditionId": 36,
           "colorPrim": "0xFDFDFDFF",
-          "status": "Метка пассажира, выводится только для таксиста в тот момент, когда он принял заказ"
+          "status": "Passenger marker, displayed only for the taxi driver at the moment they accept the order"
         },
         {
           "conditionId": 37,
           "colorPrim": "0xFDFDFDFF",
-          "status": "Метка точки назначения, выводится только для таксиста в тот момент, когда к нему в машину сел пассажир"
+          "status": "Destination point marker, displayed only for the taxi driver at the moment a passenger gets into their car"
         },
         {
           "conditionId": 38,
           "colorPrim": "0x8CE30BFF",
-          "status": "Если бизнес, обозначенный данной иконкой, находится в продаже и категория \"Доступные к покупке бизнесы\" активна"
+          "status": "If the business marked with this icon is for sale and the \"Businesses available for purchase\" category is active"
         },
         {
           "conditionId": 39,
           "colorPrim": "0xFDFDFDFF",
-          "status": "Иконка тайника для заключённых в тюрьме, выводится при наличии тайника"
+          "status": "Prison stash icon, displayed when a stash is present"
         },
         {
           "conditionId": 42,
           "colorPrim": "0xFF9A00FF",
-          "status": "Всегда, иконка события"
+          "status": "Always, event icon"
         },
         {
           "conditionId": 43,
           "colorPrim": "0xFF9A00FF", 
-          "status": "Если включено в шедулере, иконка события"
+          "status": "If enabled in the scheduler, event icon"
         },
         {
           "conditionId": 44,
           "colorPrim": "0xFF9A00FF", 
-          "status": "Если включено в event.json, иконка события"
+          "status": "If enabled in event.json, the event icon"
         }
       ]
     },
@@ -214,37 +214,37 @@
         {
           "conditionId": 31,
           "colorPrim": "0xFDFDFDFF",
-          "status": "Всегда"
+          "status": "Always"
         },
         {
           "conditionId": 32,
           "colorPrim": "0x3EA2FFFF",
-          "status": "Категория выводится только если игрок там состоит"
+          "status": "The category is displayed only if the player is a member there"
         },
         {
           "conditionId": 33,
           "colorPrim": "0x3EA2FFFF",
-          "status": "Категория выводится только если есть в наличии у игрока"
+          "status": "The category is displayed only if the player has it"
         },
         {
           "conditionId": 34,
           "colorPrim": "0xFDFDFDFF",
-          "status": "Если есть в игре"
+          "status": "If it exists in the game"
         },
         {
           "conditionId": 35,
           "colorPrim": "0x8CE30BFF",
-          "status": "Всегда, особый цвет для категорий в продаже"
+          "status": "Always, special color for categories on sale"
         },
         {
           "conditionId": 40,
           "colorPrim": "0xFE4141FF",
-          "status": "Никогда не выводится в меню настройки легенды карты, выбранное место на карте"
+          "status": "Never displayed in the map legend settings menu, selected place on the map"
         },
         {
           "conditionId": 41,
           "colorPrim": "0xFF9A00FF",
-          "status": "Категория выводится только в момент проведения ивентов"
+          "status": "The category is displayed only during events"
         }
       ]
     }
@@ -255,309 +255,309 @@
       "colorPrim": "0x5F3274FF",
       "colorSec": "0xAAAAAAFF",
       "colorTriangle": "0xAAAAAAFF",
-      "status": "для членов ОПГ, находящихся на другой высоте"
+      "status": "for OCG members located at a different height"
     },
     {
       "blipId": 2,
       "colorPrim": "0x6892FEFF",
       "colorSec": "0x252525FF",
       "colorTriangle": "0x252525FF",
-      "status": "для членов силовых государственных фракций, находящихся на другой высоте"
+      "status": "for members of law enforcement government factions located at a different height"
     },
     {
       "blipId": 3,
       "colorPrim": "0x43CD7FFF",
       "colorSec": "0x252525FF",
       "colorTriangle": "0x252525FF",
-      "status": "для членов всех фракций кроме силовых, находящихся на другой высоте"
+      "status": "for members of all factions except law enforcement located at a different height"
     },
     {
       "blipId": 4,
       "colorPrim": "0xC7ECFFFF",
       "colorSec": "0x252525FF",
       "colorTriangle": "0x252525FF",
-      "status": "для всех игроков, не состоящих во фракциях, находящихся на другой высоте"
+      "status": "for all players not in factions located at a different height"
     },
     {
       "blipId": 5,
       "colorPrim": "0x5F3274FF",
       "colorSec": "0xDD4B39FF",
       "colorTriangle": "0xAAAAAAFF",
-      "status": "для членов ОПГ - противников, находящихся на другой высоте, во время бизваров/войны семей"
+      "status": "for OCG members - enemies located at a different height during bizwars/family wars"
     },
     {
       "blipId": 6,
       "colorPrim": "0x6892FEFF",
       "colorSec": "0xDD4B39FF",
       "colorTriangle": "0x252525FF",
-      "status": "для членов силовых государственных фракций- противников, находящихся на другой высоте, во время бизваров/войны семей"
+      "status": "for members of law enforcement government factions - enemies located at a different height during bizwars/family wars"
     },
     {
       "blipId": 7,
       "colorPrim": "0x43CD7FFF",
       "colorSec": "0xDD4B39FF",
       "colorTriangle": "0x252525FF",
-      "status": "для членов всех фракций кроме силовых- противников, находящихся на другой высоте, во время бизваров/войны семей"
+      "status": "for members of all factions except law enforcement - enemies located at a different height during bizwars/family wars"
     },
     {
       "blipId": 8,
       "colorPrim": "0xC7ECFFFF",
       "colorSec": "0xDD4B39FF",
       "colorTriangle": "0x252525FF",
-      "status": "для всех игроков, не состоящих во фракциях - противников, находящихся на другой высоте, во время войны семей"
+      "status": "for all players not in factions - enemies located at a different height during family wars"
     },
     {
       "blipId": 9,
       "colorPrim": "0x5F3274FF",
       "colorSec": "0xAAAAAAFF",
-      "status": "для членов ОПГ"
+      "status": "for OCG members"
     },
     {
       "blipId": 10,
       "colorPrim": "0x6892FEFF",
       "colorSec": "0x252525FF",
-      "status": "для членов силовых государственных фракций"
+      "status": "for members of law enforcement government factions"
     },
     {
       "blipId": 11,
       "colorPrim": "0x43CD7FFF",
       "colorSec": "0x252525FF",
-      "status": "для членов всех фракций кроме силовых"
+      "status": "for members of all factions except law enforcement"
     },
     {
       "blipId": 12,
       "colorPrim": "0xC7ECFFFF",
       "colorSec": "0x252525FF",
-      "status": "для всех игроков, не состоящих во фракциях"
+      "status": "for all players not in factions"
     },
     {
       "blipId": 13,
       "colorPrim": "0x5F3274FF",
       "colorSec": "0xDD4B39FF",
-      "status": "для членов ОПГ - проивников во время бизваров/войны семей"
+      "status": "for OCG members - enemies during bizwars/family wars"
     },
     {
       "blipId": 14,
       "colorPrim": "0x6892FEFF",
       "colorSec": "0xDD4B39FF",
-      "status": "для членов силовых государственных фракций - проивников во время бизваров/войны семей"
+      "status": "for members of law enforcement government factions - enemies during bizwars/family wars"
     },
     {
       "blipId": 15,
       "colorPrim": "0x43CD7FFF",
       "colorSec": "0xDD4B39FF",
-      "status": "для членов всех фракций кроме силовых - противников во время бизваров/войны семей"
+      "status": "for members of all factions except law enforcement - enemies during bizwars/family wars"
     },
     {
       "blipId": 16,
       "colorPrim": "0xC7ECFFFF",
       "colorSec": "0xDD4B39FF",
-      "status": "для всех игроков-противников, не состоящих во фракциях во время бизваров/войны семей"
+      "status": "for all enemy players not in factions during bizwars/family wars"
     },
     {
       "blipId": 17,
       "colorPrim": "0xE2310CFF",
       "colorSec": "0x252525FF",
-      "status": "Для отслеживаемого членом силовой фракции преступника"
+      "status": "For a criminal being tracked by a member of a law enforcement faction"
     },
     {
       "blipId": 18,
       "colorPrim": "0xE2310CFF",
       "colorSec": "0x252525FF",
       "colorTriangle": "0x252525FF",
-      "status": "Для отслеживаемого членом силовой фракции преступника, находящегося на другой высоте"
+      "status": "For a criminal being tracked by a member of a law enforcement faction who is at a different height"
     }
   ],
   "categories": [
     {
       "categoryId": 1,
-      "name": "Работы",
+      "name": "Jobs",
       "imageName": "ic_works.png",
       "conditionId": 31
     },
     {
       "categoryId": 2,
-      "name": "Государственные фракции",
+      "name": "Government factions",
       "imageName": "ic_state_factions.png",
       "conditionId": 31
     },
     {
       "categoryId": 3,
-      "name": "ОПГ",
+      "name": "OCG",
       "imageName": "ic_crime.png",
       "conditionId": 31
     },
     {
       "categoryId": 4,
-      "name": "Семья",
+      "name": "Family",
       "imageName": "ic_family.png",
       "conditionId": 32
     },
     {
       "categoryId": 5,
-      "name": "Причалы",
+      "name": "Piers",
       "imageName": "ic_berths.png",
       "conditionId": 31
     },
     {
       "categoryId": 7,
-      "name": "Банки и банкоматы",
+      "name": "Banks and ATMs",
       "imageName": "ic_bank.png",
       "conditionId": 31
     },
     {
       "categoryId": 8,
-      "name": "Жильё",
+      "name": "Housing",
       "imageName": "ic_house.png",
       "conditionId": 33
     },
     {
       "categoryId": 9,
-      "name": "Казино",
+      "name": "Casino",
       "imageName": "ic_cazino.png",
       "conditionId": 31
     },
     {
       "categoryId": 10,
-      "name": "Автошкола",
+      "name": "Driving school",
       "imageName": "ic_driving_school.png",
       "conditionId": 31
     },
     {
       "categoryId": 12,
-      "name": "Личные бизнесы",
+      "name": "Personal businesses",
       "imageName": "ic_personal_business.png",
       "conditionId": 33
     },
     {
       "categoryId": 13,
-      "name": "Пункт выдачи заказов",
+      "name": "Order pickup point",
       "imageName": "ic_marketplace.png",
       "conditionId": 31
     },
     {
       "categoryId": 14,
-      "name": "Крафт",
+      "name": "Craft",
       "imageName": "ic_crafting.png",
       "conditionId": 31
     },
     {
       "categoryId": 15,
-      "name": "Вокзалы",
+      "name": "Stations",
       "imageName": "ic_train_stations.png",
       "conditionId": 31
     },
     {
       "categoryId": 16,
-      "name": "Аукцион",
+      "name": "Auction",
       "imageName": "ic_auction.png",
       "conditionId": 31
     },
     {
       "categoryId": 17,
-      "name": "СТО и Тюнинг",
+      "name": "Service station and Tuning",
       "imageName": "ic_technical_service_station.png",
       "conditionId": 31
     },
     {
       "categoryId": 18,
-      "name": "Автосалоны",
+      "name": "Car dealerships",
       "imageName": "ic_car_dealerships.png",
       "conditionId": 31
     },
     {
       "categoryId": 20,
-      "name": "Битва за контейнеры ",
+      "name": "Battle for containers ",
       "imageName": "ic_containers.png",
       "conditionId": 31
     },
     {
       "categoryId": 21,
-      "name": "Ночной клуб",
+      "name": "Nightclub",
       "imageName": "ic_night_club.png",
       "conditionId": 31
     },
     {
       "categoryId": 22,
-      "name": "Компьютерный клуб",
+      "name": "Computer club",
       "imageName": "ic_computer_club.png",
       "conditionId": 31
     },
     {
       "categoryId": 26,
-      "name": "Управление транспортом",
+      "name": "Transport management",
       "imageName": "ic_transport_management.png",
       "conditionId": 31
     },
     {
       "categoryId": 27,
-      "name": "Военкомат",
+      "name": "Military enlistment office",
       "imageName": "ic_military_enlistment_office.png",
       "conditionId": 31
     },
     {
       "categoryId": 28,
-      "name": "ЗАГС",
+      "name": "Registry Office",
       "imageName": "ic_registry_office.png",
       "conditionId": 31
     },
     {
       "categoryId": 29,
-      "name": "Центр предпринимательства",
+      "name": "Entrepreneurship Center",
       "imageName": "ic_center_of_entrepreneurship.png",
       "conditionId": 31
     },
     {
       "categoryId": 30,
-      "name": "Магазины",
+      "name": "Stores",
       "imageName": "ic_shops.png",
       "conditionId": 31
     },
     {
       "categoryId": 31,
-      "name": "Задания",
+      "name": "Tasks",
       "imageName": "ic_tasks.png",
       "conditionId": 34
     },
     {
       "categoryId": 32,
-      "name": "АЗС",
+      "name": "Gas Station",
       "imageName": "ic_gas_stations.png",
       "conditionId": 31
     },
     {
       "categoryId": 33,
-      "name": "Общепит",
+      "name": "Public catering",
       "imageName": "ic_catering.png",
       "conditionId": 31
     },
     {
       "categoryId": 36,
-      "name": "Чужая недвижимость",
+      "name": "Someone else's real estate",
       "imageName": "ic_house.png",
       "conditionId": 30
     },
     {
       "categoryId": 37,
-      "name": "Недвижимость в продаже",
+      "name": "Real estate for sale",
       "imageName": "ic_house.png",
       "conditionId": 35
     },
     {
       "categoryId": 40,
-      "name": "Выбранное место на карте",
+      "name": "Selected place on the map",
       "imageName": "ic_selected_location_on_map.png",
       "conditionId": 40
     },
     {
         "categoryId": 41,
-        "name": "Событие",
+        "name": "Event",
         "imageName": "ic_event.png",
         "conditionId": 41
     },
     {
       "categoryId": 42,
-      "name": "Эдово Драйв",
+      "name": "Edovo Drive",
       "imageName": "ic_racemode.png",
       "conditionId": 31
     }
@@ -566,7 +566,7 @@
     {
       "legendId": 1,
       "categoryId": 1,
-      "name": "Завод",
+      "name": "Factory",
       "imageName": "ic_factory.png",
       "conditionId": [
         2,
@@ -578,7 +578,7 @@
     {
       "legendId": 2,
       "categoryId": 1,
-      "name": "Ферма",
+      "name": "Farm",
       "imageName": "ic_farm.png",
       "conditionId": [
         2,
@@ -590,7 +590,7 @@
     {
       "legendId": 3,
       "categoryId": 1,
-      "name": "Шахта",
+      "name": "Mine",
       "imageName": "ic_mine.png",
       "conditionId": [
         2,
@@ -602,7 +602,7 @@
     {
       "legendId": 4,
       "categoryId": 1,
-      "name": "Водитель автобуса",
+      "name": "Bus driver",
       "imageName": "ic_bus_driver.png",
       "conditionId": [
         2,
@@ -614,7 +614,7 @@
     {
       "legendId": 5,
       "categoryId": 1,
-      "name": "Курьер",
+      "name": "Courier",
       "imageName": "ic_courier.png",
       "conditionId": [
         2,
@@ -626,7 +626,7 @@
     {
       "legendId": 6,
       "categoryId": 1,
-      "name": "Газовщик",
+      "name": "Gas worker",
       "imageName": "ic_gasman.png",
       "conditionId": [
         2,
@@ -638,7 +638,7 @@
     {
       "legendId": 7,
       "categoryId": 1,
-      "name": "Охотник",
+      "name": "Hunter",
       "imageName": "ic_hunter.png",
       "conditionId": [
         2,
@@ -649,7 +649,7 @@
     {
       "legendId": 8,
       "categoryId": 1,
-      "name": "Такси",
+      "name": "Taxi",
       "imageName": "ic_taxi_companies.png",
       "conditionId": [
         2,
@@ -661,7 +661,7 @@
     {
       "legendId": 9,
       "categoryId": 1,
-      "name": "Автомеханик",
+      "name": "Auto Mechanic",
       "imageName": "ic_car_mechanic.png",
       "conditionId": [
         2,
@@ -673,7 +673,7 @@
     {
       "legendId": 10,
       "categoryId": 1,
-      "name": "Угонщик",
+      "name": "Car thief",
       "imageName": "ic_hijacker.png",
       "conditionId": [
         2,
@@ -685,7 +685,7 @@
     {
       "legendId": 11,
       "categoryId": 1,
-      "name": "Строитель",
+      "name": "Builder",
       "imageName": "ic_builder.png",
       "conditionId": [
         2,
@@ -697,7 +697,7 @@
     {
       "legendId": 12,
       "categoryId": 1,
-      "name": "Кладоискатель",
+      "name": "Treasure hunter",
       "imageName": "ic_treasure_hunter.png",
       "conditionId": [
         2,
@@ -708,7 +708,7 @@
     {
       "legendId": 68,
       "categoryId": 1,
-      "name": "Транспортная компания",
+      "name": "Transport company",
       "imageName": "ic_transport_companies.png",
       "conditionId": [
         2,
@@ -721,7 +721,7 @@
     {
       "legendId": 14,
       "categoryId": 1,
-      "name": "Электрик",
+      "name": "Electrician",
       "imageName": "ic_electrician.png",
       "conditionId": [
         2,
@@ -733,7 +733,7 @@
     {
       "legendId": 16,
       "categoryId": 1,
-      "name": "Сборщик мусора",
+      "name": "Garbage collector",
       "imageName": "ic_garbage_collector.png",
       "conditionId": [
         2,
@@ -745,7 +745,7 @@
     {
       "legendId": 17,
       "categoryId": 1,
-      "name": "Дайвер",
+      "name": "Diver",
       "imageName": "ic_diver.png",
       "conditionId": [
         2,
@@ -756,7 +756,7 @@
     {
       "legendId": 18,
       "categoryId": 1,
-      "name": "МЧС",
+      "name": "EMERCOM",
       "imageName": "ic_ministry_of_emergency_situations.png",
       "conditionId": [
         2,
@@ -768,7 +768,7 @@
     {
       "legendId": 19,
       "categoryId": 1,
-      "name": "Работа в ночном клубе",
+      "name": "Work in a nightclub",
       "imageName": "ic_working_in_nightclub.png",
       "conditionId": [
         2,
@@ -782,7 +782,7 @@
     {
       "legendId": 20,
       "categoryId": 1,
-      "name": "Белая рыболовная зона",
+      "name": "White fishing zone",
       "imageName": "ic_fishing_place.png",
       "conditionId": [
         2,
@@ -793,7 +793,7 @@
     {
       "legendId": 21,
       "categoryId": 1,
-      "name": "Зелёная рыболовная зона",
+      "name": "Green fishing zone",
       "imageName": "ic_fishing_place.png",
       "conditionId": [
         2,
@@ -804,7 +804,7 @@
     {
       "legendId": 22,
       "categoryId": 1,
-      "name": "Синяя рыболовная зона",
+      "name": "Blue fishing zone",
       "imageName": "ic_fishing_place.png",
       "conditionId": [
         2,
@@ -815,7 +815,7 @@
     {
       "legendId": 23,
       "categoryId": 1,
-      "name": "Фиолетовая рыболовная зона",
+      "name": "Purple fishing zone",
       "imageName": "ic_fishing_place.png",
       "conditionId": [
         2,
@@ -826,7 +826,7 @@
     {
       "legendId": 24,
       "categoryId": 1,
-      "name": "Золотая рыболовная зона",
+      "name": "Golden fishing zone",
       "imageName": "ic_fishing_place.png",
       "conditionId": [
         2,
@@ -837,7 +837,7 @@
     {
       "legendId": 25,
       "categoryId": 2,
-      "name": "УМВД",
+      "name": "City Police",
       "imageName": "ic_ministry_of_internal_affairs.png",
       "conditionId": [
         2,
@@ -850,7 +850,7 @@
     {
       "legendId": 26,
       "categoryId": 2,
-      "name": "ГИБДД",
+      "name": "Traffic Police",
       "imageName": "ic_traffic_police.png",
       "conditionId": [
         2,
@@ -863,7 +863,7 @@
     {
       "legendId": 27,
       "categoryId": 2,
-      "name": "Армия",
+      "name": "Army",
       "imageName": "ic_army.png",
       "conditionId": [
         2,
@@ -876,7 +876,7 @@
     {
       "legendId": 28,
       "categoryId": 2,
-      "name": "ФСИН",
+      "name": "Penitentiary Service",
       "imageName": "ic_federal_penitentiary_service.png",
       "conditionId": [
         2,
@@ -889,7 +889,7 @@
     {
       "legendId": 29,
       "categoryId": 2,
-      "name": "ФСБ",
+      "name": "FBI",
       "imageName": "ic_fsb.png",
       "conditionId": [
         2,
@@ -902,7 +902,7 @@
     {
       "legendId": 30,
       "categoryId": 2,
-      "name": "Больница",
+      "name": "Hospital",
       "imageName": "ic_hospital.png",
       "conditionId": [
         2,
@@ -915,7 +915,7 @@
     {
       "legendId": 31,
       "categoryId": 2,
-      "name": "СМИ",
+      "name": "Media",
       "imageName": "ic_media.png",
       "conditionId": [
         2,
@@ -928,7 +928,7 @@
     {
       "legendId": 32,
       "categoryId": 2,
-      "name": "Правительство",
+      "name": "Government",
       "imageName": "ic_government.png",
       "conditionId": [
         2,
@@ -941,7 +941,7 @@
     {
       "legendId": 33,
       "categoryId": 3,
-      "name": "ОПГ",
+      "name": "OCG",
       "imageName": "ic_crime.png",
       "conditionId": [
         2,
@@ -952,7 +952,7 @@
     {
       "legendId": 34,
       "categoryId": 4,
-      "name": "Семья",
+      "name": "Family",
       "imageName": "ic_family.png",
       "conditionId": [
         2,
@@ -963,7 +963,7 @@
     {
       "legendId": 35,
       "categoryId": 5,
-      "name": "Причал",
+      "name": "Pier",
       "imageName": "ic_berths.png",
       "conditionId": [
         2,
@@ -974,7 +974,7 @@
     {
       "legendId": 37,
       "categoryId": 7,
-      "name": "Банк",
+      "name": "Bank",
       "imageName": "ic_bank.png",
       "conditionId": [
         2,
@@ -987,7 +987,7 @@
     {
       "legendId": 38,
       "categoryId": 7,
-      "name": "Банкомат",
+      "name": "ATM",
       "imageName": "ic_atm_machine.png",
       "conditionId": [
         2,
@@ -998,7 +998,7 @@
     {
       "legendId": 39,
       "categoryId": 8,
-      "name": "Дом",
+      "name": "House",
       "imageName": "ic_house.png",
       "conditionId": [
         2,
@@ -1009,7 +1009,7 @@
     {
       "legendId": 40,
       "categoryId": 8,
-      "name": "Квартира",
+      "name": "Apartment",
       "imageName": "ic_flat.png",
       "conditionId": [
         2,
@@ -1020,7 +1020,7 @@
     {
       "legendId": 41,
       "categoryId": 8,
-      "name": "Гараж",
+      "name": "Garage",
       "imageName": "ic_garage.png",
       "conditionId": [
         2,
@@ -1031,7 +1031,7 @@
     {
       "legendId": 42,
       "categoryId": 9,
-      "name": "Казино",
+      "name": "Casino",
       "imageName": "ic_cazino.png",
       "conditionId": [
         2,
@@ -1047,7 +1047,7 @@
     {
       "legendId": 43,
       "categoryId": 10,
-      "name": "Автошкола",
+      "name": "Driving school",
       "imageName": "ic_driving_school.png",
       "conditionId": [
         2,
@@ -1059,7 +1059,7 @@
     {
       "legendId": 45,
       "categoryId": 12,
-      "name": "Личный бизнес",
+      "name": "Personal business",
       "imageName": "ic_personal_business.png",
       "conditionId": [
         2,
@@ -1070,7 +1070,7 @@
     {
       "legendId": 46,
       "categoryId": 13,
-      "name": "Пункт выдачи заказов",
+      "name": "Order pickup point",
       "imageName": "ic_marketplace.png",
       "conditionId": [
         2,
@@ -1083,7 +1083,7 @@
     {
       "legendId": 47,
       "categoryId": 14,
-      "name": "Мастерская",
+      "name": "Workshop",
       "imageName": "ic_crafting.png",
       "conditionId": [
         2,
@@ -1096,7 +1096,7 @@
     {
       "legendId": 48,
       "categoryId": 15,
-      "name": "Вокзал",
+      "name": "Station",
       "imageName": "ic_train_stations.png",
       "conditionId": [
         2,
@@ -1108,7 +1108,7 @@
     {
       "legendId": 49,
       "categoryId": 16,
-      "name": "Аукцион",
+      "name": "Auction",
       "imageName": "ic_auction.png",
       "conditionId": [
         2,
@@ -1119,7 +1119,7 @@
     {
       "legendId": 50,
       "categoryId": 17,
-      "name": "СТО",
+      "name": "Service station",
       "imageName": "ic_technical_service_station.png",
       "conditionId": [
         2,
@@ -1132,7 +1132,7 @@
     {
       "legendId": 53,
       "categoryId": 17,
-      "name": "Стайлинг центр",
+      "name": "Styling center",
       "imageName": "ic_styling_center.png",
       "conditionId": [
         2,
@@ -1145,7 +1145,7 @@
     {
       "legendId": 51,
       "categoryId": 17,
-      "name": "Шиномонтаж",
+      "name": "Tire fitting",
       "imageName": "ic_tire_service.png",
       "conditionId": [
         2,
@@ -1158,7 +1158,7 @@
     {
       "legendId": 52,
       "categoryId": 17,
-      "name": "Технический центр",
+      "name": "Technical center",
       "imageName": "ic_technical_center.png",
       "conditionId": [
         2,
@@ -1171,7 +1171,7 @@
     {
       "legendId": 54,
       "categoryId": 18,
-      "name": "Автосалон низкого класса",
+      "name": "Low-class car dealership",
       "imageName": "ic_low_class_car_dealership.png",
       "conditionId": [
         2,
@@ -1184,7 +1184,7 @@
     {
       "legendId": 55,
       "categoryId": 18,
-      "name": "Автосалон среднего класса",
+      "name": "Middle-class car dealership",
       "imageName": "ic_mid_range_car_dealership.png",
       "conditionId": [
         2,
@@ -1197,7 +1197,7 @@
     {
       "legendId": 56,
       "categoryId": 18,
-      "name": "Автосалон высокого класса",
+      "name": "High-class car dealership",
       "imageName": "ic_high_end_car_dealership.png",
       "conditionId": [
         2,
@@ -1210,7 +1210,7 @@
     {
       "legendId": 57,
       "categoryId": 18,
-      "name": "Салон грузового транспорта",
+      "name": "Cargo transport dealership",
       "imageName": "ic_cargo_transport_salon.png",
       "conditionId": [
         2,
@@ -1223,7 +1223,7 @@
     {
       "legendId": 58,
       "categoryId": 18,
-      "name": "Салон мототранспорта",
+      "name": "Motor transport dealership",
       "imageName": "ic_motor_vehicle_salon.png",
       "conditionId": [
         2,
@@ -1236,7 +1236,7 @@
     {
       "legendId": 59,
       "categoryId": 18,
-      "name": "Салон водного транспорта",
+      "name": "Water transport dealership",
       "imageName": "ic_water_transport_salon.png",
       "conditionId": [
         2,
@@ -1249,7 +1249,7 @@
     {
       "legendId": 60,
       "categoryId": 18,
-      "name": "Продажа подержанных авто",
+      "name": "Used car sale",
       "imageName": "ic_car_dealerships.png",
       "conditionId": [
         2,
@@ -1260,7 +1260,7 @@
     {
       "legendId": 61,
       "categoryId": 31,
-      "name": "Квест события",
+      "name": "Event quest",
       "imageName": "ic_quests.png",
       "conditionId": [
         2,
@@ -1271,7 +1271,7 @@
     {
       "legendId": 62,
       "categoryId": 31,
-      "name": "Квест основной",
+      "name": "Main quest",
       "imageName": "ic_quests.png",
       "conditionId": [
         2,
@@ -1282,7 +1282,7 @@
     {
       "legendId": 63,
       "categoryId": 31,
-      "name": "Квест побочный",
+      "name": "Side quest",
       "imageName": "ic_quests.png",
       "conditionId": [
         2,
@@ -1293,7 +1293,7 @@
     {
       "legendId": 64,
       "categoryId": 20,
-      "name": "Битва за контейнеры",
+      "name": "Battle for containers",
       "imageName": "ic_containers.png",
       "conditionId": [
         2,
@@ -1305,7 +1305,7 @@
     {
       "legendId": 65,
       "categoryId": 21,
-      "name": "Ночной клуб",
+      "name": "Nightclub",
       "imageName": "ic_night_club.png",
       "conditionId": [
         2,
@@ -1321,7 +1321,7 @@
     {
       "legendId": 66,
       "categoryId": 22,
-      "name": "Компьютерный клуб",
+      "name": "Computer club",
       "imageName": "ic_computer_club.png",
       "conditionId": [
         2,
@@ -1333,7 +1333,7 @@
     {
       "legendId": 69,
       "categoryId": 1,
-      "name": "Офис строительной компании",
+      "name": "Construction company office",
       "imageName": "ic_construction_companies.png",
       "conditionId": [
         2,
@@ -1346,7 +1346,7 @@
     {
       "legendId": 70,
       "categoryId": 26,
-      "name": "Управление транспортом",
+      "name": "Transport management",
       "imageName": "ic_transport_management.png",
       "conditionId": [
         2,
@@ -1357,7 +1357,7 @@
     {
       "legendId": 71,
       "categoryId": 27,
-      "name": "Военкомат",
+      "name": "Military enlistment office",
       "imageName": "ic_military_enlistment_office.png",
       "conditionId": [
         2,
@@ -1369,7 +1369,7 @@
     {
       "legendId": 72,
       "categoryId": 28,
-      "name": "ЗАГС",
+      "name": "Registry Office",
       "imageName": "ic_registry_office.png",
       "conditionId": [
         2,
@@ -1381,7 +1381,7 @@
     {
       "legendId": 73,
       "categoryId": 29,
-      "name": "Центр предпринимательства",
+      "name": "Entrepreneurship Center",
       "imageName": "ic_center_of_entrepreneurship.png",
       "conditionId": [
         2,
@@ -1392,7 +1392,7 @@
     {
       "legendId": 74,
       "categoryId": 30,
-      "name": "Магазин оружия",
+      "name": "Weapon store",
       "imageName": "ic_weapon_shop.png",
       "conditionId": [
         2,
@@ -1405,7 +1405,7 @@
     {
       "legendId": 75,
       "categoryId": 30,
-      "name": "Магазин аксессуаров",
+      "name": "Accessory store",
       "imageName": "ic_accessories_store.png",
       "conditionId": [
         2,
@@ -1418,7 +1418,7 @@
     {
       "legendId": 76,
       "categoryId": 30,
-      "name": "Магазин одежды",
+      "name": "Clothing store",
       "imageName": "ic_clothing_store.png",
       "conditionId": [
         2,
@@ -1431,7 +1431,7 @@
     {
       "legendId": 77,
       "categoryId": 30,
-      "name": "Рыболовный магазин",
+      "name": "Fishing shop",
       "imageName": "ic_fishing_shop.png",
       "conditionId": [
         2,
@@ -1457,7 +1457,7 @@
     {
       "legendId": 79,
       "categoryId": 31,
-      "name": "Фракционное задание",
+      "name": "Faction task",
       "imageName": "ic_tasks.png",
       "conditionId": [
         2,
@@ -1468,7 +1468,7 @@
     {
       "legendId": 80,
       "categoryId": 31,
-      "name": "Семейное задание",
+      "name": "Family task",
       "imageName": "ic_tasks.png",
       "conditionId": [
         2,
@@ -1479,7 +1479,7 @@
     {
       "legendId": 81,
       "categoryId": 31,
-      "name": "Рабочее задание",
+      "name": "Work assignment",
       "imageName": "ic_tasks.png",
       "conditionId": [
         2,
@@ -1490,7 +1490,7 @@
     {
       "legendId": 82,
       "categoryId": 32,
-      "name": "АЗС",
+      "name": "Gas Station",
       "imageName": "ic_gas_stations.png",
       "conditionId": [
         2,
@@ -1503,7 +1503,7 @@
     {
       "legendId": 83,
       "categoryId": 33,
-      "name": "Ларёк",
+      "name": "Stall",
       "imageName": "ic_stall.png",
       "conditionId": [
         2,
@@ -1516,7 +1516,7 @@
     {
       "legendId": 84,
       "categoryId": 33,
-      "name": "Закусочная",
+      "name": "Snack bar",
       "imageName": "ic_snack_bar.png",
       "conditionId": [
         2,
@@ -1529,7 +1529,7 @@
     {
       "legendId": 85,
       "categoryId": 40,
-      "name": "Выбранное место на карте",
+      "name": "Selected place on the map",
       "imageName": "ic_selected_location_on_map.png",
       "conditionId": [
         1,
@@ -1540,7 +1540,7 @@
     {
       "legendId": 86,
       "categoryId": 35,
-      "name": "Обозначение игрока на карте",
+      "name": "Player marker on the map",
       "imageName": "ic_designation_of_player_on_map.png",
       "conditionId": [
         0,
@@ -1551,7 +1551,7 @@
     {
       "legendId": 87,
       "categoryId": 36,
-      "name": "Чужая квартира",
+      "name": "Someone else's apartment",
       "imageName": "ic_flat.png",
       "conditionId": [
         3,
@@ -1562,7 +1562,7 @@
     {
       "legendId": 88,
       "categoryId": 36,
-      "name": "Чужой дом",
+      "name": "Someone else's house",
       "imageName": "ic_house.png",
       "conditionId": [
         3,
@@ -1573,7 +1573,7 @@
     {
       "legendId": 89,
       "categoryId": 36,
-      "name": "Чужой гараж",
+      "name": "Someone else's garage",
       "imageName": "ic_garage.png",
       "conditionId": [
         3,
@@ -1584,7 +1584,7 @@
     {
       "legendId": 90,
       "categoryId": 37,
-      "name": "Квартира в продаже",
+      "name": "Apartment for sale",
       "imageName": "ic_flat.png",
       "conditionId": [
         4,
@@ -1595,7 +1595,7 @@
     {
       "legendId": 91,
       "categoryId": 37,
-      "name": "Дом в продаже",
+      "name": "House for sale",
       "imageName": "ic_house.png",
       "conditionId": [
         4,
@@ -1606,7 +1606,7 @@
     {
       "legendId": 92,
       "categoryId": 37,
-      "name": "Гараж в продаже",
+      "name": "Garage for sale",
       "imageName": "ic_garage.png",
       "conditionId": [
         4,
@@ -1617,7 +1617,7 @@
     {
       "legendId": 93,
       "categoryId": 1,
-      "name": "Финиш",
+      "name": "Finish",
       "imageName": "ic_flag.png",
       "conditionId": [
         1,
@@ -1628,7 +1628,7 @@
     {
       "legendId": 94,
       "categoryId": 1,
-      "name": "Пассажир",
+      "name": "Passenger",
       "imageName": "ic_man.png",
       "conditionId": [
         1,
@@ -1639,7 +1639,7 @@
     {
       "legendId": 95,
       "categoryId": 37,
-      "name": "Информационный центр",
+      "name": "Information center",
       "imageName": "ic_infcenter.png",
       "conditionId": [
         2,
@@ -1650,7 +1650,7 @@
     {
       "legendId": 96,
       "categoryId": 4,
-      "name": "Война семей",
+      "name": "Family war",
       "imageName": "ic_battle_famaly.png",
       "conditionId": [
         2,
@@ -1661,7 +1661,7 @@
     {
       "legendId": 97,
       "categoryId": 32,
-      "name": "Станция заправки водой",
+      "name": "Water refill station",
       "imageName": "ic_water_station.png",
       "conditionId": [
         2,
@@ -1672,7 +1672,7 @@
     {
       "legendId": 99,
       "categoryId": 1,
-      "name": "Работа в казино",
+      "name": "Work in a casino",
       "imageName": "ic_cazino.png",
       "conditionId": [
         2,
@@ -1686,7 +1686,7 @@
     {
       "legendId": 100,
       "categoryId": 1,
-      "name": "Работа инкассатора",
+      "name": "Cash collector job",
       "imageName": "ic_collector.png",
       "conditionId": [
         2,
@@ -1700,7 +1700,7 @@
     {
       "legendId": 36,
       "categoryId": 2,
-      "name": "Тайник",
+      "name": "Stash",
       "imageName": "ic_cache.png",
       "conditionId": [
         2,
@@ -1712,7 +1712,7 @@
         "legendId": 101,
         "categoryId": 41,
         "eventId": 3,
-        "name": "Мини-событие",
+        "name": "Mini-event",
         "imageName": "ic_event_02.png",
         "conditionId": [2,43],
         "defaultConditionId": 43
@@ -1720,7 +1720,7 @@
     {
       "legendId": 102,
       "categoryId": 42,
-      "name": "Эдово Драйв",
+      "name": "Edovo Drive",
       "imageName": "ic_racemode.png",
       "conditionId": [
         2,
@@ -1731,7 +1731,7 @@
     {
       "legendId": 103,
       "categoryId": 32,
-      "name": "Заправка водного транспорта",
+      "name": "Water transport refueling",
       "imageName": "ic_water_gas_stations.png",
       "conditionId": [
         2,
@@ -1744,7 +1744,7 @@
     {
       "legendId": 104,
       "categoryId": 31,
-      "name": "Персонаж с заданием",
+      "name": "Character with a task",
       "imageName": "ic_tasks.png",
       "conditionId": [
         2,
@@ -1755,7 +1755,7 @@
     {
       "legendId": 105,
       "categoryId": 1,
-      "name": "Работник склада",
+      "name": "Warehouse worker",
       "imageName": "ic_builder.png",
       "conditionId": [
         2,
@@ -1767,7 +1767,7 @@
     {
        "legendId": 106,
         "categoryId": 41,
-        "name": "Большой Куш",
+        "name": "Big Jackpot",
         "imageName": "ic_event_02.png",
         "conditionId": [2,44],
         "defaultConditionId": 44

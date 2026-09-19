@@ -1,13 +1,13 @@
-﻿{
+{
   "fractions": [
     {
       "id": 1,
-      "name": "Правительство области",
+      "name": "Regional Government",
       "color": "CCFF00",
       "ranks": [
         {
           "rank": 1,
-          "rankName": "Водитель",
+          "rankName": "Driver",
           "rankSalary": 4400,
           "maleSkinId": 17,
           "femaleSkinId": 141,
@@ -17,7 +17,7 @@
         },
         {
           "rank": 2,
-          "rankName": "Охранник",
+          "rankName": "Guard",
           "rankSalary": 5800,
           "maleSkinId": 17,
           "femaleSkinId": 141,
@@ -27,7 +27,7 @@
         },
         {
           "rank": 3,
-          "rankName": "Начальник охраны",
+          "rankName": "Head of security",
           "rankSalary": 7000,
           "maleSkinId": 17,
           "femaleSkinId": 141,
@@ -38,7 +38,7 @@
         },
         {
           "rank": 4,
-          "rankName": "Секретарь",
+          "rankName": "Secretary",
           "rankSalary": 8000,
           "maleSkinId": 17,
           "femaleSkinId": 141,
@@ -49,7 +49,7 @@
         },
         {
           "rank": 5,
-          "rankName": "Советник",
+          "rankName": "Advisor",
           "rankSalary": 8400,
           "maleSkinId": 17,
           "femaleSkinId": 141,
@@ -60,7 +60,7 @@
         },
         {
           "rank": 6,
-          "rankName": "Лицензер",
+          "rankName": "Licenser",
           "rankSalary": 8300,
           "maleSkinId": 187,
           "femaleSkinId": 141,
@@ -71,7 +71,7 @@
         },
         {
           "rank": 7,
-          "rankName": "Адвокат",
+          "rankName": "Lawyer",
           "rankSalary": 10500,
           "maleSkinId": 187,
           "femaleSkinId": 141,
@@ -83,7 +83,7 @@
         },
         {
           "rank": 8,
-          "rankName": "Депутат",
+          "rankName": "Deputy",
           "rankSalary": 13000,
           "maleSkinId": 227,
           "femaleSkinId": 141,
@@ -96,7 +96,7 @@
         },
         {
           "rank": 9,
-          "rankName": "Вице-губернатор",
+          "rankName": "Vice Governor",
           "rankSalary": 20200,
           "maleSkinId": 227,
           "femaleSkinId": 141,
@@ -115,7 +115,7 @@
         },
         {
           "rank": 10,
-          "rankName": "Губернатор",
+          "rankName": "Governor",
           "rankSalary": 26700,
           "maleSkinId": 147,
           "femaleSkinId": 141,
@@ -136,12 +136,12 @@
     },
     {
       "id": 2,
-      "name": "Воинская часть",
+      "name": "Military Unit",
       "color": "996633",
       "ranks": [
         {
           "rank": 1,
-          "rankName": "Рядовой",
+          "rankName": "Private",
           "rankSalary": 2600,
           "maleSkinId": 253,
           "femaleSkinId": 191,
@@ -151,7 +151,7 @@
         },
         {
           "rank": 2,
-          "rankName": "Ефрейтор",
+          "rankName": "Corporal",
           "rankSalary": 3400,
           "maleSkinId": 253,
           "femaleSkinId": 191,
@@ -161,7 +161,7 @@
         },
         {
           "rank": 3,
-          "rankName": "Сержант",
+          "rankName": "Sergeant",
           "rankSalary": 4200,
           "maleSkinId": 253,
           "femaleSkinId": 191,
@@ -172,7 +172,7 @@
         },
         {
           "rank": 4,
-          "rankName": "Старшина",
+          "rankName": "Master Sergeant",
           "rankSalary": 5000,
           "maleSkinId": 179,
           "femaleSkinId": 191,
@@ -183,7 +183,7 @@
         },
         {
           "rank": 5,
-          "rankName": "Прапорщик",
+          "rankName": "Ensign",
           "rankSalary": 6450,
           "maleSkinId": 179,
           "femaleSkinId": 191,
@@ -194,7 +194,7 @@
         },
         {
           "rank": 6,
-          "rankName": "Лейтенант",
+          "rankName": "Lieutenant",
           "rankSalary": 7850,
           "maleSkinId": 179,
           "femaleSkinId": 5500036,
@@ -205,7 +205,7 @@
         },
         {
           "rank": 7,
-          "rankName": "Капитан",
+          "rankName": "Captain",
           "rankSalary": 9500,
           "maleSkinId": 287,
           "femaleSkinId": 5500036,
@@ -217,7 +217,7 @@
         },
         {
           "rank": 8,
-          "rankName": "Майор",
+          "rankName": "Major",
           "rankSalary": 11900,
           "maleSkinId": 287,
           "femaleSkinId": 5500036,
@@ -230,7 +230,7 @@
         },
         {
           "rank": 9,
-          "rankName": "Подполковник",
+          "rankName": "Lieutenant Colonel",
           "rankSalary": 17300,
           "maleSkinId": 287,
           "femaleSkinId": 5500036,
@@ -249,7 +249,7 @@
         },
         {
           "rank": 10,
-          "rankName": "Полковник",
+          "rankName": "Colonel",
           "rankSalary": 24800,
           "maleSkinId": 61,
           "femaleSkinId": 31,
@@ -270,12 +270,12 @@
     },
     {
       "id": 3,
-      "name": "Городская больница",
+      "name": "City Hospital",
       "color": "FF6666",
       "ranks": [
         {
           "rank": 1,
-          "rankName": "Интерн",
+          "rankName": "Intern",
           "rankSalary": 3900,
           "maleSkinId": 274,
           "femaleSkinId": 304,
@@ -285,7 +285,7 @@
         },
         {
           "rank": 2,
-          "rankName": "Парамедик",
+          "rankName": "Paramedic",
           "rankSalary": 5450,
           "maleSkinId": 274,
           "femaleSkinId": 305,
@@ -295,7 +295,7 @@
         },
         {
           "rank": 3,
-          "rankName": "Фельдшер",
+          "rankName": "Paramedic",
           "rankSalary": 6500,
           "maleSkinId": 274,
           "femaleSkinId": 305,
@@ -305,7 +305,7 @@
         },
         {
           "rank": 4,
-          "rankName": "Нарколог",
+          "rankName": "Narcologist",
           "rankSalary": 7800,
           "maleSkinId": 274,
           "femaleSkinId": 305,
@@ -315,7 +315,7 @@
         },
         {
           "rank": 5,
-          "rankName": "Педиатр",
+          "rankName": "Pediatrician",
           "rankSalary": 9350,
           "maleSkinId": 275,
           "femaleSkinId": 69,
@@ -325,7 +325,7 @@
         },
         {
           "rank": 6,
-          "rankName": "Терапевт",
+          "rankName": "Therapist",
           "rankSalary": 11400,
           "maleSkinId": 275,
           "femaleSkinId": 69,
@@ -335,7 +335,7 @@
         },
         {
           "rank": 7,
-          "rankName": "Травматолог",
+          "rankName": "Traumatologist",
           "rankSalary": 12800,
           "maleSkinId": 275,
           "femaleSkinId": 69,
@@ -346,7 +346,7 @@
         },
         {
           "rank": 8,
-          "rankName": "Хирург",
+          "rankName": "Surgeon",
           "rankSalary": 15300,
           "maleSkinId": 275,
           "femaleSkinId": 69,
@@ -358,7 +358,7 @@
         },
         {
           "rank": 9,
-          "rankName": "Заведующий",
+          "rankName": "Department head",
           "rankSalary": 19700,
           "maleSkinId": 275,
           "femaleSkinId": 69,
@@ -375,7 +375,7 @@
         },
         {
           "rank": 10,
-          "rankName": "Главный врач",
+          "rankName": "Chief doctor",
           "rankSalary": 22400,
           "maleSkinId": 70,
           "femaleSkinId": 69,
@@ -394,12 +394,12 @@
     },
     {
       "id": 4,
-      "name": "СМИ",
+      "name": "Media",
       "color": "FF6600",
       "ranks": [
         {
           "rank": 1,
-          "rankName": "Практикант",
+          "rankName": "Intern",
           "rankSalary": 2450,
           "maleSkinId": 184,
           "femaleSkinId": 263,
@@ -409,7 +409,7 @@
         },
         {
           "rank": 2,
-          "rankName": "Фотограф",
+          "rankName": "Photographer",
           "rankSalary": 3500,
           "maleSkinId": 184,
           "femaleSkinId": 263,
@@ -419,7 +419,7 @@
         },
         {
           "rank": 3,
-          "rankName": "Журналист",
+          "rankName": "Journalist",
           "rankSalary": 4950,
           "maleSkinId": 184,
           "femaleSkinId": 263,
@@ -429,7 +429,7 @@
         },
         {
           "rank": 4,
-          "rankName": "Корреспондент",
+          "rankName": "Correspondent",
           "rankSalary": 6950,
           "maleSkinId": 184,
           "femaleSkinId": 263,
@@ -439,7 +439,7 @@
         },
         {
           "rank": 5,
-          "rankName": "Ведущий",
+          "rankName": "Host",
           "rankSalary": 8450,
           "maleSkinId": 188,
           "femaleSkinId": 263,
@@ -449,7 +449,7 @@
         },
         {
           "rank": 6,
-          "rankName": "Редактор",
+          "rankName": "Editor",
           "rankSalary": 9550,
           "maleSkinId": 188,
           "femaleSkinId": 263,
@@ -459,7 +459,7 @@
         },
         {
           "rank": 7,
-          "rankName": "Маркетолог",
+          "rankName": "Marketer",
           "rankSalary": 10700,
           "maleSkinId": 188,
           "femaleSkinId": 263,
@@ -470,7 +470,7 @@
         },
         {
           "rank": 8,
-          "rankName": "Менеджер",
+          "rankName": "Manager",
           "rankSalary": 13900,
           "maleSkinId": 261,
           "femaleSkinId": 263,
@@ -482,7 +482,7 @@
         },
         {
           "rank": 9,
-          "rankName": "Продюсер",
+          "rankName": "Producer",
           "rankSalary": 19500,
           "maleSkinId": 261,
           "femaleSkinId": 263,
@@ -499,7 +499,7 @@
         },
         {
           "rank": 10,
-          "rankName": "Директор",
+          "rankName": "Director",
           "rankSalary": 24600,
           "maleSkinId": 186,
           "femaleSkinId": 263,
@@ -518,12 +518,12 @@
     },
     {
       "id": 5,
-      "name": "ГИБДД",
+      "name": "Traffic Police",
       "color": "0000FF",
       "ranks": [
         {
           "rank": 1,
-          "rankName": "Рядовой",
+          "rankName": "Private",
           "rankSalary": 6000,
           "maleSkinId": 282,
           "femaleSkinId": 76,
@@ -533,7 +533,7 @@
         },
         {
           "rank": 2,
-          "rankName": "Ефрейтор",
+          "rankName": "Corporal",
           "rankSalary": 7000,
           "maleSkinId": 282,
           "femaleSkinId": 76,
@@ -543,7 +543,7 @@
         },
         {
           "rank": 3,
-          "rankName": "Сержант",
+          "rankName": "Sergeant",
           "rankSalary": 9400,
           "maleSkinId": 282,
           "femaleSkinId": 76,
@@ -554,7 +554,7 @@
         },
         {
           "rank": 4,
-          "rankName": "Старшина",
+          "rankName": "Master Sergeant",
           "rankSalary": 10600,
           "maleSkinId": 281,
           "femaleSkinId": 76,
@@ -565,7 +565,7 @@
         },
         {
           "rank": 5,
-          "rankName": "Прапорщик",
+          "rankName": "Ensign",
           "rankSalary": 11800,
           "maleSkinId": 281,
           "femaleSkinId": 76,
@@ -576,7 +576,7 @@
         },
         {
           "rank": 6,
-          "rankName": "Лейтенант",
+          "rankName": "Lieutenant",
           "rankSalary": 13100,
           "maleSkinId": 281,
           "femaleSkinId": 5500034,
@@ -587,7 +587,7 @@
         },
         {
           "rank": 7,
-          "rankName": "Капитан",
+          "rankName": "Captain",
           "rankSalary": 13800,
           "maleSkinId": 280,
           "femaleSkinId": 5500034,
@@ -599,7 +599,7 @@
         },
         {
           "rank": 8,
-          "rankName": "Майор",
+          "rankName": "Major",
           "rankSalary": 15600,
           "maleSkinId": 280,
           "femaleSkinId": 5500034,
@@ -612,7 +612,7 @@
         },
         {
           "rank": 9,
-          "rankName": "Подполковник",
+          "rankName": "Lieutenant Colonel",
           "rankSalary": 21800,
           "maleSkinId": 280,
           "femaleSkinId": 5500034,
@@ -631,7 +631,7 @@
         },
         {
           "rank": 10,
-          "rankName": "Полковник",
+          "rankName": "Colonel",
           "rankSalary": 24300,
           "maleSkinId": 288,
           "femaleSkinId": 5500035,
@@ -652,12 +652,12 @@
     },
     {
       "id": 6,
-      "name": "УМВД",
+      "name": "City Police",
       "color": "0000FF",
       "ranks": [
         {
           "rank": 1,
-          "rankName": "Рядовой",
+          "rankName": "Private",
           "rankSalary": 6000,
           "maleSkinId": 284,
           "femaleSkinId": 265,
@@ -667,7 +667,7 @@
         },
         {
           "rank": 2,
-          "rankName": "Ефрейтор",
+          "rankName": "Corporal",
           "rankSalary": 7000,
           "maleSkinId": 284,
           "femaleSkinId": 265,
@@ -677,7 +677,7 @@
         },
         {
           "rank": 3,
-          "rankName": "Сержант",
+          "rankName": "Sergeant",
           "rankSalary": 9400,
           "maleSkinId": 284,
           "femaleSkinId": 265,
@@ -688,7 +688,7 @@
         },
         {
           "rank": 4,
-          "rankName": "Старшина",
+          "rankName": "Master Sergeant",
           "rankSalary": 10600,
           "maleSkinId": 277,
           "femaleSkinId": 265,
@@ -699,7 +699,7 @@
         },
         {
           "rank": 5,
-          "rankName": "Прапорщик",
+          "rankName": "Ensign",
           "rankSalary": 11800,
           "maleSkinId": 277,
           "femaleSkinId": 265,
@@ -710,7 +710,7 @@
         },
         {
           "rank": 6,
-          "rankName": "Лейтенант",
+          "rankName": "Lieutenant",
           "rankSalary": 13100,
           "maleSkinId": 277,
           "femaleSkinId": 5500037,
@@ -721,7 +721,7 @@
         },
         {
           "rank": 7,
-          "rankName": "Капитан",
+          "rankName": "Captain",
           "rankSalary": 13800,
           "maleSkinId": 285,
           "femaleSkinId": 5500037,
@@ -733,7 +733,7 @@
         },
         {
           "rank": 8,
-          "rankName": "Майор",
+          "rankName": "Major",
           "rankSalary": 15600,
           "maleSkinId": 285,
           "femaleSkinId": 5500037,
@@ -746,7 +746,7 @@
         },
         {
           "rank": 9,
-          "rankName": "Подполковник",
+          "rankName": "Lieutenant Colonel",
           "rankSalary": 21800,
           "maleSkinId": 285,
           "femaleSkinId": 5500037,
@@ -765,7 +765,7 @@
         },
         {
           "rank": 10,
-          "rankName": "Полковник",
+          "rankName": "Colonel",
           "rankSalary": 24300,
           "maleSkinId": 15,
           "femaleSkinId": 5500038,
@@ -786,12 +786,12 @@
     },
     {
       "id": 7,
-      "name": "ФСБ",
+      "name": "FBI",
       "color": "0000FF",
       "ranks": [
         {
           "rank": 1,
-          "rankName": "Рядовой",
+          "rankName": "Private",
           "rankSalary": 7000,
           "maleSkinId": 286,
           "femaleSkinId": 54,
@@ -801,7 +801,7 @@
         },
         {
           "rank": 2,
-          "rankName": "Ефрейтор",
+          "rankName": "Corporal",
           "rankSalary": 7950,
           "maleSkinId": 286,
           "femaleSkinId": 54,
@@ -811,7 +811,7 @@
         },
         {
           "rank": 3,
-          "rankName": "Сержант",
+          "rankName": "Sergeant",
           "rankSalary": 9150,
           "maleSkinId": 286,
           "femaleSkinId": 54,
@@ -822,7 +822,7 @@
         },
         {
           "rank": 4,
-          "rankName": "Старшина",
+          "rankName": "Master Sergeant",
           "rankSalary": 10300,
           "maleSkinId": 5500033,
           "femaleSkinId": 54,
@@ -834,7 +834,7 @@
         },
         {
           "rank": 5,
-          "rankName": "Прапорщик",
+          "rankName": "Ensign",
           "rankSalary": 11300,
           "maleSkinId": 5500033,
           "femaleSkinId": 54,
@@ -846,7 +846,7 @@
         },
         {
           "rank": 6,
-          "rankName": "Лейтенант",
+          "rankName": "Lieutenant",
           "rankSalary": 12600,
           "maleSkinId": 5500033,
           "femaleSkinId": 5500032,
@@ -858,7 +858,7 @@
         },
         {
           "rank": 7,
-          "rankName": "Капитан",
+          "rankName": "Captain",
           "rankSalary": 14600,
           "maleSkinId": 163,
           "femaleSkinId": 5500032,
@@ -871,7 +871,7 @@
         },
         {
           "rank": 8,
-          "rankName": "Майор",
+          "rankName": "Major",
           "rankSalary": 17100,
           "maleSkinId": 72,
           "femaleSkinId": 5500032,
@@ -885,7 +885,7 @@
         },
         {
           "rank": 9,
-          "rankName": "Подполковник",
+          "rankName": "Lieutenant Colonel",
           "rankSalary": 21800,
           "maleSkinId": 72,
           "femaleSkinId": 5500032,
@@ -906,7 +906,7 @@
         },
         {
           "rank": 10,
-          "rankName": "Полковник",
+          "rankName": "Colonel",
           "rankSalary": 26000,
           "maleSkinId": 164,
           "femaleSkinId": 150,
@@ -929,12 +929,12 @@
     },
     {
       "id": 8,
-      "name": "Арзамасская ОПГ",
+      "name": "Arzamas OCG",
       "color": "009900",
       "ranks": [
         {
           "rank": 1,
-          "rankName": "Молодой",
+          "rankName": "Young",
           "rankSalary": 0,
           "maleSkinId": 112,
           "femaleSkinId": 148,
@@ -944,7 +944,7 @@
         },
         {
           "rank": 2,
-          "rankName": "Борзый",
+          "rankName": "Cocky",
           "rankSalary": 0,
           "maleSkinId": 112,
           "femaleSkinId": 148,
@@ -954,7 +954,7 @@
         },
         {
           "rank": 3,
-          "rankName": "Фраер",
+          "rankName": "Dude",
           "rankSalary": 0,
           "maleSkinId": 112,
           "femaleSkinId": 148,
@@ -965,7 +965,7 @@
         },
         {
           "rank": 4,
-          "rankName": "Барыга",
+          "rankName": "Dealer",
           "rankSalary": 0,
           "maleSkinId": 112,
           "femaleSkinId": 148,
@@ -976,7 +976,7 @@
         },
         {
           "rank": 5,
-          "rankName": "Блатной",
+          "rankName": "Criminal elite",
           "rankSalary": 0,
           "maleSkinId": 113,
           "femaleSkinId": 148,
@@ -987,7 +987,7 @@
         },
         {
           "rank": 6,
-          "rankName": "Свояк",
+          "rankName": "Buddy",
           "rankSalary": 0,
           "maleSkinId": 113,
           "femaleSkinId": 148,
@@ -998,7 +998,7 @@
         },
         {
           "rank": 7,
-          "rankName": "Браток",
+          "rankName": "Bro",
           "rankSalary": 0,
           "maleSkinId": 113,
           "femaleSkinId": 148,
@@ -1010,7 +1010,7 @@
         },
         {
           "rank": 8,
-          "rankName": "Смотрящий",
+          "rankName": "Overseer",
           "rankSalary": 0,
           "maleSkinId": 119,
           "femaleSkinId": 148,
@@ -1023,7 +1023,7 @@
         },
         {
           "rank": 9,
-          "rankName": "Положенец",
+          "rankName": "Authority",
           "rankSalary": 0,
           "maleSkinId": 119,
           "femaleSkinId": 148,
@@ -1042,7 +1042,7 @@
         },
         {
           "rank": 10,
-          "rankName": "Вор в законе",
+          "rankName": "Thief in law",
           "rankSalary": 0,
           "maleSkinId": 111,
           "femaleSkinId": 148,
@@ -1063,12 +1063,12 @@
     },
     {
       "id": 9,
-      "name": "Батыревская ОПГ",
+      "name": "Batyrevo OCG",
       "color": "6666FF",
       "ranks": [
         {
           "rank": 1,
-          "rankName": "Молодой",
+          "rankName": "Young",
           "rankSalary": 0,
           "maleSkinId": 116,
           "femaleSkinId": 193,
@@ -1078,7 +1078,7 @@
         },
         {
           "rank": 2,
-          "rankName": "Борзый",
+          "rankName": "Cocky",
           "rankSalary": 0,
           "maleSkinId": 116,
           "femaleSkinId": 193,
@@ -1088,7 +1088,7 @@
         },
         {
           "rank": 3,
-          "rankName": "Фраер",
+          "rankName": "Dude",
           "rankSalary": 0,
           "maleSkinId": 116,
           "femaleSkinId": 193,
@@ -1099,7 +1099,7 @@
         },
         {
           "rank": 4,
-          "rankName": "Барыга",
+          "rankName": "Dealer",
           "rankSalary": 0,
           "maleSkinId": 116,
           "femaleSkinId": 193,
@@ -1110,7 +1110,7 @@
         },
         {
           "rank": 5,
-          "rankName": "Блатной",
+          "rankName": "Criminal elite",
           "rankSalary": 0,
           "maleSkinId": 114,
           "femaleSkinId": 193,
@@ -1121,7 +1121,7 @@
         },
         {
           "rank": 6,
-          "rankName": "Свояк",
+          "rankName": "Buddy",
           "rankSalary": 0,
           "maleSkinId": 114,
           "femaleSkinId": 193,
@@ -1132,7 +1132,7 @@
         },
         {
           "rank": 7,
-          "rankName": "Браток",
+          "rankName": "Bro",
           "rankSalary": 0,
           "maleSkinId": 114,
           "femaleSkinId": 193,
@@ -1145,7 +1145,7 @@
         },
         {
           "rank": 8,
-          "rankName": "Смотрящий",
+          "rankName": "Overseer",
           "rankSalary": 0,
           "maleSkinId": 115,
           "femaleSkinId": 193,
@@ -1159,7 +1159,7 @@
         },
         {
           "rank": 9,
-          "rankName": "Положенец",
+          "rankName": "Authority",
           "rankSalary": 0,
           "maleSkinId": 115,
           "femaleSkinId": 193,
@@ -1178,7 +1178,7 @@
         },
         {
           "rank": 10,
-          "rankName": "Вор в законе",
+          "rankName": "Thief in law",
           "rankSalary": 0,
           "maleSkinId": 117,
           "femaleSkinId": 193,
@@ -1199,12 +1199,12 @@
     },
     {
       "id": 10,
-      "name": "Лыткаринская ОПГ",
+      "name": "Lytkarino OCG",
       "color": "FFCD00",
       "ranks": [
         {
           "rank": 1,
-          "rankName": "Молодой",
+          "rankName": "Young",
           "rankSalary": 0,
           "maleSkinId": 104,
           "femaleSkinId": 195,
@@ -1214,7 +1214,7 @@
         },
         {
           "rank": 2,
-          "rankName": "Борзый",
+          "rankName": "Cocky",
           "rankSalary": 0,
           "maleSkinId": 104,
           "femaleSkinId": 195,
@@ -1224,7 +1224,7 @@
         },
         {
           "rank": 3,
-          "rankName": "Фраер",
+          "rankName": "Dude",
           "rankSalary": 0,
           "maleSkinId": 104,
           "femaleSkinId": 195,
@@ -1235,7 +1235,7 @@
         },
         {
           "rank": 4,
-          "rankName": "Барыга",
+          "rankName": "Dealer",
           "rankSalary": 0,
           "maleSkinId": 104,
           "femaleSkinId": 195,
@@ -1246,7 +1246,7 @@
         },
         {
           "rank": 5,
-          "rankName": "Блатной",
+          "rankName": "Criminal elite",
           "rankSalary": 0,
           "maleSkinId": 103,
           "femaleSkinId": 195,
@@ -1257,7 +1257,7 @@
         },
         {
           "rank": 6,
-          "rankName": "Свояк",
+          "rankName": "Buddy",
           "rankSalary": 0,
           "maleSkinId": 103,
           "femaleSkinId": 195,
@@ -1268,7 +1268,7 @@
         },
         {
           "rank": 7,
-          "rankName": "Браток",
+          "rankName": "Bro",
           "rankSalary": 0,
           "maleSkinId": 103,
           "femaleSkinId": 195,
@@ -1281,7 +1281,7 @@
         },
         {
           "rank": 8,
-          "rankName": "Смотрящий",
+          "rankName": "Overseer",
           "rankSalary": 0,
           "maleSkinId": 102,
           "femaleSkinId": 195,
@@ -1295,7 +1295,7 @@
         },
         {
           "rank": 9,
-          "rankName": "Положенец",
+          "rankName": "Authority",
           "rankSalary": 0,
           "maleSkinId": 102,
           "femaleSkinId": 195,
@@ -1314,7 +1314,7 @@
         },
         {
           "rank": 10,
-          "rankName": "Вор в законе",
+          "rankName": "Thief in law",
           "rankSalary": 0,
           "maleSkinId": 105,
           "femaleSkinId": 195,
@@ -1335,12 +1335,12 @@
     },
     {
       "id": 11,
-      "name": "ФСИН",
+      "name": "Penitentiary Service",
       "color": "9DCEEB",
       "ranks": [
         {
           "rank": 1,
-          "rankName": "Рядовой",
+          "rankName": "Private",
           "rankSalary": 2600,
           "maleSkinId": 4,
           "femaleSkinId": 93,
@@ -1350,7 +1350,7 @@
         },
         {
           "rank": 2,
-          "rankName": "Ефрейтор",
+          "rankName": "Corporal",
           "rankSalary": 3400,
           "maleSkinId": 4,
           "femaleSkinId": 93,
@@ -1360,7 +1360,7 @@
         },
         {
           "rank": 3,
-          "rankName": "Сержант",
+          "rankName": "Sergeant",
           "rankSalary": 4200,
           "maleSkinId": 4,
           "femaleSkinId": 93,
@@ -1371,7 +1371,7 @@
         },
         {
           "rank": 4,
-          "rankName": "Старшина",
+          "rankName": "Master Sergeant",
           "rankSalary": 5000,
           "maleSkinId": 5500030,
           "femaleSkinId": 93,
@@ -1382,7 +1382,7 @@
         },
         {
           "rank": 5,
-          "rankName": "Прапорщик",
+          "rankName": "Ensign",
           "rankSalary": 6450,
           "maleSkinId": 5500030,
           "femaleSkinId": 93,
@@ -1393,7 +1393,7 @@
         },
         {
           "rank": 6,
-          "rankName": "Лейтенант",
+          "rankName": "Lieutenant",
           "rankSalary": 7850,
           "maleSkinId": 5500030,
           "femaleSkinId": 64,
@@ -1404,7 +1404,7 @@
         },
         {
           "rank": 7,
-          "rankName": "Капитан",
+          "rankName": "Captain",
           "rankSalary": 9500,
           "maleSkinId": 32,
           "femaleSkinId": 64,
@@ -1416,7 +1416,7 @@
         },
         {
           "rank": 8,
-          "rankName": "Майор",
+          "rankName": "Major",
           "rankSalary": 11900,
           "maleSkinId": 32,
           "femaleSkinId": 64,
@@ -1429,7 +1429,7 @@
         },
         {
           "rank": 9,
-          "rankName": "Подполковник",
+          "rankName": "Lieutenant Colonel",
           "rankSalary": 17300,
           "maleSkinId": 32,
           "femaleSkinId": 64,
@@ -1448,7 +1448,7 @@
         },
         {
           "rank": 10,
-          "rankName": "Полковник",
+          "rankName": "Colonel",
           "rankSalary": 24800,
           "maleSkinId": 26,
           "femaleSkinId": 38,
@@ -1471,7 +1471,7 @@
   "spawn": [
     {
       "fraction": 1,
-      "name": "Правительство области",
+      "name": "Regional Government",
       "skinData": [
         147,
         17,
@@ -1488,7 +1488,7 @@
     },
     {
       "fraction": 2,
-      "name": "Воинская часть",
+      "name": "Military Unit",
       "skinData": [
         61,
         179,
@@ -1507,7 +1507,7 @@
     },
     {
       "fraction": 3,
-      "name": "Городская больница",
+      "name": "City Hospital",
       "skinData": [
         70,
         274,
@@ -1526,7 +1526,7 @@
     },
     {
       "fraction": 4,
-      "name": "СМИ",
+      "name": "Media",
       "skinData": [
         186,
         184,
@@ -1543,7 +1543,7 @@
     },
     {
       "fraction": 5,
-      "name": "ГИБДД",
+      "name": "Traffic Police",
       "skinData": [
         288,
         282,
@@ -1562,7 +1562,7 @@
     },
     {
       "fraction": 6,
-      "name": "УМВД",
+      "name": "City Police",
       "skinData": [
         284,
         277,
@@ -1581,7 +1581,7 @@
     },
     {
       "fraction": 7,
-      "name": "ФСБ",
+      "name": "FBI",
       "skinData": [
         164,
         286,
@@ -1601,7 +1601,7 @@
     },
     {
       "fraction": 8,
-      "name": "Арзамасская ОПГ",
+      "name": "Arzamas OCG",
       "skinData": [
         111,
         112,
@@ -1618,7 +1618,7 @@
     },
     {
       "fraction": 9,
-      "name": "Батыревская ОПГ",
+      "name": "Batyrevo OCG",
       "skinData": [
         117,
         116,
@@ -1635,7 +1635,7 @@
     },
     {
       "fraction": 10,
-      "name": "Лыткаринская ОПГ",
+      "name": "Lytkarino OCG",
       "skinData": [
         105,
         104,
@@ -1652,7 +1652,7 @@
     },
     {
       "fraction": 11,
-      "name": "ФСИН",
+      "name": "Penitentiary Service",
       "skinData": [
         26,
         4,
@@ -1674,7 +1674,7 @@
     {
       "id": 1,
       "fraction": 1,
-      "name": "Правительство области",
+      "name": "Regional Government",
       "skin": 81,
       "positionX": -888.001,
       "positionY": -1577.26,
@@ -1691,7 +1691,7 @@
     {
       "id": 2,
       "fraction": 2,
-      "name": "Воинская часть",
+      "name": "Military Unit",
       "skin": 81,
       "positionX": 498.874,
       "positionY": 1511.59,
@@ -1708,7 +1708,7 @@
     {
       "id": 3,
       "fraction": 3,
-      "name": "Городская больница",
+      "name": "City Hospital",
       "skin": 81,
       "positionX": 1502.98,
       "positionY": 2500.47,
@@ -1725,7 +1725,7 @@
     {
       "id": 4,
       "fraction": 4,
-      "name": "СМИ",
+      "name": "Media",
       "skin": 81,
       "positionX": 1984.96,
       "positionY": -3.28801,
@@ -1742,7 +1742,7 @@
     {
       "id": 5,
       "fraction": 5,
-      "name": "ГИБДД",
+      "name": "Traffic Police",
       "skin": 81,
       "positionX": -1106.81,
       "positionY": 1512.9,
@@ -1759,7 +1759,7 @@
     {
       "id": 6,
       "fraction": 6,
-      "name": "УМВД",
+      "name": "City Police",
       "skin": 81,
       "positionX": -1106.81,
       "positionY": 1512.9,
@@ -1776,7 +1776,7 @@
     {
       "id": 11,
       "fraction": 11,
-      "name": "ФСИН",
+      "name": "Penitentiary Service",
       "skin": 81,
       "positionX": -1818.11,
       "positionY": -2631.66,
@@ -1793,7 +1793,7 @@
     {
       "id": 8,
       "fraction": 3,
-      "name": "Городская больница",
+      "name": "City Hospital",
       "skin": 81,
       "positionX": 1502.98,
       "positionY": 2500.47,
@@ -1811,81 +1811,81 @@
   "questions": [
     {
       "id": 1,
-      "question": "Разрешено ли возвращаться на место смерти?",
-      "answer1": "Разрешено. Я могу вернуться, чтобы продолжить свои дела",
-      "answer2": "Запрещено. Это нарушает правила игры",
-      "answer3": "Разрешено. Я могу вернуться и разобраться с обидчиком",
-      "answer4": "Разрешено. Я могу вернуться, если не участвовал в перестрелке",
+      "question": "Is it allowed to return to the place of death?",
+      "answer1": "Allowed. I can return to continue my business",
+      "answer2": "Forbidden. This violates the game rules",
+      "answer3": "Allowed. I can return and deal with the offender",
+      "answer4": "Allowed. I can return if I did not participate in the shootout",
       "correctAnswer": 2
     },
     {
       "id": 2,
-      "question": "Разрешено ли оскорблять других игроков?",
-      "answer1": "Разрешено. Сотрудник может всех оскорблять",
-      "answer2": "Запрещено. Сотрудник не должен никого ругать и оскорблять",
-      "answer3": "Сотрудник может оскорблять только своих коллег",
-      "answer4": "Сотрудник может оскорблять только гражданских",
+      "question": "Is it allowed to insult other players?",
+      "answer1": "Allowed. The employee may insult everyone",
+      "answer2": "Forbidden. An employee must not scold or insult anyone",
+      "answer3": "The employee may insult only their colleagues",
+      "answer4": "The employee may insult only civilians",
       "correctAnswer": 2
     },
     {
       "id": 3,
-      "question": "Разрешено ли убивать игроков без причины?",
-      "answer1": "Разрешено. Я могу убить игрока, если он мне мешает",
-      "answer2": "Разрешено. Это не наказуемо правилами игры",
-      "answer3": "Запрещено. Вы должны иметь вескую на то причину",
-      "answer4": "Запрещено. Конфликты решаются только администрацией",
+      "question": "Is it allowed to kill players without a reason?",
+      "answer1": "Allowed. I can kill a player if they are bothering me",
+      "answer2": "Allowed. This is not punishable by the game rules",
+      "answer3": "Forbidden. You must have a good reason for it",
+      "answer4": "Forbidden. Conflicts are resolved only by the administration",
       "correctAnswer": 3
     },
     {
       "id": 4,
-      "question": "Разрешено ли убивать коллег из организации?",
-      "answer1": "Разрешено. Сотрудник может убивать коллег",
-      "answer2": "Запрещено. Это нарушает правила игры",
-      "answer3": "Разрешено. Я могу договориться на дуэль",
-      "answer4": "Разрешено. Коллега не гражданский",
+      "question": "Is it allowed to kill colleagues from the organization?",
+      "answer1": "Allowed. The employee may kill colleagues",
+      "answer2": "Forbidden. This violates the game rules",
+      "answer3": "Allowed. I can arrange a duel",
+      "answer4": "Allowed. A colleague is not a civilian",
       "correctAnswer": 2
     },
     {
       "id": 5,
-      "question": "Что означает IC информация?",
-      "answer1": "Информация, которая не касается игрового процесса",
-      "answer2": "Информация от администраторов",
-      "answer3": "Информация, которая касается игрового процесса",
-      "answer4": "Информация от лидера",
+      "question": "What does IC information mean?",
+      "answer1": "Information not related to gameplay",
+      "answer2": "Information from administrators",
+      "answer3": "Information related to gameplay",
+      "answer4": "Information from the leader",
       "correctAnswer": 3
     },
     {
       "id": 6,
-      "question": "Что означает OOC информация?",
-      "answer1": "Информация из игрового процесса",
-      "answer2": "Информация, которая не касается игрового процесса",
-      "answer3": "Информация от администрации",
-      "answer4": "Информация от лидера",
+      "question": "What does OOC information mean?",
+      "answer1": "Information from gameplay",
+      "answer2": "Information not related to gameplay",
+      "answer3": "Information from administration",
+      "answer4": "Information from the leader",
       "correctAnswer": 2
     },
     {
       "id": 7,
-      "question": "Что такое Зелёная Зона?",
-      "answer1": "Зона, в которой можно убивать игроков",
-      "answer2": "Зона для восполнения здоровья",
-      "answer3": "Зона, запрещающая наносить урон другим игрокам",
-      "answer4": "Зона, разрешающая нарушать правила игры",
+      "question": "What is the Green Zone?",
+      "answer1": "Zone where players can be killed",
+      "answer2": "Health restoration zone",
+      "answer3": "Zone prohibiting damage to other players",
+      "answer4": "Zone allowing violation of game rules",
       "correctAnswer": 3
     },
     {
       "id": 8,
-      "question": "Что такое RolePlay?",
-      "answer1": "Играть по правилам. Я должен играть по правилам проекта",
-      "answer2": "Играть без правил. Я могу играть как захочу и не быть наказанным",
-      "answer3": "Игра по ролям. Если я полицейский - я играю роль полицейского",
-      "answer4": "Игра по уставу организации",
+      "question": "What is RolePlay?",
+      "answer1": "Play by the rules. I must play by the project rules",
+      "answer2": "Play without rules. I can play however I want and not be punished",
+      "answer3": "Roleplay game. If I am a policeman - I play the role of a policeman",
+      "answer4": "Game according to the organization's charter",
       "correctAnswer": 3
     }
   ],
   "progress": [
     {
       "fraction": 1,
-      "name": "Правительство области",
+      "name": "Regional Government",
       "ranks": [
         {
           "rank": 1,
@@ -1976,7 +1976,7 @@
     },
     {
       "fraction": 2,
-      "name": "Воинская часть",
+      "name": "Military Unit",
       "ranks": [
         {
           "rank": 1,
@@ -2067,7 +2067,7 @@
     },
     {
       "fraction": 3,
-      "name": "Городская больница",
+      "name": "City Hospital",
       "ranks": [
         {
           "rank": 1,
@@ -2158,7 +2158,7 @@
     },
     {
       "fraction": 4,
-      "name": "СМИ",
+      "name": "Media",
       "ranks": [
         {
           "rank": 1,
@@ -2249,7 +2249,7 @@
     },
     {
       "fraction": 5,
-      "name": "ГИБДД",
+      "name": "Traffic Police",
       "ranks": [
         {
           "rank": 1,
@@ -2340,7 +2340,7 @@
     },
     {
       "fraction": 6,
-      "name": "УМВД",
+      "name": "City Police",
       "ranks": [
         {
           "rank": 1,
@@ -2431,7 +2431,7 @@
     },
     {
       "fraction": 7,
-      "name": "ФСБ",
+      "name": "FBI",
       "ranks": [
         {
           "rank": 1,
@@ -2522,7 +2522,7 @@
     },
     {
       "fraction": 11,
-      "name": "ФСИН",
+      "name": "Penitentiary Service",
       "ranks": [
         {
           "rank": 1,
@@ -2616,74 +2616,74 @@
     {
       "id": 1,
       "fractionId": 2,
-      "fractionName": "Армия",
-      "text": "[color=#FFFF00]Главная защита и опора нашего общества.[/color][br/][br/]Когда уже бессильна полиция и даже ФСБ, только бравые армейские парни способны встать стеной между криминалом и честными гражданами.[br/][br/]Каждый, кто рассчитывает построить карьеру в силовых структурах, обязан пройти через эту школу жизни и получить свой военный билет.[br/]"
+      "fractionName": "Army",
+      "text": "[color=#FFFF00]The main protection and support of our society.[/color][br/][br/]When the police and even the FBI are already powerless, only the brave army guys are capable of standing like a wall between crime and honest citizens.[br/][br/]Everyone who plans to build a career in the security forces must go through this school of life and receive their military ID.[br/]"
     },
     {
       "id": 2,
       "fractionId": 6,
-      "fractionName": "УМВД",
-      "text": "[color=#FFFF00]Эта служба и опасна и трудна.[/color][br/][br/]Потому, что именно сотрудники МВД являются первой линией обороны от жуликов всех мастей.[br/][br/]Их задача - предотвратить беззаконие. А если не получится, то найти и обезвредить преступника, чего бы им это ни стоило.[br/]"
+      "fractionName": "City Police",
+      "text": "[color=#FFFF00]This service is both dangerous and difficult.[/color][br/][br/]Because it is the Ministry of Internal Affairs officers who are the first line of defense against crooks of every kind.[br/][br/]Their task is to prevent lawlessness. And if that fails, then to find and neutralize the criminal, no matter what it costs them.[br/]"
     },
     {
       "id": 3,
       "fractionId": 5,
-      "fractionName": "ГИБДД",
-      "text": "[color=#FFFF00]Дорожный дозор не дремлет, не спит.[/color][br/][br/]Ведь преступник - это не только злой бандит в маске с пистолетом. Им может стать и порядочный с виду гражданин, который злостно нарушает правила дорожного движения.[br/][br/]Но доблестные сотрудники ГИБДД сделают все, чтобы такой человек понес заслуженное наказание.[br/]"
+      "fractionName": "Traffic Police",
+      "text": "[color=#FFFF00]The road patrol stays alert, never sleeps.[/color][br/][br/]After all, a criminal is not only an evil bandit in a mask with a gun. It can also be a decent-looking citizen who maliciously violates traffic rules.[br/][br/]But the valiant traffic police officers will do everything to make sure such a person receives the punishment they deserve.[br/]"
     },
     {
       "id": 4,
       "fractionId": 7,
-      "fractionName": "ФСБ",
-      "text": "[color=#FFFF00]“Государство, законность и честь” - не пустые слова.[/color][br/][br/]Эти серьезные ребята с серьезной экипировкой всегда помогут коллегам из полиции поймать особо опасного и изворотливого преступника.[br/][br/]А если преступник затесался в ряды самих госорганов, то опытные оперативники под прикрытием выявят его и там.[br/]"
+      "fractionName": "FBI",
+      "text": "[color=#FFFF00]“State, legality, and honor” are not empty words.[/color][br/][br/]These serious guys with serious equipment will always help their police colleagues catch a particularly dangerous and cunning criminal.[br/][br/]And if the criminal has slipped into the ranks of the state authorities themselves, experienced undercover operatives will expose him there as well.[br/]"
     },
     {
       "id": 5,
       "fractionId": 8,
-      "fractionName": "Арзамасская ОПГ",
-      "text": "[color=#FFFF00]Организованная преступность - это порядок, построенный на хаосе.[/color][br/][br/]Хотя отношение к группировкам среди населения неоднозначное, они - неотъемлемая часть нашего мира, формирующая свою уникальную криминальную среду. И в этой среде найдется место не только разрушению, но и созиданию.[br/][br/]Известная своим жестким прагматизмом Арзамасская ОПГ лишь подтверждает этот факт.[br/]"
+      "fractionName": "Arzamas OCG",
+      "text": "[color=#FFFF00]Organized crime is order built on chaos.[/color][br/][br/]Although public attitudes toward gangs are mixed, they are an integral part of our world, shaping their own unique criminal environment. And in this environment there is room not only for destruction, but also for creation.[br/][br/]The Arzamas organized crime group, known for its tough pragmatism, only confirms this fact.[br/]"
     },
     {
       "id": 6,
       "fractionId": 9,
-      "fractionName": "Батыревская ОПГ",
-      "text": "[color=#FFFF00]Организованная преступность - это порядок, построенный на хаосе.[/color][br/][br/]Хотя отношение к группировкам среди населения неоднозначное, они - неотъемлемая часть нашего мира, формирующая свою уникальную криминальную среду. И в этой среде найдется место не только разрушению, но и созиданию.[br/][br/]Известная своей железной дисциплиной Батыревская ОПГ лишь подтверждает этот факт.[br/]"
+      "fractionName": "Batyrevo OCG",
+      "text": "[color=#FFFF00]Organized crime is order built on chaos.[/color][br/][br/]Although public attitudes toward gangs are mixed, they are an integral part of our world, shaping their own unique criminal environment. And in this environment there is room not only for destruction, but also for creation.[br/][br/]The Batyrevo organized crime group, known for its iron discipline, only confirms this fact.[br/]"
     },
     {
       "id": 7,
       "fractionId": 10,
-      "fractionName": "Лыткаринская ОПГ",
-      "text": "[color=#FFFF00]Организованная преступность - это порядок, построенный на хаосе.[/color][br/][br/]Хотя отношение к группировкам среди населения неоднозначное, они - неотъемлемая часть нашего мира, формирующая свою уникальную криминальную среду. И в этой среде найдется место не только разрушению, но и созиданию.[br/][br/]Известная своей пугающей суровостью Лыткаринская ОПГ лишь подтверждает этот факт.[br/]"
+      "fractionName": "Lytkarino OCG",
+      "text": "[color=#FFFF00]Organized crime is order built on chaos.[/color][br/][br/]Although public attitudes toward gangs are mixed, they are an integral part of our world, shaping their own unique criminal environment. And in this environment there is room not only for destruction, but also for creation.[br/][br/]The Lytkarino organized crime group, known for its frightening harshness, only confirms this fact.[br/]"
     },
     {
       "id": 8,
       "fractionId": 11,
-      "fractionName": "ФСИН",
-      "text": "[color=#FFFF00]Кто-то ловит, а кто-то и охраняет.[/color][br/][br/]Ведь поймать преступника - это дело одно, а вот заставить его годами исправно нести своё законное наказание - совсем другое.[br/][br/]Находиться бок о бок с самыми жуткими и опасными бандитами области, конвоировать их, охранять и предотвращать побеги - обычные будни этих людей. Суровые будни.[br/]"
+      "fractionName": "Penitentiary Service",
+      "text": "[color=#FFFF00]Some catch, while others guard.[/color][br/][br/]After all, catching a criminal is one thing, but making them properly serve their lawful punishment for years is quite another.[br/][br/]To be side by side with the most terrifying and dangerous bandits of the region, escort them, guard them, and prevent escapes — that is the everyday routine of these people. A harsh routine.[br/]"
     },
     {
       "id": 9,
       "fractionId": 4,
-      "fractionName": "СМИ",
-      "text": "[color=#FFFF00]Четвертая власть лишь с виду кажется не такой влиятельной, как три другие.[/color][br/][br/]Сотрудники СМИ круглосуточно трудятся над тем, чтобы жители крепко держали руку на пульсе политической, социальной и культурной жизни нашей области.[br/][br/]И именно они предоставляют голос обычным гражданам, а также следят за тем, чтобы голос этот звучал достойно и был услышан всеми.[br/]"
+      "fractionName": "Media",
+      "text": "[color=#FFFF00]The fourth estate only appears to be less influential than the other three.[/color][br/][br/]Media staff work around the clock to ensure that residents keep their finger firmly on the pulse of the political, social, and cultural life of our region.[br/][br/]And it is they who give ordinary citizens a voice, while also making sure that this voice sounds worthy and is heard by everyone.[br/]"
     },
     {
       "id": 10,
       "fractionId": 3,
-      "fractionName": "Больница",
-      "text": "[color=#FFFF00]Медицина - это не просто профессия, а призвание служить жизни во всех ее проявлениях.[/color][br/][br/]Наши врачи готовы примчаться туда, где требуется их скорейшая помощь и буквально вытащить пациента с того света. А затем обеспечить ему полноценное лечение в просторных светлых и уютных палатах стационара.[br/][br/]Как завещал великий Гиппократ![br/]"
+      "fractionName": "Hospital",
+      "text": "[color=#FFFF00]Medicine is not just a profession, but a calling to serve life in all its manifestations.[/color][br/][br/]Our doctors are ready to rush wherever their urgent help is needed and literally pull a patient back from the brink of death. And then provide them with full treatment in the spacious, bright, and cozy wards of the inpatient department.[br/][br/]As the great Hippocrates bequeathed![br/]"
     },
     {
       "id": 11,
       "fractionId": 1,
-      "fractionName": "Правительство",
-      "text": "[color=#FFFF00]Все мы - народ, и правительство тоже.[/color][br/][br/]Этот большой, могучий, а иногда и откровенно неповоротливый механизм всё же каким-то чудом исправно управляет нашим сложным регионом.[br/][br/]И кто бы что ни думал, за таким непростым делом стоят наши обычные граждане. Начиная от водителей, охранников и секретарей и заканчивая самим губернатором области.[br/]"
+      "fractionName": "Government",
+      "text": "[color=#FFFF00]We are all the people, and the government is too.[/color][br/][br/]This large, mighty, and sometimes frankly clumsy mechanism still somehow miraculously manages our complex region properly.[br/][br/]And no matter what anyone thinks, behind such difficult work stand our ordinary citizens. From drivers, guards, and secretaries all the way to the regional governor himself.[br/]"
     }
   ],
   "fractionLogs": [
     {
       "id": 0,
-      "logName": "Общие",
+      "logName": "General",
       "fractionsId": [
         1,
         2,
@@ -2700,7 +2700,7 @@
     },
     {
       "id": 1,
-      "logName": "Новые сотрудники",
+      "logName": "New employees",
       "fractionsId": [
         1,
         2,
@@ -2714,7 +2714,7 @@
     },
     {
       "id": 2,
-      "logName": "Увольнения",
+      "logName": "Dismissals",
       "fractionsId": [
         1,
         2,
@@ -2728,7 +2728,7 @@
     },
     {
       "id": 3,
-      "logName": "Продвижение сотрудников",
+      "logName": "Employee promotion",
       "fractionsId": [
         1,
         2,
@@ -2742,7 +2742,7 @@
     },
     {
       "id": 4,
-      "logName": "Мероприятия",
+      "logName": "Events",
       "fractionsId": [
         1,
         2,
@@ -2756,7 +2756,7 @@
     },
     {
       "id": 5,
-      "logName": "Выговоры",
+      "logName": "Reprimands",
       "fractionsId": [
         1,
         2,
@@ -2770,7 +2770,7 @@
     },
     {
       "id": 6,
-      "logName": "Получение оружия на складе",
+      "logName": "Receiving weapons from the warehouse",
       "fractionsId": [
         1,
         2,
@@ -2782,63 +2782,63 @@
     },
     {
       "id": 7,
-      "logName": "Деятельность лицензеров",
+      "logName": "Licenser activities",
       "fractionsId": [
         1
       ]
     },
     {
       "id": 8,
-      "logName": "Деятельность адвокатов",
+      "logName": "Lawyer activities",
       "fractionsId": [
         1
       ]
     },
     {
       "id": 9,
-      "logName": "Выдача военных билетов",
+      "logName": "Issuing military IDs",
       "fractionsId": [
         2
       ]
     },
     {
       "id": 10,
-      "logName": "Выдача мед. карт",
+      "logName": "Issuing medical cards",
       "fractionsId": [
         3
       ]
     },
     {
       "id": 11,
-      "logName": "Лечение пациентов",
+      "logName": "Patient treatment",
       "fractionsId": [
         3
       ]
     },
     {
       "id": 12,
-      "logName": "Операции по смене пола",
+      "logName": "Gender reassignment operations",
       "fractionsId": [
         3
       ]
     },
     {
       "id": 13,
-      "logName": "Редактирование объявлений",
+      "logName": "Editing announcements",
       "fractionsId": [
         4
       ]
     },
     {
       "id": 14,
-      "logName": "Выписанные штрафы",
+      "logName": "Issued fines",
       "fractionsId": [
         5
       ]
     },
     {
       "id": 15,
-      "logName": "Объявления в розыск",
+      "logName": "Wanted announcements",
       "fractionsId": [
         5,
         6,
@@ -2847,7 +2847,7 @@
     },
     {
       "id": 16,
-      "logName": "Надевание наручников",
+      "logName": "Putting on handcuffs",
       "fractionsId": [
         5,
         6,
@@ -2857,7 +2857,7 @@
     },
     {
       "id": 23,
-      "logName": "Взаимодействие с черным списком",
+      "logName": "Interaction with blacklist",
       "fractionsId": [
         1,
         2,
@@ -2871,7 +2871,7 @@
     },
     {
       "id": 24,
-      "logName": "Получение снаряжения на складе",
+      "logName": "Receiving equipment from the warehouse",
       "fractionsId": [
         1,
         2,
@@ -2885,55 +2885,55 @@
   "fractionAccesses": [
     {
       "id": 1,
-      "name": "Доступ к фракционному транспорту"
+      "name": "Access to faction transport"
     },
     {
       "id": 2,
-      "name": "Доступ к складу"
+      "name": "Access to the warehouse"
     },
     {
       "id": 3,
-      "name": "Доступ к изменению настроек склада"
+      "name": "Access to changing warehouse settings"
     },
     {
       "id": 4,
-      "name": "Доступ к волне фракции"
+      "name": "Access to faction wave"
     },
     {
       "id": 5,
-      "name": "Доступ к приглашению во фракцию"
+      "name": "Access to faction invitations"
     },
     {
       "id": 6,
-      "name": "Доступ к увольнению членов фракции"
+      "name": "Access to dismissing faction members"
     },
     {
       "id": 7,
-      "name": "Доступ к выдаче выговора"
+      "name": "Access to issuing reprimands"
     },
     {
       "id": 8,
-      "name": "Доступ к увольнению членов других фракций"
+      "name": "Access to dismissing members of other factions"
     },
     {
       "id": 9,
-      "name": "Доступ к изменению чёрного списка"
+      "name": "Access to changing the blacklist"
     },
     {
       "id": 10,
-      "name": "Доступ к изменению ранга"
+      "name": "Access to changing rank"
     },
     {
       "id": 11,
-      "name": "Доступ к изменению разрешений рангов"
+      "name": "Access to changing rank permissions"
     },
     {
       "id": 12,
-      "name": "Доступ к логам фракции"
+      "name": "Access to faction logs"
     },
     {
       "id": 13,
-      "name": "Доступ к системе внедрения"
+      "name": "Access to the infiltration system"
     }
   ],
   "speedCameras": {
@@ -3553,51 +3553,51 @@
         1040
       ],
       "penaltyFormula": "(1000 + (100 * X)) * Y%",
-      "formulatranscription": "X - разница между допустимой и действительной скоростью; Y - процент при наличии ВИП-статуса (Нет - 100%; Silver - 75%; Gold - 50%; Platinum - 25%)",
+      "formulatranscription": "X - difference between the allowed and actual speed; Y - percentage when having VIP status (No - 100%; Silver - 75%; Gold - 50%; Platinum - 25%)",
       "penaltyReasons": [
         {
           "reasonId": 1,
-          "reasonText": "Нарушение ПДД, вызвавшее повреждение транспорта",
+          "reasonText": "Traffic violation causing vehicle damage",
           "reasonMoney": 30000
         },
         {
           "reasonId": 2,
-          "reasonText": "Парковка транспортного средства в неположенном месте",
+          "reasonText": "Parking a vehicle in an unauthorized place",
           "reasonMoney": 10000
         },
         {
           "reasonId": 3,
-          "reasonText": "Движение на транспортном средстве в неположенном месте",
+          "reasonText": "Driving a vehicle in an unauthorized place",
           "reasonMoney": 15000
         },
         {
           "reasonId": 4,
-          "reasonText": "Порча муниципального имущества",
+          "reasonText": "Damage to municipal property",
           "reasonMoney": 10000
         },
         {
           "reasonId": 5,
-          "reasonText": "Создание аварийной ситуации на дороге",
+          "reasonText": "Creating an emergency situation on the road",
           "reasonMoney": 15000
         },
         {
           "reasonId": 6,
-          "reasonText": "Передвижение пешком по проезжей части",
+          "reasonText": "Walking on the roadway",
           "reasonMoney": 10000
         },
         {
           "reasonId": 7,
-          "reasonText": "Невыполнение требований сотрудника ДПС",
+          "reasonText": "Failure to comply with a traffic police officer's demands",
           "reasonMoney": 5000
         },
         {
           "reasonId": 8,
-          "reasonText": "Ложный вызов сотрудников",
+          "reasonText": "False employee call",
           "reasonMoney": 5000
         },
         {
           "reasonId": 9,
-          "reasonText": "Оскорбление государственного служащего",
+          "reasonText": "Insulting a civil servant",
           "reasonMoney": 5000
         }
       ]
@@ -3619,7 +3619,7 @@
             "order": 1,
             "typeId": 5,
             "itemId": 24,
-            "name": "Боевой пистолет",
+            "name": "Combat pistol",
             "amount": 1,
             "materialCost": 3
         },
@@ -3628,7 +3628,7 @@
             "order": 2,
             "typeId": 5,
             "itemId": 29,
-            "name": "Штурмовой пистолет-пулемет",
+            "name": "Assault submachine gun",
             "amount": 1,
             "materialCost": 5
         },
@@ -3637,7 +3637,7 @@
             "order": 3,
             "typeId": 5,
             "itemId": 25,
-            "name": "Помповый дробовик",
+            "name": "Pump-action shotgun",
             "amount": 1,
             "materialCost": 6
         },
@@ -3646,7 +3646,7 @@
             "order": 4,
             "typeId": 5,
             "itemId": 31,
-            "name": "Штурмовая винтовка",
+            "name": "Assault rifle",
             "amount": 1,
             "materialCost": 4
         },
@@ -3655,7 +3655,7 @@
             "order": 5,
             "typeId": 5,
             "itemId": 33,
-            "name": "Охотничая винтовка",
+            "name": "Hunting rifle",
             "amount": 1,
             "materialCost": 8
         },
@@ -3664,7 +3664,7 @@
             "order": 1,
             "typeId": 6,
             "itemId": 1,
-            "name": "Патрон для пистолета",
+            "name": "Pistol round",
             "amount": 25,
             "materialCost": 1
         },
@@ -3673,7 +3673,7 @@
             "order": 2,
             "typeId": 6,
             "itemId": 2,
-            "name": "Патрон для дробовика",
+            "name": "Shotgun shell",
             "amount": 12,
             "materialCost": 1
         },
@@ -3682,7 +3682,7 @@
             "order": 3,
             "typeId": 6,
             "itemId": 3,
-            "name": "Патрон для автомата",
+            "name": "Rifle cartridge",
             "amount": 30,
             "materialCost": 1
         },
@@ -3691,7 +3691,7 @@
             "order": 4,
             "typeId": 6,
             "itemId": 4,
-            "name": "Патрон для винтовки",
+            "name": "Rifle round",
             "amount": 10,
             "materialCost": 1
         }

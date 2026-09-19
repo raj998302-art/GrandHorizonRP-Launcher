@@ -2,16 +2,16 @@
   "seasons": [
     {
       "seasonId": 4,
-      "name": "Кубок Шторма. Четвёртый сезон",
+      "name": "Storm Cup. Fourth Season",
       "dates": [
         1788400800,
         1792634400
       ],
-      "textTitle": "Кубок Шторма",
+      "textTitle": "Storm Cup",
       "ambient": "RacemodMainScreen.ogg",
-      "textTutMain": "Добро пожаловать в [color=#FFC700]Кубок Шторма![/color]\n\nТебя ждут пять гоночных режимов. Участвуй в гонках на предложенной машине или используй свою, если она соответствует классу. Каждую неделю машины в гонках будут обновляться. За каждую гонку ты получишь\n Жетоны гонщика для магазина\n Очки рейтинга для таблицы лидеров\n [color=#2196F3]EXP[/color] для лент наград при наличии\n [color=#FFC700]Билета гонщика[/color] Становись лучшим гонщиком сезона и получай [color=#FFC700]уникальные награды[/color] за свое мастерство.\n\nУдачи на старте",
-      "textTutModeSelector": "Тебе доступно несколько гоночных режимов. От сезона к сезону список может меняться.\n\n[color=#FFC700]Обрати внимание:[/color] доступные автомобили разных [color=#FFC700]классов[/color] могут отличаться от режима к режиму. Выбери тот, в котором ты покажешь лучший результат!",
-      "textTutCarSelector": "Класс заезда определяет бесплатная машина недели — выбирай её или подходящее авто из своего имущества.[color=#FFC700]Прошивка[/color] влияет на характеристики и может перевести машину в другой [color=#FFC700]класс[/color].Чтобы изменить [color=#FFC700]прошивку[/color], загляни в Тюнинг-ателье и установи нужную.\n\nОбрати внимание: пока не всем автомобилям присвоен [color=#FFC700]класс[/color] и они не смогут участвовать в гонках.\n\n Список авто с [color=#FFC700]классом[/color] будет постоянно пополняться. Следи за обновлениями!",
+      "textTutMain": "Welcome to the [color=#FFC700]Storm Cup![/color]\n\nFive racing modes await you. Take part in races using the featured car or your own, if it matches the class. The cars in the races will be updated every week. For each race you will receive\n Racer Tokens for the shop\n Rating points for the leaderboard\n [color=#2196F3]EXP[/color] for reward tracks if available\n [color=#FFC700]Racer Ticket[/color] Become the best racer of the season and earn [color=#FFC700]unique rewards[/color] for your skill.\n\nGood luck at the start",
+      "textTutModeSelector": "Several racing modes are available to you. The list may change from season to season.\n\n[color=#FFC700]Please note:[/color] the available cars of different [color=#FFC700]classes[/color] may differ from mode to mode. Choose the one where you can show your best result!",
+      "textTutCarSelector": "The race class is determined by the free car of the week — choose it or a suitable car from your property.[color=#FFC700]Firmware[/color] affects characteristics and can move the car into another [color=#FFC700]class[/color].To change the [color=#FFC700]firmware[/color], visit the Tuning Studio and install the one you need.\n\nPlease note: not all cars have been assigned a [color=#FFC700]class[/color] yet, and they will not be able to participate in races.\n\n The list of cars with a [color=#FFC700]class[/color] will be constantly expanded. Stay tuned for updates!",
       "raceGamesList": [
         {
           "raceType": "raceColossus",
@@ -19,8 +19,8 @@
             1788400800,
             1792634400
           ],
-          "title": "Колосс",
-          "subtitle": "Круговая гонка вокруг города. Вперёд к победе!",
+          "title": "Colossus",
+          "subtitle": "Circuit race around the city. Onward to victory!",
           "bgImage": "img_raceColossus.png",
           "bgColour": "#111219",
           "bgImageMain": "img_main_raceColossus.png",
@@ -113,7 +113,7 @@
             {
               "ServerIDCar": 21,
               "modelId": 420,
-              "name": "Audi RS6 C7 Рестайлинг",
+              "name": "Audi RS6 C7 Facelift",
               "nameStore": "Aura Road 6 C7",
               "components": [
                 66,
@@ -175,7 +175,7 @@
           "awards": [
             {
               "place": 1,
-              "name": "Жетоны X60",
+              "name": "Tokens X60",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -186,7 +186,7 @@
             },
             {
               "place": 1,
-              "name": "Очки X20",
+              "name": "Points X20",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -197,7 +197,7 @@
             },
             {
               "place": 1,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -208,7 +208,7 @@
             },
             {
               "place": 1,
-              "name": "Фишки X900",
+              "name": "Chips X900",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -219,7 +219,7 @@
             },
             {
               "place": 2,
-              "name": "Жетоны X60",
+              "name": "Tokens X60",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -230,7 +230,7 @@
             },
             {
               "place": 2,
-              "name": "Очки X18",
+              "name": "Points X18",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -241,7 +241,7 @@
             },
             {
               "place": 2,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -252,7 +252,7 @@
             },
             {
               "place": 2,
-              "name": "Фишки X750",
+              "name": "Chips X750",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -263,7 +263,7 @@
             },
             {
               "place": 3,
-              "name": "Жетоны X60",
+              "name": "Tokens X60",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -274,7 +274,7 @@
             },
             {
               "place": 3,
-              "name": "Очки X15",
+              "name": "Points X15",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -285,7 +285,7 @@
             },
             {
               "place": 3,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -296,7 +296,7 @@
             },
             {
               "place": 3,
-              "name": "Фишки X600",
+              "name": "Chips X600",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -307,7 +307,7 @@
             },
             {
               "place": 4,
-              "name": "Жетоны X40",
+              "name": "Tokens X40",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -318,7 +318,7 @@
             },
             {
               "place": 4,
-              "name": "Очки X12",
+              "name": "Points X12",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -329,7 +329,7 @@
             },
             {
               "place": 4,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -340,7 +340,7 @@
             },
             {
               "place": 4,
-              "name": "Фишки X400",
+              "name": "Chips X400",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -351,7 +351,7 @@
             },
             {
               "place": 5,
-              "name": "Жетоны X40",
+              "name": "Tokens X40",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -362,7 +362,7 @@
             },
             {
               "place": 5,
-              "name": "Очки X10",
+              "name": "Points X10",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -373,7 +373,7 @@
             },
             {
               "place": 5,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -384,7 +384,7 @@
             },
             {
               "place": 5,
-              "name": "Фишки X300",
+              "name": "Chips X300",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -395,7 +395,7 @@
             },
             {
               "place": 6,
-              "name": "Жетоны X25",
+              "name": "Tokens X25",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -406,7 +406,7 @@
             },
             {
               "place": 6,
-              "name": "Очки X6",
+              "name": "Points X6",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -417,7 +417,7 @@
             },
             {
               "place": 6,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -428,7 +428,7 @@
             },
             {
               "place": 6,
-              "name": "Фишки X200",
+              "name": "Chips X200",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -439,7 +439,7 @@
             },
             {
               "place": 7,
-              "name": "Жетоны X25",
+              "name": "Tokens X25",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -450,7 +450,7 @@
             },
             {
               "place": 7,
-              "name": "Очки X4",
+              "name": "Points X4",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -461,7 +461,7 @@
             },
             {
               "place": 7,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -472,7 +472,7 @@
             },
             {
               "place": 7,
-              "name": "Фишки X100",
+              "name": "Chips X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -483,7 +483,7 @@
             },
             {
               "place": 8,
-              "name": "Жетоны X10",
+              "name": "Tokens X10",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -494,7 +494,7 @@
             },
             {
               "place": 8,
-              "name": "Очки X2",
+              "name": "Points X2",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -505,7 +505,7 @@
             },
             {
               "place": 8,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -516,7 +516,7 @@
             },
             {
               "place": 8,
-              "name": "Фишки X100",
+              "name": "Chips X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -533,8 +533,8 @@
             1788400800,
             1792634400
           ],
-          "title": "СПРИНТ",
-          "subtitle": "Классический спринт. Следуй по чекпоинтам и финишируй быстрее всех, чтобы победить",
+          "title": "SPRINT",
+          "subtitle": "Classic sprint. Follow the checkpoints and finish faster than everyone else to win",
           "bgImage": "img_raceSprint.png",
           "bgColour": "#111219",
           "bgImageMain": "img_main_raceSprint.png",
@@ -693,7 +693,7 @@
           "awards": [
             {
               "place": 1,
-              "name": "Жетоны X70",
+              "name": "Tokens X70",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -704,7 +704,7 @@
             },
             {
               "place": 1,
-              "name": "Очки X20",
+              "name": "Points X20",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -715,7 +715,7 @@
             },
             {
               "place": 1,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -726,7 +726,7 @@
             },
             {
               "place": 2,
-              "name": "Жетоны X70",
+              "name": "Tokens X70",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -737,7 +737,7 @@
             },
             {
               "place": 2,
-              "name": "Очки X18",
+              "name": "Points X18",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -748,7 +748,7 @@
             },
             {
               "place": 2,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -759,7 +759,7 @@
             },
             {
               "place": 3,
-              "name": "Жетоны X70",
+              "name": "Tokens X70",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -770,7 +770,7 @@
             },
             {
               "place": 3,
-              "name": "Очки X15",
+              "name": "Points X15",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -781,7 +781,7 @@
             },
             {
               "place": 3,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -792,7 +792,7 @@
             },
             {
               "place": 4,
-              "name": "Жетоны X50",
+              "name": "Tokens X50",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -803,7 +803,7 @@
             },
             {
               "place": 4,
-              "name": "Очки X10",
+              "name": "Points X10",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -814,7 +814,7 @@
             },
             {
               "place": 4,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -825,7 +825,7 @@
             },
             {
               "place": 5,
-              "name": "Жетоны X50",
+              "name": "Tokens X50",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -836,7 +836,7 @@
             },
             {
               "place": 5,
-              "name": "Очки X8",
+              "name": "Points X8",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -847,7 +847,7 @@
             },
             {
               "place": 5,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -858,7 +858,7 @@
             },
             {
               "place": 6,
-              "name": "Жетоны X50",
+              "name": "Tokens X50",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -869,7 +869,7 @@
             },
             {
               "place": 6,
-              "name": "Очки X6",
+              "name": "Points X6",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -880,7 +880,7 @@
             },
             {
               "place": 6,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -891,7 +891,7 @@
             },
             {
               "place": 7,
-              "name": "Жетоны X30",
+              "name": "Tokens X30",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -902,7 +902,7 @@
             },
             {
               "place": 7,
-              "name": "Очки X4",
+              "name": "Points X4",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -913,7 +913,7 @@
             },
             {
               "place": 7,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -924,7 +924,7 @@
             },
             {
               "place": 8,
-              "name": "Жетоны X30",
+              "name": "Tokens X30",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -935,7 +935,7 @@
             },
             {
               "place": 8,
-              "name": "Очки X2",
+              "name": "Points X2",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -946,7 +946,7 @@
             },
             {
               "place": 8,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -963,8 +963,8 @@
             1788400800,
             1792634400
           ],
-          "title": "КРУГ",
-          "subtitle": "Классическая круговая гонка. Финишируй первым, чтобы победить",
+          "title": "LAP",
+          "subtitle": "Classic circuit race. Finish first to win",
           "bgImage": "img_raceCircuit.png",
           "bgColour": "#111219",
           "bgImageMain": "img_main_raceCircuit.png",
@@ -1080,7 +1080,7 @@
             "ServerIDCar": 524,
             "modelId": 28730,
             "name": "VAZ-2105 Street 1996",
-            "nameStore": "Пятерка Street 1996",
+            "nameStore": "Pyaterka Street 1996",
             "components": [
                 2178,
                 2180,
@@ -1123,7 +1123,7 @@
           "awards": [
             {
               "place": 1,
-              "name": "Жетоны X70",
+              "name": "Tokens X70",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1134,7 +1134,7 @@
             },
             {
               "place": 1,
-              "name": "Очки X20",
+              "name": "Points X20",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1145,7 +1145,7 @@
             },
             {
               "place": 1,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1156,7 +1156,7 @@
             },
             {
               "place": 2,
-              "name": "Жетоны X70",
+              "name": "Tokens X70",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1167,7 +1167,7 @@
             },
             {
               "place": 2,
-              "name": "Очки X18",
+              "name": "Points X18",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1178,7 +1178,7 @@
             },
             {
               "place": 2,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1189,7 +1189,7 @@
             },
             {
               "place": 3,
-              "name": "Жетоны X70",
+              "name": "Tokens X70",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1200,7 +1200,7 @@
             },
             {
               "place": 3,
-              "name": "Очки X15",
+              "name": "Points X15",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1211,7 +1211,7 @@
             },
             {
               "place": 3,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1222,7 +1222,7 @@
             },
             {
               "place": 4,
-              "name": "Жетоны X50",
+              "name": "Tokens X50",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1233,7 +1233,7 @@
             },
             {
               "place": 4,
-              "name": "Очки X10",
+              "name": "Points X10",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1244,7 +1244,7 @@
             },
             {
               "place": 4,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1255,7 +1255,7 @@
             },
             {
               "place": 5,
-              "name": "Жетоны X50",
+              "name": "Tokens X50",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1266,7 +1266,7 @@
             },
             {
               "place": 5,
-              "name": "Очки X8",
+              "name": "Points X8",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1277,7 +1277,7 @@
             },
             {
               "place": 5,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1288,7 +1288,7 @@
             },
             {
               "place": 6,
-              "name": "Жетоны X50",
+              "name": "Tokens X50",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1299,7 +1299,7 @@
             },
             {
               "place": 6,
-              "name": "Очки X6",
+              "name": "Points X6",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1310,7 +1310,7 @@
             },
             {
               "place": 6,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1321,7 +1321,7 @@
             },
             {
               "place": 7,
-              "name": "Жетоны X30",
+              "name": "Tokens X30",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1332,7 +1332,7 @@
             },
             {
               "place": 7,
-              "name": "Очки X4",
+              "name": "Points X4",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1343,7 +1343,7 @@
             },
             {
               "place": 7,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1354,7 +1354,7 @@
             },
             {
               "place": 8,
-              "name": "Жетоны X30",
+              "name": "Tokens X30",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1365,7 +1365,7 @@
             },
             {
               "place": 8,
-              "name": "Очки X2",
+              "name": "Points X2",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1376,7 +1376,7 @@
             },
             {
               "place": 8,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1393,8 +1393,8 @@
             1788400800,
             1792634400
           ],
-          "title": "ДРИФТ",
-          "subtitle": "Набирай очки дрифта, входя в занос. Побеждает тот, кто наберет больше всего очков",
+          "title": "DRIFT",
+          "subtitle": "Score drift points by going into a skid. The one who scores the most points wins",
           "bgImage": "img_raceDrift.png",
           "bgColour": "#111219",
           "bgImageMain": "img_main_raceDrift.png",
@@ -1547,7 +1547,7 @@
           "awards": [
             {
               "place": 1,
-              "name": "Жетоны X35",
+              "name": "Tokens X35",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1558,7 +1558,7 @@
             },
             {
               "place": 1,
-              "name": "Очки X20",
+              "name": "Points X20",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1569,7 +1569,7 @@
             },
             {
               "place": 1,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1580,7 +1580,7 @@
             },
             {
               "place": 2,
-              "name": "Жетоны X15",
+              "name": "Tokens X15",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1591,7 +1591,7 @@
             },
             {
               "place": 2,
-              "name": "Очки X9",
+              "name": "Points X9",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1602,7 +1602,7 @@
             },
             {
               "place": 2,
-              "name": "Опыт X50",
+              "name": "Experience X50",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1619,8 +1619,8 @@
             1788400800,
             1792634400
           ],
-          "title": "КРУГ НА ВЫБЫВАНИЕ",
-          "subtitle": "Круговая гонка. После каждого круга последний игрок выбывает",
+          "title": "ELIMINATION LAP",
+          "subtitle": "Circuit race. After each lap, the last player is eliminated",
           "bgImage": "img_raceEliminationCircuit.png",
           "bgColour": "#111219",
           "bgImageMain": "img_main_raceEliminationCircuit.png",
@@ -1720,7 +1720,7 @@
         {
             "ServerIDCar": 551,
             "modelId": 28761,
-            "name": "Datsun 100А",
+            "name": "Datsun 100A",
             "nameStore": "Datsumi 100A",
             "components": [
                 2477,
@@ -1786,7 +1786,7 @@
           "awards": [
             {
               "place": 1,
-              "name": "Жетоны X70",
+              "name": "Tokens X70",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1797,7 +1797,7 @@
             },
             {
               "place": 1,
-              "name": "Очки X20",
+              "name": "Points X20",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1808,7 +1808,7 @@
             },
             {
               "place": 1,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1819,7 +1819,7 @@
             },
             {
               "place": 2,
-              "name": "Жетоны X70",
+              "name": "Tokens X70",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1830,7 +1830,7 @@
             },
             {
               "place": 2,
-              "name": "Очки X18",
+              "name": "Points X18",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1841,7 +1841,7 @@
             },
             {
               "place": 2,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1852,7 +1852,7 @@
             },
             {
               "place": 3,
-              "name": "Жетоны X45",
+              "name": "Tokens X45",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1863,7 +1863,7 @@
             },
             {
               "place": 3,
-              "name": "Очки X10",
+              "name": "Points X10",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1874,7 +1874,7 @@
             },
             {
               "place": 3,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1885,7 +1885,7 @@
             },
             {
               "place": 4,
-              "name": "Жетоны X17",
+              "name": "Tokens X17",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1896,7 +1896,7 @@
             },
             {
               "place": 4,
-              "name": "Очки X4",
+              "name": "Points X4",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1907,7 +1907,7 @@
             },
             {
               "place": 4,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -1924,8 +1924,8 @@
             1788400800,
             1792634400
           ],
-          "title": "СПРИНТ НА ВЫБЫВАНИЕ",
-          "subtitle": "Спринт, где выбывает тот, кто последним приехал к некоторым чекпоинтам",
+          "title": "ELIMINATION SPRINT",
+          "subtitle": "A sprint where the one who reaches certain checkpoints last is eliminated",
           "bgImage": "img_raceEliminationSprint.png",
           "bgColour": "#111219",
           "bgImageMain": "img_main_raceEliminationSprint.png",
@@ -1945,7 +1945,7 @@
             "ServerIDCar": 572,
             "modelId": 28779,
             "name": "Nissan Laurel C33",
-            "nameStore": "Lura С33",
+            "nameStore": "Lura S33",
             "components": [
                 2497,
                 2499,
@@ -2027,7 +2027,7 @@
             "ServerIDCar": 515,
             "modelId": 28721,
             "name": "VAZ 2109 Turbo Edition",
-            "nameStore": "Девятка Turbo Edition",
+            "nameStore": "Nine Turbo Edition",
             "components": [
                 2011,
                 2013,
@@ -2094,7 +2094,7 @@
           "awards": [
             {
               "place": 1,
-              "name": "Жетоны X70",
+              "name": "Tokens X70",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2105,7 +2105,7 @@
             },
             {
               "place": 1,
-              "name": "Очки X20",
+              "name": "Points X20",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2116,7 +2116,7 @@
             },
             {
               "place": 1,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2127,7 +2127,7 @@
             },
             {
               "place": 2,
-              "name": "Жетоны X70",
+              "name": "Tokens X70",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2138,7 +2138,7 @@
             },
             {
               "place": 2,
-              "name": "Очки X18",
+              "name": "Points X18",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2149,7 +2149,7 @@
             },
             {
               "place": 2,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2160,7 +2160,7 @@
             },
             {
               "place": 3,
-              "name": "Жетоны X70",
+              "name": "Tokens X70",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2171,7 +2171,7 @@
             },
             {
               "place": 3,
-              "name": "Очки X15",
+              "name": "Points X15",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2182,7 +2182,7 @@
             },
             {
               "place": 3,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2193,7 +2193,7 @@
             },
             {
               "place": 4,
-              "name": "Жетоны X50",
+              "name": "Tokens X50",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2204,7 +2204,7 @@
             },
             {
               "place": 4,
-              "name": "Очки X10",
+              "name": "Points X10",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2215,7 +2215,7 @@
             },
             {
               "place": 4,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2226,7 +2226,7 @@
             },
             {
               "place": 5,
-              "name": "Жетоны X50",
+              "name": "Tokens X50",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2237,7 +2237,7 @@
             },
             {
               "place": 5,
-              "name": "Очки X8",
+              "name": "Points X8",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2248,7 +2248,7 @@
             },
             {
               "place": 5,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2259,7 +2259,7 @@
             },
             {
               "place": 6,
-              "name": "Жетоны X50",
+              "name": "Tokens X50",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2270,7 +2270,7 @@
             },
             {
               "place": 6,
-              "name": "Очки X6",
+              "name": "Points X6",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2281,7 +2281,7 @@
             },
             {
               "place": 6,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2292,7 +2292,7 @@
             },
             {
               "place": 7,
-              "name": "Жетоны X30",
+              "name": "Tokens X30",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2303,7 +2303,7 @@
             },
             {
               "place": 7,
-              "name": "Очки X4",
+              "name": "Points X4",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2314,7 +2314,7 @@
             },
             {
               "place": 7,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2325,7 +2325,7 @@
             },
             {
               "place": 8,
-              "name": "Жетоны X30",
+              "name": "Tokens X30",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2336,7 +2336,7 @@
             },
             {
               "place": 8,
-              "name": "Очки X2",
+              "name": "Points X2",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,
@@ -2347,7 +2347,7 @@
             },
             {
               "place": 8,
-              "name": "Опыт X100",
+              "name": "Experience X100",
               "size": 2,
               "backgroundType": 1,
               "rarity": 1,

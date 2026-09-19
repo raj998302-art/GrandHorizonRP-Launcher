@@ -23,55 +23,55 @@
             [  612.56, 1694.80, 12.16, 292.12]
         ],
         "teleportCoords": [609.22, 1694.44, 12.16, 272.35],
-        "npcInfoName": "{FFFF00}Олег Рубцов - Битва за контейнеры\n{FFFFFF}Подойти для {FFFF00}взаимодействия",
+        "npcInfoName": "{FFFF00}Oleg Rubtsov - Container Battle\n{FFFFFF}Approach for {FFFF00}interaction",
         "npcInfoDialogPort": [
             {
                 "id": 1,
-                "title": "Олег Рубцов",
-                "description": "Что, контейнерами интересуешься?<br>А все, спалили нас — здесь лавочку пришлось прикрыть. Срок-то мотать никому не охота.<br>Торги теперь проходят в более спокойном месте.<br><br><font color='#ffff00'>Чтобы найти новую локацию битвы за контейнеры, используй gps → развлечения → битва за контейнеры</font>",
+                "title": "Oleg Rubtsov",
+                "description": "So, interested in containers?<br>Well, that's it, our cover was blown — we had to shut this operation down here. Nobody wants to do time.<br>The bidding is now held in a calmer place.<br><br><font color='#ffff00'>To find the new location of the container battle, use gps → entertainment → container battle</font>",
                 "speaker": {"type": "npc", "skin": 5500063},
                 "sound": "Meta/rubcov-001.ogg",
                 "buttons": [
-                    {"name": "Правила",          "color": 2},
-                    {"name": "Расписание",       "color": 2},
-                    {"name": "Закрыть",          "color": 3}
+                    {"name": "Rules",          "color": 2},
+                    {"name": "Schedule",       "color": 2},
+                    {"name": "Close",          "color": 3}
                 ],
                 "is_last": true
             },
             {
                 "id": 2,
-                "title": "Олег Рубцов",
-                "description": "Ты, вроде, порожняк не гонишь, и доверие к тебе имеется... Так что давай подброшу до новой точки.<br>Но сильно не расслабляйся, я не таксист, чтобы на постоянке тебя катать.<br><br><font color='#ffff00'>Отвезти тебя в Арзамас на место битвы за контейнеры? Мгновенное перемещение будет работать до 01.07.26</font>",
+                "title": "Oleg Rubtsov",
+                "description": "You don't seem like the type to talk nonsense, and there's some trust in you... So let me give you a lift to the new spot.<br>But don't relax too much, I'm not a taxi driver to keep chauffeuring you around all the time.<br><br><font color='#ffff00'>Should I take you to Arzamas to the container battle location? Instant travel will work until 01.07.26</font>",
                 "speaker": {"type": "npc", "skin": 5500063},
                 "sound": "Meta/rubcov-002.ogg",
                 "buttons": [
-                    {"name": "Поехали!", "color": 1},
-                    {"name": "Закрыть",  "color": 3},
-                    {"name": "Назад",    "color": 0}
+                    {"name": "Let's go!", "color": 1},
+                    {"name": "Close",  "color": 3},
+                    {"name": "Back",    "color": 0}
                 ],
                 "is_last": true
             },
             {
                 "id": 3,
-                "title": "Олег Рубцов",
-                "description": "Так, ну торги у нас на 30й минуте каждого часа проходят — ты об этом и так знаешь. А вот будут ли специальные торги..?<br><br><font color='#ffff00'>Пока не планируются. Но ты заглядывай иногда, вдруг что изменится.</font>",
+                "title": "Oleg Rubtsov",
+                "description": "Alright, our bidding takes place at the 30th minute of every hour — you already know that. But will there be special bidding..?<br><br><font color='#ffff00'>Not planned for now. But stop by from time to time, maybe something changes.</font>",
                 "speaker": {"type": "npc", "skin": 5500063},
                 "sound": "Meta/rubcov-003.ogg",
                 "buttons": [
-                    {"name": "Закрыть", "color": 3},
-                    {"name": "Назад",   "color": 0}
+                    {"name": "Close", "color": 3},
+                    {"name": "Back",   "color": 0}
                 ],
                 "is_last": true
             },
             {
                 "id": 4,
-                "title": "Олег Рубцов",
-                "description": "Так, ну торги у нас на 30й минуте каждого часа проходят — ты об этом и так знаешь. А вот будут ли специальные торги..?<br><br><font color='#ffff00'>Да, ближайшие пройдут %s МСК.<br>Правила: %s</font>",
+                "title": "Oleg Rubtsov",
+                "description": "Alright, our bidding takes place at the 30th minute of every hour — you already know that. But will there be special bidding..?<br><br><font color='#ffff00'>Yes, the nearest one will take place at %s MSK.<br>Rules: %s</font>",
                 "speaker": {"type": "npc", "skin": 5500063},
                 "sound": "Meta/rubcov-003.ogg",
                 "buttons": [
-                    {"name": "Закрыть", "color": 3},
-                    {"name": "Назад",   "color": 0}
+                    {"name": "Close", "color": 3},
+                    {"name": "Back",   "color": 0}
                 ],
                 "is_last": true
             }
@@ -79,38 +79,38 @@
         "npcInfoDialogArsamas": [
             {
                 "id": 1,
-                "title": "Олег Рубцов",
-                "description": "Вот и новое место торгов. Здесь у нас все схвачено — можешь спокойно биться за свой контейнер мечты!",
+                "title": "Oleg Rubtsov",
+                "description": "Here is the new bidding location. Everything is under control here — you can calmly fight for your dream container!",
                 "speaker": {"type": "npc", "skin": 5500063},
                 "sound": "Meta/rubcov-004.ogg",
                 "buttons": [
-                    {"name": "Правила",    "color": 2},
-                    {"name": "Расписание", "color": 2},
-                    {"name": "Закрыть",    "color": 3}
+                    {"name": "Rules",    "color": 2},
+                    {"name": "Schedule", "color": 2},
+                    {"name": "Close",    "color": 3}
                 ],
                 "is_last": true
             },
             {
                 "id": 2,
-                "title": "Олег Рубцов",
-                "description": "Так, ну торги у нас на 30й минуте каждого часа проходят — ты об этом и так знаешь. А вот будут ли специальные торги..?<br><br><font color='#ffff00'>Пока не планируются. Но ты заглядывай иногда, вдруг что изменится.</font>",
+                "title": "Oleg Rubtsov",
+                "description": "Alright, our bidding takes place at the 30th minute of every hour — you already know that. But will there be special bidding..?<br><br><font color='#ffff00'>Not planned for now. But stop by from time to time, maybe something changes.</font>",
                 "speaker": {"type": "npc", "skin": 5500063},
                 "sound": "Meta/rubcov-003.ogg",
                 "buttons": [
-                    {"name": "Закрыть", "color": 3},
-                    {"name": "Назад",   "color": 0}
+                    {"name": "Close", "color": 3},
+                    {"name": "Back",   "color": 0}
                 ],
                 "is_last": true
             },
             {
                 "id": 3,
-                "title": "Олег Рубцов",
-                "description": "Так, ну торги у нас на 30й минуте каждого часа проходят — ты об этом и так знаешь. А вот будут ли специальные торги..?<br><br><font color='#ffff00'>Да, ближайшие пройдут %s МСК.<br>Правила: %s</font>",
+                "title": "Oleg Rubtsov",
+                "description": "Alright, our bidding takes place at the 30th minute of every hour — you already know that. But will there be special bidding..?<br><br><font color='#ffff00'>Yes, the nearest one will take place at %s MSK.<br>Rules: %s</font>",
                 "speaker": {"type": "npc", "skin": 5500063},
                 "sound": "Meta/rubcov-003.ogg",
                 "buttons": [
-                    {"name": "Закрыть", "color": 3},
-                    {"name": "Назад",   "color": 0}
+                    {"name": "Close", "color": 3},
+                    {"name": "Back",   "color": 0}
                 ],
                 "is_last": true
             }
@@ -125,25 +125,25 @@
     "specialContainerSpawnTarget": 50,
     "newContainerAppearTimer": 5,
     "vehiclesCostCoef": 0.9,
-    "3dTextNoBid": "{FFC700}Контейнер #%d\n\n{FFC700}Страна: {FFFFFF}%s\n{FFC700}Содержимое: {FFFFFF}%s\n{FFC700}Статус: {FFFFFF}Торги открыты\n{FFC700}Начальная ставка: {FFFFFF}%s",
-    "3dTextBid": "{FFC700}Контейнер #%d\n\n{FFC700}Страна: {FFFFFF}%s\n{FFC700}Содержимое: {FFFFFF}%s\n{FFC700}Статус: {FFFFFF}Активные торги\n{FFC700}Последняя ставка: {FFFFFF}%s\n{FFC700}Начальная ставка: {FFFFFF}%s\n{FFC700}Ставка сделана от: {FFFFFF}%s",
-    "3dTextTimer": "{FFC700}До конца торгов: {009900}%d секунд",
-    "3dTextWin": "{FFC700}Контейнер #%d\n\n{FFC700}Страна: {FFFFFF}%s\n{FFC700}Содержимое: {FFFFFF}%s\n{FFC700}Статус: {FFFFFF}Торги завершены\n{FFC700}Победная ставка: {FFFFFF}%s\n{FFC700}Начальная ставка: {FFFFFF}%s\n{FFC700}Победитель: {FFFFFF}%s",
+    "3dTextNoBid": "{FFC700}Container #%d\n\n{FFC700}Country: {FFFFFF}%s\n{FFC700}Contents: {FFFFFF}%s\n{FFC700}Status: {FFFFFF}Bidding open\n{FFC700}Starting bid: {FFFFFF}%s",
+    "3dTextBid": "{FFC700}Container #%d\n\n{FFC700}Country: {FFFFFF}%s\n{FFC700}Contents: {FFFFFF}%s\n{FFC700}Status: {FFFFFF}Active bidding\n{FFC700}Last bid: {FFFFFF}%s\n{FFC700}Starting bid: {FFFFFF}%s\n{FFC700}Bid placed by: {FFFFFF}%s",
+    "3dTextTimer": "{FFC700}Time until the end of trading: {009900}%d seconds",
+    "3dTextWin": "{FFC700}Container #%d\n\n{FFC700}Country: {FFFFFF}%s\n{FFC700}Contents: {FFFFFF}%s\n{FFC700}Status: {FFFFFF}Bidding ended\n{FFC700}Winning bid: {FFFFFF}%s\n{FFC700}Starting bid: {FFFFFF}%s\n{FFC700}Winner: {FFFFFF}%s",
     "rules": [
         {
             "id"  : 1,
-            "name": "Минимальный уровень пользователя",
-            "hint": "Для участия в текущей битве за контейнеры ты должен быть %d+ уровня"
+            "name": "Minimum user level",
+            "hint": "To participate in the current container battle you must be level %d+"
         },
         {
             "id"  : 2,
-            "name": "Максимальный уровень пользователя",
-            "hint": "В текущей битве за контейнеры могут принять участие только игроки менее %d уровня"
+            "name": "Maximum user level",
+            "hint": "Only players below level %d can participate in the current container battle"
         },
         {
             "id": 3,
-            "name": "Выигрывал хотя бы 1 торги в любой битве",
-            "hint": "В текущей битве за контейнеры могут принять участие только игроки, побеждавшие хотя бы в 1 торгах"
+            "name": "Won at least 1 bidding session in any battle",
+            "hint": "Only players who have won at least 1 bidding session can participate in the current container battle"
         }
     ],
     "activeRules": [
@@ -152,37 +152,37 @@
     "chatMessages": [
         {
             "id"  : 1,
-            "text": "{FFC700}Через 10 минут в Арзамасе стартует Битва за контейнеры! Не упусти свой шанс!",
+            "text": "{FFC700}In 10 minutes, the Battle for Containers will start in Arzamas! Don't miss your chance!",
             "all" : true
         },
         {
             "id": 2,
-            "text": "В Арзамасе {FFC700}стартовала Битва за контейнеры! {FFFFFF}Прими участие! GPS -> Развлечения -> Битва за контейнеры",
+            "text": "In Arzamas, the {FFC700}Container Battle has started! {FFFFFF}Take part! GPS -> Entertainment -> Container Battle",
             "all": true
         },
-        {"id": 3, "text": "Ты успешно сделал {FFC700}ставку на контейнер #%d на сумму %s", "all": false},
-        {"id": 4, "text": "Твоя ставка за контейнер #%d {FFC700}была перебита!", "all": false},
-        {"id": 5, "text": "{FFC700}Ты победил в торгах за контейнер #%d на сумму %s", "all": false},
-        {"id": 6, "text": "Выкупов до {FF0101}Особого контейнера %d/%d", "all": true},
+        {"id": 3, "text": "You have successfully placed a {FFC700}bid on container #%d for %s", "all": false},
+        {"id": 4, "text": "Your bid on container #%d {FFC700}has been outbid!", "all": false},
+        {"id": 5, "text": "{FFC700}You won the auction for container #%d with a bid of %s", "all": false},
+        {"id": 6, "text": "Buyouts until the {FF0101}Special container %d/%d", "all": true},
         {
             "id"  : 7,
-            "text": "{FFC700}Появился Особый контейнер! Прими участие в торгах за особо ценный товар!",
+            "text": "{FFC700}A Special Container has appeared! Take part in the bidding for especially valuable goods!",
             "all" : true
         },
-        {"id": 8, "text": "До конца Битвы за контейнеры осталась {FFC700}1 минута!", "all": true},
-        {"id": 9, "text": "Битва за контейнеры {FFC700}завершена, было выкуплено контейнеров: %d", "all": true},
-        {"id": 10, "text": "Зарезервировано {FFC700}%s рублей за ставку на контейнер #%d", "all": false}
+        {"id": 8, "text": "{FFC700}1 minute remains until the end of the Container Battle!", "all": true},
+        {"id": 9, "text": "The Container Battle {FFC700}is over, containers bought out: %d", "all": true},
+        {"id": 10, "text": "{FFC700}%s rubles reserved for a bid on container #%d", "all": false}
     ],
     "hints": [
         {
             "id"     : 1,
-            "comment": "клиентское уведомление, игрок забирает награду из контейнера",
-            "text"   : "Ты получил %s из контейнера, проверь добычу"
+            "comment": "client notification, player takes reward from the container",
+            "text"   : "You received %s from the container, check loot"
         },
         {
             "id"     : 2,
-            "comment": "клиентское уведомление, игрок продает награду из контейнера",
-            "text"   : "Ты получил %s рублей за продажу %s из контейнера"
+            "comment": "client notification, player sells reward from the container",
+            "text"   : "You received %s rubles for selling %s from the container"
         }
     ],
     "containersPlaces": [
@@ -313,21 +313,21 @@
     "awardType": [
         {
             "type"       : 0,
-            "name"       : "Транспорт",
+            "name"       : "Transport",
             "labelName3d": "cont_ContDecalC_C",
             "labelName"  : "img_container_vechicle.png",
             "iconName"   : "ic_transport.xaml"
         },
         {
             "type"       : 1,
-            "name"       : "Одежда",
+            "name"       : "Clothing",
             "labelName3d": "cont_ContDecalB_C",
             "labelName"  : "img_container_skin.png",
             "iconName"   : "ic_clothes.xaml"
         },
         {
             "type"       : 2,
-            "name"       : "Аксессуары",
+            "name"       : "Accessories",
             "labelName3d": "cont_ContDecalA_C",
             "labelName"  : "img_container_accessory.png",
             "iconName"   : "ic_acces.xaml"
@@ -598,7 +598,7 @@
     "containers": [
         {
             "id"         : 0,
-            "name"       : "Индия",
+            "name"       : "India",
             "textureName": "cont_ContComRus_C",
             "imageName"  : "img_container_ru.png",
             "iconName"   : "ic_flag_in.xaml",
@@ -639,7 +639,7 @@
         },
         {
             "id"         : 1,
-            "name"       : "Россия",
+            "name"       : "Russia",
             "textureName": "cont_ContComChi_C",
             "imageName"  : "img_container_cn.png",
             "iconName"   : "ic_flag_ru.xaml",
@@ -701,7 +701,7 @@
         },
         {
             "id"         : 2,
-            "name"       : "Китай",
+            "name"       : "China",
             "textureName": "cont_ContComJap_C",
             "imageName"  : "img_container_jp.png",
             "iconName"   : "ic_flag_cn.xaml",
@@ -764,7 +764,7 @@
         },
         {
             "id"         : 3,
-            "name"       : "Германия",
+            "name"       : "Germany",
             "textureName": "cont_ContComGer_C",
             "imageName"  : "img_container_de.png",
             "iconName"   : "ic_flag_de.xaml",
@@ -825,7 +825,7 @@
         },
         {
             "id"         : 4,
-            "name"       : "Дубай",
+            "name"       : "Dubai",
             "textureName": "cont_ContComDub_C",
             "imageName"  : "img_container_ae.png",
             "iconName"   : "ic_flag_ae.xaml",
@@ -891,7 +891,7 @@
         },
         {
             "id"         : 5,
-            "name"       : "Италия",
+            "name"       : "Italy",
             "textureName": "cont_ContComIta_C",
             "imageName"  : "img_container_it.png",
             "iconName"   : "ic_flag_it.xaml",
@@ -918,7 +918,7 @@
         },
         {
             "id"               : 6,
-            "name"             : "Дипломатический груз",
+            "name"             : "Diplomatic Cargo",
             "textureName"      : "cont_ContSpec_C",
             "textureDoorLocked": "cont_LckScreen_C",
             "textureDoorOpened": "cont_UnLckScreen_C",

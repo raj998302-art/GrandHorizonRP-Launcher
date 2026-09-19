@@ -2,63 +2,63 @@
   "categoriesFilters": [
     {
       "categoryFilterId": 1,
-      "categoryFilterName": "Редкость",
+      "categoryFilterName": "Rarity",
       "filters": [
         {
           "filterId": 1,
-          "filterName": "Обычные",
+          "filterName": "Regular",
           "color": "#FDFDFD"
         },
         {
           "filterId": 2,
-          "filterName": "Необычные",
+          "filterName": "Unusual",
           "color": "#12DD00"
         },
         {
           "filterId": 3,
-          "filterName": "Редкие",
+          "filterName": "Rare",
           "color": "#3EA2FF"
         },
         {
           "filterId": 4,
-          "filterName": "Эпические",
+          "filterName": "Epic",
           "color": "#C173FE"
         },
         {
           "filterId": 5,
-          "filterName": "Легендарные",
+          "filterName": "Legendary",
           "color": "#FFCC00"
         }
       ]
     },
     {
       "categoryFilterId": 2,
-      "categoryFilterName": "Ресурсы",
+      "categoryFilterName": "Resources",
       "filters": [
         {
           "filterId": 6,
-          "filterName": "Есть ресурсы",
+          "filterName": "There are resources",
           "color": "#FDFDFD"
         },
         {
           "filterId": 7,
-          "filterName": "Нет ресурсов",
+          "filterName": "No resources",
           "color": "#FDFDFD"
         }
       ]
     },
     {
       "categoryFilterId": 3,
-      "categoryFilterName": "Доступность",
+      "categoryFilterName": "Availability",
       "filters": [
         {
           "filterId": 8,
-          "filterName": "Открыто",
+          "filterName": "Open",
           "color": "#FDFDFD"
         },
         {
           "filterId": 9,
-          "filterName": "Закрыто",
+          "filterName": "Closed",
           "color": "#FDFDFD"
         }
       ]

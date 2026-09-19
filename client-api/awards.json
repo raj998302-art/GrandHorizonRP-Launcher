@@ -1,15 +1,15 @@
-﻿{
+{
   "awardsTypes": [
     {
       "id": 1,
-      "name": "Игровой опыт",
+      "name": "Game experience",
       "image": [
         "ic_exp.png"
       ]
     },
     {
       "id": 2,
-      "name": "Игровая валюта",
+      "name": "In-game currency",
       "image": [
         "ic_prize_money.png"
       ]
@@ -23,7 +23,7 @@
     },
     {
       "id": 4,
-      "name": "Кейс",
+      "name": "Case",
       "image": [
         "img_case_daily.png",
         "img_case_bomj.png",
@@ -64,28 +64,28 @@
     },
     {
       "id": 5,
-      "name": "Транспорт",
+      "name": "Transport",
       "image": [
         ""
       ]
     },
     {
       "id": 6,
-      "name": "Набор",
+      "name": "Set",
       "image": [
         "ic_pack.svg"
       ]
     },
     {
       "id": 7,
-      "name": "Семейные токены",
+      "name": "Family tokens",
       "image": [
         "ic_family_coin.svg"
       ]
     },
     {
       "id": 8,
-      "name": "X2 купон",
+      "name": "X2 coupon",
       "image": [
         "ic_coupon_x2.svg"
       ]
@@ -101,56 +101,56 @@
     },
     {
       "id": 10,
-      "name": "Очки сезона",
+      "name": "Season points",
       "image": [
         "ic_bpexp.png"
       ]
     },
     {
       "id": 11,
-      "name": "Предмет в инвентаре",
+      "name": "Item in inventory",
       "image": [
         ""
       ]
     },
     {
       "id": 12,
-      "name": "Сила",
+      "name": "Strength",
       "image": [
         "ic_powers.svg"
       ]
     },
     {
       "id": 13,
-      "name": "Сабвуфер",
+      "name": "Subwoofer",
       "image": [
         "ic_sub.svg"
       ]
     },
     {
       "id": 14,
-      "name": "Армейский билет",
+      "name": "Military ID",
       "image": [
         "ic_military_pass.svg"
       ]
     },
     {
       "id": 15,
-      "name": "Дополнительный слот на авто",
+      "name": "Additional vehicle slot",
       "image": [
         "ic_car_slot.svg"
       ]
     },
     {
       "id": 16,
-      "name": "Все лицензии",
+      "name": "All licenses",
       "image": [
         "ic_license_all.svg"
       ]
     },
     {
       "id": 17,
-      "name": "Медицинская карта",
+      "name": "Medical card",
       "image": [
         "ic_coupon_med.svg"
       ]
@@ -171,42 +171,42 @@
     },
     {
       "id": 20,
-      "name": "Скидка",
+      "name": "Discount",
       "image": [
         "ic_coupon_sale.svg"
       ]
     },
     {
       "id": 21,
-      "name": "Пыль",
+      "name": "Dust",
       "image": [
         "ic_dust.svg"
       ]
     },
     {
       "id": 22,
-      "name": "Законопослушность",
+      "name": "Law-abidingness",
       "image": [
         "ic_law_up.svg"
       ]
     },
     {
       "id": 23,
-      "name": "Фишки",
+      "name": "Chips",
       "image": [
         "img_event_res_cases.png"
       ]
     },
     {
       "id": 24,
-      "name": "Звуковой комплект",
+      "name": "Sound pack",
       "image": [
         "img_case_daily.png"
       ]
     },
     {
       "id": 25,
-      "name": "Права категории B",
+      "name": "Category B license",
       "image": [
         "ic_carlicense_b.svg"
         
@@ -214,77 +214,77 @@
     },
     {
       "id": 26,
-      "name": "Аватар",
+      "name": "Avatar",
       "image": [
         ""
       ]
     },
     {
       "id": 27,
-      "name": "Рамка",
+      "name": "Frame",
       "image": [
         ""
       ]
     },
     {
       "id": 28,
-      "name": "Фон",
+      "name": "Background",
       "image": [
         ""
       ]
     },
         {
       "id": 29,
-      "name": "Входной билет",
+      "name": "Entrance ticket",
       "image": [
         "ic_coupon_sale.svg"
       ]
     },
     {
       "id": 30,
-      "name": "Оружие",
+      "name": "Weapon",
       "image": [
         ""
       ]
     },
     {
       "id": 31,
-      "name": "Патроны",
+      "name": "Ammo",
       "image": [
         ""
       ]
     },
     {
       "id": 32,
-      "name": "Опыт гонщика",
+      "name": "Racer Experience",
       "image": [
         ""
       ]
     },
     {
       "id": 33,
-      "name": "Жетон гонщика",
+      "name": "Racer Token",
       "image": [
         ""
       ]
     },
     {
       "id": 34,
-      "name": "Билет гонщика",
+      "name": "Racer Ticket",
       "image": [
         "img_race_ticket.png"
       ]
     },
     {
       "id": 35,
-      "name": "Очки рейтинга",
+      "name": "Rating Points",
       "image": [
         ""
       ]
     },
     {
       "id": 36,
-      "name": "ПРОМО-КОД: TANKS BLITZ",
+      "name": "PROMO CODE: TANKS BLITZ",
       "image": [
         "img_promo_antimilitary2.png"
       ]

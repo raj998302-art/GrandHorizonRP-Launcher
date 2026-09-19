@@ -1,4 +1,4 @@
-﻿{
+{
   "fractionTask":
   [
     {
@@ -11,9 +11,9 @@
             1,
             1
           ],
-          "taskTitle": "Пройти тестирование",
-          "taskDescription": "Пройдите тестирование на знание Устава организации. Выберите пункт \"Документы\", и после прочтения нажмите \"К тесту\" у каждого пункта.",
-          "taskInfo": "Пройдите тестирование для повышения до 2-го ранга.",
+          "taskTitle": "Pass the test",
+          "taskDescription": "Pass the test on knowledge of the organization's Charter. Select the \"Documents\" item, and after reading, click \"To the test\" for each item.",
+          "taskInfo": "Pass the test for promotion to rank 2.",
           "taskMoney": 0,
           "taskPoint": 50,
           "taskToken": 0
@@ -24,9 +24,9 @@
             2,
             10
           ],
-          "taskTitle": "Внучка губернатора в беде",
-          "taskDescription": "Губернатор области сообщил о том, что его внученька попала в непонятную передрягу. Единственное, о чем известно — ее местоположение, езжайте туда и самостоятельно узнайте о произошедшем.",
-          "taskInfo": "Внучка губернатора попала в беду. Ей нужно помочь.",
+          "taskTitle": "The governor's granddaughter is in trouble",
+          "taskDescription": "The regional governor reported that his granddaughter got into some strange trouble. The only thing known is her location — go there and find out what happened yourself.",
+          "taskInfo": "The governor's granddaughter got into trouble. She needs help.",
           "taskMoney": 10000,
           "taskPoint": 8,
           "taskToken": 2
@@ -37,9 +37,9 @@
             2,
             10
           ],
-          "taskTitle": "Авторитетная бабушка Нюра",
-          "taskDescription": "Бабушка Нюра имеет большой авторитет в своей деревне и может вести за собой людей. Благодаря ее деятельности мы выиграли прошлые выборы, именно поэтому мы должны ей сейчас помочь, чтобы она снова помогла нам в дальнейшем.\n\nВремени медлить почти не остается, скорее отправляйтесь к ней и узнайте, что нужно сделать.",
-          "taskInfo": "Авторитетная бабушка Нюра в беде. Ей нужно помочь.",
+          "taskTitle": "Authoritative Granny Nyura",
+          "taskDescription": "Grandmother Nyura has great authority in her village and can lead people. Thanks to her work, we won the last election, which is exactly why we must help her now so that she helps us again in the future.\n\nThere is almost no time left to delay, hurry to her and find out what needs to be done.",
+          "taskInfo": "Authoritative Granny Nyura is in trouble. She needs help.",
           "taskMoney": 10000,
           "taskPoint": 8,
           "taskToken": 2
@@ -50,9 +50,9 @@
             2,
             10
           ],
-          "taskTitle": "Агитационное движение вперед",
-          "taskDescription": "Впереди нас всех ждут очередные выборы губернатора. Нам очень важно переназначить нашего лидера. Будем же консолидированы в этот час, обеспечим губернатору достойную явку на выборы.\n\nА проценты... Не важно. Нет времени медлить, поскорее отправляйтесь в офис средств массовой информации за материалами.",
-          "taskInfo": "Примите участие в агитации и разнесите 5 листовок.",
+          "taskTitle": "Campaign movement forward",
+          "taskDescription": "Ahead of us all lie another gubernatorial elections. It is very important for us to reappoint our leader. Let us remain consolidated at this hour and ensure the governor a decent turnout at the elections.\n\nAnd the percentages... They do not matter. There is no time to delay, head to the mass media office for materials as soon as possible.",
+          "taskInfo": "Take part in campaigning and distribute 5 flyers.",
           "taskMoney": 10000,
           "taskPoint": 9,
           "taskToken": 2
@@ -63,9 +63,9 @@
             6,
             6
           ],
-          "taskTitle": "Лучший лицензер области",
-          "taskDescription": "Правительство ищет лучшего лицензера для щедрого вознаграждения. Чтобы им стать, необходимо продать три любые лицензии в течении дня, поторопись.",
-          "taskInfo": "Продайте 3 лицензии гражданам.",
+          "taskTitle": "Best licenser of the region",
+          "taskDescription": "The Government is looking for the best licenser for a generous reward. To become one, you need to sell any three licenses during the day, hurry up.",
+          "taskInfo": "Sell 3 licenses to citizens.",
           "taskMoney": 10000,
           "taskPoint": 9,
           "taskToken": 2
@@ -76,9 +76,9 @@
             2,
             10
           ],
-          "taskTitle": "Друзей в беде не бросают",
-          "taskDescription": "Очень рад, что мы смогли договориться и убедить тебя зарабатывать чуть больше, чем ты можешь на государственной службе. В общем, как всем известно — через две недели на проверку приезжает генеральный прокурор и нам бы не хотелось, чтобы проблема с бухгалтерией стала известна.\n\nТебе необходимо забрать архивы правительства, вывезти их и сжечь. Сделаешь это быстро – получишь свои кровные, а если начнешь медлить – получишь меньше. Твоё время пошло, вперед.",
-          "taskInfo": "Уничтожьте бумаги правительства до проверки.",
+          "taskTitle": "Friends are not abandoned in trouble",
+          "taskDescription": "I am very glad that we were able to come to an agreement and convince you to earn a little more than you can in public service. In general, as everyone knows — in two weeks the Prosecutor General is coming for an inspection, and we would not like the accounting problem to become known.\n\nYou need to take the government archives, transport them out, and burn them. Do it quickly — you'll get your hard-earned money, but if you start dragging your feet — you'll get less. Your time has started, move.",
+          "taskInfo": "Destroy the government papers before the inspection.",
           "taskMoney": 20000,
           "taskPoint": -15,
           "taskToken": 0
@@ -89,9 +89,9 @@
             2,
             10
           ],
-          "taskTitle": "Министр финансов",
-          "taskDescription": "Как замечательно, что ты снова вернулся. Есть специальное задание, тебе необходимо забрать взятку из указанной на этой записке точке.\n\nЕсли справишься быстро и не привлечешь никакого лишнего внимания – получишь свои проценты. Но, если ты не справишься – пойдешь работать на шахту. Времени почти не остается, поскорее отправляйся.",
-          "taskInfo": "Министр финансов поручил забрать взятку.",
+          "taskTitle": "Minister of Finance",
+          "taskDescription": "How wonderful that you came back again. There is a special task, you need to pick up a bribe from the point indicated on this note.\n\nIf you handle it quickly and do not attract any unnecessary attention, you will get your percentage. But if you fail, you will go work in the mine. There is almost no time left, head out quickly.",
+          "taskInfo": "The Minister of Finance instructed to collect a bribe.",
           "taskMoney": 20000,
           "taskPoint": -15,
           "taskToken": 0
@@ -110,9 +110,9 @@
             1,
             1
           ],
-          "taskTitle": "Пройти тестирование",
-          "taskDescription": "Пройдите тестирование на знание Устава организации. Выберите пункт \"Документы\", и после прочтения нажмите \"К тесту\" у каждого пункта.",
-          "taskInfo": "Пройдите тестирование для повышения до 2-го ранга.",
+          "taskTitle": "Pass the test",
+          "taskDescription": "Pass the test on knowledge of the organization's Charter. Select the \"Documents\" item, and after reading, click \"To the test\" for each item.",
+          "taskInfo": "Pass the test for promotion to rank 2.",
           "taskMoney": 0,
           "taskPoint": 50,
           "taskToken": 0
@@ -123,9 +123,9 @@
             2,
             10
           ],
-          "taskTitle": "Проверка вышек",
-          "taskDescription": "Сторожевые вышки нужно периодически проверять. Мы же не хотим, чтобы наши часовые спали, верно? Вперед!",
-          "taskInfo": "Проверить 8 вышек",
+          "taskTitle": "Tower inspection",
+          "taskDescription": "Guard towers need to be checked periodically. We don't want our sentries sleeping, do we? Forward!",
+          "taskInfo": "Check 8 towers",
           "taskMoney": 10000,
           "taskPoint": 10,
           "taskToken": 4
@@ -136,9 +136,9 @@
             2,
             10
           ],
-          "taskTitle": "Дневальный",
-          "taskDescription": "Прямая обязанность дневального - поддержание казармы в чистоте. К выполнению обязанностей приступить!",
-          "taskInfo": "Навести порядок в казарме",
+          "taskTitle": "Orderly",
+          "taskDescription": "The direct duty of the orderly is to keep the barracks clean. Proceed to your duties!",
+          "taskInfo": "Put the barracks in order",
           "taskMoney": 10000,
           "taskPoint": 8,
           "taskToken": 3
@@ -149,9 +149,9 @@
             2,
             10
           ],
-          "taskTitle": "Ликвидация бандитов",
-          "taskDescription": "Тревога! Проникновение на территорию части! Быстро получи оружие и отбей нападение любой ценой!",
-          "taskInfo": "Ликвидировать бандитов на территории части",
+          "taskTitle": "Elimination of bandits",
+          "taskDescription": "Alarm! Intrusion onto the unit's territory! Quickly get a weapon and repel the attack at any cost!",
+          "taskInfo": "Eliminate bandits on the unit territory",
           "taskMoney": 10000,
           "taskPoint": 8,
           "taskToken": 3,
@@ -163,9 +163,9 @@
             3,
             10
           ],
-          "taskTitle": "Развозка материалов",
-          "taskDescription": "Оружейные сами себя не наполнят. Так что — живо за баранку и в путь!",
-          "taskInfo": "Доставить грузовик с материалами во фракцию",
+          "taskTitle": "Material delivery",
+          "taskDescription": "Gun stores won't restock themselves. So — get behind the wheel and move out!",
+          "taskInfo": "Deliver the truck with materials to the faction",
           "taskMoney": 15000,
           "taskPoint": 15,
           "taskToken": 3
@@ -176,9 +176,9 @@
             2,
             10
           ],
-          "taskTitle": "Учёный",
-          "taskDescription": "Наши запасы медикаментов почти на нуле. Не порядок! Быстро займись этим!",
-          "taskInfo": "Создать 3 медикамента в лаборатории",
+          "taskTitle": "Scientist",
+          "taskDescription": "Our medicine supplies are almost at zero. This is not good! Deal with it quickly!",
+          "taskInfo": "Create 3 medicines in the laboratory",
           "taskMoney": 10000,
           "taskPoint": 10,
           "taskToken": 3
@@ -189,9 +189,9 @@
             2,
             10
           ],
-          "taskTitle": "Дежурный по столовой",
-          "taskDescription": "Наряд по кухне — судьба каждого солдата. К следующему приему пищи столовая должна блестеть. Вперед!",
-          "taskInfo": "Подготовить столовую к приёму пищи",
+          "taskTitle": "Mess hall duty officer",
+          "taskDescription": "Kitchen duty is every soldier's fate. By the next meal, the canteen must shine. Move!",
+          "taskInfo": "Prepare the canteen for mealtime",
           "taskMoney": 8000,
           "taskPoint": 8,
           "taskToken": 4
@@ -202,9 +202,9 @@
             2,
             10
           ],
-          "taskTitle": "Охрана периметра",
-          "taskDescription": "Что отличает воинскую часть от соседней деревни? Наличие периметра. Срочно обойти и проверить!",
-          "taskInfo": "Обойти и проверить периметр воинской части",
+          "taskTitle": "Perimeter security",
+          "taskDescription": "What distinguishes a military unit from the neighboring village? A perimeter. Urgently go around and check it!",
+          "taskInfo": "Walk around and check the perimeter of the military unit",
           "taskMoney": 10000,
           "taskPoint": 10,
           "taskToken": 4
@@ -223,9 +223,9 @@
             1,
             1
           ],
-          "taskTitle": "Пройти тестирование",
-          "taskDescription": "Пройдите тестирование на знание Устава организации. Выберите пункт \"Документы\", и после прочтения нажмите \"К тесту\" у каждого пункта.",
-          "taskInfo": "Пройдите тестирование для повышения до 2-го ранга.",
+          "taskTitle": "Pass the test",
+          "taskDescription": "Pass the test on knowledge of the organization's Charter. Select the \"Documents\" item, and after reading, click \"To the test\" for each item.",
+          "taskInfo": "Pass the test for promotion to rank 2.",
           "taskMoney": 0,
           "taskPoint": 50,
           "taskToken": 0
@@ -236,9 +236,9 @@
             3,
             10
           ],
-           "taskTitle": "Король медицинских карт",
-          "taskDescription": "Медицинская карта — это медицинский документ, в котором лечащими врачами ведётся запись истории болезни пациента и назначаемого ему лечения. Тебе необходимо выписать пять медицинских карточек жителям области, чтобы выполнить фракционное задание.",
-          "taskInfo": "Выпишите 5 медицинских карточек жителям области.",
+           "taskTitle": "King of medical records",
+          "taskDescription": "A medical card is a medical document in which attending doctors record the patient's medical history and prescribed treatment. You need to issue five medical cards to residents of the region to complete the faction task.",
+          "taskInfo": "Issue 5 medical cards to region residents.",
           "taskMoney": 10000,
           "taskPoint": 15,
           "taskToken": 3
@@ -249,9 +249,9 @@
             2,
             10
           ],
-          "taskTitle": "Лучший доктор",
-          "taskDescription": "Основная обязанность больницы – это оказание квалифицированной и своевременной медицинской помощи всем, кто в ней нуждается.\n\nТебе необходимо вылечить десять пациентов, которые находятся на территории больницы.",
-          "taskInfo": "Вылечите 10 пациентов на териитории больницы.",
+          "taskTitle": "Best doctor",
+          "taskDescription": "The hospital's main duty is to provide qualified and timely medical care to everyone who needs it.\n\nYou need to treat ten patients who are on the hospital grounds.",
+          "taskInfo": "Heal 10 patients on the hospital grounds.",
           "taskMoney": 10000,
           "taskPoint": 15,
           "taskToken": 3
@@ -262,9 +262,9 @@
             4,
             10
           ],
-          "taskTitle": "Спасение раненых",
-          "taskDescription": "Основная обязанность больницы – это оказание квалифицированной и своевременной медицинской помощи всем, кто в ней нуждается.\n\nТебе необходимо взять карету скорой помощи, отправиться на вызовы и спасти пять раненных человек.",
-          "taskInfo": "Реанимируйте и спасите 5 пострадавших на вызовах.",
+          "taskTitle": "Rescuing the wounded",
+          "taskDescription": "The hospital's main duty is to provide qualified and timely medical care to everyone who needs it.\n\nYou need to take an ambulance, go out on calls, and save five injured people.",
+          "taskInfo": "Resuscitate and save 5 injured people on calls.",
           "taskMoney": 10000,
           "taskPoint": 15,
           "taskToken": 2
@@ -275,9 +275,9 @@
             2,
             10
           ],
-          "taskTitle": "Фальсификация призыва",
-          "taskDescription": "Мой знакомый сообщил о том, что совсем недавно состоялась призывная медицинская комиссия, на которой его признали годным для службы, а все личные дела призывников передали в нашу больницу.\n\nТебе необходимо взломать дверь шкафа, изъять данные его медицинской книжки, а вместо нее подбросить документы, которые я тебе дам.",
-          "taskInfo": "Сфальсифицируйте результаты призывной комиссии.",
+          "taskTitle": "Draft falsification",
+          "taskDescription": "An acquaintance of mine reported that a draft medical commission was held quite recently, where he was declared fit for service, and all the personal files of the conscripts were transferred to our hospital.\n\nYou need to hack the cabinet door, seize the data from his medical book, and instead plant the documents I will give you.",
+          "taskInfo": "Falsify the results of the draft commission.",
           "taskMoney": 20000,
           "taskPoint": -30,
           "taskToken": 0
@@ -294,9 +294,9 @@
             1,
             1
           ],
-          "taskTitle": "Пройти тестирование",
-          "taskDescription": "Пройдите тестирование на знание Устава организации. Выберите пункт \"Документы\", и после прочтения нажмите \"К тесту\" у каждого пункта.",
-          "taskInfo": "Пройдите тестирование для повышения до 2-го ранга.",
+          "taskTitle": "Pass the test",
+          "taskDescription": "Pass the test on knowledge of the organization's Charter. Select the \"Documents\" item, and after reading, click \"To the test\" for each item.",
+          "taskInfo": "Pass the test for promotion to rank 2.",
           "taskMoney": 0,
           "taskPoint": 50,
           "taskToken": 0
@@ -307,9 +307,9 @@
             2,
             10
           ],
-          "taskTitle": "Лучший редактор",
-          "taskDescription": "Качественное редактирование и проверка объявлений, которые поступают от жителей области – это важное обязательство каждого сотрудника средств массовой информации.\n\nТебе необходимо проверить и качественно отредактировать тридцать объявлений, которые прислали жители нашей области.",
-          "taskInfo": "Тщательно проверьте и отредактируйте 30 объявлений.",
+          "taskTitle": "Best editor",
+          "taskDescription": "High-quality editing and checking of ads submitted by residents of the region is an important duty of every media employee.\n\nYou need to check and properly edit thirty ads sent by residents of our region.",
+          "taskInfo": "Carefully check and edit 30 advertisements.",
           "taskMoney": 10000,
           "taskPoint": 15,
           "taskToken": 3
@@ -320,9 +320,9 @@
             6,
             10
           ],
-          "taskTitle": "Мы снова в эфире",
-          "taskDescription": "Проведение качественных и интересных эфиров – это важное обязательство каждого сотрудника средств массовой информации.\n\nТебе необходимо провести любой интересный и увлекательный эфир, во время проведения которого нужно отправить 50 сообщений (/t).",
-          "taskInfo": "Проведите интересный эфир длительностью 10 минут.",
+          "taskTitle": "We are back on air",
+          "taskDescription": "Conducting high-quality and interesting broadcasts is an important duty of every mass media employee.\n\nYou need to conduct any interesting and engaging broadcast, during which you need to send 50 messages (/t).",
+          "taskInfo": "Conduct an interesting 10-minute broadcast.",
           "taskMoney": 10000,
           "taskPoint": 15,
           "taskToken": 3
@@ -333,9 +333,9 @@
             2,
             10
           ],
-          "taskTitle": "Агитационный материал",
-          "taskDescription": "Впереди нас всех ждут очередные выборы губернатора. Нам необходимо оповестить всех жителей области об этом событии, чтобы была максимальная явка.\n\nТебе необходимо распечатать агитационный материал, взять его и разнести по домам.",
-          "taskInfo": "Разнесите 5 агитационных материалов.",
+          "taskTitle": "Campaign material",
+          "taskDescription": "Ahead of us all are the next governor elections. We need to notify all residents of the region about this event so that turnout is as high as possible.\n\nYou need to print campaign materials, take them, and distribute them to houses.",
+          "taskInfo": "Distribute 5 campaign materials.",
           "taskMoney": 10000,
           "taskPoint": 15,
           "taskToken": 2
@@ -346,9 +346,9 @@
             2,
             10
           ],
-          "taskTitle": "Потерянная SD-карта",
-          "taskDescription": "В сейфе нашего директора хранится SD-карта, на которой содержится очень интересная информация с фактами фальсификации выборов губернатора. Наш директор против коррупции и хочет отнести этот материал в специальные органы.\n\n Высокопоставленные сотрудники правительства в курсе об этом и очень заинтересованы в том, чтобы ее заполучить. Они готовы заплатить неплохие деньги, если ты взломаешь сейф директора, выкрадешь SD-карту и отнесешь ее секретарю, которые находится в здании правительства.",
-          "taskInfo": "Выкрадите SD-карту и отнесите ее в правительство.",
+          "taskTitle": "Lost SD card",
+          "taskDescription": "An SD card is stored in our director's safe, containing very interesting information with facts of governor election fraud. Our director is against corruption and wants to take this material to the proper authorities.\n\n High-ranking government officials know about this and are very interested in obtaining it. They are ready to pay good money if you crack the director's safe, steal the SD card, and take it to the secretary, who is in the government building.",
+          "taskInfo": "Steal the SD card and take it to the government.",
           "taskMoney": 20000,
           "taskPoint": -30,
           "taskToken": 0
@@ -367,9 +367,9 @@
             1,
             1
           ],
-          "taskTitle": "Пройти тестирование",
-          "taskDescription": "Пройдите тестирование на знание Устава организации. Выберите пункт \"Документы\", и после прочтения нажмите \"К тесту\" у каждого пункта.",
-          "taskInfo": "Пройдите тестирование для повышения до 2-го ранга.",
+          "taskTitle": "Pass the test",
+          "taskDescription": "Pass the test on knowledge of the organization's Charter. Select the \"Documents\" item, and after reading, click \"To the test\" for each item.",
+          "taskInfo": "Pass the test for promotion to rank 2.",
           "taskMoney": 0,
           "taskPoint": 50,
           "taskToken": 0
@@ -380,9 +380,9 @@
             2,
             10
           ],
-          "taskTitle": "Автоматический контроль",
-          "taskDescription": "Превышение скорости — главная опасность на дороге. Благо, технологии помогают нам бороться с лихачами",
-          "taskInfo": "Установить на карте 2 стационарных радара",
+          "taskTitle": "Automatic control",
+          "taskDescription": "Speeding is the main danger on the road. Fortunately, technology helps us fight reckless drivers",
+          "taskInfo": "Place 2 stationary radars on the map",
           "taskMoney": 15000,
           "taskPoint": 10,
           "taskToken": 3
@@ -393,9 +393,9 @@
             2,
             10
           ],
-          "taskTitle": "Скоростной режим",
-          "taskDescription": "На каждой дороге камеру не поставишь. Иногда приходится брать правосудие в свои руки",
-          "taskInfo": "Выписать 5 штрафов, используя ручной радар",
+          "taskTitle": "Speed limit",
+          "taskDescription": "You can't put a camera on every road. Sometimes you have to take justice into your own hands",
+          "taskInfo": "Issue 5 fines using a handheld radar",
           "taskMoney": 20000,
           "taskPoint": 10,
           "taskToken": 4
@@ -406,9 +406,9 @@
             4,
             10
           ],
-          "taskTitle": "Продление прав",
-          "taskDescription": "Забывчивых водителей не всегда нужно наказывать. Порой можно и помочь. Не бесплатно, конечно…",
-          "taskInfo": "Оказать услугу по продлению прав 3 раза",
+          "taskTitle": "License renewal",
+          "taskDescription": "Forgetful drivers don't always need to be punished. Sometimes they can be helped too. Not for free, of course…",
+          "taskInfo": "Provide a license renewal service 3 times",
           "taskMoney": 15000,
           "taskPoint": 8,
           "taskToken": 3
@@ -419,9 +419,9 @@
             2,
             10
           ],
-          "taskTitle": "Убойная сила",
-          "taskDescription": "Если кто-то где-то там у нас порой честно жить не хочет, то придется его заставить. По коням!",
-          "taskInfo": "Поймать преступника в одиночку или с напарником",
+          "taskTitle": "Stopping power",
+          "taskDescription": "If someone somewhere around here doesn't want to live honestly, then we'll have to make them. Mount up!",
+          "taskInfo": "Catch the criminal alone or with a partner",
           "taskMoney": 25000,
           "taskPoint": 15,
           "taskToken": 4
@@ -432,9 +432,9 @@
             2,
             10
           ],
-          "taskTitle": "Обед - всему голова",
-          "taskDescription": "Самое приятное в работе патруля — это перекус. Сворачивай к забегаловке!",
-          "taskInfo": "Заехать в любую точку общепита и перекусить",
+          "taskTitle": "Lunch is the head of everything",
+          "taskDescription": "The best part of patrol work is having a snack. Pull over to the diner!",
+          "taskInfo": "Drive to any food place and have a snack",
           "taskMoney": 5000,
           "taskPoint": 7,
           "taskToken": 3
@@ -445,9 +445,9 @@
             2,
             10
           ],
-          "taskTitle": "Патруль",
-          "taskDescription": "Патрулирование — это важно. Одно присутствие полиции может предотвратить преступление.",
-          "taskInfo": "Проехать по маршруту патрулирования",
+          "taskTitle": "Patrol",
+          "taskDescription": "Patrolling is important. The mere presence of police can prevent a crime.",
+          "taskInfo": "Drive along the patrol route",
           "taskMoney": 15000,
           "taskPoint": 10,
           "taskToken": 3
@@ -458,9 +458,9 @@
             2,
             10
           ],
-          "taskTitle": "Погоня",
-          "taskDescription": "Ничто так не бередит кровь, как хорошая погоня за преступником. Врубай мигалку и погнали!",
-          "taskInfo": "Успешно закончить погоню",
+          "taskTitle": "Chase",
+          "taskDescription": "Nothing stirs the blood like a good chase after a criminal. Turn on the siren and let's go!",
+          "taskInfo": "Successfully finish the chase",
           "taskMoney": 20000,
           "taskPoint": 15,
           "taskToken": 3
@@ -471,9 +471,9 @@
             2,
             10
           ],
-          "taskTitle": "Жезл",
-          "taskDescription": "Пост ДПС — это фильтр от подозрительных личностей. Не дай им просочиться!",
-          "taskInfo": "Остановить и осмотреть на посту ДПС 2 ТС",
+          "taskTitle": "Baton",
+          "taskDescription": "A traffic police post is a filter against suspicious individuals. Don't let them slip through!",
+          "taskInfo": "Stop and inspect 2 vehicles at the traffic police post",
           "taskMoney": 20000,
           "taskPoint": 10,
           "taskToken": 3
@@ -484,9 +484,9 @@
             2,
             10
           ],
-          "taskTitle": "Спец средства",
-          "taskDescription": "Что отличает наши тачки от обычных? Наличие неприятных сюрпризов для нарушителей. Попробуй сам!",
-          "taskInfo": "Использовать спецсредства во время погони",
+          "taskTitle": "Special equipment",
+          "taskDescription": "What distinguishes our cars from ordinary ones? The presence of unpleasant surprises for violators. Try it yourself!",
+          "taskInfo": "Use special means during chases",
           "taskMoney": 15000,
           "taskPoint": 10,
           "taskToken": 3
@@ -497,9 +497,9 @@
             2,
             10
           ],
-          "taskTitle": "Большой пробег",
-          "taskDescription": "Чаще всего наша работа — это не погони и задержания, а обычная патрульная рутина. Поехали",
-          "taskInfo": "Проехать на служебном транспорте 10 километров",
+          "taskTitle": "High mileage",
+          "taskDescription": "Most often our job is not chases and arrests, but ordinary patrol routine. Let's go",
+          "taskInfo": "Drive 10 kilometers in a service vehicle",
           "taskMoney": 20000,
           "taskPoint": 10,
           "taskToken": 4
@@ -518,9 +518,9 @@
             1,
             1
           ],
-          "taskTitle": "Пройти тестирование",
-          "taskDescription": "Пройдите тестирование на знание Устава организации. Выберите пункт \"Документы\", и после прочтения нажмите \"К тесту\" у каждого пункта.",
-          "taskInfo": "Пройдите тестирование для повышения до 2-го ранга.",
+          "taskTitle": "Pass the test",
+          "taskDescription": "Pass the test on knowledge of the organization's Charter. Select the \"Documents\" item, and after reading, click \"To the test\" for each item.",
+          "taskInfo": "Pass the test for promotion to rank 2.",
           "taskMoney": 0,
           "taskPoint": 50,
           "taskToken": 0
@@ -531,9 +531,9 @@
             2,
             10
           ],
-          "taskTitle": "Служебная необходимость",
-          "taskDescription": "Работа в силовом ведомстве - непростое дело. И если в одиночку справиться трудно - позовите на помощь коллег.",
-          "taskInfo": "Создать вызов и воспользоваться помощью коллег.",
+          "taskTitle": "Official necessity",
+          "taskDescription": "Working in a law enforcement agency is not easy. And if it's hard to cope alone, call your colleagues for help.",
+          "taskInfo": "Create a call and use the help of colleagues.",
           "taskMoney": 10000,
           "taskPoint": 20,
           "taskToken": 3
@@ -544,9 +544,9 @@
             2,
             10
           ],
-          "taskTitle": "Арест",
-          "taskDescription": "Даже с преступниками необходимо обращаться в рамках закона, не допуская произвола. Доставьте преступников в отделение.",
-          "taskInfo": "Арестовать и доставить в отдел 2-х игроков.",
+          "taskTitle": "Arrest",
+          "taskDescription": "Even criminals must be treated within the law, without allowing arbitrariness. Deliver the criminals to the station.",
+          "taskInfo": "Arrest and deliver 2 players to the department.",
           "taskMoney": 10000,
           "taskPoint": 20,
           "taskToken": 3
@@ -557,9 +557,9 @@
             2,
             10
           ],
-          "taskTitle": "Убойная сила",
-          "taskDescription": "Поймать и доставить в отделение нарушителя закона - зачастую сложная, но от этого ещё более важная задача.",
-          "taskInfo": "В одиночку или с напарником поймать 1 преступника.",
+          "taskTitle": "Stopping power",
+          "taskDescription": "Catching and delivering a lawbreaker to the station is often difficult, but that makes it even more important.",
+          "taskInfo": "Catch 1 criminal alone or with a partner.",
           "taskMoney": 20000,
           "taskPoint": 20,
           "taskToken": 3
@@ -570,9 +570,9 @@
             2,
             10
           ],
-          "taskTitle": "Улики",
-          "taskDescription": "Улики могут быть получены разными путями, и дежурный никогда не спросит о способе их получения, для него главное - сдать отчётность.",
-          "taskInfo": "Сдать дежурному в отделении 5 улик.",
+          "taskTitle": "Evidence",
+          "taskDescription": "Evidence can be obtained in different ways, and the duty officer will never ask how it was obtained; for him, the main thing is to submit the report.",
+          "taskInfo": "Hand over 5 pieces of evidence to the duty officer at the department.",
           "taskMoney": 15000,
           "taskPoint": 20,
           "taskToken": 3
@@ -583,9 +583,9 @@
             2,
             10
           ],
-          "taskTitle": "Всегда начеку",
-          "taskDescription": "Помощь коллегам - это элемент эффективно работающей системы. Помогите коллегам в их непростых задачах.",
-          "taskInfo": "Выполнить 1 вызов",
+          "taskTitle": "Always on guard",
+          "taskDescription": "Helping colleagues is an element of an efficiently working system. Help your colleagues with their difficult tasks.",
+          "taskInfo": "Complete 1 call",
           "taskMoney": 15000,
           "taskPoint": 20,
           "taskToken": 3
@@ -596,9 +596,9 @@
             2,
             10
           ],
-          "taskTitle": "Обыск",
-          "taskDescription": "Видели подозрительного гражданина или автомобиль? А почему не обыскали? Быстро исправлять!",
-          "taskInfo": "Произвести обыск любых инвентарей (ТС, недвижимость, инвентарь игрока) у 5 разных игроков",
+          "taskTitle": "Search",
+          "taskDescription": "Did you see a suspicious citizen or vehicle? Why didn't you search them? Fix it quickly!",
+          "taskInfo": "Conduct a search of any inventories (vehicle, property, player inventory) on 5 different players",
           "taskMoney": 15000,
           "taskPoint": 20,
           "taskToken": 3
@@ -609,9 +609,9 @@
             2,
             10
           ],
-          "taskTitle": "Обед - всему голова",
-          "taskDescription": "Самое приятное в работе патруля - возможность заехать в общепит и не спеша, со вкусом подкрепиться. Так не теряйте такую возможность!",
-          "taskInfo": "Заехать в любую точку общепита и купить что-нибудь перекусить",
+          "taskTitle": "Lunch is the head of everything",
+          "taskDescription": "The most pleasant thing about patrol work is the opportunity to stop by a food place and have a leisurely, tasty meal. So don't miss this opportunity!",
+          "taskInfo": "Drive to any food place and buy something to eat",
           "taskMoney": 15000,
           "taskPoint": 20,
           "taskToken": 4
@@ -622,9 +622,9 @@
             2,
             10
           ],
-          "taskTitle": "Патрулирование",
-          "taskDescription": "Патрулирование - важная задача. Даже само присутствие сотрудников полиции может предотвратить преступление.",
-          "taskInfo": "Проехать по 1 маршруту патрулирования",
+          "taskTitle": "Patrolling",
+          "taskDescription": "Patrolling is an important task. Even the mere presence of police officers can prevent a crime.",
+          "taskInfo": "Drive 1 patrol route",
           "taskMoney": 15000,
           "taskPoint": 20,
           "taskToken": 4
@@ -635,9 +635,9 @@
             2,
             10
           ],
-          "taskTitle": "Большой пробег",
-          "taskDescription": "Проверьте несколько точек на маршруте патрулирования и убедитесь, что нарушений порядка не допущено.",
-          "taskInfo": "Проехать за рулём на служебном ТС 10 километров по маршруту",
+          "taskTitle": "High mileage",
+          "taskDescription": "Check several points on the patrol route and make sure no order violations have occurred.",
+          "taskInfo": "Drive 10 kilometers along the route in a service vehicle while behind the wheel",
           "taskMoney": 15000,
           "taskPoint": 20,
           "taskToken": 4
@@ -656,9 +656,9 @@
             1,
             1
           ],
-          "taskTitle": "Пройти тестирование",
-          "taskDescription": "Пройдите тестирование на знание Устава организации. Выберите пункт \"Документы\", и после прочтения нажмите \"К тесту\" у каждого пункта.",
-          "taskInfo": "пройдите тестирование для повышения до 2-го ранга.",
+          "taskTitle": "Pass the test",
+          "taskDescription": "Pass the test on knowledge of the organization's Charter. Select the \"Documents\" item, and after reading, click \"To the test\" for each item.",
+          "taskInfo": "pass the test to be promoted to rank 2.",
           "taskMoney": 0,
           "taskPoint": 50,
           "taskToken": 0
@@ -669,9 +669,9 @@
             2,
             10
           ],
-          "taskTitle": "Под прикрытием",
-          "taskDescription": "Только устроившись в другую фракцию под прикрытием, можно узнать, как она работает и нет ли поводов для беспокойства со стороны нашей структуры.",
-          "taskInfo": "Выполнить 1 задание, находясь под прикрытием в другой фракции.",
+          "taskTitle": "Undercover",
+          "taskDescription": "Only by joining another faction undercover can you find out how it works and whether there are any reasons for concern from our structure.",
+          "taskInfo": "Complete 1 task while undercover in another faction.",
           "taskMoney": 10000,
           "taskPoint": 10,
           "taskToken": 3
@@ -682,9 +682,9 @@
             2,
             10
           ],
-          "taskTitle": "Секретная документация",
-          "taskDescription": "Начальству срочно нужен отчёт о проделанной работе другими фракциями! Немедленно!",
-          "taskInfo": "Отправиться в одну из государственных фракций (не только силовых) и забрать из кабинета начальника секретные документы.",
+          "taskTitle": "Secret documentation",
+          "taskDescription": "Management urgently needs a report on the work done by other factions! Immediately!",
+          "taskInfo": "Go to one of the state factions (not only law enforcement) and take secret documents from the chief's office.",
           "taskMoney": 10000,
           "taskPoint": 10,
           "taskToken": 4
@@ -695,9 +695,9 @@
             2,
             10
           ],
-          "taskTitle": "Патруль",
-          "taskDescription": "Патрулирование - важная задача. Даже само присутствие сотрудников полиции может предотвратить преступление.",
-          "taskInfo": "Проехать по 1 маршруту патрулирования.",
+          "taskTitle": "Patrol",
+          "taskDescription": "Patrolling is an important task. Even the mere presence of police officers can prevent a crime.",
+          "taskInfo": "Drive 1 patrol route.",
           "taskMoney": 10000,
           "taskPoint": 10,
           "taskToken": 3
@@ -708,9 +708,9 @@
             2,
             10
           ],
-          "taskTitle": "Проверка документов",
-          "taskDescription": "Подозрительных личностей в учебке определять учили? так чего мы ждём? Срочно на поиск таких и проверку их документов!",
-          "taskInfo": "Проверить документы у 5 игроков",
+          "taskTitle": "Document check",
+          "taskDescription": "Were you taught to identify suspicious individuals in boot camp? Then what are we waiting for? Urgently search for such people and check their documents!",
+          "taskInfo": "Check documents of 5 players",
           "taskMoney": 10000,
           "taskPoint": 10,
           "taskToken": 3
@@ -721,9 +721,9 @@
             2,
             10
           ],
-          "taskTitle": "Убойная сила",
-          "taskDescription": "Поймать и доставить в отделение нарушителя закона - зачастую сложная, но от этого ещё более важная задача.",
-          "taskInfo": "В одиночку или с напарником поймать 1 преступника",
+          "taskTitle": "Stopping power",
+          "taskDescription": "Catching and delivering a lawbreaker to the station is often difficult, but that makes it even more important.",
+          "taskInfo": "Catch 1 criminal alone or with a partner",
           "taskMoney": 10000,
           "taskPoint": 10,
           "taskToken": 4
@@ -734,9 +734,9 @@
             2,
             10
           ],
-          "taskTitle": "Контроль бизнеса",
-          "taskDescription": "Честные бизнесмены? Наше руководство не верит в такие сказки. Отправляйтесь на выездную проверку.",
-          "taskInfo": "Провести выездную проверку бизнеса ",
+          "taskTitle": "Business control",
+          "taskDescription": "Honest businessmen? Our management doesn't believe in such fairy tales. Go on an inspection trip.",
+          "taskInfo": "Conduct an on-site business inspection ",
           "taskMoney": 10000,
           "taskPoint": 10,
           "taskToken": 3
@@ -747,9 +747,9 @@
             2,
             10
           ],
-          "taskTitle": "Контроль патруля",
-          "taskDescription": "Нет ли оборотней в погонах ГИБДД? Честно ли они патрулируют город? Вам это нужно проверить.",
-          "taskInfo": "Устроиться под прикрытием в ГИБДД и проехать на служебном ТС 5 километров",
+          "taskTitle": "Patrol control",
+          "taskDescription": "Are there any wolves in sheep's clothing in the traffic police? Do they patrol the city honestly? You need to check this.",
+          "taskInfo": "Get undercover in the Traffic Police and drive 5 kilometers in a service vehicle",
           "taskMoney": 10000,
           "taskPoint": 10,
           "taskToken": 3
@@ -760,9 +760,9 @@
             2,
             10
           ],
-          "taskTitle": "Доставка материалов ",
-          "taskDescription": "У нашей фракции - самое лучшее оружие и снаряжение. А для того, чтобы оно не заканчивалось, устройтесь под прикрытием в Армию и привезите на наш склад грузовик материалов.",
-          "taskInfo": "Устроиться под прикрытием в Армию и доставить 1 грузовик с материалами в ФСБ",
+          "taskTitle": "Material delivery ",
+          "taskDescription": "Our faction has the best weapons and equipment. And so that it doesn't run out, get undercover in the Army and bring a truck of materials to our warehouse.",
+          "taskInfo": "Get undercover in the Army and deliver 1 truck of materials to the FBI",
           "taskMoney": 10000,
           "taskPoint": 10,
           "taskToken": 4
@@ -773,9 +773,9 @@
             2,
             10
           ],
-          "taskTitle": "Ужесточение условий содержания",
-          "taskDescription": "У нас есть подозрения, что руководство ФСИН даёт слишком много поблажек заключённым. Ужесточите им условия содержания.",
-          "taskInfo": "Устроиться под прикрытием во ФСИН и выдать выговор 2-м заключённым",
+          "taskTitle": "Tightening detention conditions",
+          "taskDescription": "We suspect that the Penitentiary Service leadership gives prisoners too many indulgences. Tighten their detention conditions.",
+          "taskInfo": "Get undercover in the Penitentiary Service and issue reprimands to 2 prisoners",
           "taskMoney": 10000,
           "taskPoint": 10,
           "taskToken": 3
@@ -794,9 +794,9 @@
             1,
             1
           ],
-          "taskTitle": "Пройти тестирование",
-          "taskDescription": "Пройдите тестирование на знание Устава организации. Выберите пункт \"Документы\", и после прочтения нажмите \"К тесту\" у каждого пункта.",
-          "taskInfo": "Пройдите тестирование для повышения до 2-го ранга.",
+          "taskTitle": "Pass the test",
+          "taskDescription": "Pass the test on knowledge of the organization's Charter. Select the \"Documents\" item, and after reading, click \"To the test\" for each item.",
+          "taskInfo": "Pass the test for promotion to rank 2.",
           "taskMoney": 0,
           "taskPoint": 50,
           "taskToken": 0
@@ -807,9 +807,9 @@
             2,
             10
           ],
-          "taskTitle": "Дополнительное расследование",
-          "taskDescription": "У следствия появились дополнительные вопросы к одному из осуждённых . Отвезите им его личное дело.",
-          "taskInfo": "Доставить в отдел УМВД личное дело преступника",
+          "taskTitle": "Additional investigation",
+          "taskDescription": "The investigation has additional questions for one of the convicts. Deliver his personal file to them.",
+          "taskInfo": "Deliver the criminal's personal file to the City Police department",
           "taskMoney": 10000,
           "taskPoint": 5,
           "taskToken": 4
@@ -820,9 +820,9 @@
             6,
             10
           ],
-          "taskTitle": "Конвоир",
-          "taskDescription": "Заключённого во время перевозки в тюрьму могут попытаться вызволить его сообщники. Нельзя этого допустить!",
-          "taskInfo": "Перевезти заключённого из КПЗ в тюрьму.",
+          "taskTitle": "Escort guard",
+          "taskDescription": "During transport to jail, the prisoner may be freed by accomplices. This must not be allowed!",
+          "taskInfo": "Transport the inmate from the detention cell to prison.",
           "taskMoney": 10000,
           "taskPoint": 5,
           "taskToken": 5
@@ -833,9 +833,9 @@
             3,
             10
           ],
-          "taskTitle": "Санитар",
-          "taskDescription": "На территории тюрьмы бывает всякое и о травмах спрашивать не принято. Просто окажите медицинскую помощь тем, кому она нужна.",
-          "taskInfo": "Вылечить 5 пациентов в лазарете",
+          "taskTitle": "Medic",
+          "taskDescription": "Anything can happen on prison grounds, and it is not customary to ask about injuries. Just provide medical assistance to those who need it.",
+          "taskInfo": "Heal 5 patients in the infirmary",
           "taskMoney": 10000,
           "taskPoint": 5,
           "taskToken": 3
@@ -846,9 +846,9 @@
             5,
             10
           ],
-          "taskTitle": "Тайники",
-          "taskDescription": "В тайниках могут храниться самые неожиданные предметы. Найдите и обыщите их до того, как заключённые ими воспользуются.",
-          "taskInfo": "Предотвратить побег, обыскав 3 общих тайника",
+          "taskTitle": "Stashes",
+          "taskDescription": "Stashes can contain the most unexpected items. Find and search them before the prisoners use them.",
+          "taskInfo": "Prevent an escape by searching 3 shared stashes",
           "taskMoney": 10000,
           "taskPoint": 5,
           "taskToken": 3
@@ -859,9 +859,9 @@
             2,
             10
           ],
-          "taskTitle": "Всегда начеку",
-          "taskDescription": "Стоять! Шмон! Заключённые не должны расслабляться. Они всегда должны ожидать внепланового обыска.",
-          "taskInfo": "Обыскать 5 заключённых на территории тюрьмы",
+          "taskTitle": "Always on guard",
+          "taskDescription": "Stop! Search! Prisoners must not relax. They must always expect an unscheduled search.",
+          "taskInfo": "Search 5 inmates on prison grounds",
           "taskMoney": 10000,
           "taskPoint": 5,
           "taskToken": 3
@@ -872,9 +872,9 @@
             2,
             10
           ],
-          "taskTitle": "Хранитель порядка",
-          "taskDescription": "Каждый заслуживает отдельного отношения, а какого именно - решать вам. Проявите это отношение к нескольким заключённым.",
-          "taskInfo": "Выдать поощрение 5 заключённым.",
+          "taskTitle": "Keeper of order",
+          "taskDescription": "Everyone deserves individual treatment, and what kind is up to you. Show that treatment to several inmates.",
+          "taskInfo": "Issue a reward to 5 prisoners.",
           "taskMoney": 10000,
           "taskPoint": 5,
           "taskToken": 3
@@ -885,9 +885,9 @@
             2,
             10
           ],
-          "taskTitle": "Патруль",
-          "taskDescription": "Территория тюрьмы должна быть проверена вдоль и поперёк! И при этом быстро!.",
-          "taskInfo": "Обойти и проверить территорию тюрьмы.",
+          "taskTitle": "Patrol",
+          "taskDescription": "The prison territory must be checked thoroughly! And quickly at that!.",
+          "taskInfo": "Walk around and inspect the prison grounds.",
           "taskMoney": 10000,
           "taskPoint": 5,
           "taskToken": 3
@@ -898,9 +898,9 @@
             2,
             10
           ],
-          "taskTitle": "Проверка помещений",
-          "taskDescription": "Порядок должен быть везде - в том числе и в камерах. Отправляйтесь и проверьте.",
-          "taskInfo": "Посетить все камеры",
+          "taskTitle": "Premises inspection",
+          "taskDescription": "There must be order everywhere - including in the cells. Go and check.",
+          "taskInfo": "Visit all cells",
           "taskMoney": 10000,
           "taskPoint": 5,
           "taskToken": 3
@@ -911,9 +911,9 @@
             2,
             10
           ],
-          "taskTitle": "Подготовка к перевозке заключённых",
-          "taskDescription": "Подельники заключённых могут готовить засаду для их освобождения. Проверьте маршрут следования служебных машин и убедитесь, что всё в порядке.",
-          "taskInfo": "Проверить безопасность маршрута на пути в тюрьму",
+          "taskTitle": "Preparation for transporting inmates",
+          "taskDescription": "Accomplices of inmates may prepare an ambush to free them. Check the route of the service vehicles and make sure everything is in order.",
+          "taskInfo": "Check route security on the way to prison",
           "taskMoney": 10000,
           "taskPoint": 5,
           "taskToken": 3
@@ -924,9 +924,9 @@
             2,
             10
           ],
-          "taskTitle": "Столовая",
-          "taskDescription": "Честный труд - и честный отдых! Отправляйтесь в столовую и плотно пообедайте.",
-          "taskInfo": "Употребить в столовой на территории тюрьмы 3 любых блюда",
+          "taskTitle": "Canteen",
+          "taskDescription": "Honest work - and honest rest! Head to the cafeteria and have a hearty lunch.",
+          "taskInfo": "Consume any 3 dishes in the cafeteria on prison grounds",
           "taskMoney": 10000,
           "taskPoint": 5,
           "taskToken": 3

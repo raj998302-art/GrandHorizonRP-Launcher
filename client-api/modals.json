@@ -1,14 +1,14 @@
-﻿[
+[
   {
     "id": 1,
-    "name": "Инвентарь и магазины",
+    "name": "Inventory and shops",
     "pages": [
       {
         "preset": "tutorialModal3",
         "image": "img_ftue_tutorial_01",
         "background": "#212324",
-        "text_title": "Инвентарь и магазины",
-        "text_description": "[color=#FFC700]Инвентарь[/color] [color=#FDFDFD]— основное место хранения принадлежащих тебе предметов.\n\nВсе необходимые предметы ты можешь получить в мире игры, либо приобрести в Круглосуточных магазинах. Когда Инвентарь заполнен, полученные предметы складываются в Добычу. Как Инвентарь, так и список Добычи можно открыть через меню планшета.\n\nПомни: вместимость Инвентаря не безгранична, но ее можно расширить с помощью специальных аксессуаров, увеличивающих количество ячеек.[/color]",
+        "text_title": "Inventory and shops",
+        "text_description": "[color=#FFC700]Inventory[/color] [color=#FDFDFD]— the main place where your items are stored.\n\nYou can obtain all the necessary items in the game world or purchase them in Convenience Stores. When the Inventory is full, acquired items are placed into Loot. Both the Inventory and the Loot list can be opened through the tablet menu.\n\nRemember: the Inventory capacity is not unlimited, but it can be expanded with special accessories that increase the number of slots.[/color]",
         "source": "",
         "path": ""
       }
@@ -16,14 +16,14 @@
   },
   {
     "id": 2,
-    "name": "Инвентарь и магазины",
+    "name": "Inventory and shops",
     "pages": [
       {
         "preset": "tutorialModal3",
         "image": "img_ftue_tutorial_07",
         "background": "#212324",
-        "text_title": "АЗС",
-        "text_description": "[color=#FDFDFD]Транспорт нужно регулярно заправлять. Если топливный бак опустеет – поездка закончится.\n\nВ мире игры расположено множество АЗС, на которых ты всегда сможешь заправить свое транспортное средство, а также купить канистру для дозаправки прямо в пути. Но помни, что различные ТС требуют различный тип топлива![/color]",
+        "text_title": "Gas Station",
+        "text_description": "[color=#FDFDFD]Vehicles need to be refueled regularly. If the fuel tank runs empty, the trip will end.\n\nThere are many gas stations located throughout the game world where you can always refuel your vehicle, as well as buy a fuel canister to top up right on the road. But remember that different vehicles require different types of fuel![/color]",
         "source": "",
         "path": ""
       }
@@ -31,14 +31,14 @@
   },
   {
     "id": 3,
-    "name": "Поздравлением!",
+    "name": "Congratulations!",
     "pages": [
       {
         "preset": "tutorialModal3",
         "image": "img_ftue_tutorial_04",
         "background": "#212324",
-        "text_title": "Поздравляем!",
-        "text_description": "[color=#FDFDFD]Поздравляем! Ты успешно завершил стартовое обучение, и впереди тебя ждет самое интересное!\n\nРазвивай своего персонажа, выполняя поручения дяди Славы.\n\nЗарабатывай деньги на работе или открывай собственный бизнес.\n\nВступай в различные организации и поднимайся по карьерной лестнице.\n\nПокупай и прокачивай десятки видов транспорта[/color]",
+        "text_title": "Congratulations!",
+        "text_description": "[color=#FDFDFD]Congratulations! You have successfully completed the starter tutorial, and the most interesting part is still ahead of you!\n\nDevelop your character by completing Uncle Slava's tasks.\n\nEarn money at jobs or start your own business.\n\nJoin various organizations and climb the career ladder.\n\nBuy and upgrade dozens of types of transport[/color]",
         "source": "",
         "path": ""
       },
@@ -46,8 +46,8 @@
         "preset": "tutorialModal3",
         "image": "img_ftue_tutorial_04",
         "background": "#212324",
-        "text_title": "Поздравляем!",
-        "text_description": "[color=#FDFDFD]Создавай семьи и бери под свое влияние целые районы.\n\nПокупай и улучшай собственную недвижимость.\n\nОбщайся и взаимодействуй с другими игроками благодаря голосовому чату.\n\nУчаствуй в событиях, выполняй ежедневные задания, прокачивай Black Pass и получай уникальный контент.\n\nЗа стартовое обучение в раздел Добыча добавлен подарок. Добро пожаловать![/color]",
+        "text_title": "Congratulations!",
+        "text_description": "[color=#FDFDFD]Create families and bring entire districts under your influence.\n\nBuy and improve your own real estate.\n\nCommunicate and interact with other players thanks to voice chat.\n\nTake part in events, complete daily tasks, level up the Black Pass, and receive unique content.\n\nA gift has been added to the Loot section for completing the starter tutorial. Welcome![/color]",
         "source": "",
         "path": ""
       }
@@ -55,14 +55,14 @@
   },
   {
     "id": 4,
-    "name": "Ледовое падение",
+    "name": "Ice fall",
     "pages": [
       {
         "preset": "tutorialModal3",
         "image": "img_ftue_tutorial_01",
         "background": "#212324",
-        "text_title": "Ледовое падение",
-        "text_description": "[color=#FFC700]Ледовое падение[/color] [color=#FDFDFD]— ледовое падение.\n\nВсе необходимые предметы ты можешь получить в мире игры, либо приобрести в Круглосуточных магазинах. Когда Инвентарь заполнен, полученные предметы складываются в Добычу. Как Инвентарь, так и список Добычи можно открыть через меню планшета.\n\nПомни: вместимость Инвентаря не безгранична, но ее можно расширить с помощью специальных аксессуаров, увеличивающих количество ячеек.[/color]",
+        "text_title": "Ice fall",
+        "text_description": "[color=#FFC700]Ice Fall[/color] [color=#FDFDFD]— ice fall.\n\nYou can obtain all the necessary items in the game world or purchase them in Convenience Stores. When the Inventory is full, acquired items are placed into Loot. Both the Inventory and the Loot list can be opened through the tablet menu.\n\nRemember: the Inventory capacity is not unlimited, but it can be expanded with special accessories that increase the number of slots.[/color]",
         "source": "",
         "path": ""
       }
@@ -70,26 +70,26 @@
   },
   {
     "id": 5,
-    "name": "Бой с Чумными Докторами",
+    "name": "Battle with the Plague Doctors",
     "pages": [
       {
         "preset": "tutorialModal3",
         "image": "img_ftue_tutorial_01",
         "background": "#212324",
-        "text_title": "Бой с Чумными Докторами",
-        "text_description": "[color=#FFC700]Бой с Чумными Докторами.[/color] [color=#FDFDFD]— бой с чумными докторами.\n\nТебе предстоит обезвредить членов отряда Чумного Доктора. Лепи снежки из сугробов бомжтауна и целься прямо в бандитов. Но учти, сугробы ограничены!\n\nПомни: Бандиты будут кидать в тебя различные предметы. Уворачивайся от них, чтобы не получить весомый урон.[/color]"
+        "text_title": "Battle with the Plague Doctors",
+        "text_description": "[color=#FFC700]Battle with the Plague Doctors.[/color] [color=#FDFDFD]— a battle with the plague doctors.\n\nYou will have to neutralize members of the Plague Doctor squad. Make snowballs from the snowdrifts of Bumstown and aim straight at the bandits. But keep in mind, the snowdrifts are limited!\n\nRemember: The bandits will throw various objects at you. Dodge them so you do not take heavy damage.[/color]"
       }
     ]
   },
   {
     "id": 6,
-    "name": "Что можно продать",
+    "name": "What can be sold",
     "pages": [
       {
         "preset": "dynamicList",
         "image": "",
         "background": "#212324",
-        "text_title": "Что можно продать",
+        "text_title": "What can be sold",
         "text_description": "",
         "source": "mini-events-vendor.json",
         "path": "/shopList",
@@ -99,14 +99,14 @@
   },
   {
     "id": 7,
-    "name": "Режим стелса для квестлайн 1 квест 2",
+    "name": "Stealth mode for questline 1 quest 2",
     "pages": [
       {
         "preset": "tutorialModal1",
         "image": "img_questline1_tutorial_01",
         "background": "#212324",
-        "text_title": "Режим стелса: избегай света прожекторов",
-        "text_description": "Осторожно! Попадание в луч прожектора сразу выдаст твое местоположение охране. Красная зона — опасна. Если ты окажешься в освещённой области, тебя заметят и задание будет провалено. Передвигайся между укрытиями и оставайся вне света прожекторов.",
+        "text_title": "Stealth mode: avoid the spotlight beams",
+        "text_description": "Careful! Getting caught in a spotlight beam will instantly reveal your location to the guards. The red zone is dangerous. If you end up in a lit area, you will be spotted and the mission will fail. Move between covers and stay out of the spotlight beams.",
         "source": "",
         "path": ""
       }
@@ -114,14 +114,14 @@
   },
   {
     "id": 8,
-    "name": "Режим погони для квестлайн 1 квест 2",
+    "name": "Chase mode for questline 1 quest 2",
     "pages": [
       {
         "preset": "tutorialModal1",
         "image": "img_questline1_tutorial_02",
         "background": "#212324",
-        "text_title": "Режим погони: берегите автомобиль",
-        "text_description": "Внимание! Во время погони автомобиль получает повреждения при столкновениях. Следите за индикатором прочности. 60–40% — автомобиль повреждён. 30% — задание будет провалено. Маневрируйте, уходите от преследования и берегите машину.",
+        "text_title": "Chase mode: protect the vehicle",
+        "text_description": "Attention! During the chase, the car takes damage in collisions. Watch the durability indicator. 60–40% — the car is damaged. 30% — the mission will fail. Maneuver, evade the pursuit, and take care of the car.",
         "source": "",
         "path": ""
       }
@@ -129,14 +129,14 @@
   },
   {
     "id": 9,
-    "name": "Туториал по флипперу (Квестлайн 2 квест 1)",
+    "name": "Flipper tutorial (Questline 2 quest 1)",
     "pages": [
       {
         "preset": "tutorialModal3",
         "image": "img_questline2_tutorial_01",
         "background": "#212324",
-        "text_title": "Флиппер",
-        "text_description": "Флиппер — устройство для перехвата радиосигналов автомобилей. Активируйте его, чтобы начать сканирование.\n\nВ центре экрана будут появляться коды от разных машин, а снизу — подсказка с параметрами нужного сигнала.\n\nВаша задача — найти совпадающий код и выбрать его. Верный сигнал разблокирует автомобиль, ошибка — попробуйте снова.",
+        "text_title": "Flipper",
+        "text_description": "Flipper is a device for intercepting car radio signals. Activate it to begin scanning.\n\nCodes from different cars will appear in the center of the screen, and at the bottom there will be a hint with the parameters of the required signal.\n\nYour task is to find the matching code and select it. The correct signal will unlock the car; if you make a mistake, try again.",
         "source": "",
         "path": ""
       }
@@ -144,14 +144,14 @@
   },
   {
     "id": 10,
-    "name": "Туториал по подбору цифровых ключей (Квестлайн 2 квест 1)",
+    "name": "Digital key matching tutorial (Questline 2 quest 1)",
     "pages": [
       {
         "preset": "tutorialModal1",
         "image": "img_questline1_tutorial_02",
         "background": "#212324",
-        "text_title": "Режим погони: берегите автомобиль",
-        "text_description": "Внимание! Во время погони автомобиль получает повреждения при столкновениях. Следите за индикатором прочности. 60–40% — автомобиль повреждён. 30% — задание будет провалено. Маневрируйте, уходите от преследования и берегите машину.",
+        "text_title": "Chase mode: protect the vehicle",
+        "text_description": "Attention! During the chase, the car takes damage in collisions. Watch the durability indicator. 60–40% — the car is damaged. 30% — the mission will fail. Maneuver, evade the pursuit, and take care of the car.",
         "source": "",
         "path": ""
       }
@@ -159,14 +159,14 @@
   },
   {
     "id": 11,
-    "name": "Туториал по дрифту с бочками (Квестлайн 2 квест 3)",
+    "name": "Barrel drift tutorial (Questline 2 quest 3)",
     "pages": [
       {
         "preset": "tutorialModal3",
         "image": "img_questline2_tutorial_02",
         "background": "#212324",
-        "text_title": "ИСПЫТАНИЕ С БОЧКАМИ",
-        "text_description": "На трассе расположены бочки — твоя задача сбивать их, проезжая рядом.\nСтарайся двигаться точно и контролировать траекторию.\n\nКаждая сбитая бочка увеличивает прогресс.\nСобьёшь достаточно — выиграешь гонку.\n\nСледи за дорогой и не пропускай цели.",
+        "text_title": "BARREL CHALLENGE",
+        "text_description": "Barrels are placed on the track — your task is to knock them down by driving near them.\nTry to move accurately and control your trajectory.\n\nEach knocked-down barrel increases progress.\nKnock down enough and you will win the race.\n\nWatch the road and do not miss the targets.",
         "source": "",
         "path": ""
       }
@@ -174,232 +174,232 @@
   },
   {
     "id": 12,
-    "name": "Справка: Классическая гонка",
+    "name": "Help: Classic Race",
     "pages": [
       {
         "preset": "tutorialModal1",
         "image": "img_racemode_tutorial_Classic.png",
         "background": "#212324",
-        "text_title": "Старт гонки и финишный таймер",
-        "text_description": "Следуйте по чекпоинтам и финишируйте быстрее всех. Когда лидер пересечёт финиш, у остальных будет 60 секунд. Не успевшие получат статус DNF и штраф к награде."
+        "text_title": "Race start and finish timer",
+        "text_description": "Follow the checkpoints and finish faster than everyone else. When the leader crosses the finish line, the others will have 60 seconds. Those who do not make it in time will receive DNF status and a reward penalty."
       },
       {
         "preset": "tutorialModal3",
         "image": "img_racemode_tutorial_Exit.png",
         "background": "#212324",
-        "text_title": "Как покинуть гонку",
-        "text_description": "Вы можете выйти из заезда в любой момент кнопкой выхода или командой /racequit. При досрочном выходе накладывается штраф: очередь на новую гонку будет недоступна некоторое время."
+        "text_title": "How to leave the race",
+        "text_description": "You can leave the race at any time using the exit button or the /racequit command. Leaving early applies a penalty: the queue for a new race will be unavailable for some time."
       }
     ]
   },
   {
     "id": 12,
-    "name": "Справка: Классическая гонка",
+    "name": "Help: Classic Race",
     "pages": [
       {
         "preset": "tutorialModal1",
         "image": "img_racemode_tutorial_Classic.png",
         "background": "#212324",
-        "text_title": "Старт гонки и финишный таймер",
-        "text_description": "Следуй по чекпоинтам и финишируй быстрее всех. Когда лидер пересечёт финиш, у остальных будет 60 секунд. Не успевшие получат статус DNF (не финишировал) и часть награды."
+        "text_title": "Race start and finish timer",
+        "text_description": "Follow the checkpoints and finish faster than everyone else. When the leader crosses the finish line, the others will have 60 seconds. Those who do not make it in time will receive DNF status (did not finish) and part of the reward."
       },
       {
         "preset": "tutorialModal3",
         "image": "img_racemode_tutorial_Exit.png",
         "background": "#212324",
-        "text_title": "Как покинуть гонку",
-        "text_description": "Ты можешь выйти из заезда в любой момент кнопкой выхода или командой /racequit. При досрочном выходе накладывается штраф: очередь на новую гонку будет недоступна некоторое время."
+        "text_title": "How to leave the race",
+        "text_description": "You can leave the race at any time using the exit button or the /racequit command. Leaving early applies a penalty: the queue for a new race will be unavailable for some time."
       }
     ]
   },
   {
     "id": 13,
-    "name": "Справка: Выбывание (Круг)",
+    "name": "Help: Elimination (Lap)",
     "pages": [
       {
         "preset": "tutorialModal1",
         "image": "img_racemode_tutorial_EliminationCircuit.png",
         "background": "#212324",
-        "text_title": "Правила выбывания",
-        "text_description": "После каждого круга последний из игроков выбывает и занимает место по порядку выбывания. Награда начисляется в соответствии с занятым местом. Держись в основной группе и следи за уведомлениями в HUD."
+        "text_title": "Elimination rules",
+        "text_description": "After each lap, the last of the players is eliminated and takes a place according to the elimination order. The reward is granted according to the place taken. Stay with the main pack and watch the HUD notifications."
       },
       {
         "preset": "tutorialModal3",
         "image": "img_racemode_tutorial_Exit.png",
         "background": "#212324",
-        "text_title": "Как покинуть гонку",
-        "text_description": "Ты можешь выйти из заезда в любой момент кнопкой выхода или командой /racequit. При досрочном выходе накладывается штраф: очередь на новую гонку будет недоступна некоторое время."
+        "text_title": "How to leave the race",
+        "text_description": "You can leave the race at any time using the exit button or the /racequit command. Leaving early applies a penalty: the queue for a new race will be unavailable for some time."
       }
     ]
   },
   {
     "id": 14,
-    "name": "Справка: Выбывание (Спринт)",
+    "name": "Help: Elimination (Sprint)",
     "pages": [
       {
         "preset": "tutorialModal1",
         "image": "img_racemode_tutorial_EliminationSprint.png",
         "background": "#212324",
-        "text_title": "Последний вылетает",
-        "text_description": "Трасса разделена на сегменты. В конце каждого сегмента последний участник выбывает. Оставшиеся двое мчатся к финишу: кто первый пересёк — тот и победил."
+        "text_title": "Last one is out",
+        "text_description": "The track is divided into segments. At the end of each segment, the last participant is eliminated. The remaining two race to the finish: whoever crosses first wins."
       },
       {
         "preset": "tutorialModal3",
         "image": "img_racemode_tutorial_Exit.png",
         "background": "#212324",
-        "text_title": "Как покинуть гонку",
-        "text_description": "Ты можешь выйти из заезда в любой момент кнопкой выхода или командой /racequit. При досрочном выходе накладывается штраф: очередь на новую гонку будет недоступна некоторое время."
+        "text_title": "How to leave the race",
+        "text_description": "You can leave the race at any time using the exit button or the /racequit command. Leaving early applies a penalty: the queue for a new race will be unavailable for some time."
       }
     ]
   },
   {
     "id": 15,
-    "name": "Справка: Классы машин",
+    "name": "Help: Car Classes",
     "pages": [
       {
         "preset": "tutorialModal1",
         "image": "img_racemode_tutorial_classes.png",
         "background": "#212324",
-        "text_title": "Классы машин",
-        "text_description": "Класс заезда определяет бесплатная машина недели. Выбирай её или авто из гаража. Тюнинг повышает характеристики и может перевести машину в другой класс."
+        "text_title": "Car classes",
+        "text_description": "The race class is determined by the free car of the week. Choose it or a car from your garage. Tuning improves characteristics and can move the car into another class."
       }
     ]
   },
   {
     "id": 16,
-    "name": "Справка: Мастер Дрифта",
+    "name": "Help: Drift Master",
     "pages": [
       {
         "preset": "tutorialModal1",
         "image": "img_racemode_tutorial_Drift.png",
         "background": "#212324",
-        "text_title": "Набор очков",
-        "text_description": "Дуэль на специальных трассах — набери как можно больше очков, чтобы победить! Чем дольше ты находишься в состоянии заноса, тем сильнее повышается множитель очков. Не жалей резину!"
+        "text_title": "Scoring points",
+        "text_description": "A duel on special tracks — score as many points as possible to win! The longer you stay in a skid, the stronger your point multiplier becomes. Do not spare the tires!"
       }
     ]
   },
      {
     "id": 17,
-    "name": "Битва за контейнеры",
+    "name": "Battle for containers",
     "pages": [
       {
         "preset": "tutorialModal3",
         "image": "tutorial_containers_01.png",
         "background": "#212324",
-        "text_title": "Битва за контейнеры",
-        "text_description": "Битва за контейнеры — это [color=#FFC700]аукцион[/color], где тебе виден тип награды, страна и начальная ставка за каждый контейнер. Внутри может быть награда в разы дороже начальной ставки.\n\n[color=#FFC700]Перебивай ставки[/color] конкурентов, если таймер закончится и твою ставку не перебьют — [color=#FFC700]контейнер твой[/color]. Выигрыш можно сразу продать государству или забрать в добычу."
+        "text_title": "Battle for containers",
+        "text_description": "The Battle for Containers is an [color=#FFC700]auction[/color] where you can see the reward type, country, and starting bid for each container. Inside there may be a reward worth many times more than the starting bid.\n\n[color=#FFC700]Outbid[/color] your competitors, and if the timer runs out and no one outbids your offer, the [color=#FFC700]container is yours[/color]. You can immediately sell your winnings to the state or take them as loot."
       },
       {
         "preset": "tutorialModal3",
         "image": "tutorial_containers_02.png",
         "background": "#212324",
-        "text_title": "Битва за контейнеры",
-        "text_description": "На месте выкупленного контейнера [color=#FFC700]появляется новый[/color]. Битва длится недолго — следи за чатом.\n\nЕсли за одни торги вы все вместе выкупите нужное количество контейнеров, откроется доступ к торгам за [color=#FFC700]Дипломатический груз.[/color]"
+        "text_title": "Battle for containers",
+        "text_description": "In place of a redeemed container, a [color=#FFC700]new one appears[/color]. The battle does not last long — keep an eye on the chat.\n\nIf during a single auction all of you together redeem the required number of containers, access to bidding for the [color=#FFC700]Diplomatic Cargo[/color] will open."
       },
       {
         "preset": "tutorialModal3",
         "image": "tutorial_containers_03.png",
         "background": "#212324",
-        "text_title": "Битва за контейнеры",
-        "text_description": "Торги проходят в [color=#FFC700]Арзамасе[/color] на [color=#FFC700]30-й минуте каждого часа[/color].\nИщи контейнер на карте или через [color=#FFC700]GPS → Развлечения → Битва за контейнеры[/color]. Иногда проходят особые торги — следи за соцсетями и заглядывай к Олегу Рубцову."
+        "text_title": "Battle for containers",
+        "text_description": "The auctions take place in [color=#FFC700]Arzamas[/color] at the [color=#FFC700]30th minute of every hour[/color].\nLook for the container on the map or via [color=#FFC700]GPS → Entertainment → Battle for Containers[/color]. Sometimes special auctions are held — follow social media and check in with Oleg Rubtsov."
       }
     ]
   },
   {
     "id": 18,
-    "name": "Поиск телефона",
+    "name": "Searching for the phone",
     "pages": [
       {
         "preset": "tutorialModal1",
         "image": "img_racemode_tutorial_Drift.png",
         "background": "#212324",
-        "text_title": "Поиск телефона",
-        "text_description": "Ориентируйтесь по звуку и индикатору в цели справа. Чем ближе Вы к телефону, тем больше звук. Приближайтесь к телефону, чтобы его заметить."
+        "text_title": "Searching for the phone",
+        "text_description": "Use the sound and the indicator in the objective on the right as your guide. The closer you are to the phone, the louder the sound. Get closer to the phone to spot it."
       }
     ]
   },
   {
     "id": 19,
-    "name": "Избавиться от бандитов",
+    "name": "Get rid of the bandits",
     "pages": [
       {
         "preset": "tutorialModal1",
         "image": "img_questline3_tutorial_01.png",
         "background": "#212324",
-        "text_title": "Избавиться от бандитов",
-        "text_description": "Расстреливайте бандитов и их автомобили, чтобы вывести из строя созданную блокаду. Только не подходите слишком близко, вдруг рванет?"
+        "text_title": "Get rid of the bandits",
+        "text_description": "Shoot the bandits and their vehicles to disable the blockade they created. Just don't get too close, what if it blows up?"
       }
     ]
   },
   {
     "id": 20,
-    "name": "Фонарик",
+    "name": "Flashlight",
     "pages": [
       {
         "preset": "tutorialModal1",
         "image": "img_questline3_tutorial_02.png",
         "background": "#212324",
-        "text_title": "Фонарик",
-        "text_description": "Используйте фонарик, чтобы найти и подсветить важные улики. Для использования фонарика, тебе нужно лишь наводить обзор на объекты в положении прицела."
+        "text_title": "Flashlight",
+        "text_description": "Use the flashlight to find and highlight important clues. To use the flashlight, you only need to aim your view at objects while in aiming position."
       }
     ]
   },
   {
     "id": 21,
-    "name": "Управление автомобилем",
+    "name": "Vehicle control",
     "pages": [
       {
         "preset": "tutorialModal1",
         "image": "img_ftue_tutorial_08",
         "background": "#212324",
-        "text_title": "Посадка в авто",
-        "text_description": "Ты можешь занять пассажирское сиденье, нажав на кнопку с изображением двери. Чтобы сесть за водительское кресло, нажми кнопку с изображением авто.."
+        "text_title": "Getting into a car",
+        "text_description": "You can take the passenger seat by pressing the button with the door icon. To get into the driver's seat, press the button with the car icon.."
       },
       {
         "preset": "tutorialModal1",
         "image": "img_radial_tutorial_03",
         "background": "#212324",
-        "text_title": "Управление автомобилем",
-        "text_description": "Зажми своим пальцем по автомобилю, чтобы открыть радиальное меню управления транспортом. С его помощью, ты можешь управлять двигателем автомобиля, освещением, дверями."
+        "text_title": "Vehicle control",
+        "text_description": "Hold your finger on the vehicle to open the radial vehicle control menu. With it, you can control the vehicle's engine, lights, and doors."
       }
     ]
   },
   {
     "id": 22,
-    "name": "Аптечка",
+    "name": "First aid kit",
     "pages": [
       {
         "preset": "tutorialModal3",
         "image": "img_ftue_tutorial_06",
         "background": "#212324",
-        "text_title": "Аптечка",
-        "text_description": "Следи за своим здоровьем. Приезжай в магазин 24/7, покупай аптечку и используй её через свой инвентарь. Чтобы использовать аптечку, достаточно зажать пальцем по ней и выбрать 'Использовать'."
+        "text_title": "First aid kit",
+        "text_description": "Keep an eye on your health. Come to a 24/7 store, buy a first aid kit, and use it through your inventory. To use the first aid kit, just press and hold your finger on it and select 'Use'."
       }
     ]
   },
   {
     "id": 23,
-    "name": "Еда",
+    "name": "Food",
     "pages": [
       {
         "preset": "tutorialModal3",
         "image": "img_ftue_tutorial_05",
         "background": "#212324",
-        "text_title": "Еда и голод",
-        "text_description": "Следи за своим голодом через [color=#FFC700]инвентарь[/color]. Питайся в [color=#FFC700]лавках[/color] и [color=#FFC700]закусочных[/color], чтобы всегда быть полон энергии и здоровья."
+        "text_title": "Food and Hunger",
+        "text_description": "Keep track of your hunger through the [color=#FFC700]inventory[/color]. Eat at [color=#FFC700]stalls[/color] and [color=#FFC700]snack bars[/color] to always stay full of energy and health."
       }
     ]
   },
   {
     "id": 24,
-    "name": "Ремонтные наборы",
+    "name": "Repair kits",
     "pages": [
       {
         "preset": "tutorialModal3",
         "image": "img_ftue_tutorial_03",
         "background": "#212324",
-        "text_title": "Ремонтные наборы",
-        "text_description": "[color=#FDFDFD]Кроме того транспорт может получать повреждения от столкновения с окружением и другими участниками движения. А полностью неисправный транспорт будет окончательно обездвижен.\n\nЧтобы починить его, используй ремонтные наборы. Ты всегда можешь приобрести их на АЗС или в магазинах 24/7. После покупки ремонтный набор будет лежать в инвентаре.[/color]",
+        "text_title": "Repair kits",
+        "text_description": "[color=#FDFDFD]In addition, transport can take damage from collisions with the environment and other road users. And a completely broken vehicle will be permanently immobilized.\n\nTo repair it, use repair kits. You can always buy them at gas stations or 24/7 stores. After purchase, the repair kit will be stored in your inventory.[/color]",
         "source": "",
         "path": ""
       }
@@ -407,53 +407,53 @@
   },
   {
     "id": 25,
-    "name": "Ржавая тропа",
+    "name": "Rusty Trail",
     "pages": [
       {
         "preset": "tutorialModal3",
         "image": "tutorial_cyberfarm_obstacle_course.png",
         "background": "#212324",
-        "text_title": "Ржавая тропа",
-        "text_description": "[color=#FFC700]Преодолевай препятствия[/color]: пеший паркур и гонки на машинах. Если упадешь - начнешь с последней [color=#FFC700]зоны сохранения[/color]. Попытки не ограничены.\n\nЧем выше твое место, тем [color=#FFC700]больше твоя награда[/color]. Попробуй занять первое место!\n\nУспей закончить уровень за отведенное время, иначе награда не начислится."
+        "text_title": "Rusty Trail",
+        "text_description": "[color=#FFC700]Overcome obstacles[/color]: on-foot parkour and car races. If you fall, you will start from the last [color=#FFC700]save zone[/color]. Attempts are unlimited.\n\nThe higher your place, the [color=#FFC700]greater your reward[/color]. Try to take first place!\n\nFinish the level within the allotted time, otherwise the reward will not be granted."
       }
     ]
   },
   {
     "id": 26,
-    "name": "Великое ограбление",
+    "name": "The Great Heist",
     "pages": [
       {
         "preset": "tutorialModal3",
         "image": "tutorial_season6_01.png",
         "background": "#212324",
-        "text_title": "Великое ограбление",
-        "text_description": "Игра с командной целью - [color=#FFC700]прорваться в хранилище[/color] и [color=#FFC700]заразить компьютер[/color] другой команды воришек.\n\nКоманда, которая [color=#FFC700]заразит больше компьютеров за 3 раунда[/color], становится [color=#FFC700]победителем[/color] игры и забирает куш.\n\n[color=#FFC700]Собирайте чипы[/color] по комнате и используйте их для поднятия дополнительной защиты."
+        "text_title": "The Great Heist",
+        "text_description": "A game with a team objective - [color=#FFC700]break into the vault[/color] and [color=#FFC700]infect the computer[/color] of the other team of thieves.\n\nThe team that [color=#FFC700]infects more computers in 3 rounds[/color] becomes the [color=#FFC700]winner[/color] of the game and takes the jackpot.\n\n[color=#FFC700]Collect chips[/color] around the room and use them to raise additional protection."
       }
     ]
   },
   {
     "id": 27,
-    "name": "Фишки в казино",
+    "name": "Casino chips",
     "pages": [
       {
         "preset": "tutorialModal3",
         "image": "tutorial_season6_02.png",
         "background": "#212324",
-        "text_title": "Фишки в казино",
-        "text_description": "Во время события получай [color=#FFC700]100 Фишек[/color] в казино вместе с обычным выигрышем в играх:\n\n• Black Jack\n• Кости\n• Дурак\n\nЛимит с каждой игры на сутки [color=#FFC700]300 фишек[/color].\nЛимит обновляется каждый день в 5:00 МСК. Фишки собираются с учетом максимального лимита мини-игр в событии и учитывают все мультипликаторы ленты события."
+        "text_title": "Casino chips",
+        "text_description": "During the event, receive [color=#FFC700]100 Chips[/color] in the casino along with your regular winnings in the games:\n\n• Black Jack\n• Dice\n• Durak\n\nThe daily limit from each game is [color=#FFC700]300 chips[/color].\nThe limit resets every day at 5:00 MSK. Chips are collected with the maximum limit of mini-games in the event taken into account and include all event track multipliers."
       }
     ]
   },
   {
     "id": 28,
-    "name": "Рекламный дроп",
+    "name": "Advertising drop",
     "pages": [
       {
         "preset": "tutorialModal3",
         "image": "tutorial_season6_03.png",
         "background": "#212324",
-        "text_title": "Рекламный дроп",
-        "text_description": "Участвуй в [color=#FFC700]Дропе Подарков[/color]:\n\n• Найди [color=#FFC700]Хозяина Удачи[/color] на вокзалах и на вечеринке у Кристалла\n• Следи за таймером дропа \n• Успей приехать на место до конца дропа и хватай до 3 призов каждый дроп!\n• Участвуй каждый час и получай максимум подарков\n• Возможность выбить ценные призы: Фишки, BC и даже кейсы Козырь и Туз!"
+        "text_title": "Advertising drop",
+        "text_description": "Take part in the [color=#FFC700]Gift Drop[/color]:\n\n• Find the [color=#FFC700]Master of Luck[/color] at the stations and at Kristall's party\n• Keep an eye on the drop timer \n• Make it to the location before the drop ends and grab up to 3 prizes each drop!\n• Take part every hour and get the maximum number of gifts\n• A chance to win valuable prizes: Chips, BC, and even Kozyr and Ace cases!"
       }
     ]
   } 

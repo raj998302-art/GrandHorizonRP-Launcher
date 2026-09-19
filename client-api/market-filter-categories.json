@@ -2,56 +2,56 @@
   "categoriesFilters": [
     {
       "categoryFilterId": 1,
-      "categoryFilterName": "Категория",
+      "categoryFilterName": "Category",
       "filters": [
         {
           "color": "#FDFDFD",
           "filterId": 6,
-          "filterName": "Ресурсы",
+          "filterName": "Resources",
           "iconCDN": "ic_gear.svg"
         },
         {
           "color": "#FDFDFD",
           "filterId": 7,
-          "filterName": "Аксессуары",
+          "filterName": "Accessories",
           "iconCDN": "ic_acces.svg"
         },
         {
           "color": "#FDFDFD",
           "filterId": 8,
-          "filterName": "Одежда",
+          "filterName": "Clothing",
           "iconCDN": "ic_clothes.svg"
         }
       ]
     },
     {
       "categoryFilterId": 2,
-      "categoryFilterName": "Редкость",
+      "categoryFilterName": "Rarity",
       "filters": [
         {
           "color": "#FDFDFD",
           "filterId": 1,
-          "filterName": "Обычные"
+          "filterName": "Regular"
         },
         {
           "color": "#12DD00",
           "filterId": 2,
-          "filterName": "Необычные"
+          "filterName": "Unusual"
         },
         {
           "color": "#3EA2FF",
           "filterId": 3,
-          "filterName": "Редкие"
+          "filterName": "Rare"
         },
         {
           "color": "#C173FE",
           "filterId": 4,
-          "filterName": "Эпические"
+          "filterName": "Epic"
         },
         {
           "color": "#FFCC00",
           "filterId": 5,
-          "filterName": "Легендарные"
+          "filterName": "Legendary"
         }
       ]
     }

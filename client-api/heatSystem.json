@@ -17,19 +17,19 @@
 
   "ProgressBarStates": [
     {
-      "name": "Зелёный",
+      "name": "Green",
       "colorLeft": "#FF10913B",
       "colorRight": "#FF2EAC58",
       "value": 0.0
     },
     {
-      "name": "Желтый",
+      "name": "Yellow",
       "colorLeft": "#FFD27518",
       "colorRight": "#FFFFC700",
       "value": 0.5
     },
     {
-      "name": "Красный",
+      "name": "Red",
       "colorLeft": "#FFAC2E2E",
       "colorRight": "#FFE2310C",
       "value": 0.8,
@@ -40,7 +40,7 @@
       "needPulsation": true
     },
     {
-      "name": "Критичный",
+      "name": "Critical",
       "colorLeft": "#FFAC2E2E",
       "colorRight": "#FFE2310C",
       "value": 1.0,
@@ -53,25 +53,25 @@
   "JoystickStates": [
 {
       "id": 1,
-      "name": "Игрок стоит на месте",
+      "name": "The player is standing still",
       "value": 0.0,
       "progressRate": -0.13
     },
     {
       "id": 2,
-      "name": "Игрок медленно идёт",
+      "name": "The player is walking slowly",
       "value": 0.10,
       "progressRate": 0.06
     },
     {
       "id": 3,
-      "name": "Игрок бежит",
+      "name": "The player is running",
       "value": 0.50,
       "progressRate": 0.12
     },
     {
       "id": 4,
-      "name": "Игрок спринтует",
+      "name": "The player is sprinting",
       "value": 0.75,
       "progressRate": 0.2
     }
@@ -79,21 +79,21 @@
 
   "VignetteStates": [
     {
-      "name": "Отсутствует",
+      "name": "Absent",
       "color": "#00000000",
       "progressThreshold": 0.0,
       "opacityMin": 0.0,
       "opacityMax": 0.0
     },
     {
-      "name": "Черный",
+      "name": "Black",
       "color": "#FF000000",
       "progressThreshold": 0.7,
       "opacityMin": 0.0,
       "opacityMax": 0.5
     },
     {
-      "name": "Красный",
+      "name": "Red",
       "color": "#FF770000",
       "progressThreshold": 0.9,
       "opacityMin": 0.5,
@@ -105,17 +105,17 @@
 
   "FlashAnimations": [
     {
-      "name": "Белый",
+      "name": "White",
       "color": "#FFFFFFFF",
       "time": 0.15
     },
     {
-      "name": "Чёрный",
+      "name": "Black",
       "color": "#FF000000",
       "time": 0.15
     },
     {
-      "name": "Исчезновение",
+      "name": "Disappearance",
       "color": "#00000000",
       "time": 0.3,
       "progressRate": -0.5

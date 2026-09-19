@@ -2,22 +2,22 @@
   "categories": [
     {
       "categoryId": 1,
-      "categoryName": "Компоненты",
+      "categoryName": "Components",
       "iconCDN": "ic_category_res.png"
     },
     {
       "categoryId": 2,
-      "categoryName": "Аксессуары",
+      "categoryName": "Accessories",
       "iconCDN": "ic_category_acc.png"
     },
     {
       "categoryId": 3,
-      "categoryName": "Одежда",
+      "categoryName": "Clothing",
       "iconCDN": "ic_category_skin.png"
     },
     {
       "categoryId": 4,
-      "categoryName": "Транспорт",
+      "categoryName": "Transport",
       "iconCDN": "ic_category_veh.png"
     }
   ]

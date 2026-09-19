@@ -1,11 +1,11 @@
-﻿{
+{
   "npc": {
     "modelId"        : 5500142,
-    "gpsName"        : "Дроп подарков",
+    "gpsName"        : "Gift Drop",
     "rulesId"        : 28,
-    "labelWaiting"   : "Хозяин Удачи - {FFFF00}Дроп подарков\n{FFFFFF}Следующий {FFFF00}дроп через %s",
-    "labelCollecting": "Хозяин Удачи - {FFFF00}Дроп подарков\n{FFFFFF}Сбор игроков {FFFF00}%s",
-    "labelActive"    : "Хозяин Удачи - {FFFF00}Дроп подарков\n{FFFFFF}Дроп идет! {FFFF00}Осталось %s",
+    "labelWaiting"   : "Master of Luck - {FFFF00}Gift Drop\n{FFFFFF}Next {FFFF00}drop in %s",
+    "labelCollecting": "Master of Luck - {FFFF00}Gift Drop\n{FFFFFF}Gathering players {FFFF00}%s",
+    "labelActive"    : "Master of Luck - {FFFF00}Gift Drop\n{FFFFFF}The drop is live! {FFFF00}%s remaining",
     "noCollision"    : {"isEnabled": true, "radius": 30},
     "positions"      : [
       [  -95.6 ,   833.05, 15.2 , 304.0],
@@ -38,55 +38,55 @@
   "dialogs": [
     {
       "id": 1,
-      "title": "Хозяин Удачи",
-      "comment": "диалог 1 из ТЗ - дроп не запущен",
-      "text": "Эй, ты! Да-да, ты! Не проходи мимо! Ты знаешь, что деньги могут сыпаться с неба?! Хах, а они могут! И будут! Приходи в назначенное место вовремя - и они сами упадут тебе в руки! Только не забудь поблагодарить за щедрость владельцев Кристалла!",
+      "title": "Master of Luck",
+      "comment": "dialog 1 from the spec - drop has not started",
+      "text": "Hey, you! Yeah, you! Don't just walk by! Did you know that money can rain from the sky?! Ha, but it can! And it will! Come to the designated place on time - and it will fall right into your hands! Just don't forget to thank the owners of Kristall for their generosity!",
       "speaker": {"type": "npc", "skin": 5500142},
       "sound": "Event/hoz_udachi_info-001.ogg",
       "buttons": [
-        {"key": 2, "type": "gray", "content": "Правила"},
-        {"key": 3, "type": "red",  "content": "Закрыть"}
+        {"key": 2, "type": "gray", "content": "Rules"},
+        {"key": 3, "type": "red",  "content": "Close"}
       ],
       "is_last": true
     },
     {
       "id": 2,
-      "title": "Хозяин Удачи",
-      "comment": "диалог 2 из ТЗ - идет сбор игроков",
-      "text": "Эээээй! Не зевай! Все уже ломанулись за своим богатством, а ты чего ждешь?! Я подскажу, куда надо ехать. Давай быстрее! Чем вас больше соберется - тем больше будут награды!",
+      "title": "Master of Luck",
+      "comment": "dialog 2 from the spec - player gathering is in progress",
+      "text": "Heeeeey! Don't space out! Everyone's already rushing off for their fortune, so what are you waiting for?! I'll show you where to go. Hurry up! The more of you gather - the bigger the rewards will be!",
       "speaker": {"type": "npc", "skin": 5500142},
       "sound": "Event/hoz_udachi_info-002.ogg",
       "buttons": [
-        {"key": 1, "type": "green", "content": "Маршрут"},
-        {"key": 2, "type": "gray",  "content": "Правила"},
-        {"key": 3, "type": "red",   "content": "Закрыть"}
+        {"key": 1, "type": "green", "content": "Route"},
+        {"key": 2, "type": "gray",  "content": "Rules"},
+        {"key": 3, "type": "red",   "content": "Close"}
       ],
       "is_last": true
     },
     {
       "id": 3,
-      "title": "Хозяин Удачи",
-      "comment": "диалог 3 из ТЗ - дроп идет, лимит не достигнут",
-      "text": "Тебе что, совсем деньги не нужны? Они прямо сейчас с неба падают, а ты тут стоишь! Беги, пока все не расхватали! <br><br>Дроп идет прямо сейчас! Поспеши!",
+      "title": "Master of Luck",
+      "comment": "dialog 3 from the spec - drop is live, limit not reached",
+      "text": "What, do you really not need money at all? It's literally falling from the sky right now, and you're just standing here! Run before everything gets snatched up! <br><br>The drop is happening right now! Hurry!",
       "speaker": {"type": "npc", "skin": 5500142},
       "sound": "Event/hoz_udachi_info-003.ogg",
       "buttons": [
-        {"key": 1, "type": "green", "content": "Маршрут"},
-        {"key": 2, "type": "gray",  "content": "Правила"},
-        {"key": 3, "type": "red",   "content": "Закрыть"}
+        {"key": 1, "type": "green", "content": "Route"},
+        {"key": 2, "type": "gray",  "content": "Rules"},
+        {"key": 3, "type": "red",   "content": "Close"}
       ],
       "is_last": true
     },
     {
       "id": 4,
-      "title": "Хозяин Удачи",
-      "comment": "диалог 4 из ТЗ - дроп идет, лимит достигнут",
-      "text": "Неплохо, очень даже неплохо! Вижу, ты своего не упустишь. Ну, значит, приходи, когда начнется следующий дроп.",
+      "title": "Master of Luck",
+      "comment": "dialog 4 from the spec - drop is live, limit reached",
+      "text": "Not bad, very not bad indeed! I can see you won't miss your chance. Well then, come by when the next drop starts.",
       "speaker": {"type": "npc", "skin": 5500142},
       "sound": "Event/hoz_udachi_info-004.ogg",
       "buttons": [
-        {"key": 2, "type": "gray", "content": "Правила"},
-        {"key": 3, "type": "red",  "content": "Закрыть"}
+        {"key": 2, "type": "gray", "content": "Rules"},
+        {"key": 3, "type": "red",  "content": "Close"}
       ],
       "is_last": true
     }
@@ -120,19 +120,19 @@
   "bonusAwardsCountCoef": 2,
   "bonusSpawnCoef": 1.5,
   "chatMessages": [
-    {"id": 1, "text": "{FA8B52}Необходимое количество участников не набралось и дроп не состоялся. Удачи в следующий раз!"},
-    {"id": 2, "text": "{FA8B52}Дроп подарков начался! Поспеши принять участие! GPS --> Дроп"},
-    {"id": 3, "text": "{FA8B52}Стартовал улучшенный дроп подарков! Еще больше ценных призов! GPS --> Дроп"},
+    {"id": 1, "text": "{FA8B52}The required number of participants was not reached, and the drop did not take place. Better luck next time!"},
+    {"id": 2, "text": "{FA8B52}The gift drop has started! Hurry to join! GPS --> Drop"},
+    {"id": 3, "text": "{FA8B52}An enhanced gift drop has started! Even more valuable rewards! GPS --> Drop"},
     {
       "id"  : 4,
-      "text": "{FA8B52}Дроп завершен, спасибо за участие! Узнай, когда будет следующий, у Хозяина Удачи. GPS --> Дроп"
+      "text": "{FA8B52}The drop has ended, thanks for participating! Find out when the next one will be from the Master of Luck. GPS --> Drop"
     },
-    {"id": 5, "text": "Собрано участников для {FA8B52}старта дропа %d / %d"}
+    {"id": 5, "text": "Participants gathered for the {FA8B52}start of the drop %d / %d"}
   ],
   "clientHints": [
-    {"id": 1, "text": "Кто-то успел быстрее тебя и забрал приз."   },
-    {"id": 3, "text": "Ты уже собрал максимум наград за этот дроп."},
-    {"id": 4, "text": "Ты получил %s"                              }
+    {"id": 1, "text": "Someone got there before you and took the prize."   },
+    {"id": 3, "text": "You have already collected the maximum rewards for this drop."},
+    {"id": 4, "text": "You received %s"                              }
   ],
   "dropZones": [
     [-2865.85,    93.60, 14.5, 50.0],
@@ -145,25 +145,25 @@
   "maxPlayers": 20,
   "sideHintsButton": [
     {
-      "comment": "боковая подсказка после окончания основного таймера - стартует сбор на локации",
-      "button" : "Отметить на карте",
+      "comment": "side hint after the main timer ends - gathering starts at the location",
+      "button" : "Mark on map",
       "id"     : 1,
-      "title"  : "Сбор участников",
-      "text"   : "Соберите %d участников для старта %s"
+      "title"  : "Participant Gathering",
+      "text"   : "Gather %d participants to start %s"
     }
   ],
   "sideHints": [
     {
-      "comment": "боковая подсказка для игрока в зоне дропа",
+      "comment": "side hint for the player in the drop zone",
       "goal"   : 3,
       "id"     : 2,
-      "text"   : "Дроп начался! Собрано призов"
+      "text"   : "The drop has started! Prizes collected"
     },
     {
-      "comment": "боковая подсказка для игрока в зоне дропа, лимит достигнут",
+      "comment": "side hint for the player in the drop zone, limit reached",
       "goal"   : 3,
       "id"     : 3,
-      "text"   : "Ты собрал максимум призов, ждем на следующий дроп."
+      "text"   : "You have collected the maximum number of rewards, see you at the next drop."
     }
   ],
   "spawnCount": 5,

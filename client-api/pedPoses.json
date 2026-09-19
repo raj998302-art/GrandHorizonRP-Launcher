@@ -148,7 +148,7 @@
     },
     {
       "id": 4,
-      "name": "протянутая рука",
+      "name": "outstretched hand",
       "rotators": [
           {
               "bone": 32,

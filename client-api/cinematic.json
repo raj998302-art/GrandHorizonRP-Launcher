@@ -3,139 +3,139 @@
   "skipButtonTime": 1,
   "videos": [
     {
-      "comment": "1 | Синематик FTUE 1| 17 секунд",
+      "comment": "1 | FTUE cinematic 1| 17 seconds",
       "videoName": "Cin_FTUE-2",
       "time":17,
       "skipFlag": 1
     },
     {
-      "comment": "2 | Синематик FTUE 2 | 60 секунд",
+      "comment": "2 | FTUE cinematic 2 | 60 seconds",
       "videoName": "Cin_FTUE-1",
       "time":60,
       "skipFlag": 1
     },
     {
-      "comment": "3 | синематик  - интро | 39 секунд",
+      "comment": "3 | cinematic - intro | 39 seconds",
       "videoName": "cinematic_intro-S6_2026",
       "time":39,
       "skipFlag": 1
     },
     {
-      "comment": "4 | синематик 1 - квест",
+      "comment": "4 | cinematic 1 - quest",
       "videoName": "cinematic-quest1_intro",
       "time":32,
       "skipFlag": 1
     },
     {
-      "comment": "5 | синематик 2 - квест 3",
+      "comment": "5 | cinematic 2 - quest 3",
       "videoName": "cinematic-quest1_ending",
       "time":32,
       "skipFlag": 1
     },
     {
-      "comment": "8 | синематик QuestLine 2 | Quest 1",
+      "comment": "8 | QuestLine 2 cinematic | Quest 1",
       "videoName": "cinematic-quest2_1_1",
       "time":35,
       "skipFlag": 1
     },
     {
-      "comment": "9 | синематик QuestLine 2 | Quest 2",
+      "comment": "9 | QuestLine 2 cinematic | Quest 2",
       "videoName": "cinematic-quest2_2_1",
       "time":22,
       "skipFlag": 1
     },
     {
-      "comment": "10 | синематик QuestLine 2 | Quest 2",
+      "comment": "10 | QuestLine 2 cinematic | Quest 2",
       "videoName": "cinematic-quest2_2_2",
       "time":25,
       "skipFlag": 1
     },
     {
-      "comment": "11 | синематик QuestLine 2 | Quest 3 | 3 секунды",
+      "comment": "11 | QuestLine 2 cinematic | Quest 3 | 3 seconds",
       "videoName": "2d_art_anna-quest2_3_1",
       "time":3,
       "skipFlag": 1
     },
     {
-      "comment": "12 | синематик QuestLine 2 | Quest 3 | 3 секунды",
+      "comment": "12 | QuestLine 2 cinematic | Quest 3 | 3 seconds",
       "videoName": "2d_art_component-quest2_3_2",
       "time":3,
       "skipFlag": 1
     },
     {
-      "comment": "13 | синематик QuestLine 2 | Quest 3 | 3 секунды",
+      "comment": "13 | QuestLine 2 cinematic | Quest 3 | 3 seconds",
       "videoName": "2d_art_danya-quest2_3_3",
       "time":3,
       "skipFlag": 1
     },
     {
-      "comment": "14 | синематик QuestLine 2 | Quest 3",
+      "comment": "14 | QuestLine 2 cinematic | Quest 3",
       "videoName": "cinematic-quest2_3_4",
       "time": 37,
       "skipFlag": 1
     },
     {
-      "comment": "15 | синематик QuestLine 3 | Quest 1",
+      "comment": "15 | cinematic QuestLine 3 | Quest 1",
       "videoName": "cinematic-quest3_1_1",
       "time": 25,
       "skipFlag": 1
     },
     {
-      "comment": "16 | синематик QuestLine 3 | Quest 2",
+      "comment": "16 | cinematic QuestLine 3 | Quest 2",
       "videoName": "cinematic-quest3_2_1",
       "time": 3,
       "skipFlag": 1
     },
     {
-      "comment": "17 | синематик QuestLine 3 | Quest 3",
+      "comment": "17 | cinematic QuestLine 3 | Quest 3",
       "videoName": "cinematic-quest3_3_1",
       "time": 18,
       "skipFlag": 1
     },
     {
-      "comment": "18 | синематик QuestLine 3 | Quest 3 | Мужская версия",
+      "comment": "18 | cinematic QuestLine 3 | Quest 3 | Male version",
       "videoName": "cinematic-quest3_3_2",
       "time": 26,
       "skipFlag": 1
     },
     {
-      "comment": "19 | синематик QuestLine 3 | Quest 3 | Женская версия",
+      "comment": "19 | cinematic QuestLine 3 | Quest 3 | Female version",
       "videoName": "cinematic-quest3_3_3",
       "time": 26,
       "skipFlag": 1
     },
     {
-      "comment": "20 | синематик КБД | Quest 3",
+      "comment": "20 | KBD cinematic | Quest 3",
       "videoName": "Cin2_CyberVillage_v1_720",
       "time": 26,
       "skipFlag": 1
     },
     {
-      "comment": "21 | синематик КБД | Quest 3",
+      "comment": "21 | KBD cinematic | Quest 3",
       "videoName": "Cin2_CyberVillage_v2_720",
       "time": 26,
       "skipFlag": 1
     },
     {
-      "comment": "23 | синематик КБД | Quest 1",
+      "comment": "23 | KBD cinematic | Quest 1",
       "videoName": "Cin1_CyberVillage_720",
       "time": 26,
       "skipFlag": 1
     },
     {
-      "comment": "24 | QuestLine 4 | Quest 2 | Фото",
+      "comment": "24 | QuestLine 4 | Quest 2 | Photo",
       "videoName": "cinematic_questline4_2_1",
       "time": 26,
       "skipFlag": 1
     },
     {
-      "comment": "25 | QuestLine 4 | Quest 3 | Женская версия",
+      "comment": "25 | QuestLine 4 | Quest 3 | Female version",
       "videoName": "cinematic_quest4_3_1",
       "time": 26,
       "skipFlag": 1
     },
     {
-      "comment": "26 | QuestLine 4 | Quest 3 | Женская версия",
+      "comment": "26 | QuestLine 4 | Quest 3 | Female version",
       "videoName": "cinematic_quest4",
       "time": 26,
       "skipFlag": 1

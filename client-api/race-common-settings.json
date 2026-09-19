@@ -3,49 +3,49 @@
     "classes": [
       {
         "id": "N/A",
-        "label": "Неопределён",
+        "label": "Undefined",
         "pi_min": 0,
         "pi_max": 0,
         "color": "#000000"
       },
       {
         "id": "D",
-        "label": "Начальный",
+        "label": "Beginner",
         "pi_min": 1,
         "pi_max": 299,
         "color": "#737373"
       },
       {
         "id": "C",
-        "label": "Продвинутый",
+        "label": "Advanced",
         "pi_min": 300,
         "pi_max": 399,
         "color": "#2EAC58"
       },
       {
         "id": "B",
-        "label": "Высокий",
+        "label": "Tall",
         "pi_min": 400,
         "pi_max": 499,
         "color": "#1B98FF"
       },
       {
         "id": "A",
-        "label": "Элитный",
+        "label": "Elite",
         "pi_min": 500,
         "pi_max": 599,
         "color": "#753AE3"
       },
       {
         "id": "S",
-        "label": "Легендарный",
+        "label": "Legendary",
         "pi_min": 600,
         "pi_max": 699,
         "color": "#FFC700"
       },
       {
         "id": "X",
-        "label": "Без ограничений",
+        "label": "No restrictions",
         "pi_min": 700,
         "pi_max": 9999,
         "color": "#E2310C"

@@ -3,7 +3,7 @@
         "types": [
             {
                 "id": 1,
-                "comment": "Здоровье",
+                "comment": "Health",
                 "circleRadius": 200,
                 "indicator": {
                     "arcAngle": 30,
@@ -25,7 +25,7 @@
             },
             {
                 "id": 2,
-                "comment": "Броня",
+                "comment": "Armor",
                 "circleRadius": 200,
                 "indicator": {
                     "arcAngle": 30,

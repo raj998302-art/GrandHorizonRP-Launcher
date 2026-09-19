@@ -7,7 +7,7 @@
         "uiMusic" : "Event/CasinoMainScreen.ogg"
     },
     "gps"            : {
-        "gpsBtnText"  : "Событие Большой куш",
+        "gpsBtnText"  : "Big Score Event",
         "gpsBtnCoords": [-88.09, 809.56, 15.27]
     },
     "greenZone"      : {
@@ -63,7 +63,7 @@
             [-2153.484 ,  1575.377 ,  9.84  , 355.110 ]
         ],
         "noCollision" : {"isEnabled": true, "radius": 30},
-        "name"        : "{FFFF00}Большой куш\n{FFFFFF}Подойди для {FFFF00}взаимодействия",
+        "name"        : "{FFFF00}Big Score\n{FFFFFF}Approach to {FFFF00}interact",
         "useNameCords": "false",
         "cameraPos"   : {
             "StartPos"   : [-61.16, 848.14, 19.19],
@@ -72,13 +72,13 @@
         "dialog"      : [
             {
                 "id": 1,
-                "title": "Хайроллерша",
-                "description": "Хей! Тебя это точно заинтересует! Мегакрутая вечеринка в Кристалле! Приглашаются только лучшие из лучших. Вот, возьми флаер!<br><br><font color='#ffff00'>Прими участие в событии Большой Куш — собирай Фишки, играй в мини-игры, проходи ленту события. До %s</font>",
+                "title": "High Roller",
+                "description": "Hey! This will definitely interest you! A mega-cool party at Kristall! Only the best of the best are invited. Here, take a flyer!<br><br><font color='#ffff00'>Take part in the Big Score event — collect Chips, play mini-games, progress through the event track. Until %s</font>",
                 "speaker": {"type": "npc", "skin": 5500141},
                 "sound": "Event/pestraya_info-001.ogg",
                 "buttons": [
-                    {"name": "Отметить на карте", "color": "green"},
-                    {"name": "Закрыть",           "color": "red"  }
+                    {"name": "Mark on map", "color": "green"},
+                    {"name": "Close",           "color": "red"  }
                 ],
                 "is_last": true
             }
@@ -89,7 +89,7 @@
         "id"          : 5500053,
         "type"        : "npc",
         "coords"      : [-58.92, 830.81, 15.19, 39.0],
-        "name"        : "Мини-игра - {FFFF00}Великое ограбление\n{FFFFFF}Подойдите для {FFFF00}взаимодействия",
+        "name"        : "Mini-game - {FFFF00}The Great Heist\n{FFFFFF}Approach to {FFFF00}interact",
         "useNameCords": "false",
         "cameraPos"   : {
             "StartPos"   : [-57.46, 834.66, 16.0 ],
@@ -99,14 +99,14 @@
         "dialog"      : [
             {
                 "id": 1,
-                "title": "Лев",
-                "description": "Эй, говорят, ты человек надежный и неболтливый?.. А мы тут с ребятами как раз планируем кое-что грандиозное. Для нового казино уже приготовлены большие деньги, и мы знаем, где они хранятся. Смекаешь? Вот только система защиты у них мудреная, да и не только нас этот куш интересует… Если поможешь — доля твоя!",
+                "title": "Lev",
+                "description": "Hey, they say you're reliable and know how to keep quiet?.. Me and the guys are planning something grand. Big money has already been prepared for the new casino, and we know where it's being kept. You get the idea? The only problem is, their security system is complicated, and we're not the only ones interested in that score... Help us, and your cut is guaranteed!",
                 "speaker": {"type": "npc", "skin": 5500053},
                 "sound": "Event/lev_info-001.ogg",
                 "buttons": [
-                    {"name": "Начать игру", "color": "green"},
-                    {"name": "Правила",     "color": "grey" },
-                    {"name": "Закрыть",     "color": "red"  }
+                    {"name": "Start game", "color": "green"},
+                    {"name": "Rules",     "color": "grey" },
+                    {"name": "Close",     "color": "red"  }
                 ],
                 "is_last": true
             }
@@ -117,7 +117,7 @@
         "id"          : 5500102,
         "type"        : "npc",
         "coords"      : [-104.1, 849.89, 15.19, 235.0],
-        "name"        : "Мини-игра - {FFFF00}Гонка Колосс\n{FFFFFF}Подойдите для {FFFF00}взаимодействия",
+        "name"        : "Mini-game - {FFFF00}Colossus Race\n{FFFFFF}Approach to {FFFF00}interact",
         "useNameCords": "false",
         "cameraPos"   : {
             "StartPos"   : [-102.98, 845.9 , 16.0 ],
@@ -127,14 +127,14 @@
         "dialog"      : [
             {
                 "id": 1,
-                "title": "Доминик",
-                "description": "Йоу, это твоя тачка у входа? Тут намечается гонка для избранных. Элита, все дела. Записывайся, не пожалеешь — только самые высокие ставки, играем по-крупному!",
+                "title": "Dominik",
+                "description": "Yo, is that your ride at the entrance? There's a race coming up here for a select few. Elite stuff, you know. Sign up, you won't regret it — only the highest stakes, we're playing big!",
                 "speaker": {"type": "npc", "skin": 5500102},
                 "sound": "Event/dominik_info-001.ogg",
                 "buttons": [
-                    {"name": "Начать игру", "color": "green"},
-                    {"name": "Правила",     "color": "grey" },
-                    {"name": "Закрыть",     "color": "red"  }
+                    {"name": "Start game", "color": "green"},
+                    {"name": "Rules",     "color": "grey" },
+                    {"name": "Close",     "color": "red"  }
                 ],
                 "is_last": true
             }
@@ -145,7 +145,7 @@
         "id"          : 5500138,
         "type"        : "npc",
         "coords"      : [-88.09, 809.56, 15.27, 344.15],
-        "name"        : "Мини-игры - {FFFF00}Фишки в казино\n{FFFFFF}Подойдите для {FFFF00}взаимодействия",
+        "name"        : "Mini-games - {FFFF00}Chips at the Casino\n{FFFFFF}Approach to {FFFF00}interact",
         "useNameCords": "false",
         "cameraPos"   : {
             "StartPos"   : [-83.86, 809.83, 16.1 ],
@@ -155,26 +155,26 @@
         "dialog"      : [
             {
                 "id": 1,
-                "title": "Марианна",
-                "description": "Эй, притормози! У меня есть отличная новость для тебя. Знаешь же старое казино на краю города? Там сейчас раздают Фишки в честь открытия Кристалла! На халяву! Тебе нужно только выиграть в любой активности. Это очень щедро, так что поспеши!\n\n<font color='#ffff00'>Заработано Фишек в казино сегодня: %s.\nЛимит сбрасывается в 5:00 МСК ежедневно.\nДля подробной информации см. Правила",
+                "title": "Marianna",
+                "description": "Hey, slow down! I have great news for you. You know that old casino on the edge of town, right? They're giving away Chips there now in honor of the opening of Kristall! For free! You only need to win in any activity. That's very generous, so hurry!\n\n<font color='#ffff00'>Chips earned in the casino today: %s.\nThe limit resets daily at 5:00 MSK.\nFor detailed information, see the Rules",
                 "speaker": {"type": "npc", "skin": 5500138},
                 "sound": "Event/marianna_info-001.ogg",
                 "buttons": [
-                    {"name": "Правила",           "color": "grey" },
-                    {"name": "Отметить на карте", "color": "green"},
-                    {"name": "Закрыть",           "color": "red"  }
+                    {"name": "Rules",           "color": "grey" },
+                    {"name": "Mark on map", "color": "green"},
+                    {"name": "Close",           "color": "red"  }
                 ],
                 "is_last": true
             },
             {
                 "id": 2,
-                "title": "Марианна",
-                "description": "Ого, уже максимум фишек?! Красава! Кстати, они обнуляют счетчик каждый день — просто приходи завтра снова.\n\n<font color='#ffff00'>Заработано Фишек в казино сегодня: %s.\nЛимит сбрасывается в 5:00 МСК ежедневно.\nДля подробной информации см. Правила",
+                "title": "Marianna",
+                "description": "Wow, already at the maximum number of chips?! Nicely done! By the way, they reset the counter every day — just come back again tomorrow.\n\n<font color='#ffff00'>Chips earned in the casino today: %s.\nThe limit resets daily at 5:00 MSK.\nFor detailed information, see the Rules",
                 "speaker": {"type": "npc", "skin": 5500138},
                 "sound": "Event/marianna_info-002.ogg",
                 "buttons": [
-                    {"name": "Правила", "color": "grey"},
-                    {"name": "Закрыть", "color": "red" }
+                    {"name": "Rules", "color": "grey"},
+                    {"name": "Close", "color": "red" }
                 ],
                 "is_last": true
             }
@@ -185,7 +185,7 @@
         "id"          : 5500138,
         "type"        : "npc",
         "coords"      : [1327.86, 2367.61, 17.71, 201.22],
-        "name"        : "Мини-игры - {FFFF00}Фишки в казино\n{FFFFFF}Подойдите для {FFFF00}взаимодействия",
+        "name"        : "Mini-games - {FFFF00}Chips at the Casino\n{FFFFFF}Approach to {FFFF00}interact",
         "useNameCords": "false",
         "cameraPos"   : {
             "StartPos"   : [1323.55, 2364.87, 18.5 ],
@@ -195,31 +195,31 @@
         "dialog"      : [
             {
                 "id": 1,
-                "title": "Марианна",
-                "description": "Привет-привет! Рада тебя видеть! Ты же уже в курсе, что сейчас в казино вместе с обычным выигрышем можно получить еще и Фишки?! Поспеши, это временная акция в честь открытия Кристалла!\n\n<font color='#ffff00'>Заработано Фишек в казино сегодня: %s.\nЛимит сбрасывается в 5:00 МСК ежедневно.\nДля подробной информации см. Правила",
+                "title": "Marianna",
+                "description": "Hi there! Glad to see you! You already know that right now in the casino, along with regular winnings, you can also get Chips?! Hurry, this is a temporary promotion in honor of the opening of Kristall!\n\n<font color='#ffff00'>Chips earned in the casino today: %s.\nThe limit resets daily at 5:00 MSK.\nFor detailed information, see the Rules",
                 "speaker": {"type": "npc", "skin": 5500138},
                 "sound": "Event/marianna_info-003.ogg",
                 "buttons": [
-                    {"name": "Правила", "color": "grey"},
-                    {"name": "Закрыть", "color": "red" }
+                    {"name": "Rules", "color": "grey"},
+                    {"name": "Close", "color": "red" }
                 ],
                 "is_last": true
             },
             {
                 "id": 2,
-                "title": "Марианна",
-                "description": "Ого, уже максимум фишек?! Красава! Кстати, они обнуляют счетчик каждый день — просто приходи завтра снова.\n\n<font color='#ffff00'>Заработано Фишек в казино сегодня: %s.\nЛимит сбрасывается в 5:00 МСК ежедневно.\nДля подробной информации см. Правила",
+                "title": "Marianna",
+                "description": "Wow, already at the maximum number of chips?! Nicely done! By the way, they reset the counter every day — just come back again tomorrow.\n\n<font color='#ffff00'>Chips earned in the casino today: %s.\nThe limit resets daily at 5:00 MSK.\nFor detailed information, see the Rules",
                 "speaker": {"type": "npc", "skin": 5500138},
                 "sound": "Event/marianna_info-002.ogg",
                 "buttons": [
-                    {"name": "Правила", "color": "grey"},
-                    {"name": "Закрыть", "color": "red" }
+                    {"name": "Rules", "color": "grey"},
+                    {"name": "Close", "color": "red" }
                 ],
                 "is_last": true
             }
         ]
     },
-    "currencyText"   : {"currencyText1": "Большой куш", "currencyText2": "Фишки"},
+    "currencyText"   : {"currencyText1": "Big Score", "currencyText2": "Chips"},
     "Properties"     : [
         {
             "eventId": 7,
@@ -228,7 +228,7 @@
             "questOpenDate": 1767837600,
             "color": "#8D1212",
             "color2": "#8D1212",
-            "name": "Большой куш",
+            "name": "Big Score",
             "bgImage": "bg_event.png",
             "icMenuImage": "ic_menu_event.png",
             "icImage": "ic_event.png",
@@ -240,8 +240,8 @@
             "offerCost": 239,
             "offerValue": 1000,
             "eventCurrencyId": 23,
-            "eventCurrencyOfferName": "Фишек",
-            "eventMainObjectName": "Мастерство игры",
+            "eventCurrencyOfferName": "Chips",
+            "eventMainObjectName": "Gaming Mastery",
             "entryStartPos": [-1569.56, 1112.02, 1.78],
             "entryStartLookAt": [-1604.15, 1072.7, 1.45]
         }
@@ -249,26 +249,26 @@
     "Settings"       : [
         {
             "id"          : 1,
-            "name"        : "БОЛЬШОЙ КУШ",
+            "name"        : "BIG SCORE",
             "icImage"     : "ic_event.svg",
             "objectGrades": [0, 25, 49],
             "objectImages": ["img_event_grade_1.png", "img_event_grade_2.png", "img_event_grade_3.png"]
         },
         {
             "id"          : 2,
-            "name"        : "ЗАДАНИЯ",
+            "name"        : "TASKS",
             "icImage"     : "ic_checklist.svg",
             "objectImages": ["img_daily_tasks.png", "img_unique_tasks.png"]
         },
         {
             "id"          : 3,
-            "name"        : "РЕЙТИНГ",
+            "name"        : "RATING",
             "icImage"     : "ic_reward.svg",
             "objectImages": ["bg_rating_event.png"]
         },
         {
             "id"          : 4,
-            "name"        : "МИНИ ИГРЫ",
+            "name"        : "MINI GAMES",
             "icImage"     : "ic_game.svg",
             "objectImages": ["img_minigame_1.png", "img_minigame_2.png", "img_minigame_3.png"]
         }
@@ -297,8 +297,8 @@
     {
         "id": 3,
         "cost": 2000,
-        "name": "X10 ПЫЛЬ",
-        "description": "X10 ПЫЛЬ",
+        "name": "X10 DUST",
+        "description": "X10 DUST",
         "rarity": 1,
         "typeId": 21,
         "internalId": 0,
@@ -307,8 +307,8 @@
     {
         "id": 4,
         "cost": 2000,
-        "name": "10 000 Р",
-        "description": "10 000 Р",
+        "name": "10 000 R",
+        "description": "10 000 R",
         "rarity": 2,
         "typeId": 2,
         "internalId": 0,
@@ -317,8 +317,8 @@
     {
         "id": 5,
         "cost": 2000,
-        "name": "ЕЖЕДНЕВНЫЙ",
-        "description": "ЕЖЕДНЕВНЫЙ КЕЙС X1",
+        "name": "DAILY",
+        "description": "DAILY CASE X1",
         "rarity": 1,
         "typeId": 4,
         "internalId": 1,
@@ -337,8 +337,8 @@
     {
         "id": 7,
         "cost": 3000,
-        "name": "КЕЙС ГОНЩИКА",
-        "description": "КЕЙС С БИЛЕТАМИ ГОНЩИКА",
+        "name": "RACER CASE",
+        "description": "CASE WITH RACER TICKETS",
         "rarity": 3,
         "typeId": 4,
         "internalId": 26,
@@ -378,8 +378,8 @@
     {
         "id": 11,
         "cost": 5000,
-        "name": "X10 ПЫЛЬ",
-        "description": "X10 ПЫЛЬ",
+        "name": "X10 DUST",
+        "description": "X10 DUST",
         "rarity": 1,
         "typeId": 21,
         "internalId": 0,
@@ -388,8 +388,8 @@
     {
         "id": 12,
         "cost": 5000,
-        "name": "БОМЖА X1",
-        "description": "КЕЙС БОМЖА X1",
+        "name": "BUM X1",
+        "description": "BUM CASE X1",
         "rarity": 2,
         "typeId": 4,
         "internalId": 2,
@@ -418,8 +418,8 @@
     {
         "id": 15,
         "cost": 8000,
-        "name": "РЮКЗАК ТАМАГОЧИ",
-        "description": "РЮКЗАК ТАМАГОЧИ",
+        "name": "TAMAGOTCHI BACKPACK",
+        "description": "TAMAGOTCHI BACKPACK",
         "rarity": 4,
         "typeId": 11,
         "internalId": 1123,
@@ -430,8 +430,8 @@
     {
         "id": 16,
         "cost": 8000,
-        "name": "X15 ПЫЛЬ",
-        "description": "X15 ПЫЛЬ",
+        "name": "X15 DUST",
+        "description": "X15 DUST",
         "rarity": 1,
         "typeId": 21,
         "internalId": 0,
@@ -440,8 +440,8 @@
     {
         "id": 17,
         "cost": 8000,
-        "name": "15 000 Р",
-        "description": "15 000 Р",
+        "name": "15,000 R",
+        "description": "15,000 R",
         "rarity": 2,
         "typeId": 2,
         "internalId": 0,
@@ -470,8 +470,8 @@
     {
         "id": 20,
         "cost": 8000,
-        "name": "КЕЙС ГОНЩИКА",
-        "description": "КЕЙС С БИЛЕТАМИ ГОНЩИКА",
+        "name": "RACER CASE",
+        "description": "CASE WITH RACER TICKETS",
         "rarity": 3,
         "typeId": 4,
         "internalId": 26,
@@ -511,8 +511,8 @@
     {
         "id": 24,
         "cost": 8000,
-        "name": "X15 ПЫЛЬ",
-        "description": "X15 ПЫЛЬ",
+        "name": "X15 DUST",
+        "description": "X15 DUST",
         "rarity": 1,
         "typeId": 21,
         "internalId": 0,
@@ -531,8 +531,8 @@
     {
         "id": 26,
         "cost": 8000,
-        "name": "ЕЖЕДНЕВНЫЙ",
-        "description": "ЕЖЕДНЕВНЫЙ КЕЙС X1",
+        "name": "DAILY",
+        "description": "DAILY CASE X1",
         "rarity": 1,
         "typeId": 4,
         "internalId": 1,
@@ -561,8 +561,8 @@
     {
         "id": 29,
         "cost": 8000,
-        "name": "X20 ПЫЛЬ",
-        "description": "X20 ПЫЛЬ",
+        "name": "X20 DUST",
+        "description": "X20 DUST",
         "rarity": 1,
         "typeId": 21,
         "internalId": 0,
@@ -571,8 +571,8 @@
     {
         "id": 30,
         "cost": 10000,
-        "name": "ПЕСТРАЯ ХАЙРОЛЛЕРША",
-        "description": "ПЕСТРАЯ ХАЙРОЛЛЕРША",
+        "name": "MOTTLED HIGH ROLLER",
+        "description": "MOTTLED HIGH ROLLER",
         "rarity": 4,
         "typeId": 11,
         "internalId": 134,
@@ -583,8 +583,8 @@
     {
         "id": 31,
         "cost": 10000,
-        "name": "30 000 Р",
-        "description": "30 000 Р",
+        "name": "30,000 R",
+        "description": "30,000 R",
         "rarity": 2,
         "typeId": 2,
         "internalId": 0,
@@ -613,8 +613,8 @@
     {
         "id": 34,
         "cost": 10000,
-        "name": "X20 ПЫЛЬ",
-        "description": "X20 ПЫЛЬ",
+        "name": "X20 DUST",
+        "description": "X20 DUST",
         "rarity": 1,
         "typeId": 21,
         "internalId": 0,
@@ -623,8 +623,8 @@
     {
         "id": 35,
         "cost": 10000,
-        "name": "GOLD 48Ч",
-        "description": "VIP GOLD НА 48Ч",
+        "name": "GOLD 48H",
+        "description": "VIP GOLD FOR 48H",
         "rarity": 2,
         "typeId": 9,
         "internalId": 2,
@@ -633,8 +633,8 @@
     {
         "id": 36,
         "cost": 10000,
-        "name": "ЕЖЕДНЕВНЫЙ",
-        "description": "ЕЖЕДНЕВНЫЙ КЕЙС X1",
+        "name": "DAILY",
+        "description": "DAILY CASE X1",
         "rarity": 1,
         "typeId": 4,
         "internalId": 1,
@@ -653,8 +653,8 @@
     {
         "id": 38,
         "cost": 10000,
-        "name": "100 000 Р",
-        "description": "100 000 Р",
+        "name": "100 000 R",
+        "description": "100 000 R",
         "rarity": 3,
         "typeId": 2,
         "internalId": 0,
@@ -663,8 +663,8 @@
     {
         "id": 39,
         "cost": 10000,
-        "name": "ЕЖЕДНЕВНЫЙ",
-        "description": "ЕЖЕДНЕВНЫЙ КЕЙС X1",
+        "name": "DAILY",
+        "description": "DAILY CASE X1",
         "rarity": 1,
         "typeId": 4,
         "internalId": 1,
@@ -673,8 +673,8 @@
     {
         "id": 40,
         "cost": 10000,
-        "name": "БОМЖА X1",
-        "description": "КЕЙС БОМЖА X1",
+        "name": "BUM X1",
+        "description": "BUM CASE X1",
         "rarity": 2,
         "typeId": 4,
         "internalId": 2,
@@ -683,8 +683,8 @@
     {
         "id": 41,
         "cost": 10000,
-        "name": "50 000 Р",
-        "description": "50 000 Р",
+        "name": "50,000 R",
+        "description": "50,000 R",
         "rarity": 2,
         "typeId": 2,
         "internalId": 0,
@@ -713,8 +713,8 @@
     {
         "id": 44,
         "cost": 12000,
-        "name": "X20 ПЫЛЬ",
-        "description": "X20 ПЫЛЬ",
+        "name": "X20 DUST",
+        "description": "X20 DUST",
         "rarity": 1,
         "typeId": 21,
         "internalId": 0,
@@ -733,8 +733,8 @@
     {
         "id": 46,
         "cost": 14000,
-        "name": "200 000 Р",
-        "description": "200 000 Р",
+        "name": "200,000 R",
+        "description": "200,000 R",
         "rarity": 3,
         "typeId": 2,
         "internalId": 0,
@@ -743,8 +743,8 @@
     {
         "id": 47,
         "cost": 14000,
-        "name": "АВТОКЕЙС 2.0",
-        "description": "АВТОКЕЙС 2.0",
+        "name": "AUTOCASE 2.0",
+        "description": "AUTOCASE 2.0",
         "rarity": 4,
         "typeId": 4,
         "internalId": 4,
@@ -754,8 +754,8 @@
     {
         "id": 48,
         "cost": 14000,
-        "name": "A-S CLASS 24Ч",
-        "description": "КЕЙС A-S CLASS 24Ч",
+        "name": "A-S CLASS 24H",
+        "description": "A-S CLASS CASE 24H",
         "rarity": 2,
         "typeId": 4,
         "internalId": 28,
@@ -779,8 +779,8 @@
     {
         "id": 50,
         "cost": 4900,
-        "name": "КЕЙС ГОНЩИКА",
-        "description": "КЕЙС С БИЛЕТАМИ ГОНЩИКА",
+        "name": "RACER CASE",
+        "description": "CASE WITH RACER TICKETS",
         "rarity": 3,
         "typeId": 4,
         "internalId": 26,
@@ -926,9 +926,9 @@
         {
             "id": 1,
             "typeId": 1,
-            "typeName": "Особое",
-            "description": "Прокачайте BlackPass до 10 уровня",
-            "requirementDescription": "Прокачено:",
+            "typeName": "Special",
+            "description": "Level up BlackPass to level 10",
+            "requirementDescription": "Upgraded:",
             "count": 10,
             "award": 5000,
             "typeBtn": 3
@@ -936,9 +936,9 @@
         {
             "id": 2,
             "typeId": 1,
-            "typeName": "Особое",
-            "description": "Купите BlackPass",
-            "requirementDescription": "Куплено:",
+            "typeName": "Special",
+            "description": "Buy BlackPass",
+            "requirementDescription": "Purchased:",
             "count": 1,
             "award": 10000,
             "typeBtn": 3
@@ -946,9 +946,9 @@
         {
             "id": 3,
             "typeId": 1,
-            "typeName": "Особое",
-            "description": "Откройте 10 кейсов события",
-            "requirementDescription": "Открыто:",
+            "typeName": "Special",
+            "description": "Open 10 event cases",
+            "requirementDescription": "Open:",
             "count": 10,
             "award": 10000,
             "typeBtn": 4
@@ -956,9 +956,9 @@
         {
             "id": 4,
             "typeId": 1,
-            "typeName": "Особое",
-            "description": "Сыграйте в мини игры события 20 раз",
-            "requirementDescription": "Сыграно:",
+            "typeName": "Special",
+            "description": "Play event mini-games 20 times",
+            "requirementDescription": "Played:",
             "count": 20,
             "award": 5000,
             "typeBtn": 5
@@ -966,9 +966,9 @@
         {
             "id": 5,
             "typeId": 1,
-            "typeName": "Особое",
-            "description": "Заработайте 50 000 Фишек",
-            "requirementDescription": "Заработано:",
+            "typeName": "Special",
+            "description": "Earn 50,000 Chips",
+            "requirementDescription": "Earned:",
             "count": 50000,
             "award": 5000,
             "typeBtn": 5
@@ -976,9 +976,9 @@
         {
             "id": 6,
             "typeId": 1,
-            "typeName": "Особое",
-            "description": "Потратьте 10 000 BC",
-            "requirementDescription": "Потрачено:",
+            "typeName": "Special",
+            "description": "Spend 10 000 BC",
+            "requirementDescription": "Spent:",
             "count": 10000,
             "award": 10000,
             "typeBtn": 2
@@ -986,9 +986,9 @@
         {
             "id": 7,
             "typeId": 2,
-            "typeName": "Ежедневное",
-            "description": "Сыграйте в любую мини игру события 1 раз",
-            "requirementDescription": "Сыграно:",
+            "typeName": "Daily",
+            "description": "Play any event mini-game 1 time",
+            "requirementDescription": "Played:",
             "count": 1,
             "award": 500,
             "typeBtn": 5
@@ -996,9 +996,9 @@
         {
             "id": 8,
             "typeId": 2,
-            "typeName": "Ежедневное",
-            "description": "Победите в мини игре Великое ограбление 1 раз",
-            "requirementDescription": "Выполнено:",
+            "typeName": "Daily",
+            "description": "Win the Great Heist minigame 1 time",
+            "requirementDescription": "Completed:",
             "count": 1,
             "award": 500,
             "typeBtn": 5
@@ -1006,9 +1006,9 @@
         {
             "id": 9,
             "typeId": 2,
-            "typeName": "Ежедневное",
-            "description": "Победите в мини игре Гонка Колосс 1 раз",
-            "requirementDescription": "Собрано:",
+            "typeName": "Daily",
+            "description": "Win the Colossus Race minigame 1 time",
+            "requirementDescription": "Collected:",
             "count": 1,
             "award": 1000,
             "typeBtn": 5
@@ -1016,21 +1016,21 @@
         {
             "id": 10,
             "typeId": 2,
-            "typeName": "Ежедневное",
-            "description": "Прокачайте 1 уровень BLACK PASS",
-            "requirementDescription": "Прокачено:",
+            "typeName": "Daily",
+            "description": "Level up BLACK PASS by 1 level",
+            "requirementDescription": "Upgraded:",
             "count": 1,
             "award": 1000,
             "typeBtn": 3
         }
     ],
     "MiniGames"      : [
-        {"id": 14, "playable": 1, "name": "Гонка Колосс", "imageName": "img_minigame_1.png"},
-        {"id": 13, "playable": 1, "name": "Великое ограбление", "imageName": "img_minigame_2.png"},
+        {"id": 14, "playable": 1, "name": "Colossus Race", "imageName": "img_minigame_1.png"},
+        {"id": 13, "playable": 1, "name": "The Great Heist", "imageName": "img_minigame_2.png"},
         {
             "id"       : 15,
             "playable" : 2,
-            "name"     : "Больше фишек",
+            "name"     : "More Chips",
             "routeId"  : [1333.54, 2372.6, 17.6642],
             "imageName": "img_minigame_3.png"
         }
@@ -1038,33 +1038,33 @@
     "Tutorial"       : [
         {
             "id": 1,
-            "header": "<font color=\"#FFC700\">Мастерство игры</font>",
+            "header": "<font color=\"#FFC700\">Gaming Mastery</font>",
             "imageName": "img_event_tutorial_1.png",
-            "description": "<font color=\"#FFC700\">Мастерство игры</font> будет расти по мере того, как вы выполняете задания, участвуете в мини играх события и зарабатываете <font color=\"#FFC700\">Фишки</font>. За каждый уровень Вы получите ценную награду.<br> <font color=\"#E2310C\">Важно:</font> заработать <font color=\"#FFC700\">Фишки</font> можно только играя во время события<font color=\"#FFC700\"> Большой Куш</font>."
+            "description": "<font color=\"#FFC700\">Gaming Mastery</font> will increase as you complete tasks, take part in the event's mini-games, and earn <font color=\"#FFC700\">Chips</font>. For each level, you will receive a valuable reward.<br> <font color=\"#E2310C\">Important:</font> you can earn <font color=\"#FFC700\">Chips</font> only by playing during the <font color=\"#FFC700\">Big Score</font> event."
         },
         {
             "id": 2,
-            "header": "<font color=\"#FFC700\">Рейтинг</font>",
+            "header": "<font color=\"#FFC700\">Rating</font>",
             "imageName": "img_event_tutorial_2.png",
-            "description": "Зарабатывайте <font color=\"#FFC700\">Фишки</font>, чтобы получать очки рейтинга. Чем выше Ваше положение в таблице рейтинга, тем ценнее награды Вы можете получить.<br> <font color=\"#E2310C\">Важно:</font> все награды рейтинга  <font color=\"#FFC700\">уникальные</font>, и выдаются в конце события."
+            "description": "Earn <font color=\"#FFC700\">Chips</font> to gain rating points. The higher your position on the leaderboard, the more valuable the rewards you can receive.<br> <font color=\"#E2310C\">Important:</font> all leaderboard rewards are <font color=\"#FFC700\">unique</font> and are granted at the end of the event."
         },
         {
             "id": 3,
-            "header": "<font color=\"#FFC700\">Задания</font>",
+            "header": "<font color=\"#FFC700\">Tasks</font>",
             "imageName": "img_event_tutorial_3.png",
-            "description": "Выполняйте <font color=\"#FFC700\">Ежедневные</font> и <font color=\"#FFC700\">Особые</font> задания и получайте <font color=\"#FFC700\">Фишки</font> для прогресса <font color=\"#FFC700\">Удачи игрока</font>.<br> <font color=\"#E2310C\">Важно:</font> <font color=\"#FFC700\">Ежедневные</font> задания обновляются каждый день. <font color=\"#FFC700\">Особые</font> задания выполняются один раз за все событие. Благодаря ним вы можете заработать сразу большое количество <font color=\"#FFC700\">Фишек</font>."
+            "description": "Complete <font color=\"#FFC700\">Daily</font> and <font color=\"#FFC700\">Special</font> tasks and receive <font color=\"#FFC700\">Chips</font> for progressing <font color=\"#FFC700\">Player Luck</font>.<br> <font color=\"#E2310C\">Important:</font> <font color=\"#FFC700\">Daily</font> tasks refresh every day. <font color=\"#FFC700\">Special</font> tasks are completed once for the entire event. Thanks to them, you can earn a large number of <font color=\"#FFC700\">Chips</font> at once."
         },
         {
             "id": 4,
-            "header": "<font color=\"#FFC700\">Мини игры</font>",
+            "header": "<font color=\"#FFC700\">Mini-games</font>",
             "imageName": "img_event_tutorial_4.png",
-            "description": "Мини игры — это особые активности, доступные <font color=\"#FFC700\">только во время события</font>. Играя в них, вы зарабатываете <font color=\"#FFC700\">Фишки</font>.<br> Дневной лимит <font color=\"#FFC700\">Фишек</font> с мини игр можно увеличить, чтобы зарабатывать больше <font color=\"#FFC700\">Фишек</font>. <br><br><font color=\"#E2310C\">Важно:</font> благодаря <font color=\"#FFC700\">BLACK PASS Premium</font> вы сможете сильно увеличить свой лимит <font color=\"#FFC700\">Фишек</font>,<br> и быстрее получить <font color=\"#FFC700\">уникальные призы</font>."
+            "description": "Mini-games are special activities available <font color=\"#FFC700\">only during the event</font>. By playing them, you earn <font color=\"#FFC700\">Chips</font>.<br> The daily limit of <font color=\"#FFC700\">Chips</font> from mini-games can be increased to earn more <font color=\"#FFC700\">Chips</font>. <br><br><font color=\"#E2310C\">Important:</font> thanks to <font color=\"#FFC700\">BLACK PASS Premium</font>, you can greatly increase your <font color=\"#FFC700\">Chips</font> limit,<br> and get <font color=\"#FFC700\">unique prizes</font> faster."
         },
         {
             "id": 5,
-            "header": "<font color=\"#FFC700\">Кейсы</font>",
+            "header": "<font color=\"#FFC700\">Cases</font>",
             "imageName": "img_event_tutorial_5.png",
-            "description": "Открывайте <font color=\"#FFC700\">Кейсы события</font>!<br>Помимо уникальных наград, вы можете получить еще больше <font color=\"#FFC700\">Фишек</font> для прогресса <font color=\"#FFC700\">Мастерства игры</font>."
+            "description": "Open <font color=\"#FFC700\">Event Cases</font>!<br>In addition to unique rewards, you can get even more <font color=\"#FFC700\">Chips</font> to progress your <font color=\"#FFC700\">Gaming Mastery</font>."
         }
     ]
 }

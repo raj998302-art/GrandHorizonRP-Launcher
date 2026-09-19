@@ -2,47 +2,47 @@
     "mapping": [
             {
                     "fractionId": 0,
-                    "_descr": "Личный",
+                    "_descr": "Personal",
                     "categories": [1, 2, 30, 32, 5, 6, 9, 10, 11, 3, 12, 13, 14, 15, 31, 4, 19, 17]
                 },
         {
                     "fractionId": 1,
-                    "_descr": "Правительство",
+                    "_descr": "Government",
                     "categories": [20, 21, 22, 23, 24, 25, 26, 27, 28]
                 },
         {
                     "fractionId": 2,
-                    "_descr": "Армия",
+                    "_descr": "Army",
                     "categories": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
                 },
         {
                     "fractionId": 3,
-                    "_descr": "Больница",
+                    "_descr": "Hospital",
                     "categories": [20, 21, 22, 23, 24, 25, 26, 27, 28]
                 },
         {
                     "fractionId": 4,
-                    "_descr": "СМИ",
+                    "_descr": "Media",
                     "categories": [20, 21, 22, 23, 24, 25, 26, 27, 28]
                 },
                 {
                     "fractionId": 5,
-                    "_descr": "ГИБДД",
+                    "_descr": "Traffic Police",
                     "categories": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
                 },
                 {
                     "fractionId": 6,
-                    "_descr": "УМВД",
+                    "_descr": "City Police",
                     "categories": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
                 },
                 {
                     "fractionId": 7,
-                    "_descr": "ФСБ",
+                    "_descr": "FBI",
                     "categories": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
                 },
                 {
                     "fractionId": 11,
-                    "_descr": "ФСИН",
+                    "_descr": "Penitentiary Service",
                     "categories": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
                 }
     ]
