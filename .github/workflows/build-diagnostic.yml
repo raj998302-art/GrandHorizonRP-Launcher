@@ -1,0 +1,134 @@
+name: Build Diagnostic APKs
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Sign, Verify & Release Diagnostic APKs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Download unsigned baselines from diagnostics release
+        run: |
+          curl -sL --retry 3 -o diag-unsigned.apk \
+            "https://github.com/raj998302-art/GrandHorizonRP-Launcher/releases/download/diagnostics/diag-unsigned.apk"
+          EXPECTED1=118567087
+          ACTUAL1=$(stat -c%s diag-unsigned.apk)
+          echo "diag baseline size: $ACTUAL1 (expected $EXPECTED1)"
+          test "$ACTUAL1" -eq "$EXPECTED1"
+
+          curl -sL --retry 3 -o test2-unsigned.apk \
+            "https://github.com/raj998302-art/GrandHorizonRP-Launcher/releases/download/diagnostics/test2-unsigned.apk"
+          EXPECTED2=160797834
+          ACTUAL2=$(stat -c%s test2-unsigned.apk)
+          echo "test2 baseline size: $ACTUAL2 (expected $EXPECTED2)"
+          test "$ACTUAL2" -eq "$EXPECTED2"
+
+      - name: ZipAlign + Sign diagnostic APK with release keystore
+        run: |
+          java -jar tools/uber-apk-signer.jar \
+            -a diag-unsigned.apk \
+            --ks keystore/ghrp-release.keystore \
+            --ksAlias ghrp \
+            --ksPass GrandHorizon2026 \
+            --ksKeyPass GrandHorizon2026 \
+            -o out
+          mv out/diag-aligned-signed.apk GrandHorizonRP-Diagnostic.apk
+          sha256sum GrandHorizonRP-Diagnostic.apk
+
+      - name: ZipAlign + Sign TEST-2 (original re-signed) APK
+        run: |
+          java -jar tools/uber-apk-signer.jar \
+            -a test2-unsigned.apk \
+            --ks keystore/ghrp-release.keystore \
+            --ksAlias ghrp \
+            --ksPass GrandHorizon2026 \
+            --ksKeyPass GrandHorizon2026 \
+            -o out
+          mv out/test2-aligned-signed.apk GHRP-Test2-OriginalResigned.apk
+          sha256sum GHRP-Test2-OriginalResigned.apk
+
+      - name: Verify signatures and zipalign (both APKs)
+        run: |
+          java -jar tools/uber-apk-signer.jar -a GrandHorizonRP-Diagnostic.apk -y | tee verify1.log
+          grep -q "signature verified" verify1.log
+          grep -q "zipalign verified" verify1.log
+          java -jar tools/uber-apk-signer.jar -a GHRP-Test2-OriginalResigned.apk -y | tee verify2.log
+          grep -q "signature verified" verify2.log
+          grep -q "zipalign verified" verify2.log
+
+      - name: Static verification (diagnostic APK)
+        run: |
+          python3 tools/verify_diag.py GrandHorizonRP-Diagnostic.apk
+
+      - name: Static verification (TEST-2 APK: original bytes + GHRP signature)
+        run: |
+          python3 - <<'PYEOF'
+          import zipfile, struct, hashlib, sys
+          z = zipfile.ZipFile("GHRP-Test2-OriginalResigned.apk")
+          names = z.namelist()
+          assert "classes8.dex" not in names, "TEST-2 must not carry extra dex"
+          dex = [n for n in names if n.endswith(".dex")]
+          assert len(dex) == 7, f"expected 7 dex, got {len(dex)}"
+          libs = [n for n in names if n.startswith("lib/") and n.endswith(".so")]
+          assert len(libs) == 26, f"expected 26 libs, got {len(libs)}"
+          abis = sorted(set(n.split("/")[1] for n in libs))
+          assert abis == ["arm64-v8a", "armeabi-v7a"], abis
+          arsc = z.getinfo("resources.arsc")
+          assert arsc.compress_type == zipfile.ZIP_STORED
+          m = z.read("AndroidManifest.xml")
+          assert b"com.launcher.brgame" in m.replace(b"\x00", b""), "package must stay original"
+          assert b"requiredSplitTypes" not in m.replace(b"\x00", b"")
+          print("TEST2 STATIC CHECKS PASSED: 7 original dex, 26 libs, original package, no requiredSplitTypes, arsc stored")
+          PYEOF
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: GrandHorizonRP-Diagnostics
+          path: |
+            GrandHorizonRP-Diagnostic.apk
+            GHRP-Test2-OriginalResigned.apk
+
+      - name: Publish to diagnostics release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: diagnostics
+          name: Grand Horizon RP - Startup Crash Diagnosis Kit
+          body: |
+            Diagnostic kit for the startup crash (black screen 1-2s, then
+            process death before any Java marker). Built after a full
+            binary-level original-vs-repack audit
+            (ORIGINAL_VS_GHRP_RUNTIME_DIFF.md).
+
+            - GrandHorizonRP-Diagnostic.apk - diagnostic screen build
+              (package com.grandhorizonrp.launcher, targetSdk 36 fixed,
+              earliest-stage boot markers, per-subsystem test buttons,
+              report export to Downloads). Uninstall the old launcher first.
+            - GHRP-Test2-OriginalResigned.apk - SIGNATURE EXPERIMENT:
+              100% original code/resources (com.launcher.brgame Play variant,
+              DEX + resources.arsc byte-identical, original 26 native libs),
+              re-signed with the GHRP keystore. Different package so it
+              installs alongside. Test instrument only - NOT the launcher.
+            - diag-unsigned.apk / test2-unsigned.apk - CI baselines
+            - ORIGINAL_VS_GHRP_RUNTIME_DIFF.md - full audit report
+            - DIAGNOSTIC-INSTRUCTIONS.md - what to test and how to report
+          files: |
+            GrandHorizonRP-Diagnostic.apk
+            GHRP-Test2-OriginalResigned.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
