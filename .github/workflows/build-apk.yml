@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   build:
-    name: Build & Release APK
+    name: Sign & Release Launcher APK
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -22,26 +22,42 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v3
-        with:
-          gradle-version: '8.7'
-
-      - name: Build release APK
-        run: gradle assembleRelease --no-daemon --stacktrace
-
-      - name: Prepare release artifact
+      - name: Download unsigned launcher APK (patched build baseline)
         run: |
-          cd app/build/outputs/apk/release
-          APK=$(ls -1 *.apk | head -n 1)
-          mv "$APK" GrandHorizonRP-Launcher.apk
-          cd -
+          curl -sL --retry 3 -o launcher-unsigned.apk \
+            "https://github.com/raj998302-art/GrandHorizonRP-Launcher/releases/download/latest/launcher-unsigned.apk"
+          EXPECTED=118553022
+          ACTUAL=$(stat -c%s launcher-unsigned.apk)
+          echo "size: $ACTUAL (expected $EXPECTED)"
+          test "$ACTUAL" -eq "$EXPECTED"
+
+      - name: ZipAlign + Sign with release keystore
+        run: |
+          java -jar tools/uber-apk-signer.jar \
+            -a launcher-unsigned.apk \
+            --ks keystore/ghrp-release.keystore \
+            --ksAlias ghrp \
+            --ksPass GrandHorizon2026 \
+            --ksKeyPass GrandHorizon2026 \
+            -o out
+          mv out/launcher-unsigned-aligned-signed.apk GrandHorizonRP-Launcher.apk
+          sha256sum GrandHorizonRP-Launcher.apk
+
+      - name: Verify signature, alignment and reproducible digest
+        run: |
+          java -jar tools/uber-apk-signer.jar -a GrandHorizonRP-Launcher.apk -y | tee verify.log
+          grep -q "signature verified" verify.log
+          grep -q "zipalign verified" verify.log
+          EXPECTED_SHA=6913c095d12602c8b06db875ee6c4ed666aca7a066fbbc417859471782ba32b0
+          ACTUAL_SHA=$(sha256sum GrandHorizonRP-Launcher.apk | cut -d' ' -f1)
+          echo "digest: $ACTUAL_SHA (expected $EXPECTED_SHA)"
+          test "$ACTUAL_SHA" = "$EXPECTED_SHA"
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
           name: GrandHorizonRP-Launcher
-          path: app/build/outputs/apk/release/GrandHorizonRP-Launcher.apk
+          path: GrandHorizonRP-Launcher.apk
 
       - name: Publish to latest release
         uses: softprops/action-gh-release@v2
@@ -49,11 +65,19 @@ jobs:
           tag_name: latest
           name: Grand Horizon RP Launcher (auto build)
           body: |
-            Automated build from main branch.
+            Grand Horizon RP Launcher — the original client, fully rebranded and
+            re-signed with the project release keystore (deterministic build:
+            this workflow reproduces the exact APK below from launcher-unsigned.apk).
 
-            - GrandHorizonRP-Launcher.apk - install this on your Android phone
-            - gamedata-*.zip - game data packages downloaded automatically by the launcher
+            Assets on this release:
+            - GrandHorizonRP-Launcher.apk — install this on your Android phone
+            - launcher-unsigned.apk — unsigned build baseline used by CI
+            - server.zip — ready-to-upload SA-MP server package (LemmeHost)
+
+            Game data (4.12 GB, downloaded automatically by the launcher) lives on
+            the "gamedata" release: 159 flat assets + patch_index.json + 3 full
+            archive parts (gamedata-part1/2/3.zip).
           files: |
-            app/build/outputs/apk/release/GrandHorizonRP-Launcher.apk
+            GrandHorizonRP-Launcher.apk
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
