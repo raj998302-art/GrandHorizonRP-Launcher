@@ -1,1 +1,11 @@
-{"isShowSimButton":false,"isShowTanpinButton":false,"marketVersionForP1":999999,"rustoreVersionForP1":999999,"siteVersionForP1":999999}
+{
+  "version_ios": 1068,
+  "version_android": 1529,
+  "version_android_rustore": 1529,
+  "released_version_android": 1529,
+  "isShowSimButton": false,
+  "isShowTanpinButton": false,
+  "marketVersionForP1": 1529,
+  "rustoreVersionForP1": 1529,
+  "siteVersionForP1": 1529
+}
