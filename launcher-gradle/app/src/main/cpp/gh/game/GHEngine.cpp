@@ -42,7 +42,8 @@ void Engine::setDataRoot(const std::string& root) {
     AssetLibrary::get().setDataRoot(root);
     int n = AssetLibrary::get().scanCharacterAssets();
     GHLOG("Engine: data root set, %d skins", n);
-    if (javaCb_) javaCb_("onAssetsScanned", std::to_string(n).c_str());
+    // Rich scan report (archive presence/sizes) for device-side evidence.
+    if (javaCb_) javaCb_("onAssetsScanned", AssetLibrary::get().lastScanReport().c_str());
     skinDirty_ = true;
     // Surface may already be live — rescan feeds the live preview.
     if (renderer_.isRunning() && n > 0 && skinIndex_ >= n) {

@@ -27,6 +27,10 @@ public:
     // Scan known archives; returns skin count.
     int scanCharacterAssets();
 
+    // JSON report of the last scan (skins count, archive presence/sizes) —
+    // surfaced through onAssetsScanned for device-side evidence.
+    const std::string& lastScanReport() const;
+
     const std::vector<SkinEntry>& skins() const { return skins_; }
     bool astcSupported() const { return astcSupported_; }
     void setAstcSupported(bool v) { astcSupported_ = v; }
@@ -48,6 +52,7 @@ public:
 private:
     AssetLibrary() = default;
     std::string root_;
+    std::string lastScanReport_;
     std::vector<SkinEntry> skins_;
     bool astcSupported_ = true;
     std::mutex mtx_;

@@ -189,16 +189,20 @@ public final class MainActivity extends Activity implements GHNative.Callback {
                 GHRPLog.i("engine event: " + method + " " + json);
                 if ("onSceneReady".equals(method)) {
                     diag("mesh: " + json);
+                    Diagnostics.record("scene_ready", json);
                 } else if ("onLoadError".equals(method)) {
                     diag("ERROR: " + json);
+                    Diagnostics.record("load_error", json);
                     if (mCharacterPanel != null) {
                         TextView err = mCharacterPanel.findViewById(0x2001);
                         if (err != null) err.setText("Engine: " + json);
                     }
                 } else if ("onAssetsScanned".equals(method)) {
                     diag("skins scanned: " + json);
+                    Diagnostics.record("assets_scanned", json);
                 } else if ("onEngineInfo".equals(method)) {
                     diag(json);
+                    Diagnostics.record("engine_info", json);
                 }
             }
         });

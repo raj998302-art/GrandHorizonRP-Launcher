@@ -30,12 +30,19 @@ int AssetLibrary::scanCharacterAssets() {
     skins_.clear();
     meshArchives_.clear();
     charTexArchive_.reset();
-    if (root_.empty()) return 0;
+    lastScanReport_ = "{}";
+    if (root_.empty()) {
+        lastScanReport_ = "{\"error\":\"empty root\"}";
+        return 0;
+    }
 
     // Character meshes: files.mesh.br_skins_01.bpc (observed container name).
     auto meshArc = std::make_unique<BpcArchive>();
     std::string meshPath = root_ + "/mesh/br_skins_01.bpc";
-    if (meshArc->open(meshPath)) {
+    bool meshOpened = meshArc->open(meshPath);
+    long meshSize = 0;
+    { struct stat st; if (::stat(meshPath.c_str(), &st) == 0) meshSize = (long)st.st_size; }
+    if (meshOpened) {
         for (auto& e : meshArc->entries()) {
             if (e.name.size() > 4 && e.name.compare(e.name.size() - 4, 4, ".mod") == 0 &&
                 e.name.find('/') == std::string::npos) {
@@ -53,7 +60,11 @@ int AssetLibrary::scanCharacterAssets() {
 
     // Character textures: files.textures.Characters.astc.bpc
     auto texArc = std::make_unique<BpcArchive>();
-    if (texArc->open(root_ + "/textures/Characters.astc.bpc")) {
+    std::string texPath = root_ + "/textures/Characters.astc.bpc";
+    bool texOpened = texArc->open(texPath);
+    long texSize = 0;
+    { struct stat st; if (::stat(texPath.c_str(), &st) == 0) texSize = (long)st.st_size; }
+    if (texOpened) {
         charTexArchive_ = std::move(texArc);
     } else {
         GHLOG("AssetLibrary: texture archive absent");
@@ -70,7 +81,23 @@ int AssetLibrary::scanCharacterAssets() {
     }
 
     GHLOG("AssetLibrary: %zu character skins", skins_.size());
+
+    // Rich scan report surfaced through onAssetsScanned (device evidence).
+    {
+        char buf[320];
+        std::snprintf(buf, sizeof(buf),
+                      "{\"skins\":%zu,\"mesh\":{\"ok\":%s,\"bytes\":%ld,\"entries\":%zu},"
+                      "\"tex\":{\"ok\":%s,\"bytes\":%ld},\"root\":\"%.120s\"}",
+                      skins_.size(), meshOpened ? "true" : "false", meshSize,
+                      meshArchives_.empty() ? 0 : meshArchives_.back()->entries().size(),
+                      texOpened ? "true" : "false", texSize, root_.c_str());
+        lastScanReport_ = buf;
+    }
     return (int)skins_.size();
+}
+
+const std::string& AssetLibrary::lastScanReport() const {
+    return lastScanReport_;
 }
 
 bool AssetLibrary::loadSkinMesh(int skinIndex, ModMeshData& out) {
