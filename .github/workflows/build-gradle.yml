@@ -1,11 +1,11 @@
-name: Build Grand Horizon RP Launcher (Gradle)
+name: Build Grand Horizon RP Launcher (Gradle + GHEngine)
 
 on:
   workflow_dispatch:
   push:
     paths:
       - 'launcher-gradle/**'
-      - 'tools/verify_contract.py'
+      - 'tools/**'
       - '.github/workflows/build-gradle.yml'
 
 permissions:
@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   build:
-    name: Gradle assembleRelease + verify + release
+    name: Engine (NDK) + Gradle assembleRelease + verify + release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -25,24 +25,30 @@ jobs:
           distribution: temurin
           java-version: '21'
 
-      - name: Accept Android SDK licenses (AGP auto-provisions components)
-        run: yes | sdkmanager --licenses > /dev/null || true
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
 
-      - name: Fetch engine native libraries (binary dependency)
+      - name: Install NDK r27c
         run: |
-          curl -sL --retry 3 -o /tmp/v6.apk \
-            "https://github.com/${{ github.repository }}/releases/download/latest/GrandHorizonRP-Launcher-v6-Scratch.apk"
-          mkdir -p launcher-gradle/app/src/main/jniLibs
-          cd launcher-gradle/app/src/main/jniLibs
-          unzip -o -q /tmp/v6.apk 'lib/*'
-          mv lib/* . && rmdir lib
-          echo "arm64 libs: $(ls arm64-v8a | wc -l) | armv7 libs: $(ls armeabi-v7a | wc -l)"
+          yes | sdkmanager --licenses > /dev/null || true
+          sdkmanager "ndk;27.2.12479018" > /dev/null
+          echo "ANDROID_NDK_HOME=$ANDROID_HOME/ndk/27.2.12479018" >> "$GITHUB_ENV"
+
+      - name: Build GHEngine native library (own C++ sources only)
+        run: |
+          NDK_ROOT="$ANDROID_NDK_HOME" tools/build-engine.sh
+          echo "engine libs:"
+          ls -la launcher-gradle/app/src/main/jniLibs/*/libghengine.so
+
+      - name: Host-side engine verification (real game-data samples)
+        run: |
+          bash tools/verify-engine-host.sh
 
       - name: Build APK (real Gradle + AGP pipeline)
         working-directory: launcher-gradle
         run: ./gradlew assembleRelease --no-daemon --stacktrace
 
-      - name: Verify APK (badging + signature + zipalign + engine contract)
+      - name: Verify APK (badging + signature + provenance)
         run: |
           APK=launcher-gradle/app/build/outputs/apk/release/app-release.apk
           BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
@@ -52,47 +58,22 @@ jobs:
           "$BT/apksigner" verify --print-certs "$APK" | head -4
           "$BT/apksigner" verify -v "$APK" | head -4
           "$BT/zipalign" -c 4 "$APK" && echo "zipalign OK"
-          echo "--- engine contract (60/60 JNI symbols + callback surface) ---"
-          GHRP_APK="$PWD/$APK" \
-          GHRP_LIBS="$PWD/launcher-gradle/app/src/main/jniLibs/arm64-v8a" \
-          GHRP_DEXDUMP="$BT/dexdump" \
-          python3 tools/verify_contract.py
+          echo "--- native lib provenance (must be ONLY libghengine.so) ---"
+          unzip -l "$APK" | grep "lib/" || true
+          BAD=$(unzip -l "$APK" | grep "lib/" | grep -vc "libghengine.so" || true)
+          if [ "$BAD" != "0" ]; then echo "FATAL: unexpected native libs present"; exit 1; fi
+          echo "--- dex provenance (must be ONLY com/grandhorizonrp) ---"
+          BADDEX=$("$BT/dexdump" "$APK" | grep "Class descriptor" | grep -vc "com/grandhorizonrp" || true)
+          if [ "$BADDEX" != "0" ]; then echo "FATAL: foreign classes in dex"; exit 1; fi
+          echo "PROVENANCE OK: from-scratch engine + from-scratch Java only"
 
-      - name: Rename + digest
-        run: |
-          cp launcher-gradle/app/build/outputs/apk/release/app-release.apk GrandHorizonRP-Launcher-v7-Gradle.apk
-          sha256sum GrandHorizonRP-Launcher-v7-Gradle.apk
-
-      - name: Upload build artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: ghrp-launcher-v7-gradle
-          path: GrandHorizonRP-Launcher-v7-Gradle.apk
-
-      - name: Publish to latest release
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: latest
-          name: Grand Horizon RP Launcher (auto build)
-          body: |
-            Grand Horizon RP Launcher — built FROM SCRATCH (new Gradle/AGP
-            project, own Java implementation of the full engine JNI contract;
-            original Black Russia launcher used only as reference — see
-            ORIGINAL_REFERENCE_SPEC.md in the repository).
-
-            This workflow compiles the launcher from source (launcher-gradle/)
-            with a real Gradle build: javac -> dex -> package -> sign (v2+v3,
-            same GHRP certificate as all previous releases).
-
-            Assets on this release:
-            - GrandHorizonRP-Launcher-v7-Gradle.apk — scratch-built launcher (install this)
-            - GrandHorizonRP-Launcher.apk — canonical name (same v7 build)
-            - GrandHorizonRP-Server-Final.zip — SA-MP server package (LemmeHost)
-
-            Game data (4.12 GB, downloaded automatically by the launcher) lives
-            on the "gamedata" release: 159 flat assets + patch_index.json +
-            3 archive parts.
-          files: |
-            GrandHorizonRP-Launcher-v7-Gradle.apk
+      - name: Publish APK to release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          APK=launcher-gradle/app/build/outputs/apk/release/app-release.apk
+          SHA=$(sha256sum "$APK" | cut -d' ' -f1)
+          echo "sha256: $SHA"
+          gh release upload latest "$APK#GrandHorizonRP-Launcher-v8-EngineFromScratch.apk" --clobber || \
+          gh release create latest "$APK#GrandHorizonRP-Launcher-v8-EngineFromScratch.apk" \
+            --title "Grand Horizon RP Launcher" --notes "From-scratch GHEngine build (v8). sha256: $SHA"

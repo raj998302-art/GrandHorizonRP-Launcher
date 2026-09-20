@@ -1,0 +1,61 @@
+// GHEngine — minimal own GL loader (no third-party loader).
+// Loads GLES3 entry points from libGLESv2.so / via eglGetProcAddress.
+#pragma once
+#include <GLES2/gl2.h>
+#include <EGL/egl.h>
+
+// Declare the GL subset GHEngine uses.
+#define GHGL_DECL(ret, name, args) extern ret (*gh_##name) args;
+GHGL_DECL(void, glActiveTexture, (GLenum))
+GHGL_DECL(void, glAttachShader, (GLuint, GLuint))
+GHGL_DECL(void, glBindBuffer, (GLenum, GLuint))
+GHGL_DECL(void, glBindTexture, (GLenum, GLuint))
+GHGL_DECL(void, glBindVertexArray, (GLuint))
+GHGL_DECL(void, glBlendFunc, (GLenum, GLenum))
+GHGL_DECL(void, glBufferData, (GLenum, GLsizeiptr, const void*, GLenum))
+GHGL_DECL(void, glClear, (GLenum))
+GHGL_DECL(void, glClearColor, (GLfloat, GLfloat, GLfloat, GLfloat))
+GHGL_DECL(void, glCompileShader, (GLuint))
+GHGL_DECL(GLuint, glCreateProgram, (void))
+GHGL_DECL(GLuint, glCreateShader, (GLenum))
+GHGL_DECL(void, glCullFace, (GLenum))
+GHGL_DECL(void, glDeleteBuffers, (GLsizei, const GLuint*))
+GHGL_DECL(void, glDeleteProgram, (GLuint))
+GHGL_DECL(void, glDeleteShader, (GLuint))
+GHGL_DECL(void, glDeleteTextures, (GLsizei, const GLuint*))
+GHGL_DECL(void, glDeleteVertexArrays, (GLsizei, const GLuint*))
+GHGL_DECL(void, glDepthFunc, (GLenum))
+GHGL_DECL(void, glDisable, (GLenum))
+GHGL_DECL(void, glDisableVertexAttribArray, (GLuint))
+GHGL_DECL(void, glDrawArrays, (GLenum, GLint, GLsizei))
+GHGL_DECL(void, glDrawElements, (GLenum, GLsizei, GLenum, const void*))
+GHGL_DECL(void, glEnable, (GLenum))
+GHGL_DECL(void, glEnableVertexAttribArray, (GLuint))
+GHGL_DECL(void, glFrontFace, (GLenum))
+GHGL_DECL(void, glGenBuffers, (GLsizei, GLuint*))
+GHGL_DECL(void, glGenTextures, (GLsizei, GLuint*))
+GHGL_DECL(void, glGenVertexArrays, (GLsizei, GLuint*))
+GHGL_DECL(GLenum, glGetError, (void))
+GHGL_DECL(void, glGetProgramInfoLog, (GLuint, GLsizei, GLsizei*, char*))
+GHGL_DECL(void, glGetProgramiv, (GLuint, GLenum, GLint*))
+GHGL_DECL(void, glGetShaderInfoLog, (GLuint, GLsizei, GLsizei*, char*))
+GHGL_DECL(void, glGetShaderiv, (GLuint, GLenum, GLint*))
+GHGL_DECL(GLint, glGetUniformLocation, (GLuint, const char*))
+GHGL_DECL(void, glLinkProgram, (GLuint))
+GHGL_DECL(void, glShaderSource, (GLuint, GLsizei, const char* const*, const GLint*))
+GHGL_DECL(void, glTexImage2D, (GLenum, GLint, GLint, GLsizei, GLsizei, GLint, GLenum, GLenum, const void*))
+GHGL_DECL(void, glCompressedTexImage2D, (GLenum, GLint, GLenum, GLsizei, GLsizei, GLint, GLsizei, const void*))
+GHGL_DECL(void, glTexParameteri, (GLenum, GLenum, GLint))
+GHGL_DECL(void, glUniform1f, (GLint, GLfloat))
+GHGL_DECL(void, glUniform1i, (GLint, GLint))
+GHGL_DECL(void, glUniform3f, (GLint, GLfloat, GLfloat, GLfloat))
+GHGL_DECL(void, glUniformMatrix4fv, (GLint, GLsizei, GLboolean, const GLfloat*))
+GHGL_DECL(void, glUseProgram, (GLuint))
+GHGL_DECL(void, glValidateProgram, (GLuint))
+GHGL_DECL(void, glVertexAttribPointer, (GLuint, GLint, GLenum, GLboolean, GLsizei, const void*))
+GHGL_DECL(void, glViewport, (GLint, GLint, GLsizei, GLsizei))
+GHGL_DECL(const GLubyte*, glGetString, (GLenum))
+GHGL_DECL(void, glGetIntegerv, (GLenum, GLint*))
+#undef GHGL_DECL
+
+namespace gh { bool loadGlFunctions(); }

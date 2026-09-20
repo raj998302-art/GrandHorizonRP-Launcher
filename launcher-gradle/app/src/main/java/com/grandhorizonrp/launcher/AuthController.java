@@ -59,7 +59,7 @@ public final class AuthController {
                     GHRPLog.w("auth already open");
                     return;
                 }
-                FrameLayout overlay = com.blackhub.bronline.game.core.JNIActivity.getOverlay();
+                FrameLayout overlay = MainActivity.getOverlay();
                 if (overlay == null) {
                     GHRPLog.e("no overlay — cannot show auth");
                     return;

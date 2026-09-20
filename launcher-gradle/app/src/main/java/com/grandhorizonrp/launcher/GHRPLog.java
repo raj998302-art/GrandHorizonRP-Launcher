@@ -73,6 +73,12 @@ public final class GHRPLog {
         }
     }
 
+
+    /** Path of the launcher log file (also used by the native engine logger). */
+    public static String logFilePath() {
+        return sLogDir != null ? new File(sLogDir, "launcher.txt").getAbsolutePath() : null;
+    }
+
     public static void i(String msg) {
         Log.i(TAG, msg);
         toFile("I", msg, null);

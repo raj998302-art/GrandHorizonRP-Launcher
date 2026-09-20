@@ -231,19 +231,8 @@ public final class UpdateView {
 
     // ------------------------------------------------------------------
     private void startPolling() {
-        stopPolling();
-        mPollTask = new Runnable() {
-            @Override
-            public void run() {
-                if (mController != null) {
-                    mController.pollProgress();
-                }
-                if (mPollTask != null) {
-                    mRoot.postDelayed(this, 1000);
-                }
-            }
-        };
-        mRoot.post(mPollTask);
+        // The pure-Java updater pushes progress directly (updateProgress);
+        // no polling loop is needed.
     }
 
     private void stopPolling() {

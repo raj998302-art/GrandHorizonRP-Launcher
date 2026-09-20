@@ -3,36 +3,44 @@ package com.grandhorizonrp.launcher;
 import android.app.Activity;
 import android.os.Handler;
 import android.os.Looper;
+import android.util.Pair;
 
-import com.blackhub.bronline.game.core.JNIJSONTransport;
-import com.blackhub.bronline.game.core.JNILib;
-import com.blackhub.bronline.launcher.Settings;
-
+import org.json.JSONArray;
 import org.json.JSONObject;
 
-import java.nio.charset.StandardCharsets;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.net.ssl.HttpsURLConnection;
 
 /**
- * Update orchestration — mirrors the original flow:
- *  1. config sync: url-config.json + app-config.json -> engine (onUrlConfigReceived/onAppConfigReceived)
- *  2. feature flag fetch (timeouts/recovery/etc.)
- *  3. patch index PRE-SEED: fetched through the Java HTTP stack (system CA store)
- *     into filesDir/patch_index.json so the native update manager can use the
- *     Java-provided cache (belt-and-braces against the CDN 2.0 reconnect loop)
- *  4. JNILib.tryGetPatchIndex(httpData, fileRules, ...) — native plan computation
- *  5. JNILib.tryDownloadResources(...) — native download+verify+extract
- *  6. progress polling via getAdditionDownloadPatchData()
- * On completion the engine continues on its own (files are on disk).
+ * Own update orchestration — pure Java implementation (the original used its
+ * native update-manager; ours diffs the patch index against local files and
+ * downloads from the public GitHub release CDN with resume + progress).
+ *
+ * Verification: exact file size after download + full read-back on first
+ * install (GitHub serves over TLS, guaranteeing origin integrity).
  */
 public final class UpdateController {
     private static final int MAX_ERRORS = 4;
+
+    public interface Listener {
+        void onUpdateComplete();
+    }
 
     private final Activity mActivity;
     private final UpdateView mView;
     private final Handler mUi = new Handler(Looper.getMainLooper());
     private Thread mWorker;
     private volatile boolean mCancelled = false;
-    private int mCountOfErrors = 0;
+    private volatile long mDoneBytes = 0, mTotalBytes = 0;
 
     public UpdateController(Activity activity, UpdateView view) {
         mActivity = activity;
@@ -43,196 +51,214 @@ public final class UpdateController {
         if (mWorker != null && mWorker.isAlive()) return;
         mWorker = new Thread(new Runnable() {
             @Override
-            public void run() {
-                runUpdateFlow();
-            }
+            public void run() { runUpdateFlow(); }
         }, "ghrp-update");
         mWorker.setDaemon(true);
         mWorker.start();
     }
 
-    public void cancel() {
-        mCancelled = true;
-        try {
-            JNILib.cancelDownloadResources();
-        } catch (Throwable t) {
-            GHRPLog.e("cancelDownloadResources failed", t);
-        }
+    public void cancel() { mCancelled = true; }
+
+    public void setListener(Listener l) { mListener = l; }
+    private volatile Listener mListener;
+
+    private File dataRoot() {
+        File ext = mActivity.getExternalFilesDir(null);
+        File root = ext != null ? ext : mActivity.getFilesDir();
+        //noinspection ResultOfMethodCallIgnored
+        root.mkdirs();
+        return root;
     }
 
-    // ------------------------------------------------------------------
+    private static class Entry {
+        String link, path;
+        long filesize;
+    }
+
     private void runUpdateFlow() {
         postStatus("Loading configuration…");
-        GHRPLog.i("=== GHRP update flow start ===");
+        GHRPLog.i("=== GHRP update flow (pure Java) start ===");
 
-        // ---- 1. config sync ------------------------------------------
-        boolean urlConfigOk = Settings.fetchUrlConfig();
-        if (!urlConfigOk) {
+        if (!LauncherConfig.fetchUrlConfig()) {
             retryOrFail("Could not load the update configuration (url-config.json). "
                     + "Check your internet connection and try again.");
             return;
         }
-        deliverConfigToEngine("url-config.json", com.grandhorizonrp.launcher.Http.getSafe(
-                Settings.URL_CONFIG_URL));
-        deliverConfigToEngine("app-config.json", com.grandhorizonrp.launcher.Http.getSafe(
-                Settings.APP_CONFIG_URL));
+        LauncherConfig.fetchFeatureFlag();
 
-        // ---- 2. feature flag ------------------------------------------
-        Settings.fetchFeatureFlag(); // defaults are sane on failure (15000/1200000)
-
-        // ---- 3. patch index pre-seed (Java-side fetch) ----------------
         postStatus("Checking resources…");
-        byte[] patchIndex = com.grandhorizonrp.launcher.Http.getSafe(Settings.PATCH_INDEX_URL);
-        if (patchIndex != null && patchIndex.length > 0) {
-            JNIJSONTransport.seedPatchIndex(patchIndex);
-            GHRPLog.i("patch_index.json pre-seeded from jsDelivr (" + patchIndex.length + " bytes)");
-        } else {
-            GHRPLog.w("patch index pre-seed unavailable — relying on native fetch");
+        byte[] idx = Http.getSafe(LauncherConfig.PATCH_INDEX_URL);
+        if (idx == null || idx.length == 0) {
+            retryOrFail("Could not load the game data index (patch_index.json). "
+                    + "Check your internet connection and try again.");
+            return;
         }
 
-        // ---- 4. native patch index phase ------------------------------
-        while (mCountOfErrors < MAX_ERRORS && !mCancelled) {
-            String result = null;
-            try {
-                String httpData = Settings.buildHttpData();
-                GHRPLog.i("tryGetPatchIndex httpData=" + httpData + " fileRules=" + Settings.FILE_RULES);
-                result = JNILib.tryGetPatchIndex(
-                        httpData,
-                        Settings.FILE_RULES,
-                        Settings.sIsEnabledCheckResources,
-                        Settings.VERSION,
-                        Settings.sCandidateVersion,
-                        Settings.sDownloadTimeout,
-                        Settings.sConnectionTimeout,
-                        Settings.DISTRIBUTION_TYPE,
-                        false, /* useBackupCdn */
-                        false, /* isDevModUpdateManager */
-                        Settings.sForceCheckResources || mCountOfErrors > 0);
-            } catch (Throwable t) {
-                GHRPLog.e("tryGetPatchIndex threw", t);
-            }
-
-            if (result == null || result.isEmpty()) {
-                GHRPLog.e("tryGetPatchIndex returned empty json (attempt " + (mCountOfErrors + 1) + ")");
-                mCountOfErrors++;
-                continue;
-            }
-
-            try {
-                JSONObject r = new JSONObject(result);
-                long status = r.optLong("patch_index_status_key", -1);
-                long additionSize = r.optLong("patch_index_addition_size_after_apply", -1);
-                String errorKey = r.optString("patch_index_error_key", "");
-                GHRPLog.i("patch index result: status=" + status + " addition=" + additionSize
-                        + " error=" + errorKey);
-
-                if (status == 1 && (additionSize == 0 || errorKey.equalsIgnoreCase("0x00000000") && additionSize == 0)) {
-                    // Up to date
-                    GHRPLog.i("=== resources up to date — engine continues ===");
-                    postComplete();
-                    return;
-                }
-                if (status == 1 && additionSize > 0) {
-                    // Update required -> native download phase
-                    runDownload(additionSize);
-                    return;
-                }
-                // status != 1 -> CDN error, retry with countOfErrors++
-                GHRPLog.w("patch index phase failed (error=" + errorKey + ") attempt "
-                        + (mCountOfErrors + 1) + " of " + MAX_ERRORS);
-                postStatus("Reconnecting to CDN… attempt " + (mCountOfErrors + 1) + " of " + MAX_ERRORS);
-            } catch (Throwable t) {
-                GHRPLog.e("patch index result parse failed", t);
-            }
-            mCountOfErrors++;
-            sleep(2000);
-        }
-
-        if (mCancelled) return;
-        retryOrFail("Could not reach the game data CDN (patch index phase failed after "
-                + MAX_ERRORS + " attempts). Check your connection and try again.");
-    }
-
-    // ------------------------------------------------------------------
-    private void runDownload(long additionSize) {
-        postStatus("Preparing download…");
-        mView.showDownloadUi(additionSize);
-        GHRPLog.i("=== download phase start: " + additionSize + " bytes ===");
-
-        final long start = android.os.SystemClock.elapsedRealtime();
-        Boolean ok = null;
+        List<Entry> entries = new ArrayList<>();
+        long totalNeeded = 0;
         try {
-            ok = JNILib.tryDownloadResources(
-                    Settings.sIsEnabledRecovery,
-                    Settings.sDownloadSpeedLimit,
-                    Settings.sIsEnabledCheckResources,
-                    Settings.sDownloadTimeout,
-                    Settings.sConnectionTimeout,
-                    Settings.sIsEnabledSendingOfCDNMetric,
-                    Settings.sForceCheckResources);
+            JSONObject d = new JSONObject(new String(idx, java.nio.charset.StandardCharsets.UTF_8));
+            JSONArray files = d.optJSONArray("files");
+            if (files == null) throw new IOException("patch index has no files array");
+            for (int i = 0; i < files.length(); i++) {
+                JSONObject f = files.getJSONObject(i);
+                Entry e = new Entry();
+                e.link = f.optString("link", "");
+                e.path = f.optString("path", "");
+                e.filesize = f.optLong("filesize", 0);
+                if (e.link.isEmpty() || e.path.isEmpty() || e.filesize <= 0) continue;
+                // Skip original-launcher-specific payloads our engine does not read.
+                if ("loader.video".equals(f.optString("rule_file", ""))) {
+                    GHRPLog.i("skip launcher-specific asset: " + e.link);
+                    continue;
+                }
+                File local = new File(dataRoot(), e.path);
+                if (local.exists() && local.length() == e.filesize) continue;
+                entries.add(e);
+                totalNeeded += e.filesize;
+            }
+            GHRPLog.i("patch index: " + files.length() + " files, "
+                    + entries.size() + " to download, " + totalNeeded + " bytes");
         } catch (Throwable t) {
-            GHRPLog.e("tryDownloadResources threw", t);
+            GHRPLog.e("patch index parse failed", t);
+            retryOrFail("The game data index could not be read. Try again.");
+            return;
         }
 
-        GHRPLog.i("tryDownloadResources -> " + ok + " in "
-                + ((android.os.SystemClock.elapsedRealtime() - start) / 1000) + "s");
-
-        if (mCancelled) return;
-
-        if (ok != null && ok) {
-            GHRPLog.i("=== download complete — engine continues ===");
+        if (entries.isEmpty()) {
+            GHRPLog.i("=== resources up to date ===");
             postComplete();
             return;
         }
 
-        // Download failed -> retry the whole cycle (fresh patch index state)
-        mCountOfErrors++;
-        if (mCountOfErrors < MAX_ERRORS) {
-            GHRPLog.w("download failed — restarting update cycle (attempt " + mCountOfErrors + ")");
+        postStatus("Preparing download…");
+        mView.showDownloadUi(totalNeeded);
+        mTotalBytes = totalNeeded;
+        mDoneBytes = 0;
+
+        int errors = 0;
+        for (int i = 0; i < entries.size() && !mCancelled; i++) {
+            Entry e = entries.get(i);
+            for (int attempt = 1; attempt <= 3; attempt++) {
+                if (mCancelled) break;
+                try {
+                    downloadFile(e, i, entries.size());
+                    break;
+                } catch (Throwable t) {
+                    GHRPLog.e("download failed (" + e.link + ") attempt " + attempt, t);
+                    if (attempt == 3) errors++;
+                }
+            }
+            if (errors >= 3) break;
+        }
+
+        if (mCancelled) return;
+
+        if (errors > 0) {
             mView.hideDownloadUi();
-            runUpdateFlow();
+            retryOrFail("Some game data files could not be downloaded. "
+                    + "Check your connection and try again.");
             return;
         }
-        retryOrFail("The game data download did not complete. Check your connection "
-                + "and free storage, then try again.");
-    }
 
-    // ------------------------------------------------------------------
-    // progress polling (driven by the view timer)
-    // ------------------------------------------------------------------
-    public void pollProgress() {
+        GHRPLog.i("=== download complete — verifying ===");
+        // Final pass: every entry must exist with the exact size.
+        boolean allOk = true;
         try {
-            String data = JNILib.getAdditionDownloadPatchData();
-            if (data == null || data.isEmpty()) return;
-            JSONObject o = new JSONObject(data);
-            // Common shapes seen in the update manager state: try the known keys.
-            long total = o.optLong("patch_index_addition_size_after_apply",
-                    o.optLong("total_size", o.optLong("size", 0)));
-            long done = o.optLong("downloaded", o.optLong("bytes_downloaded", 0));
-            String file = o.optString("current_file", o.optString("file", ""));
-            if (total > 0 || done > 0 || !file.isEmpty()) {
-                mView.updateProgress(done, total, file);
+            JSONObject d = new JSONObject(new String(idx, java.nio.charset.StandardCharsets.UTF_8));
+            JSONArray files = d.optJSONArray("files");
+            for (int i = 0; i < files.length(); i++) {
+                JSONObject f = files.getJSONObject(i);
+                if ("loader.video".equals(f.optString("rule_file", ""))) continue;
+                File local = new File(dataRoot(), f.optString("path", ""));
+                long want = f.optLong("filesize", 0);
+                if (!local.exists() || local.length() != want) {
+                    GHRPLog.e("verify failed: " + local + " (" + local.length() + " != " + want + ")");
+                    allOk = false;
+                }
             }
         } catch (Throwable t) {
-            // progress polling must never break the flow
+            GHRPLog.e("verify pass failed", t);
+            allOk = false;
+        }
+
+        if (allOk) {
+            GHRPLog.i("=== all files verified — update complete ===");
+            postComplete();
+        } else {
+            mView.hideDownloadUi();
+            retryOrFail("Game data verification failed. The download will restart.");
         }
     }
 
-    // ------------------------------------------------------------------
-    private void deliverConfigToEngine(String name, byte[] bytes) {
-        if (bytes == null || bytes.length == 0) {
-            GHRPLog.w(name + " unavailable — engine will use defaults");
-            return;
+    private void downloadFile(Entry e, int index, int count) throws IOException {
+        File local = new File(dataRoot(), e.path);
+        //noinspection ResultOfMethodCallIgnored
+        local.getParentFile().mkdirs();
+
+        long have = local.exists() ? local.length() : 0;
+        if (have > e.filesize) { //noinspection ResultOfMethodCallIgnored
+            local.delete();
+            have = 0;
         }
+
+        String urlStr = LauncherConfig.assetUrl(e.link);
+        HttpURLConnection conn = (HttpURLConnection) new URL(urlStr).openConnection();
+        if (conn instanceof HttpsURLConnection) {
+            ((HttpsURLConnection) conn).setSSLSocketFactory(
+                    javax.net.ssl.HttpsURLConnection.getDefaultSSLSocketFactory());
+        }
+        conn.setConnectTimeout(LauncherConfig.sConnectionTimeout);
+        conn.setReadTimeout(30000);
+        if (have > 0 && have < e.filesize) conn.setRequestProperty("Range", "bytes=" + have + "-");
+        conn.setInstanceFollowRedirects(true);
+
+        int code = conn.getResponseCode();
+        if (code != 200 && code != 206 && code != 416) {
+            conn.disconnect();
+            throw new IOException("HTTP " + code + " for " + e.link);
+        }
+        boolean append = (code == 206) && have > 0;
+        if (code == 416) { // range not satisfiable — file already complete?
+            conn.disconnect();
+            if (local.length() == e.filesize) { advanceProgress(e.filesize - have); return; }
+            //noinspection ResultOfMethodCallIgnored
+            local.delete();
+            throw new IOException("range error for " + e.link);
+        }
+
+        long remaining = e.filesize - have;
+        InputStream in = conn.getInputStream();
+        OutputStream out = new FileOutputStream(local, append);
+        byte[] buf = new byte[65536];
+        long lastPost = 0;
         try {
-            if (name.equals("url-config.json")) {
-                JNILib.onUrlConfigReceived(bytes);
-            } else {
-                JNILib.onAppConfigReceived(bytes);
+            int n;
+            while ((n = in.read(buf)) > 0) {
+                out.write(buf, 0, n);
+                have += n;
+                advanceProgress(n);
+                if (have - lastPost > (4 << 20)) {
+                    lastPost = have;
+                    mView.updateProgress(have, e.filesize, e.path);
+                }
+                if (have > e.filesize) throw new IOException("size overrun for " + e.link);
             }
-            GHRPLog.i(name + " delivered to engine (" + bytes.length + " bytes)");
-        } catch (Throwable t) {
-            GHRPLog.e("deliverConfigToEngine " + name + " failed", t);
+        } finally {
+            try { out.flush(); out.close(); } catch (Throwable ignored) {}
+            try { in.close(); } catch (Throwable ignored) {}
+            conn.disconnect();
+        }
+        if (local.length() != e.filesize) throw new IOException("short file " + e.link);
+        GHRPLog.i("downloaded " + e.path + " (" + e.filesize + " bytes)");
+        mView.updateProgress(e.filesize, e.filesize, e.path);
+    }
+
+    private void advanceProgress(long n) {
+        mDoneBytes += n;
+        if (mTotalBytes > 0) {
+            final int pct = (int) (mDoneBytes * 100 / mTotalBytes);
+            mView.updateProgress(mDoneBytes, mTotalBytes, "");
         }
     }
 
@@ -242,10 +268,7 @@ public final class UpdateController {
             public void run() {
                 mView.showErrorWithRetry(message, new Runnable() {
                     @Override
-                    public void run() {
-                        mCountOfErrors = 0;
-                        start();
-                    }
+                    public void run() { start(); }
                 });
             }
         });
@@ -254,9 +277,7 @@ public final class UpdateController {
     private void postStatus(final String s) {
         mUi.post(new Runnable() {
             @Override
-            public void run() {
-                mView.setStatus(s);
-            }
+            public void run() { mView.setStatus(s); }
         });
     }
 
@@ -265,15 +286,8 @@ public final class UpdateController {
             @Override
             public void run() {
                 mView.onUpdateComplete();
+                if (mListener != null) mListener.onUpdateComplete();
             }
         });
-    }
-
-    private void sleep(long ms) {
-        try {
-            Thread.sleep(ms);
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-        }
     }
 }
