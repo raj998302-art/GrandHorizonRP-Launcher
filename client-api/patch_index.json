@@ -1,6 +1,6 @@
 {
  "android_version": 1529,
- "filesize": 4123756486,
+ "filesize": 4034899131,
  "link": "ghrp-v1",
  "hash_commit": "ghrp-v2-20260920",
  "forced_download_ios": false,
@@ -12,16 +12,9 @@
  "files": [
   {
    "crc_xxhashct": 4092278032,
-   "filesize": 4046406,
+   "filesize": 3106513,
    "link": "files.launcher.bpc",
    "path": "launcher.bpc",
-   "rule_file": "loader.video"
-  },
-  {
-   "crc_xxhashct": 3039804085,
-   "filesize": 43958731,
-   "link": "files.resources.video.launcher_video.zip",
-   "path": "resources/video/launcher_video.zip",
    "rule_file": "loader.video"
   },
   {
@@ -1107,13 +1100,6 @@
    "filesize": 483200,
    "link": "files.resources.images.pictures.img_case_event21.zip",
    "path": "resources/images/pictures/img_case_event21.zip",
-   "rule_file": "base"
-  },
-  {
-   "crc_xxhashct": 3039804085,
-   "filesize": 43958731,
-   "link": "files.resources.video.launcher.zip",
-   "path": "resources/video/launcher.zip",
    "rule_file": "base"
   },
   {
