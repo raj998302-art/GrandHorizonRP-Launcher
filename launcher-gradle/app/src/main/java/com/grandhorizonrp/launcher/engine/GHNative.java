@@ -12,7 +12,7 @@ public final class GHNative {
     }
 
     public interface Callback {
-        /** Engine -> Java events: onAssetsScanned, onSceneReady, onLoadError. */
+        /** Engine -> Java events: onAssetsScanned, onSceneReady, onLoadError, onEngineInfo. */
         void onEngineEvent(String method, String json);
     }
 
@@ -32,6 +32,9 @@ public final class GHNative {
     public static native void nativeSetCharacter(int skinIndex);
     public static native int nativeCharacterCount();
     public static native String nativeCharacterName(int skinIndex);
+
+    /** Device/engine diagnostics: {gl, astc, skins} as JSON. */
+    public static native String nativeGetEngineInfo();
 
     /** Touch: action 0=down 1=up 2=move 3=cancel (screen coords). */
     public static native void nativeTouch(int action, float x, float y);

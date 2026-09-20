@@ -3,6 +3,7 @@
 #include "../core/GHLog.h"
 #include <cmath>
 #include <algorithm>
+#include <cstdio>
 
 namespace gh {
 
@@ -31,6 +32,7 @@ void Engine::stop() {
     Gfx::destroyProgram(skyProg_);
     Gfx::destroyProgram(flatProg_);
     progsReady_ = false;
+    infoEmitted_ = false;
 }
 
 void Engine::resize(int w, int h) { renderer_.resize(w, h); }
@@ -42,6 +44,10 @@ void Engine::setDataRoot(const std::string& root) {
     GHLOG("Engine: data root set, %d skins", n);
     if (javaCb_) javaCb_("onAssetsScanned", std::to_string(n).c_str());
     skinDirty_ = true;
+    // Surface may already be live — rescan feeds the live preview.
+    if (renderer_.isRunning() && n > 0 && skinIndex_ >= n) {
+        skinIndex_ = 0;
+    }
 }
 
 void Engine::setScene(SceneMode mode) {
@@ -81,32 +87,53 @@ void Engine::loadCurrentSkin() {
     std::lock_guard<std::mutex> lk(sceneMtx_);
     characterMesh_.destroy();
     currentMesh_ = ModMeshData{};
-    if (!AssetLibrary::get().astcSupported()) {
-        GHERR("Engine: ASTC unsupported on this device");
-    }
+
+    // Robust load: if the requested skin fails to parse/upload, advance to the
+    // next one (up to the catalogue size) so the preview never stays empty.
+    int n = (int)AssetLibrary::get().skins().size();
+    int tried = 0;
     ModMeshData m;
-    if (!AssetLibrary::get().loadSkinMesh(skinIndex_, m)) {
-        GHERR("Engine: skin mesh %d failed to load", skinIndex_);
-        if (javaCb_) javaCb_("onLoadError", "skin mesh load failed");
+    bool loaded = false;
+    while (tried < n && n > 0) {
+        if (!AssetLibrary::get().loadSkinMesh(skinIndex_, m)) {
+            GHERR("Engine: skin mesh %d ('%s') failed to load — trying next",
+                  skinIndex_, AssetLibrary::get().skinName(skinIndex_));
+        } else if (!Gfx::uploadMesh(m, characterMesh_)) {
+            GHERR("Engine: GPU upload failed for skin %d — trying next", skinIndex_);
+        } else {
+            loaded = true;
+            break;
+        }
+        skinIndex_ = (skinIndex_ + 1) % n;
+        tried++;
+    }
+
+    if (!loaded) {
+        GHERR("Engine: no loadable skin in the archive (%d entries)", n);
+        if (javaCb_) javaCb_("onLoadError", "no loadable character mesh in the game data");
         skinDirty_ = false;
         return;
     }
+
     currentMesh_ = m;
-    if (!Gfx::uploadMesh(m, characterMesh_)) {
-        GHERR("Engine: GPU upload failed");
-        skinDirty_ = false;
-        return;
-    }
-    std::string err;
-    AssetLibrary::get().loadSkinTexture(skinIndex_, characterMesh_.texture, &err);
-    if (!characterMesh_.texture.valid) GHLOG("Engine: skin texture unavailable (%s)", err.c_str());
+    std::string texErr;
+    bool texOk = AssetLibrary::get().loadSkinTexture(skinIndex_, characterMesh_.texture, &texErr);
+    if (!texOk) GHLOG("Engine: skin texture unavailable (%s)", texErr.c_str());
 
     // Frame the camera on the mesh bounds.
     Vec3 size = m.boundsMax - m.boundsMin;
     target_ = (m.boundsMax + m.boundsMin) * 0.5f;
     camDist_ = std::max(1.2f, std::max(std::max(size.x, size.y), size.z) * 1.6f);
-    GHLOG("Engine: character '%s' on GPU (tris=%zu)", m.name.c_str(), m.triangleCount());
-    if (javaCb_) javaCb_("onSceneReady", m.name.c_str());
+    GHLOG("Engine: character '%s' on GPU (tris=%zu, tex=%s)",
+          AssetLibrary::get().skinName(skinIndex_), m.triangleCount(), texOk ? "ok" : "off");
+
+    // Rich payload — the Java panel surfaces this as device-side evidence.
+    char buf[256];
+    std::snprintf(buf, sizeof(buf),
+                  "{\"skin\":\"%s\",\"tris\":%zu,\"verts\":%zu,\"tex\":\"%s\"}",
+                  AssetLibrary::get().skinName(skinIndex_),
+                  m.triangleCount(), m.vertexCount(), texOk ? "ok" : "unavailable");
+    if (javaCb_) javaCb_("onSceneReady", buf);
     skinDirty_ = false;
 }
 
@@ -157,6 +184,32 @@ void Engine::touch(int action, float x, float y) {
 void Engine::frame(int w, int h) {
     ensurePrograms();
     if (!progsReady_) return;
+
+    // One-shot device diagnostics event after the first successful frame setup.
+    if (!infoEmitted_) {
+        infoEmitted_ = true;
+        // The renderer's ASTC capability is only known AFTER EGL init (which may
+        // happen after setDataRoot) — sync it now and reload the preview once so
+        // textures are uploaded with the correct capability flag.
+        if (AssetLibrary::get().astcSupported() != renderer_.astcSupported()) {
+            AssetLibrary::get().setAstcSupported(renderer_.astcSupported());
+            skinDirty_ = true;
+        }
+        char buf[320];
+        std::snprintf(buf, sizeof(buf),
+                      "{\"gl\":\"%.48s\",\"astc\":%s,\"skins\":%d,\"abi\":\"%s\"}",
+                      renderer_.glVersion().c_str(),
+                      renderer_.astcSupported() ? "true" : "false",
+                      (int)AssetLibrary::get().skins().size(),
+#if defined(__aarch64__) || defined(__x86_64__)
+                      "64"
+#else
+                      "32"
+#endif
+        );
+        if (javaCb_) javaCb_("onEngineInfo", buf);
+        GHLOG("EngineInfo: %s", buf);
+    }
 
     if (skinDirty_) loadCurrentSkin();
 

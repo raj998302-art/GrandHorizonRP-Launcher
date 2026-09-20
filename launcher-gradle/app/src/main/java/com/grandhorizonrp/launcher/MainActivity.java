@@ -28,19 +28,59 @@ import java.io.File;
 
 /**
  * GRAND HORIZON RP launcher — main activity (own implementation).
- * Flow: splash -> game-data update -> SSO authentication -> server select ->
- * character creation (3D engine preview) -> play.
+ *
+ * Launcher state machine (WebView = AUTH ONLY; everything else native/Java-side):
+ *
+ *   APP_START
+ *     -> (game-data update, Java updater)
+ *     -> SESSION_RESTORE  (SessionStore + backend verification)
+ *          |-- no saved session ----------------> AUTHENTICATE  (WebView SSO)
+ *          |-- guest: re-auth via guest_secret -> CHARACTER_CHECK
+ *          |-- user: stored front_token valid --> CHARACTER_CHECK
+ *          '-- invalid/expired -----------------> AUTHENTICATE
+ *   AUTHENTICATE (WebView)
+ *     -> token payload {front_token, guest_secret, account} -> save -> CHARACTER_CHECK
+ *   CHARACTER_CHECK (GET /api/v2/character)
+ *     |-- has_character = true ----> CHARACTER_READY  -> server select -> play
+ *     '-- has_character = false ---> CHARACTER_REQUIRED -> creation (native 3D)
+ *   CHARACTER CREATION (native engine preview + side panel)
+ *     -> POST /api/v2/character {sex, skin} -> CHARACTER_READY -> play status
+ *
+ * Every transition is logged (GHRPLog) — see WEBVIEW_STATE_MACHINE.md.
  */
 public final class MainActivity extends Activity implements GHNative.Callback {
     private FrameLayout mRoot;
     private FrameLayout mOverlay;
     private GHEngineView mEngineView;
     private UpdateController mUpdateController;
-    private String mAuthTokenJson = "";
 
-    // Character creation state
+    // ---- session state ----
+    private SessionStore.Session mSession;
+    private boolean mCharacterReady = false;
+    private JSONObject mCharacter = null;   // last known character JSON from the backend
+    private boolean mRestoreInFlight = false;
+
+    // ---- character creation state ----
     private boolean mFemale = false;
     private int mSkinIndex = 0;
+
+    // ---- diagnostics strip ----
+    private TextView mDiagView;
+    private final StringBuilder mDiag = new StringBuilder();
+
+    /**
+     * Launcher preview index -> SA-MP skin id (documented mapping; all ids are
+     * standard SA-MP ped ids 0..311). The native preview mesh is the BR art
+     * asset; this id is what the gamemode receives in accounts.skin. The
+     * in-game /reg dialog remains the final authority for gameplay looks.
+     */
+    private static final int[] SKIN_IDS_MALE = {26, 7, 46, 60, 72, 0, 170, 66};
+    private static final int[] SKIN_IDS_FEMALE = {12, 13, 40, 55, 90, 192, 91, 216};
+
+    private int sampSkinId() {
+        int[] set = mFemale ? SKIN_IDS_FEMALE : SKIN_IDS_MALE;
+        return set[mSkinIndex % set.length];
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -94,7 +134,7 @@ public final class MainActivity extends Activity implements GHNative.Callback {
     }
 
     // ------------------------------------------------------------------
-    // Update flow (own Java updater)
+    // Update flow (own Java updater) — untouched, working
     // ------------------------------------------------------------------
     private void startUpdateFlow() {
         UpdateView updateView = new UpdateView(this, mOverlay);
@@ -106,7 +146,7 @@ public final class MainActivity extends Activity implements GHNative.Callback {
                 startEngine();
                 runOnUiThread(new Runnable() {
                     @Override
-                    public void run() { openAuth(); }
+                    public void run() { beginSessionFlow(); }
                 });
             }
         });
@@ -114,7 +154,7 @@ public final class MainActivity extends Activity implements GHNative.Callback {
     }
 
     // ------------------------------------------------------------------
-    // Engine lifecycle
+    // Engine lifecycle (untouched, working)
     // ------------------------------------------------------------------
     private void startEngine() {
         if (mEngineView != null) return;
@@ -138,18 +178,203 @@ public final class MainActivity extends Activity implements GHNative.Callback {
     }
     private static volatile MainActivity sInstance;
 
+    // ------------------------------------------------------------------
+    // Engine events -> on-screen diagnostics (device-side evidence)
+    // ------------------------------------------------------------------
     @Override
     public void onEngineEvent(final String method, final String json) {
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
                 GHRPLog.i("engine event: " + method + " " + json);
-                if ("onLoadError".equals(method) && mCharacterPanel != null) {
-                    TextView err = mCharacterPanel.findViewById(0x2001);
-                    if (err != null) err.setText("Engine: " + json);
+                if ("onSceneReady".equals(method)) {
+                    diag("mesh: " + json);
+                } else if ("onLoadError".equals(method)) {
+                    diag("ERROR: " + json);
+                    if (mCharacterPanel != null) {
+                        TextView err = mCharacterPanel.findViewById(0x2001);
+                        if (err != null) err.setText("Engine: " + json);
+                    }
+                } else if ("onAssetsScanned".equals(method)) {
+                    diag("skins scanned: " + json);
+                } else if ("onEngineInfo".equals(method)) {
+                    diag(json);
                 }
             }
         });
+    }
+
+    private void diag(String line) {
+        if (line == null || line.isEmpty()) return;
+        synchronized (mDiag) {
+            if (mDiag.length() > 0) mDiag.append('\n');
+            mDiag.append(line);
+            if (mDiag.length() > 900) mDiag.delete(0, mDiag.length() - 900);
+        }
+        if (mDiagView != null) {
+            mDiagView.setText(mDiag.toString());
+        }
+    }
+
+    // ------------------------------------------------------------------
+    // SESSION STATE MACHINE (guest persistence fix lives here)
+    // ------------------------------------------------------------------
+    private String apiBase() {
+        String b = LauncherConfig.sRegistrationService;
+        return (b == null || b.isEmpty()) ? "https://ghrp-auth.vercel.app" : b;
+    }
+
+    /** STATE: APP_START -> session resolution. */
+    private void beginSessionFlow() {
+        GHRPLog.i("[state] APP_START -> session resolution");
+        mSession = SessionStore.load(this);
+        if (mSession == null) {
+            GHRPLog.i("[state] no saved session -> AUTHENTICATE (WebView)");
+            openAuth();
+            return;
+        }
+        GHRPLog.i("[state] SESSION_RESTORE (kind=" + mSession.kind
+                + ", name=" + mSession.accountName + ")");
+        runRestore(mSession);
+    }
+
+    /**
+     * STATE: SESSION_RESTORE -> CHARACTER_CHECK.
+     * Guest accounts re-auth with their stored secret (fresh 12h token);
+     * registered accounts reuse the stored token and fall back to the
+     * WebView if it expired.
+     */
+    private void runRestore(final SessionStore.Session s) {
+        if (mRestoreInFlight) return;
+        mRestoreInFlight = true;
+        showRestoring();
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                String token = s.frontToken;
+
+                if (s.isGuest() && !s.guestSecret.isEmpty()) {
+                    // Fresh token via password grant (guest_secret contract).
+                    try {
+                        JSONObject body = new JSONObject();
+                        body.put("grant_type", "password");
+                        body.put("username", s.email);
+                        body.put("password", s.guestSecret);
+                        Http.JsonResp r = Http.postJson(apiBase() + "/api/v2/auth/token",
+                                body.toString(), null, 20000);
+                        if (r.isOk()) {
+                            JSONObject d = new JSONObject(r.body);
+                            token = d.optString("front_token", "");
+                            if (!token.isEmpty()) {
+                                SessionStore.updateToken(MainActivity.this, s, token);
+                                GHRPLog.i("[state] guest re-auth ok (token refreshed)");
+                            }
+                        } else {
+                            GHRPLog.w("[state] guest re-auth failed: HTTP " + r.code);
+                        }
+                    } catch (Throwable t) {
+                        GHRPLog.e("guest re-auth error", t);
+                    }
+                }
+
+                // CHARACTER_CHECK via the server (authoritative).
+                final String fToken = token;
+                Http.JsonResp cr = Http.getJson(apiBase() + "/api/v2/character", fToken, 20000);
+                final Http.JsonResp fCr = cr;
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        mRestoreInFlight = false;
+                        if (fCr.isOk()) {
+                            try {
+                                JSONObject d = new JSONObject(fCr.body);
+                                boolean has = d.optBoolean("has_character", false);
+                                if (d.has("character")) mCharacter = d.getJSONObject("character");
+                                if (mSession != null && !fToken.isEmpty()
+                                        && !fToken.equals(mSession.frontToken)) {
+                                    SessionStore.updateToken(MainActivity.this, mSession, fToken);
+                                }
+                                if (has) {
+                                    GHRPLog.i("[state] CHARACTER_READY (restored)");
+                                    mCharacterReady = true;
+                                    showServerSelect();
+                                } else {
+                                    GHRPLog.i("[state] CHARACTER_REQUIRED (no character yet)");
+                                    showCharacterCreation();
+                                }
+                            } catch (Throwable t) {
+                                GHRPLog.e("character check parse failed", t);
+                                showCharacterCreation();
+                            }
+                        } else if (fCr.code == 401 || fCr.code == 403 || fCr.code == 404) {
+                            // Identity invalid on the server — drop and re-authenticate.
+                            GHRPLog.i("[state] session invalid (HTTP " + fCr.code + ") -> AUTHENTICATE");
+                            SessionStore.clear(MainActivity.this);
+                            mSession = null;
+                            openAuth();
+                        } else {
+                            // Network problem: keep the session, allow offline play path.
+                            GHRPLog.w("[state] character check unavailable (HTTP " + fCr.code
+                                    + ") — offering retry");
+                            showRestoreFailed();
+                        }
+                    }
+                });
+            }
+        }, "ghrp-restore").start();
+    }
+
+    /** Small "restoring session" panel (no WebView flash on restart). */
+    private void showRestoring() {
+        LinearLayout panel = panelRoot();
+        panel.addView(heading("WELCOME BACK"));
+        TextView t = new TextView(this);
+        if (mSession != null) {
+            t.setText(mSession.isGuest() ? "Restoring your guest session…" : "Restoring your session…");
+        } else {
+            t.setText("Restoring session…");
+        }
+        t.setTextColor(0xFFDDE6F5);
+        t.setTextSize(15);
+        panel.addView(t, matchWrap());
+
+        TextView who = new TextView(this);
+        who.setText(mSession != null ? mSession.accountName : "");
+        who.setTextColor(0xFFE8B24B);
+        who.setTextSize(20);
+        who.setTypeface(Typeface.DEFAULT_BOLD);
+        LinearLayout.LayoutParams lp = matchWrap();
+        lp.topMargin = dp(8);
+        panel.addView(who, lp);
+        swapOverlay(scrollify(panel));
+    }
+
+    /** Restore could not reach the backend — retry / continue offline. */
+    private void showRestoreFailed() {
+        LinearLayout panel = panelRoot();
+        panel.addView(heading("CONNECTION"));
+        TextView t = new TextView(this);
+        t.setText("Your saved session is safe, but the account server could not be reached.\n\n"
+                + "Check your internet connection and retry.");
+        t.setTextColor(0xFF8899BB);
+        t.setTextSize(14);
+        t.setLineSpacing(dp(2), 1f);
+        panel.addView(t, matchWrap());
+
+        Button retry = primaryButton("RETRY");
+        retry.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) { runRestore(mSession); }
+        });
+        panel.addView(retry, matchWrap());
+
+        Button fresh = primaryButton("SIGN IN AGAIN");
+        fresh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) { openAuth(); }
+        });
+        panel.addView(fresh, matchWrap());
+        swapOverlay(scrollify(panel));
     }
 
     // ------------------------------------------------------------------
@@ -161,27 +386,65 @@ public final class MainActivity extends Activity implements GHNative.Callback {
         AuthController.open(this, authUrl, new AuthController.Listener() {
             @Override
             public void onToken(String tokenJson) {
-                mAuthTokenJson = tokenJson;
-                GHRPLog.i("auth token received");
-                runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() { showServerSelect(); }
-                });
+                GHRPLog.i("[state] AUTHENTICATE -> token received");
+                handleAuthToken(tokenJson);
             }
 
             @Override
             public void onClose(String error) {
-                GHRPLog.e("auth closed: " + error);
+                GHRPLog.e("[state] auth closed: " + error);
                 runOnUiThread(new Runnable() {
                     @Override
-                    public void run() { showServerSelect(); }
+                    public void run() {
+                        // Closed without auth: fall back to session (if any) or retry.
+                        if (mSession != null) runRestore(mSession);
+                        else openAuth();
+                    }
                 });
             }
         });
     }
 
+    /** WebView payload: {front_token, guest_secret?, account?} -> session store. */
+    private void handleAuthToken(String tokenJson) {
+        try {
+            JSONObject o = new JSONObject(tokenJson);
+            String frontToken = o.optString("front_token", "");
+            if (frontToken.isEmpty()) {
+                GHRPLog.e("auth token payload missing front_token");
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() { openAuth(); }
+                });
+                return;
+            }
+            String guestSecret = o.optString("guest_secret", "");
+            JSONObject acc = o.optJSONObject("account");
+            String name = acc != null ? acc.optString("name", "") : "";
+            String email = acc != null ? acc.optString("email", "") : "";
+            String kind = acc != null ? acc.optString("kind", "user") : "user";
+
+            mSession = new SessionStore.Session(kind, email, guestSecret, frontToken,
+                    name, "", System.currentTimeMillis());
+            SessionStore.save(this, mSession);
+            GHRPLog.i("[state] AUTHENTICATED (kind=" + kind + ", name=" + name + ")");
+
+            // -> CHARACTER_CHECK
+            runOnUiThread(new Runnable() {
+                @Override
+                public void run() { runRestore(mSession); }
+            });
+        } catch (Throwable t) {
+            GHRPLog.e("handleAuthToken failed", t);
+            runOnUiThread(new Runnable() {
+                @Override
+                public void run() { openAuth(); }
+            });
+        }
+    }
+
     // ------------------------------------------------------------------
-    // Server select
+    // Server select (native flow — Java panel; WebView is auth-only)
     // ------------------------------------------------------------------
     private void showServerSelect() {
         LinearLayout panel = panelRoot();
@@ -189,13 +452,47 @@ public final class MainActivity extends Activity implements GHNative.Callback {
         TextView heading = heading("SELECT SERVER");
         panel.addView(heading);
 
+        // Character chip — proof that the session + character were restored.
+        if (mCharacter != null || (mSession != null && !mSession.accountName.isEmpty())) {
+            LinearLayout chip = new LinearLayout(this);
+            chip.setOrientation(LinearLayout.VERTICAL);
+            GradientDrawable cd = new GradientDrawable();
+            cd.setColor(0x26E8B24B);
+            cd.setCornerRadius(dp(10));
+            cd.setStroke(1, 0x66E8B24B);
+            chip.setBackground(cd);
+            chip.setPadding(dp(14), dp(10), dp(14), dp(10));
+            LinearLayout.LayoutParams clp = matchWrap();
+            clp.bottomMargin = dp(14);
+            panel.addView(chip, clp);
+
+            TextView k = new TextView(this);
+            k.setText("PLAYING AS");
+            k.setTextColor(0xFF8899BB);
+            k.setTextSize(10);
+            k.setLetterSpacing(0.2f);
+            chip.addView(k);
+            TextView v = new TextView(this);
+            String nm = mSession != null ? mSession.accountName : "";
+            String gender = "";
+            if (mCharacter != null) {
+                gender = mCharacter.optString("sex", "");
+                if (!gender.isEmpty()) gender = " · " + gender.toUpperCase();
+            }
+            v.setText(nm + gender);
+            v.setTextColor(0xFFE8B24B);
+            v.setTextSize(17);
+            v.setTypeface(Typeface.DEFAULT_BOLD);
+            chip.addView(v);
+        }
+
         LinearLayout card = new LinearLayout(this);
         card.setOrientation(LinearLayout.VERTICAL);
-        GradientDrawable cd = new GradientDrawable();
-        cd.setColor(0xFF151C2C);
-        cd.setCornerRadius(dp(10));
-        cd.setStroke(1, 0xFF2A3654);
-        card.setBackground(cd);
+        GradientDrawable cdd = new GradientDrawable();
+        cdd.setColor(0xFF151C2C);
+        cdd.setCornerRadius(dp(10));
+        cdd.setStroke(1, 0xFF2A3654);
+        card.setBackground(cdd);
         card.setPadding(dp(18), dp(16), dp(18), dp(16));
 
         TextView name = new TextView(this);
@@ -222,15 +519,39 @@ public final class MainActivity extends Activity implements GHNative.Callback {
         Button play = primaryButton("PLAY ON " + LauncherConfig.SERVER_CITY);
         play.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) { showCharacterCreation(); }
+            public void onClick(View v) { showPlayStatus(); }
         });
         panel.addView(play, matchWrap());
+
+        Button change = secondaryButton("CHANGE CHARACTER");
+        change.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                GHRPLog.i("[state] user requested character change -> CHARACTER_REQUIRED");
+                showCharacterCreation();
+            }
+        });
+        panel.addView(change, matchWrap());
+
+        Button logout = secondaryButton("LOG OUT / RESET ACCOUNT");
+        logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                GHRPLog.i("[state] logout -> session cleared -> AUTHENTICATE");
+                SessionStore.clear(MainActivity.this);
+                mSession = null;
+                mCharacter = null;
+                mCharacterReady = false;
+                openAuth();
+            }
+        });
+        panel.addView(logout, matchWrap());
 
         swapOverlay(scrollify(panel));
     }
 
     // ------------------------------------------------------------------
-    // Character creation (3D preview + M/F + skin + name)
+    // Character creation (native 3D preview + side panel; saves to the server)
     // ------------------------------------------------------------------
     private LinearLayout mCharacterPanel;
 
@@ -242,6 +563,17 @@ public final class MainActivity extends Activity implements GHNative.Callback {
         mCharacterPanel = panel;
 
         panel.addView(heading("CREATE CHARACTER"));
+
+        // Account name chip (server-authoritative name).
+        if (mSession != null && !mSession.accountName.isEmpty()) {
+            TextView who = new TextView(this);
+            who.setText("Character name: " + mSession.accountName);
+            who.setTextColor(0xFF8899BB);
+            who.setTextSize(12);
+            LinearLayout.LayoutParams lp = matchWrap();
+            lp.bottomMargin = dp(10);
+            panel.addView(who, lp);
+        }
 
         // Gender toggle
         final Button gender = new Button(this);
@@ -257,6 +589,7 @@ public final class MainActivity extends Activity implements GHNative.Callback {
                 gender.setText("GENDER: " + (mFemale ? "FEMALE" : "MALE"));
                 mSkinIndex = 0;
                 applySkin();
+                updateSkinIdLabel();
             }
         });
         panel.addView(gender, glp);
@@ -266,7 +599,7 @@ public final class MainActivity extends Activity implements GHNative.Callback {
         skin.setTextSize(15);
         styleSecondary(skin);
         LinearLayout.LayoutParams slp = matchWrap();
-        slp.bottomMargin = dp(10);
+        slp.bottomMargin = dp(6);
         skin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -274,25 +607,19 @@ public final class MainActivity extends Activity implements GHNative.Callback {
                 if (n <= 0) return;
                 mSkinIndex = (mSkinIndex + 1) % n;
                 applySkin();
+                updateSkinIdLabel();
             }
         });
         skin.setId(0x2002);
         panel.addView(skin, slp);
 
-        // Name
-        final EditText name = new EditText(this);
-        name.setHint("Character name");
-        name.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_FLAG_CAP_WORDS);
-        name.setTextColor(0xFFDDE6F5);
-        name.setHintTextColor(0xFF5C6E92);
-        name.setTextSize(15);
-        GradientDrawable nd = new GradientDrawable();
-        nd.setColor(0xFF10182A);
-        nd.setCornerRadius(dp(8));
-        nd.setStroke(1, 0xFF2A3654);
-        name.setBackground(nd);
-        name.setPadding(dp(12), dp(10), dp(12), dp(10));
-        panel.addView(name, matchWrap());
+        // Skin id label (what the server will store).
+        final TextView skinId = new TextView(this);
+        skinId.setId(0x2003);
+        skinId.setTextColor(0xFF5C6E92);
+        skinId.setTextSize(11);
+        skinId.setPadding(0, 0, 0, dp(8));
+        panel.addView(skinId, matchWrap());
 
         TextView err = new TextView(this);
         err.setId(0x2001);
@@ -301,17 +628,34 @@ public final class MainActivity extends Activity implements GHNative.Callback {
         err.setPadding(0, dp(6), 0, 0);
         panel.addView(err, matchWrap());
 
+        // Engine diagnostics strip (device evidence for the renderer pipeline).
+        TextView diagTitle = new TextView(this);
+        diagTitle.setText("ENGINE STATUS");
+        diagTitle.setTextColor(0xFF5C6E92);
+        diagTitle.setTextSize(10);
+        diagTitle.setLetterSpacing(0.18f);
+        LinearLayout.LayoutParams dtlp = matchWrap();
+        dtlp.topMargin = dp(12);
+        panel.addView(diagTitle, dtlp);
+
+        mDiagView = new TextView(this);
+        mDiagView.setTextColor(0xFF7A8CAE);
+        mDiagView.setTextSize(10);
+        mDiagView.setTypeface(Typeface.MONOSPACE);
+        mDiagView.setPadding(dp(4), dp(4), dp(4), dp(4));
+        GradientDrawable dd = new GradientDrawable();
+        dd.setColor(0xCC0A0E18);
+        dd.setCornerRadius(dp(6));
+        mDiagView.setBackground(dd);
+        synchronized (mDiag) {
+            mDiagView.setText(mDiag.toString());
+        }
+        panel.addView(mDiagView, matchWrap());
+
         Button confirm = primaryButton("CONFIRM AND PLAY");
         confirm.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                String n = name.getText().toString().trim();
-                if (n.isEmpty()) {
-                    name.setError("Enter a name");
-                    return;
-                }
-                confirmCharacter(n);
-            }
+            public void onClick(View v) { confirmCharacter(); }
         });
         panel.addView(confirm, matchWrap());
 
@@ -335,6 +679,15 @@ public final class MainActivity extends Activity implements GHNative.Callback {
         mOverlay.addView(panel, flp);
 
         applySkin();
+        updateSkinIdLabel();
+    }
+
+    private void updateSkinIdLabel() {
+        TextView t = mCharacterPanel == null ? null : (TextView) mCharacterPanel.findViewById(0x2003);
+        if (t != null) {
+            t.setText("Server skin id: " + sampSkinId()
+                    + (mFemale ? " (female)" : " (male)"));
+        }
     }
 
     private void applySkin() {
@@ -348,38 +701,100 @@ public final class MainActivity extends Activity implements GHNative.Callback {
         }
     }
 
-    private void confirmCharacter(String name) {
-        try {
-            JSONObject charSel = new JSONObject();
-            charSel.put("name", name);
-            charSel.put("skin", GHNative.nativeCharacterName(mSkinIndex));
-            charSel.put("gender", mFemale ? "female" : "male");
-            charSel.put("auth", mAuthTokenJson.isEmpty() ? "{}"
-                    : new JSONObject(mAuthTokenJson).optString("access_token", ""));
-            GHRPLog.i("character confirmed: " + charSel);
-        } catch (Throwable t) {
-            GHRPLog.e("confirmCharacter json failed", t);
+    /**
+     * STATE: CHARACTER_REQUIRED -> POST /api/v2/character -> CHARACTER_READY.
+     * The character is saved SERVER-SIDE (accounts.sex/skin) — not just locally.
+     */
+    private void confirmCharacter() {
+        if (mSession == null || mSession.frontToken.isEmpty()) {
+            if (mCharacterPanel != null) {
+                TextView err = mCharacterPanel.findViewById(0x2001);
+                if (err != null) err.setText("No session — sign in again.");
+            }
+            openAuth();
+            return;
         }
-        showPlayStatus(name);
+        final Button[] confirmBtn = {null};
+        if (mCharacterPanel != null) {
+            TextView err = mCharacterPanel.findViewById(0x2001);
+            if (err != null) err.setText("Saving character…");
+        }
+        final String token = mSession.frontToken;
+        final int sex = mFemale ? 1 : 0;
+        final int skinId = sampSkinId();
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    JSONObject body = new JSONObject();
+                    body.put("sex", sex);
+                    body.put("skin", skinId);
+                    Http.JsonResp r = Http.postJson(apiBase() + "/api/v2/character",
+                            body.toString(), token, 20000);
+                    final Http.JsonResp fr = r;
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            if (fr.isOk()) {
+                                try {
+                                    JSONObject d = new JSONObject(fr.body);
+                                    if (d.has("character")) mCharacter = d.getJSONObject("character");
+                                } catch (Throwable ignored) {
+                                }
+                                GHRPLog.i("[state] CHARACTER saved server-side (sex="
+                                        + sex + ", skin=" + skinId + ")");
+                                mCharacterReady = true;
+                                showPlayStatus();
+                            } else {
+                                GHRPLog.e("character save failed: HTTP " + fr.code);
+                                if (mCharacterPanel != null) {
+                                    TextView err = mCharacterPanel.findViewById(0x2001);
+                                    if (err != null) {
+                                        err.setText("Could not save the character (server HTTP "
+                                                + fr.code + "). Check your connection and retry.");
+                                    }
+                                }
+                            }
+                        }
+                    });
+                } catch (Throwable t) {
+                    GHRPLog.e("confirmCharacter failed", t);
+                }
+            }
+        }, "ghrp-charsave").start();
     }
 
     // ------------------------------------------------------------------
     // Play status (honest M1 state: world/network module in development)
     // ------------------------------------------------------------------
-    private void showPlayStatus(String name) {
+    private void showPlayStatus() {
         LinearLayout panel = panelRoot();
         panel.addView(heading("ENTERING " + LauncherConfig.SERVER_CITY));
 
         TextView welcome = new TextView(this);
-        welcome.setText("Welcome, " + name + ".");
+        String nm = mSession != null ? mSession.accountName : "player";
+        welcome.setText("Welcome, " + nm + ".");
         welcome.setTextColor(0xFFDDE6F5);
         welcome.setTextSize(16);
         panel.addView(welcome, matchWrap());
 
+        if (mCharacter != null) {
+            TextView ch = new TextView(this);
+            ch.setText("Character: " + mCharacter.optString("sex", "?")
+                    + " · skin " + mCharacter.optInt("skin", 0)
+                    + " — saved to your account.");
+            ch.setTextColor(0xFF8899BB);
+            ch.setTextSize(13);
+            LinearLayout.LayoutParams lp = matchWrap();
+            lp.topMargin = dp(4);
+            panel.addView(ch, lp);
+        }
+
         TextView status = new TextView(this);
         status.setText("Connecting to Grand Horizon RP (142.132.203.47:14448)…\n\n"
                 + "Engine modules active: renderer, asset pipeline (mesh/textures/animation), "
-                + "character system, touch input.\n\n"
+                + "character system, touch input, session persistence.\n\n"
                 + "In development: world streaming, SA-MP server protocol, audio. "
                 + "The launcher will receive these as engine updates.");
         status.setTextColor(0xFF8899BB);
@@ -387,10 +802,10 @@ public final class MainActivity extends Activity implements GHNative.Callback {
         status.setLineSpacing(dp(2), 1f);
         panel.addView(status, matchWrap());
 
-        Button back = primaryButton("BACK TO CHARACTER");
+        Button back = primaryButton("BACK");
         back.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) { showCharacterCreation(); }
+            public void onClick(View v) { showServerSelect(); }
         });
         panel.addView(back, matchWrap());
 
@@ -444,6 +859,24 @@ public final class MainActivity extends Activity implements GHNative.Callback {
         return b;
     }
 
+    private Button secondaryButton(String text) {
+        Button b = new Button(this);
+        b.setText(text);
+        b.setTextColor(0xFFDDE6F5);
+        b.setTextSize(14);
+        b.setAllCaps(false);
+        GradientDrawable d = new GradientDrawable();
+        d.setColor(0xFF151C2C);
+        d.setCornerRadius(dp(10));
+        d.setStroke(1, 0xFF2A3654);
+        b.setBackground(d);
+        b.setPadding(dp(14), dp(10), dp(14), dp(10));
+        LinearLayout.LayoutParams lp = matchWrap();
+        lp.topMargin = dp(10);
+        b.setLayoutParams(lp);
+        return b;
+    }
+
     private void styleSecondary(Button b) {
         b.setTextColor(0xFFDDE6F5);
         b.setAllCaps(false);
@@ -470,6 +903,7 @@ public final class MainActivity extends Activity implements GHNative.Callback {
 
     private void swapOverlay(View v) {
         mOverlay.removeAllViews();
+        mDiagView = null;
         FrameLayout.LayoutParams lp = new FrameLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
         mOverlay.addView(v, lp);
@@ -511,8 +945,9 @@ public final class MainActivity extends Activity implements GHNative.Callback {
     @SuppressLint("MissingSuperCall")
     @Override
     public void onBackPressed() {
-        // Character screen -> back to server select; otherwise keep flow.
-        if (mCharacterPanel != null) {
+        // Character screen -> back to server select (if a character exists);
+        // otherwise keep the flow forward-only.
+        if (mCharacterPanel != null && mCharacterReady) {
             mCharacterPanel = null;
             showServerSelect();
         }

@@ -24,8 +24,10 @@ export async function POST(req: Request) {
         email: acc.email,
         kind: "guest",
       });
+      // guest_secret returned once to the creating device (re-auth contract).
       return ok({
         front_token,
+        guest_secret: guestPass,
         account: { name: acc.name, email: acc.email },
         message: "GuestCreated",
       });

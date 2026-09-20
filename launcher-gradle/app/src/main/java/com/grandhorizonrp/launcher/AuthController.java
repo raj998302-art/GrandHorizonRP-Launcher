@@ -4,7 +4,6 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.SharedPreferences;
 import android.graphics.Color;
-import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.JavascriptInterface;
@@ -14,8 +13,6 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.FrameLayout;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import org.json.JSONObject;
 
@@ -67,22 +64,7 @@ public final class AuthController {
                 sOpen = true;
 
                 FrameLayout root = new FrameLayout(activity);
-                root.setBackgroundColor(Color.parseColor("#0d0e12"));
-
-                LinearLayout topBar = new LinearLayout(activity);
-                topBar.setOrientation(LinearLayout.VERTICAL);
-                topBar.setBackgroundColor(Color.parseColor("#14161c"));
-                TextView title = new TextView(activity);
-                title.setText("GRAND HORIZON RP — SIGN IN");
-                title.setTextColor(Color.parseColor("#f2f3f5"));
-                title.setTextSize(13);
-                title.setLetterSpacing(0.08f);
-                title.setPadding(dp(activity, 20), dp(activity, 14), dp(activity, 20), dp(activity, 14));
-                topBar.addView(title, new LinearLayout.LayoutParams(
-                        ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
-                root.addView(topBar, new FrameLayout.LayoutParams(
-                        ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT,
-                        Gravity.TOP));
+                root.setBackgroundColor(Color.parseColor("#070a12"));
 
                 WebView web = new WebView(activity);
                 sWebView = web;
@@ -93,7 +75,8 @@ public final class AuthController {
                 settings.setCacheMode(WebSettings.LOAD_DEFAULT);
                 settings.setMediaPlaybackRequiresUserGesture(false);
                 settings.setMixedContentMode(WebSettings.MIXED_CONTENT_NEVER_ALLOW);
-                web.setBackgroundColor(Color.parseColor("#0d0e12"));
+                web.setBackgroundColor(Color.parseColor("#070a12"));
+                web.setOverScrollMode(View.OVER_SCROLL_NEVER);
                 web.setWebChromeClient(new WebChromeClient());
                 web.setWebViewClient(new WebViewClient() {
                     @Override
@@ -109,10 +92,8 @@ public final class AuthController {
                 web.addJavascriptInterface(new Bridge(), "Android");
                 web.loadUrl(url);
 
-                FrameLayout.LayoutParams webParams = new FrameLayout.LayoutParams(
-                        ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
-                webParams.topMargin = dp(activity, 46);
-                root.addView(web, webParams);
+                root.addView(web, new FrameLayout.LayoutParams(
+                        ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
 
                 overlay.addView(root, new FrameLayout.LayoutParams(
                         ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
@@ -205,7 +186,4 @@ public final class AuthController {
         }
     }
 
-    private static int dp(Activity a, int v) {
-        return Math.round(v * a.getResources().getDisplayMetrics().density);
-    }
 }

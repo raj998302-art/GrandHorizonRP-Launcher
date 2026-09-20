@@ -51,7 +51,16 @@ export async function POST(req: Request) {
           email: acc.email,
           kind: "guest",
         });
-        return ok({ front_token, token_type: "Bearer", expires_in: 12 * 3600, account: { name: acc.name, email: acc.email } });
+        // guest_secret: the generated account password, returned ONCE to the
+        // creating device so it can re-auth (grant_type=password) after the
+        // front_token expires. Store only on the device, never in logs.
+        return ok({
+          front_token,
+          guest_secret: guestPass,
+          token_type: "Bearer",
+          expires_in: 12 * 3600,
+          account: { name: acc.name, email: acc.email },
+        });
       });
     }
 

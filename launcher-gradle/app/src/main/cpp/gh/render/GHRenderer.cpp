@@ -54,7 +54,9 @@ bool Renderer::initEgl(ANativeWindow* window) {
 
     if (!loadGlFunctions()) { GHERR("GL: function loading failed"); return false; }
     const char* ver = (const char*)gh_glGetString(GL_VERSION);
-    GHLOG("EGL/GLES ready: %s", ver ? ver : "?");
+    glVersion_ = ver ? ver : "?";
+    astcSupported_.store(checkAstcSupport());
+    GHLOG("EGL/GLES ready: %s (ASTC %s)", glVersion_.c_str(), astcSupported_.load() ? "yes" : "no");
     return true;
 }
 
@@ -117,9 +119,11 @@ void Renderer::threadMain() {
     // Persistent GL defaults.
     gh_glEnable(GL_DEPTH_TEST);
     gh_glDepthFunc(GL_LEQUAL);
-    gh_glEnable(GL_CULL_FACE);
-    gh_glCullFace(GL_BACK);
-    gh_glFrontFace(GL_CCW);
+    // NOTE: cull face stays DISABLED for the character preview — reconstructed
+    // winding from the .mod edge buffers is not guaranteed consistent per-triangle,
+    // and a wrong winding would hide the mesh on some drivers. World scenes will
+    // enable culling once their meshes are authored/verified for it.
+    gh_glDisable(GL_CULL_FACE);
     gh_glClearColor(0.05f, 0.07f, 0.11f, 1.0f);
 
     int frame = 0;

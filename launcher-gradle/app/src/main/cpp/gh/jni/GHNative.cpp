@@ -8,6 +8,7 @@
 #include "../core/GHLog.h"
 #include <string>
 #include <cstring>
+#include <cstdio>
 
 static JavaVM* g_vm = nullptr;
 static jobject g_cbObj = nullptr;
@@ -105,6 +106,17 @@ Java_com_grandhorizonrp_launcher_engine_GHNative_nativeCharacterCount(JNIEnv*, j
 JNIEXPORT jstring JNICALL
 Java_com_grandhorizonrp_launcher_engine_GHNative_nativeCharacterName(JNIEnv* env, jobject, jint skin) {
     return env->NewStringUTF(gh::Engine::get().characterName(skin));
+}
+
+JNIEXPORT jstring JNICALL
+Java_com_grandhorizonrp_launcher_engine_GHNative_nativeGetEngineInfo(JNIEnv* env, jobject) {
+    char buf[320];
+    std::snprintf(buf, sizeof(buf),
+                  "{\"gl\":\"%.48s\",\"astc\":%s,\"skins\":%d}",
+                  gh::Engine::get().rendererGlVersion(),
+                  gh::Engine::get().rendererAstcSupported() ? "true" : "false",
+                  gh::Engine::get().characterSkinCount());
+    return env->NewStringUTF(buf);
 }
 
 JNIEXPORT void JNICALL

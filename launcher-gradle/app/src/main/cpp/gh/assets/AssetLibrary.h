@@ -31,6 +31,12 @@ public:
     bool astcSupported() const { return astcSupported_; }
     void setAstcSupported(bool v) { astcSupported_ = v; }
 
+    // Base name of skin i ("" when out of range) — used for logs/events.
+    const char* skinName(int skinIndex) const {
+        if (skinIndex < 0 || skinIndex >= (int)skins_.size()) return "";
+        return skins_[skinIndex].baseName.c_str();
+    }
+
     // Load the mesh for skin i (parses + decrypts on demand).
     bool loadSkinMesh(int skinIndex, ModMeshData& out);
     // Load the texture for skin i.

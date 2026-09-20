@@ -23,6 +23,10 @@ public:
     bool checkAstcSupport();
     void swap() { eglSwapBuffers(display_, surface_); }
 
+    // Device diagnostics (filled after EGL init; safe to read anytime).
+    const std::string& glVersion() const { return glVersion_; }
+    bool astcSupported() const { return astcSupported_.load(); }
+
 private:
     void threadMain();
     bool initEgl(ANativeWindow* window);
@@ -38,6 +42,7 @@ private:
     std::function<void(int, int)> frameCb_;
     std::mutex mtx_;
     std::string glVersion_;
+    std::atomic<bool> astcSupported_{false};
 };
 
 } // namespace gh

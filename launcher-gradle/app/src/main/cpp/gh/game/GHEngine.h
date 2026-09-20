@@ -32,6 +32,10 @@ public:
     void touch(int action, float x, float y);
     int characterSkinCount() const;
 
+    // Device diagnostics for the Java side (nativeGetEngineInfo).
+    const char* rendererGlVersion() const { return renderer_.glVersion().c_str(); }
+    bool rendererAstcSupported() const { return renderer_.astcSupported(); }
+
     // Java-side callbacks (set from JNI).
     using JavaCallback = std::function<void(const char* method, const char* json)>;
     void setJavaCallback(JavaCallback cb) { javaCb_ = std::move(cb); }
@@ -62,6 +66,7 @@ private:
     Vec3 target_{0, 0.9f, 0};
 
     std::atomic<bool> started_{false};
+    bool infoEmitted_ = false;
     JavaCallback javaCb_;
     std::string dataRoot_;
 };

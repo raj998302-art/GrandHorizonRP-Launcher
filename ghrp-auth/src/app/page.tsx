@@ -5,11 +5,19 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 /* ============================================================
  * Grand Horizon RP — SSO (launcher WebView)
  *
- * Reproduces the original launcher authentication architecture:
- *   Sign in / Sign up (email -> verification code -> password),
- *   Recovery, Guest, Success -> START PLAY -> Android.initToken.
- * JS bridge name: "Android" (WebViewAuthFragment adds
- * addJavascriptInterface(WebAppInterface, "Android")).
+ * Architecture (matches the original launcher contract):
+ *   WebView = AUTHENTICATION ONLY (login / register / recovery / guest).
+ *   Server select, character select, world = NATIVE engine.
+ *
+ * Flow: Sign in / Sign up (email -> code -> password), Recovery,
+ *   Guest -> Success -> START PLAY -> Android.initToken(payload).
+ * Bridge name: "Android" (AuthController injects it).
+ *
+ * Session state machine (this page):
+ *   main -> signin | signup-email | recovery-email | guest-wait -> success
+ *   success -> [launcher?] handoff (initToken) : info note
+ * Persistence itself lives on the device (launcher SessionStore) —
+ * this page only hands the fresh identity to the native side.
  * ============================================================ */
 
 type Screen =
@@ -72,12 +80,18 @@ function callAndroid(method: string, arg?: string): boolean {
   }
 }
 
-/** Hand the front_token to the native engine (AuthViewModel.saveTokenAndCloseWebView). */
-function initTokenNative(frontToken: string): boolean {
-  return callAndroid("initToken", JSON.stringify({ front_token: frontToken }));
+export interface HandoffPayload {
+  front_token: string;
+  guest_secret?: string;
+  account?: { name?: string; email?: string; kind?: string };
 }
 
-/* ---------- API client (mirrors the original retry contract) ---------- */
+/** Hand the full identity to the native launcher (AuthController bridge). */
+function initTokenNative(p: HandoffPayload): boolean {
+  return callAndroid("initToken", JSON.stringify(p));
+}
+
+/* ---------- API client (retry contract as before) ---------- */
 
 async function api(path: string, body?: object, method: "POST" | "GET" = "POST"): Promise<ApiResult> {
   const ctrl = new AbortController();
@@ -112,21 +126,31 @@ async function api(path: string, body?: object, method: "POST" | "GET" = "POST")
   return { success: true, data };
 }
 
-/* ---------- Brand emblem (same geometry as the launcher splash) ---------- */
+/* ---------- Brand emblem (same geometry family as the launcher splash) ---------- */
 
-function Emblem({ size = 56 }: { size?: number }) {
+function Emblem({ size = 52 }: { size?: number }) {
   return (
-    <svg width={size} height={size * 1.08} viewBox="0 0 120 130" aria-hidden="true">
+    <svg width={size} height={size * 1.08} viewBox="0 0 120 130" aria-hidden="true" className="ghrp-emblem">
       <defs>
         <linearGradient id="ghrpSun" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stopColor="#FF6318" />
-          <stop offset="1" stopColor="#C60000" />
+          <stop offset="0" stopColor="#FFD86B" />
+          <stop offset="0.5" stopColor="#F0A93B" />
+          <stop offset="1" stopColor="#C97A1E" />
         </linearGradient>
+        <filter id="ghrpGlow" x="-40%" y="-40%" width="180%" height="180%">
+          <feGaussianBlur stdDeviation="3.2" result="b" />
+          <feMerge>
+            <feMergeNode in="b" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
       </defs>
-      <path d="M25,52 A35,35 0 0 1 95,52 L95,56 L25,56 Z" fill="url(#ghrpSun)" />
-      <rect x="12" y="72" width="96" height="7" rx="1" fill="#FFFFFF" />
-      <rect x="22" y="88" width="76" height="6" rx="1" fill="#B9BEC7" />
-      <rect x="32" y="103" width="56" height="5" rx="1" fill="#7A8089" />
+      <g filter="url(#ghrpGlow)">
+        <path d="M25,52 A35,35 0 0 1 95,52 L95,56 L25,56 Z" fill="url(#ghrpSun)" />
+        <rect x="12" y="72" width="96" height="7" rx="1.5" fill="#FFFFFF" opacity="0.94" />
+        <rect x="22" y="88" width="76" height="6" rx="1.5" fill="#C6CBD4" opacity="0.8" />
+        <rect x="32" y="103" width="56" height="5" rx="1.5" fill="#8A9099" opacity="0.66" />
+      </g>
     </svg>
   );
 }
@@ -143,13 +167,75 @@ function Brand() {
   );
 }
 
+/* ---------- Icons (inline SVG — no unicode placeholders) ---------- */
+
+const iconProps = { width: 18, height: 18, viewBox: "0 0 24 24", fill: "none" } as const;
+
+const Icon = {
+  mail: (p: { className?: string }) => (
+    <svg {...iconProps} className={p.className} aria-hidden="true">
+      <rect x="3" y="5" width="18" height="14" rx="2.5" stroke="currentColor" strokeWidth="1.7" />
+      <path d="M4 7.5l8 5.5 8-5.5" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  ),
+  user: (p: { className?: string }) => (
+    <svg {...iconProps} className={p.className} aria-hidden="true">
+      <circle cx="12" cy="8" r="3.6" stroke="currentColor" strokeWidth="1.7" />
+      <path d="M4.5 20c1.4-3.4 4.2-5 7.5-5s6.1 1.6 7.5 5" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" />
+    </svg>
+  ),
+  key: (p: { className?: string }) => (
+    <svg {...iconProps} className={p.className} aria-hidden="true">
+      <circle cx="8" cy="12" r="3.5" stroke="currentColor" strokeWidth="1.7" />
+      <path d="M11.5 12H21m-3.5 0v3m-2.5-3v2.2" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" />
+    </svg>
+  ),
+  arrowLeft: (p: { className?: string }) => (
+    <svg {...iconProps} className={p.className} aria-hidden="true">
+      <path d="M19 12H5m0 0 6-6m-6 6 6 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  ),
+  eye: (p: { className?: string }) => (
+    <svg {...iconProps} className={p.className} aria-hidden="true">
+      <path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+      <circle cx="12" cy="12" r="2.8" stroke="currentColor" strokeWidth="1.6" />
+    </svg>
+  ),
+  eyeOff: (p: { className?: string }) => (
+    <svg {...iconProps} className={p.className} aria-hidden="true">
+      <path d="M4 4l16 16M9.9 5.9A9.9 9.9 0 0 1 12 5.5c6 0 9.5 6.5 9.5 6.5a17 17 0 0 1-3.2 3.9M6.3 8.2A16.6 16.6 0 0 0 2.5 12S6 18.5 12 18.5c1 0 1.9-.15 2.7-.4"
+        stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+      <path d="M9.9 9.9a3 3 0 0 0 4.2 4.2" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+    </svg>
+  ),
+  check: (p: { className?: string }) => (
+    <svg width={40} height={40} viewBox="0 0 24 24" fill="none" className={p.className} aria-hidden="true">
+      <path d="M4 12.5l5 5L20 6.5" stroke="#39D98A" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  ),
+  shield: (p: { className?: string }) => (
+    <svg {...iconProps} className={p.className} aria-hidden="true">
+      <path d="M12 3l7.5 2.8v5.4c0 4.6-3.1 8.2-7.5 9.8-4.4-1.6-7.5-5.2-7.5-9.8V5.8L12 3Z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+      <path d="M8.8 12.2l2.2 2.2 4.2-4.4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  ),
+  chevron: (p: { className?: string }) => (
+    <svg {...iconProps} className={p.className} aria-hidden="true">
+      <path d="M9 6l6 6-6 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  ),
+};
+
 /* ---------- Small pieces ---------- */
 
 function ErrorBox({ msg }: { msg: string | null }) {
   if (!msg) return null;
   return (
     <div className="ghrp-error" role="alert">
-      <span aria-hidden="true">⚠</span>
+      <svg width={15} height={15} viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <circle cx="12" cy="12" r="9.5" stroke="currentColor" strokeWidth="1.8" />
+        <path d="M12 7.5v5.5M12 16.4v.4" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" />
+      </svg>
       <span>{msg}</span>
     </div>
   );
@@ -207,12 +293,54 @@ function PasswordChecks({ pw }: { pw: string }) {
     { ok: pw.length > 0 && !/\s/.test(pw), label: "no spaces" },
   ];
   return (
-    <div style={{ display: "flex", gap: 10, marginTop: 6, flexWrap: "wrap" }}>
+    <div className="ghrp-pwchecks">
       {items.map((it) => (
-        <span key={it.label} style={{ fontSize: 10.5, fontWeight: 700, color: it.ok ? "var(--ghrp-ok)" : "var(--ghrp-text-faint)" }}>
-          {it.ok ? "●" : "○"} {it.label}
+        <span key={it.label} className={it.ok ? "ok" : ""}>
+          {it.ok ? "\u25CF" : "\u25CB"} {it.label}
         </span>
       ))}
+    </div>
+  );
+}
+
+/** Password input with a visibility toggle (reference interaction). */
+function PasswordField({
+  id, label, placeholder, value, onChange, onEnter, autoComplete,
+}: {
+  id: string; label: string; placeholder: string; value: string;
+  onChange: (v: string) => void; onEnter?: () => void; autoComplete?: string;
+}) {
+  const [show, setShow] = useState(false);
+  return (
+    <div className="ghrp-field">
+      <label className="ghrp-label" htmlFor={id}>{label}</label>
+      <div className="ghrp-inputwrap">
+        <input
+          id={id}
+          className="ghrp-input has-trailing"
+          type={show ? "text" : "password"}
+          autoComplete={autoComplete || "new-password"}
+          placeholder={placeholder}
+          value={value}
+          onChange={(e) => onChange(e.target.value)}
+          onKeyDown={(e) => e.key === "Enter" && onEnter?.()}
+        />
+        <button type="button" className="ghrp-input-icon" aria-label={show ? "Hide password" : "Show password"}
+          onClick={() => setShow((s) => !s)}>
+          {show ? <Icon.eyeOff /> : <Icon.eye />}
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function BackBar({ onBack }: { onBack: () => void }) {
+  return (
+    <div className="ghrp-topbar">
+      <button className="ghrp-back" onClick={onBack} aria-label="Back">
+        <Icon.arrowLeft />
+        <span>Back</span>
+      </button>
     </div>
   );
 }
@@ -232,7 +360,9 @@ export default function Page() {
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const [frontToken, setFrontToken] = useState<string | null>(null);
+  const [guestSecret, setGuestSecret] = useState<string | null>(null);
   const [accountName, setAccountName] = useState<string>("");
+  const [accountKind, setAccountKind] = useState<string>("user");
   const [resent, setResent] = useState(false);
   const [seconds, setSeconds] = useState(0);
   const [nativeHandedOff, setNativeHandedOff] = useState(false);
@@ -240,6 +370,10 @@ export default function Page() {
 
   useEffect(() => {
     setInLauncher(android() !== null);
+    // E-mail prefill from the launcher (restore/re-login case).
+    const q = new URLSearchParams(window.location.search);
+    const e = q.get("email");
+    if (e && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)) setEmail(e);
   }, []);
 
   /* resend timer */
@@ -264,7 +398,9 @@ export default function Page() {
     setBusy(false);
     if (!r.success) return setError(errText(r.error));
     setFrontToken(String(r.data?.front_token || ""));
+    setGuestSecret(null);
     setAccountName(String((r.data?.account as any)?.name || ""));
+    setAccountKind("user");
     go("success");
   }, [busy, email, password]);
 
@@ -312,7 +448,9 @@ export default function Page() {
     setBusy(false);
     if (!r.success) return setError(errText(r.error));
     setFrontToken(String(r.data?.front_token || ""));
+    setGuestSecret(null);
     setAccountName(String((r.data?.account as any)?.name || ""));
+    setAccountKind("user");
     go("success");
   }, [busy, password, password2, stateTok]);
 
@@ -386,17 +524,27 @@ export default function Page() {
       return go("main");
     }
     setFrontToken(String(r.data?.front_token || ""));
+    setGuestSecret(String(r.data?.guest_secret || "") || null);
     setAccountName(String((r.data?.account as any)?.name || ""));
+    setAccountKind("guest");
     go("success");
   }, [busy]);
 
   /* ---------- Start play (native handoff) ---------- */
   const doStartPlay = useCallback(() => {
     if (!frontToken) return;
-    const ok = initTokenNative(frontToken);
-    setNativeHandedOff(ok);
-  }, [frontToken]);
-
+    const payload: HandoffPayload = {
+      front_token: frontToken,
+      account: {
+        name: accountName || undefined,
+        email: email || undefined,
+        kind: accountKind || "user",
+      },
+    };
+    if (guestSecret) payload.guest_secret = guestSecret;
+    const okNative = initTokenNative(payload);
+    setNativeHandedOff(okNative);
+  }, [frontToken, guestSecret, accountName, accountKind, email]);
 
   /* ============================================================ */
 
@@ -410,15 +558,16 @@ export default function Page() {
         <div className="ghrp-h1">Authorization</div>
         <p className="ghrp-sub">Sign in to continue to Grand Horizon RP</p>
         <button className="ghrp-btn" onClick={() => go("signin")}>
-          Sign in with email
+          <Icon.mail /> Sign in with email
+          <Icon.chevron className="tail" />
         </button>
-        <div className="ghrp-or">or</div>
+        <div className="ghrp-or"><span>or</span></div>
         <div className="ghrp-social">
-          <button className="ghrp-social-btn" type="button" onClick={() => doGuest()} disabled={busy}>
-            <span aria-hidden="true">👤</span> Continue as guest
+          <button className="ghrp-social-btn guest" type="button" onClick={() => doGuest()} disabled={busy}>
+            <Icon.user /> Continue as guest
           </button>
           <button className="ghrp-social-btn" type="button" onClick={() => go("signup-email")}>
-            <span aria-hidden="true">✉</span> Create account
+            <Icon.key /> Create account
           </button>
         </div>
         <p className="ghrp-footnote">
@@ -433,50 +582,34 @@ export default function Page() {
   if (screen === "signin") {
     content = (
       <>
-        <div className="ghrp-topbar">
-          <button className="ghrp-back" onClick={() => go("main")}>
-            ← Back
-          </button>
-        </div>
+        <BackBar onBack={() => go("main")} />
         <div className="ghrp-h1">Sign In</div>
         <p className="ghrp-sub">Enter your account e-mail and password</p>
         <div className="ghrp-field">
           <label className="ghrp-label" htmlFor="si-email">E-mail</label>
-          <input
-            id="si-email"
-            className="ghrp-input"
-            type="email"
-            autoComplete="email"
-            placeholder="Enter your e-mail address"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && doSignIn()}
-          />
+          <div className="ghrp-inputwrap">
+            <input
+              id="si-email"
+              className="ghrp-input has-leading"
+              type="email"
+              autoComplete="email"
+              placeholder="Enter your e-mail address"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              onKeyDown={(e) => e.key === "Enter" && doSignIn()}
+            />
+            <span className="ghrp-input-icon lead"><Icon.mail /></span>
+          </div>
         </div>
-        <div className="ghrp-field">
-          <label className="ghrp-label" htmlFor="si-pass">Password</label>
-          <input
-            id="si-pass"
-            className="ghrp-input"
-            type="password"
-            autoComplete="current-password"
-            placeholder="Enter your password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && doSignIn()}
-          />
-        </div>
+        <PasswordField id="si-pass" label="Password" placeholder="Enter your password"
+          value={password} onChange={setPassword} onEnter={doSignIn} autoComplete="current-password" />
         <ErrorBox msg={error} />
         <button className="ghrp-btn" onClick={doSignIn} disabled={busy}>
-          {busy ? "Signing in…" : "Sign In"}
+          {busy ? <><span className="ghrp-ldot" /> Signing in…</> : <>Sign In</>}
         </button>
-        <div style={{ display: "flex", justifyContent: "center", gap: 18, marginTop: 10 }}>
-          <button className="ghrp-link" onClick={() => go("recovery-email")}>
-            Forgot password?
-          </button>
-          <button className="ghrp-link" onClick={() => go("signup-email")}>
-            Sign Up
-          </button>
+        <div className="ghrp-rowlinks">
+          <button className="ghrp-link" onClick={() => go("recovery-email")}>Forgot password?</button>
+          <button className="ghrp-link" onClick={() => go("signup-email")}>Sign Up</button>
         </div>
       </>
     );
@@ -485,29 +618,28 @@ export default function Page() {
   if (screen === "signup-email") {
     content = (
       <>
-        <div className="ghrp-topbar">
-          <button className="ghrp-back" onClick={() => go("main")}>
-            ← Back
-          </button>
-        </div>
+        <BackBar onBack={() => go("main")} />
         <div className="ghrp-h1">Sign Up</div>
         <p className="ghrp-sub">Enter your e-mail — we will send a 6-digit verification code</p>
         <div className="ghrp-field">
           <label className="ghrp-label" htmlFor="su-email">E-mail</label>
-          <input
-            id="su-email"
-            className="ghrp-input"
-            type="email"
-            autoComplete="email"
-            placeholder="Enter your e-mail address"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && doRegStart()}
-          />
+          <div className="ghrp-inputwrap">
+            <input
+              id="su-email"
+              className="ghrp-input has-leading"
+              type="email"
+              autoComplete="email"
+              placeholder="Enter your e-mail address"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              onKeyDown={(e) => e.key === "Enter" && doRegStart()}
+            />
+            <span className="ghrp-input-icon lead"><Icon.mail /></span>
+          </div>
         </div>
         <ErrorBox msg={error} />
         <button className="ghrp-btn" onClick={doRegStart} disabled={busy}>
-          {busy ? "Sending code…" : "Continue"}
+          {busy ? <><span className="ghrp-ldot" /> Sending code…</> : <>Continue</>}
         </button>
         <p className="ghrp-footnote">Already have an account? Sign in instead.</p>
       </>
@@ -517,13 +649,9 @@ export default function Page() {
   if (screen === "signup-code") {
     content = (
       <>
-        <div className="ghrp-topbar">
-          <button className="ghrp-back" onClick={() => go("signup-email")}>
-            ← Back
-          </button>
-        </div>
+        <BackBar onBack={() => go("signup-email")} />
         <div className="ghrp-h1">Verify E-mail</div>
-        <p className="ghrp-sub">Enter the 6-digit code sent to {email}</p>
+        <p className="ghrp-sub">Enter the 6-digit code sent to <b>{email}</b></p>
         <CodeBoxes value={code} onChange={setCode} disabled={busy} />
         {devCode && (
           <div className="ghrp-note">
@@ -532,16 +660,14 @@ export default function Page() {
         )}
         <ErrorBox msg={error} />
         <button className="ghrp-btn" onClick={doRegValidate} disabled={busy || code.length !== 6}>
-          {busy ? "Verifying…" : "Verify"}
+          {busy ? <><span className="ghrp-ldot" /> Verifying…</> : <>Verify</>}
         </button>
         <div className="ghrp-timer">
           {resent && <div style={{ marginBottom: 4, color: "var(--ghrp-ok)" }}>The code has been sent again.</div>}
           {seconds > 0 ? (
             <>Resend available in {seconds}s</>
           ) : (
-            <button className="ghrp-link" onClick={doResend} disabled={busy}>
-              Resend code
-            </button>
+            <button className="ghrp-link" onClick={doResend} disabled={busy}>Resend code</button>
           )}
         </div>
       </>
@@ -551,42 +677,17 @@ export default function Page() {
   if (screen === "signup-password") {
     content = (
       <>
-        <div className="ghrp-topbar">
-          <button className="ghrp-back" onClick={() => go("signup-code")}>
-            ← Back
-          </button>
-        </div>
+        <BackBar onBack={() => go("signup-code")} />
         <div className="ghrp-h1">Create a Password</div>
         <p className="ghrp-sub">Your account {email} is verified — set a password to finish</p>
-        <div className="ghrp-field">
-          <label className="ghrp-label" htmlFor="su-pass">Password</label>
-          <input
-            id="su-pass"
-            className="ghrp-input"
-            type="password"
-            autoComplete="new-password"
-            placeholder="Create a password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-          <PasswordChecks pw={password} />
-        </div>
-        <div className="ghrp-field">
-          <label className="ghrp-label" htmlFor="su-pass2">Repeat password</label>
-          <input
-            id="su-pass2"
-            className="ghrp-input"
-            type="password"
-            autoComplete="new-password"
-            placeholder="Enter the password again"
-            value={password2}
-            onChange={(e) => setPassword2(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && doRegPassword()}
-          />
-        </div>
+        <PasswordField id="su-pass" label="Password" placeholder="Create a password"
+          value={password} onChange={setPassword} onEnter={doRegPassword} />
+        <PasswordField id="su-pass2" label="Repeat password" placeholder="Repeat the password"
+          value={password2} onChange={setPassword2} onEnter={doRegPassword} />
+        <PasswordChecks pw={password} />
         <ErrorBox msg={error} />
-        <button className="ghrp-btn" onClick={doRegPassword} disabled={busy || password.length < 8 || password !== password2}>
-          {busy ? "Creating account…" : "Create Account"}
+        <button className="ghrp-btn" onClick={doRegPassword} disabled={busy}>
+          {busy ? <><span className="ghrp-ldot" /> Saving…</> : <>Save Password</>}
         </button>
       </>
     );
@@ -595,28 +696,28 @@ export default function Page() {
   if (screen === "recovery-email") {
     content = (
       <>
-        <div className="ghrp-topbar">
-          <button className="ghrp-back" onClick={() => go("signin")}>
-            ← Back
-          </button>
-        </div>
+        <BackBar onBack={() => go("signin")} />
         <div className="ghrp-h1">Password Recovery</div>
-        <p className="ghrp-sub">Enter the e-mail of your account — we will send a verification code</p>
+        <p className="ghrp-sub">Enter the e-mail linked to your account</p>
         <div className="ghrp-field">
           <label className="ghrp-label" htmlFor="rec-email">E-mail</label>
-          <input
-            id="rec-email"
-            className="ghrp-input"
-            type="email"
-            placeholder="Enter your e-mail address"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && doRecStart()}
-          />
+          <div className="ghrp-inputwrap">
+            <input
+              id="rec-email"
+              className="ghrp-input has-leading"
+              type="email"
+              autoComplete="email"
+              placeholder="Enter your e-mail address"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              onKeyDown={(e) => e.key === "Enter" && doRecStart()}
+            />
+            <span className="ghrp-input-icon lead"><Icon.mail /></span>
+          </div>
         </div>
         <ErrorBox msg={error} />
         <button className="ghrp-btn" onClick={doRecStart} disabled={busy}>
-          {busy ? "Sending…" : "Continue"}
+          {busy ? <><span className="ghrp-ldot" /> Sending code…</> : <>Continue</>}
         </button>
       </>
     );
@@ -625,25 +726,21 @@ export default function Page() {
   if (screen === "recovery-code") {
     content = (
       <>
-        <div className="ghrp-topbar">
-          <button className="ghrp-back" onClick={() => go("recovery-email")}>
-            ← Back
-          </button>
-        </div>
-        <div className="ghrp-h1">Verify E-mail</div>
-        <p className="ghrp-sub">Enter the 6-digit code sent to {email}</p>
+        <BackBar onBack={() => go("recovery-email")} />
+        <div className="ghrp-h1">Enter the Code</div>
+        <p className="ghrp-sub">We sent a 6-digit code to <b>{email}</b></p>
         <CodeBoxes value={code} onChange={setCode} disabled={busy} />
         {devCode && (
-          <div className="ghrp-note">
-            Demo delivery (no mail server connected): your code is <b>{devCode}</b>
-          </div>
+          <div className="ghrp-note">Demo delivery: your code is <b>{devCode}</b></div>
         )}
         <ErrorBox msg={error} />
         <button className="ghrp-btn" onClick={doRecValidate} disabled={busy || code.length !== 6}>
-          {busy ? "Verifying…" : "Verify"}
+          {busy ? <><span className="ghrp-ldot" /> Verifying…</> : <>Verify</>}
         </button>
         <div className="ghrp-timer">
-          {seconds > 0 ? <>Resend available in {seconds}s</> : <button className="ghrp-link" onClick={doRecStart}>Resend code</button>}
+          {seconds > 0 ? <>Resend available in {seconds}s</> : (
+            <button className="ghrp-link" onClick={doRecStart} disabled={busy}>Resend code</button>
+          )}
         </div>
       </>
     );
@@ -652,42 +749,17 @@ export default function Page() {
   if (screen === "recovery-newpassword") {
     content = (
       <>
-        <div className="ghrp-topbar">
-          <button className="ghrp-back" onClick={() => go("recovery-code")}>
-            ← Back
-          </button>
-        </div>
-        <div className="ghrp-h1">Set a New Password</div>
+        <BackBar onBack={() => go("recovery-code")} />
+        <div className="ghrp-h1">New Password</div>
         <p className="ghrp-sub">Choose a new password for {email}</p>
-        <div className="ghrp-field">
-          <label className="ghrp-label" htmlFor="rec-pass">New password</label>
-          <input
-            id="rec-pass"
-            className="ghrp-input"
-            type="password"
-            autoComplete="new-password"
-            placeholder="Enter a new password"
-            value={newPassword}
-            onChange={(e) => setNewPassword(e.target.value)}
-          />
-          <PasswordChecks pw={newPassword} />
-        </div>
-        <div className="ghrp-field">
-          <label className="ghrp-label" htmlFor="rec-pass2">Repeat new password</label>
-          <input
-            id="rec-pass2"
-            className="ghrp-input"
-            type="password"
-            autoComplete="new-password"
-            placeholder="Enter the password again"
-            value={newPassword2}
-            onChange={(e) => setNewPassword2(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && doRecPassword()}
-          />
-        </div>
+        <PasswordField id="rec-pass" label="New password" placeholder="New password"
+          value={newPassword} onChange={setNewPassword} onEnter={doRecPassword} />
+        <PasswordField id="rec-pass2" label="Repeat new password" placeholder="Repeat the new password"
+          value={newPassword2} onChange={setNewPassword2} onEnter={doRecPassword} />
+        <PasswordChecks pw={newPassword} />
         <ErrorBox msg={error} />
-        <button className="ghrp-btn" onClick={doRecPassword} disabled={busy || newPassword.length < 8 || newPassword !== newPassword2}>
-          {busy ? "Saving…" : "Save Password"}
+        <button className="ghrp-btn" onClick={doRecPassword} disabled={busy}>
+          {busy ? <><span className="ghrp-ldot" /> Saving…</> : <>Save Password</>}
         </button>
       </>
     );
@@ -696,11 +768,7 @@ export default function Page() {
   if (screen === "recovery-done") {
     content = (
       <>
-        <div className="ghrp-success-ring" aria-hidden="true">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
-            <path d="M4 12.5l5 5L20 6.5" stroke="#35c26b" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-        </div>
+        <div className="ghrp-success-ring" aria-hidden="true"><Icon.check /></div>
         <div className="ghrp-h1">Password Changed</div>
         <p className="ghrp-sub">You have successfully changed your password. Use it to sign in next time.</p>
         <button className="ghrp-btn" onClick={() => { setPassword(""); go("signin"); }}>
@@ -715,7 +783,7 @@ export default function Page() {
       <>
         <Brand />
         <div style={{ height: 18 }} />
-        <div className="ghrp-spin" aria-hidden="true" />
+        <span className="ghrp-spin" aria-hidden="true" />
         <div className="ghrp-h1">Creating Guest Account</div>
         <p className="ghrp-sub">Setting up your guest character…</p>
       </>
@@ -726,13 +794,11 @@ export default function Page() {
     content = (
       <>
         <Brand />
-        <div className="ghrp-success-ring" aria-hidden="true">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
-            <path d="M4 12.5l5 5L20 6.5" stroke="#35c26b" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-        </div>
+        <div className="ghrp-success-ring pop" aria-hidden="true"><Icon.check /></div>
         <div className="ghrp-h1">Success</div>
-        <p className="ghrp-sub">You have successfully completed registration!</p>
+        <p className="ghrp-sub">
+          {accountKind === "guest" ? "Your guest account is ready!" : "You have successfully signed in!"}
+        </p>
         {accountName && (
           <div className="ghrp-account-chip">
             <span className="k">Character</span>
@@ -740,8 +806,8 @@ export default function Page() {
           </div>
         )}
         <ErrorBox msg={error} />
-        <button className="ghrp-btn" onClick={doStartPlay}>
-          Start Playing
+        <button className="ghrp-btn big" onClick={doStartPlay}>
+          <Icon.shield /> Start Playing
         </button>
         {nativeHandedOff === false && (
           <div className="ghrp-note">
@@ -758,8 +824,18 @@ export default function Page() {
 
   return (
     <main className="ghrp-shell">
-      <div className="ghrp-backdrop" aria-hidden="true" />
-      <div className="ghrp-card">{content}</div>
+      <div className="ghrp-backdrop" aria-hidden="true">
+        <img src="/bg.jpg" alt="" className="ghrp-bgimg" />
+        <div className="ghrp-bgveil" />
+      </div>
+      <div className="ghrp-card" key={screen}>
+        {content}
+      </div>
+      <div className="ghrp-footer" aria-hidden="true">
+        <span>GRAND HORIZON RP</span>
+        <span className="sep" />
+        <span>Horizon City</span>
+      </div>
     </main>
   );
 }
