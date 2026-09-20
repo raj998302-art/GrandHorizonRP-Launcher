@@ -125,7 +125,7 @@ check(valid_dex, "all dex headers valid")
 # engine intact + patches present in dex
 c4 = z.read("classes4.dex")
 check(b"com/blackhub/bronline/game/core/JNILib" in c4, "engine JNILib class present in classes4")
-check(b"cdn.jsdelivr.net/gh/raj998302-art/GrandHorizonRP-Launcher@0a76d48b7a1a18f96ce717515545b77a8901da40/client-api/" in c4, "jsDelivr PINNED API URL in classes4")
+check(b"cdn.jsdelivr.net/gh/raj998302-art/GrandHorizonRP-Launcher@1ddc504b1698c37196cf8e54138e57cd3254caf1/client-api/" in c4, "jsDelivr PINNED API URL in classes4")
 check(b"blackrussia.online" not in c4 and b"black-russia.com" not in c4, "no old API urls in classes4")
 check(b"com.grandhorizonrp.launcher/files" in c4, "files path constant patched")
 check(b"releases/download/latest/GrandHorizonRP-Launcher.apk" in c4, "self-update GitHub link patched")

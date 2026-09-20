@@ -26,7 +26,7 @@ jobs:
         run: |
           curl -sL --retry 3 -o launcher-unsigned.apk \
             "https://github.com/raj998302-art/GrandHorizonRP-Launcher/releases/download/latest/launcher-unsigned.apk"
-          EXPECTED=118553666
+          EXPECTED=117376366
           ACTUAL=$(stat -c%s launcher-unsigned.apk)
           echo "size: $ACTUAL (expected $EXPECTED)"
           test "$ACTUAL" -eq "$EXPECTED"
@@ -56,7 +56,7 @@ jobs:
 
       - name: Verify deterministic digest
         run: |
-          EXPECTED_SHA=4d5abe153dbeddf125d1150813c00a9daab8936c6f6df4fbc5fe6248967dc6f5
+          EXPECTED_SHA=84b0feac7aa72c8a542b797c3e7934bc8b02422417faeb7554399ea5d8a7620c
           ACTUAL_SHA=$(sha256sum GrandHorizonRP-Launcher.apk | cut -d' ' -f1)
           echo "digest: $ACTUAL_SHA (expected $EXPECTED_SHA)"
           test "$ACTUAL_SHA" = "$EXPECTED_SHA"
