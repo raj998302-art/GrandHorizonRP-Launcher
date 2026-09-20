@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Grand Horizon RP</string>
+    <string name="app_tag">ROLEPLAY</string>
+    <string name="update_status_starting">Starting…</string>
+    <string name="update_status_checking">Checking resources…</string>
+    <string name="update_status_downloading">Downloading game data</string>
+    <string name="update_status_complete">Starting engine…</string>
+    <string name="error_title">Grand Horizon RP</string>
+</resources>
