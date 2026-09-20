@@ -65,13 +65,31 @@ jobs:
           if [ "$BADDEX" != "0" ]; then echo "FATAL: foreign classes in dex"; exit 1; fi
           echo "PROVENANCE OK: from-scratch engine + from-scratch Java only"
 
-      - name: Publish APK to release
+      - name: Publish APK to release (REST API)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           APK=launcher-gradle/app/build/outputs/apk/release/app-release.apk
           SHA=$(sha256sum "$APK" | cut -d' ' -f1)
           echo "sha256: $SHA"
-          gh release upload latest "$APK#GrandHorizonRP-Launcher-v8-EngineFromScratch.apk" --clobber || \
-          gh release create latest "$APK#GrandHorizonRP-Launcher-v8-EngineFromScratch.apk" \
-            --title "Grand Horizon RP Launcher" --notes "From-scratch GHEngine build (v8). sha256: $SHA"
+          RID=$(curl -s -H "Authorization: token $GH_TOKEN" \
+            "https://api.github.com/repos/${{ github.repository }}/releases/tags/latest" \
+            | python3 -c "import json,sys; print(json.load(sys.stdin)['id'])")
+          echo "release id: $RID"
+          for NAME in GrandHorizonRP-Launcher-v8-EngineFromScratch.apk GrandHorizonRP-Launcher.apk; do
+            AID=$(curl -s -H "Authorization: token $GH_TOKEN" \
+              "https://api.github.com/repos/${{ github.repository }}/releases/$RID/assets" \
+              | python3 -c "import json,sys
+        for a in json.load(sys.stdin):
+            if a['name'] == '$NAME': print(a['id']); break")
+            if [ -n "$AID" ]; then
+              curl -s -X DELETE -H "Authorization: token $GH_TOKEN" \
+                "https://api.github.com/repos/${{ github.repository }}/releases/assets/$AID"
+              echo "deleted old $NAME"
+            fi
+            curl -s -X POST -H "Authorization: token $GH_TOKEN" \
+              -H "Content-Type: application/vnd.android.package-archive" \
+              --data-binary @"$APK" \
+              "https://uploads.github.com/repos/${{ github.repository }}/releases/$RID/assets?name=$NAME" \
+              | python3 -c "import json,sys; d=json.load(sys.stdin); print('uploaded:', d.get('name'), d.get('size'), 'bytes')"
+          done
