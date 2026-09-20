@@ -87,7 +87,8 @@ int main(int argc, char** argv) {
     {
         BpcArchive t;
         bool ok = false;
-        if (t.open("/home/z/ghrp-scratch/fmt/files.textures.Characters.astc.bpc.tmb")) {
+        snprintf(path, sizeof(path), "%s/files.textures.Characters.astc.bpc.tmb", dir);
+        if (t.open(path)) {
             const BpcEntry* e = t.find("AK_LckLnz_M.btx");
             if (e) {
                 std::vector<uint8_t> raw; t.read(*e, raw);
