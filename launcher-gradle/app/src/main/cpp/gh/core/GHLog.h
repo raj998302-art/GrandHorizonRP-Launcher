@@ -1,7 +1,14 @@
 // GHEngine — from-scratch native engine for GRAND HORIZON RP.
 // File logging (mirrors the launcher's GHRPLog on the Java side).
 #pragma once
+#ifdef __ANDROID__
 #include <android/log.h>
+#else
+#include <cstdio>
+#define __android_log_print(prio, tag, fmt, ...) ((void)0)
+#define ANDROID_LOG_INFO 4
+#define ANDROID_LOG_ERROR 6
+#endif
 #include <cstdio>
 #include <cstdarg>
 #include <ctime>

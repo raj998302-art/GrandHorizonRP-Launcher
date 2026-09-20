@@ -5,10 +5,12 @@
 #include <android/native_window_jni.h>
 #include <android/log.h>
 #include "../game/GHEngine.h"
+#include "../net/GameClient.h"
 #include "../core/GHLog.h"
 #include <string>
 #include <cstring>
 #include <cstdio>
+#include <mutex>
 
 static JavaVM* g_vm = nullptr;
 static jobject g_cbObj = nullptr;
@@ -123,6 +125,48 @@ JNIEXPORT void JNICALL
 Java_com_grandhorizonrp_launcher_engine_GHNative_nativeTouch(JNIEnv*, jobject, jint action,
                                                              jfloat x, jfloat y) {
     gh::Engine::get().touch(action, x, y);
+}
+
+// ------------------------------------------------------------------
+// Network client (SA-MP 0.3.7-R2 + BR netcode + sampvoice + login flow)
+// ------------------------------------------------------------------
+static gh::net::GameClient* g_net = nullptr;
+static std::mutex g_netMtx;
+
+JNIEXPORT jboolean JNICALL
+Java_com_grandhorizonrp_launcher_engine_GHNative_nativeNetConnect(JNIEnv* env, jobject,
+                                                                  jstring host, jint port,
+                                                                  jstring playerName,
+                                                                  jstring password,
+                                                                  jstring email) {
+    std::lock_guard<std::mutex> lk(g_netMtx);
+    if (g_net) { delete g_net; g_net = nullptr; }
+    const char* h = env->GetStringUTFChars(host, nullptr);
+    const char* n = env->GetStringUTFChars(playerName, nullptr);
+    const char* p = password ? env->GetStringUTFChars(password, nullptr) : "";
+    const char* e = email ? env->GetStringUTFChars(email, nullptr) : "";
+    g_net = new gh::net::GameClient();
+    g_net->setEventCallback(jniCallback);
+    g_net->setCredentials(p, e);
+    bool ok = g_net->connect(h ? h : "127.0.0.1", (uint16_t)port,
+                             n ? n : "Player");
+    if (h) env->ReleaseStringUTFChars(host, h);
+    if (n) env->ReleaseStringUTFChars(playerName, n);
+    if (password && p) env->ReleaseStringUTFChars(password, p);
+    if (email && e) env->ReleaseStringUTFChars(email, e);
+    return ok ? JNI_TRUE : JNI_FALSE;
+}
+
+JNIEXPORT void JNICALL
+Java_com_grandhorizonrp_launcher_engine_GHNative_nativeNetTick(JNIEnv*, jobject) {
+    std::lock_guard<std::mutex> lk(g_netMtx);
+    if (g_net) g_net->tick();
+}
+
+JNIEXPORT void JNICALL
+Java_com_grandhorizonrp_launcher_engine_GHNative_nativeNetDisconnect(JNIEnv*, jobject) {
+    std::lock_guard<std::mutex> lk(g_netMtx);
+    if (g_net) { g_net->disconnect(); delete g_net; g_net = nullptr; }
 }
 
 } // extern "C"

@@ -39,5 +39,16 @@ public final class GHNative {
     /** Touch: action 0=down 1=up 2=move 3=cancel (screen coords). */
     public static native void nativeTouch(int action, float x, float y);
 
+    /**
+     * Multiplayer client (SA-MP 0.3.7-R2 + BR netcode + sampvoice + the
+     * gamemode login flow). Connect is asynchronous from the caller's view:
+     * call nativeNetTick() ~10 Hz to drive the protocol; events arrive via
+     * the engine Callback (onNetState / onGuiPacket / onVoiceInfo / onNetError).
+     */
+    public static native boolean nativeNetConnect(String host, int port, String playerName,
+                                                  String password, String email);
+    public static native void nativeNetTick();
+    public static native void nativeNetDisconnect();
+
     private GHNative() {}
 }

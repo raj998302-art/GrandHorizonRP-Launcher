@@ -41,6 +41,7 @@ build_abi() {
     gh/render/GLESGfx.cpp \
     gh/render/GHRenderer.cpp \
     gh/game/GHEngine.cpp \
+    gh/net/GameClient.cpp \
     gh/jni/GHNative.cpp ; do
     o="$BUILD/$(echo "$f" | tr '/' '_').o"
     "$CXX" $CFLAGS -c "$SRC/$f" -o "$o"

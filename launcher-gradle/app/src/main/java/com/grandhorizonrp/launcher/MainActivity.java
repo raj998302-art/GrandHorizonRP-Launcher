@@ -203,6 +203,9 @@ public final class MainActivity extends Activity implements GHNative.Callback {
                 } else if ("onEngineInfo".equals(method)) {
                     diag(json);
                     Diagnostics.record("engine_info", json);
+                } else if (method != null && method.startsWith("onNet") || "onGuiPacket".equals(method)
+                        || "onVoiceInfo".equals(method)) {
+                    onNetEvent(method, json);
                 }
             }
         });
@@ -563,7 +566,7 @@ public final class MainActivity extends Activity implements GHNative.Callback {
         Button play = primaryButton("PLAY ON " + LauncherConfig.SERVER_CITY);
         play.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) { showPlayStatus(); }
+            public void onClick(View v) { startGameConnection(); }
         });
         panel.addView(play, matchWrap());
 
@@ -592,6 +595,98 @@ public final class MainActivity extends Activity implements GHNative.Callback {
         panel.addView(logout, matchWrap());
 
         swapOverlay(scrollify(panel));
+    }
+
+    // ------------------------------------------------------------------
+    // Game connection (native SA-MP protocol client in libghengine.so)
+    // ------------------------------------------------------------------
+    private Thread mNetThread;
+    private volatile boolean mNetRunning;
+    private TextView mNetStatus;
+
+    /**
+     * Connect to the game server with the session identity. The engine's
+     * network module performs the full SA-MP 0.3.7-R2 chain (RakNet transport,
+     * auth, ClientJoin + sampvoice, gamemode registration/login) and reports
+     * progress through onEngineEvent("onNetState"/"onGuiPacket"/...).
+     */
+    private void startGameConnection() {
+        if (mSession == null || mSession.accountName.isEmpty()) {
+            GHRPLog.e("[net] no session identity — cannot connect");
+            showPlayStatus();
+            return;
+        }
+        final String name = mSession.accountName;
+        // Guest accounts: the guest_secret IS the gamemode account password
+        // (same DB row, same SHA256(password+salt) contract). Registered
+        // accounts will type their password in-game (in development).
+        final String password = mSession.isGuest() ? mSession.guestSecret : "";
+        final String email = mSession.email;
+
+        showPlayStatus();
+        GHRPLog.i("[net] connecting: " + LauncherConfig.SERVER_HOST + ":"
+                + LauncherConfig.SERVER_PORT + " as " + name);
+        netStatus("Connecting to " + LauncherConfig.SERVER_HOST + ":"
+                + LauncherConfig.SERVER_PORT + "…");
+        Diagnostics.record("net_connect", "{\"host\":\"" + LauncherConfig.SERVER_HOST
+                + "\",\"port\":" + LauncherConfig.SERVER_PORT + "}");
+
+        // connect on a worker thread, then tick at ~10 Hz until disconnect
+        mNetRunning = true;
+        mNetThread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                boolean ok = GHNative.nativeNetConnect(
+                        LauncherConfig.SERVER_HOST, LauncherConfig.SERVER_PORT,
+                        name, password, email);
+                if (!ok) {
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            netStatus("Connection failed (see log). Retry later.");
+                        }
+                    });
+                    mNetRunning = false;
+                    return;
+                }
+                while (mNetRunning && !Thread.currentThread().isInterrupted()) {
+                    GHNative.nativeNetTick();
+                    try { Thread.sleep(100); } catch (InterruptedException e) { break; }
+                }
+            }
+        }, "ghrp-net");
+        mNetThread.start();
+    }
+
+    private void stopGameConnection() {
+        mNetRunning = false;
+        if (mNetThread != null) {
+            mNetThread.interrupt();
+            try { mNetThread.join(1500); } catch (InterruptedException ignored) { }
+            mNetThread = null;
+        }
+        try { GHNative.nativeNetDisconnect(); } catch (Throwable ignored) { }
+    }
+
+    private void netStatus(String line) {
+        diag("net: " + line);
+        if (mNetStatus != null) mNetStatus.setText(line);
+    }
+
+    /** Engine net events -> UI + diagnostics. */
+    private void onNetEvent(String method, String json) {
+        GHRPLog.i("net event: " + method + " " + json);
+        Diagnostics.record("net_event", json);
+        if ("onNetState".equals(method)) {
+            String s = json == null ? "" : json.replace("\"state\":\"", "")
+                    .replace("\":", ": ").replace("\"", "");
+            netStatus(s);
+        } else if ("onGuiPacket".equals(method)) {
+            netStatus("Server UI: " + (json == null ? "" : json.substring(0,
+                    Math.min(120, json.length()))));
+        } else if ("onNetError".equals(method)) {
+            netStatus("Network error: " + json);
+        }
     }
 
     // ------------------------------------------------------------------
@@ -902,13 +997,20 @@ public final class MainActivity extends Activity implements GHNative.Callback {
         TextView status = new TextView(this);
         status.setText("Connecting to Grand Horizon RP (142.132.203.47:14448)…\n\n"
                 + "Engine modules active: renderer, asset pipeline (mesh/textures/animation), "
-                + "character system, touch input, session persistence.\n\n"
-                + "In development: world streaming, SA-MP server protocol, audio. "
+                + "character system, touch input, session persistence, SA-MP network client.\n\n"
+                + "In development: world streaming, remote player sync, audio. "
                 + "The launcher will receive these as engine updates.");
         status.setTextColor(0xFF8899BB);
         status.setTextSize(13);
         status.setLineSpacing(dp(2), 1f);
         panel.addView(status, matchWrap());
+
+        mNetStatus = new TextView(this);
+        mNetStatus.setTextColor(0xFFE8B24B);
+        mNetStatus.setTextSize(13);
+        mNetStatus.setTypeface(Typeface.DEFAULT_BOLD);
+        mNetStatus.setPadding(0, dp(8), 0, dp(8));
+        panel.addView(mNetStatus, matchWrap());
 
         Button back = primaryButton("BACK");
         back.setOnClickListener(new View.OnClickListener() {
@@ -1040,6 +1142,7 @@ public final class MainActivity extends Activity implements GHNative.Callback {
     @Override
     protected void onDestroy() {
         if (mUpdateController != null) mUpdateController.cancel();
+        stopGameConnection();
         try {
             if (mEngineView != null) GHNative.nativeStop();
         } catch (Throwable t) {
