@@ -73,15 +73,12 @@ jobs:
           SHA=$(sha256sum "$APK" | cut -d' ' -f1)
           echo "sha256: $SHA"
           RID=$(curl -s -H "Authorization: token $GH_TOKEN" \
-            "https://api.github.com/repos/${{ github.repository }}/releases/tags/latest" \
-            | python3 -c "import json,sys; print(json.load(sys.stdin)['id'])")
+            "https://api.github.com/repos/${{ github.repository }}/releases/tags/latest" | jq -r '.id')
           echo "release id: $RID"
           for NAME in GrandHorizonRP-Launcher-v8-EngineFromScratch.apk GrandHorizonRP-Launcher.apk; do
             AID=$(curl -s -H "Authorization: token $GH_TOKEN" \
               "https://api.github.com/repos/${{ github.repository }}/releases/$RID/assets" \
-              | python3 -c "import json,sys
-        for a in json.load(sys.stdin):
-            if a['name'] == '$NAME': print(a['id']); break")
+              | jq -r ".[] | select(.name==\"$NAME\") | .id" | head -1)
             if [ -n "$AID" ]; then
               curl -s -X DELETE -H "Authorization: token $GH_TOKEN" \
                 "https://api.github.com/repos/${{ github.repository }}/releases/assets/$AID"
@@ -91,5 +88,5 @@ jobs:
               -H "Content-Type: application/vnd.android.package-archive" \
               --data-binary @"$APK" \
               "https://uploads.github.com/repos/${{ github.repository }}/releases/$RID/assets?name=$NAME" \
-              | python3 -c "import json,sys; d=json.load(sys.stdin); print('uploaded:', d.get('name'), d.get('size'), 'bytes')"
+              | jq -r '"uploaded: " + .name + " " + (.size|tostring) + " bytes"'
           done
