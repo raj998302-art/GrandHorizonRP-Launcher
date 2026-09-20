@@ -17,8 +17,14 @@ android {
     signingConfigs {
         release {
             // Same GHRP certificate as previous releases (upgrade-compatible).
+            // Resolution order: GHRP_KEYSTORE env var ->
+            // repo layout (repo/keystore) -> standalone layout (launcher-gradle/keystore).
             // CI overrides via environment variables.
-            storeFile file(System.getenv('GHRP_KEYSTORE') ?: '../keystore/ghrp-release.keystore')
+            def ksEnv = System.getenv('GHRP_KEYSTORE')
+            def ksFile = ksEnv ? file(ksEnv)
+                    : file('../../keystore/ghrp-release.keystore').exists() ? file('../../keystore/ghrp-release.keystore')
+                    : file('../keystore/ghrp-release.keystore')
+            storeFile ksFile
             storePassword System.getenv('GHRP_KS_PASS') ?: 'GrandHorizon2026'
             keyAlias System.getenv('GHRP_KS_ALIAS') ?: 'ghrp'
             keyPassword System.getenv('GHRP_KS_KEYPASS') ?: 'GrandHorizon2026'
