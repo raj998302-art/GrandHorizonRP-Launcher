@@ -1,0 +1,63 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.grandhorizonrp.launcher'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.grandhorizonrp.launcher'
+        minSdk 26
+        targetSdk 36
+        versionCode 1529
+        versionName '16.102.14498'
+    }
+
+    signingConfigs {
+        release {
+            // Same GHRP certificate as previous releases (upgrade-compatible).
+            // CI overrides via environment variables.
+            storeFile file(System.getenv('GHRP_KEYSTORE') ?: '../keystore/ghrp-release.keystore')
+            storePassword System.getenv('GHRP_KS_PASS') ?: 'GrandHorizon2026'
+            keyAlias System.getenv('GHRP_KS_ALIAS') ?: 'ghrp'
+            keyPassword System.getenv('GHRP_KS_KEYPASS') ?: 'GrandHorizon2026'
+            enableV2Signing true
+            enableV3Signing true
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+            signingConfig signingConfigs.release
+        }
+        debug {
+            signingConfig signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    packaging {
+        jniLibs {
+            // Parity with the original engine contract: libs are extracted
+            // to the natural lib path at install time (extractNativeLibs=true).
+            useLegacyPackaging true
+        }
+    }
+
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+}
+
+// No external dependencies: the launcher uses only Android framework APIs
+// (see ORIGINAL_REFERENCE_SPEC.md §15 — own-code architecture, no SDKs).
+dependencies {
+}

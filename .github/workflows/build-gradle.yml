@@ -1,0 +1,98 @@
+name: Build Grand Horizon RP Launcher (Gradle)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'launcher-gradle/**'
+      - 'tools/verify_contract.py'
+      - '.github/workflows/build-gradle.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Gradle assembleRelease + verify + release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Accept Android SDK licenses (AGP auto-provisions components)
+        run: yes | sdkmanager --licenses > /dev/null || true
+
+      - name: Fetch engine native libraries (binary dependency)
+        run: |
+          curl -sL --retry 3 -o /tmp/v6.apk \
+            "https://github.com/${{ github.repository }}/releases/download/latest/GrandHorizonRP-Launcher-v6-Scratch.apk"
+          mkdir -p launcher-gradle/app/src/main/jniLibs
+          cd launcher-gradle/app/src/main/jniLibs
+          unzip -o -q /tmp/v6.apk 'lib/*'
+          mv lib/* . && rmdir lib
+          echo "arm64 libs: $(ls arm64-v8a | wc -l) | armv7 libs: $(ls armeabi-v7a | wc -l)"
+
+      - name: Build APK (real Gradle + AGP pipeline)
+        working-directory: launcher-gradle
+        run: ./gradlew assembleRelease --no-daemon --stacktrace
+
+      - name: Verify APK (badging + signature + zipalign + engine contract)
+        run: |
+          APK=launcher-gradle/app/build/outputs/apk/release/app-release.apk
+          BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
+          echo "--- badging ---"
+          "$BT/aapt2" dump badging "$APK" | head -6
+          echo "--- signature ---"
+          "$BT/apksigner" verify --print-certs "$APK" | head -4
+          "$BT/apksigner" verify -v "$APK" | head -4
+          "$BT/zipalign" -c 4 "$APK" && echo "zipalign OK"
+          echo "--- engine contract (60/60 JNI symbols + callback surface) ---"
+          GHRP_APK="$PWD/$APK" \
+          GHRP_LIBS="$PWD/launcher-gradle/app/src/main/jniLibs/arm64-v8a" \
+          GHRP_DEXDUMP="$BT/dexdump" \
+          python3 tools/verify_contract.py
+
+      - name: Rename + digest
+        run: |
+          cp launcher-gradle/app/build/outputs/apk/release/app-release.apk GrandHorizonRP-Launcher-v7-Gradle.apk
+          sha256sum GrandHorizonRP-Launcher-v7-Gradle.apk
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ghrp-launcher-v7-gradle
+          path: GrandHorizonRP-Launcher-v7-Gradle.apk
+
+      - name: Publish to latest release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: Grand Horizon RP Launcher (auto build)
+          body: |
+            Grand Horizon RP Launcher — built FROM SCRATCH (new Gradle/AGP
+            project, own Java implementation of the full engine JNI contract;
+            original Black Russia launcher used only as reference — see
+            ORIGINAL_REFERENCE_SPEC.md in the repository).
+
+            This workflow compiles the launcher from source (launcher-gradle/)
+            with a real Gradle build: javac -> dex -> package -> sign (v2+v3,
+            same GHRP certificate as all previous releases).
+
+            Assets on this release:
+            - GrandHorizonRP-Launcher-v7-Gradle.apk — scratch-built launcher (install this)
+            - GrandHorizonRP-Launcher.apk — canonical name (same v7 build)
+            - GrandHorizonRP-Server-Final.zip — SA-MP server package (LemmeHost)
+
+            Game data (4.12 GB, downloaded automatically by the launcher) lives
+            on the "gamedata" release: 159 flat assets + patch_index.json +
+            3 archive parts.
+          files: |
+            GrandHorizonRP-Launcher-v7-Gradle.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

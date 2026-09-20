@@ -1,0 +1,5 @@
+// Grand Horizon RP Launcher — root build script
+// 100% new-source project. See ORIGINAL_REFERENCE_SPEC.md.
+plugins {
+    id 'com.android.application' version '8.9.1' apply false
+}

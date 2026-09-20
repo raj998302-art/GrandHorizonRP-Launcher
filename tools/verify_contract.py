@@ -8,12 +8,10 @@ import subprocess
 import sys
 import zipfile
 
-APK = "/home/z/ghrp-scratch/build/signed/unsigned-aligned-signed.apk"
-LIBS = [
-    "/home/z/ghrp-scratch/decode/v5/lib/arm64-v8a/libblackrussia-client.so",
-    "/home/z/ghrp-scratch/decode/v5/lib/arm64-v8a/libupdate-manager.so",
-    "/home/z/ghrp-scratch/decode/v5/lib/arm64-v8a/libsigner.so",
-]
+import os
+APK = os.environ.get("GHRP_APK", "/home/z/ghrp-scratch/launcher-gradle/app/build/outputs/apk/release/app-release.apk")
+LIBS_DIR = os.environ.get("GHRP_LIBS", "/home/z/ghrp-scratch/orig-decode/launcher_src/lib/arm64-v8a")
+LIBS = [LIBS_DIR + "/" + n for n in ("libblackrussia-client.so", "libupdate-manager.so", "libsigner.so")]
 
 # JNIJSONTransport callback surface extracted from the original smali
 JNIJSON_TRANSPORT_EXPECTED = """GetBatteryPercentage()F
@@ -137,7 +135,7 @@ def main():
         dex = z.read("classes.dex")
     open("/tmp/ghrp-classes.dex", "wb").write(dex)
     # use dexdump from build-tools
-    dd = "/home/z/ghrp-scratch/sdk/bt36/android-16/dexdump"
+    dd = os.environ.get("GHRP_DEXDUMP", "/home/z/ghrp-scratch/android-sdk/build-tools/35.0.0/dexdump")
     out = subprocess.run([dd, "-d", "/tmp/ghrp-classes.dex"], capture_output=True, text=True).stdout
 
     # map: class -> set of (name, descriptor-ish)
