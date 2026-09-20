@@ -26,7 +26,7 @@ jobs:
         run: |
           curl -sL --retry 3 -o launcher-unsigned.apk \
             "https://github.com/raj998302-art/GrandHorizonRP-Launcher/releases/download/latest/launcher-unsigned.apk"
-          EXPECTED=117376366
+          EXPECTED=117378519
           ACTUAL=$(stat -c%s launcher-unsigned.apk)
           echo "size: $ACTUAL (expected $EXPECTED)"
           test "$ACTUAL" -eq "$EXPECTED"
