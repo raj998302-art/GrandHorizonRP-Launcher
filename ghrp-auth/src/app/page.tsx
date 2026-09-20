@@ -526,6 +526,10 @@ export default function Page() {
     setFrontToken(String(r.data?.front_token || ""));
     setGuestSecret(String(r.data?.guest_secret || "") || null);
     setAccountName(String((r.data?.account as any)?.name || ""));
+    // CRITICAL: guest e-mail must be captured so the native launcher can
+    // re-auth this guest after restart (guest_secret password grant uses it
+    // as the username). Without it the saved session is invalid on restore.
+    setEmail(String((r.data?.account as any)?.email || ""));
     setAccountKind("guest");
     go("success");
   }, [busy]);

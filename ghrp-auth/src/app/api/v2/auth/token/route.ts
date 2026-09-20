@@ -29,13 +29,17 @@ export async function POST(req: Request) {
         const acc = await verifyPassword(conn, username, password);
         if (!acc) return fail("ErrorInvalidCredentials", 401);
         await touchLogin(conn, acc.id, ip);
+        // Guest accounts authenticate with their one-time guest_secret via this
+        // same password grant; keep the account kind faithful to the identity
+        // (guest e-mail domain) so the engine treats them as guests.
+        const kind = acc.email.endsWith("@guest.ghrp.local") ? "guest" : "user";
         const front_token = issueFrontToken({
           account_uuid: `acc-${acc.id}`,
           name: acc.name,
           email: acc.email,
-          kind: "user",
+          kind,
         });
-        return ok({ front_token, token_type: "Bearer", expires_in: 12 * 3600, account: { name: acc.name, email: acc.email } });
+        return ok({ front_token, token_type: "Bearer", expires_in: 12 * 3600, account: { name: acc.name, email: acc.email, kind } });
       });
     }
 

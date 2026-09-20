@@ -43,7 +43,7 @@ public final class SessionStore {
         public final String email;
         public final String guestSecret; // "" for registered users
         public String frontToken;
-        public final String accountName;
+        public String accountName; // mutable: server-side rename on character save
         public final String accountUuid;
         public final long savedAt;
 
@@ -100,6 +100,13 @@ public final class SessionStore {
     /** Refresh only the token (after a successful re-auth). */
     public static void updateToken(Context ctx, Session s, String newToken) {
         s.frontToken = newToken;
+        save(ctx, s);
+    }
+
+    /** Update the character name after a server-side rename (character save). */
+    public static void rename(Context ctx, Session s, String newName) {
+        if (newName == null || newName.isEmpty() || newName.equals(s.accountName)) return;
+        s.accountName = newName;
         save(ctx, s);
     }
 

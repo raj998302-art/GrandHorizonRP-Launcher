@@ -423,11 +423,31 @@ public final class MainActivity extends Activity implements GHNative.Callback {
             String name = acc != null ? acc.optString("name", "") : "";
             String email = acc != null ? acc.optString("email", "") : "";
             String kind = acc != null ? acc.optString("kind", "user") : "user";
+            String uuid = acc != null ? acc.optString("account_uuid", "") : "";
+
+            // DEFENSE IN DEPTH: if the WebView payload omitted the identity
+            // fields (older page builds / guest flow without e-mail), decode
+            // them straight from the front_token payload segment — the token
+            // is "<base64url JSON>.<sig>" and carries the full identity.
+            if (email.isEmpty() || name.isEmpty() || uuid.isEmpty()
+                    || "user".equals(kind)) {
+                JSONObject tok = decodeFrontToken(frontToken);
+                if (tok != null) {
+                    if (email.isEmpty()) email = tok.optString("email", "");
+                    if (name.isEmpty()) name = tok.optString("name", "");
+                    if (uuid.isEmpty()) uuid = tok.optString("account_uuid", "");
+                    String tkind = tok.optString("kind", "");
+                    if (!tkind.isEmpty()) kind = tkind;
+                    GHRPLog.i("identity completed from token payload "
+                            + "(kind=" + kind + ", email=" + (email.isEmpty() ? "?" : "present") + ")");
+                }
+            }
 
             mSession = new SessionStore.Session(kind, email, guestSecret, frontToken,
-                    name, "", System.currentTimeMillis());
+                    name, uuid, System.currentTimeMillis());
             SessionStore.save(this, mSession);
-            GHRPLog.i("[state] AUTHENTICATED (kind=" + kind + ", name=" + name + ")");
+            GHRPLog.i("[state] AUTHENTICATED (kind=" + kind + ", name=" + name
+                    + ", email=" + (email.isEmpty() ? "MISSING" : "ok") + ")");
 
             // -> CHARACTER_CHECK
             runOnUiThread(new Runnable() {
@@ -440,6 +460,26 @@ public final class MainActivity extends Activity implements GHNative.Callback {
                 @Override
                 public void run() { openAuth(); }
             });
+        }
+    }
+
+    /**
+     * Decode the payload segment of a front_token
+     * ("<base64url(json)>.<signature>") without any external library.
+     * Returns null when not decodable.
+     */
+    private static JSONObject decodeFrontToken(String token) {
+        try {
+            int dot = token.indexOf('.');
+            if (dot <= 0) return null;
+            String seg = token.substring(0, dot);
+            seg = seg.replace('-', '+').replace('_', '/');
+            int pad = (-seg.length()) % 4;
+            for (int i = 0; i < pad; i++) seg += '=';
+            byte[] raw = android.util.Base64.decode(seg, android.util.Base64.DEFAULT);
+            return new JSONObject(new String(raw, "UTF-8"));
+        } catch (Throwable t) {
+            return null;
         }
     }
 
@@ -621,6 +661,45 @@ public final class MainActivity extends Activity implements GHNative.Callback {
         skinId.setPadding(0, 0, 0, dp(8));
         panel.addView(skinId, matchWrap());
 
+        // Character name entry (required flow: preview -> NAME -> confirm ->
+        // save). Pre-filled with the server-generated account name; the user
+        // may keep it or personalize it. Validated here and server-side.
+        TextView nameLabel = new TextView(this);
+        nameLabel.setText("CHARACTER NAME");
+        nameLabel.setTextColor(0xFF8899BB);
+        nameLabel.setTextSize(11);
+        nameLabel.setLetterSpacing(0.14f);
+        panel.addView(nameLabel, matchWrap());
+
+        final EditText nameInput = new EditText(this);
+        nameInput.setId(0x2004);
+        nameInput.setText(mSession != null ? mSession.accountName : "");
+        nameInput.setTextColor(0xFFE8EEF8);
+        nameInput.setHintTextColor(0xFF5C6E92);
+        nameInput.setHint("Firstname_Lastname");
+        nameInput.setTextSize(15);
+        nameInput.setSingleLine(true);
+        nameInput.setImeOptions(android.view.inputmethod.EditorInfo.IME_ACTION_DONE);
+        nameInput.setInputType(InputType.TYPE_CLASS_TEXT
+                | InputType.TYPE_TEXT_FLAG_NO_SUGGESTIONS
+                | InputType.TYPE_TEXT_VARIATION_PERSON_NAME);
+        GradientDrawable nbg = new GradientDrawable();
+        nbg.setColor(0x331A2236);
+        nbg.setStroke(dp(1), 0xFF2A3854);
+        nbg.setCornerRadius(dp(8));
+        nameInput.setBackground(nbg);
+        nameInput.setPadding(dp(12), dp(10), dp(12), dp(10));
+        LinearLayout.LayoutParams nlp = matchWrap();
+        nlp.bottomMargin = dp(6);
+        panel.addView(nameInput, nlp);
+
+        TextView nameHint = new TextView(this);
+        nameHint.setText("3–24 characters · letters, numbers, _ (e.g. John_Silver)");
+        nameHint.setTextColor(0xFF5C6E92);
+        nameHint.setTextSize(10);
+        nameHint.setPadding(0, 0, 0, dp(8));
+        panel.addView(nameHint, matchWrap());
+
         TextView err = new TextView(this);
         err.setId(0x2001);
         err.setTextColor(0xFFE06A6A);
@@ -703,7 +782,7 @@ public final class MainActivity extends Activity implements GHNative.Callback {
 
     /**
      * STATE: CHARACTER_REQUIRED -> POST /api/v2/character -> CHARACTER_READY.
-     * The character is saved SERVER-SIDE (accounts.sex/skin) — not just locally.
+     * The character (name/sex/skin) is saved SERVER-SIDE — not just locally.
      */
     private void confirmCharacter() {
         if (mSession == null || mSession.frontToken.isEmpty()) {
@@ -714,7 +793,19 @@ public final class MainActivity extends Activity implements GHNative.Callback {
             openAuth();
             return;
         }
-        final Button[] confirmBtn = {null};
+        // Local name validation (server re-validates; SA-MP name rules).
+        EditText nameInput = mCharacterPanel == null
+                ? null : (EditText) mCharacterPanel.findViewById(0x2004);
+        String chosenName = nameInput != null
+                ? nameInput.getText().toString().trim() : "";
+        if (!chosenName.isEmpty()
+                && !chosenName.matches("[A-Za-z0-9_]{3,24}")) {
+            TextView err = mCharacterPanel.findViewById(0x2001);
+            if (err != null) err.setText("Name must be 3–24 characters "
+                    + "(letters, numbers, underscore only).");
+            return;
+        }
+
         if (mCharacterPanel != null) {
             TextView err = mCharacterPanel.findViewById(0x2001);
             if (err != null) err.setText("Saving character…");
@@ -722,6 +813,7 @@ public final class MainActivity extends Activity implements GHNative.Callback {
         final String token = mSession.frontToken;
         final int sex = mFemale ? 1 : 0;
         final int skinId = sampSkinId();
+        final String fName = chosenName;
 
         new Thread(new Runnable() {
             @Override
@@ -730,6 +822,7 @@ public final class MainActivity extends Activity implements GHNative.Callback {
                     JSONObject body = new JSONObject();
                     body.put("sex", sex);
                     body.put("skin", skinId);
+                    if (!fName.isEmpty()) body.put("name", fName);
                     Http.JsonResp r = Http.postJson(apiBase() + "/api/v2/character",
                             body.toString(), token, 20000);
                     final Http.JsonResp fr = r;
@@ -740,10 +833,19 @@ public final class MainActivity extends Activity implements GHNative.Callback {
                                 try {
                                     JSONObject d = new JSONObject(fr.body);
                                     if (d.has("character")) mCharacter = d.getJSONObject("character");
+                                    // Keep the session's display name in sync
+                                    // with the (possibly renamed) character.
+                                    if (mCharacter != null) {
+                                        String savedName = mCharacter.optString("name", "");
+                                        if (!savedName.isEmpty() && mSession != null
+                                                && !savedName.equals(mSession.accountName)) {
+                                            SessionStore.rename(MainActivity.this, mSession, savedName);
+                                        }
+                                    }
                                 } catch (Throwable ignored) {
                                 }
-                                GHRPLog.i("[state] CHARACTER saved server-side (sex="
-                                        + sex + ", skin=" + skinId + ")");
+                                GHRPLog.i("[state] CHARACTER saved server-side (name="
+                                        + fName + ", sex=" + sex + ", skin=" + skinId + ")");
                                 mCharacterReady = true;
                                 showPlayStatus();
                             } else {
@@ -751,8 +853,10 @@ public final class MainActivity extends Activity implements GHNative.Callback {
                                 if (mCharacterPanel != null) {
                                     TextView err = mCharacterPanel.findViewById(0x2001);
                                     if (err != null) {
-                                        err.setText("Could not save the character (server HTTP "
+                                        String why = fr.code == 409 ? "That name is already taken."
+                                                : ("Could not save the character (server HTTP "
                                                 + fr.code + "). Check your connection and retry.");
+                                        err.setText(why);
                                     }
                                 }
                             }

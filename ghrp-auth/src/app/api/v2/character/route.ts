@@ -82,6 +82,7 @@ export async function POST(req: Request) {
   const body = await readJson(req);
   const sexRaw = body.sex;
   const skinRaw = body.skin;
+  const nameRaw = typeof body.name === "string" ? body.name.trim() : "";
 
   let sex: number;
   if (sexRaw === 0 || sexRaw === "0" || sexRaw === "male") sex = 0;
@@ -91,13 +92,33 @@ export async function POST(req: Request) {
   const skin = typeof skinRaw === "number" ? skinRaw : parseInt(String(skinRaw ?? ""), 10);
   if (!Number.isFinite(skin) || skin < 0 || skin > 311) return fail("ErrorArgsMissing");
 
+  // Optional character-name step (required flow: preview -> NAME -> confirm ->
+  // save). SA-MP name rules: 3..24 chars, letters/digits/underscore, at least
+  // one letter; "Firstname_Lastname" recommended. When omitted the generated
+  // account name is kept.
+  let name: string | null = null;
+  if (nameRaw.length > 0) {
+    if (!/^[A-Za-z0-9_]{3,24}$/.test(nameRaw) || !/[A-Za-z]/.test(nameRaw)) {
+      return fail("ErrorInvalidName");
+    }
+    name = nameRaw;
+  }
+
   try {
     return await withDb(async (conn) => {
       const row = await loadCharacter(conn, acc.id);
       if (!row) return fail("ErrorUserNotFound", 404);
+      if (name !== null) {
+        // Name uniqueness (SA-MP login names must be unique).
+        const [dupe] = await conn.query(
+          "SELECT id FROM accounts WHERE name = ? AND id <> ? LIMIT 1",
+          [name, acc.id]
+        );
+        if ((dupe as unknown[]).length > 0) return fail("ErrorNameTaken", 409);
+      }
       await conn.query(
-        "UPDATE accounts SET sex = ?, skin = ?, launcher_char_created = 1 WHERE id = ?",
-        [sex, skin, acc.id]
+        `UPDATE accounts SET sex = ?, skin = ?, launcher_char_created = 1${name !== null ? ", name = ?" : ""} WHERE id = ?`,
+        name !== null ? [sex, skin, name, acc.id] : [sex, skin, acc.id]
       );
       const updated = await loadCharacter(conn, acc.id);
       return ok({ ...charPayload(updated!), saved: true });
